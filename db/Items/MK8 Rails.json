@@ -1,0 +1,1136 @@
+{
+	"3373f8268f40bbd0f302bfe4": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mk8_7_blk.bundle",
+				"rcid": ""
+			},
+			"ExtraSizeLeft": 1,
+			"Width": 1,
+			"ConflictingItems": [
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK8 7 inch M-LOK handguard (BLK)",
+				"shortName": "MK8 7\"",
+				"description": "The Super Modular Rail (SMR) MK8 M-LOK™ is Geissele’s ultra-modular model. The SMR MK8 is one of the first rails available to utilize the Magpul M-LOK technology. These rails are designed to give the user full modularity while maintaining a strong and rigid platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65000,
+		"handbookPriceRoubles": 28988,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 236,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"ce6d6c62180c5cdbc048ec06": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mk8_7_ddc.bundle",
+				"rcid": ""
+			},
+			"ExtraSizeLeft": 1,
+			"Width": 1,
+			"ConflictingItems": [
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK8 7 inch M-LOK handguard (DDC)",
+				"shortName": "MK8 7\"",
+				"description": "The Super Modular Rail (SMR) MK8 M-LOK™ is Geissele’s ultra-modular model. The SMR MK8 is one of the first rails available to utilize the Magpul M-LOK technology. These rails are designed to give the user full modularity while maintaining a strong and rigid platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65000,
+		"handbookPriceRoubles": 28988,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 236,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"13f0c13d451f2c56fbf46548": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mk8_7_odg.bundle",
+				"rcid": ""
+			},
+			"ExtraSizeLeft": 1,
+			"Width": 1,
+			"ConflictingItems": [
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK8 7 inch M-LOK handguard (ODG)",
+				"shortName": "MK8 7\"",
+				"description": "The Super Modular Rail (SMR) MK8 M-LOK™ is Geissele’s ultra-modular model. The SMR MK8 is one of the first rails available to utilize the Magpul M-LOK technology. These rails are designed to give the user full modularity while maintaining a strong and rigid platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65000,
+		"handbookPriceRoubles": 28988,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 236,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"f9cb5d76e3639ef3c27c5294": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mk8_9_5_blk.bundle",
+				"rcid": ""
+			},
+			"ExtraSizeLeft": 1,
+			"Width": 2,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK8 9.5 inch M-LOK handguard (BLK)",
+				"shortName": "MK8 9.5\"",
+				"description": "The Super Modular Rail (SMR) MK8 M-LOK™ is Geissele’s ultra-modular model. The SMR MK8 is one of the first rails available to utilize the Magpul M-LOK technology. These rails are designed to give the user full modularity while maintaining a strong and rigid platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65000,
+		"handbookPriceRoubles": 28988,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 286,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"75423eeee232e178d80c4925": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mk8_9_5_ddc.bundle",
+				"rcid": ""
+			},
+			"ExtraSizeLeft": 1,
+			"Width": 2,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK8 9.5 inch M-LOK handguard (DDC)",
+				"shortName": "MK8 9.5\"",
+				"description": "The Super Modular Rail (SMR) MK8 M-LOK™ is Geissele’s ultra-modular model. The SMR MK8 is one of the first rails available to utilize the Magpul M-LOK technology. These rails are designed to give the user full modularity while maintaining a strong and rigid platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65000,
+		"handbookPriceRoubles": 28988,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 286,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"6ff95267a947d1c2856f3c0f": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mk8_9_5_odg.bundle",
+				"rcid": ""
+			},
+			"ExtraSizeLeft": 1,
+			"Width": 2,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK8 9.5 inch M-LOK handguard (ODG)",
+				"shortName": "MK8 9.5\"",
+				"description": "The Super Modular Rail (SMR) MK8 M-LOK™ is Geissele’s ultra-modular model. The SMR MK8 is one of the first rails available to utilize the Magpul M-LOK technology. These rails are designed to give the user full modularity while maintaining a strong and rigid platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65000,
+		"handbookPriceRoubles": 28988,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 286,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"297eecda3d70301b822b6cf9": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mk8_13_blk.bundle",
+				"rcid": ""
+			},
+			"Width": 3,
+			"Extrasizeleft": 3,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK8 13 inch M-LOK handguard (BLK)",
+				"shortName": "MK8 13\"",
+				"description": "The Super Modular Rail (SMR) MK8 M-LOK™ is Geissele’s ultra-modular model. The SMR MK8 is one of the first rails available to utilize the Magpul M-LOK technology. These rails are designed to give the user full modularity while maintaining a strong and rigid platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65000,
+		"handbookPriceRoubles": 28988,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 286,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"4c834636cd952988d60d6561": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mk8_13_ddc.bundle",
+				"rcid": ""
+			},
+			"Width": 3,
+			"Extrasizeleft": 3,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK8 13 inch M-LOK handguard (DDC)",
+				"shortName": "MK8 13\"",
+				"description": "The Super Modular Rail (SMR) MK8 M-LOK™ is Geissele’s ultra-modular model. The SMR MK8 is one of the first rails available to utilize the Magpul M-LOK technology. These rails are designed to give the user full modularity while maintaining a strong and rigid platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65000,
+		"handbookPriceRoubles": 28988,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 286,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"e57cc5261d4937c1a15aa004": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mk8_13_odg.bundle",
+				"rcid": ""
+			},
+			"Width": 3,
+			"Extrasizeleft": 3,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK8 13 inch M-LOK handguard (ODG)",
+				"shortName": "MK8 13\"",
+				"description": "The Super Modular Rail (SMR) MK8 M-LOK™ is Geissele’s ultra-modular model. The SMR MK8 is one of the first rails available to utilize the Magpul M-LOK technology. These rails are designed to give the user full modularity while maintaining a strong and rigid platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65000,
+		"handbookPriceRoubles": 28988,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 286,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"04a8d9c50f3227ef6550e613": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mk8_15_blk.bundle",
+				"rcid": ""
+			},
+			"Width": 3,
+			"Extrasizeleft": 3,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK8 15 inch M-LOK handguard (BLK)",
+				"shortName": "MK8 15\"",
+				"description": "The Super Modular Rail (SMR) MK8 M-LOK™ is Geissele’s ultra-modular model. The SMR MK8 is one of the first rails available to utilize the Magpul M-LOK technology. These rails are designed to give the user full modularity while maintaining a strong and rigid platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65000,
+		"handbookPriceRoubles": 28988,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 292,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"d2234d6695f82aae5012f0d5": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mk8_15_ddc.bundle",
+				"rcid": ""
+			},
+			"Width": 3,
+			"Extrasizeleft": 3,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK8 15 inch M-LOK handguard (DDC)",
+				"shortName": "MK8 15\"",
+				"description": "The Super Modular Rail (SMR) MK8 M-LOK™ is Geissele’s ultra-modular model. The SMR MK8 is one of the first rails available to utilize the Magpul M-LOK technology. These rails are designed to give the user full modularity while maintaining a strong and rigid platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65000,
+		"handbookPriceRoubles": 28988,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 292,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"4ff0af6a0e6cdbd096c0197c": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mk8_15_odg.bundle",
+				"rcid": ""
+			},
+			"Width": 3,
+			"Extrasizeleft": 3,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK8 15 inch M-LOK handguard (ODG)",
+				"shortName": "MK8 15\"",
+				"description": "The Super Modular Rail (SMR) MK8 M-LOK™ is Geissele’s ultra-modular model. The SMR MK8 is one of the first rails available to utilize the Magpul M-LOK technology. These rails are designed to give the user full modularity while maintaining a strong and rigid platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65000,
+		"handbookPriceRoubles": 28988,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 292,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}

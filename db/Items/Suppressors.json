@@ -1,0 +1,3918 @@
+{
+	"21592d3fa4a2a0fa07fc5c2e": {
+		"itemTplToClone": "5dfa3d2b0dee1b22f862eade",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "assets/content/items/mods/silencers/silencer_qdc_kac_qdc_suppressor_556x45.bundle",
+				"rcid": ""
+			},
+			"Recoil": -10,
+			"Ergonomics": -20,
+			"HeatFactor": 1,
+			"Loudness": -26
+		},
+		"locales": {
+			"en": {
+				"name": "KAC QDC CQB 7.62x51 sound suppressor",
+				"shortName": "QDC CQB 762",
+				"description": "Knight's Armament Company QDC CQB 7.62 sound suppressor, which can be installed on compatible QDC Flash Suppressor Kit and QDC Muzzle Brake Kit muzzle devices."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 438,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"21cc9c10a1749109db74b288": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Suppressors/surefire_762mini2blk.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire SOCOM762-Mini2 7.62x51 sound suppressor (BLK)",
+				"shortName": "762-Mini2",
+				"description": "The SureFire SOCOM762-MINI2 delivers big performance levels in a small package optimized for 7.62 mm rifles equipped with 16-inch and longer barrels. It’s compact, measuring just 6.3 inches in length, but it places a premium on efficiency while maintaining the quality synonymous with the SureFire suppressor that dominated the demanding USSOCOM suppressor trials."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 70000,
+		"handbookPriceRoubles": 49500,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 3223,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"ee43d2dd34047cbe88ccf551": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Suppressors/surefire_762mini2fde.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire SOCOM762-Mini2 7.62x51 sound suppressor (FDE)",
+				"shortName": "762-Mini2",
+				"description": "The SureFire SOCOM762-MINI2 delivers big performance levels in a small package optimized for 7.62 mm rifles equipped with 16-inch and longer barrels. It’s compact, measuring just 6.3 inches in length, but it places a premium on efficiency while maintaining the quality synonymous with the SureFire suppressor that dominated the demanding USSOCOM suppressor trials."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 70000,
+		"handbookPriceRoubles": 49500,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 3223,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"ba84e1c4ee4d504cb0bdbb0d": {
+		"itemTplToClone": "63877c99e785640d436458ea",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/socom338ti.bundle",
+				"rcid": ""
+			},
+			"Recoil": -15,
+			"Ergonomics": -24,
+			"HeatFactor": 1.1,
+			"Loudness": -32
+		},
+		"locales": {
+			"en": {
+				"name": "Surefire SOCOM338-Ti .338 LM sound suppressor",
+				"shortName": "SOCOM338-Ti",
+				"description": "The SOCOM338-Ti for .338 Lapua sniper rifles is a combat-ready suppressor hewn from high-grade titanium, one of the world’s lightest and most durable materials. Designed and built with extreme tolerances to ensure accuracy, it meets the demands of the most qualified precision sniper rifle shooters in the world. No one has tighter bore runout tolerances than we do, proving that this is the choice for the precision marksman. The SOCOM338 provides unsurpassed signature reduction, nominal and consistent shift in a weapon’s point of impact, and significantly reduced back pressure for consistent results. Expertly engineered, it gets you to where you want to go, no matter how far away it is."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 56250,
+		"handbookPriceRoubles": 26440,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 77540,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"40c62378fa93a829532ecc5e": {
+		"itemTplToClone": "5a34fe59c4a282000b1521a2",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/aac-m4-2000blk.bundle",
+				"rcid": ""
+			},
+			"Conflictingitems": [
+				"5a34fd2bc4a282329a73b4c5",
+				"618178aa1cb55961fa0fdc80",
+				"615d8e9867085e45ef1409c6"
+			],
+			"Recoil": -16,
+			"Ergonomics": -22,
+			"HeatFactor": 1.08,
+			"Loudness": -28,
+			"Weight": 0.515
+		},
+		"locales": {
+			"en": {
+				"name": "AAC M4-2000 5.56x45 sound suppressor",
+				"shortName": "M4-2000",
+				"description": "The M4-2000's extreme durability is maximized by CNC automated fusion welding of every high-temperature aerospace alloy component used in its construction- making 100% suppressed full-auto fire possible on barrels as short as 10 inches. The back-pressure lowering design of the silencer aids in shooter comfort, reduces weapon fouling, and minimizes cyclic rate increase. As a final step, tapered-bore EDM technology is utilized to ensure precise bore alignment resulting in enhanced accuracy and maximum performance. By eliminating approximately 97% of the muzzle report, the M4-2000 preserves the hearing of the shooter and nearby support personnel, Eliminating muzzle flash in the harshest of environments."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 44240,
+		"handbookPriceRoubles": 28750,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 389,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"6d9f22a75064ebb92b3ece1c": {
+		"itemTplToClone": "5a34fe59c4a282000b1521a2",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/aac-m4-2000tan.bundle",
+				"rcid": ""
+			},
+			"Conflictingitems": [
+				"5a34fd2bc4a282329a73b4c5",
+				"618178aa1cb55961fa0fdc80",
+				"615d8e9867085e45ef1409c6"
+			],
+			"Recoil": -16,
+			"Ergonomics": -22,
+			"HeatFactor": 1.08,
+			"Loudness": -28,
+			"Weight": 0.515
+		},
+		"locales": {
+			"en": {
+				"name": "AAC M4-2000 5.56x45 sound suppressor (Tan)",
+				"shortName": "M4-2000",
+				"description": "The M4-2000's extreme durability is maximized by CNC automated fusion welding of every high-temperature aerospace alloy component used in its construction- making 100% suppressed full-auto fire possible on barrels as short as 10 inches. The back-pressure lowering design of the silencer aids in shooter comfort, reduces weapon fouling, and minimizes cyclic rate increase. As a final step, tapered-bore EDM technology is utilized to ensure precise bore alignment resulting in enhanced accuracy and maximum performance. By eliminating approximately 97% of the muzzle report, the M4-2000 preserves the hearing of the shooter and nearby support personnel, Eliminating muzzle flash in the harshest of environments."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 44240,
+		"handbookPriceRoubles": 28750,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 389,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"10a09a7adb949d7516c96c2f": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/b&t_rbs_c_762_sf.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.824,
+			"Recoil": -9,
+			"Ergonomics": -19,
+			"HeatFactor": 1.06,
+			"Loudness": -28,
+			"DurabilityBurnModificator": 1.44
+		},
+		"locales": {
+			"en": {
+				"name": "B&T RBS 762 Compact SF sound suppressor",
+				"shortName": "RBS-C 762",
+				"description": "The B&T RBS Compact SF is part of their Reduced Back pressure System (RBS) family of SMG and rifle silencers.  The flow-through technology features a low-pressure chamber design to absorb a large volume of gas without directing it back into the firearm.  This drastically reduces or even eliminates, excess gas pressure.  To the shooter, this results in a quieter silencer at the ear, less blowback, and a smoother cycling firearm."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 42520,
+		"handbookPriceRoubles": 46250,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 242,
+				"_tpl": "EUROS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"ea0407e322d619bdb163795c": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/surefire_rc3_blk.bundle",
+				"rcid": ""
+			},
+			"Recoil": -8,
+			"HeatFactor": 1.06,
+			"Loudness": -19,
+			"DurabilityBurnModificator": 1.38
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire SOCOM556-RC3 5.56x45 sound suppressor",
+				"shortName": "556-RC3",
+				"description": "The SureFire SOCOM556-RC3 suppressor combines decades of SureFire innovation in materials and manufacturing techniques with the most extensive flow dynamics study in history. The result of exclusive parametric modeling and multi-variable aerospace software research on advanced supercomputers, the RC3 is a gamechanger in modern suppressor technology."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 36520,
+		"handbookPriceRoubles": 52560,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 46254,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"9f56d67e30b6ee14fbd99821": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/surefire_rc3_fde.bundle",
+				"rcid": ""
+			},
+			"Recoil": -8,
+			"HeatFactor": 1.06,
+			"Loudness": -19,
+			"DurabilityBurnModificator": 1.38
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire SOCOM556-RC3 5.56x45 sound suppressor (FDE)",
+				"shortName": "556-RC3",
+				"description": "The SureFire SOCOM556-RC3 suppressor combines decades of SureFire innovation in materials and manufacturing techniques with the most extensive flow dynamics study in history. The result of exclusive parametric modeling and multi-variable aerospace software research on advanced supercomputers, the RC3 is a gamechanger in modern suppressor technology."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 39520,
+		"handbookPriceRoubles": 52560,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 46254,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"f8e4f114d51be3084526ebdd": {
+		"itemTplToClone": "5dfa3d2b0dee1b22f862eade",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/huxwrks_flow_556k_blk.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.34,
+			"Recoil": -11,
+			"Ergonomics": -14,
+			"Loudness": -23
+		},
+		"locales": {
+			"en": {
+				"name": "Huxwrx Flow 556k 5.56x45 sound suppressor",
+				"shortName": "Flow 556k",
+				"description": "An innovative multi-caliber suppressor with patented and proven Flow-Through® and Torque Lock® technology. It is designed to reduce signature without negatively impacting cycling or service life. The FLOW 556k is DMLS printed in 17-4 Stainless."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 324,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"71da7f0c9145e92bd1022c53": {
+		"itemTplToClone": "5dfa3d2b0dee1b22f862eade",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/huxwrks_flow_556k_tan.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.34,
+			"Recoil": -11,
+			"Ergonomics": -14,
+			"Loudness": -23
+		},
+		"locales": {
+			"en": {
+				"name": "Huxwrx Flow 556k 5.56x45 sound suppressor (tan)",
+				"shortName": "Flow 556k",
+				"description": "An innovative multi-caliber suppressor with patented and proven Flow-Through® and Torque Lock® technology. It is designed to reduce signature without negatively impacting cycling or service life. The FLOW 556k is DMLS printed in 17-4 Stainless."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 332,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"6504516826a65f22fcb408bb": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/surefire_rc2_556_blk.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire SOCOM556-RC2 5.56x45 sound suppressor (BLK)",
+				"shortName": "556-RC2",
+				"description": "The SureFire SOCOM556-RC2 5.56x45 and .223 sound suppressor, can only be installed on compatible SureFire muzzle devices."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 31000,
+		"handbookPriceRoubles": 49500,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 46254,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"bd88c49e7facfbf335cbc734": {
+		"itemTplToClone": "59bfc5c886f7743bf6794e62",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/twi_supp.bundle",
+				"rcid": ""
+			},
+			"Recoil": -9,
+			"Ergonomics": -17,
+			"HeatFactor": 1.02,
+			"Loudness": -22
+		},
+		"locales": {
+			"en": {
+				"name": "AK Zenit SV Saiga 9 9x19 sound suppressor",
+				"shortName": "SV Saiga",
+				"description": "The SV Saiga 9 shot stabilizer is installed on the Saiga 9 carbine to compensate for the recoil of the shot and the toss of the carbine barrel. This product reduces the light flash and, due to the scattering of sound, makes it more comfortable and reduces trauma to the hearing organs."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 28500,
+		"handbookPriceRoubles": 16250,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 23500,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 3600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 3600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 3600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 3600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 3600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 3600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"46985a823edd7a01b03450ed": {
+		"itemTplToClone": "59bfc5c886f7743bf6794e62",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/twi_supp_thin.bundle",
+				"rcid": ""
+			},
+			"Recoil": -7,
+			"Ergonomics": -14,
+			"HeatFactor": 1.06,
+			"Loudness": -16
+		},
+		"locales": {
+			"en": {
+				"name": "AK Zenit SV Saiga 9 Mini 9x19 sound suppressor",
+				"shortName": "SV Saiga-T",
+				"description": "The SV Saiga 9 shot stabilizer is installed on the Saiga 9 carbine to compensate for the recoil of the shot and the toss of the carbine barrel. This product reduces the light flash and, due to the scattering of sound, makes it more comfortable and reduces trauma to the hearing organs."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 32520,
+		"handbookPriceRoubles": 14650,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 20250,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 3600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 3600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 3600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 3600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 3600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 3600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"4129c7c9c0669b718451b168": {
+		"itemTplToClone": "593d493f86f7745e6b2ceb22",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/putnik_blk.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"5d15ce51d7ad1a1eff619092",
+				"647db1eca8d3399c380d195c"
+			],
+			"Recoil": -8,
+			"Ergonomics": -20,
+			"HeatFactor": 1.152,
+			"Loudness": -26
+		},
+		"locales": {
+			"en": {
+				"name": "AK-74 Zenit DTK Putnik 5.45x39 sound suppressor",
+				"shortName": "Putnik",
+				"description": "The Zenitco DTK Putnik sound suppressor produced for the AK-74 rifle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 42500,
+		"handbookPriceRoubles": 36250,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 42520,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2292
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"5285550299ccac9d530a7ed1": {
+		"itemTplToClone": "593d493f86f7745e6b2ceb22",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/putnik_oreo.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"5d15ce51d7ad1a1eff619092",
+				"647db1eca8d3399c380d195c"
+			],
+			"Recoil": -8,
+			"Ergonomics": -20,
+			"HeatFactor": 1.152,
+			"Loudness": -26
+		},
+		"locales": {
+			"en": {
+				"name": "AK-74 Zenit DTK Putnik 5.45x39 sound suppressor (Blk-Wht)",
+				"shortName": "Putnik",
+				"description": "The Zenitco DTK Putnik sound suppressor produced for the AK-74 rifle. It looks like a damn oreo."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 42500,
+		"handbookPriceRoubles": 36250,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 42520,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2292
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"8a25358a28252c3b7fcb7e4a": {
+		"itemTplToClone": "593d493f86f7745e6b2ceb22",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/putnik_fde.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"5d15ce51d7ad1a1eff619092",
+				"647db1eca8d3399c380d195c"
+			],
+			"Recoil": -8,
+			"Ergonomics": -20,
+			"HeatFactor": 1.152,
+			"Loudness": -26
+		},
+		"locales": {
+			"en": {
+				"name": "AK-74 Zenit DTK Putnik 5.45x39 sound suppressor (FDE)",
+				"shortName": "Putnik",
+				"description": "The Zenitco DTK Putnik sound suppressor produced for the AK-74 rifle. Flat dark earth version."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 42500,
+		"handbookPriceRoubles": 36250,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 42520,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2292
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"d9c2ce5c957a54390a795cb9": {
+		"itemTplToClone": "638612b607dfed1ccb7206ba",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/rotex-v_blk.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.684,
+			"Recoil": -9,
+			"Ergonomics": -17,
+			"Loudness": -35
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B&T Rotex-V 5.56x45 sound suppressor (BLK)",
+				"shortName": "Rotex-V",
+				"description": "Compatible with the standard NATO flash hider, the Rotex-V is the optimal solution when a suppressor, mount- and detachable within seconds with a high suppression rate is needed. Besides that it very effectively suppresses the muzzle flash."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 79000,
+		"handbookPriceRoubles": 34000,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 80000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"f1d4272393162487b5896f2f": {
+		"itemTplToClone": "638612b607dfed1ccb7206ba",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/rotex-v_fde.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.684,
+			"Recoil": -9,
+			"Ergonomics": -17,
+			"Loudness": -35
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B&T Rotex-V 5.56x45 sound suppressor (FDE)",
+				"shortName": "Rotex-V",
+				"description": "Compatible with the standard NATO flash hider, the Rotex-V is the optimal solution when a suppressor, mount- and detachable within seconds with a high suppression rate is needed. Besides that it very effectively suppresses the muzzle flash."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 79000,
+		"handbookPriceRoubles": 34000,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 80000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"aac2e5628ec0f31213f1f53b": {
+		"itemTplToClone": "638612b607dfed1ccb7206ba",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/rotex-v_gry.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.684,
+			"Recoil": -9,
+			"Ergonomics": -17,
+			"Loudness": -35
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B&T Rotex-V 5.56x45 sound suppressor (GRY)",
+				"shortName": "Rotex-V",
+				"description": "Compatible with the standard NATO flash hider, the Rotex-V is the optimal solution when a suppressor, mount- and detachable within seconds with a high suppression rate is needed. Besides that it very effectively suppresses the muzzle flash."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 79000,
+		"handbookPriceRoubles": 34000,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 80000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"96c3f1dba8c2038398a29d47": {
+		"itemTplToClone": "638612b607dfed1ccb7206ba",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/rotex_c_blk.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.625,
+			"Recoil": -7,
+			"Ergonomics": -14,
+			"Loudness": -30
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B&T Rotex-V Compact 5.56x45 sound suppressor (BLK)",
+				"shortName": "Rotex-VC",
+				"description": "Compatible with the standard NATO flash hider, the Rotex-V is the optimal solution when a suppressor, mount- and detachable within seconds with a high suppression rate is needed. Besides that it very effectively suppresses the muzzle flash."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 84600,
+		"handbookPriceRoubles": 32000,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 77200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"48b2b70316ee11cd78074149": {
+		"itemTplToClone": "638612b607dfed1ccb7206ba",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/rotex_c_fde.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.625,
+			"Recoil": -7,
+			"Ergonomics": -14,
+			"Loudness": -30
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B&T Rotex-V Compact 5.56x45 sound suppressor (FDE)",
+				"shortName": "Rotex-VC",
+				"description": "Compatible with the standard NATO flash hider, the Rotex-V is the optimal solution when a suppressor, mount- and detachable within seconds with a high suppression rate is needed. Besides that it very effectively suppresses the muzzle flash."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 84600,
+		"handbookPriceRoubles": 32000,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 77200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"82144d6a0be3285243f60c50": {
+		"itemTplToClone": "638612b607dfed1ccb7206ba",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/rotex_c_gry.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.625,
+			"Recoil": -7,
+			"Ergonomics": -14,
+			"Loudness": -30
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B&T Rotex-V Compact 5.56x45 sound suppressor (GRY)",
+				"shortName": "Rotex-VC",
+				"description": "Compatible with the standard NATO flash hider, the Rotex-V is the optimal solution when a suppressor, mount- and detachable within seconds with a high suppression rate is needed. Besides that it very effectively suppresses the muzzle flash."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 84600,
+		"handbookPriceRoubles": 32000,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 77200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"0d26a697d357f0ea3f8f9a83": {
+		"itemTplToClone": "638612b607dfed1ccb7206ba",
+		"parentId": "FLASHHIDER",
+		"handbookParentId": "MOD_FLASHHIDER",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/rotex_d_blk.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.266,
+			"Recoil": -6,
+			"Ergonomics": -4,
+			"Loudness": -15,
+			"HeatFactor": 0.987,
+			"CoolFactor": 1,
+			"muzzleModType": "conpensator",
+			"ExtraSizeLeft": 0,
+			"Width": 1
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B&T Rotex-V 5.56x45 Deflector (BLK)",
+				"shortName": "Rotex-D",
+				"description": "Compatible with the standard NATO flash hider, the Rotex-V is the optimal solution when a suppressor, mount- and detachable within seconds with a high suppression rate is needed. Besides that it very effectively suppresses the muzzle flash."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 42000,
+		"handbookPriceRoubles": 14000,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 38250,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"1d145684ac5119451eec9699": {
+		"itemTplToClone": "638612b607dfed1ccb7206ba",
+		"parentId": "FLASHHIDER",
+		"handbookParentId": "MOD_FLASHHIDER",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/rotex_d_fde.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.266,
+			"Recoil": -6,
+			"Ergonomics": -4,
+			"Loudness": -15,
+			"HeatFactor": 0.987,
+			"CoolFactor": 1,
+			"muzzleModType": "conpensator",
+			"ExtraSizeLeft": 0,
+			"Width": 1
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B&T Rotex-V 5.56x45 Deflector (FDE)",
+				"shortName": "Rotex-D",
+				"description": "Compatible with the standard NATO flash hider, the Rotex-V is the optimal solution when a suppressor, mount- and detachable within seconds with a high suppression rate is needed. Besides that it very effectively suppresses the muzzle flash."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 42000,
+		"handbookPriceRoubles": 14000,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 38250,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"d29f21dabbdb6a8577bd5a4c": {
+		"itemTplToClone": "638612b607dfed1ccb7206ba",
+		"parentId": "FLASHHIDER",
+		"handbookParentId": "MOD_FLASHHIDER",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/rotex_d_gry.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.266,
+			"Recoil": -6,
+			"Ergonomics": -4,
+			"Loudness": -15,
+			"HeatFactor": 0.987,
+			"CoolFactor": 1,
+			"muzzleModType": "conpensator",
+			"ExtraSizeLeft": 0,
+			"Width": 1
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B&T Rotex-V 5.56x45 Deflector (GRY)",
+				"shortName": "Rotex-D",
+				"description": "Compatible with the standard NATO flash hider, the Rotex-V is the optimal solution when a suppressor, mount- and detachable within seconds with a high suppression rate is needed. Besides that it very effectively suppresses the muzzle flash."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 42000,
+		"handbookPriceRoubles": 14000,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 38250,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"55d267e876b4709cc2115736": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/surefire_556mini2blk.bundle",
+				"rcid": ""
+			},
+			"Recoil": -6,
+			"Loudness": -18,
+			"Ergonomics": -14,
+			"Weight": 0.425
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire SOCOM556-Mini2 5.56x45 sound suppressor (BLK)",
+				"shortName": "556-Mini2",
+				"description": "When the going gets tight, an inch can mean the difference between efficiently engaging the enemy or getting caught in a vulnerable position. That’s why we created the SOCOM556-MINI2. It delivers performance levels similar to the model that assured SureFire’s victory in the demanding USSOCOM suppressor trials, but in a more compact package optimized for 14.5-inch and longer barrels."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 36520,
+		"handbookPriceRoubles": 52560,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 195,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"b9a6137901c6b1dd27c0c0cd": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/surefire_556mini2fde.bundle",
+				"rcid": ""
+			},
+			"Recoil": -6,
+			"Loudness": -18,
+			"Ergonomics": -14,
+			"Weight": 0.425
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire SOCOM556-Mini2 5.56x45 sound suppressor (FDE)",
+				"shortName": "556-Mini2",
+				"description": "When the going gets tight, an inch can mean the difference between efficiently engaging the enemy or getting caught in a vulnerable position. That’s why we created the SOCOM556-MINI2. It delivers performance levels similar to the model that assured SureFire’s victory in the demanding USSOCOM suppressor trials, but in a more compact package optimized for 14.5-inch and longer barrels."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 36520,
+		"handbookPriceRoubles": 52560,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 195,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"68ecc6afc9baacad535b09b5": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "FLASHHIDER",
+		"handbookParentId": "MOD_FLASHHIDER",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/surefire_wardenqdblk.bundle",
+				"rcid": ""
+			},
+			"Recoil": -4,
+			"Ergonomics": -3,
+			"HeatFactor": 1,
+			"Loudness": -15,
+			"DurabilityBurnModificator": 1,
+			"Weight": 0.221,
+			"ExtraSizeLeft": 0,
+			"Width": 1
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire Warden Fast-Attach Blast Regulator (BLK)",
+				"shortName": "Warden-QD",
+				"description": " The SureFire Warden Blast Regulator for 5.56 and 7.62 mm weapons is engineered to direct the concussive blast of the fired round forward of the weapon system without venting gas to the side, as seen with standard muzzle brakes. This aids in reducing the overpressure felt by others immediately to the left and/or right of the shooter’s firing position."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 16200,
+		"handbookPriceRoubles": 9000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 12500,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"cc4134b4c122adad37aa342a": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "FLASHHIDER",
+		"handbookParentId": "MOD_FLASHHIDER",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/surefire_wardenqdfde.bundle",
+				"rcid": ""
+			},
+			"Recoil": -4,
+			"Ergonomics": -3,
+			"HeatFactor": 1,
+			"Loudness": -15,
+			"DurabilityBurnModificator": 1,
+			"Weight": 0.221,
+			"ExtraSizeLeft": 0,
+			"Width": 1
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire Warden Fast-Attach Blast Regulator (FDE)",
+				"shortName": "Warden-QD",
+				"description": " The SureFire Warden Blast Regulator for 5.56 and 7.62 mm weapons is engineered to direct the concussive blast of the fired round forward of the weapon system without venting gas to the side, as seen with standard muzzle brakes. This aids in reducing the overpressure felt by others immediately to the left and/or right of the shooter’s firing position."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 16200,
+		"handbookPriceRoubles": 9000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 12500,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"6efbc3fc36558fb085bbc36e": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/surefire_762ti2blk.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"5d43021ca4b9362eab4b5e25",
+				"5c07c60e0db834002330051f",
+				"5447a9cd4bdc2dbd208b4567",
+				"6165ac306ef05c2ce828ef74",
+				"618428466ef05c2ce828f218",
+				"5bb2475ed4351e00853264e3",
+				"5c488a752e221602b412af63",
+				"5dcbd56fdbd3d91b3e5468d5",
+				"623063e994fc3f7b302a9696",
+				"5e21ca18e4d47f0da15e77dd",
+				"615d8e9867085e45ef1409c6",
+				"630f27f04f3f6281050b94d7",
+				"5df8ce05b11454561e39243b",
+				"5b0bbe4e5acfc40dc528a72d",
+				"6176aca650224f204c1da3fb",
+				"5f2a9575926fd9352339381f",
+				"5a367e5dc4a282000e49738f",
+				"5aafa857e5b5b00018480968"
+			],
+			"Recoil": -9,
+			"Loudness": -29,
+			"DurabilityBurnModificator": 1.15,
+			"Ergonomics": -18,
+			"Weight": 0.312
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire SOCOM762-Ti2 7.62x51 sound suppressor (BLK)",
+				"shortName": "762-Ti2",
+				"description": "The SOCOM762-Ti2 enhances Surefire’s exceptional titanium suppressor line by providing the ultimate lightweight suppressor for 7.62 mm and .308-caliber bolt-action rifles. We designed it to exceed military sniper rifle suppressor specifications, making it the ideal lightweight suppressor for hunters and long-range precision shooters alike."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 40000,
+		"handbookPriceRoubles": 56200,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 37200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"3cc1a01be7839321ab030074": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/surefire_762ti2fde.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"5d43021ca4b9362eab4b5e25",
+				"5c07c60e0db834002330051f",
+				"5447a9cd4bdc2dbd208b4567",
+				"6165ac306ef05c2ce828ef74",
+				"618428466ef05c2ce828f218",
+				"5bb2475ed4351e00853264e3",
+				"5c488a752e221602b412af63",
+				"5dcbd56fdbd3d91b3e5468d5",
+				"623063e994fc3f7b302a9696",
+				"5e21ca18e4d47f0da15e77dd",
+				"615d8e9867085e45ef1409c6",
+				"630f27f04f3f6281050b94d7",
+				"5df8ce05b11454561e39243b",
+				"5b0bbe4e5acfc40dc528a72d",
+				"6176aca650224f204c1da3fb",
+				"5f2a9575926fd9352339381f",
+				"5a367e5dc4a282000e49738f",
+				"5aafa857e5b5b00018480968"
+			],
+			"Recoil": -9,
+			"Loudness": -29,
+			"DurabilityBurnModificator": 1.15,
+			"Ergonomics": -18,
+			"Weight": 0.312
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire SOCOM762-Ti2 7.62x51 sound suppressor (FDE)",
+				"shortName": "762-Ti2",
+				"description": "The SOCOM762-Ti2 enhances Surefire’s exceptional titanium suppressor line by providing the ultimate lightweight suppressor for 7.62 mm and .308-caliber bolt-action rifles. We designed it to exceed military sniper rifle suppressor specifications, making it the ideal lightweight suppressor for hunters and long-range precision shooters alike."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 40000,
+		"handbookPriceRoubles": 56200,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 37200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"f07b843f00a254d10d80ea5a": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/surefire_762rc2blk.bundle",
+				"rcid": ""
+			},
+			"Recoil": -9,
+			"Loudness": -30,
+			"Ergonomics": -21,
+			"Weight": 0.595
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire SOCOM762-RC2 7.62X51 sound suppressor (BLK)",
+				"shortName": "762-RC2",
+				"description": "The SureFire SOCOM762-RC2 maintains our tradition of advancing suppressor design to produce the ultimate in performance. An improved version of the SOCOM762-RC that passed the extremely demanding US Special Operations Command (SOCOM) suppressor trials with flying colors, the RC2 showcases our years of expertise and dedication in producing precisely engineered suppressors out of the finest materials."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 38250,
+		"handbookPriceRoubles": 44000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 52590,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"9c8b54c2f8c843fe7ce6c6ca": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/surefire_762rc2fde.bundle",
+				"rcid": ""
+			},
+			"Recoil": -9,
+			"Loudness": -30,
+			"Ergonomics": -21,
+			"Weight": 0.595
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire SOCOM762-RC2 7.62X51 sound suppressor (FDE)",
+				"shortName": "762-RC2",
+				"description": "The SureFire SOCOM762-RC2 maintains our tradition of advancing suppressor design to produce the ultimate in performance. An improved version of the SOCOM762-RC that passed the extremely demanding US Special Operations Command (SOCOM) suppressor trials with flying colors, the RC2 showcases our years of expertise and dedication in producing precisely engineered suppressors out of the finest materials."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 38250,
+		"handbookPriceRoubles": 44000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 52590,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"a6a1f3e9ff8c9bddaf8ab5f3": {
+		"itemTplToClone": "5dfa3d2b0dee1b22f862eade",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/gemtech_neutron_762.bundle",
+				"rcid": ""
+			},
+			"Recoil": -6,
+			"Ergonomics": -16,
+			"Loudness": -28,
+			"Weight": 0.413
+		},
+		"locales": {
+			"en": {
+				"name": "Gemtech Neutron 7.62x51 sound suppressor",
+				"shortName": "Neutron 762",
+				"description": "Featuring four of Gemtech's latest patent-pending technologies, the versatile Neutron 7.62 strikes the perfect balance between size, strength, and weight. From a short-barreled machine gun to a favorite hunting rifle, the Neutron accepts a wide range of mounting hardware to better suit the host and task at hand."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 56588,
+		"handbookPriceRoubles": 36000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 438,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1700
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1700
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1700
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1700
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1700
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1700
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"21db41fa34f997937c78b9d1": {
+		"itemTplToClone": "626673016f1edc06f30cf6d5",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/prt_mcq_blk.bundle",
+				"rcid": ""
+			},
+			"Recoil": -6,
+			"Ergonomics": -12,
+			"Loudness": -13,
+			"Width": 1,
+			"Weight": 0.395,
+			"Slots": [
+				{
+					"_name": "mod_mount",
+					"_id": "0feb2d269a4dcecb31f4b414",
+					"_parent": "21db41fa34f997937c78b9d1",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"b02e5f84df2f2f062a309ef9",
+									"09b44a7e34b49045e3308e58",
+									"08ce1f8189bcb4aa4a490d28",
+									"edb383eec77614c936e627ec"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "KAC QDC/MCQ-PRT 5.56x45 sound suppressor (BLK)",
+				"shortName": "MCQ-PRT",
+				"description": "KAC’s newest answer for a superior rifle suppressor — 3D printed and incorporating their Pressure Reduction Technology (PRT)."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 327,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"0a4fce1b6ffcba383df0def7": {
+		"itemTplToClone": "626673016f1edc06f30cf6d5",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/prt_mcq_fde.bundle",
+				"rcid": ""
+			},
+			"Recoil": -6,
+			"Ergonomics": -12,
+			"Loudness": -13,
+			"Width": 1,
+			"Weight": 0.395,
+			"Slots": [
+				{
+					"_name": "mod_mount",
+					"_id": "4ae25014829599587a8d947f",
+					"_parent": "0a4fce1b6ffcba383df0def7",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"b02e5f84df2f2f062a309ef9",
+									"09b44a7e34b49045e3308e58",
+									"08ce1f8189bcb4aa4a490d28",
+									"edb383eec77614c936e627ec"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "KAC QDC/MCQ-PRT 5.56x45 sound suppressor (FDE)",
+				"shortName": "MCQ-PRT",
+				"description": "KAC’s newest answer for a superior rifle suppressor — 3D printed and incorporating their Pressure Reduction Technology (PRT)."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 327,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"b02e5f84df2f2f062a309ef9": {
+		"itemTplToClone": "626673016f1edc06f30cf6d5",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/mcq_cover_blk.bundle",
+				"rcid": ""
+			},
+			"Recoil": 0,
+			"Ergonomics": 1,
+			"HeatFactor": 1,
+			"CoolFactor": 1,
+			"DurabilityBurnModificator": 1,
+			"Velocity": 0,
+			"Loudness": -5,
+			"ExtraSizeLeft": 0,
+			"Width": 1,
+			"Weight": 0.09
+		},
+		"locales": {
+			"en": {
+				"name": "KAC Suppressor shroud 4 inch (BLK)",
+				"shortName": "Shroud 4",
+				"description": "Suppressor shroud designed for Knights Armament's new PRT line of suppressors, 4 inch version."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 60,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"09b44a7e34b49045e3308e58": {
+		"itemTplToClone": "626673016f1edc06f30cf6d5",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/mcq_cover_fde.bundle",
+				"rcid": ""
+			},
+			"Recoil": 0,
+			"Ergonomics": 1,
+			"HeatFactor": 1,
+			"CoolFactor": 1,
+			"DurabilityBurnModificator": 1,
+			"Velocity": 0,
+			"Loudness": -5,
+			"ExtraSizeLeft": 0,
+			"Width": 1,
+			"Weight": 0.09
+		},
+		"locales": {
+			"en": {
+				"name": "KAC Suppressor shroud 4 inch (FDE)",
+				"shortName": "Shroud 4",
+				"description": "Suppressor shroud designed for Knights Armament's new PRT line of suppressors, 4 inch version."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 60,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"edb383eec77614c936e627ec": {
+		"itemTplToClone": "626673016f1edc06f30cf6d5",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/prt_cover_blk.bundle",
+				"rcid": ""
+			},
+			"Recoil": 0,
+			"Ergonomics": 1,
+			"HeatFactor": 1,
+			"CoolFactor": 1,
+			"DurabilityBurnModificator": 1,
+			"Velocity": 0,
+			"Loudness": -5,
+			"ExtraSizeLeft": 0,
+			"Weight": 0.12
+		},
+		"locales": {
+			"en": {
+				"name": "KAC Suppressor shroud 6 inch (BLK)",
+				"shortName": "Shroud 6",
+				"description": "Suppressor shroud designed for Knights Armament's new PRT line of suppressors, 6 inch version."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 68,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"08ce1f8189bcb4aa4a490d28": {
+		"itemTplToClone": "626673016f1edc06f30cf6d5",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/prt_cover_fde.bundle",
+				"rcid": ""
+			},
+			"Recoil": 0,
+			"Ergonomics": 1,
+			"HeatFactor": 1,
+			"CoolFactor": 1,
+			"DurabilityBurnModificator": 1,
+			"Velocity": 0,
+			"Loudness": -5,
+			"ExtraSizeLeft": 0,
+			"Weight": 0.12
+		},
+		"locales": {
+			"en": {
+				"name": "KAC Suppressor shroud 6 inch (FDE)",
+				"shortName": "Shroud 6",
+				"description": "Suppressor shroud designed for Knights Armament's new PRT line of suppressors, 6 inch version."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 68,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"dfb4f1c3e5b85305c24ed2bc": {
+		"itemTplToClone": "626673016f1edc06f30cf6d5",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/prt_supp_blk.bundle",
+				"rcid": ""
+			},
+			"Recoil": -9,
+			"Ergonomics": -18,
+			"Loudness": -28,
+			"Weight": 0.545,
+			"Slots": [
+				{
+					"_name": "mod_mount",
+					"_id": "2e76f94eded7f1a7496e2b46",
+					"_parent": "dfb4f1c3e5b85305c24ed2bc",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"b02e5f84df2f2f062a309ef9",
+									"09b44a7e34b49045e3308e58",
+									"08ce1f8189bcb4aa4a490d28",
+									"edb383eec77614c936e627ec"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "KAC QDC/CRS-PRT 5.56x45 sound suppressor (BLK)",
+				"shortName": "CRS-PRT",
+				"description": "KAC’s newest answer for a superior rifle suppressor — 3D printed and incorporating their Pressure Reduction Technology (PRT)."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 397,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"bfa234cc36aac6c9e1190ab1": {
+		"itemTplToClone": "626673016f1edc06f30cf6d5",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/prt_supp_fde.bundle",
+				"rcid": ""
+			},
+			"Recoil": -9,
+			"Ergonomics": -18,
+			"Loudness": -28,
+			"Weight": 0.545,
+			"Slots": [
+				{
+					"_name": "mod_mount",
+					"_id": "a6641ae933335a654bf5bda1",
+					"_parent": "bfa234cc36aac6c9e1190ab1",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"b02e5f84df2f2f062a309ef9",
+									"09b44a7e34b49045e3308e58",
+									"08ce1f8189bcb4aa4a490d28",
+									"edb383eec77614c936e627ec"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "KAC QDC/CRS-PRT 5.56x45 sound suppressor (FDE)",
+				"shortName": "CRS-PRT",
+				"description": "KAC’s newest answer for a superior rifle suppressor — 3D printed and incorporating their Pressure Reduction Technology (PRT)."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 397,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}

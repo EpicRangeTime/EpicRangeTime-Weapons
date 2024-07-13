@@ -1,0 +1,629 @@
+{
+	"70eb49132ee4b5a739b8fa7f": {
+		"itemTplToClone": "5ae30c9a5acfc408fb139a03",
+		"parentId": "STOCK",
+		"handbookParentId": "MOD_STOCK",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/b5_bravo_blk.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": 9,
+			"ConflictingItems":[
+				"5c0e2ff6d174af02a1659d4a",
+				"5a33e75ac4a2826c6e06d759"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B5 Systems Bravo stock",
+				"shortName": "Bravo",
+				"description": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_stock_000",
+			"mod_stock"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 8250,
+		"handbookPriceRoubles": 4699,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 8200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"857f6f505667d85233704faa": {
+		"itemTplToClone": "5ae30c9a5acfc408fb139a03",
+		"parentId": "STOCK",
+		"handbookParentId": "MOD_STOCK",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/b5_bravo_cb.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": 9,
+			"ConflictingItems":[
+				"5c0e2ff6d174af02a1659d4a",
+				"5a33e75ac4a2826c6e06d759"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B5 Systems Bravo stock (Coyote)",
+				"shortName": "Bravo",
+				"description": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_stock_000",
+			"mod_stock"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 8250,
+		"handbookPriceRoubles": 4699,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 8200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"3f9e58d5bea75f1a0ca43399": {
+		"itemTplToClone": "5ae30c9a5acfc408fb139a03",
+		"parentId": "STOCK",
+		"handbookParentId": "MOD_STOCK",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/b5_bravo_fde.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": 9,
+			"ConflictingItems":[
+				"5c0e2ff6d174af02a1659d4a",
+				"5a33e75ac4a2826c6e06d759"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B5 Systems Bravo stock (FDE)",
+				"shortName": "Bravo",
+				"description": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_stock_000",
+			"mod_stock"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 8250,
+		"handbookPriceRoubles": 4699,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 8200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"b6ec2a1724ebddcb6ff9f16c": {
+		"itemTplToClone": "5ae30c9a5acfc408fb139a03",
+		"parentId": "STOCK",
+		"handbookParentId": "MOD_STOCK",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/b5_bravo_grey.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": 9,
+			"ConflictingItems":[
+				"5c0e2ff6d174af02a1659d4a",
+				"5a33e75ac4a2826c6e06d759"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B5 Systems Bravo stock (Grey)",
+				"shortName": "Bravo",
+				"description": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_stock_000",
+			"mod_stock"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 8250,
+		"handbookPriceRoubles": 4699,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 8200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"cbd2e6731fb69eb72df5cd78": {
+		"itemTplToClone": "5ae30c9a5acfc408fb139a03",
+		"parentId": "STOCK",
+		"handbookParentId": "MOD_STOCK",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/b5_bravo_odg.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": 9,
+			"ConflictingItems":[
+				"5c0e2ff6d174af02a1659d4a",
+				"5a33e75ac4a2826c6e06d759"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B5 Systems Bravo stock (ODG)",
+				"shortName": "Bravo",
+				"description": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_stock_000",
+			"mod_stock"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 8250,
+		"handbookPriceRoubles": 4699,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 8200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"2a6882a9265b63e56b00f0e8": {
+		"itemTplToClone": "5ae30c9a5acfc408fb139a03",
+		"parentId": "STOCK",
+		"handbookParentId": "MOD_STOCK",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/prs_lite_blk.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": 7,
+			"Recoil": -23,
+			"Weight": 0.515,
+			"ConflictingItems":[
+				"5c0e2ff6d174af02a1659d4a",
+				"5a33e75ac4a2826c6e06d759"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Magpul PRS Lite stock",
+				"shortName": "Lite",
+				"description": "The PRS Lite provides much of the same adjustability and many features of our PRS GEN3 Precision-Adjustable Stock, with the added benefits of reduced weight and a price that’s almost half of its fully featured counterpart."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_stock_000",
+			"mod_stock"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 8250,
+		"handbookPriceRoubles": 4699,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 146,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2200
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"e7033144137177533f1fe6cf": {
+		"itemTplToClone": "5ae30c9a5acfc408fb139a03",
+		"parentId": "STOCK",
+		"handbookParentId": "MOD_STOCK",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/prs_lite_fde.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": 7,
+			"Recoil": -23,
+			"Weight": 0.515,
+			"ConflictingItems":[
+				"5c0e2ff6d174af02a1659d4a",
+				"5a33e75ac4a2826c6e06d759"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Magpul PRS Lite stock (FDE)",
+				"shortName": "Lite",
+				"description": "The PRS Lite provides much of the same adjustability and many features of our PRS GEN3 Precision-Adjustable Stock, with the added benefits of reduced weight and a price that’s almost half of its fully featured counterpart."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_stock_000",
+			"mod_stock"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 8250,
+		"handbookPriceRoubles": 4699,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 146,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2200
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}

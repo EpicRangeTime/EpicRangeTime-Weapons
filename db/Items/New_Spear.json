@@ -1,0 +1,352 @@
+{
+	"8d59d8b10a4c2e85b871c317": {
+		"itemTplToClone": "65290f395ae2ae97b80fdf2d",
+		"parentId": "ASSAULT_RIFLE",
+		"handbookParentId": "WEAPONS_ASSAULTRIFLES",
+		"overrideProperties": {
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "assets/content/weapons/spear/weapon_sig_mcx_spear_68x51_container.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"652910565ae2ae97b80fdf35"
+			],
+			"defAmmo": "5e023e53d4353e3302577c4c",
+			"Chambers": [
+				{
+				  "_id": "e6798fd2361f9774eaddae47",
+				  "_mergeSlotWithChildren": false,
+				  "_name": "patron_in_weapon",
+				  "_parent": "8d59d8b10a4c2e85b871c317",
+				  "_props": {
+					"filters": [
+					  {
+						"Filter": [
+							"5a6086ea4f39f99cd479502f",
+							"5a608bf24f39f98ffc77720e",
+							"58dd3ad986f77403051cba8f",
+							"5e023e53d4353e3302577c4c",
+							"5efb0c1bd79ff02a1f5e68d9",
+							"5e023e6e34d52a55c3304f71",
+							"5e023e88277cce2b522ff2b1"
+						]
+					  }
+					]
+				  },
+				  "_proto": "55d4af244bdc2d962f8b4571",
+				  "_required": false
+				}
+			  ],
+			  "ammoCaliber": "Caliber762x51"
+		},
+		"locales": {
+			"en": {
+				"name": "SIG MCX SPEAR 7.62x51 assault rifle",
+				"shortName": "SPEAR .308",
+				"description": "The alternative version of the Sig Sauer SPEAR produced mostly for the civilian market, chambered in .308."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 476250,
+		"handbookPriceRoubles": 21300,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 96440,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Name": "SPEAR",
+				"Templates": [
+					"8d59d8b10a4c2e85b871c317"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": [
+			{
+				"_changeWeaponName": false,
+                "_encyclopedia": "8d59d8b10a4c2e85b871c317",
+				"_id": "6619fea2010010f3885ea459",
+				"_items": [
+					{
+						"_id": "ede9189cfe8af0b323c54557",
+						"_tpl": "8d59d8b10a4c2e85b871c317",
+						"upd": {
+							"StackObjectsCount": 99,
+							"Repairable": {
+								"MaxDurability": 100,
+								"Durability": 100
+							},
+							"FireMode": {
+								"FireMode": "single"
+							}
+						}
+					},
+					{
+						"_id": "c4d43284332daed92731fe71",
+						"_tpl": "652911675ae2ae97b80fdf3c",
+						"parentId": "ede9189cfe8af0b323c54557",
+						"slotId": "mod_pistol_grip"
+					},
+					{
+						"_id": "6867033f08464264939d4aba",
+						"_tpl": "65293c38fc460e50a509cb25",
+						"parentId": "ede9189cfe8af0b323c54557",
+						"slotId": "mod_magazine"
+					},
+					{
+						"_id": "0bdc296f38fc2286e36e75cb",
+						"_tpl": "6529119424cbe3c74a05e5bb",
+						"parentId": "ede9189cfe8af0b323c54557",
+						"slotId": "mod_reciever"
+					},
+					{
+						"_id": "fdd008ed624d29b02c1d9772",
+						"_tpl": "6529348224cbe3c74a05e5c4",
+						"parentId": "ede9189cfe8af0b323c54557",
+						"slotId": "mod_stock_000"
+					},
+					{
+						"_id": "38cdc570c1983cdf64e2bb8e",
+						"_tpl": "6529109524cbe3c74a05e5b7",
+						"parentId": "ede9189cfe8af0b323c54557",
+						"slotId": "mod_charge"
+					},
+					{
+						"_id": "67b07784557510d096114f6e",
+						"_tpl": "6567e751a715f85433025998",
+						"parentId": "0bdc296f38fc2286e36e75cb",
+						"slotId": "mod_scope"
+					},
+					{
+						"_id": "7806545ea9ce7f676b7211a0",
+						"_tpl": "ee8c293ca09a8e3a72c63171",
+						"parentId": "0bdc296f38fc2286e36e75cb",
+						"slotId": "mod_barrel"
+					},
+					{
+						"_id": "672df86a68312227fcfba6da",
+						"_tpl": "652910ef50dc782999054b97",
+						"parentId": "0bdc296f38fc2286e36e75cb",
+						"slotId": "mod_handguard"
+					},
+					{
+						"_id": "918bc53a068211c089439766",
+						"_tpl": "5fc0fa957283c4046c58147e",
+						"parentId": "0bdc296f38fc2286e36e75cb",
+						"slotId": "mod_sight_rear"
+					},
+					{
+						"_id": "2af21b7263f6cae1ce1683ba",
+						"_tpl": "6529366450dc782999054ba0",
+						"parentId": "fdd008ed624d29b02c1d9772",
+						"slotId": "mod_stock"
+					},
+					{
+						"_id": "cfe5bde5eaea1d7bd56a54c1",
+						"_tpl": "6567e7681265c8a131069b0f",
+						"parentId": "67b07784557510d096114f6e",
+						"slotId": "mod_scope"
+					},
+					{
+						"_id": "09ed8af65f5db0f0681551eb",
+						"_tpl": "5fbc22ccf24b94483f726483",
+						"parentId": "7806545ea9ce7f676b7211a0",
+						"slotId": "mod_muzzle"
+					},
+					{
+						"_id": "589c32c4db4a4c2ad301d30f",
+						"_tpl": "652910bc24cbe3c74a05e5b9",
+						"parentId": "7806545ea9ce7f676b7211a0",
+						"slotId": "mod_gas_block"
+					},
+					{
+						"_id": "9950099764014745139f9c5d",
+						"_tpl": "5fc0fa362770a0045c59c677",
+						"parentId": "672df86a68312227fcfba6da",
+						"slotId": "mod_sight_front"
+					},
+					{
+						"_id": "42dc07456bb956305a386a15",
+						"_tpl": "5fbcbd10ab884124df0cd563",
+						"parentId": "09ed8af65f5db0f0681551eb",
+						"slotId": "mod_muzzle_000"
+					},
+					{
+						"_id": "3cc9af668f03af99e05a72a9",
+						"_tpl": "5fbe760793164a5b6278efc8",
+						"parentId": "09ed8af65f5db0f0681551eb",
+						"slotId": "mod_muzzle_001"
+					},
+					{
+						"_id": "716bedcbd3363a80ea539bd3",
+						"_tpl": "6529370c405a5f51dd023db8",
+						"parentId": "2af21b7263f6cae1ce1683ba",
+						"slotId": "mod_stock_000"
+					}
+				],
+                "_name": "MCX Spear .308 Stock preset",
+                "_parent": "ede9189cfe8af0b323c54557",
+                "_type": "Preset"
+			}
+		]
+	},
+	"ee8c293ca09a8e3a72c63171": {
+		"itemTplToClone": "652910565ae2ae97b80fdf35",
+		"parentId": "BARREL",
+		"handbookParentId": "MOD_BARREL",
+		"overrideProperties": {
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "assets/content/items/mods/barrels/barrel_mcx_sig_spear_330mm_68x51.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"65290f395ae2ae97b80fdf2d"
+			],
+			"Recoil": 2,
+			"Slots": [
+				{
+				  "_name": "mod_muzzle",
+				  "_id": "88164042d50b64e822e7fcad",
+				  "_parent": "ee8c293ca09a8e3a72c63171",
+				  "_props": {
+					"filters": [
+					  {
+						"Shift": 0,
+						"Filter": [
+							"612e0d3767085e45ef14057f",
+							"5b7d693d5acfc43bca706a3d",
+							"5a34fd2bc4a282329a73b4c5",
+							"6065c6e7132d4d12c81fd8e1",
+							"5d1f819086f7744b355c219b",
+							"5dcbe965e4ed22586443a79d",
+							"5d026791d7ad1a04a067ea63",
+							"5dfa3cd1b33c0951220c079b",
+							"6130c43c67085e45ef1405a1",
+							"5cdd7685d7f00c000f260ed2",
+							"5c878e9d2e2216000f201903",
+							"5d02677ad7ad1a04a15c0f95",
+							"5bbdb8bdd4351e4502011460",
+							"5cdd7693d7f00c0010373aa5",
+							"607ffb988900dc2d9a55b6e4",
+							"615d8eb350224f204c1da1cf",
+							"612e0e3c290d254f5e6b291d",
+							"5d443f8fa4b93678dd4a01aa",
+							"5c7954d52e221600106f4cc7",
+							"5fbc22ccf24b94483f726483",
+							"59bffc1f86f77435b128b872",
+							"5cf78496d7f00c065703d6ca",
+							"5fbe7618d6fa9c00c571bb6c",
+							"628a66b41d5e41750e314f34",
+							"21cc9c10a1749109db74b288",
+							"10c1dae2a05599e8a2b59cda",
+							"6878917c7adb7e17eb1273ce"
+						]
+					  }
+					]
+				  },
+				  "_required": false,
+				  "_mergeSlotWithChildren": false,
+				  "_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+				  "_name": "mod_gas_block",
+				  "_id": "e5d612cd86f85a5212696b0d",
+				  "_parent": "ee8c293ca09a8e3a72c63171",
+				  "_props": {
+					"filters": [
+					  {
+						"Shift": 0,
+						"Filter": [
+						  "652910bc24cbe3c74a05e5b9"
+						]
+					  }
+					]
+				  },
+				  "_required": true,
+				  "_mergeSlotWithChildren": false,
+				  "_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			  ]
+		},
+		"locales": {
+			"en": {
+				"name": "MCX SPEAR 7.62x51 330mm barrel",
+				"shortName": "SPEAR 330mm .308",
+				"description": "A 13 inch (330mm) barrel for the MCX SPEAR assault rifle chambered in 7.62x51 ammo. Manufactured by SIG Sauer."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_barrel"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 187250,
+		"handbookPriceRoubles": 24272,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 201,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}

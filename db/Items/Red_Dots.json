@@ -1,0 +1,75 @@
+{
+	"3f18b9a4a43e2c071b08179a": {
+		"itemTplToClone": "58d399e486f77442e0016fe7",
+		"parentId": "COMPACT_REFLEX_SIGHT",
+		"handbookParentId": "MOD_MICRO_DOT",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/DOTS/triji_mro.bundle",
+				"rcid": ""
+			},
+			"CalibrationDistances": [
+				[
+				  50,
+				  100,
+				  150,
+				  200
+				]
+			  ]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon MRO® reflex sight",
+				"shortName": "MRO",
+				"description": "The large aperture and tapered light path maximize the viewing area and allow for better situational awareness and fast target engagement—especially from non-standard shooting positions you might encounter while hunting or in military or law enforcement fields."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 29200,
+		"handbookPriceRoubles": 19000,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 21000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}

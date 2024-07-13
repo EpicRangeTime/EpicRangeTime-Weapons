@@ -1,0 +1,1187 @@
+{
+	"52ce1b65b13e1035808c4fd2": {
+		"itemTplToClone": "606587252535c57a13424cfd",
+		"parentId": "ASSAULT_RIFLE",
+		"handbookParentId": "WEAPONS_ASSAULTRIFLES",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/weapons/mk47/weapon_cmmg_mk47_762x39_container.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"60658776f2cb2e02a42ace2b",
+				"6065878ac9cf8012264142fd"
+			],
+			"ammoCaliber": "Caliber545x39",
+			"Chambers": [
+				{
+					"_name": "patron_in_weapon",
+					"_id": "cb78db79cba513fd33fc8ae2",
+					"_parent": "52ce1b65b13e1035808c4fd2",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5c0d5e4486f77478390952fe",
+									"61962b617c6c7b169525f168",
+									"56dfef82d2720bbd668b4567",
+									"56dff026d2720bb8668b4567",
+									"56dff061d2720bb5668b4567",
+									"56dff0bed2720bb0668b4567",
+									"56dff216d2720bbd668b4568",
+									"56dff2ced2720bb4668b4567",
+									"56dff338d2720bbd668b4569",
+									"56dff3afd2720bba668b4567",
+									"56dff421d2720b5f5a8b4567",
+									"56dff4a2d2720bbd668b456a",
+									"56dff4ecd2720b5f5a8b4568"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d4af244bdc2d962f8b4571"
+				}
+			],
+			"Slots": [
+				{
+					"_name": "mod_pistol_grip",
+					"_id": "abd5c65732faa312000186d0",
+					"_parent": "52ce1b65b13e1035808c4fd2",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"55d4b9964bdc2d1d4e8b456e",
+									"571659bb2459771fb2755a12",
+									"602e71bd53a60014f9705bfa",
+									"6113c3586c780c1e710c90bc",
+									"6113cc78d3a39d50044c065a",
+									"6113cce3d92c473c770200c7",
+									"5cc9bcaed7f00c011c04e179",
+									"5bb20e18d4351e00320205d5",
+									"5bb20e0ed4351e3bac1212dc",
+									"6193dcd0f8ee7e52e4210a28",
+									"5d025cc1d7ad1a53845279ef",
+									"5c6d7b3d2e221600114c9b7d",
+									"57c55efc2459772d2c6271e7",
+									"57af48872459771f0b2ebf11",
+									"57c55f092459772d291a8463",
+									"57c55f112459772d28133310",
+									"57c55f172459772d27602381",
+									"5a339805c4a2826c6e06d73d",
+									"55802f5d4bdc2dac148b458f",
+									"5d15cf3bd7ad1a67e71518b2",
+									"59db3a1d86f77429e05b4e92",
+									"5fbcbd6c187fea44d52eda14",
+									"59db3acc86f7742a2c4ab912",
+									"59db3b0886f77429d72fb895",
+									"615d8faecabb9b7ad90f4d5d",
+									"5b07db875acfc40dc528a5f6",
+									"63f5feead259b42f0b4d6d0f",
+									"652911675ae2ae97b80fdf3c"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_magazine",
+					"_id": "ade3a9887e8befeba34e4030",
+					"_parent": "52ce1b65b13e1035808c4fd2",
+					"_props": {
+						"filters": [
+							{
+								"AnimationIndex": -1,
+								"Filter": [
+									"564ca9df4bdc2d35148b4569",
+									"564ca99c4bdc2d16268b4589",
+									"55d480c04bdc2d1d4e8b456a",
+									"5cbdaf89ae9215000e5b9c94",
+									"55d481904bdc2d8c2f8b456a",
+									"55d482194bdc2d1d4e8b456b",
+									"55d4837c4bdc2d1d4e8b456c",
+									"5aaa4194e5b5b055d06310a5",
+									"5bed61680db834001d2c45ab",
+									"5bed625c0db834001c062946",
+									"649ec30cb013f04a700e60fb",
+									"64b9e265c94d0d15c5027e35"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c394bdc2dae468b4577"
+				},
+				{
+					"_name": "mod_reciever",
+					"_id": "2f9966bd159d6dbce99cc897",
+					"_parent": "52ce1b65b13e1035808c4fd2",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"606587a88900dc2d9a55b659"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_stock_001",
+					"_id": "c9c3c5b4b5a9964a6adf8181",
+					"_parent": "52ce1b65b13e1035808c4fd2",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"606587e18900dc2d9a55b65f",
+									"5a33ca0fc4a282000d72292f",
+									"5c0faeddd174af02a962601f",
+									"5649be884bdc2d79388b4577",
+									"5d120a10d7ad1a4e1026ba85",
+									"5b0800175acfc400153aebd4",
+									"5947e98b86f774778f1448bc",
+									"5947eab886f77475961d96c5",
+									"602e3f1254072b51b239f713",
+									"5c793fb92e221644f31bfb64",
+									"5c793fc42e221600114ca25d",
+									"591aef7986f774139d495f03",
+									"591af10186f774139d495f0e",
+									"627254cc9c563e6e442c398f",
+									"638de3603a1a4031d8260b8c"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_charge",
+					"_id": "612842164377af29ff5560bb",
+					"_parent": "52ce1b65b13e1035808c4fd2",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"606587bd6d0bd7580617bacc"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "CMMG Mk47 Mutant 5.45X39 assault rifle",
+				"shortName": "Mk47 5.45",
+				"description": "CMMG Mk47 Mutant, an American-made carbine chambered in 5.45x39mm, manufactured by CMMG Inc. Works with all types of AK magazines, including polymer and drums. The carbine has shown exceptional reliability, which, together with the classic ergonomics of the AR system, gives an excellent example of a firearm. This variant features a fully automatic firing mode, for Law Enforcement and Millitary use only."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 82450,
+		"handbookPriceRoubles": 22542,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 68770,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Name": "MK47",
+				"Templates": [
+					"52ce1b65b13e1035808c4fd2"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": [
+			{
+				"_changeWeaponName": false,
+                "_encyclopedia": "52ce1b65b13e1035808c4fd2",
+				"_id": "660b290e010010f38826f215",
+				"_items": [
+					{
+						"_id": "baad45aa6bf2c4c65890e4f7",
+						"_tpl": "52ce1b65b13e1035808c4fd2",
+						"upd": {
+							"Repairable": {
+								"MaxDurability": 100,
+								"Durability": 100
+							},
+							"FireMode": {
+								"FireMode": "single"
+							}
+						}
+					},
+					{
+						"_id": "d717a49ba4b11e97c56fdb8b",
+						"_tpl": "55802f5d4bdc2dac148b458f",
+						"parentId": "baad45aa6bf2c4c65890e4f7",
+						"slotId": "mod_pistol_grip"
+					},
+					{
+						"_id": "ff8fbe04f065e22388b57e6f",
+						"_tpl": "5aaa4194e5b5b055d06310a5",
+						"parentId": "baad45aa6bf2c4c65890e4f7",
+						"slotId": "mod_magazine"
+					},
+					{
+						"_id": "9018c44f7b73d321eb52140f",
+						"_tpl": "606587a88900dc2d9a55b659",
+						"parentId": "baad45aa6bf2c4c65890e4f7",
+						"slotId": "mod_reciever"
+					},
+					{
+						"_id": "001e203397cd18698de0a9ef",
+						"_tpl": "5649be884bdc2d79388b4577",
+						"parentId": "baad45aa6bf2c4c65890e4f7",
+						"slotId": "mod_stock_001"
+					},
+					{
+						"_id": "07dde5e0a3e31b604a997ef8",
+						"_tpl": "606587bd6d0bd7580617bacc",
+						"parentId": "baad45aa6bf2c4c65890e4f7",
+						"slotId": "mod_charge"
+					},
+					{
+						"_id": "0067ec2ebefb187a54e3ea62",
+						"_tpl": "7e907f07001010565675cab3",
+						"parentId": "9018c44f7b73d321eb52140f",
+						"slotId": "mod_barrel"
+					},
+					{
+						"_id": "168e9f489cff5bdb12533534",
+						"_tpl": "6065880c132d4d12c81fd8da",
+						"parentId": "9018c44f7b73d321eb52140f",
+						"slotId": "mod_handguard"
+					},
+					{
+						"_id": "394a91eb9ac632b1ffe7bc2f",
+						"_tpl": "5bc09a18d4351e003562b68e",
+						"parentId": "9018c44f7b73d321eb52140f",
+						"slotId": "mod_sight_rear"						
+					},
+					{
+						"_id": "481bbeedcaabe221109a1b9a",
+						"_tpl": "606587d11246154cad35d635",
+						"parentId": "001e203397cd18698de0a9ef",
+						"slotId": "mod_stock_000"
+					},
+					{
+						"_id": "21eb9ab815a6b195b0ab0dcb",
+						"_tpl": "6405ff6bd4578826ec3e377a",
+						"parentId": "0067ec2ebefb187a54e3ea62",
+						"slotId": "mod_muzzle"
+					},
+					{
+						"_id": "1540a6d96e38d513d5f9d8bb",
+						"_tpl": "6065dc8a132d4d12c81fd8e3",
+						"parentId": "0067ec2ebefb187a54e3ea62",
+						"slotId": "mod_gas_block"
+					},
+					{
+						"_id": "86c8ebfb809e5eda3c14bc0b",
+						"_tpl": "5bc09a30d4351e00367fb7c8",
+						"parentId": "168e9f489cff5bdb12533534",
+						"slotId": "mod_sight_front"						
+					}
+				],
+                "_name": "Mk47 5.45x39 Stock preset",
+                "_parent": "baad45aa6bf2c4c65890e4f7",
+                "_type": "Preset"
+			}
+		]
+	},
+	"96f5c38a676e11e13544dfba": {
+		"itemTplToClone": "606587252535c57a13424cfd",
+		"parentId": "ASSAULT_RIFLE",
+		"handbookParentId": "WEAPONS_ASSAULTRIFLES",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/weapons/mk47/weapon_cmmg_mk47_762x39_container.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"60658776f2cb2e02a42ace2b",
+				"6065878ac9cf8012264142fd"
+			],
+			"ammoCaliber": "Caliber9x39",
+			"Chambers": [
+				{
+					"_name": "patron_in_weapon",
+					"_id": "63a2a2159bf81aa0ca393d17",
+					"_parent": "96f5c38a676e11e13544dfba",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5c0d688c86f77413ae3407b2",
+									"61962d879bb3d20b0946d385",
+									"57a0dfb82459774d3078b56c",
+									"57a0e5022459774d1673f889",
+									"5c0d668f86f7747ccb7f13b2",
+									"6576f96220d53a5b8f3e395e"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d4af244bdc2d962f8b4571"
+				}
+			],
+			"Slots": [
+				{
+					"_name": "mod_pistol_grip",
+					"_id": "b3d340ff7b50c747d69ee311",
+					"_parent": "96f5c38a676e11e13544dfba",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"55d4b9964bdc2d1d4e8b456e",
+									"571659bb2459771fb2755a12",
+									"602e71bd53a60014f9705bfa",
+									"6113c3586c780c1e710c90bc",
+									"6113cc78d3a39d50044c065a",
+									"6113cce3d92c473c770200c7",
+									"5cc9bcaed7f00c011c04e179",
+									"5bb20e18d4351e00320205d5",
+									"5bb20e0ed4351e3bac1212dc",
+									"6193dcd0f8ee7e52e4210a28",
+									"5d025cc1d7ad1a53845279ef",
+									"5c6d7b3d2e221600114c9b7d",
+									"57c55efc2459772d2c6271e7",
+									"57af48872459771f0b2ebf11",
+									"57c55f092459772d291a8463",
+									"57c55f112459772d28133310",
+									"57c55f172459772d27602381",
+									"5a339805c4a2826c6e06d73d",
+									"55802f5d4bdc2dac148b458f",
+									"5d15cf3bd7ad1a67e71518b2",
+									"59db3a1d86f77429e05b4e92",
+									"5fbcbd6c187fea44d52eda14",
+									"59db3acc86f7742a2c4ab912",
+									"59db3b0886f77429d72fb895",
+									"615d8faecabb9b7ad90f4d5d",
+									"5b07db875acfc40dc528a5f6",
+									"63f5feead259b42f0b4d6d0f",
+									"652911675ae2ae97b80fdf3c"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_magazine",
+					"_id": "8329dacd193f092c600ebc49",
+					"_parent": "96f5c38a676e11e13544dfba",
+					"_props": {
+						"filters": [
+							{
+								"AnimationIndex": -1,
+								"Filter": [
+									"57838f0b2459774a256959b2",
+									"57838f9f2459774a150289a0",
+									"5a9e81fba2750c00164f6b11"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c394bdc2dae468b4577"
+				},
+				{
+					"_name": "mod_reciever",
+					"_id": "7c2d3024773b823b6dc93d5a",
+					"_parent": "96f5c38a676e11e13544dfba",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"606587a88900dc2d9a55b659"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_stock_001",
+					"_id": "40790e71000920452155a6e3",
+					"_parent": "96f5c38a676e11e13544dfba",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"606587e18900dc2d9a55b65f",
+									"5a33ca0fc4a282000d72292f",
+									"5c0faeddd174af02a962601f",
+									"5649be884bdc2d79388b4577",
+									"5d120a10d7ad1a4e1026ba85",
+									"5b0800175acfc400153aebd4",
+									"5947e98b86f774778f1448bc",
+									"5947eab886f77475961d96c5",
+									"602e3f1254072b51b239f713",
+									"5c793fb92e221644f31bfb64",
+									"5c793fc42e221600114ca25d",
+									"591aef7986f774139d495f03",
+									"591af10186f774139d495f0e",
+									"627254cc9c563e6e442c398f",
+									"638de3603a1a4031d8260b8c"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_charge",
+					"_id": "418946be277109ee7aa09ccb",
+					"_parent": "96f5c38a676e11e13544dfba",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"606587bd6d0bd7580617bacc"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "CMMG Mk47 Mutant 9X39 assault rifle",
+				"shortName": "Mk47 9x39",
+				"description": "CMMG Mk47 Mutant, an American-made carbine chambered in 9x39mm, manufactured by CMMG Inc. Works with all types of VAL magazines. The carbine has shown exceptional reliability, which, together with the classic ergonomics of the AR system, gives an excellent example of a firearm. This variant features a fully automatic firing mode, for Law Enforcement and Millitary use only."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 89450,
+		"handbookPriceRoubles": 23542,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 69420,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Name": "MK47",
+				"Templates": [
+					"96f5c38a676e11e13544dfba"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": [
+			{
+				"_changeWeaponName": false,
+                "_encyclopedia": "96f5c38a676e11e13544dfba",
+				"_id": "660b28c6010010f38888304f",
+				"_items": [
+					{
+						"_id": "797318f8fe5e5d58feb525a1",
+						"_tpl": "96f5c38a676e11e13544dfba",
+						"upd": {
+							"Repairable": {
+								"MaxDurability": 100,
+								"Durability": 100
+							},
+							"FireMode": {
+								"FireMode": "single"
+							}
+						}
+					},
+					{
+						"_id": "05bc6f70a0c750abebf79053",
+						"_tpl": "55802f5d4bdc2dac148b458f",
+						"parentId": "797318f8fe5e5d58feb525a1",
+						"slotId": "mod_pistol_grip"
+					},
+					{
+						"_id": "3b4b955495afa4f986ed6313",
+						"_tpl": "57838f9f2459774a150289a0",
+						"parentId": "797318f8fe5e5d58feb525a1",
+						"slotId": "mod_magazine"
+					},
+					{
+						"_id": "3d7e3fe63724f2fdfce3c902",
+						"_tpl": "606587a88900dc2d9a55b659",
+						"parentId": "797318f8fe5e5d58feb525a1",
+						"slotId": "mod_reciever"
+					},
+					{
+						"_id": "b3fd544215155a1c88fa9f02",
+						"_tpl": "5649be884bdc2d79388b4577",
+						"parentId": "797318f8fe5e5d58feb525a1",
+						"slotId": "mod_stock_001"
+					},
+					{
+						"_id": "e2a50a675175c0f3fb4a8c68",
+						"_tpl": "606587bd6d0bd7580617bacc",
+						"parentId": "797318f8fe5e5d58feb525a1",
+						"slotId": "mod_charge"
+					},
+					{
+						"_id": "10c14bab5d2c5432fdcf2ca8",
+						"_tpl": "e76f8cc1a9991402c3577669",
+						"parentId": "3d7e3fe63724f2fdfce3c902",
+						"slotId": "mod_barrel"
+					},
+					{
+						"_id": "72a075fa21fda46c33480cb3",
+						"_tpl": "6065880c132d4d12c81fd8da",
+						"parentId": "3d7e3fe63724f2fdfce3c902",
+						"slotId": "mod_handguard"
+					},
+					{
+						"_id": "a4de6c86e150d811938c53fc",
+						"_tpl": "5bc09a18d4351e003562b68e",
+						"parentId": "3d7e3fe63724f2fdfce3c902",
+						"slotId": "mod_sight_rear"
+					},
+					{
+						"_id": "a5f6227acc22cd92a988f077",
+						"_tpl": "606587d11246154cad35d635",
+						"parentId": "b3fd544215155a1c88fa9f02",
+						"slotId": "mod_stock_000"
+					},
+					{
+						"_id": "d9ecd925880997c38c384b09",
+						"_tpl": "58949dea86f77409483e16a8",
+						"parentId": "10c14bab5d2c5432fdcf2ca8",
+						"slotId": "mod_muzzle"
+					},
+					{
+						"_id": "864f1fc405c39062036138b4",
+						"_tpl": "6065dc8a132d4d12c81fd8e3",
+						"parentId": "10c14bab5d2c5432fdcf2ca8",
+						"slotId": "mod_gas_block"
+					},
+					{
+						"_id": "9b10612fc7cb81a6f5910283",
+						"_tpl": "5bc09a30d4351e00367fb7c8",
+						"parentId": "72a075fa21fda46c33480cb3",
+						"slotId": "mod_sight_front"						
+					}
+				],
+                "_name": "Mk47 9x39 Stock preset",
+                "_parent": "797318f8fe5e5d58feb525a1",
+                "_type": "Preset"
+			}
+		]
+	},
+	"7e907f07001010565675cab3": {
+		"itemTplToClone": "60658776f2cb2e02a42ace2b",
+		"parentId": "BARREL",
+		"handbookParentId": "MOD_BARREL",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/mods/barrels/barrel_mk47_cmmg_254mm_762x39.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"606587252535c57a13424cfd",
+				"96f5c38a676e11e13544dfba",
+				"6065881d1246154cad35d637",
+				"5df916dfbb49d91fb446d6b9",
+				"5f6336bbda967c74a42e9932",
+				"5d00ede1d7ad1a0940739a76",
+				"5d00ef6dd7ad1a0940739b16",
+				"5a329052c4a28200741e22d3"
+			],
+			"Recoil": -3,
+			"Slots": [
+				{
+					"_name": "mod_muzzle",
+					"_id": "ddddf345e24de69a846d8073",
+					"_parent": "7e907f07001010565675cab3",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5b3a16655acfc40016387a2a",
+									"5c7e5f112e221600106f4ede",
+									"5c0fafb6d174af02a96260ba",
+									"612e0cfc8004cc50514c2d9e",
+									"5cf6937cd7f00c056c53fb39",
+									"544a38634bdc2d58388b4568",
+									"5cff9e5ed7ad1a09407397d4",
+									"5c48a2a42e221602b66d1e07",
+									"5f6372e2865db925d54f3869",
+									"615d8e2f1cb55961fa0fd9a4",
+									"56ea8180d2720bf2698b456a",
+									"5d02676dd7ad1a049e54f6dc",
+									"56ea6fafd2720b844b8b4593",
+									"5943ee5a86f77413872d25ec",
+									"609269c3b0e443224b421cc1",
+									"5c7fb51d2e2216001219ce11",
+									"5ea172e498dacb342978818e",
+									"5c6d710d2e22165df16b81e7",
+									"612e0e55a112697a4b3a66e7",
+									"5d440625a4b9361eec4ae6c5",
+									"5cc9b815d7f00c000e2579d6",
+									"5a7c147ce899ef00150bd8b8",
+									"5c7954d52e221600106f4cc7",
+									"59bffc1f86f77435b128b872",
+									"5a9fbb84a2750c00137fa685",
+									"626667e87379c44d557b7550",
+									"62669bccdb9ebb4daa44cd14",
+									"626a74340be03179a165e30c",
+									"6386120cd6baa055ad1e201c",
+									"63ac5c9658d0485fc039f0b8",
+									"6405ff6bd4578826ec3e377a",
+									"64943b74e9998d641b0412ed"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_gas_block",
+					"_id": "46a189ba56fae9bd973012da",
+					"_parent": "7e907f07001010565675cab3",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"6065dc8a132d4d12c81fd8e3",
+									"5dfa3d45dfc58d14537c20b0"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Mk47 254mm 5.45x39 barrel",
+				"shortName": "Mk47 254mm 5.45",
+				"description": "A 254mm long barrel for the CMMG Mk47 Mutant assault rifle, chambered in 5.45x39."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_barrel"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 26450,
+		"handbookPriceRoubles": 8420,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 154,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"3a67dd4a1cda6a6d29bafc0e": {
+		"itemTplToClone": "6065878ac9cf8012264142fd",
+		"parentId": "BARREL",
+		"handbookParentId": "MOD_BARREL",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/mods/barrels/barrel_mk47_cmmg_409mm_762x39.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"606587252535c57a13424cfd",
+				"96f5c38a676e11e13544dfba"
+			],
+			"Slots": [
+				{
+					"_name": "mod_muzzle",
+					"_id": "b541bc5af5477ea41143144f",
+					"_parent": "3a67dd4a1cda6a6d29bafc0e",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5b3a16655acfc40016387a2a",
+									"5c7e5f112e221600106f4ede",
+									"5c0fafb6d174af02a96260ba",
+									"612e0cfc8004cc50514c2d9e",
+									"5cf6937cd7f00c056c53fb39",
+									"544a38634bdc2d58388b4568",
+									"5cff9e5ed7ad1a09407397d4",
+									"5c48a2a42e221602b66d1e07",
+									"5f6372e2865db925d54f3869",
+									"615d8e2f1cb55961fa0fd9a4",
+									"56ea8180d2720bf2698b456a",
+									"5d02676dd7ad1a049e54f6dc",
+									"56ea6fafd2720b844b8b4593",
+									"5943ee5a86f77413872d25ec",
+									"609269c3b0e443224b421cc1",
+									"5c7fb51d2e2216001219ce11",
+									"5ea172e498dacb342978818e",
+									"5c6d710d2e22165df16b81e7",
+									"612e0e55a112697a4b3a66e7",
+									"5d440625a4b9361eec4ae6c5",
+									"5cc9b815d7f00c000e2579d6",
+									"5a7c147ce899ef00150bd8b8",
+									"5c7954d52e221600106f4cc7",
+									"59bffc1f86f77435b128b872",
+									"5a9fbb84a2750c00137fa685",
+									"626667e87379c44d557b7550",
+									"62669bccdb9ebb4daa44cd14",
+									"626a74340be03179a165e30c",
+									"6386120cd6baa055ad1e201c",
+									"63ac5c9658d0485fc039f0b8",
+									"6405ff6bd4578826ec3e377a",
+									"64943b74e9998d641b0412ed"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_gas_block",
+					"_id": "8ea139150232f87643aad4f8",
+					"_parent": "3a67dd4a1cda6a6d29bafc0e",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"6065dc8a132d4d12c81fd8e3",
+									"5dfa3d45dfc58d14537c20b0"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Mk47 409mm 5.45x39mm barrel",
+				"shortName": "Mk47 409mm 5.45",
+				"description": "A 409mm long barrel for the CMMG Mk47 Mutant assault rifle, chambered in 5.45X39mm."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_barrel"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 276540,
+		"handbookPriceRoubles": 12200,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 167,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"e76f8cc1a9991402c3577669": {
+		"itemTplToClone": "60658776f2cb2e02a42ace2b",
+		"parentId": "BARREL",
+		"handbookParentId": "MOD_BARREL",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/mods/barrels/barrel_mk47_cmmg_254mm_762x39.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"606587252535c57a13424cfd",
+				"52ce1b65b13e1035808c4fd2",
+				"6065881d1246154cad35d637",
+				"5df916dfbb49d91fb446d6b9",
+				"5f6336bbda967c74a42e9932",
+				"5d00ede1d7ad1a0940739a76",
+				"5d00ef6dd7ad1a0940739b16",
+				"5a329052c4a28200741e22d3"
+			],
+			"Recoil": 0,
+			"Slots": [
+				{
+					"_name": "mod_muzzle",
+					"_id": "6318062a197cfdab468045ef",
+					"_parent": "e76f8cc1a9991402c3577669",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"59bffc1f86f77435b128b872",
+									"58949dea86f77409483e16a8",
+									"60337f5dce399e10262255d1",
+									"5b3a16655acfc40016387a2a",
+									"c9257470d63d1452d7617308"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_gas_block",
+					"_id": "30f48dbe32d65db2e579c06c",
+					"_parent": "e76f8cc1a9991402c3577669",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"6065dc8a132d4d12c81fd8e3",
+									"5dfa3d45dfc58d14537c20b0"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Mk47 254mm 9x39 barrel",
+				"shortName": "Mk47 254mm 9x39",
+				"description": "A 254mm long barrel for the CMMG Mk47 Mutant assault rifle, chambered in 9x39."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_barrel"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 26450,
+		"handbookPriceRoubles": 8420,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 154,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"d86734035b117af77620caf0": {
+		"itemTplToClone": "6065878ac9cf8012264142fd",
+		"parentId": "BARREL",
+		"handbookParentId": "MOD_BARREL",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/mods/barrels/barrel_mk47_cmmg_409mm_762x39.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"606587252535c57a13424cfd",
+				"52ce1b65b13e1035808c4fd2"
+			],
+			"Recoil": -2,
+			"Slots": [
+				{
+					"_name": "mod_muzzle",
+					"_id": "7c13d3fa28c3b4d52f1dea71",
+					"_parent": "d86734035b117af77620caf0",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"59bffc1f86f77435b128b872",
+									"58949dea86f77409483e16a8",
+									"60337f5dce399e10262255d1",
+									"5b3a16655acfc40016387a2a",
+									"c9257470d63d1452d7617308"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_gas_block",
+					"_id": "7db2c9762a459f7b00915101",
+					"_parent": "d86734035b117af77620caf0",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"6065dc8a132d4d12c81fd8e3",
+									"5dfa3d45dfc58d14537c20b0"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Mk47 409mm 9x39 barrel",
+				"shortName": "Mk47 254mm 9x39",
+				"description": "A 254mm long barrel for the CMMG Mk47 Mutant assault rifle, chambered in 9x39."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_barrel"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 276540,
+		"handbookPriceRoubles": 12200,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 167,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}

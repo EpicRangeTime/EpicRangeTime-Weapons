@@ -1,0 +1,362 @@
+{
+	"4b81488c78c8a8ac7d37f9b9": {
+		"itemTplToClone": "5447a9cd4bdc2dbd208b4567",
+		"parentId": "ASSAULT_RIFLE",
+		"handbookParentId": "WEAPONS_ASSAULTRIFLES",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "assets/content/weapons/m4a1/weapon_colt_m4a1_556x45_container.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"55d35ee94bdc2d61338b4568",
+				"55d3632e4bdc2d972f8b4569",
+				"5d440b93a4b9364276578d4b",
+				"5d440b9fa4b93601354d480c",
+				"5c0e2f94d174af029f650d56",
+				"63d3ce0446bd475bcb50f55f",
+				"63d3d44a2a49307baf09386d",
+				"2d2dbf0375f49c5b7ac899ab",
+				"d40c79f8cd80c888bd960068",
+				"44805f562c61dd6f99629991",
+				"cd97339d6bfa982e1539bb1c",
+				"5b62e4a75ec6adea49b29abc"
+			],
+			"defAmmo": "5fbe3ffdf8b6a877a729ea82",
+			"Chambers": [
+				{
+				  "_id": "ee9ab7d63e0f7955fbb7da18",
+				  "_mergeSlotWithChildren": false,
+				  "_name": "patron_in_weapon",
+				  "_parent": "4b81488c78c8a8ac7d37f9b9",
+				  "_props": {
+					"filters": [
+					  {
+						"Filter": [
+						  "5fbe3ffdf8b6a877a729ea82",
+						  "5fd20ff893a8961fc660a954",
+						  "619636be6db0f2477964e710",
+						  "6196364158ef8c428c287d9f",
+						  "6196365d58ef8c428c287da1",
+						  "64b8725c4b75259c590fa899"
+						]
+					  }
+					]
+				  },
+				  "_proto": "55d4af244bdc2d962f8b4571",
+				  "_required": false
+				}
+			  ],
+			  "ammoCaliber": "Caliber762x35"
+		},
+		"locales": {
+			"en": {
+				"name": "Mechanic's Colt M4A1 .300 blackout assault rifle",
+				"shortName": "M4 .300",
+				"description": "A Colt M4A1 modified by Mechanic to better fire AAC's .300 blackout round. This round is known for being a subsonic performer, effectively the United States' version of Russia's VSS when suppressed. The unsuppressed weapon is still a hard hitting supersonic 30 caliber performer, capable of reaching out in excess of 300 meters."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 72422,
+		"handbookPriceRoubles": 18397,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 47522,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": [
+			{
+				"_changeWeaponName": false,
+                "_encyclopedia": "4b81488c78c8a8ac7d37f9b9",
+				"_id": "660b250a010010f3887595de",
+				"_items": [
+					{
+						"_id": "8d7e6035e39b6dd89431781d",
+						"_tpl": "4b81488c78c8a8ac7d37f9b9",
+						"upd": {
+							"StackObjectsCount": 99,
+							"Repairable": {
+								"MaxDurability": 100,
+								"Durability": 100
+							},
+							"FireMode": {
+								"FireMode": "single"
+							}
+						}
+					},
+					{
+						"_id": "2bc92d73f0c43419bdc7433c",
+						"_tpl": "55d4b9964bdc2d1d4e8b456e",
+						"parentId": "8d7e6035e39b6dd89431781d",
+						"slotId": "mod_pistol_grip"
+					},
+					{
+						"_id": "e84a2f0bdebbe2b719f4ae39",
+						"_tpl": "55d4887d4bdc2d962f8b4570",
+						"parentId": "8d7e6035e39b6dd89431781d",
+						"slotId": "mod_magazine"
+					},
+					{
+						"_id": "0126b7e75270641d1ed1e32a",
+						"_tpl": "55d355e64bdc2d962f8b4569",
+						"parentId": "8d7e6035e39b6dd89431781d",
+						"slotId": "mod_reciever"
+					},
+					{
+						"_id": "80e60fe03df21be3f9853281",
+						"_tpl": "591aef7986f774139d495f03",
+						"parentId": "8d7e6035e39b6dd89431781d",
+						"slotId": "mod_stock"
+					},
+					{
+						"_id": "2521b7bf339267ecee903c54",
+						"_tpl": "55d44fd14bdc2d962f8b456e",
+						"parentId": "8d7e6035e39b6dd89431781d",
+						"slotId": "mod_charge"
+					},
+					{
+						"_id": "3ff19dfd87dd799f73b297ef",
+						"_tpl": "a06aec4316ac6ff7353845f4",
+						"parentId": "0126b7e75270641d1ed1e32a",
+						"slotId": "mod_barrel"
+					},
+					{
+						"_id": "36df7fe48ddb18f03221ecc4",
+						"_tpl": "eb351db5c0033682427e5ddf",
+						"parentId": "0126b7e75270641d1ed1e32a",
+						"slotId": "mod_handguard"
+					},
+					{
+						"_id": "959b15d6180ed6a7a5c11e5d",
+						"_tpl": "55d5f46a4bdc2d1b198b4567",
+						"parentId": "0126b7e75270641d1ed1e32a",
+						"slotId": "mod_sight_rear",
+						"upd": {
+							"Sight": {
+								"ScopesCurrentCalibPointIndexes": [
+									0
+								],
+								"ScopesSelectedModes": [
+									0
+								],
+								"SelectedScope": 0
+							}
+						}
+					},
+					{
+						"_id": "7428fb65a93f4496e5cab6bd",
+						"_tpl": "56eabcd4d2720b66698b4574",
+						"parentId": "3ff19dfd87dd799f73b297ef",
+						"slotId": "mod_gas_block"
+					},
+					{
+						"_id": "6f285a1c675e20bdcd719bcc",
+						"_tpl": "5d02677ad7ad1a04a15c0f95",
+						"parentId": "3ff19dfd87dd799f73b297ef",
+						"slotId": "mod_muzzle"
+					},
+					{
+						"_id": "72bd3e2becf7a80cf01ec128",
+						"_tpl": "55d4af3a4bdc2d972f8b456f",
+						"parentId": "36df7fe48ddb18f03221ecc4",
+						"slotId": "mod_sight_front",
+						"upd": {
+							"Sight": {
+								"ScopesCurrentCalibPointIndexes": [
+									0
+								],
+								"ScopesSelectedModes": [
+									0
+								],
+								"SelectedScope": 0
+							}
+						}
+					}
+				],
+                "_name": "M4 .300 Stock preset",
+                "_parent": "8d7e6035e39b6dd89431781d",
+                "_type": "Preset"
+			},
+			{
+				"_changeWeaponName": true,
+				"_id": "bfa1bfaf363aba3a6b98cbb0",
+				"_items": [
+					{
+						"_id": "98118fe26c92987c93697f65",
+						"_tpl": "4b81488c78c8a8ac7d37f9b9",
+						"upd": {
+							"Repairable": {
+								"MaxDurability": 100,
+								"Durability": 100
+							},
+							"FireMode": {
+								"FireMode": "single"
+							}
+						}
+					},
+					{
+						"_id": "e315cbe2873b9856d376502e",
+						"_tpl": "5cc9bcaed7f00c011c04e179",
+						"parentId": "98118fe26c92987c93697f65",
+						"slotId": "mod_pistol_grip"
+					},
+					{
+						"_id": "78021ca759c772c504221798",
+						"_tpl": "55d4887d4bdc2d962f8b4570",
+						"parentId": "98118fe26c92987c93697f65",
+						"slotId": "mod_magazine"
+					},
+					{
+						"_id": "4dde533e631fb24033441c03",
+						"_tpl": "5c07a8770db8340023300450",
+						"parentId": "98118fe26c92987c93697f65",
+						"slotId": "mod_reciever"
+					},
+					{
+						"_id": "bb6bd63dd678d53ce493a776",
+						"_tpl": "5d120a10d7ad1a4e1026ba85",
+						"parentId": "98118fe26c92987c93697f65",
+						"slotId": "mod_stock"
+					},
+					{
+						"_id": "2ddd4e6975066fe82ef73d42",
+						"_tpl": "5d44334ba4b9362b346d1948",
+						"parentId": "98118fe26c92987c93697f65",
+						"slotId": "mod_charge"
+					},
+					{
+						"_id": "ed338fa71c0dfc005efdbea4",
+						"_tpl": "877f002b7dadc7ae31d1fda1",
+						"parentId": "4dde533e631fb24033441c03",
+						"slotId": "mod_scope"
+					},
+					{
+						"_id": "0f142064cbd15f3b53d1e1e0",
+						"_tpl": "a06aec4316ac6ff7353845f4",
+						"parentId": "4dde533e631fb24033441c03",
+						"slotId": "mod_barrel"
+					},
+					{
+						"_id": "806d63ed913dd30f6727baa8",
+						"_tpl": "5d123102d7ad1a004e475fe5",
+						"parentId": "4dde533e631fb24033441c03",
+						"slotId": "mod_handguard"
+					},
+					{
+						"_id": "2cf4da1fc3870eacaf5f1b70",
+						"_tpl": "5d120a28d7ad1a1c8962e295",
+						"parentId": "bb6bd63dd678d53ce493a776",
+						"slotId": "mod_stock"
+					},
+					{
+						"_id": "097c4f5878c749e3bef82cbd",
+						"_tpl": "58d399e486f77442e0016fe7",
+						"parentId": "ed338fa71c0dfc005efdbea4",
+						"slotId": "mod_scope"
+					},
+					{
+						"_id": "578916680f956a5c32762f8d",
+						"_tpl": "5d00ec68d7ad1a04a067e5be",
+						"parentId": "0f142064cbd15f3b53d1e1e0",
+						"slotId": "mod_gas_block"
+					},
+					{
+						"_id": "2e7f24beffaf69a5acbe7cd8",
+						"_tpl": "5cf78496d7f00c065703d6ca",
+						"parentId": "0f142064cbd15f3b53d1e1e0",
+						"slotId": "mod_muzzle"
+					},
+					{
+						"_id": "37b303a8b90d294adf26c7b5",
+						"_tpl": "5d123a3cd7ad1a004e476058",
+						"parentId": "806d63ed913dd30f6727baa8",
+						"slotId": "mod_mount_000"
+					},
+					{
+						"_id": "0ca38942b2816f54017708ed",
+						"_tpl": "5d123a3cd7ad1a004e476058",
+						"parentId": "806d63ed913dd30f6727baa8",
+						"slotId": "mod_mount_001"
+					},
+					{
+						"_id": "9cb19692713c5c6297f622c4",
+						"_tpl": "544909bb4bdc2d6f028b4577",
+						"parentId": "806d63ed913dd30f6727baa8",
+						"slotId": "mod_tactical_000"
+					},
+					{
+						"_id": "aa1d2186471de7a912e2d174",
+						"_tpl": "626becf9582c3e319310b837",
+						"parentId": "806d63ed913dd30f6727baa8",
+						"slotId": "mod_tactical_002"
+					},
+					{
+						"_id": "b499b064610f2eb5a5e31f93",
+						"_tpl": "637f57d2f5ef8c33840d36c4",
+						"parentId": "806d63ed913dd30f6727baa8",
+						"slotId": "mod_handguard"
+					},
+					{
+						"_id": "eb748ed1947e14cd84b08eb3",
+						"_tpl": "5c878e9d2e2216000f201903",
+						"parentId": "2e7f24beffaf69a5acbe7cd8",
+						"slotId": "mod_muzzle_000"
+					},
+					{
+						"_id": "116d49077271b2c1ccbae91e",
+						"_tpl": "5cf78720d7f00c06595bc93e",
+						"parentId": "2e7f24beffaf69a5acbe7cd8",
+						"slotId": "mod_muzzle_001"
+					},
+					{
+						"_id": "b1c413139aa2c60d5adb0aca",
+						"_tpl": "5d123b7dd7ad1a004f01b262",
+						"parentId": "b499b064610f2eb5a5e31f93",
+						"slotId": "mod_foregrip"
+					}
+				],
+                "_name": "Black Division PDW",
+                "_parent": "98118fe26c92987c93697f65",
+                "_type": "Preset"
+			}
+		]
+	}
+}

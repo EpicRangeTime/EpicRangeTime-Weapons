@@ -1,0 +1,1126 @@
+{
+	"3610533f86d9fd15fc6394c6": {
+		"itemTplToClone": "5ea16acdfadf1d18c87b0784",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mcmr7_blk.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b"
+			],
+			"Recoil": 0,
+			"Ergonomics": 12
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 BCM  MCMR 7 inch M-LOK handguard",
+				"shortName": "MCMR 7",
+				"description": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 30422,
+		"handbookPriceRoubles": 8397,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 22522,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"c2b24307fb89f8984723bcdd": {
+		"itemTplToClone": "5ea16acdfadf1d18c87b0784",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mcmr7_fde.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b"
+			],
+			"Recoil": 0,
+			"Ergonomics": 12
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 BCM  MCMR 7 inch M-LOK handguard (FDE)",
+				"shortName": "MCMR 7",
+				"description": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 30422,
+		"handbookPriceRoubles": 8397,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 22522,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"cba44796106f69385fa58045": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mcmr8_blk.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b"
+			],
+			"Recoil": 0,
+			"Ergonomics": 11,
+			"Width": 2
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 BCM  MCMR 8 inch M-LOK handguard",
+				"shortName": "MCMR 8",
+				"description": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34422,
+		"handbookPriceRoubles": 8397,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 24522,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"99b4f9090dabbe90dd48a5ee": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mcmr8_fde.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b"
+			],
+			"Recoil": 0,
+			"Ergonomics": 11,
+			"Width": 2
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 BCM  MCMR 8 inch M-LOK handguard (FDE)",
+				"shortName": "MCMR 8",
+				"description": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34422,
+		"handbookPriceRoubles": 8397,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 24522,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"627c428dedfd6e61fdb522f7": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mcmr9_blk.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b"
+			],
+			"Recoil": 0,
+			"Ergonomics": 11,
+			"Width": 2
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 BCM  MCMR 9 inch M-LOK handguard",
+				"shortName": "MCMR 9",
+				"description": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 39422,
+		"handbookPriceRoubles": 8397,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 28522,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"6c06aaf97171cda862583e24": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mcmr9_fde.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b"
+			],
+			"Recoil": 0,
+			"Ergonomics": 11,
+			"Width": 2
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 BCM  MCMR 9 inch M-LOK handguard (FDE)",
+				"shortName": "MCMR 9",
+				"description": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34422,
+		"handbookPriceRoubles": 8397,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 29522,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"daf0f7382ef0252f74709d9f": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mcmr10_blk.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687"
+			],
+			"Recoil": -1,
+			"Ergonomics": 10,
+			"Width": 2
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 BCM  MCMR 10 inch M-LOK handguard",
+				"shortName": "MCMR 10",
+				"description": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 37422,
+		"handbookPriceRoubles": 8397,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 26592,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"49d2d35e1289ec81e2dae68d": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mcmr10_fde.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687"
+			],
+			"Recoil": -1,
+			"Ergonomics": 10,
+			"Width": 2
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 BCM  MCMR 10 inch M-LOK handguard (FDE)",
+				"shortName": "MCMR 10",
+				"description": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 36422,
+		"handbookPriceRoubles": 8397,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 27522,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"7ccd70caf1ff5c7501f806f6": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mcmr13_blk.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461"
+			],
+			"Recoil": -1,
+			"Ergonomics": 10
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 BCM  MCMR 13 inch M-LOK handguard",
+				"shortName": "MCMR 13",
+				"description": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 40422,
+		"handbookPriceRoubles": 8397,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 30522,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"1541c03f68a57b9f4d937a38": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mcmr13_fde.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461"
+			],
+			"Recoil": -1,
+			"Ergonomics": 10
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 BCM  MCMR 13 inch M-LOK handguard (FDE)",
+				"shortName": "MCMR 13",
+				"description": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 39422,
+		"handbookPriceRoubles": 8397,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 31522,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"b3388010e3e50af19b770e77": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mcmr15_blk.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0"
+			],
+			"Recoil": -2,
+			"Ergonomics": 10
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 BCM  MCMR 15 inch M-LOK handguard",
+				"shortName": "MCMR 15",
+				"description": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 46422,
+		"handbookPriceRoubles": 8397,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 34522,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"539b18d0242b3bc3d4ed0e7a": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/mcmr15_fde.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0"
+			],
+			"Recoil": -2,
+			"Ergonomics": 10
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 BCM  MCMR 15 inch M-LOK handguard (FDE)",
+				"shortName": "MCMR 15",
+				"description": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 48422,
+		"handbookPriceRoubles": 8397,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 34522,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}
