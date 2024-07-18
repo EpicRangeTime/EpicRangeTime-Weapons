@@ -1,0 +1,150 @@
+{
+	"41e97223a2ad6374a096ae14": {
+		"itemTplToClone": "5c07dd120db834001c39092d",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_AUX",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Magnifiers/unity_ftc_blk.bundle",
+				"rcid": ""
+			},
+            "Ergonomics": -1,
+			"Weight": 0.455,
+            "CalibrationDistances":[
+				[
+					50
+				]
+			],
+            "Width": 1,
+            "Height": 2
+		},
+		"locales": {
+			"en": {
+				"name": "Eotech G33 Magnifier /w Unity FTC mount (BLK)",
+				"shortName": "Unity FTC",
+				"description": "The FAST™ FTC OMNI magnifier mount employs a simple force-to-overcome mechanism, stowing the magnifier below the optical sight plane and completely within the footprint of the weapon’s receiver when not in use. UNITY™ Tactical’s FTC (flip-to-center) technology eliminates the flip-to-side placement of legacy products so users receive all the benefits of magnification when required with no snag hazards or occlusion of sight pictures when stowed. The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 31200,
+		"handbookPriceRoubles": 18397,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 19500,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+    "7ca248803b89788492384ba2": {
+		"itemTplToClone": "5c07dd120db834001c39092d",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_AUX",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Magnifiers/unity_ftc_fde.bundle",
+				"rcid": ""
+			},
+            "Ergonomics": -1,
+			"Weight": 0.455,
+            "CalibrationDistances":[
+				[
+					50
+				]
+			],
+            "Width": 1,
+            "Height": 2
+		},
+		"locales": {
+			"en": {
+				"name": "Eotech G33 Magnifier /w Unity FTC mount (FDE)",
+				"shortName": "Unity FTC",
+				"description": "The FAST™ FTC OMNI magnifier mount employs a simple force-to-overcome mechanism, stowing the magnifier below the optical sight plane and completely within the footprint of the weapon’s receiver when not in use. UNITY™ Tactical’s FTC (flip-to-center) technology eliminates the flip-to-side placement of legacy products so users receive all the benefits of magnification when required with no snag hazards or occlusion of sight pictures when stowed. The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 31200,
+		"handbookPriceRoubles": 18397,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 19500,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}

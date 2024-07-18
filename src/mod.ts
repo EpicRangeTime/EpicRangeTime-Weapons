@@ -106,7 +106,7 @@ implements IPreSptLoadMod, IPostDBLoadMod
             LogTextColor.GREEN
         );
         this.Instance.logger.log(
-            `[${this.modName}] "Just look at the pretty flowers, Lennie."`,
+            `[${this.modName}] "I apologize for my outburst." - Uncle Ruckus`,
             LogTextColor.GREEN
         );
         this.Instance.logger.log(

@@ -2834,7 +2834,10 @@
 						"filters": [
 							{
 								"Shift": 0,
-								"Filter": []
+								"Filter": [
+									"41e97223a2ad6374a096ae14",
+									"7ca248803b89788492384ba2"
+								]
 							}
 						]
 					},
@@ -2902,6 +2905,290 @@
 			{
 				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
 				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"2e681ada9836f6e030080191": {
+		"itemTplToClone": "5c064c400db834001d23f468",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Mounts/unity_ftc_riser_blk.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.085,
+			"Accuracy": 2,
+			"Conflictingitems": [
+				"5ae30bad5acfc400185c2dc4",
+				"5bb20e49d4351e3bac1212de",
+				"5ba26b17d4351e00367f9bdd",
+				"5dfa3d7ac41b2312ea33362a",
+				"5c1780312e221602b66cc189",
+				"5fb6564947ce63734e3fa1da",
+				"5bc09a18d4351e003562b68e",
+				"5c18b9192e2216398b5a8104",
+				"5fc0fa957283c4046c58147e",
+				"5894a81786f77427140b8347",
+				"55d5f46a4bdc2d1b198b4567",
+				"5ae30bad5acfc400185c2dc4",
+				"275def25d1abe9b101511271"
+			],
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "006c68f92a368d4b93703de9",
+					"_parent": "2e681ada9836f6e030080191",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"558022b54bdc2dac148b458d",
+									"59f9d81586f7744c7506ee62",
+									"60a23797a37c940de7062d02",
+									"655f13e0a246670fb0373245"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_tactical_001",
+					"_id": "ec2b8c4785faea2f58190cbe",
+					"_parent": "2e681ada9836f6e030080191",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"41e97223a2ad6374a096ae14",
+									"7ca248803b89788492384ba2"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Unity FAST Optic Riser (BLK)",
+				"shortName": "FAST",
+				"description": "The FAST™ Optic Riser securely elevates direct-to-rail mounted red dot optics with a standard lower 1/3 co-witness picatinny mount to a 2.26″ optical center line. The FAST™ Optic Riser provides an elevated M1913 Picatinny platform for direct attachment of optics, such as EOTech® EXPS, Vortex® UH-1 and other lower 1/3 co-witness optics. It can be paired with any FAST™ FTC (Flip-to-Center) magnifier mount."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 14300,
+		"handbookPriceRoubles": 2900,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 3950,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"e1543def58291668bac8e2c8": {
+		"itemTplToClone": "5c064c400db834001d23f468",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Mounts/unity_ftc_riser_fde.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.085,
+			"Accuracy": 2,
+			"Conflictingitems": [
+				"5ae30bad5acfc400185c2dc4",
+				"5bb20e49d4351e3bac1212de",
+				"5ba26b17d4351e00367f9bdd",
+				"5dfa3d7ac41b2312ea33362a",
+				"5c1780312e221602b66cc189",
+				"5fb6564947ce63734e3fa1da",
+				"5bc09a18d4351e003562b68e",
+				"5c18b9192e2216398b5a8104",
+				"5fc0fa957283c4046c58147e",
+				"5894a81786f77427140b8347",
+				"55d5f46a4bdc2d1b198b4567",
+				"5ae30bad5acfc400185c2dc4",
+				"275def25d1abe9b101511271"
+			],
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "5344c5b335fac8f5b2dcef2f",
+					"_parent": "e1543def58291668bac8e2c8",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"558022b54bdc2dac148b458d",
+									"59f9d81586f7744c7506ee62",
+									"60a23797a37c940de7062d02",
+									"655f13e0a246670fb0373245"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_tactical_001",
+					"_id": "2d4095dd583c870af73e9550",
+					"_parent": "e1543def58291668bac8e2c8",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"41e97223a2ad6374a096ae14",
+									"7ca248803b89788492384ba2"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Unity FAST Optic Riser (FDE)",
+				"shortName": "FAST",
+				"description": "The FAST™ Optic Riser securely elevates direct-to-rail mounted red dot optics with a standard lower 1/3 co-witness picatinny mount to a 2.26″ optical center line. The FAST™ Optic Riser provides an elevated M1913 Picatinny platform for direct attachment of optics, such as EOTech® EXPS, Vortex® UH-1 and other lower 1/3 co-witness optics. It can be paired with any FAST™ FTC (Flip-to-Center) magnifier mount."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 14300,
+		"handbookPriceRoubles": 2900,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 3950,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
 			}
 		],
 		"masteries": false,
