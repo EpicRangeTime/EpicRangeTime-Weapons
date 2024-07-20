@@ -23,7 +23,7 @@
 			"en": {
 				"name": "Eotech G33 Magnifier /w Unity FTC mount (BLK)",
 				"shortName": "Unity FTC",
-				"description": "The FAST™ FTC OMNI magnifier mount employs a simple force-to-overcome mechanism, stowing the magnifier below the optical sight plane and completely within the footprint of the weapon’s receiver when not in use. UNITY™ Tactical’s FTC (flip-to-center) technology eliminates the flip-to-side placement of legacy products so users receive all the benefits of magnification when required with no snag hazards or occlusion of sight pictures when stowed. The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight."
+				"description": "The FAST FTC OMNI magnifier mount employs a simple force-to-overcome mechanism, stowing the magnifier below the optical sight plane and completely within the footprint of the weapon’s receiver when not in use. UNITY™ Tactical’s FTC (flip-to-center) technology eliminates the flip-to-side placement of legacy products so users receive all the benefits of magnification when required with no snag hazards or occlusion of sight pictures when stowed. The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight."
 			}
 		},
 		"clearClonedProps": false,
@@ -97,7 +97,7 @@
 			"en": {
 				"name": "Eotech G33 Magnifier /w Unity FTC mount (FDE)",
 				"shortName": "Unity FTC",
-				"description": "The FAST™ FTC OMNI magnifier mount employs a simple force-to-overcome mechanism, stowing the magnifier below the optical sight plane and completely within the footprint of the weapon’s receiver when not in use. UNITY™ Tactical’s FTC (flip-to-center) technology eliminates the flip-to-side placement of legacy products so users receive all the benefits of magnification when required with no snag hazards or occlusion of sight pictures when stowed. The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight."
+				"description": "The FAST FTC OMNI magnifier mount employs a simple force-to-overcome mechanism, stowing the magnifier below the optical sight plane and completely within the footprint of the weapon’s receiver when not in use. UNITY™ Tactical’s FTC (flip-to-center) technology eliminates the flip-to-side placement of legacy products so users receive all the benefits of magnification when required with no snag hazards or occlusion of sight pictures when stowed. The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight."
 			}
 		},
 		"clearClonedProps": false,

@@ -1,0 +1,1626 @@
+{
+    "bee69903a79a897514c85412": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr9_blk.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 1,
+            "Width": 2,
+            "Weight": 0.153,
+            "Ergonomics": 8,
+            "Recoil": 0,
+            "ConflictingItems": [
+                "6357c98711fb55120211f7e1",
+                "5ae30e795acfc408fb139a0b",
+                "a06aec4316ac6ff7353845f4"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 9 inch M-LOK handguard (BLK)",
+                "shortName": "MFR 9\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 26300,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "SKIER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 16290,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "0ff4b9f8bb8232315f36ffba": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr9_cbt.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 1,
+            "Width": 2,
+            "Weight": 0.153,
+            "Ergonomics": 8,
+            "Recoil": 0,
+            "ConflictingItems": [
+                "6357c98711fb55120211f7e1",
+                "5ae30e795acfc408fb139a0b",
+                "a06aec4316ac6ff7353845f4"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 9 inch M-LOK handguard (Cobalt)",
+                "shortName": "MFR 9\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 26300,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "SKIER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 16290,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "e54bf17e790c56ecd831753f": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr9_dw.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 1,
+            "Width": 2,
+            "Weight": 0.153,
+            "Ergonomics": 8,
+            "Recoil": 0,
+            "ConflictingItems": [
+                "6357c98711fb55120211f7e1",
+                "5ae30e795acfc408fb139a0b",
+                "a06aec4316ac6ff7353845f4"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 9 inch M-LOK handguard (Deep Woods)",
+                "shortName": "MFR 9\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 26300,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "SKIER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 16290,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "9eec17c39b0fca74b9e6827c": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr9_fde.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 1,
+            "Width": 2,
+            "Weight": 0.153,
+            "Ergonomics": 8,
+            "Recoil": 0,
+            "ConflictingItems": [
+                "6357c98711fb55120211f7e1",
+                "5ae30e795acfc408fb139a0b",
+                "a06aec4316ac6ff7353845f4"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 9 inch M-LOK handguard (Mil-FDE)",
+                "shortName": "MFR 9\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 26300,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "SKIER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 16290,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "26011b09865a424f95c22619": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr10_blk.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 1,
+            "Width": 2,
+            "Weight": 0.175,
+            "Ergonomics": 7,
+            "Recoil": -1,
+            "ConflictingItems": [
+                "6357c98711fb55120211f7e1",
+                "5ae30e795acfc408fb139a0b",
+                "a06aec4316ac6ff7353845f4",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 10 inch M-LOK handguard (BLK)",
+                "shortName": "MFR 10\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 27600,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "SKIER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 17420,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "17ddd81c001383de5709cb7d": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr10_cbt.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 1,
+            "Width": 2,
+            "Weight": 0.175,
+            "Ergonomics": 7,
+            "Recoil": -1,
+            "ConflictingItems": [
+                "6357c98711fb55120211f7e1",
+                "5ae30e795acfc408fb139a0b",
+                "a06aec4316ac6ff7353845f4",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 10 inch M-LOK handguard (Cobalt)",
+                "shortName": "MFR 10\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 27600,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "SKIER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 17420,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "75773b218c774da8fcbc10f7": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr10_dw.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 1,
+            "Width": 2,
+            "Weight": 0.175,
+            "Ergonomics": 7,
+            "Recoil": -1,
+            "ConflictingItems": [
+                "6357c98711fb55120211f7e1",
+                "5ae30e795acfc408fb139a0b",
+                "a06aec4316ac6ff7353845f4",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 10 inch M-LOK handguard (Deep Woods)",
+                "shortName": "MFR 10\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 27600,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "SKIER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 17420,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "a0abb28616af5a7f474b3649": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr10_fde.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 1,
+            "Width": 2,
+            "Weight": 0.175,
+            "Ergonomics": 7,
+            "Recoil": -1,
+            "ConflictingItems": [
+                "6357c98711fb55120211f7e1",
+                "5ae30e795acfc408fb139a0b",
+                "a06aec4316ac6ff7353845f4",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 10 inch M-LOK handguard (Mil-FDE)",
+                "shortName": "MFR 10\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 27600,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "SKIER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 17420,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "8f6edf466418c1b8d9356625": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr13_5_blk.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 2,
+            "Width": 3,
+            "Weight": 0.226,
+            "Ergonomics": 8,
+            "Recoil": -2,
+            "ConflictingItems": [
+                "55d35ee94bdc2d61338b4568",
+				"2d2dbf0375f49c5b7ac899ab",
+				"d40c79f8cd80c888bd960068",
+				"44805f562c61dd6f99629991",
+				"a06aec4316ac6ff7353845f4",
+				"5ae30e795acfc408fb139a0b",
+				"603372b4da11d6478d5a07ff",
+				"603372d154072b51b239f9e1",
+				"6357c98711fb55120211f7e1",
+				"c6b01e3e7a1ec6168254e687",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+                "63d3ce0446bd475bcb50f55f",
+                "bc9a059a5c6cb11a3b57c670"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 13.5 inch M-LOK handguard (BLK)",
+                "shortName": "MFR 13.5\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 25440,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 146,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "07c74d946af09d5059bd38db": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr13_5_cbt.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 2,
+            "Width": 3,
+            "Weight": 0.226,
+            "Ergonomics": 8,
+            "Recoil": -2,
+            "ConflictingItems": [
+                "55d35ee94bdc2d61338b4568",
+				"2d2dbf0375f49c5b7ac899ab",
+				"d40c79f8cd80c888bd960068",
+				"44805f562c61dd6f99629991",
+				"a06aec4316ac6ff7353845f4",
+				"5ae30e795acfc408fb139a0b",
+				"603372b4da11d6478d5a07ff",
+				"603372d154072b51b239f9e1",
+				"6357c98711fb55120211f7e1",
+				"c6b01e3e7a1ec6168254e687",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+                "63d3ce0446bd475bcb50f55f",
+                "bc9a059a5c6cb11a3b57c670"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 13.5 inch M-LOK handguard (Cobalt)",
+                "shortName": "MFR 13.5\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 25440,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 146,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "df9d8454a7214334710f8fc0": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr13_5_dw.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 2,
+            "Width": 3,
+            "Weight": 0.226,
+            "Ergonomics": 8,
+            "Recoil": -2,
+            "ConflictingItems": [
+                "55d35ee94bdc2d61338b4568",
+				"2d2dbf0375f49c5b7ac899ab",
+				"d40c79f8cd80c888bd960068",
+				"44805f562c61dd6f99629991",
+				"a06aec4316ac6ff7353845f4",
+				"5ae30e795acfc408fb139a0b",
+				"603372b4da11d6478d5a07ff",
+				"603372d154072b51b239f9e1",
+				"6357c98711fb55120211f7e1",
+				"c6b01e3e7a1ec6168254e687",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+                "63d3ce0446bd475bcb50f55f",
+                "bc9a059a5c6cb11a3b57c670"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 13.5 inch M-LOK handguard (Deep Woods)",
+                "shortName": "MFR 13.5\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 25440,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 146,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "a66f8c0dc225ec71541a8be1": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr13_5_fde.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 2,
+            "Width": 3,
+            "Weight": 0.226,
+            "Ergonomics": 8,
+            "Recoil": -2,
+            "ConflictingItems": [
+                "55d35ee94bdc2d61338b4568",
+				"2d2dbf0375f49c5b7ac899ab",
+				"d40c79f8cd80c888bd960068",
+				"44805f562c61dd6f99629991",
+				"a06aec4316ac6ff7353845f4",
+				"5ae30e795acfc408fb139a0b",
+				"603372b4da11d6478d5a07ff",
+				"603372d154072b51b239f9e1",
+				"6357c98711fb55120211f7e1",
+				"c6b01e3e7a1ec6168254e687",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+                "63d3ce0446bd475bcb50f55f",
+                "bc9a059a5c6cb11a3b57c670"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 13.5 inch M-LOK handguard (Mil-FDE)",
+                "shortName": "MFR 13.5\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 25440,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 146,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "7fcdd565380cb8fc9b0fb1f1": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr15_blk.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 2,
+            "Width": 3,
+            "Weight": 0.286,
+            "Ergonomics": 10,
+            "Recoil": -2,
+            "ConflictingItems": [
+                "a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0",
+                "55d3632e4bdc2d972f8b4569",
+                "855c66034be3bb6aece3919b",
+                "63d3d44a2a49307baf09386d",
+                "f8774eaf5abb081a89bbb950",
+                "5b62e4a75ec6adea49b29abc",
+                "cd97339d6bfa982e1539bb1c",
+                "5c0e2f94d174af029f650d56",
+                "e9a6cb55be806cb35811ebb3",
+                "63d3ce0446bd475bcb50f55f"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 15 inch M-LOK handguard (BLK)",
+                "shortName": "MFR 15\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 26300,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 166,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "43814001cfda6adc7f69fe6b": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr15_cbt.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 2,
+            "Width": 3,
+            "Weight": 0.286,
+            "Ergonomics": 10,
+            "Recoil": -2,
+            "ConflictingItems": [
+                "a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0",
+                "55d3632e4bdc2d972f8b4569",
+                "855c66034be3bb6aece3919b",
+                "63d3d44a2a49307baf09386d",
+                "f8774eaf5abb081a89bbb950",
+                "5b62e4a75ec6adea49b29abc",
+                "cd97339d6bfa982e1539bb1c",
+                "5c0e2f94d174af029f650d56",
+                "e9a6cb55be806cb35811ebb3",
+                "63d3ce0446bd475bcb50f55f"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 15 inch M-LOK handguard (Cobalt)",
+                "shortName": "MFR 15\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 26300,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 166,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "7a431acbc2bc03fb8305fc93": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr15_dw.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 2,
+            "Width": 3,
+            "Weight": 0.286,
+            "Ergonomics": 10,
+            "Recoil": -2,
+            "ConflictingItems": [
+                "a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0",
+                "55d3632e4bdc2d972f8b4569",
+                "855c66034be3bb6aece3919b",
+                "63d3d44a2a49307baf09386d",
+                "f8774eaf5abb081a89bbb950",
+                "5b62e4a75ec6adea49b29abc",
+                "cd97339d6bfa982e1539bb1c",
+                "5c0e2f94d174af029f650d56",
+                "e9a6cb55be806cb35811ebb3",
+                "63d3ce0446bd475bcb50f55f"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 15 inch M-LOK handguard (Deep Woods)",
+                "shortName": "MFR 15\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 26300,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 166,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "622d454e517ae2325e623625": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15/mfr15_fde.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 2,
+            "Width": 3,
+            "Weight": 0.286,
+            "Ergonomics": 10,
+            "Recoil": -2,
+            "ConflictingItems": [
+                "a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0",
+                "55d3632e4bdc2d972f8b4569",
+                "855c66034be3bb6aece3919b",
+                "63d3d44a2a49307baf09386d",
+                "f8774eaf5abb081a89bbb950",
+                "5b62e4a75ec6adea49b29abc",
+                "cd97339d6bfa982e1539bb1c",
+                "5c0e2f94d174af029f650d56",
+                "e9a6cb55be806cb35811ebb3",
+                "63d3ce0446bd475bcb50f55f"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Daniel Defense MFR 15 inch M-LOK handguard (Mil-FDE)",
+                "shortName": "MFR 15\"",
+                "description": "The MFR Rail Systems from Daniel Defense utilize the M-LOK attachment system for incredible weight savings as well as superior cooling, ergonomics, and modularity while maintaining the strength and durability expected from Daniel Defense."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 26300,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 166,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1700
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 1700
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    }
+}

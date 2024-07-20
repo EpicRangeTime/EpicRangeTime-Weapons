@@ -1,0 +1,217 @@
+{
+	"8d5a67fd685ff05e7253b4f7": {
+		"itemTplToClone": "628121434fa03b6b6c35dc6a",
+		"parentId": "BARREL",
+		"handbookParentId": "MOD_BARREL",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/LAPUA/barrel_ax_accuracy_international_508mm_762x51_pb.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": -9,
+			"Recoil": -2,
+			"Velocity": 2.8,
+			"Weight": 1.378,
+			"Width": 3,
+			"ExtraSizeLeft": 3
+		},
+		"locales": {
+			"en": {
+				"name": "AI AXMC .338 LM 20 inch barrel",
+				"shortName": "AXMC .338LM 20\"",
+				"description": "A 20 inch (508mm) barrel for the AI AXMC chambered in .338 Lapua Magnum ammo."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_barrel"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 128200,
+		"handbookPriceRoubles": 58000,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 68250,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": []
+	},
+	"013114b6d9dc19eda4d0cad3": {
+		"itemTplToClone": "628121434fa03b6b6c35dc6a",
+		"parentId": "BARREL",
+		"handbookParentId": "MOD_BARREL",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/LAPUA/barrel_ax_accuracy_international_610mm_762x51_pb.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": -13,
+			"Recoil": -3,
+			"Velocity": 4.2,
+			"Weight": 1.654
+		},
+		"locales": {
+			"en": {
+				"name": "AI AXMC .338 LM 24 inch barrel",
+				"shortName": "AXMC .338LM 24\"",
+				"description": "A 24 inch (610mm) barrel for the AI AXMC chambered in .338 Lapua Magnum ammo."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_barrel"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 124200,
+		"handbookPriceRoubles": 58000,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 70250,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": []
+	},
+	"a3a94608ed92771a766c6244": {
+		"itemTplToClone": "628121434fa03b6b6c35dc6a",
+		"parentId": "BARREL",
+		"handbookParentId": "MOD_BARREL",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/LAPUA/barrel_ax_accuracy_international_660mm_762x51_pb.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": -15,
+			"Recoil": -4,
+			"Velocity": 5,
+			"Weight": 1.723
+		},
+		"locales": {
+			"en": {
+				"name": "AI AXMC .338 LM 25 inch barrel",
+				"shortName": "AXMC .338LM 25\"",
+				"description": "A 25 inch (660mm) barrel for the AI AXMC chambered in .338 Lapua Magnum ammo."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_barrel"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 118200,
+		"handbookPriceRoubles": 58000,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 72250,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": []
+	}
+}
