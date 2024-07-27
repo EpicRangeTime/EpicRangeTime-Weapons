@@ -130,8 +130,8 @@
 			"Weight": 0.715,
 			"AimSensitivity": [
 				[
-					0.59,
-					0.1325
+					0.5,
+					0.11
 				],
 				[
 					0.7
@@ -259,11 +259,11 @@
 			],
 			"AimSensitivity": [
 				[
-					0.1,
-					0.075,
-					0.05,
-					0.025,
-					0.01
+					0.08,
+					0.055,
+					0.03,
+					0.005,
+					0.001
 				]
 			],
 			"CalibrationDistances": [
@@ -492,7 +492,7 @@
 			],
 			"AimSensitivity": [
 				[
-					0.14
+					0.11
 				]
 			],
 			"CalibrationDistances": [
@@ -636,7 +636,7 @@
 			],
 			"AimSensitivity": [
 				[
-					0.14
+					0.11
 				]
 			],
 			"CalibrationDistances": [
@@ -780,7 +780,7 @@
 			],
 			"AimSensitivity": [
 				[
-					0.14
+					0.11
 				]
 			],
 			"CalibrationDistances": [
@@ -924,7 +924,7 @@
 			],
 			"AimSensitivity": [
 				[
-					0.14
+					0.11
 				]
 			],
 			"CalibrationDistances": [
@@ -1068,7 +1068,7 @@
 			],
 			"AimSensitivity": [
 				[
-					0.14
+					0.11
 				]
 			],
 			"CalibrationDistances": [
@@ -1212,7 +1212,7 @@
 			],
 			"AimSensitivity": [
 				[
-					0.14
+					0.11
 				]
 			],
 			"CalibrationDistances": [
@@ -1356,7 +1356,7 @@
 			],
 			"AimSensitivity": [
 				[
-					0.43
+					0.38
 				]
 			],
 			"CalibrationDistances": [
@@ -1401,6 +1401,234 @@
 			}
 		],
 		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"85675a91454713828d6138e5": {
+		"itemTplToClone": "56ea70acd2720b844b8b4594",
+		"parentId": "SCOPE",
+		"handbookParentId": "MOD_OPTIC",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/SCOPES/vortex_eleanor_1_10_blk.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.585,
+			"ModesCount": [
+				3
+			],
+			"Zooms": [
+				[
+					1,
+					5,
+					10
+				]
+			],
+			"AimSensitivity": [
+				[
+					0.5,
+					0.2,
+					0.04
+				]
+			],
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300,
+					350,
+					400
+				]
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Vortex AMG 1-10x24 34mm riflescope",
+				"shortName": "AMG 1-10x24",
+				"description": "The Vortex AMG 1-10x24 scope complete with the EBR-9 reticle. First focal plane functionality allows the reticle to be accurate at all magnifications, and a nice wide fov on 1x allows the user great flexibility."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope_000",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 78200,
+		"handbookPriceRoubles": 44500,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 57250,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"cd609524dadc768a89f99bba": {
+		"itemTplToClone": "56ea70acd2720b844b8b4594",
+		"parentId": "SCOPE",
+		"handbookParentId": "MOD_OPTIC",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/SCOPES/vortex_eleanor_1_10_fde.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.585,
+			"ModesCount": [
+				3
+			],
+			"Zooms": [
+				[
+					1,
+					5,
+					10
+				]
+			],
+			"AimSensitivity": [
+				[
+					0.5,
+					0.2,
+					0.04
+				]
+			],
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300,
+					350,
+					400
+				]
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Vortex Eleanor 1-10x24 34mm riflescope",
+				"shortName": "Eleanor",
+				"description": "The Vortex AMG 1-10x24 scope complete with the EBR-9 reticle. This color is the version commissioned by the british armed forces for use on their new L403A1 built by Knights Armament Company and known to civilians as the KS-1 rifle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope_000",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 78200,
+		"handbookPriceRoubles": 44500,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 62000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [

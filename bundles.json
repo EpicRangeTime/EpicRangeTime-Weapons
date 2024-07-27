@@ -1361,6 +1361,38 @@
             ]
         },
         {
+            "key": "Mods/HK/hk_smr_10_5_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/HK/hk_smr_10_5_ddc.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/HK/hk_smr_14_5_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/HK/hk_smr_14_5_ddc.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/LAPUA/barrel_ax_accuracy_international_508mm_762x51_pb.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -1409,14 +1441,19 @@
             ]
         },
         {
+            "key": "Mods/Magnifiers/g33_exps3_magnifier.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Magnifiers/unity_ftc_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle",
-                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
-                "assets/content/textures/holemanager/round_spec_mask.bundle",
-                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
         {
@@ -1424,10 +1461,7 @@
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle",
-                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
-                "assets/content/textures/holemanager/round_spec_mask.bundle",
-                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
         {

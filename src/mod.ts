@@ -98,7 +98,7 @@ implements IPreSptLoadMod, IPostDBLoadMod
     private displayCreditBanner(): void 
     {
         this.Instance.logger.log(
-            `[${this.modName}] ------------------------------------------------------------------------`,
+            `[${this.modName}] ----------------------------------------------------------------------------`,
             LogTextColor.GREEN
         );
         this.Instance.logger.log(
@@ -106,11 +106,11 @@ implements IPreSptLoadMod, IPostDBLoadMod
             LogTextColor.GREEN
         );
         this.Instance.logger.log(
-            `[${this.modName}] "I apologize for my outburst." - Uncle Ruckus`,
+            `[${this.modName}] "People have an annoying habit of remembering things they shouldn't." - Brom`,
             LogTextColor.GREEN
         );
         this.Instance.logger.log(
-            `[${this.modName}] ------------------------------------------------------------------------`,
+            `[${this.modName}] ---------------------------------------------------------------------------`,
             LogTextColor.GREEN
         );
     }

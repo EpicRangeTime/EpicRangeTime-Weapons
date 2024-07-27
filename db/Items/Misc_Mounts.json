@@ -10,7 +10,8 @@
 				"rcid": ""
 			},
 			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4"
+				"5ae30bad5acfc400185c2dc4",
+				"8d9e9ff3020f92eb5fc46680"
 			],
 			"Ergonomics": 2,
 			"Width": 1,
@@ -145,7 +146,8 @@
 				"rcid": ""
 			},
 			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4"
+				"5ae30bad5acfc400185c2dc4",
+				"8d9e9ff3020f92eb5fc46680"
 			],
 			"Ergonomics": 2,
 			"Width": 1,
@@ -280,7 +282,8 @@
 				"rcid": ""
 			},
 			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4"
+				"5ae30bad5acfc400185c2dc4",
+				"8d9e9ff3020f92eb5fc46680"
 			],
 			"Width": 2,
 			"Slots": [
@@ -412,7 +415,8 @@
 				"rcid": ""
 			},
 			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4"
+				"5ae30bad5acfc400185c2dc4",
+				"8d9e9ff3020f92eb5fc46680"
 			],
 			"Width": 2,
 			"Slots": [
@@ -545,7 +549,8 @@
 			},
 			"Conflictingitems": [
 				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271"
+				"275def25d1abe9b101511271",
+				"8d9e9ff3020f92eb5fc46680"
 			],
 			"Ergonomics": 2,
 			"ExtraSizeUp": 1,
@@ -822,7 +827,8 @@
 				"623166e08c43374ca1567195",
 				"56083e1b4bdc2dc8488b4572",
 				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271"
+				"275def25d1abe9b101511271",
+				"8d9e9ff3020f92eb5fc46680"
 			],
 			"Slots": [
 				{
@@ -837,7 +843,11 @@
 									"56ea70acd2720b844b8b4594",
 									"5aa66be6e5b5b0214e506e97",
 									"61714eec290d254f5e6b2ffc",
-									"62850c28da09541f43158cca"
+									"62850c28da09541f43158cca",
+									"85675a91454713828d6138e5",
+									"cd609524dadc768a89f99bba",
+									"750bcfb1b1f84f27a8f4f282",
+									"0afaf0c97b1d068d242df1dc"
 								]
 							}
 						]
@@ -981,7 +991,8 @@
 				"623166e08c43374ca1567195",
 				"56083e1b4bdc2dc8488b4572",
 				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271"
+				"275def25d1abe9b101511271",
+				"8d9e9ff3020f92eb5fc46680"
 			],
 			"Slots": [
 				{
@@ -996,7 +1007,11 @@
 									"56ea70acd2720b844b8b4594",
 									"5aa66be6e5b5b0214e506e97",
 									"61714eec290d254f5e6b2ffc",
-									"62850c28da09541f43158cca"
+									"62850c28da09541f43158cca",
+									"85675a91454713828d6138e5",
+									"cd609524dadc768a89f99bba",
+									"750bcfb1b1f84f27a8f4f282",
+									"0afaf0c97b1d068d242df1dc"
 								]
 							}
 						]
@@ -1979,6 +1994,10 @@
 				"path": "Mods/Mounts/mro_short.bundle",
 				"rcid": ""
 			},
+			"Conflictingitems": [
+				"5ae30bad5acfc400185c2dc4",
+				"8d9e9ff3020f92eb5fc46680"
+			],
 			"Slots": [
 				{
 					"_name": "mod_scope",
@@ -2082,6 +2101,10 @@
 				"path": "Mods/Mounts/mro_tall.bundle",
 				"rcid": ""
 			},
+			"Conflictingitems": [
+				"5ae30bad5acfc400185c2dc4",
+				"8d9e9ff3020f92eb5fc46680"
+			],
 			"Slots": [
 				{
 					"_name": "mod_scope",
@@ -2361,7 +2384,8 @@
 				"rcid": ""
 			},
 			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4"
+				"5ae30bad5acfc400185c2dc4",
+				"8d9e9ff3020f92eb5fc46680"
 			],
 			"Ergonomics": 1
 		},
@@ -2448,7 +2472,8 @@
 				"rcid": ""
 			},
 			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4"
+				"5ae30bad5acfc400185c2dc4",
+				"8d9e9ff3020f92eb5fc46680"
 			],
 			"Ergonomics": 1
 		},
@@ -2537,7 +2562,8 @@
 			"Conflictingitems": [
 				"5ae30bad5acfc400185c2dc4",
 				"55d5f46a4bdc2d1b198b4567",
-				"275def25d1abe9b101511271"
+				"275def25d1abe9b101511271",
+				"8d9e9ff3020f92eb5fc46680"
 			],
 			"Slots": [
 				{
@@ -2677,7 +2703,9 @@
 						"filters": [
 							{
 								"Shift": 0,
-								"Filter": []
+								"Filter": [
+									"8d9e9ff3020f92eb5fc46680"
+								]
 							}
 						]
 					},
@@ -2782,7 +2810,8 @@
 				"5894a81786f77427140b8347",
 				"55d5f46a4bdc2d1b198b4567",
 				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271"
+				"275def25d1abe9b101511271",
+				"8d9e9ff3020f92eb5fc46680"
 			],
 			"Width": 2,
 			"Slots": [
@@ -2944,7 +2973,8 @@
 				"5894a81786f77427140b8347",
 				"55d5f46a4bdc2d1b198b4567",
 				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271"
+				"275def25d1abe9b101511271",
+				"8d9e9ff3020f92eb5fc46680"
 			],
 			"Slots": [
 				{
@@ -3086,7 +3116,8 @@
 				"5894a81786f77427140b8347",
 				"55d5f46a4bdc2d1b198b4567",
 				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271"
+				"275def25d1abe9b101511271",
+				"8d9e9ff3020f92eb5fc46680"
 			],
 			"Slots": [
 				{
@@ -3189,6 +3220,715 @@
 			{
 				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
 				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"7af1b735539670b26a3fe68b": {
+		"itemTplToClone": "618b9643526131765025ab35",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/reptilia_34mm_mount_fde.bundle",
+				"rcid": ""
+			},
+			"Conflictingitems": [
+				"55d5f46a4bdc2d1b198b4567",
+				"623166e08c43374ca1567195",
+				"56083e1b4bdc2dc8488b4572",
+				"5ae30bad5acfc400185c2dc4",
+				"275def25d1abe9b101511271",
+				"8d9e9ff3020f92eb5fc46680"
+			],
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "c3a0c6726558534a52ef5b91",
+					"_parent": "7af1b735539670b26a3fe68b",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"56ea70acd2720b844b8b4594",
+									"5aa66be6e5b5b0214e506e97",
+									"61714eec290d254f5e6b2ffc",
+									"62850c28da09541f43158cca",
+									"85675a91454713828d6138e5",
+									"cd609524dadc768a89f99bba",
+									"750bcfb1b1f84f27a8f4f282",
+									"0afaf0c97b1d068d242df1dc"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_mount",
+					"_id": "0c52c2da4a9b89161febdd6b",
+					"_parent": "67ea8b32e0d7701fc6bfc5bf",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"0ce104382851509ab14fb19c",
+									"27b92c2226b1110635235c2e",
+									"04b7ab7e14e564819a6d0e22",
+									"0d914f394390e16506a949da",
+									"7b3525a6de4f4847921529c0",
+									"159023b10fa02ac28247fce3"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Reptilia AUS 34mm ring scope mount (FDE)",
+				"shortName": "AUS 34mm",
+				"description": "Introducing the AUS Mount for 34mm diameter magnified optics, from Reptilia. Driven by the request of an end user group, the AUS Mount is the culmination of a 2 year development program."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 27520,
+		"handbookPriceRoubles": 9000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 14290,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"0ce104382851509ab14fb19c": {
+		"itemTplToClone": "618b9682a3884f56c957ca78",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/reptilia_34mm_rmr_blk.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_name": "mod_scope_001",
+					"_id": "4af17e6e372c170c6cf5111f",
+					"_parent": "0ce104382851509ab14fb19c",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5a32aa8bc4a2826c6e06d737",
+									"81ee14e532991b2b9993ae0e",
+									"ac738256c846acc25b183a80",
+									"26f02172906cbaa1ae78e57d",
+									"87690b1fadc788a959d42e46"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Reptilia 34mm ROF-90 RMR mount for Reptilia scope mounts (BLK)",
+				"shortName": "ROF-90 RMR",
+				"description": "The Reptilia ROF-90 mount allows installation of the Trijicon RMR reflex sight on the Reptilia AUS scope mount series. Replaces the standard Reptilia top ring caps."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 17900,
+		"handbookPriceRoubles": 1500,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 2820,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"27b92c2226b1110635235c2e": {
+		"itemTplToClone": "618b9682a3884f56c957ca78",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/reptilia_34mm_rmr_fde.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_name": "mod_scope_001",
+					"_id": "f91cd50a4418d2ad0d3c0010",
+					"_parent": "27b92c2226b1110635235c2e",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5a32aa8bc4a2826c6e06d737",
+									"81ee14e532991b2b9993ae0e",
+									"ac738256c846acc25b183a80",
+									"26f02172906cbaa1ae78e57d",
+									"87690b1fadc788a959d42e46"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Reptilia 34mm ROF-90 RMR mount for Reptilia scope mounts (FDE)",
+				"shortName": "ROF-90 RMR",
+				"description": "The Reptilia ROF-90 mount allows installation of the Trijicon RMR reflex sight on the Reptilia AUS scope mount series. Replaces the standard Reptilia top ring caps."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 17900,
+		"handbookPriceRoubles": 1500,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 2820,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"04b7ab7e14e564819a6d0e22": {
+		"itemTplToClone": "618b9671d14d6d5ab879c5ea",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/reptilia_ring_blk.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "Reptilia AUS 34mm top ring cap (BLK)",
+				"shortName": "AUS top",
+				"description": "A regular 34mm top ring cap for the Reptilia AUS mounts."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 39500,
+		"handbookPriceRoubles": 1700,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 2000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"0d914f394390e16506a949da": {
+		"itemTplToClone": "618b9671d14d6d5ab879c5ea",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/reptilia_ring_fde.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "Reptilia AUS 34mm top ring cap (FDE)",
+				"shortName": "AUS top",
+				"description": "A regular 34mm top ring cap for the Reptilia AUS mounts."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 39500,
+		"handbookPriceRoubles": 1700,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 2000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"7b3525a6de4f4847921529c0": {
+		"itemTplToClone": "618b9682a3884f56c957ca78",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/reptilia_34mm_acro_blk.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_name": "mod_scope_002",
+					"_id": "1a4f4edf8fd029061b535969",
+					"_parent": "7b3525a6de4f4847921529c0",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"616442e4faa1272e43152193"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Reptilia 34mm ROF-90 ACRO mount for Reptilia scope mounts (BLK)",
+				"shortName": "ROF-90 ACRO",
+				"description": "The Reptilia ROF-90 mount allows installation of the Aimpoint ACRO reflex sight on the Reptilia AUS scope mount series. Replaces the standard Reptilia top ring caps."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 17900,
+		"handbookPriceRoubles": 1500,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 2820,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"159023b10fa02ac28247fce3": {
+		"itemTplToClone": "618b9682a3884f56c957ca78",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/reptilia_34mm_acro_fde.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_name": "mod_scope_002",
+					"_id": "6a1d20ed9fe6722e330e4c26",
+					"_parent": "159023b10fa02ac28247fce3",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"616442e4faa1272e43152193"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Reptilia 34mm ROF-90 ACRO mount for Reptilia scope mounts (FDE)",
+				"shortName": "ROF-90 ACRO",
+				"description": "The Reptilia ROF-90 mount allows installation of the Aimpoint ACRO reflex sight on the Reptilia AUS scope mount series. Replaces the standard Reptilia top ring caps."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 17900,
+		"handbookPriceRoubles": 1500,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 2820,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
 			}
 		],
 		"masteries": false,
