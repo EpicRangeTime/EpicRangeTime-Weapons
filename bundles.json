@@ -1353,6 +1353,14 @@
             ]
         },
         {
+            "key": "Mods/DOTS/acro_p2.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/DOTS/triji_mro.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -1570,6 +1578,14 @@
         },
         {
             "key": "Mods/Mounts/34mm_rof_90_ddc.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/acro_pic_mount_short.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
