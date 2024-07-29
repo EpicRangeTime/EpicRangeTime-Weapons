@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/b5_bravo_blk.bundle",
+				"path": "Mods/Stocks/b5_bravo_blk.bundle",
 				"rcid": ""
 			},
 			"Ergonomics": 9,
@@ -95,7 +95,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/b5_bravo_cb.bundle",
+				"path": "Mods/Stocks/b5_bravo_cb.bundle",
 				"rcid": ""
 			},
 			"Ergonomics": 9,
@@ -184,7 +184,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/b5_bravo_fde.bundle",
+				"path": "Mods/Stocks/b5_bravo_fde.bundle",
 				"rcid": ""
 			},
 			"Ergonomics": 9,
@@ -273,7 +273,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/b5_bravo_grey.bundle",
+				"path": "Mods/Stocks/b5_bravo_grey.bundle",
 				"rcid": ""
 			},
 			"Ergonomics": 9,
@@ -362,7 +362,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/b5_bravo_odg.bundle",
+				"path": "Mods/Stocks/b5_bravo_odg.bundle",
 				"rcid": ""
 			},
 			"Ergonomics": 9,
@@ -451,7 +451,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/prs_lite_blk.bundle",
+				"path": "Mods/Stocks/prs_lite_blk.bundle",
 				"rcid": ""
 			},
 			"Ergonomics": 7,
@@ -542,7 +542,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/prs_lite_fde.bundle",
+				"path": "Mods/Stocks/prs_lite_fde.bundle",
 				"rcid": ""
 			},
 			"Ergonomics": 7,

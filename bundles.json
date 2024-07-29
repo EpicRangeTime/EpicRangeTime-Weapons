@@ -289,7 +289,7 @@
             ]
         },
         {
-            "key": "Mods/AR15/b5_bravo_blk.bundle",
+            "key": "Mods/Stocks/b5_bravo_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -297,7 +297,7 @@
             ]
         },
         {
-            "key": "Mods/AR15/b5_bravo_cb.bundle",
+            "key": "Mods/Stocks/b5_bravo_cb.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -305,7 +305,7 @@
             ]
         },
         {
-            "key": "Mods/AR15/b5_bravo_fde.bundle",
+            "key": "Mods/Stocks/b5_bravo_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -313,7 +313,7 @@
             ]
         },
         {
-            "key": "Mods/AR15/b5_bravo_grey.bundle",
+            "key": "Mods/Stocks/b5_bravo_grey.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -321,7 +321,7 @@
             ]
         },
         {
-            "key": "Mods/AR15/b5_bravo_odg.bundle",
+            "key": "Mods/Stocks/b5_bravo_odg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -857,7 +857,7 @@
             ]
         },
         {
-            "key": "Mods/AR15/prs_lite_blk.bundle",
+            "key": "Mods/Stocks/prs_lite_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -865,7 +865,7 @@
             ]
         },
         {
-            "key": "Mods/AR15/prs_lite_fde.bundle",
+            "key": "Mods/Stocks/prs_lite_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
