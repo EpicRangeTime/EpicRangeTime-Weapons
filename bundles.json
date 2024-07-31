@@ -289,46 +289,6 @@
             ]
         },
         {
-            "key": "Mods/Stocks/b5_bravo_blk.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/Stocks/b5_bravo_cb.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/Stocks/b5_bravo_fde.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/Stocks/b5_bravo_grey.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/Stocks/b5_bravo_odg.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
             "key": "Mods/AR15/eliminator_556.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -857,22 +817,6 @@
             ]
         },
         {
-            "key": "Mods/Stocks/prs_lite_blk.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/Stocks/prs_lite_fde.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
             "key": "Mods/AR15/ris_iii_10_5l_blk.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -1321,7 +1265,7 @@
             ]
         },
         {
-            "key": "Mods/BIPODS/atlas_bp.bundle",
+            "key": "Mods/Bipods/atlas_bp.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1329,7 +1273,7 @@
             ]
         },
         {
-            "key": "Mods/BIPODS/bipod_stud_mlok.bundle",
+            "key": "Mods/Bipods/bipod_stud_mlok.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1337,7 +1281,7 @@
             ]
         },
         {
-            "key": "Mods/BIPODS/harris_bp_railmount.bundle",
+            "key": "Mods/Bipods/harris_bp_railmount.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1345,7 +1289,7 @@
             ]
         },
         {
-            "key": "Mods/BIPODS/magpul_bp.bundle",
+            "key": "Mods/Bipods/magpul_bp.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1353,7 +1297,7 @@
             ]
         },
         {
-            "key": "Mods/DOTS/acro_p2.bundle",
+            "key": "Mods/Dots/acro_p2.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1361,7 +1305,23 @@
             ]
         },
         {
-            "key": "Mods/DOTS/triji_mro.bundle",
+            "key": "Mods/Dots/lepold_lco.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Dots/steiner_r1x.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Dots/triji_mro.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1401,7 +1361,7 @@
             ]
         },
         {
-            "key": "Mods/LAPUA/barrel_ax_accuracy_international_508mm_762x51_pb.bundle",
+            "key": "Mods/Lapua/barrel_ax_accuracy_international_508mm_762x51_pb.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1409,7 +1369,7 @@
             ]
         },
         {
-            "key": "Mods/LAPUA/barrel_ax_accuracy_international_610mm_762x51_pb.bundle",
+            "key": "Mods/Lapua/barrel_ax_accuracy_international_610mm_762x51_pb.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1417,7 +1377,7 @@
             ]
         },
         {
-            "key": "Mods/LAPUA/barrel_ax_accuracy_international_660mm_762x51_pb.bundle",
+            "key": "Mods/Lapua/barrel_ax_accuracy_international_660mm_762x51_pb.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1425,7 +1385,7 @@
             ]
         },
         {
-            "key": "Mods/LAPUA/cadex_mx1.bundle",
+            "key": "Mods/Lapua/cadex_mx1.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1433,7 +1393,7 @@
             ]
         },
         {
-            "key": "Mods/LAPUA/sfmb338.bundle",
+            "key": "Mods/Lapua/sfmb338.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1849,7 +1809,7 @@
             ]
         },
         {
-            "key": "Mods/SCOPES/acog_ta44.bundle",
+            "key": "Mods/Scopes/acog_ta44.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1860,7 +1820,7 @@
             ]
         },
         {
-            "key": "Mods/SCOPES/atacr_f1_1-8.bundle",
+            "key": "Mods/Scopes/atacr_f1_1-8.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1871,7 +1831,7 @@
             ]
         },
         {
-            "key": "Mods/SCOPES/elcan_1_5-6.bundle",
+            "key": "Mods/Scopes/elcan_1_5-6.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1882,7 +1842,7 @@
             ]
         },
         {
-            "key": "Mods/SCOPES/mgo_240_hs.bundle",
+            "key": "Mods/Scopes/lepold_d_evo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1893,7 +1853,7 @@
             ]
         },
         {
-            "key": "Mods/SCOPES/mgo_308_ch.bundle",
+            "key": "Mods/Scopes/leupold_d_evo_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1904,7 +1864,7 @@
             ]
         },
         {
-            "key": "Mods/SCOPES/mgo_308_hs.bundle",
+            "key": "Mods/Scopes/mgo_240_hs.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1915,7 +1875,7 @@
             ]
         },
         {
-            "key": "Mods/SCOPES/mgo_50_ch.bundle",
+            "key": "Mods/Scopes/mgo_308_ch.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1926,7 +1886,7 @@
             ]
         },
         {
-            "key": "Mods/SCOPES/mgo_50_hs.bundle",
+            "key": "Mods/Scopes/mgo_308_hs.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1937,7 +1897,7 @@
             ]
         },
         {
-            "key": "Mods/SCOPES/mgo_556_ch.bundle",
+            "key": "Mods/Scopes/mgo_50_ch.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1948,7 +1908,7 @@
             ]
         },
         {
-            "key": "Mods/SCOPES/nf4-16f1.bundle",
+            "key": "Mods/Scopes/mgo_50_hs.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1959,7 +1919,7 @@
             ]
         },
         {
-            "key": "Mods/SCOPES/vortex_eleanor_1_10_blk.bundle",
+            "key": "Mods/Scopes/mgo_556_ch.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1970,7 +1930,7 @@
             ]
         },
         {
-            "key": "Mods/SCOPES/vortex_eleanor_1_10_fde.bundle",
+            "key": "Mods/Scopes/nf4-16f1.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1981,7 +1941,7 @@
             ]
         },
         {
-            "key": "Mods/SCOPES/vortex_golden_eagle.bundle",
+            "key": "Mods/Scopes/vortex_eleanor_1_10_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1989,6 +1949,84 @@
                 "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
                 "assets/content/textures/holemanager/round_spec_mask.bundle",
                 "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/vortex_eleanor_1_10_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/vortex_golden_eagle.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/b5_bravo_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/b5_bravo_cb.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/b5_bravo_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/b5_bravo_grey.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/b5_bravo_odg.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/prs_lite_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/prs_lite_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
         {

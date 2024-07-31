@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/BIPODS/harris_bp_railmount.bundle",
+				"path": "Mods/Bipods/harris_bp_railmount.bundle",
 				"rcid": ""
 			}
 		},
@@ -87,7 +87,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/BIPODS/magpul_bp.bundle",
+				"path": "Mods/Bipods/magpul_bp.bundle",
 				"rcid": ""
 			}
 		},
@@ -168,7 +168,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/BIPODS/atlas_bp.bundle",
+				"path": "Mods/Bipods/atlas_bp.bundle",
 				"rcid": ""
 			}
 		},
@@ -249,7 +249,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/BIPODS/bipod_stud_mlok.bundle",
+				"path": "Mods/Bipods/bipod_stud_mlok.bundle",
 				"rcid": ""
 			},
 			"Slots": [

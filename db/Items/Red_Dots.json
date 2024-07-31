@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/DOTS/triji_mro.bundle",
+				"path": "Mods/Dots/triji_mro.bundle",
 				"rcid": ""
 			},
 			"CalibrationDistances": [
@@ -95,7 +95,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/DOTS/acro_p2.bundle",
+				"path": "Mods/Dots/acro_p2.bundle",
 				"rcid": ""
 			},
 			"CalibrationDistances": [
@@ -136,6 +136,203 @@
 			{
 				"count": 162,
 				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"35adebfd2014a2861056138b": {
+		"itemTplToClone": "558022b54bdc2dac148b458d",
+		"parentId": "REFLEX_SIGHT",
+		"handbookParentId": "5b5f742686f774093e6cb4ff",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Dots/lepold_lco.bundle",
+				"rcid": ""
+			},
+			"CalibrationDistances": [
+				[
+				  50,
+				  100,
+				  150,
+				  200
+				]
+			  ]
+		},
+		"locales": {
+			"en": {
+				"name": "Leupold LCO reflex sight",
+				"shortName": "LCO",
+				"description": "When tunnel vision kicks in, the LCO® gives you an edge. An open field of view keeps your peripheral vision free of knobs, dials, or the scope housing, which can mask targets."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 33290,
+		"handbookPriceRoubles": 13000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 224,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"20c6ee849ac15cb4e31472c9": {
+		"itemTplToClone": "558022b54bdc2dac148b458d",
+		"parentId": "REFLEX_SIGHT",
+		"handbookParentId": "MOD_MICRO_DOT",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Dots/steiner_r1x.bundle",
+				"rcid": ""
+			},
+			"ModesCount":[
+				2
+			],
+			"Zooms":[
+				[
+					1,
+					1
+				]
+			],
+			"AimSensitivity":[
+				[
+					0.7,
+					0.7
+				]
+			],
+			"CalibrationDistances": [
+				[
+				  50,
+				  100,
+				  150,
+				  200
+				]
+			  ]
+		},
+		"locales": {
+			"en": {
+				"name": "Steiner R1X reflex sight",
+				"shortName": "R1X",
+				"description": "Quickly acquire targets and land precise shots by equipping this Steiner R1X Reflex Sight on your patrol rifle or other AR platform firearm."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 33290,
+		"handbookPriceRoubles": 13000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 26290,
+				"_tpl": "ROUBLES"
 			}
 		],
 		"loyallevelitems": 2,

@@ -884,7 +884,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/LAPUA/sfmb338.bundle",
+				"path": "Mods/Lapua/sfmb338.bundle",
 				"rcid": ""
 			},
 			"Recoil": -9,
@@ -1373,7 +1373,7 @@
 			"HeatFactor": 0.98,
 			"Loudness": 10,
 			"Prefab": {
-				"path": "Mods/LAPUA/cadex_mx1.bundle",
+				"path": "Mods/Lapua/cadex_mx1.bundle",
 				"rcid": ""
 			},
 			"Recoil": -11,
@@ -1463,7 +1463,7 @@
 			"HeatFactor": 0.98,
 			"Loudness": 20,
 			"Prefab": {
-				"path": "Mods/LAPUA/cadex_mx1.bundle",
+				"path": "Mods/Lapua/cadex_mx1.bundle",
 				"rcid": ""
 			},
 			"Recoil": -14,

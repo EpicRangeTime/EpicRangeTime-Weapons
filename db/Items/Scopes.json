@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/SCOPES/nf4-16f1.bundle",
+				"path": "Mods/Scopes/nf4-16f1.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.850,
@@ -124,7 +124,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/SCOPES/elcan_1_5-6.bundle",
+				"path": "Mods/Scopes/elcan_1_5-6.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.715,
@@ -241,7 +241,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/SCOPES/vortex_golden_eagle.bundle",
+				"path": "Mods/Scopes/vortex_golden_eagle.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.841,
@@ -366,7 +366,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/SCOPES/atacr_f1_1-8.bundle",
+				"path": "Mods/Scopes/atacr_f1_1-8.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.595,
@@ -481,7 +481,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/SCOPES/mgo_240_hs.bundle",
+				"path": "Mods/Scopes/mgo_240_hs.bundle",
 				"rcid": ""
 			},
 			"Weight": 1.046,
@@ -627,7 +627,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/SCOPES/mgo_50_hs.bundle",
+				"path": "Mods/Scopes/mgo_50_hs.bundle",
 				"rcid": ""
 			},
 			"Weight": 1.046,
@@ -773,7 +773,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/SCOPES/mgo_50_ch.bundle",
+				"path": "Mods/Scopes/mgo_50_ch.bundle",
 				"rcid": ""
 			},
 			"Weight": 1.046,
@@ -919,7 +919,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/SCOPES/mgo_308_ch.bundle",
+				"path": "Mods/Scopes/mgo_308_ch.bundle",
 				"rcid": ""
 			},
 			"Weight": 1.046,
@@ -1065,7 +1065,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/SCOPES/mgo_308_hs.bundle",
+				"path": "Mods/Scopes/mgo_308_hs.bundle",
 				"rcid": ""
 			},
 			"Weight": 1.046,
@@ -1211,7 +1211,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/SCOPES/mgo_556_ch.bundle",
+				"path": "Mods/Scopes/mgo_556_ch.bundle",
 				"rcid": ""
 			},
 			"Weight": 1.046,
@@ -1357,7 +1357,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/SCOPES/acog_ta44.bundle",
+				"path": "Mods/Scopes/acog_ta44.bundle",
 				"rcid": ""
 			},
 			"Weight": 1.046,
@@ -1379,7 +1379,7 @@
 					200
 				]
 			],
-			"Slots":[]
+			"Slots": []
 		},
 		"locales": {
 			"en": {
@@ -1460,7 +1460,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/SCOPES/vortex_eleanor_1_10_blk.bundle",
+				"path": "Mods/Scopes/vortex_eleanor_1_10_blk.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.585,
@@ -1574,7 +1574,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/SCOPES/vortex_eleanor_1_10_fde.bundle",
+				"path": "Mods/Scopes/vortex_eleanor_1_10_fde.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.585,
@@ -1641,6 +1641,350 @@
 			}
 		],
 		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"5eb8a73e2c5eae1c5118afcb": {
+		"itemTplToClone": "5c1780312e221602b66cc189",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/lepold_d_evo.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.391,
+			"BackgroundColor": "blue",
+			"Width": 2,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"RarityPvE": "Rare",
+			"ItemSound": "mod",
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 15,
+			"ExamineExperience": 4,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": false,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"InsuranceDisabled": false,
+			"QuestStashMaxCount": 0,
+			"IsSpecialSlotOnly": false,
+			"IsUnremovable": false,
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": -2,
+			"Velocity": 0,
+			"RaidModdable": false,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 800,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"UniqueAnimationModID": 0,
+			"CustomAimPlane": "",
+			"sightModType": "optic",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.12
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					6
+				]
+			],
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Leupold D-Evo off-axis 6x20 compact scope (BLK)",
+				"shortName": "D-Evo",
+				"description": "The D-EVO's unique design lets you move between your 1x red dot site and the 6x magnification D-EVO® by simply shifting your eye line–not your head. Now you can quickly move between close-quarter shots and mid-range shots with speed and accuracy."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_sight_rear"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 26200,
+		"handbookPriceRoubles": 24000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 220,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"a87b4ff0e4df1af49c4d48b7": {
+		"itemTplToClone": "5c1780312e221602b66cc189",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/leupold_d_evo_fde.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.391,
+			"BackgroundColor": "blue",
+			"Width": 2,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"RarityPvE": "Rare",
+			"ItemSound": "mod",
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 15,
+			"ExamineExperience": 4,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": false,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"InsuranceDisabled": false,
+			"QuestStashMaxCount": 0,
+			"IsSpecialSlotOnly": false,
+			"IsUnremovable": false,
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": -2,
+			"Velocity": 0,
+			"RaidModdable": false,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 800,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"UniqueAnimationModID": 0,
+			"CustomAimPlane": "",
+			"sightModType": "optic",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.12
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					6
+				]
+			],
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Leupold D-Evo off-axis 6x20 compact scope (FDE)",
+				"shortName": "D-Evo",
+				"description": "The D-EVO's unique design lets you move between your 1x red dot site and the 6x magnification D-EVO® by simply shifting your eye line–not your head. Now you can quickly move between close-quarter shots and mid-range shots with speed and accuracy."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_sight_rear"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 26200,
+		"handbookPriceRoubles": 24000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 220,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
