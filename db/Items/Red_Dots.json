@@ -375,5 +375,171 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"2589a5a2424122404cf3a94c": {
+		"itemTplToClone": "58d399e486f77442e0016fe7",
+		"parentId": "REFLEX_SIGHT",
+		"handbookParentId": "MOD_MICRO_DOT",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Dots/compm5.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "Aimpoint CompM5 reflex sight",
+				"shortName": "CompM5",
+				"description": "The Aimpoint® CompM5 is a compact, lightweight, and extremely rugged red dot optic in the Comp™ series of sights. The CompM5™ sight was designed to take up minimal space on the weapon platform while still offering extreme ruggedness and durability."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 28290,
+		"handbookPriceRoubles": 14000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 277,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"026dfdb287f69c3025f0f728": {
+		"itemTplToClone": "58d399e486f77442e0016fe7",
+		"parentId": "REFLEX_SIGHT",
+		"handbookParentId": "MOD_MICRO_DOT",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Dots/compm5_fde.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "Aimpoint CompM5 reflex sight (TAN)",
+				"shortName": "CompM5",
+				"description": "The Aimpoint® CompM5 is a compact, lightweight, and extremely rugged red dot optic in the Comp™ series of sights. The CompM5™ sight was designed to take up minimal space on the weapon platform while still offering extreme ruggedness and durability."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 28290,
+		"handbookPriceRoubles": 14000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 277,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }

@@ -1305,6 +1305,22 @@
             ]
         },
         {
+            "key": "Mods/Dots/compm5.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Dots/compm5_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Dots/lepold_lco.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -1642,6 +1658,22 @@
         },
         {
             "key": "Mods/Mounts/kac_high_reverse.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/micro_offset.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/micro_offset_rev.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",

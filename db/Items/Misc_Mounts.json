@@ -4023,5 +4023,217 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"85a2077a2a40a73a0f95f74a": {
+		"itemTplToClone": "5649a2464bdc2d91118b45a8",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/micro_offset.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "5649dc074bdc2d1b2b8b458f",
+					"_parent": "5649a2464bdc2d91118b45a8",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"61657230d92c473c770213d7",
+									"58d399e486f77442e0016fe7",
+									"5b3116595acfc40019476364",
+									"026dfdb287f69c3025f0f728",
+									"2589a5a2424122404cf3a94c"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Larue LT724 Angled CQB Micro T-1 mount",
+				"shortName": "LT724",
+				"description": "Magnified scopes are great for distance targets, but are slow and awkward when engaging targets close-in. When used in combination with a magnified scope, the LT-724 positions the excellent Aimpoint T-1 off to the side, so you'll have all the benefits of a red-dot simply by rotating the rifle a few degrees for rapid transition to close-range targets."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 39200,
+		"handbookPriceRoubles": 2500,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 7500,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"bb7761566d0356796bc43ae5": {
+		"itemTplToClone": "5649a2464bdc2d91118b45a8",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/micro_offset_rev.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "0656abc349a8ca5ddce07250",
+					"_parent": "bb7761566d0356796bc43ae5",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"61657230d92c473c770213d7",
+									"58d399e486f77442e0016fe7",
+									"5b3116595acfc40019476364",
+									"026dfdb287f69c3025f0f728",
+									"2589a5a2424122404cf3a94c"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Larue LT724 Angled CQB Micro T-1 mount (Reversed)",
+				"shortName": "LT724",
+				"description": "Magnified scopes are great for distance targets, but are slow and awkward when engaging targets close-in. When used in combination with a magnified scope, the LT-724 positions the excellent Aimpoint T-1 off to the side, so you'll have all the benefits of a red-dot simply by rotating the rifle a few degrees for rapid transition to close-range targets."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 39200,
+		"handbookPriceRoubles": 2500,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 7500,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }
