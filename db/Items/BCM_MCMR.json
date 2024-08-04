@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mcmr7_blk.bundle",
+				"path": "Mods/AR15_Handguards/mcmr7_blk.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -95,7 +95,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mcmr7_fde.bundle",
+				"path": "Mods/AR15_Handguards/mcmr7_fde.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -184,7 +184,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mcmr8_blk.bundle",
+				"path": "Mods/AR15_Handguards/mcmr8_blk.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -433,7 +433,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mcmr8_fde.bundle",
+				"path": "Mods/AR15_Handguards/mcmr8_fde.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -682,7 +682,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mcmr9_blk.bundle",
+				"path": "Mods/AR15_Handguards/mcmr9_blk.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -932,7 +932,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mcmr9_fde.bundle",
+				"path": "Mods/AR15_Handguards/mcmr9_fde.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -1182,7 +1182,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mcmr10_blk.bundle",
+				"path": "Mods/AR15_Handguards/mcmr10_blk.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -1434,7 +1434,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mcmr10_fde.bundle",
+				"path": "Mods/AR15_Handguards/mcmr10_fde.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -1686,7 +1686,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mcmr13_blk.bundle",
+				"path": "Mods/AR15_Handguards/mcmr13_blk.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -1942,7 +1942,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mcmr13_fde.bundle",
+				"path": "Mods/AR15_Handguards/mcmr13_fde.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -2198,7 +2198,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mcmr15_blk.bundle",
+				"path": "Mods/AR15_Handguards/mcmr15_blk.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -2457,7 +2457,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mcmr15_fde.bundle",
+				"path": "Mods/AR15_Handguards/mcmr15_fde.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [

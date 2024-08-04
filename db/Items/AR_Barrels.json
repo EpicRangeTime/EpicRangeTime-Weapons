@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ar15_8_5.bundle",
+				"path": "Mods/AR15_Barrels/ar15_8_5.bundle",
 				"rcid": ""
 			},
 			"Recoil": 2,
@@ -57,7 +57,8 @@
 				"601949593ae8f707c4608daa",
 				"5c0d5ae286f7741e46554302",
 				"647de824196bf69818044c93",
-				"5bb2475ed4351e00853264e3"
+				"5bb2475ed4351e00853264e3",
+				"72efec8b80389ea82673eac8"
 			],
 			"Slots": [
 				{
@@ -206,7 +207,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ar15_11_5.bundle",
+				"path": "Mods/AR15_Barrels/ar15_11_5.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -229,7 +230,8 @@
 				"5c0e2f5cd174af02a012cfc9",
 				"5c78f26f2e221601da3581d1",
 				"595cf16b86f77427440c32e2",
-				"640b20359ab20e15ee445fa9"
+				"640b20359ab20e15ee445fa9",
+				"7f2528f5e1c01b7ac7d8cc82"
 			]
 		},
 		"locales": {
@@ -493,7 +495,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ar15_12_5_carbine.bundle",
+				"path": "Mods/AR15_Barrels/ar15_12_5_carbine.bundle",
 				"rcid": ""
 			},
 			"Recoil": -3,
@@ -513,7 +515,8 @@
 				"63888bbd28e5cc32cc09d2b6",
 				"5c78f26f2e221601da3581d1",
 				"5c0e2f5cd174af02a012cfc9",
-				"640b20359ab20e15ee445fa9"
+				"640b20359ab20e15ee445fa9",
+				"7f2528f5e1c01b7ac7d8cc82"
 			]
 		},
 		"locales": {
@@ -595,7 +598,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ar15_12_5_mid.bundle",
+				"path": "Mods/AR15_Barrels/ar15_12_5_mid.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -623,7 +626,8 @@
 				"6034e3e20ddce744014cb878",
 				"5b2cfa535acfc432ff4db7a0",
 				"6087e0336d0bd7580617bb7a",
-				"5c78f2882e22165df16b832e"
+				"5c78f2882e22165df16b832e",
+				"7f2528f5e1c01b7ac7d8cc82"
 			]
 		},
 		"locales": {
@@ -721,7 +725,8 @@
 				"5c07c60e0db834002330051f",
 				"5d43021ca4b9362eab4b5e25",
 				"5c78f2882e22165df16b832e",
-				"5bb2475ed4351e00853264e3"
+				"5bb2475ed4351e00853264e3",
+				"72efec8b80389ea82673eac8"
 			],
 			"Slots": [
 				{
@@ -885,7 +890,8 @@
 				"5c07c60e0db834002330051f",
 				"5d43021ca4b9362eab4b5e25",
 				"5c78f2882e22165df16b832e",
-				"5bb2475ed4351e00853264e3"
+				"5bb2475ed4351e00853264e3",
+				"72efec8b80389ea82673eac8"
 			],
 			"Slots": [
 				{
@@ -1080,7 +1086,8 @@
 				"5ea16ada09aa976f2e7a51be",
 				"5447a9cd4bdc2dbd208b4567",
 				"5c07c60e0db834002330051f",
-				"5d43021ca4b9362eab4b5e25"
+				"5d43021ca4b9362eab4b5e25",
+				"72efec8b80389ea82673eac8"
 			],
 			"Slots": [
 				{
@@ -1244,7 +1251,8 @@
 				"5447a9cd4bdc2dbd208b4567",
 				"5c07c60e0db834002330051f",
 				"5d43021ca4b9362eab4b5e25",
-				"5bb2475ed4351e00853264e3"
+				"5bb2475ed4351e00853264e3",
+				"72efec8b80389ea82673eac8"
 			],
 			"Slots": [
 				{
@@ -1430,7 +1438,8 @@
 				"5447a9cd4bdc2dbd208b4567",
 				"5c07c60e0db834002330051f",
 				"5d43021ca4b9362eab4b5e25",
-				"5bb2475ed4351e00853264e3"
+				"5bb2475ed4351e00853264e3",
+				"72efec8b80389ea82673eac8"
 			],
 			"Slots": [
 				{
@@ -1598,7 +1607,8 @@
 				"5447a9cd4bdc2dbd208b4567",
 				"5c07c60e0db834002330051f",
 				"5d43021ca4b9362eab4b5e25",
-				"5bb2475ed4351e00853264e3"
+				"5bb2475ed4351e00853264e3",
+				"72efec8b80389ea82673eac8"
 			],
 			"Slots": [
 				{
@@ -1762,7 +1772,8 @@
 				"5c07c60e0db834002330051f",
 				"5d43021ca4b9362eab4b5e25",
 				"5c78f2882e22165df16b832e",
-				"5bb2475ed4351e00853264e3"
+				"5bb2475ed4351e00853264e3",
+				"72efec8b80389ea82673eac8"
 			],
 			"Slots": [
 				{
@@ -1911,7 +1922,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ar15_11_5.bundle",
+				"path": "Mods/AR15_Barrels/ar15_11_5.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -1938,7 +1949,8 @@
 				"640b20359ab20e15ee445fa9",
 				"5c07c60e0db834002330051f",
 				"5d43021ca4b9362eab4b5e25",
-				"5bb2475ed4351e00853264e3"
+				"5bb2475ed4351e00853264e3",
+				"72efec8b80389ea82673eac8"
 			],
 			"Slots": [
 				{
@@ -2087,7 +2099,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ar15_12_5_carbine.bundle",
+				"path": "Mods/AR15_Barrels/ar15_12_5_carbine.bundle",
 				"rcid": ""
 			},
 			"Recoil": -3,
@@ -2111,7 +2123,8 @@
 				"640b20359ab20e15ee445fa9",
 				"5c07c60e0db834002330051f",
 				"5d43021ca4b9362eab4b5e25",
-				"5bb2475ed4351e00853264e3"
+				"5bb2475ed4351e00853264e3",
+				"72efec8b80389ea82673eac8"
 			],
 			"Slots": [
 				{
@@ -2260,7 +2273,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ar15_12_5_mid.bundle",
+				"path": "Mods/AR15_Barrels/ar15_12_5_mid.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -2292,7 +2305,8 @@
 				"5c07c60e0db834002330051f",
 				"5d43021ca4b9362eab4b5e25",
 				"5c78f2882e22165df16b832e",
-				"5bb2475ed4351e00853264e3"
+				"5bb2475ed4351e00853264e3",
+				"72efec8b80389ea82673eac8"
 			],
 			"Slots": [
 				{
@@ -2630,7 +2644,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/16_in_faux_dissapator_barrel.bundle",
+				"path": "Mods/AR15_Barrels/16_in_faux_dissapator_barrel.bundle",
 				"rcid": ""
 			},
 			"Ergonomics": -15,
@@ -2658,7 +2672,8 @@
 				"b3388010e3e50af19b770e77",
 				"539b18d0242b3bc3d4ed0e7a",
 				"5c78f2882e22165df16b832e",
-				"6357c98711fb55120211f7e1"
+				"6357c98711fb55120211f7e1",
+				"7f2528f5e1c01b7ac7d8cc82"
 			]
 		},
 		"locales": {
@@ -2740,7 +2755,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/16in_riflegas_diss.bundle",
+				"path": "Mods/AR15_Barrels/16in_riflegas_diss.bundle",
 				"rcid": ""
 			},
 			"Ergonomics": -15,
@@ -2760,7 +2775,8 @@
 				"5c78f26f2e221601da3581d1",
 				"5d4405f0a4b9361e6a4e6bd9",
 				"640b20359ab20e15ee445fa9",
-				"595cfa8b86f77427437e845b"
+				"595cfa8b86f77427437e845b",
+				"7f2528f5e1c01b7ac7d8cc82"
 			]
 		},
 		"locales": {
@@ -2842,7 +2858,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/sr15_16_barrel.bundle",
+				"path": "Mods/AR15_Barrels/sr15_16_barrel.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.68,
@@ -2863,7 +2879,8 @@
 				"5c78f26f2e221601da3581d1",
 				"5d4405f0a4b9361e6a4e6bd9",
 				"640b20359ab20e15ee445fa9",
-				"595cfa8b86f77427437e845b"
+				"595cfa8b86f77427437e845b",
+				"7f2528f5e1c01b7ac7d8cc82"
 			],
 			"Slots": [
 				{

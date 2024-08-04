@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ks1_barrel.bundle",
+				"path": "Mods/AR15_Barrels/ks1_barrel.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.496,
@@ -191,7 +191,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ks1_gb.bundle",
+				"path": "Mods/AR15_Barrels/ks1_gb.bundle",
 				"rcid": ""
 			},
 			"Recoil": -3,
@@ -276,7 +276,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/kac_mod2_gb.bundle",
+				"path": "Mods/AR15_Barrels/kac_mod2_gb.bundle",
 				"rcid": ""
 			},
 			"Recoil": -3,
@@ -361,7 +361,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ks1_hg_blk.bundle",
+				"path": "Mods/AR15_Handguards/ks1_hg_blk.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -619,7 +619,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ks1_hg_fde.bundle",
+				"path": "Mods/AR15_Handguards/ks1_hg_fde.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,

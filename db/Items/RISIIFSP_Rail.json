@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ris_ii_fsp.bundle",
+				"path": "Mods/AR15_Handguards/ris_ii_fsp.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -14,7 +14,6 @@
 				"2d2dbf0375f49c5b7ac899ab",
 				"d40c79f8cd80c888bd960068",
 				"44805f562c61dd6f99629991",
-				"MOD_AR15_BARREL_260MM_65GR",
 				"c6b01e3e7a1ec6168254e687",
 				"a06aec4316ac6ff7353845f4",
 				"d0b292e070ee6c5263285461",
@@ -266,7 +265,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ris_ii_fspl.bundle",
+				"path": "Mods/AR15_Handguards/ris_ii_fspl.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems":[

@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_13_tan.bundle",
+				"path": "Mods/AR15_Handguards/urx4_13_tan.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -266,7 +266,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_13_blk.bundle",
+				"path": "Mods/AR15_Handguards/urx4_13_blk.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -526,7 +526,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_145_tan.bundle",
+				"path": "Mods/AR15_Handguards/urx4_145_tan.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -792,7 +792,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_145_blk.bundle",
+				"path": "Mods/AR15_Handguards/urx4_145_blk.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -1058,7 +1058,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_1075_blk.bundle",
+				"path": "Mods/AR15_Handguards/urx4_1075_blk.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -1311,7 +1311,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_1075_tan.bundle",
+				"path": "Mods/AR15_Handguards/urx4_1075_tan.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -1564,7 +1564,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_85_blk.bundle",
+				"path": "Mods/AR15_Handguards/urx4_85_blk.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -1815,7 +1815,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_85_tan.bundle",
+				"path": "Mods/AR15_Handguards/urx4_85_tan.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,

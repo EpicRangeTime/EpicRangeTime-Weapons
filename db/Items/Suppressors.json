@@ -352,7 +352,7 @@
 				"618178aa1cb55961fa0fdc80",
 				"615d8e9867085e45ef1409c6"
 			],
-			"Recoil": -16,
+			"Recoil": -15,
 			"Ergonomics": -22,
 			"HeatFactor": 1.08,
 			"Loudness": -28,
@@ -443,7 +443,7 @@
 				"618178aa1cb55961fa0fdc80",
 				"615d8e9867085e45ef1409c6"
 			],
-			"Recoil": -16,
+			"Recoil": -15,
 			"Ergonomics": -22,
 			"HeatFactor": 1.08,
 			"Loudness": -28,
@@ -2011,7 +2011,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/rotex_d_blk.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/rotex_d_blk.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.266,
@@ -2103,7 +2103,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/rotex_d_fde.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/rotex_d_fde.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.266,
@@ -2195,7 +2195,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/rotex_d_gry.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/rotex_d_gry.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.266,
@@ -2461,7 +2461,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/surefire_wardenqdblk.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/surefire_wardenqdblk.bundle",
 				"rcid": ""
 			},
 			"Recoil": -4,
@@ -2552,7 +2552,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/surefire_wardenqdfde.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/surefire_wardenqdfde.bundle",
 				"rcid": ""
 			},
 			"Recoil": -4,
