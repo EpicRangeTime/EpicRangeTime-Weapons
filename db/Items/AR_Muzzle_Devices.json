@@ -134,7 +134,7 @@
 			"HeatFactor": 0.99,
 			"Loudness": 0,
 			"Prefab": {
-				"path": "Mods/AR15/sf3p_762.bundle",
+				"path": "Mods/AR10/sf3p_762.bundle",
 				"rcid": ""
 			},
 			"Recoil": -6,

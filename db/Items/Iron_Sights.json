@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/sw_peak_r.bundle",
+				"path": "Mods/Iron_Sights/sw_peak_r.bundle",
 				"rcid": ""
 			},
 			"Ergonomics": 1
@@ -90,7 +90,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/sw_peak_fr.bundle",
+				"path": "Mods/Iron_Sights/sw_peak_fr.bundle",
 				"rcid": ""
 			},
 			"Ergonomics": 1
