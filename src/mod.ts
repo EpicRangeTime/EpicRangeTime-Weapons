@@ -35,7 +35,7 @@ implements IPreSptLoadMod, IPostDBLoadMod
     private customAssortSchemeService: CustomAssortSchemeService = new CustomAssortSchemeService();
     private customWeaponPresets: CustomWeaponPresets = new CustomWeaponPresets();
 
-    debug = true;
+    debug = false;
 
     // Anything that needs done on preSptLoad, place here.
     public preSptLoad(container: DependencyContainer): void 

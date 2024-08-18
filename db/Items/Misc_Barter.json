@@ -1,0 +1,118 @@
+{
+	"b7d643dc4b783b2805c743c9": {
+		"itemTplToClone": "5737292724597765e5728562",
+		"parentId": "AMMO_CONTAINER",
+		"handbookParentId": "AMMO_BOXES",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Ammo/9mm_export_900_can.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.1,
+			"Height": 2,
+			"Width": 3,
+			"StackMinRandom": 900,
+			"StackMaxRandom": 900,
+			"ammoCaliber": "Caliber9x19PARA",
+			"StackSlots": [
+				{
+					"_name": "cartridges",
+					"_id": "95676aaaab2f488af719148d",
+					"_parent": "b7d643dc4b783b2805c743c9",
+					"_max_count": 900,
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"58864a4f2459770fcc257101"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "9x19 PSO gzh spam can (900 pcs)",
+				"shortName": "PSO 900",
+				"description": "A spam can of 9mm PSO ammunition marked in english characters, intended for export."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 49000,
+		"handbookPriceRoubles": 36000,
+		"addtoTraders": false,
+		"traderId": "PRAPOR",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 41000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+				"Probability": 340
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 300
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 760
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 400
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 850
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1500
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+				"Probability": 900
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": []
+	}
+}

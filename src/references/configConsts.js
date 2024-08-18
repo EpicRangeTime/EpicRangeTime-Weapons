@@ -11,7 +11,7 @@ var traderIDs;
     traderIDs["PEACEKEEPER"] = "5935c25fb3acc3127c3d8cd9";
     traderIDs["THERAPIST"] = "54cb57776803fa99248b456e";
     traderIDs["PRAPOR"] = "54cb50c76803fa8b248b4571";
-    traderIDs["JAEGAR"] = "5c0647fdd443bc2504c2d371";
+    traderIDs["JAEGER"] = "5c0647fdd443bc2504c2d371";
     traderIDs["RAGMAN"] = "5ac3b934156ae10c4430e83c";
     traderIDs["FENCE"] = "579dc571d53a0658a154fbec";
     traderIDs["GOBLINKING"] = "GoblinKing";

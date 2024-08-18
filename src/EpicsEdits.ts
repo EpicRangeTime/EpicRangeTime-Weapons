@@ -28,7 +28,9 @@ export class epicItemClass {
                     "5d4405aaa4b9361e6a4e6bd3",
                     "5c07a8770db8340023300450",
                     "59bfe68886f7746004266202",
-                    "63f5ed14534b2c3d5479a677");
+                    "63f5ed14534b2c3d5479a677",
+                    "c6aa3fe86a9fc7ea6c220c2f",
+                    "cc85761fc4963442077f9460");
             } // pushing M4 uppers to HK416
             if (fileData._id === "65266fd43341ed9aa903dd56") {
                 fileData._props.Slots[0]._props.filters[0].Filter.push("5e208b9842457a4a7a33d074");
@@ -99,11 +101,26 @@ export class epicItemClass {
                     "6529302b8c26af6326029fb7");
             } //Pushing 6.8x51 to M700 mags
             if (fileData._id === "59984ab886f7743e98271174") {
-                fileData._props.Slots[1]._props.filters[0].Filter.push("df1d3bfbd9835563f1574809");
-            } //Manually pushing AK-12 stock to vityaz
+                fileData._props.Slots[1]._props.filters[0].Filter.push("df1d3bfbd9835563f1574809",
+                    "9d387502b50d1f4b0fb8b0ce");
+            } //Manually pushing AK-12 and SAG buffer tube stock to vityaz
             if (fileData._id === "59f9cabd86f7743a10721f46") {
-                fileData._props.Slots[1]._props.filters[0].Filter.push("df1d3bfbd9835563f1574809");
-            } //Manually pushing AK-12 stock to saiga 9
+                fileData._props.Slots[1]._props.filters[0].Filter.push("df1d3bfbd9835563f1574809",
+                    "9d387502b50d1f4b0fb8b0ce");
+            } //Manually pushing AK-12 and SAG buffer tube stock to saiga 9
+            if (fileData._id === "57dc2fa62459775949412633") {
+                fileData._props.Slots[1]._props.filters[0].Filter.push("df1d3bfbd9835563f1574809",
+                    "9d387502b50d1f4b0fb8b0ce");
+            } //Manually pushing AK-12 stock and SAG buffer tube to AKS-74U
+            if (fileData._id === "583990e32459771419544dd2") {
+                fileData._props.Slots[1]._props.filters[0].Filter.push("df1d3bfbd9835563f1574809",
+                    "9d387502b50d1f4b0fb8b0ce");
+            } //Manually pushing AK-12 stock and SAG buffer tube to AKS-74UN
+            if (fileData._id === "5839a40f24597726f856b511") {
+                fileData._props.Slots[1]._props.filters[0].Filter.push("df1d3bfbd9835563f1574809",
+                    "9d387502b50d1f4b0fb8b0ce"
+                );
+            } //Manually pushing AK-12 stock and SAG buffer tube to AKS-74UB
             if (fileData._id === "5c6d11072e2216000e69d2e4") {
                 fileData._props.Slots[2]._props.filters[0].Filter.push("8af8534244b4e4189d53bec2",
                     "0f8b8c2fc55b90cea6b5b63b",
@@ -220,6 +237,10 @@ export class epicItemClass {
             } //Pushing new bipods manually to existing handguards
             if (fileData._id === "5e5699df2161e06ac158df6f") {
                 fileData._props.Slots[5]._props.filters[0].Filter.push("f5c4bf2acf4b0f66d514c0de",
+                    "690458c8c8f726648b11ac19");
+            } //Pushing new bipods manually to existing handguards
+            if (fileData._id === "5bfeb32b0db834001a6694d9") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("f5c4bf2acf4b0f66d514c0de",
                     "690458c8c8f726648b11ac19");
             } //Pushing new bipods manually to existing handguards
             if (fileData._id === "5e56991336989c75ab4f03f6") {
