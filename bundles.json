@@ -41,6 +41,14 @@
             ]
         },
         {
+            "key": "Ammo/9mm_export_900_can.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Barter/fluke_87v.bundle",
             "dependencyKeys": [
                 "shaders",
