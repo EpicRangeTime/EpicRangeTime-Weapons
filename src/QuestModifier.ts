@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
-import { JsonUtil } from "@spt/utils/JsonUtil";
+import type { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
+import type { JsonUtil } from "@spt/utils/JsonUtil";
 
 export class QuestModifier {
 
@@ -46,32 +46,28 @@ export class QuestModifier {
                             }
                         }
                     } else if (type === 'weaponModsInclusive' || type === 'weaponModsExclusive') {
-                        // Determine the correct key to use based on type
-                        const key = type === 'weaponModsInclusive' ? 'weaponModsInclusive' : 'weaponModsExclusive';
-                        
-                        const existingWeaponMods = jsonUtil.clone(conditions[key] || []);
-                        const updatedWeaponMods = new Set(existingWeaponMods.flat());
-                    
+                        const existingWeaponModsInclusive = jsonUtil.clone(conditions.weaponModsInclusive || []);
+                        const updatedWeaponModsInclusive = new Set(existingWeaponModsInclusive.flat());
+
                         for (const weaponModArray of items as string[][]) {
                             for (const weaponMod of weaponModArray) {
-                                if (!updatedWeaponMods.has(weaponMod)) {
-                                    updatedWeaponMods.add(weaponMod);
+                                if (!updatedWeaponModsInclusive.has(weaponMod)) {
+                                    updatedWeaponModsInclusive.add(weaponMod);
                                     modified = true;
-                    
+
                                     if (debug) {
-                                        console.log(`Added new weapon mod ${weaponMod} to ${key} condition in quest ${questID}`);
+                                        console.log(`Added new weapon mod ${weaponMod} to AvailableForFinish condition in quest ${questID}`);
                                     }
                                 } else if (debug) {
-                                    console.log(`${key} condition in quest ${questID} already has the weapon mod ${weaponMod}`);
+                                    console.log(`AvailableForFinish condition in quest ${questID} already has the weapon mod ${weaponMod}`);
                                 }
                             }
                         }
-                    
+
                         if (modified) {
-                            // Update the conditions for the appropriate key
-                            conditions[key] = Array.from(updatedWeaponMods).map(mod => [mod]);
+                            conditions.weaponModsInclusive = Array.from(updatedWeaponModsInclusive).map(mod => [mod]);
                             if (debug) {
-                                console.log(`Modified ${key} conditions in quest ${questID}:`, conditions[key]);
+                                console.log(`Modified AvailableForFinish conditions in quest ${questID}:`, conditions.weaponModsInclusive);
                             }
                         }
                     }
@@ -93,7 +89,8 @@ export class QuestModifier {
         tables: IDatabaseTables,
         jsonUtil: JsonUtil,
         pushToAllAvailableForFinish: boolean,
-        debug: boolean
+        debug: boolean,
+        availableForFinishIndex = 0 // New parameter to specify the index
     ): void {
         if (pushToAllAvailableForFinish) {
             this.updateItemsInAllAvailableForFinish(
@@ -113,8 +110,8 @@ export class QuestModifier {
                         items as string[],
                         tables,
                         jsonUtil,
-                        pushToAllAvailableForFinish,
-                        debug
+                        debug,
+                        availableForFinishIndex // Pass the index to the helper method
                     );
                 } else if (type === 'weaponModsInclusive' || type === 'weaponModsExclusive') {
                     this.updateQuestWeaponMods(
@@ -122,9 +119,8 @@ export class QuestModifier {
                         items as string[][],
                         tables,
                         jsonUtil,
-                        type,
-                        pushToAllAvailableForFinish,
-                        debug
+                        debug,
+                        availableForFinishIndex // Pass the index to the helper method
                     );
                 }
             } else {
@@ -132,6 +128,7 @@ export class QuestModifier {
             }
         }
     }
+    
 
     // Method to update weapons in the quest
     private updateQuestWeapons(
@@ -139,24 +136,24 @@ export class QuestModifier {
         weapons: string[],
         tables: IDatabaseTables,
         jsonUtil: JsonUtil,
-        pushToAllAvailableForFinish: boolean,
-        debug: boolean
+        debug: boolean,
+        availableForFinishIndex = 0// New parameter to specify the index
     ): void {
         const quest = tables.templates.quests[questID];
         if (quest) {
             try {
-                // Extract existing weapons
-                const existingWeapons = quest.conditions.AvailableForFinish[0].counter.conditions[0].weapon;
+                // Extract existing weapons based on the specified index
+                const existingWeapons = quest.conditions.AvailableForFinish[availableForFinishIndex].counter.conditions[0].weapon;
                 // Clone the existing weapons array
                 const updatedWeapons = jsonUtil.clone(existingWeapons);
                 let modified = false;
-
+    
                 // Add new weapons if they do not already exist
                 for (const weapon of weapons) {
                     if (!updatedWeapons.includes(weapon)) {
                         updatedWeapons.push(weapon);
                         modified = true;
-
+    
                         if (debug) {
                             console.log(`Added new weapon ${weapon} to quest ${questID}`);
                         }
@@ -164,11 +161,11 @@ export class QuestModifier {
                         console.log(`Quest ${questID} already has the weapon ${weapon}`);
                     }
                 }
-
+    
                 // Only update the quest if modifications were made
                 if (modified) {
-                    quest.conditions.AvailableForFinish[0].counter.conditions[0].weapon = updatedWeapons;
-
+                    quest.conditions.AvailableForFinish[availableForFinishIndex].counter.conditions[0].weapon = updatedWeapons;
+    
                     if (debug) {
                         console.log(`Modified quest ${questID}:`, updatedWeapons);
                     }
@@ -180,55 +177,58 @@ export class QuestModifier {
             console.warn(`Quest with ID ${questID} not found.`);
         }
     }
+    
 
     // Method to update weapon mods inclusive in the quest
     private updateQuestWeaponMods(
         questID: string,
-        weaponMods: string[][],
+        weaponModsInclusive: string[][],
         tables: IDatabaseTables,
         jsonUtil: JsonUtil,
-        type: 'weaponModsInclusive' | 'weaponModsExclusive',
-        pushToAllAvailableForFinish: boolean,
-        debug: boolean
+        debug: boolean,
+        availableForFinishIndex = 0 // New parameter to specify the index
     ): void {
         const quest = tables.templates.quests[questID];
         if (quest) {
             try {
-                // Determine the correct key to use based on type
-                const key = type === 'weaponModsInclusive' ? 'weaponModsInclusive' : 'weaponModsExclusive';
-    
-                // Extract existing weapon mods based on the type
-                const existingWeaponMods = quest.conditions.AvailableForFinish[0].counter.conditions[0][key] || [];
-                // Clone the existing weapon mods array
-                const updatedWeaponMods = jsonUtil.clone(existingWeaponMods);
+                // Extract existing weapon mods inclusive based on the specified index
+                const availableForFinish = quest.conditions.AvailableForFinish;
+                if (availableForFinish.length <= availableForFinishIndex) {
+                    console.warn(`Index ${availableForFinishIndex} is out of bounds for AvailableForFinish in quest ${questID}.`);
+                    return;
+                }
+
+                const existingWeaponModsInclusive = availableForFinish[availableForFinishIndex].counter.conditions[0].weaponModsInclusive;
+                // Clone the existing weapon mods inclusive array
+                const updatedWeaponModsInclusive = jsonUtil.clone(existingWeaponModsInclusive);
                 let modified = false;
-    
+
                 // Add new weapon mods if they do not already exist
-                for (const weaponModArray of weaponMods) {
+                for (const weaponModArray of weaponModsInclusive) {
                     for (const weaponMod of weaponModArray) {
-                        if (!updatedWeaponMods.flat().includes(weaponMod)) {
-                            updatedWeaponMods.push(weaponModArray);
+                        if (!updatedWeaponModsInclusive.flat().includes(weaponMod)) {
+                            updatedWeaponModsInclusive.push(weaponModArray);
                             modified = true;
-    
+
                             if (debug) {
-                                console.log(`Added new weapon mod ${weaponMod} to ${key} in quest ${questID}`);
+                                console.log(`Added new weapon mod ${weaponMod} to quest ${questID}`);
                             }
                         } else if (debug) {
-                            console.log(`${key} in quest ${questID} already has the weapon mod ${weaponMod}`);
+                            console.log(`Quest ${questID} already has the weapon mod ${weaponMod}`);
                         }
                     }
                 }
-    
+
                 // Only update the quest if modifications were made
                 if (modified) {
-                    quest.conditions.AvailableForFinish[0].counter.conditions[0][key] = updatedWeaponMods;
-    
+                    availableForFinish[availableForFinishIndex].counter.conditions[0].weaponModsInclusive = updatedWeaponModsInclusive;
+
                     if (debug) {
-                        console.log(`Modified ${key} in quest ${questID}:`, updatedWeaponMods);
+                        console.log(`Modified quest ${questID}:`, updatedWeaponModsInclusive);
                     }
                 }
             } catch (error) {
-                console.error(`Error modifying quest ${questID}:`, error);
+                console.error(`Error modifying quest ${questID} weapon mods inclusive:`, error);
             }
         } else {
             console.warn(`Quest with ID ${questID} not found.`);
@@ -343,7 +343,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "61e6e60223374d168a4576a6", // Compensation for damage - wager
@@ -352,7 +353,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "64e7b9bffd30422ed03dad38", // Gendarmerie district patrol
@@ -361,7 +363,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "5bc4856986f77454c317bea7", // The Tarkov shooter Part 7
@@ -370,7 +373,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "59c50c8886f7745fed3193bf", // The Punisher Part 2
@@ -379,7 +383,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "5a27bb8386f7741c770d2d0a", // Wet Job Part 1
@@ -388,7 +393,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "5c0d4c12d09282029f539173", // Peacekeeping mission
@@ -397,7 +403,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             true,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "63a9b229813bba58a50c9ee5", // Worst Job in the World
@@ -406,7 +413,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "5a27bb8386f7741c770d2d0a", // Wet Job Part 1
@@ -415,7 +423,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "5bc4776586f774512d07cf05", // The Tarkov shooter Part 1
@@ -424,7 +433,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "5bc479e586f7747f376c7da3", // The Tarkov shooter Part 2
@@ -433,7 +443,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "5bc47dbf86f7741ee74e93b9", // The Tarkov shooter Part 3
@@ -442,7 +453,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "5bc480a686f7741af0342e29", // The Tarkov shooter Part 4
@@ -451,7 +463,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "5bc4826c86f774106d22d88b", // The Tarkov shooter Part 5
@@ -460,7 +473,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "5bc4836986f7740c0152911c", // The Tarkov shooter Part 6
@@ -469,7 +483,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "5bc4856986f77454c317bea7", // The Tarkov shooter Part 7
@@ -478,7 +493,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "5bc4893c86f774626f5ebf3e", // The Tarkov shooter Part 8
@@ -487,7 +503,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "5c0bde0986f77479cf22c2f8", // A Shooter Born in Heaven
@@ -505,7 +522,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            1
         );
         this.updateQuestData(
             "5d25e4ca86f77409dd5cdf2c", // Hunting trip
@@ -514,16 +532,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
-        );
-        this.updateQuestData(
-            "5d25e4ca86f77409dd5cdf2c", // Hunting trip
-            newBolties,
-            'weapon',
-            tables,
-            jsonUtil,
-            false,
-            debug
+            debug,
+            0
         );
         this.updateQuestData(
             "5bc4776586f774512d07cf05", // The Tarkov shooter Part 1
@@ -532,7 +542,8 @@ export class QuestModifier {
             tables,
             jsonUtil,
             false,
-            debug
+            debug,
+            0
         );
 
         // Debug output
