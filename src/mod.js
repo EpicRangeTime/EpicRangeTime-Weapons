@@ -31,6 +31,7 @@ const LogTextColor_1 = require("C:/snapshot/project/obj/models/spt/logging/LogTe
 const WTTInstanceManager_1 = require("./WTTInstanceManager");
 const CustomItemService_1 = require("./CustomItemService");
 const EpicsEdits_1 = require("./EpicsEdits");
+const TraderJunkDealer_1 = require("./Traders/TraderJunkDealer");
 // Custom Trader Assort Items
 const CustomAssortSchemeService_1 = require("./CustomAssortSchemeService");
 const CustomWeaponPresets_1 = require("./CustomWeaponPresets");
@@ -41,6 +42,7 @@ class EpicRangeTimeWeapons {
     config;
     customItemService = new CustomItemService_1.CustomItemService();
     epicItemClass = new EpicsEdits_1.epicItemClass();
+    traderJunkDealer = new TraderJunkDealer_1.TraderJunkDealer();
     customAssortSchemeService = new CustomAssortSchemeService_1.CustomAssortSchemeService();
     customWeaponPresets = new CustomWeaponPresets_1.CustomWeaponPresets();
     debug = false;
@@ -54,6 +56,7 @@ class EpicRangeTimeWeapons {
         this.displayCreditBanner();
         this.customItemService.preSptLoad(this.Instance);
         this.epicItemClass.preSptLoad(this.Instance);
+        this.traderJunkDealer.preSptLoad(this.Instance);
         this.customAssortSchemeService.preSptLoad(this.Instance);
         this.customWeaponPresets.preSptLoad(this.Instance);
     }
@@ -64,6 +67,7 @@ class EpicRangeTimeWeapons {
         // EVERYTHING AFTER HERE MUST USE THE INSTANCE
         this.customItemService.postDBLoad();
         this.epicItemClass.postDBLoad();
+        this.traderJunkDealer.postDBLoad();
         this.customAssortSchemeService.postDBLoad();
         this.customWeaponPresets.postDBLoad();
         this.Instance.logger.log(`[${this.modName}] Database: Loading complete.`, LogTextColor_1.LogTextColor.GREEN);

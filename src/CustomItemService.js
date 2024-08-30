@@ -29,8 +29,8 @@ const items_1 = require("./references/items");
 const itemBaseClasses_1 = require("./references/itemBaseClasses");
 const itemHandbookCategories_1 = require("./references/itemHandbookCategories");
 const LogTextColor_1 = require("C:/snapshot/project/obj/models/spt/logging/LogTextColor");
-const fs = __importStar(require("fs"));
-const path = __importStar(require("path"));
+const fs = __importStar(require("node:fs"));
+const path = __importStar(require("node:path"));
 const QuestModifier_1 = require("./QuestModifier");
 class CustomItemService {
     configs;

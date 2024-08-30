@@ -86,6 +86,9 @@ class epicItemClass {
             if (fileData._id === "5839a40f24597726f856b511") {
                 fileData._props.Slots[1]._props.filters[0].Filter.push("df1d3bfbd9835563f1574809", "9d387502b50d1f4b0fb8b0ce");
             } //Manually pushing AK-12 stock and SAG buffer tube to AKS-74UB
+            if (fileData._id === "5bf3e0490db83400196199af") {
+                fileData._props.Slots[6]._props.filters[0].Filter.push("df1d3bfbd9835563f1574809", "9d387502b50d1f4b0fb8b0ce");
+            } //Manually pushing AK-12 stock and SAG buffer tube to AKS-74
             if (fileData._id === "5c6d11072e2216000e69d2e4") {
                 fileData._props.Slots[2]._props.filters[0].Filter.push("8af8534244b4e4189d53bec2", "0f8b8c2fc55b90cea6b5b63b", "923987338260a1bb89e6a11b");
             } //Pushing new bipods manually to existing handguards

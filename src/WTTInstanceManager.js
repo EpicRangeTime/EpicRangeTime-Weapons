@@ -24,18 +24,21 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.WTTInstanceManager = void 0;
-const path = __importStar(require("path"));
+const path = __importStar(require("node:path"));
+const RouterService_1 = require("./RouterService");
+const QuestAPI_1 = require("./QuestAPI");
+const TraderAPI_1 = require("./TraderAPI");
 class WTTInstanceManager {
     //#region Accessible in or after preSptLoad
     modName;
     debug;
     // Useful Paths
-    modPath = path.join(process.cwd(), "\\user\\mods\\WelcomeToTarkov\\");
-    dbPath = path.join(process.cwd(), "\\user\\mods\\WelcomeToTarkov\\db");
+    modPath = path.join(process.cwd(), "\\user\\mods\\EpicRangeTime-Weapons\\");
+    dbPath = path.join(process.cwd(), "\\user\\mods\\EpicRangeTime-Weapons\\db");
     profilePath = path.join(process.cwd(), "\\user\\profiles");
     // Instances
     container;
-    PreSptModLoader;
+    preSptModLoader;
     configServer;
     saveServer;
     itemHelper;
@@ -44,6 +47,7 @@ class WTTInstanceManager {
     dynamicRouter;
     profileController;
     profileCallbacks;
+    routerService = new RouterService_1.WTTRouterService();
     //#endregion
     //#region Acceessible in or after postDBLoad
     database;
@@ -57,12 +61,14 @@ class WTTInstanceManager {
     traderAssortService;
     applicationContext;
     vfs;
+    questApi = new QuestAPI_1.QuestAPI();
+    traderApi = new TraderAPI_1.TraderAPI();
     //#endregion
     // Call at the start of the mods postDBLoad method
     preSptLoad(container, mod) {
         this.modName = mod;
         this.container = container;
-        this.PreSptModLoader = container.resolve("PreSptModLoader");
+        this.preSptModLoader = container.resolve("PreSptModLoader");
         this.imageRouter = container.resolve("ImageRouter");
         this.configServer = container.resolve("ConfigServer");
         this.saveServer = container.resolve("SaveServer");
@@ -75,6 +81,9 @@ class WTTInstanceManager {
         this.dynamicRouter = container.resolve("DynamicRouterModService");
         this.traderAssortService = container.resolve("TraderAssortService");
         this.vfs = container.resolve("VFS");
+        this.questApi.preSptLoad(this);
+        this.traderApi.preSptLoad(this);
+        this.routerService.preSptLoad(this);
     }
     postDBLoad(container) {
         this.database = container.resolve("DatabaseServer").getTables();
@@ -84,6 +93,8 @@ class WTTInstanceManager {
         this.ragfairPriceService = container.resolve("RagfairPriceService");
         this.importerUtil = container.resolve("ImporterUtil");
         this.applicationContext = container.resolve("ApplicationContext");
+        this.traderApi.postDBLoad();
+        this.questApi.postDBLoad();
     }
 }
 exports.WTTInstanceManager = WTTInstanceManager;
