@@ -1,0 +1,135 @@
+{
+    "_id": "Badger",
+    "name": "Floyd",
+    "surname": "Emerson",
+    "nickname": "Badger",
+    "firstname": "Badger",
+    "location": "Streets of Tarkov",
+    "description": "An American gunsmith that was on vacation in St Petersburg when the conflict kicked off. He saw a business opportunity in it and got himself into more trouble than he bargained for. Luckily he has contacts.",
+    "avatar": "/files/trader/avatar/Badger.png",
+    "availableInRaid": false,
+    "balance_dol": 500000,
+    "balance_eur": 0,
+    "balance_rub": 0,
+    "buyer_up": false,
+    "currency": "USD",
+    "customization_seller": false,
+    "discount": 0,
+    "discount_end": 0,
+    "gridHeight": 160,
+    "insurance": {
+      "availability": true,
+      "excluded_category": [
+        "62e9103049c018f425059f38"
+      ],
+      "max_return_hour": 24,
+      "max_storage_time": 144,
+      "min_payment": 0,
+      "min_return_hour": 20
+    },
+    "items_buy": {
+      "category": [
+        "5422acb9af1c889c16000029",
+        "5485a8684bdc2da71d8b4567",
+        "543be6564bdc2df4348b4568",
+        "543be5664bdc2dd4348b4569",
+        "57864bb7245977548b3b66c2",
+        "57864ada245977548638de91",
+        "5d650c3e815116009f6201d2",
+        "590c745b86f7743cc433c5f2",
+        "5448e54d4bdc2dcc718b4568",
+        "5c99f98d86f7745c314214b3",
+        "5448fe124bdc2da5018b4567"
+      ],
+      "id_list": [
+        "5d40407c86f774318526545a",
+        "5d1b376e86f774252519444e"
+      ]
+    },
+    "items_buy_prohibited": {
+      "category": [],
+      "id_list": [
+        "62e910aaf957f2915e0a5e36",
+        "64d0b40fbe2eed70e254e2d4"
+      ]
+    },
+    "loyaltyLevels": [
+      {
+        "buy_price_coef": 75,
+        "exchange_price_coef": 0,
+        "heal_price_coef": 0,
+        "insurance_price_coef": "21",
+        "minLevel": 12,
+        "minSalesSum": 0,
+        "minStanding": 0,
+        "repair_price_coef": 210
+      },
+      {
+        "buy_price_coef": 62,
+        "exchange_price_coef": 0,
+        "heal_price_coef": 0,
+        "insurance_price_coef": "19",
+        "minLevel": 27,
+        "minSalesSum": 2500,
+        "minStanding": 0.03,
+        "repair_price_coef": 180
+      },
+      {
+        "buy_price_coef": 55,
+        "exchange_price_coef": 0,
+        "heal_price_coef": 0,
+        "insurance_price_coef": "17",
+        "minLevel": 39,
+        "minSalesSum": 7500,
+        "minStanding": 0.03,
+        "repair_price_coef": 175
+      },
+      {
+        "buy_price_coef": 45,
+        "exchange_price_coef": 0,
+        "heal_price_coef": 0,
+        "insurance_price_coef": "15",
+        "minLevel": 55,
+        "minSalesSum": 22500,
+        "minStanding": 0.03,
+        "repair_price_coef": 165
+      }
+    ],
+    "medic": false,
+    "nextResupply": 1631489718,
+    "repair": {
+      "availability": true,
+      "currency": "5696686a4bdc2da3298b456a",
+      "currency_coefficient": 1,
+      "excluded_category": [],
+      "excluded_id_list": [],
+      "price_rate": 0,
+      "quality": "0.8"
+    },
+    "sell_category": [
+      "5b5f71b386f774093f2ecf11",
+      "5b5f71c186f77409407a7ec0",
+      "5b5f71de86f774093f2ecf13",
+      "5b5f724186f77447ed5636ad",
+      "5b5f736886f774094242f193",
+      "5b5f73ec86f774093e6cb4fd",
+      "5b5f74cc86f77447ec5d770a",
+      "5b5f750686f774093e6cb503",
+      "5b5f751486f77447ec5d770c",
+      "5b5f752e86f774093e6cb505",
+      "5b5f754a86f774094242f19b",
+      "5b5f755f86f77447ec5d770e",
+      "5b5f757486f774093e6cb507",
+      "5b5f75b986f77447ec5d7710",
+      "5b5f75c686f774094242f19f",
+      "5b5f75e486f77447ec5d7712",
+      "5b5f760586f774093e6cb509",
+      "5b5f761f86f774094242f1a1",
+      "5b5f764186f77447ec5d7714",
+      "5b5f78dc86f77409407a7f8e",
+      "5b47574386f77428ca22b346",
+      "5b47574386f77428ca22b345"
+    ],
+    "sell_modifier_for_prohibited_items": 0,
+    "unlockedByDefault": false
+  }

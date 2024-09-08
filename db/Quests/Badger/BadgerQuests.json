@@ -1,0 +1,133 @@
+{
+    "ff2c2fd5d1e216e8aa91f992": {
+    "QuestName": "Who Are You?",
+    "_id": "ff2c2fd5d1e216e8aa91f992",
+    "acceptPlayerMessage": "ff2c2fd5d1e216e8aa91f992 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "ff2c2fd5d1e216e8aa91f992 changeQuestMessageText",
+    "completePlayerMessage": "ff2c2fd5d1e216e8aa91f992 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "ce1e64143567a46f19e5c2c2",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "8e221d11a7d5f29b33174dc1",
+                "target": [
+                  "TarkovStreets"
+                ]
+              }
+            ],
+            "id": "5cca66178c70f1fad41e7ec6"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "1eb36903302e0430b7c32ec9",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "c6a81f3f9042d2da88b89854",
+          "index": 0,
+          "parentId": "",
+          "value": 12,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "ff2c2fd5d1e216e8aa91f992 declinePlayerMessage",
+    "description": "ff2c2fd5d1e216e8aa91f992 description",
+    "failMessageText": "ff2c2fd5d1e216e8aa91f992 failMessageText",
+    "image": "/files/quest/icon/Intro_quest_photo.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5714dc692459777137212e12",
+    "name": "ff2c2fd5d1e216e8aa91f992 name",
+    "note": "ff2c2fd5d1e216e8aa91f992 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "038b0b5388ae92e72937ee12",
+          "index": 0,
+          "type": "Experience",
+          "value": "4900"
+        },
+        {
+          "findInRaid": true,
+          "id": "771a69a698d9f5f4cbcb733c",
+          "index": 1,
+          "items": [
+            {
+              "_id": "034d222b4e1315c5427439ae",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 220
+              }
+            }
+          ],
+          "target": "034d222b4e1315c5427439ae",
+          "type": "Item",
+          "value": "190"
+        },
+        {
+          "id": "91cf8a822ee26521c915d8f6",
+          "index": 5,
+          "target": "Badger",
+          "type": "TraderStanding",
+          "value": "0.03"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "ff2c2fd5d1e216e8aa91f992 startedMessageText",
+    "successMessageText": "ff2c2fd5d1e216e8aa91f992 successMessageText",
+    "traderId": "Badger",
+    "type": "Elimination"
+  }
+}

@@ -112,7 +112,8 @@ export enum traderIDs
     CROW = "Crow",
     WOLF = "Wolf",
     JUNKDEALER = "JunkDealer",
-    WTTDATABASE = "WTTDatabase"
+    WTTDATABASE = "WTTDatabase",
+    BADGER = "Badger"
 }
 
 export enum currencyIDs 

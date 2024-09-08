@@ -12,7 +12,7 @@ import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import { WTTInstanceManager } from "./WTTInstanceManager";
 import { CustomItemService } from "./CustomItemService";
 import { epicItemClass } from  "./EpicsEdits"
-import { TraderJunkDealer } from "./Traders/TraderJunkDealer";
+import { TraderBadger } from "./Traders/TraderBadger";
 // Custom Trader Assort Items
 import { CustomAssortSchemeService } from "./CustomAssortSchemeService";
 import { CustomWeaponPresets } from "./CustomWeaponPresets";
@@ -27,7 +27,7 @@ implements IPreSptLoadMod, IPostDBLoadMod
 
     private customItemService: CustomItemService = new CustomItemService();
     private epicItemClass: epicItemClass = new epicItemClass();
-    private traderJunkDealer: TraderJunkDealer = new TraderJunkDealer();
+    private traderBadger: TraderBadger = new TraderBadger();
     private customAssortSchemeService: CustomAssortSchemeService = new CustomAssortSchemeService();
     private customWeaponPresets: CustomWeaponPresets = new CustomWeaponPresets();
 
@@ -47,7 +47,7 @@ implements IPreSptLoadMod, IPostDBLoadMod
         this.customItemService.preSptLoad(this.Instance);
 
         this.epicItemClass.preSptLoad(this.Instance);
-        this.traderJunkDealer.preSptLoad(this.Instance);
+        this.traderBadger.preSptLoad(this.Instance);
         this.customAssortSchemeService.preSptLoad(this.Instance);
 
         this.customWeaponPresets.preSptLoad(this.Instance);
@@ -64,7 +64,7 @@ implements IPreSptLoadMod, IPostDBLoadMod
         this.customItemService.postDBLoad();
 
         this.epicItemClass.postDBLoad();
-        this.traderJunkDealer.postDBLoad();
+        this.traderBadger.postDBLoad();
         this.customAssortSchemeService.postDBLoad();
         this.customWeaponPresets.postDBLoad();
 
