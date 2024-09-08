@@ -35,7 +35,7 @@
 		"fleaPriceRoubles": 64240,
 		"handbookPriceRoubles": 15000,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -48,7 +48,7 @@
 				"_tpl": "DOLLARS"
 			}
 		],
-		"loyallevelitems": 4,
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -125,7 +125,7 @@
 		"fleaPriceRoubles": 66240,
 		"handbookPriceRoubles": 15000,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -214,7 +214,7 @@
 		"fleaPriceRoubles": 54240,
 		"handbookPriceRoubles": 13000,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,

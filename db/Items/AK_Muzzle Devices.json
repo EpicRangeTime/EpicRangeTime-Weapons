@@ -77,7 +77,7 @@
 		"fleaPriceRoubles": 11000,
 		"handbookPriceRoubles": 2615,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -86,7 +86,7 @@
 		],
 		"barterScheme": [
 			{
-				"count": 3125,
+				"count": 3600,
 				"_tpl": "ROUBLES"
 			}
 		],
@@ -142,7 +142,7 @@
 				"rcid": ""
 			},
 			"Ergonomics": -2,
-			"Recoil": -6,
+			"Recoil": -7,
 			"Slots": []
 		},
 		"locales": {
@@ -228,7 +228,7 @@
 				"rcid": ""
 			},
 			"Ergonomics": -1,
-			"Recoil": -9,
+			"Recoil": -10,
 			"Slots": []
 		},
 		"locales": {
@@ -249,7 +249,7 @@
 		"fleaPriceRoubles": 17250,
 		"handbookPriceRoubles": 2840,
 		"addtoTraders": true,
-		"traderId": "SKIER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -258,11 +258,11 @@
 		],
 		"barterScheme": [
 			{
-				"count": 9250,
+				"count": 8600,
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -336,7 +336,7 @@
 		"fleaPriceRoubles": 22500,
 		"handbookPriceRoubles": 8000,
 		"addtoTraders": true,
-		"traderId": "SKIER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -345,11 +345,11 @@
 		],
 		"barterScheme": [
 			{
-				"count": 11200,
+				"count": 12500,
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 3,
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [

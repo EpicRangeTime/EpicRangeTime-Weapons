@@ -34,7 +34,7 @@
 		"fleaPriceRoubles": 128200,
 		"handbookPriceRoubles": 58000,
 		"addtoTraders": true,
-		"traderId": "JAEGER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -47,7 +47,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 4,
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": false,
 		"StaticLootContainers": [

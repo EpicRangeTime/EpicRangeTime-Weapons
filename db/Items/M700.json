@@ -139,7 +139,7 @@
 		"fleaPriceRoubles": 39950,
 		"handbookPriceRoubles": 17500,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -152,7 +152,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": false,
 		"StaticLootContainers": [
@@ -595,7 +595,7 @@
 		"fleaPriceRoubles": 37520,
 		"handbookPriceRoubles": 22200,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -608,7 +608,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": false,
 		"StaticLootContainers": [
@@ -710,9 +710,9 @@
 				"path": "Mods/M700/m700_16.bundle",
 				"rcid": ""
 			},
-			"Recoil": -2,
+			"Recoil": -3,
 			"Velocity": -1.2,
-			"Ergonomics": -6,
+			"Ergonomics": -5,
 			"ExtraSizeLeft": 2
 		},
 		"locales": {
@@ -733,7 +733,7 @@
 		"fleaPriceRoubles": 28520,
 		"handbookPriceRoubles": 24200,
 		"addtoTraders": true,
-		"traderId": "SKIER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -746,7 +746,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 3,
+		"loyallevelitems": 4,
 		"addtoBots": false,
 		"addtostaticlootcontainer": false,
 		"StaticLootContainers": [

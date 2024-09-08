@@ -61,10 +61,9 @@ implements IPreSptLoadMod, IPostDBLoadMod
         this.Instance.postDBLoad(container);
         // EVERYTHING AFTER HERE MUST USE THE INSTANCE
 
-        this.customItemService.postDBLoad();
-
         this.epicItemClass.postDBLoad();
         this.traderBadger.postDBLoad();
+        this.customItemService.postDBLoad();
         this.customAssortSchemeService.postDBLoad();
         this.customWeaponPresets.postDBLoad();
 

@@ -11,7 +11,7 @@
 			},
 			"Weight": 0.496,
 			"Accuracy": 5,
-			"Recoil": -5,
+			"Recoil": -6,
 			"DurabilityBurnModificator": 0.9,
 			"HeatFactor": 1,
 			"CoolFactor": 1.1,
@@ -130,7 +130,7 @@
 		"fleaPriceRoubles": 85000,
 		"handbookPriceRoubles": 19200,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -143,7 +143,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 3,
+		"loyallevelitems": 4,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [

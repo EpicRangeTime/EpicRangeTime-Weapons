@@ -33,7 +33,7 @@
 		"fleaPriceRoubles": 24250,
 		"handbookPriceRoubles": 48217,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -42,11 +42,11 @@
 		],
 		"barterScheme": [
 			{
-				"count": 398,
+				"count": 237,
 				"_tpl": "DOLLARS"
 			}
 		],
-		"loyallevelitems": 3,
+		"loyallevelitems": 2,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -121,7 +121,7 @@
 		"fleaPriceRoubles": 150000,
 		"handbookPriceRoubles": 96217,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "RAGMAN",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -218,7 +218,7 @@
 		],
 		"barterScheme": [
 			{
-				"count": 646,
+				"count": 476,
 				"_tpl": "DOLLARS"
 			}
 		],
@@ -298,7 +298,7 @@
 		"fleaPriceRoubles": 124250,
 		"handbookPriceRoubles": 86240,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -307,11 +307,11 @@
 		],
 		"barterScheme": [
 			{
-				"count": 746,
+				"count": 360,
 				"_tpl": "DOLLARS"
 			}
 		],
-		"loyallevelitems": 3,
+		"loyallevelitems": 4,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [

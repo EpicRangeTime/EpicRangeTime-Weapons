@@ -68,7 +68,7 @@
 		"fleaPriceRoubles": 16666,
 		"handbookPriceRoubles": 4800,
 		"addtoTraders": true,
-		"traderId": "SKIER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -81,7 +81,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -187,7 +187,7 @@
 		"fleaPriceRoubles": 28000,
 		"handbookPriceRoubles": 4800,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -270,7 +270,7 @@
 		"fleaPriceRoubles": 23550,
 		"handbookPriceRoubles": 6420,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -283,7 +283,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -356,7 +356,7 @@
 		"fleaPriceRoubles": 32500,
 		"handbookPriceRoubles": 4800,
 		"addtoTraders": true,
-		"traderId": "SKIER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -369,7 +369,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 4,
+		"loyallevelitems": 2,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -475,7 +475,7 @@
 		"fleaPriceRoubles": 34200,
 		"handbookPriceRoubles": 5500,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -488,7 +488,7 @@
 				"_tpl": "DOLLARS"
 			}
 		],
-		"loyallevelitems": 4,
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -558,7 +558,7 @@
 		"fleaPriceRoubles": 16250,
 		"handbookPriceRoubles": 5000,
 		"addtoTraders": true,
-		"traderId": "SKIER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -571,7 +571,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -929,7 +929,7 @@
 		"fleaPriceRoubles": 28470,
 		"handbookPriceRoubles": 12250,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -1034,7 +1034,7 @@
 		"fleaPriceRoubles": 18250,
 		"handbookPriceRoubles": 6200,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -1213,7 +1213,7 @@
 		"fleaPriceRoubles": 13520,
 		"handbookPriceRoubles": 6200,
 		"addtoTraders": true,
-		"traderId": "SKIER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -1226,7 +1226,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 3,
+		"loyallevelitems": 2,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -1488,7 +1488,7 @@
 		"fleaPriceRoubles": 17200,
 		"handbookPriceRoubles": 9620,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -1501,7 +1501,7 @@
 				"_tpl": "DOLLARS"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -1593,7 +1593,7 @@
 		"fleaPriceRoubles": 14000,
 		"handbookPriceRoubles": 14200,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -1677,7 +1677,7 @@
 		"fleaPriceRoubles": 26250,
 		"handbookPriceRoubles": 7100,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,

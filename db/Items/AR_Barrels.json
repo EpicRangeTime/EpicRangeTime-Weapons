@@ -146,7 +146,7 @@
 		"fleaPriceRoubles": 22500,
 		"handbookPriceRoubles": 19118,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -648,7 +648,7 @@
 		"fleaPriceRoubles": 65000,
 		"handbookPriceRoubles": 16200,
 		"addtoTraders": true,
-		"traderId": "SKIER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -661,7 +661,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -1175,7 +1175,7 @@
 		"fleaPriceRoubles": 19200,
 		"handbookPriceRoubles": 19118,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -1188,7 +1188,7 @@
 				"_tpl": "DOLLARS"
 			}
 		],
-		"loyallevelitems": 3,
+		"loyallevelitems": 2,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -2491,7 +2491,7 @@
 		"fleaPriceRoubles": 28200,
 		"handbookPriceRoubles": 28900,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -2504,7 +2504,7 @@
 				"_tpl": "DOLLARS"
 			}
 		],
-		"loyallevelitems": 4,
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -2583,7 +2583,7 @@
 		"fleaPriceRoubles": 27000,
 		"handbookPriceRoubles": 28900,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -2596,7 +2596,7 @@
 				"_tpl": "DOLLARS"
 			}
 		],
-		"loyallevelitems": 3,
+		"loyallevelitems": 4,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -2797,7 +2797,7 @@
 		"fleaPriceRoubles": 29900,
 		"handbookPriceRoubles": 27000,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -2810,7 +2810,7 @@
 				"_tpl": "DOLLARS"
 			}
 		],
-		"loyallevelitems": 1,
+		"loyallevelitems": 2,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [

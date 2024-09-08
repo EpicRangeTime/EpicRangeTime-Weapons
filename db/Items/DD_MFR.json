@@ -196,7 +196,7 @@
         "fleaPriceRoubles": 26300,
         "handbookPriceRoubles": 12000,
         "addtoTraders": true,
-        "traderId": "SKIER",
+        "traderId": "BADGER",
         "traderItems": [
             {
                 "unlimitedCount": true,
@@ -447,7 +447,7 @@
         "fleaPriceRoubles": 26300,
         "handbookPriceRoubles": 12000,
         "addtoTraders": true,
-        "traderId": "SKIER",
+        "traderId": "BADGER",
         "traderItems": [
             {
                 "unlimitedCount": true,
@@ -1708,7 +1708,7 @@
         "fleaPriceRoubles": 27600,
         "handbookPriceRoubles": 12000,
         "addtoTraders": true,
-        "traderId": "SKIER",
+        "traderId": "BADGER",
         "traderItems": [
             {
                 "unlimitedCount": true,
