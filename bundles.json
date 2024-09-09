@@ -1,6 +1,14 @@
 {
     "manifest": [
         {
+            "key": "Ammo/9mm_export_900_can.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "assets/content/items/mods/muzzle/muzzle_ar10_surefire_procomp_762_muzzle_brake_762x51.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -34,14 +42,6 @@
         },
         {
             "key": "assets/content/items/mods/silencers/silencer_socom_surefire_socom556_rc2_556x45.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Ammo/9mm_export_900_can.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -602,6 +602,30 @@
         },
         {
             "key": "Mods/AR15_Handguards/mfr9_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/midwest_nf_10_5.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/midwest_nf_13_5.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/midwest_nf_9_25.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
