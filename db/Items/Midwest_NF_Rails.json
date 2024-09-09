@@ -21,8 +21,7 @@
                 "6357c98711fb55120211f7e1",
                 "5ae30e795acfc408fb139a0b",
                 "5a34fbadc4a28200741e230a",
-                "56ea8d2fd2720b7c698b4570",
-                "55d35ee94bdc2d61338b4568"
+                "56ea8d2fd2720b7c698b4570"
             ],
             "Slots": [
 				{
@@ -275,7 +274,11 @@
             "ConflictingItems": [
                 "a06aec4316ac6ff7353845f4",
                 "6357c98711fb55120211f7e1",
-                "5ae30e795acfc408fb139a0b"
+                "5ae30e795acfc408fb139a0b",
+                "5a34fbadc4a28200741e230a",
+                "56ea8d2fd2720b7c698b4570",
+				"c6b01e3e7a1ec6168254e687",
+				"55d35ee94bdc2d61338b4568"
             ],
             "Slots": [
 				{
@@ -528,7 +531,13 @@
             "ConflictingItems": [
                 "a06aec4316ac6ff7353845f4",
                 "6357c98711fb55120211f7e1",
-                "5ae30e795acfc408fb139a0b"
+                "5ae30e795acfc408fb139a0b",
+                "5a34fbadc4a28200741e230a",
+                "56ea8d2fd2720b7c698b4570",
+				"c6b01e3e7a1ec6168254e687",
+				"55d35ee94bdc2d61338b4568",
+				"bc9a059a5c6cb11a3b57c670",
+				"63d3ce0446bd475bcb50f55f"
             ],
             "Slots": [
 				{
