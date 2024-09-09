@@ -12,6 +12,7 @@
             "Ergonomics": 8,
             "ExtraSizeLeft": 1,
             "Recoil": -0.5,
+			"Weight": 0.323,
             "Width": 2,
             "HeatFactor": 0.96,
             "CoolFactor": 1.11,
@@ -267,6 +268,7 @@
             "Ergonomics": 9.5,
             "ExtraSizeLeft": 1,
             "Recoil": -1,
+			"Weight": 0.351,
             "Width": 2,
             "HeatFactor": 0.96,
             "CoolFactor": 1.11,
@@ -519,6 +521,7 @@
             "Ergonomics": 10,
             "ExtraSizeLeft": 2,
             "Recoil": -1.5,
+			"Weight": 0.399,
             "Width": 3,
             "HeatFactor": 0.96,
             "CoolFactor": 1.11,
@@ -688,7 +691,7 @@
         },
         "locales": {
             "en": {
-                "name": "AR-15 Midwest Industries Night Figher 13.5 inch M-LOK handguard",
+                "name": "AR-15 Midwest Industries Night Fighter 13.5 inch M-LOK handguard",
                 "shortName": "Night Fighter 13.5",
                 "description": "Midwest Industries designed the Night Fighter handguards in an effort to provide a more rigid platform for mounting weapon lasers so as to reduce the impact shift between shots, including an extended 4140 steel barrel nut. Made in USA."
             }
