@@ -3914,5 +3914,181 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"8d28d2b0bc17dad17f09676d": {
+		"itemTplToClone": "56ea8180d2720bf2698b456a",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/dd_sguard_556.bundle",
+				"rcid": ""
+			},
+			"Recoil": -11,
+			"Ergonomics": -19,
+			"Loudness": -27,
+			"Weight": 0.623,
+			"Slots":[]
+		},
+		"locales": {
+			"en": {
+				"name": "Daniel Defense Soundguard 5.56x45 sound suppressor",
+				"shortName": "SG-556",
+				"description": "Daniel SoundGuard Powered by KGM Suppressors utilize cutting-edge gas-flow dynamics that eliminate over-gassing and direct most gasses forward, not back in a shooter’s face. So, you experience less toxic gas blowback and can concentrate on putting more shots on target. State-of-the-art KGM technology significantly lowers impulse noise levels, protecting against hearing loss, while a patent-pending baffle stack and proprietary coating on internal parts reduce a firearm’s flash signature to virtually zero. Patent-pending gas-flow pathing stabilizes rounds to ensure extreme accuracy with minimal point-of-impact shift."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 42920,
+		"handbookPriceRoubles": 29000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 282,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"a1fd0589018e71233daeb331": {
+		"itemTplToClone": "5dfa3cd1b33c0951220c079b",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/dd_sguard_762.bundle",
+				"rcid": ""
+			},
+			"Recoil": -12,
+			"Ergonomics": -19,
+			"Loudness": -29,
+			"Weight": 0.623,
+			"Slots":[]
+		},
+		"locales": {
+			"en": {
+				"name": "Daniel Defense Soundguard 7.62x51 sound suppressor",
+				"shortName": "SG-762",
+				"description": "Daniel SoundGuard Powered by KGM Suppressors utilize cutting-edge gas-flow dynamics that eliminate over-gassing and direct most gasses forward, not back in a shooter’s face. So, you experience less toxic gas blowback and can concentrate on putting more shots on target. State-of-the-art KGM technology significantly lowers impulse noise levels, protecting against hearing loss, while a patent-pending baffle stack and proprietary coating on internal parts reduce a firearm’s flash signature to virtually zero. Patent-pending gas-flow pathing stabilizes rounds to ensure extreme accuracy with minimal point-of-impact shift."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 47290,
+		"handbookPriceRoubles": 30000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 290,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }

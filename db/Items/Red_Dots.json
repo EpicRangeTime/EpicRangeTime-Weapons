@@ -118,7 +118,9 @@
 		"addtoInventorySlots": [],
 		"addtoModSlots": true,
 		"modSlot": [
-			"mod_scope"
+			"mod_scope",
+         	"mod_scope_000",
+			"mod_scope_001"
 		],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
@@ -209,7 +211,9 @@
 		"addtoInventorySlots": [],
 		"addtoModSlots": true,
 		"modSlot": [
-			"mod_scope"
+			"mod_scope",
+         	"mod_scope_000",
+			"mod_scope_001"
 		],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
@@ -315,7 +319,9 @@
 		"addtoInventorySlots": [],
 		"addtoModSlots": true,
 		"modSlot": [
-			"mod_scope"
+			"mod_scope",
+         	"mod_scope_000",
+			"mod_scope_001"
 		],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
@@ -398,7 +404,9 @@
 		"addtoInventorySlots": [],
 		"addtoModSlots": true,
 		"modSlot": [
-			"mod_scope"
+			"mod_scope",
+         	"mod_scope_000",
+			"mod_scope_001"
 		],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
@@ -481,7 +489,9 @@
 		"addtoInventorySlots": [],
 		"addtoModSlots": true,
 		"modSlot": [
-			"mod_scope"
+			"mod_scope",
+         	"mod_scope_000",
+			"mod_scope_001"
 		],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],

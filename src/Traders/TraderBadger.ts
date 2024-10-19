@@ -1,6 +1,8 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import type { WTTInstanceManager } from "../WTTInstanceManager";
 
+import { ConfigTypes } from "@spt/models/enums/ConfigTypes";
+import type { IInsuranceConfig } from "@spt/models/spt/config/IInsuranceConfig";
 import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
 
 export class TraderBadger 
@@ -39,5 +41,9 @@ export class TraderBadger
         //Load quests
         this.instanceManager.questApi.loadQuestsFromDirectory("Badger");
         //this.instanceManager.questApi.importQuestZones(BadgerZones, "Badger");
+
+        const insuranceConfig = this.instanceManager.configServer.getConfig<IInsuranceConfig>(ConfigTypes.INSURANCE);
+
+        insuranceConfig.returnChancePercent["Badger"] = 95;
     }
 }

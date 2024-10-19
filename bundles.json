@@ -633,6 +633,14 @@
             ]
         },
         {
+            "key": "Mods/AR10/midwest_ar10_12_625.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/AR15_Handguards/mk4_10f_blk.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -1449,6 +1457,14 @@
             ]
         },
         {
+            "key": "Mods/Magazines/pufgun_556_30rd.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Magnifiers/g33_exps3_magnifier.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -2086,6 +2102,38 @@
             ]
         },
         {
+            "key": "Mods/Stocks/stock_car15.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/stock_m16a1.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/stock_m16a2.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/stock_midwestindustriesfixed.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Suppressors/aac-m4-2000blk.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -2103,6 +2151,22 @@
         },
         {
             "key": "Mods/Suppressors/b&t_rbs_c_762_sf.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Suppressors/dd_sguard_556.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Suppressors/dd_sguard_762.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
