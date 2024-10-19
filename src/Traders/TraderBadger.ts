@@ -21,10 +21,10 @@ export class TraderBadger
     {
         this.instanceManager = Instance;
         
-        this.BadgerBaseJson = this.instanceManager.traderApi.loadTraderBaseJson("Badger");
-        this.BadgerAssort = this.instanceManager.traderApi.loadTraderAssortJson("Badger");
-        this.BadgerQuestAssort = this.instanceManager.traderApi.loadTraderQuestAssortJson("Badger");
-        this.instanceManager.traderApi.setupTrader("Badger", this.BadgerBaseJson);
+        this.BadgerBaseJson = this.instanceManager.traderApi.loadTraderBaseJson("bd3a8b28356d9c6509966546");
+        this.BadgerAssort = this.instanceManager.traderApi.loadTraderAssortJson("bd3a8b28356d9c6509966546");
+        this.BadgerQuestAssort = this.instanceManager.traderApi.loadTraderQuestAssortJson("bd3a8b28356d9c6509966546");
+        this.instanceManager.traderApi.setupTrader("bd3a8b28356d9c6509966546", this.BadgerBaseJson);
         this.instanceManager.logger.log(`[${this.instanceManager.modName}] Trader: Badger Active`, LogTextColor.GREEN);
     }
     
@@ -33,17 +33,17 @@ export class TraderBadger
      */
     postDBLoad(): void 
     {
-        this.mydb = this.instanceManager.traderApi.loadTraderDbRecursive("Badger");
+        this.mydb = this.instanceManager.traderApi.loadTraderDbRecursive("bd3a8b28356d9c6509966546");
 
-        this.instanceManager.traderApi.addTraderToDb(this.mydb, "Badger", 
+        this.instanceManager.traderApi.addTraderToDb(this.mydb, "bd3a8b28356d9c6509966546", 
             this.BadgerBaseJson, this.BadgerAssort, this.BadgerQuestAssort);
 
         //Load quests
-        this.instanceManager.questApi.loadQuestsFromDirectory("Badger");
+        this.instanceManager.questApi.loadQuestsFromDirectory("bd3a8b28356d9c6509966546");
         //this.instanceManager.questApi.importQuestZones(BadgerZones, "Badger");
 
         const insuranceConfig = this.instanceManager.configServer.getConfig<IInsuranceConfig>(ConfigTypes.INSURANCE);
 
-        insuranceConfig.returnChancePercent["Badger"] = 95;
+        insuranceConfig.returnChancePercent["bd3a8b28356d9c6509966546"] = 95;
     }
 }

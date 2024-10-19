@@ -45,7 +45,7 @@ export class TraderAPI
     public loadTraderBaseJson(trader: string): any
     {
         const file = fs.readFileSync(
-            path.join(this.dbPath, `\\${trader}\\${trader}Base.json`), "utf8");
+            path.join(this.dbPath, `\\${trader}\\${trader}_Base.json`), "utf8");
         const json = JSON.parse(file);
         return json;
     }
@@ -59,7 +59,7 @@ export class TraderAPI
     public loadTraderAssortJson(trader: string): any
     {
         const file = fs.readFileSync(
-            path.join(this.dbPath, `\\${trader}\\${trader}Assort.json`), "utf8");
+            path.join(this.dbPath, `\\${trader}\\${trader}_Assort.json`), "utf8");
         const json = JSON.parse(file);
         return json;
     }
@@ -73,7 +73,7 @@ export class TraderAPI
     public loadTraderQuestAssortJson(trader: string): any
     {
         const file = fs.readFileSync(
-            path.join(this.dbPath, `\\${trader}\\${trader}QuestAssort.json`), "utf8");
+            path.join(this.dbPath, `\\${trader}\\${trader}_QuestAssort.json`), "utf8");
         const json = JSON.parse(file);
         return json;
     }
