@@ -3925,6 +3925,7 @@
 				"path": "Mods/Suppressors/dd_sguard_556.bundle",
 				"rcid": ""
 			},
+			"Width": 2,
 			"Recoil": -11,
 			"Ergonomics": -19,
 			"Loudness": -27,
@@ -4013,6 +4014,7 @@
 				"path": "Mods/Suppressors/dd_sguard_762.bundle",
 				"rcid": ""
 			},
+			"Width": 2,
 			"Recoil": -12,
 			"Ergonomics": -19,
 			"Loudness": -29,
