@@ -2014,6 +2014,7 @@
 				"path": "Mods/AR15_Muzzle_Devices/rotex_d_blk.bundle",
 				"rcid": ""
 			},
+			"DurabilityBurnModificator": 1,
 			"Weight": 0.266,
 			"Recoil": -6,
 			"Ergonomics": -4,
@@ -2106,6 +2107,7 @@
 				"path": "Mods/AR15_Muzzle_Devices/rotex_d_fde.bundle",
 				"rcid": ""
 			},
+			"DurabilityBurnModificator": 1,
 			"Weight": 0.266,
 			"Recoil": -6,
 			"Ergonomics": -4,
@@ -2198,6 +2200,7 @@
 				"path": "Mods/AR15_Muzzle_Devices/rotex_d_gry.bundle",
 				"rcid": ""
 			},
+			"DurabilityBurnModificator": 1,
 			"Weight": 0.266,
 			"Recoil": -6,
 			"Ergonomics": -4,

@@ -1378,7 +1378,8 @@
 			},
 			"Recoil": -11,
 			"Weight": 0.281,
-			"CoolFactor": 1
+			"CoolFactor": 1,
+			"Slots":[]
 		},
 		"locales": {
 			"en": {
@@ -1468,7 +1469,8 @@
 			},
 			"Recoil": -14,
 			"Weight": 0.281,
-			"CoolFactor": 1
+			"CoolFactor": 1,
+			"Slots":[]
 		},
 		"locales": {
 			"en": {

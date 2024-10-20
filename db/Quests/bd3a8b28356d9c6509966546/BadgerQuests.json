@@ -117,7 +117,7 @@
         {
           "id": "91cf8a822ee26521c915d8f6",
           "index": 5,
-          "target": "Badger",
+          "target": "bd3a8b28356d9c6509966546",
           "type": "TraderStanding",
           "value": "0.03"
         }
@@ -127,7 +127,7 @@
     "side": "Pmc",
     "startedMessageText": "ff2c2fd5d1e216e8aa91f992 startedMessageText",
     "successMessageText": "ff2c2fd5d1e216e8aa91f992 successMessageText",
-    "traderId": "Badger",
+    "traderId": "bd3a8b28356d9c6509966546",
     "type": "Elimination"
   }
 }
