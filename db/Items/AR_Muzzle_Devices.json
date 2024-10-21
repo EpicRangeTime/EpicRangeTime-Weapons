@@ -1743,7 +1743,7 @@
 				"rcid": ""
 			},
 			"Weight": 0.167,
-			"Recoil": -6.5,
+			"Recoil": -7.5,
 			"Ergonomics":-1.5
 		},
 		"locales": {
@@ -1778,6 +1778,93 @@
 			}
 		],
 		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1900
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"7df07162a928f5e9ab26404a": {
+		"itemTplToClone": "544a38634bdc2d58388b4568",
+		"parentId": "FLASHHIDER",
+		"handbookParentId": "MOD_FLASHHIDER",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/AR15_Muzzle_Devices/xm177_fh.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.082,
+			"Recoil": -6,
+			"Ergonomics":-1.5,
+			"Loudness": -5,
+			"Slots":[]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Colt XM-177E2 5.56x45 flash hider",
+				"shortName": "XM-177E2",
+				"description": "The original XM177E2 flash hider made by Colt for the Gau-5A rifles requested by the United States Air Force and other special forces units in the 60's and 70's."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 8420,
+		"handbookPriceRoubles": 1000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 22,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [

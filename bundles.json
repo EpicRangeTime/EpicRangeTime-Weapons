@@ -1153,6 +1153,14 @@
             ]
         },
         {
+            "key": "Mods/AR15_Muzzle_Devices/xm177_fh.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/AR15_Muzzle_Devices/huxwrks_556k_fh.bundle",
             "dependencyKeys": [
                 "shaders",
