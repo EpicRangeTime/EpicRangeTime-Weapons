@@ -3933,6 +3933,7 @@
 			"Ergonomics": -19,
 			"Loudness": -27,
 			"Weight": 0.623,
+			"ExtraSizeLeft": 1,
 			"Slots":[]
 		},
 		"locales": {
@@ -4022,6 +4023,7 @@
 			"Ergonomics": -19,
 			"Loudness": -29,
 			"Weight": 0.623,
+			"ExtraSizeLeft": 1,
 			"Slots":[]
 		},
 		"locales": {
