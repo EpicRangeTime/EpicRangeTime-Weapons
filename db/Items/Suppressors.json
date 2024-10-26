@@ -3934,7 +3934,7 @@
 			"Loudness": -27,
 			"Weight": 0.623,
 			"ExtraSizeLeft": 1,
-			"Slots":[]
+			"Slots": []
 		},
 		"locales": {
 			"en": {
@@ -4024,7 +4024,7 @@
 			"Loudness": -29,
 			"Weight": 0.623,
 			"ExtraSizeLeft": 1,
-			"Slots":[]
+			"Slots": []
 		},
 		"locales": {
 			"en": {
@@ -4058,6 +4058,102 @@
 			}
 		],
 		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"45b07217916365a3171c079e": {
+		"itemTplToClone": "56ea8180d2720bf2698b456a",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/allen_m4_suppressor.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Recoil": -14,
+			"Ergonomics": -26,
+			"Loudness": -35,
+			"Weight": 0.680,
+			"ExtraSizeLeft": 1,
+			"Slots": [],
+			"ConflictingItems": [
+				"56eabcd4d2720b66698b4574",
+				"5d00ec68d7ad1a04a067e5be",
+				"56ea8d2fd2720b7c698b4570",
+				"63d3ce281fe77d0f2801859e"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Allen Engineering M4 5.56x45 sound suppressor",
+				"shortName": "AE M4",
+				"description": "The M4 is a modified Ops Inc. 3rd Model that adds a 5.56 baffle stack and keeps the direct thread 1st section. The M4 was designed directly thread onto a 14.5″ M4 Carbine with the simple instillation of a 3-piece collar that interfaces with the front sight block. The M4 suppressor was notably used by MSG. Gary Gordon during The Battle of Mogadishu."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 47290,
+		"handbookPriceRoubles": 30000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 340,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [

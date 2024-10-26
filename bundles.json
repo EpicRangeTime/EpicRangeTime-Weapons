@@ -2158,6 +2158,14 @@
             ]
         },
         {
+            "key": "Mods/Suppressors/allen_m4_suppressor.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Suppressors/b&t_rbs_c_762_sf.bundle",
             "dependencyKeys": [
                 "shaders",

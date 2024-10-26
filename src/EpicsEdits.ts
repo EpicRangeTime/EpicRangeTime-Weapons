@@ -300,6 +300,9 @@ export class epicItemClass {
             if (fileData._id === "5839a40f24597726f856b511") {
                 fileData._props.Slots[4]._props.filters[0].Filter.push("5e21ca18e4d47f0da15e77dd");
             } //Pushing 5.56 CNC warrior adapter to AKS-74UB
+            if (fileData._id === "55d3632e4bdc2d972f8b4569") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("45b07217916365a3171c079e");
+            } //Manually pushing the AE M4 suppressor only to the AR 370mm barrel
         }
     }
 
