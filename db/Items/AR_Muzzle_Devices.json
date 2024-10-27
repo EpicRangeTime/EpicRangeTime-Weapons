@@ -1904,5 +1904,89 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"101e593cde9a1f6fb8476d1e": {
+		"itemTplToClone": "56ea8180d2720bf2698b456a",
+		"parentId": "FLASHHIDER",
+		"handbookParentId": "MOD_FLASHHIDER",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/AR15_Muzzle_Devices/kac_triple_tap_fh.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.073,
+			"Recoil": -7.5
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 KAC Enhanced Compensator 5.56x45 Flash Suppressor Kit",
+				"shortName": "KAC 3T",
+				"description": "The KAC 5.56 Enhanced Compensator Kit also known as the \"Triple Tap\" or \"3T\" has been engineered to increase controllability, to significantly reduce felt recoil, and to help mitigate a rifle’s flash signature as compared to traditional muzzle brake designs."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 8420,
+		"handbookPriceRoubles": 1000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 36,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1900
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }
