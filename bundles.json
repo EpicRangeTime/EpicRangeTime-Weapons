@@ -1465,7 +1465,15 @@
             ]
         },
         {
-            "key": "Mods/Magazines/pufgun_556_30rd.bundle",
+            "key": "Mods/Magazines/pufgun_556_30rd_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Magazines/pufgun_556_30rd_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
