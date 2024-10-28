@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/Mounts/unity-micro-226_blk.bundle",
+				"path": "Mods/Mounts/unity_micro_226_blk.bundle",
 				"rcid": ""
 			},
 			"Conflictingitems": [
