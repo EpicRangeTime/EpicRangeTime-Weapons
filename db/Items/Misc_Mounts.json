@@ -3405,6 +3405,148 @@
 		"addweaponpreset": false,
 		"weaponpresets": []
 	},
+	"e3dcf75199f821636a95cb9b": {
+		"itemTplToClone": "618b9643526131765025ab35",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/reptilia_34mm_mount_blk.bundle",
+				"rcid": ""
+			},
+			"Conflictingitems": [
+				"55d5f46a4bdc2d1b198b4567",
+				"623166e08c43374ca1567195",
+				"56083e1b4bdc2dc8488b4572",
+				"5ae30bad5acfc400185c2dc4",
+				"275def25d1abe9b101511271",
+				"8d9e9ff3020f92eb5fc46680"
+			],
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "d180f87d9cac7548e5cd65c6",
+					"_parent": "e3dcf75199f821636a95cb9b",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"56ea70acd2720b844b8b4594",
+									"5aa66be6e5b5b0214e506e97",
+									"61714eec290d254f5e6b2ffc",
+									"62850c28da09541f43158cca",
+									"85675a91454713828d6138e5",
+									"cd609524dadc768a89f99bba",
+									"750bcfb1b1f84f27a8f4f282",
+									"0afaf0c97b1d068d242df1dc"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_mount",
+					"_id": "c4c5c97a0a3516d249e90d4d",
+					"_parent": "e3dcf75199f821636a95cb9b",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"0ce104382851509ab14fb19c",
+									"27b92c2226b1110635235c2e",
+									"04b7ab7e14e564819a6d0e22",
+									"0d914f394390e16506a949da",
+									"7b3525a6de4f4847921529c0",
+									"159023b10fa02ac28247fce3"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Reptilia AUS 34mm ring scope mount (BLK)",
+				"shortName": "AUS 34mm",
+				"description": "Introducing the AUS Mount for 34mm diameter magnified optics, from Reptilia. Driven by the request of an end user group, the AUS Mount is the culmination of a 2 year development program."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 27520,
+		"handbookPriceRoubles": 9000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 14290,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
 	"0ce104382851509ab14fb19c": {
 		"itemTplToClone": "618b9682a3884f56c957ca78",
 		"parentId": "MOUNT",
@@ -4096,114 +4238,6 @@
 		"locales": {
 			"en": {
 				"name": "Larue LT724 Angled CQB Micro T-1 mount",
-				"shortName": "LT724",
-				"description": "Magnified scopes are great for distance targets, but are slow and awkward when engaging targets close-in. When used in combination with a magnified scope, the LT-724 positions the excellent Aimpoint T-1 off to the side, so you'll have all the benefits of a red-dot simply by rotating the rifle a few degrees for rapid transition to close-range targets."
-			}
-		},
-		"clearClonedProps": false,
-		"addtoInventorySlots": [],
-		"addtoModSlots": true,
-		"modSlot": [
-			"mod_scope",
-			"mod_scope_000",
-			"mod_scope_001"
-		],
-		"ModdableItemWhitelist": [],
-		"ModdableItemBlacklist": [],
-		"fleaPriceRoubles": 39200,
-		"handbookPriceRoubles": 2500,
-		"addtoTraders": true,
-		"traderId": "SKIER",
-		"traderItems": [
-			{
-				"unlimitedCount": true,
-				"stackObjectsCount": 99
-			}
-		],
-		"barterScheme": [
-			{
-				"count": 7500,
-				"_tpl": "ROUBLES"
-			}
-		],
-		"loyallevelitems": 2,
-		"addtoBots": false,
-		"addtostaticlootcontainer": true,
-		"StaticLootContainers": [
-			{
-				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-				"Probability": 1600
-			},
-			{
-				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-				"Probability": 1600
-			},
-			{
-				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-				"Probability": 1600
-			},
-			{
-				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
-				"Probability": 1600
-			},
-			{
-				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-				"Probability": 1600
-			},
-			{
-				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
-				"Probability": 1600
-			}
-		],
-		"masteries": false,
-		"masterySections": [
-			{
-				"Name": "M870",
-				"Templates": [
-					"SerbuShotgun"
-				]
-			}
-		],
-		"addweaponpreset": false,
-		"weaponpresets": []
-	},
-	"bb7761566d0356796bc43ae5": {
-		"itemTplToClone": "5649a2464bdc2d91118b45a8",
-		"parentId": "MOUNT",
-		"handbookParentId": "MOD_MOUNT",
-		"overrideProperties": {
-			"Prefab": {
-				"path": "Mods/Mounts/micro_offset_rev.bundle",
-				"rcid": ""
-			},
-			"Slots": [
-				{
-					"_name": "mod_scope",
-					"_id": "0656abc349a8ca5ddce07250",
-					"_parent": "bb7761566d0356796bc43ae5",
-					"_props": {
-						"filters": [
-							{
-								"Shift": 0,
-								"Filter": [
-									"61657230d92c473c770213d7",
-									"58d399e486f77442e0016fe7",
-									"5b3116595acfc40019476364",
-									"026dfdb287f69c3025f0f728",
-									"2589a5a2424122404cf3a94c"
-								]
-							}
-						]
-					},
-					"_required": false,
-					"_mergeSlotWithChildren": false,
-					"_proto": "55d30c4c4bdc2db4468b457e"
-				}
-			]
-		},
-		"locales": {
-			"en": {
-				"name": "Larue LT724 Angled CQB Micro T-1 mount (Reversed)",
 				"shortName": "LT724",
 				"description": "Magnified scopes are great for distance targets, but are slow and awkward when engaging targets close-in. When used in combination with a magnified scope, the LT-724 positions the excellent Aimpoint T-1 off to the side, so you'll have all the benefits of a red-dot simply by rotating the rifle a few degrees for rapid transition to close-range targets."
 			}

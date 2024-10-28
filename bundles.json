@@ -641,6 +641,14 @@
             ]
         },
         {
+            "key": "Mods/AR10/midwest_ar10_15.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/AR15_Handguards/mk4_10f_blk.bundle",
             "dependencyKeys": [
                 "shaders",
