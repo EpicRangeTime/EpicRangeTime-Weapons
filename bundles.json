@@ -1745,14 +1745,6 @@
             ]
         },
         {
-            "key": "Mods/Mounts/micro_offset_rev.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
             "key": "Mods/Mounts/mro_short.bundle",
             "dependencyKeys": [
                 "shaders",

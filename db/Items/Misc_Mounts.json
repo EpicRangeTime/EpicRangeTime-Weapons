@@ -4214,7 +4214,7 @@
 				{
 					"_name": "mod_scope",
 					"_id": "5649dc074bdc2d1b2b8b458f",
-					"_parent": "5649a2464bdc2d91118b45a8",
+					"_parent": "85a2077a2a40a73a0f95f74a",
 					"_props": {
 						"filters": [
 							{
@@ -4248,14 +4248,15 @@
 		"modSlot": [
 			"mod_scope",
 			"mod_scope_000",
-			"mod_scope_001"
+			"mod_scope_001",
+			"mod_mount"
 		],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
 		"fleaPriceRoubles": 39200,
 		"handbookPriceRoubles": 2500,
 		"addtoTraders": true,
-		"traderId": "SKIER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -4264,8 +4265,8 @@
 		],
 		"barterScheme": [
 			{
-				"count": 7500,
-				"_tpl": "ROUBLES"
+				"count": 31,
+				"_tpl": "DOLLARS"
 			}
 		],
 		"loyallevelitems": 2,
