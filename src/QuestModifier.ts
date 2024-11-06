@@ -284,7 +284,11 @@ export class QuestModifier {
             ["08ce1f8189bcb4aa4a490d28"],
             ["dfb4f1c3e5b85305c24ed2bc"],
             ["bfa234cc36aac6c9e1190ab1"],
-            ["dd6b29946db0932ea75e09c4"]
+            ["dd6b29946db0932ea75e09c4"],
+            ["8d28d2b0bc17dad17f09676d"],
+            ["a1fd0589018e71233daeb331"],
+            ["45b07217916365a3171c079e"],
+            ["005ea36cedb4cf3ed6503746"]
         ];
         const newScopes = [
             ["0afaf0c97b1d068d242df1dc"],

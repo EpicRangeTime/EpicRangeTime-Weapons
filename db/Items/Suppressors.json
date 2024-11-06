@@ -4216,7 +4216,8 @@
 			"Ergonomics": -19,
 			"HeatFactor": 1.062,
 			"Loudness": -25,
-			"Width":2
+			"Width":2,
+			"ExtraSizeLeft": 1
 		},
 		"locales": {
 			"en": {
