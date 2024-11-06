@@ -318,7 +318,8 @@ export class QuestModifier {
             "627c4fe34b0a558e8a3642a1",
             "ed05294ed53c0400ae0e8a55",
             "ffc95b9d143f52202a311820",
-            "3dc691f607ffed3228bf6ca2"
+            "3dc691f607ffed3228bf6ca2",
+            "52500592c7109667abb6cbeb"
         ];
         const newCarbinesandAssaultRifles = [
             "d672109946fe88b803449054",
@@ -332,7 +333,8 @@ export class QuestModifier {
             "e895575bcd1fa1de36d301b6",
             "4b81488c78c8a8ac7d37f9b9",
             "52ce1b65b13e1035808c4fd2",
-            "96f5c38a676e11e13544dfba"
+            "96f5c38a676e11e13544dfba",
+            "52500592c7109667abb6cbeb"
         ];
 
         // Update each quest individually with specific items

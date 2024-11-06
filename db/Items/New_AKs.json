@@ -2943,8 +2943,8 @@
 			"Slots": [
 				{
 					"_name": "mod_pistol_grip",
-					"_id": "8edf72ce40437ab848bb32b5",
-					"_parent": "93bcdfda236122e67c098847",
+					"_id": "be3c51742bd2f6a327ccd04c",
+					"_parent": "52500592c7109667abb6cbeb",
 					"_props": {
 						"filters": [
 							{
@@ -2970,8 +2970,8 @@
 									"5649ae4a4bdc2d1b2b8b4588",
 									"5998517986f7746017232f7e",
 									"623c3be0484b5003161840dc",
-									"628c9ab845c59e5b80768a81",
 									"628a664bccaab13006640e47",
+									"628c9ab845c59e5b80768a81",
 									"63f4da90f31d4a33b87bd054",
 									"648ae3e356c6310a830fc291",
 									"651580dc71a4f10aec4b6056"
@@ -2984,39 +2984,9 @@
 					"_proto": "55d30c4c4bdc2db4468b457e"
 				},
 				{
-					"_name": "mod_muzzle",
-					"_id": "a48b2d2ea27253ef8b5f3237",
-					"_parent": "93bcdfda236122e67c098847",
-					"_props": {
-						"filters": [
-							{
-								"Shift": 0,
-								"Filter": [
-									"5ac72e7d5acfc40016339a02",
-									"5ac72e895acfc43b321d4bd5",
-									"5f633f791b231926f2329f13",
-									"5a9ea27ca2750c00137fa672",
-									"5cc9ad73d7f00c000e2579d4",
-									"5649ab884bdc2ded0b8b457f",
-									"59bffc1f86f77435b128b872",
-									"5e208b9842457a4a7a33d074",
-									"5a0d63621526d8dba31fe3bf",
-									"59fb257e86f7742981561852",
-									"5a9fbacda2750c00141e080f",
-									"46cd26d8aff75c3562a031e5",
-									"65f119212ffe657478130322"
-								]
-							}
-						]
-					},
-					"_required": false,
-					"_mergeSlotWithChildren": false,
-					"_proto": "55d30c4c4bdc2db4468b457e"
-				},
-				{
 					"_name": "mod_charge",
-					"_id": "6259dc53c5ae8386c56634e3",
-					"_parent": "93bcdfda236122e67c098847",
+					"_id": "1b9746298c1ccf5d8b24eb81",
+					"_parent": "52500592c7109667abb6cbeb",
 					"_props": {
 						"filters": [
 							{
@@ -3033,31 +3003,46 @@
 					"_proto": "55d30c4c4bdc2db4468b457e"
 				},
 				{
+					"_name": "mod_muzzle",
+					"_id": "3ef7f856ba4aab773e2ef50b",
+					"_parent": "52500592c7109667abb6cbeb",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5ac72e7d5acfc40016339a02",
+									"5ac72e895acfc43b321d4bd5",
+									"5f633f791b231926f2329f13",
+									"5a9ea27ca2750c00137fa672",
+									"5cc9ad73d7f00c000e2579d4",
+									"5649ab884bdc2ded0b8b457f",
+									"59bffc1f86f77435b128b872",
+									"5e208b9842457a4a7a33d074",
+									"5a0d63621526d8dba31fe3bf",
+									"59fb257e86f7742981561852",
+									"5a9fbacda2750c00141e080f",
+									"65f119212ffe657478130322",
+									"46cd26d8aff75c3562a031e5"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
 					"_name": "mod_magazine",
-					"_id": "f93df1da40eb0ac0c95e2c61",
-					"_parent": "93bcdfda236122e67c098847",
+					"_id": "b303e7c69c8ab92d33068993",
+					"_parent": "52500592c7109667abb6cbeb",
 					"_props": {
 						"filters": [
 							{
 								"AnimationIndex": -1,
 								"Filter": [
-									"59e5d83b86f7745aed03d262",
-									"5a01c29586f77474660c694c",
-									"5ac66bea5acfc43b321d4aec",
-									"59d625f086f774661516605d",
-									"5b1fd4e35acfc40018633c39",
-									"5a0060fc86f7745793204432",
-									"59e5f5a486f7746c530b3ce2",
-									"5b1fb3e15acfc4001637f068",
-									"59d6272486f77466146386ff",
-									"5e21a3c67e40bd02257a008a",
-									"5cbdc23eae9215001136a407",
-									"5c6175362e221600133e3b94",
-									"59fafc5086f7740dbe19f6c3",
-									"59fafc9386f774067d462453",
-									"5cfe8010d7ad1a59283b14c6",
-									"6272874a6c47bd74f92e2087",
-									"64b9cf0ac12b9c38db26923a"
+									"5ac66c5d5acfc4001718d314",
+									"5c0548ae0db834001966a3c2"
 								]
 							}
 						]
@@ -3068,8 +3053,8 @@
 				},
 				{
 					"_name": "mod_stock",
-					"_id": "f93df1da40eb0ac0c95e2c61",
-					"_parent": "93bcdfda236122e67c098847",
+					"_id": "cf43ef162c5f15fa2473a6b4",
+					"_parent": "52500592c7109667abb6cbeb",
 					"_props": {
 						"filters": [
 							{
@@ -3088,8 +3073,8 @@
 				},
 				{
 					"_name": "mod_reciever",
-					"_id": "8d54746794ae7e579f6fba84",
-					"_parent": "93bcdfda236122e67c098847",
+					"_id": "d1929bed11ae9d891f8fd1b5",
+					"_parent": "52500592c7109667abb6cbeb",
 					"_props": {
 						"filters": [
 							{
@@ -3107,9 +3092,44 @@
 					"_proto": "55d30c4c4bdc2db4468b457e"
 				},
 				{
+					"_name": "mod_mount_000",
+					"_id": "e8b83ec99efa511b8b61dedc",
+					"_parent": "52500592c7109667abb6cbeb",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5947db3f86f77447880cf76f",
+									"6113d6c3290d254f5e6b27db",
+									"57486e672459770abd687134",
+									"618a5d5852ecee1505530b2a",
+									"5c82342f2e221644f31c060e",
+									"576fd4ec2459777f0b518431",
+									"5c82343a2e221644f31c0611",
+									"5cf638cbd7f00c06595bc936",
+									"5a7c74b3e899ef0014332c29",
+									"591ee00d86f774592f7b841e",
+									"5d0a29ead7ad1a0026013f27",
+									"618a75c9a3884f56c957ca1b",
+									"57acb6222459771ec34b5cb0",
+									"5c61a40d2e2216001403158d",
+									"5c90c3622e221601da359851",
+									"638db77630c4240f9e06f8b6",
+									"63d114019e35b334d82302f7",
+									"6544d4187c5457729210d277"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
 					"_name": "mod_gas_block",
-					"_id": "65ae54a53f96c64db0c5e273",
-					"_parent": "93bcdfda236122e67c098847",
+					"_id": "15eb020b1f8765da42633073",
+					"_parent": "52500592c7109667abb6cbeb",
 					"_props": {
 						"filters": [
 							{
