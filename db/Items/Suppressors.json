@@ -4193,5 +4193,96 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"005ea36cedb4cf3ed6503746": {
+		"itemTplToClone": "5f633f791b231926f2329f13",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/putnik_blk.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"5d15ce51d7ad1a1eff619092",
+				"647db1eca8d3399c380d195c"
+			],
+			"Recoil": -10.5,
+			"Ergonomics": -19,
+			"HeatFactor": 1.132,
+			"Loudness": -26
+		},
+		"locales": {
+			"en": {
+				"name": "AK-74 Resilient Suppressors Putnik 7.62x39 sound suppressor",
+				"shortName": "Putnik",
+				"description": "The Putnik is the perfect suppressor for your modern AK. Designed to be as true to Russian design as possible, while incorporating the best baffle technology."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 67290,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 326,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2292
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }
