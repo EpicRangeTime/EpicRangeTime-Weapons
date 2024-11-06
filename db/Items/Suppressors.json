@@ -1219,6 +1219,7 @@
 				"path": "Mods/Suppressors/putnik_blk.bundle",
 				"rcid": ""
 			},
+			"Weight": 0.620,
 			"ConflictingItems": [
 				"5d15ce51d7ad1a1eff619092",
 				"647db1eca8d3399c380d195c"
@@ -1310,6 +1311,7 @@
 				"path": "Mods/Suppressors/putnik_oreo.bundle",
 				"rcid": ""
 			},
+			"Weight": 0.620,
 			"ConflictingItems": [
 				"5d15ce51d7ad1a1eff619092",
 				"647db1eca8d3399c380d195c"
@@ -1401,6 +1403,7 @@
 				"path": "Mods/Suppressors/putnik_fde.bundle",
 				"rcid": ""
 			},
+			"Weight": 0.620,
 			"ConflictingItems": [
 				"5d15ce51d7ad1a1eff619092",
 				"647db1eca8d3399c380d195c"
@@ -4204,14 +4207,16 @@
 				"path": "Mods/Suppressors/putnik_blk.bundle",
 				"rcid": ""
 			},
+			"Weight": 0.620,
 			"ConflictingItems": [
 				"5d15ce51d7ad1a1eff619092",
 				"647db1eca8d3399c380d195c"
 			],
-			"Recoil": -10.5,
+			"Recoil": -12.5,
 			"Ergonomics": -19,
-			"HeatFactor": 1.132,
-			"Loudness": -26
+			"HeatFactor": 1.062,
+			"Loudness": -25,
+			"Width":2
 		},
 		"locales": {
 			"en": {
