@@ -1489,6 +1489,22 @@
             ]
         },
         {
+            "key": "Mods/Magazines/ar15_straight_mag_20.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Magazines/x_15_ar15_50rd_drum.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Magazines/pufgun_556_30rd_fde.bundle",
             "dependencyKeys": [
                 "shaders",

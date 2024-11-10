@@ -1,0 +1,374 @@
+{
+	"9065d7003f6f4f62ca099bbf": {
+		"itemTplToClone": "5448c1d04bdc2dff2f8b4569",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Magazines/ar15_straight_mag_20.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.090,
+			"Ergonomics": 4
+		},
+		"locales": {
+			"en": {
+				"name": "5.56x45 Colt AR-15 Straight 20-round magazine",
+				"shortName": "Straight",
+				"description": "Designed for use with the M16 rifle in the 60s, and originally made by Okay Industries, these durable aluminum magazines will hold up to the toughest abuse in the field."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 4600,
+		"handbookPriceRoubles": 850,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 10,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2400
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2400
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2400
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2400
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2400
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2400
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"8ec622c17502df08341f14a2": {
+		"itemTplToClone": "59c1383d86f774290a37e0ca",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Magazines/x_15_ar15_50rd_drum.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.878,
+			"Ergonomics": -14,
+			"Cartridges": [
+				{
+					"_name": "cartridges",
+					"_id": "dc3487e3691cdd8b5e356d01",
+					"_parent": "8ec622c17502df08341f14a2",
+					"_max_count": 50,
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"59e6920f86f77411d82aa167",
+									"59e6927d86f77411da468256",
+									"54527a984bdc2d4e668b4567",
+									"54527ac44bdc2d36668b4567",
+									"59e68f6f86f7746c9f75e846",
+									"59e6906286f7746c9f75e847",
+									"59e690b686f7746c9f75e848",
+									"59e6918f86f7746c9f75e849",
+									"60194943740c5d77f6705eea",
+									"601949593ae8f707c4608daa",
+									"5c0d5ae286f7741e46554302",
+									"5fbe3ffdf8b6a877a729ea82",
+									"5fd20ff893a8961fc660a954",
+									"619636be6db0f2477964e710",
+									"6196364158ef8c428c287d9f",
+									"6196365d58ef8c428c287da1",
+									"64b8725c4b75259c590fa899"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "5.56x45 X Products X-15 AR-15 50-round drum magazine",
+				"shortName": "X-15",
+				"description": "The X-15 is engineered around our proven coil magazine technology which allows side by side staging of ammunition in a single stack. Because of our patent pending tension relief device, the X-15 can operate for an almost unlimited number of spring loads and can even perform in weapons with capabilities of up to 1100 rounds per minute."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 48000,
+		"handbookPriceRoubles": 8200,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 64,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"c9aeb745fc67045b814af837": {
+		"itemTplToClone": "5ac66c5d5acfc4001718d314",
+		"parentId": "MAGAZINE",
+		"handbookParentId": "MOD_MAGAZINE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Magazines/pufgun_556_30rd_blk.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": -2
+		},
+		"locales": {
+			"en": {
+				"name": "AK-101 5.56x45 PUFGUN 30-round magazine (BLK)",
+				"shortName": "PUFGUN",
+				"description": "High capacity 30rd 5.56x45 magazine for AK-101 and similar weapons. Made in Russia. Gen 2, with steel metal reinforcement in the back."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 29200,
+		"handbookPriceRoubles": 19000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 2200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"4656b02dbe4bfa4a3a9e6d40": {
+		"itemTplToClone": "5ac66c5d5acfc4001718d314",
+		"parentId": "MAGAZINE",
+		"handbookParentId": "MOD_MAGAZINE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Magazines/pufgun_556_30rd_fde.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": -2
+		},
+		"locales": {
+			"en": {
+				"name": "AK-101 5.56x45 PUFGUN 30-round magazine (FDE)",
+				"shortName": "PUFGUN",
+				"description": "High capacity 30rd 5.56x45 magazine for AK-101 and similar weapons. Made in Russia. Gen 2, with steel metal reinforcement in the back."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 29200,
+		"handbookPriceRoubles": 19000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 2200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}
