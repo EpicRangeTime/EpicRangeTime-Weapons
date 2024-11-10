@@ -71,7 +71,7 @@
         "insurance_price_coef": "19",
         "minLevel": 27,
         "minSalesSum": 2500,
-        "minStanding": 0.08,
+        "minStanding": 0.13,
         "repair_price_coef": 180
       },
       {
@@ -81,7 +81,7 @@
         "insurance_price_coef": "17",
         "minLevel": 39,
         "minSalesSum": 7500,
-        "minStanding": 0.08,
+        "minStanding": 0.13,
         "repair_price_coef": 175
       },
       {
@@ -91,7 +91,7 @@
         "insurance_price_coef": "15",
         "minLevel": 55,
         "minSalesSum": 22500,
-        "minStanding": 0.08,
+        "minStanding": 0.13,
         "repair_price_coef": 165
       }
     ],
