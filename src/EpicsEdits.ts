@@ -303,6 +303,16 @@ export class epicItemClass {
             if (fileData._id === "55d3632e4bdc2d972f8b4569") {
                 fileData._props.Slots[0]._props.filters[0].Filter.push("45b07217916365a3171c079e");
             } //Manually pushing the AE M4 suppressor only to the AR 370mm barrel
+            if (fileData._id === "5bb2475ed4351e00853264e3") {
+                fileData._props.Slots[3]._props.filters[0].Filter.push("5a33ca0fc4a282000d72292f",
+                    "5c0faeddd174af02a962601f",
+                    "5649be884bdc2d79388b4577",
+                    "5d120a10d7ad1a4e1026ba85",
+                    "602e3f1254072b51b239f713",
+                    "5c793fb92e221644f31bfb64",
+                    "5c793fc42e221600114ca25d",
+                    "638de3603a1a4031d8260b8c");
+            } //Pushing all AR stocks to HK416
         }
     }
 
