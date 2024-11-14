@@ -4309,5 +4309,535 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"0bfe6f8cf523d6aed58edf59": {
+		"itemTplToClone": "616584766ef05c2ce828ef57",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/unity_comp_blk.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "b3d5a381defe2f4f1f6b7f51",
+					"_parent": "0bfe6f8cf523d6aed58edf59",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"61659f79d92c473c770213ee",
+									"5c7d55de2e221644f31bff68"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Unity FAST Comp mount for CompM4/PRO sights (BLK)",
+				"shortName": "FAST Comp",
+				"description": "Developed as a solution for the DOD’s standard issue M68 CCO, the FAST™ Comp Series is a drop-in replacement for all full-size Aimpoint® Comp series and PRO optics."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001",
+			"mod_mount"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 39200,
+		"handbookPriceRoubles": 2500,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 37,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"42d314bc4b58513a75788d1a": {
+		"itemTplToClone": "616584766ef05c2ce828ef57",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/unity_comp_brn.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "b3d5a381defe2f4f1f6b7f51",
+					"_parent": "0bfe6f8cf523d6aed58edf59",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"61659f79d92c473c770213ee",
+									"5c7d55de2e221644f31bff68"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Unity FAST Comp mount for CompM4/PRO sights (BRN)",
+				"shortName": "FAST Comp",
+				"description": "Developed as a solution for the DOD’s standard issue M68 CCO, the FAST™ Comp Series is a drop-in replacement for all full-size Aimpoint® Comp series and PRO optics."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001",
+			"mod_mount"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 39200,
+		"handbookPriceRoubles": 2500,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 37,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"d53bc8f345dae8e5ecdebc6e": {
+		"itemTplToClone": "616584766ef05c2ce828ef57",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/unity_comp_grn.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "b3d5a381defe2f4f1f6b7f51",
+					"_parent": "0bfe6f8cf523d6aed58edf59",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"61659f79d92c473c770213ee",
+									"5c7d55de2e221644f31bff68"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Unity FAST Comp mount for CompM4/PRO sights (GRN)",
+				"shortName": "FAST Comp",
+				"description": "Developed as a solution for the DOD’s standard issue M68 CCO, the FAST™ Comp Series is a drop-in replacement for all full-size Aimpoint® Comp series and PRO optics."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001",
+			"mod_mount"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 39200,
+		"handbookPriceRoubles": 2500,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 37,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"a55fbd25a66a1596c42a070e": {
+		"itemTplToClone": "616584766ef05c2ce828ef57",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/unity_comp_tan.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "b3d5a381defe2f4f1f6b7f51",
+					"_parent": "0bfe6f8cf523d6aed58edf59",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"61659f79d92c473c770213ee",
+									"5c7d55de2e221644f31bff68"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Unity FAST Comp mount for CompM4/PRO sights (TAN)",
+				"shortName": "FAST Comp",
+				"description": "Developed as a solution for the DOD’s standard issue M68 CCO, the FAST™ Comp Series is a drop-in replacement for all full-size Aimpoint® Comp series and PRO optics."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001",
+			"mod_mount"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 39200,
+		"handbookPriceRoubles": 2500,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 37,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"20f3133a206b56143b459896": {
+		"itemTplToClone": "616584766ef05c2ce828ef57",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/unity_comp_wht.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "b3d5a381defe2f4f1f6b7f51",
+					"_parent": "0bfe6f8cf523d6aed58edf59",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"61659f79d92c473c770213ee",
+									"5c7d55de2e221644f31bff68"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Unity FAST Comp mount for CompM4/PRO sights (WHT)",
+				"shortName": "FAST Comp",
+				"description": "Developed as a solution for the DOD’s standard issue M68 CCO, the FAST™ Comp Series is a drop-in replacement for all full-size Aimpoint® Comp series and PRO optics."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001",
+			"mod_mount"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 39200,
+		"handbookPriceRoubles": 2500,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 37,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }
