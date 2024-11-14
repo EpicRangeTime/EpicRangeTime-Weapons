@@ -1345,6 +1345,22 @@
             ]
         },
         {
+            "key": "Mods/Dots/romeo9t_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Dots/romeo9t_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Dots/compm5.bundle",
             "dependencyKeys": [
                 "shaders",
