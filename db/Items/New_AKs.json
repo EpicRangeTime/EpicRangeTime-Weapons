@@ -8,6 +8,9 @@
 				"path": "assets/content/weapons/ak100/weapon_izhmash_ak101_556x45_container.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5a7dbfc1159bd40016548fde"
+			],
 			"Slots": [
 				{
 					"_name": "mod_gas_block",
@@ -1517,6 +1520,17 @@
 				"path": "assets/content/weapons/ak100/weapon_izhmash_ak102_556x45_container.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems": [
+				"5b800e9286f7747a8b04f3ff",
+				"5b80242286f77429445e0b47",
+				"5c9a07572e221644f31c4b32",
+				"5c9a1c3a2e2216000e69fb6a",
+				"5c9a1c422e221600106f69f0",
+				"5c17664f2e2216398b5a7e3c",
+				"5a9d6d34a2750c00141e07da",
+				"59fb375986f7741b681b81a6",
+				"5a7dbfc1159bd40016548fde"
+			],
 			"Slots": [
 				{
 					"_name": "mod_gas_block",
