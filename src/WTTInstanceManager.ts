@@ -1,27 +1,30 @@
-import * as path from "path";
+import * as path from "node:path";
 
-import { ILogger } from "@spt/models/spt/utils/ILogger";
-import { ProfileController } from "@spt/controllers/ProfileController";
-import { ProfileCallbacks } from "@spt/callbacks/ProfileCallbacks";
-import { EventOutputHolder } from "@spt/routers/EventOutputHolder";
-import { DatabaseServer } from "@spt/servers/DatabaseServer";
-import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
-import { StaticRouterModService } from "@spt/services/mod/staticRouter/StaticRouterModService";
-import { DynamicRouterModService } from "@spt/services/mod/dynamicRouter/DynamicRouterModService";
-import { TraderAssortService } from "@spt/services/TraderAssortService";
-import { DependencyContainer } from "tsyringe";
-import { CustomItemService } from "@spt/services/mod/CustomItemService";
-import { ImageRouter } from "@spt/routers/ImageRouter";
-import { PreSptModLoader } from "@spt/loaders/PreSptModLoader";
-import { ConfigServer } from "@spt/servers/ConfigServer";
-import { JsonUtil } from "@spt/utils/JsonUtil";
-import { ProfileHelper } from "@spt/helpers/ProfileHelper";
-import { RagfairPriceService } from "@spt/services/RagfairPriceService";
-import { ImporterUtil } from "@spt/utils/ImporterUtil";
-import { SaveServer } from "@spt/servers/SaveServer";
-import { ItemHelper } from "@spt/helpers/ItemHelper";
-import { ApplicationContext } from "@spt/context/ApplicationContext";
-import { VFS } from "@spt/utils/VFS";
+import type { ILogger } from "@spt/models/spt/utils/ILogger";
+import type { ProfileController } from "@spt/controllers/ProfileController";
+import type { ProfileCallbacks } from "@spt/callbacks/ProfileCallbacks";
+import type { EventOutputHolder } from "@spt/routers/EventOutputHolder";
+import type { DatabaseServer } from "@spt/servers/DatabaseServer";
+import type { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
+import type { StaticRouterModService } from "@spt/services/mod/staticRouter/StaticRouterModService";
+import type { DynamicRouterModService } from "@spt/services/mod/dynamicRouter/DynamicRouterModService";
+import type { TraderAssortService } from "@spt/services/TraderAssortService";
+import type { DependencyContainer } from "tsyringe";
+import type { CustomItemService } from "@spt/services/mod/CustomItemService";
+import type { ImageRouter } from "@spt/routers/ImageRouter";
+import type { PreSptModLoader } from "@spt/loaders/PreSptModLoader";
+import type { ConfigServer } from "@spt/servers/ConfigServer";
+import type { JsonUtil } from "@spt/utils/JsonUtil";
+import type { ProfileHelper } from "@spt/helpers/ProfileHelper";
+import type { RagfairPriceService } from "@spt/services/RagfairPriceService";
+import type { ImporterUtil } from "@spt/utils/ImporterUtil";
+import type  { SaveServer } from "@spt/servers/SaveServer";
+import type  { ItemHelper } from "@spt/helpers/ItemHelper";
+import type  { ApplicationContext } from "@spt/context/ApplicationContext";
+import { WTTRouterService } from "./RouterService";
+import { QuestAPI } from "./QuestAPI";
+import { TraderAPI } from "./TraderAPI";
+import type { VFS } from "@spt/utils/VFS";
 
 export class WTTInstanceManager 
 {
@@ -29,13 +32,13 @@ export class WTTInstanceManager
     public modName: string;
     public debug: boolean;
     // Useful Paths
-    public modPath: string = path.join(process.cwd(), "\\user\\mods\\WelcomeToTarkov\\");
-    public dbPath: string = path.join(process.cwd(), "\\user\\mods\\WelcomeToTarkov\\db");
+    public modPath: string = path.join(process.cwd(), "\\user\\mods\\EpicRangeTime-Weapons\\");
+    public dbPath: string = path.join(process.cwd(), "\\user\\mods\\EpicRangeTime-Weapons\\db");
     public profilePath: string = path.join(process.cwd(), "\\user\\profiles");
 
     // Instances
     public container: DependencyContainer;
-    public PreSptModLoader: PreSptModLoader;
+    public preSptModLoader: PreSptModLoader;
     public configServer: ConfigServer;
     public saveServer: SaveServer;
     public itemHelper: ItemHelper;
@@ -44,6 +47,7 @@ export class WTTInstanceManager
     public dynamicRouter: DynamicRouterModService;
     public profileController: ProfileController;
     public profileCallbacks: ProfileCallbacks;
+    private routerService: WTTRouterService = new WTTRouterService();
     //#endregion
 
     //#region Acceessible in or after postDBLoad
@@ -58,6 +62,8 @@ export class WTTInstanceManager
     public traderAssortService: TraderAssortService;
     public applicationContext: ApplicationContext;
     public vfs: VFS;
+    public questApi: QuestAPI = new QuestAPI();
+    public traderApi: TraderAPI = new TraderAPI();
     //#endregion
 
     // Call at the start of the mods postDBLoad method
@@ -66,7 +72,7 @@ export class WTTInstanceManager
         this.modName = mod;
 
         this.container = container;
-        this.PreSptModLoader = container.resolve<PreSptModLoader>("PreSptModLoader");
+        this.preSptModLoader = container.resolve<PreSptModLoader>("PreSptModLoader");
         this.imageRouter = container.resolve<ImageRouter>("ImageRouter");
         this.configServer = container.resolve<ConfigServer>("ConfigServer");
         this.saveServer = container.resolve<SaveServer>("SaveServer");
@@ -81,6 +87,9 @@ export class WTTInstanceManager
         this.vfs = container.resolve<VFS>("VFS");
 
 
+        this.questApi.preSptLoad(this);
+        this.traderApi.preSptLoad(this);
+        this.routerService.preSptLoad(this);
     }
 
     public postDBLoad(container: DependencyContainer): void
@@ -93,6 +102,8 @@ export class WTTInstanceManager
         this.importerUtil = container.resolve<ImporterUtil>("ImporterUtil");
         this.applicationContext = container.resolve<ApplicationContext>("ApplicationContext");
 
+        this.traderApi.postDBLoad();
+        this.questApi.postDBLoad();
     }
 
 }

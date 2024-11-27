@@ -1,25 +1,27 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { NewItemFromCloneDetails } from "@spt/models/spt/mod/NewItemDetails";
-import {
+import type { NewItemFromCloneDetails } from "@spt/models/spt/mod/NewItemDetails";
+import type {
     Preset,
     Item,
     ConfigItem,
+    allBotTypes,
+} from "./references/configConsts";
+import {
     traderIDs,
     currencyIDs,
-    allBotTypes,
     inventorySlots
 } from "./references/configConsts";
 import { ItemMap } from "./references/items";
 import { ItemBaseClassMap } from "./references/itemBaseClasses";
 import { ItemHandbookCategoryMap } from "./references/itemHandbookCategories";
 import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
-import * as fs from "fs";
-import * as path from "path";
-import { WTTInstanceManager } from "./WTTInstanceManager";
+import * as fs from "node:fs";
+import * as path from "node:path";
+import type { WTTInstanceManager } from "./WTTInstanceManager";
 import { QuestModifier } from "./QuestModifier";
-import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
-import { ILocation } from "@spt/models/eft/common/ILocation";
-import { IPreset } from "@spt/models/eft/common/IGlobals";
+import type { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
+import type { ILocation } from "@spt/models/eft/common/ILocation";
+import type { IPreset } from "@spt/models/eft/common/IGlobals";
 
 export class CustomItemService {
     private configs: ConfigItem;

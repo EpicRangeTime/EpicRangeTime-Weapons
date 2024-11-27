@@ -6,12 +6,12 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ks1_barrel.bundle",
+				"path": "Mods/AR15_Barrels/ks1_barrel.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.496,
 			"Accuracy": 5,
-			"Recoil": -5,
+			"Recoil": -6,
 			"DurabilityBurnModificator": 0.9,
 			"HeatFactor": 1,
 			"CoolFactor": 1.1,
@@ -130,7 +130,7 @@
 		"fleaPriceRoubles": 85000,
 		"handbookPriceRoubles": 19200,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -143,7 +143,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 3,
+		"loyallevelitems": 4,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -191,7 +191,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ks1_gb.bundle",
+				"path": "Mods/AR15_Barrels/ks1_gb.bundle",
 				"rcid": ""
 			},
 			"Recoil": -3,
@@ -276,7 +276,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/kac_mod2_gb.bundle",
+				"path": "Mods/AR15_Barrels/kac_mod2_gb.bundle",
 				"rcid": ""
 			},
 			"Recoil": -3,
@@ -361,7 +361,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ks1_hg_blk.bundle",
+				"path": "Mods/AR15_Handguards/ks1_hg_blk.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -619,7 +619,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ks1_hg_fde.bundle",
+				"path": "Mods/AR15_Handguards/ks1_hg_fde.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -893,7 +893,6 @@
 								"Filter": [
 									"57ac965c24597706be5f975c",
 									"57aca93d2459771f2c7e26db",
-									"544a3f024bdc2d1d388b4568",
 									"544a3a774bdc2d3a388b4567",
 									"5d2dc3e548f035404a1a4798",
 									"57adff4f24597737f373b6e6",
@@ -917,7 +916,6 @@
 									"570fd721d2720bc5458b4596",
 									"57ae0171245977343c27bfcf",
 									"5dfe6104585a0c3e995c7b82",
-									"544a3d0a4bdc2d1b388b4567",
 									"5d1b5e94d7ad1a2b865a96b0",
 									"609bab8b455afd752b2e6138",
 									"58d39d3d86f77445bb794ae7",

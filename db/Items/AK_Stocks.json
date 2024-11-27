@@ -406,7 +406,7 @@
 		"fleaPriceRoubles": 24200,
 		"handbookPriceRoubles": 5000,
 		"addtoTraders": true,
-		"traderId": "SKIER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -419,7 +419,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 3,
+		"loyallevelitems": 2,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [

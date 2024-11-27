@@ -6,7 +6,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr9_blk.bundle",
+                "path": "Mods/AR15_Handguards/mfr9_blk.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 1,
@@ -196,7 +196,7 @@
         "fleaPriceRoubles": 26300,
         "handbookPriceRoubles": 12000,
         "addtoTraders": true,
-        "traderId": "SKIER",
+        "traderId": "BADGER",
         "traderItems": [
             {
                 "unlimitedCount": true,
@@ -257,7 +257,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr9_cbt.bundle",
+                "path": "Mods/AR15_Handguards/mfr9_cbt.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 1,
@@ -447,7 +447,7 @@
         "fleaPriceRoubles": 26300,
         "handbookPriceRoubles": 12000,
         "addtoTraders": true,
-        "traderId": "SKIER",
+        "traderId": "BADGER",
         "traderItems": [
             {
                 "unlimitedCount": true,
@@ -508,7 +508,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr9_dw.bundle",
+                "path": "Mods/AR15_Handguards/mfr9_dw.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 1,
@@ -759,7 +759,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr9_fde.bundle",
+                "path": "Mods/AR15_Handguards/mfr9_fde.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 1,
@@ -1010,7 +1010,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr10_blk.bundle",
+                "path": "Mods/AR15_Handguards/mfr10_blk.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 1,
@@ -1263,7 +1263,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr10_cbt.bundle",
+                "path": "Mods/AR15_Handguards/mfr10_cbt.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 1,
@@ -1516,7 +1516,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr10_dw.bundle",
+                "path": "Mods/AR15_Handguards/mfr10_dw.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 1,
@@ -1708,7 +1708,7 @@
         "fleaPriceRoubles": 27600,
         "handbookPriceRoubles": 12000,
         "addtoTraders": true,
-        "traderId": "SKIER",
+        "traderId": "BADGER",
         "traderItems": [
             {
                 "unlimitedCount": true,
@@ -1769,7 +1769,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr10_fde.bundle",
+                "path": "Mods/AR15_Handguards/mfr10_fde.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 1,
@@ -2022,7 +2022,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr13_5_blk.bundle",
+                "path": "Mods/AR15_Handguards/mfr13_5_blk.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 2,
@@ -2285,7 +2285,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr13_5_cbt.bundle",
+                "path": "Mods/AR15_Handguards/mfr13_5_cbt.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 2,
@@ -2548,7 +2548,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr13_5_dw.bundle",
+                "path": "Mods/AR15_Handguards/mfr13_5_dw.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 2,
@@ -2811,7 +2811,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr13_5_fde.bundle",
+                "path": "Mods/AR15_Handguards/mfr13_5_fde.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 2,
@@ -3074,7 +3074,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr15_blk.bundle",
+                "path": "Mods/AR15_Handguards/mfr15_blk.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 2,
@@ -3345,7 +3345,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr15_cbt.bundle",
+                "path": "Mods/AR15_Handguards/mfr15_cbt.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 2,
@@ -3616,7 +3616,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr15_dw.bundle",
+                "path": "Mods/AR15_Handguards/mfr15_dw.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 2,
@@ -3887,7 +3887,7 @@
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {
-                "path": "Mods/AR15/mfr15_fde.bundle",
+                "path": "Mods/AR15_Handguards/mfr15_fde.bundle",
                 "rcid": ""
             },
             "ExtraSizeLeft": 2,

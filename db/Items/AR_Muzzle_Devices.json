@@ -12,7 +12,7 @@
 			"HeatFactor": 0.99,
 			"Loudness": 0,
 			"Prefab": {
-				"path": "Mods/AR15/warcomp_762.bundle",
+				"path": "Mods/AR10/warcomp_762.bundle",
 				"rcid": ""
 			},
 			"RaidModdable": true,
@@ -68,7 +68,7 @@
 		"fleaPriceRoubles": 16666,
 		"handbookPriceRoubles": 4800,
 		"addtoTraders": true,
-		"traderId": "SKIER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -81,7 +81,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -134,7 +134,7 @@
 			"HeatFactor": 0.99,
 			"Loudness": 0,
 			"Prefab": {
-				"path": "Mods/AR15/sf3p_762.bundle",
+				"path": "Mods/AR10/sf3p_762.bundle",
 				"rcid": ""
 			},
 			"Recoil": -6,
@@ -187,7 +187,7 @@
 		"fleaPriceRoubles": 28000,
 		"handbookPriceRoubles": 4800,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -247,7 +247,7 @@
 		"handbookParentId": "MOD_FLASHHIDER",
 		"overrideProperties": {
 			"Prefab": {
-				"path": "Mods/AR15/sfct_556.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/sfct_556.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.073
@@ -270,7 +270,7 @@
 		"fleaPriceRoubles": 23550,
 		"handbookPriceRoubles": 6420,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -283,7 +283,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -332,7 +332,7 @@
 			"DurabilityBurnModificator": 0.95,
 			"Loudness": 10,
 			"Prefab": {
-				"path": "Mods/AR15/sfmb_556.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/sfmb_556.bundle",
 				"rcid": ""
 			},
 			"Recoil": -8,
@@ -356,7 +356,7 @@
 		"fleaPriceRoubles": 32500,
 		"handbookPriceRoubles": 4800,
 		"addtoTraders": true,
-		"traderId": "SKIER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -369,7 +369,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 4,
+		"loyallevelitems": 2,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -422,7 +422,7 @@
 			"HeatFactor": 0.99,
 			"Loudness": 10,
 			"Prefab": {
-				"path": "Mods/AR15/sfmb_762.bundle",
+				"path": "Mods/AR10/sfmb_762.bundle",
 				"rcid": ""
 			},
 			"Recoil": -8,
@@ -475,7 +475,7 @@
 		"fleaPriceRoubles": 34200,
 		"handbookPriceRoubles": 5500,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -488,7 +488,7 @@
 				"_tpl": "DOLLARS"
 			}
 		],
-		"loyallevelitems": 4,
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -535,7 +535,7 @@
 		"handbookParentId": "MOD_FLASHHIDER",
 		"overrideProperties": {
 			"Prefab": {
-				"path": "Mods/AR15/warct_556.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/warct_556.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.076
@@ -558,7 +558,7 @@
 		"fleaPriceRoubles": 16250,
 		"handbookPriceRoubles": 5000,
 		"addtoTraders": true,
-		"traderId": "SKIER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -571,7 +571,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -618,7 +618,7 @@
 		"handbookParentId": "MOD_FLASHHIDER",
 		"overrideProperties": {
 			"Prefab": {
-				"path": "Mods/AR15/eliminator_556.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/eliminator_556.bundle",
 				"rcid": ""
 			},
 			"Slots": [],
@@ -708,7 +708,7 @@
 			"HeatFactor": 0.99,
 			"Loudness": 0,
 			"Prefab": {
-				"path": "Mods/AR15/eliminator_762.bundle",
+				"path": "Mods/AR10/eliminator_762.bundle",
 				"rcid": ""
 			},
 			"Recoil": -6,
@@ -798,7 +798,7 @@
 			"DurabilityBurnModificator": 0.95,
 			"Loudness": 10,
 			"Prefab": {
-				"path": "Mods/AR15/procomp_223.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/procomp_223.bundle",
 				"rcid": ""
 			},
 			"Recoil": -8,
@@ -884,7 +884,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/LAPUA/sfmb338.bundle",
+				"path": "Mods/Lapua/sfmb338.bundle",
 				"rcid": ""
 			},
 			"Recoil": -9,
@@ -929,7 +929,7 @@
 		"fleaPriceRoubles": 28470,
 		"handbookPriceRoubles": 12250,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -990,7 +990,7 @@
 		"overrideProperties": {
 			"DurabilityBurnModificator": 0.97,
 			"Prefab": {
-				"path": "Mods/AR15/huxwrks_556k_fh.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/huxwrks_556k_fh.bundle",
 				"rcid": ""
 			},
 			"Slots": [
@@ -1034,7 +1034,7 @@
 		"fleaPriceRoubles": 18250,
 		"handbookPriceRoubles": 6200,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -1099,7 +1099,7 @@
 			"HeatFactor": 0.98,
 			"Loudness": 45,
 			"Prefab": {
-				"path": "Mods/AR15/strike_cookie_cutter.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/strike_cookie_cutter.bundle",
 				"rcid": ""
 			},
 			"Recoil": -12,
@@ -1188,7 +1188,7 @@
 			"HeatFactor": 0.98,
 			"Loudness": 45,
 			"Prefab": {
-				"path": "Mods/AR15/strike_cookie_cutter.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/strike_cookie_cutter.bundle",
 				"rcid": ""
 			},
 			"Recoil": -12,
@@ -1213,7 +1213,7 @@
 		"fleaPriceRoubles": 13520,
 		"handbookPriceRoubles": 6200,
 		"addtoTraders": true,
-		"traderId": "SKIER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -1226,7 +1226,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 3,
+		"loyallevelitems": 2,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -1278,7 +1278,7 @@
 			"HeatFactor": 0.98,
 			"Loudness": 45,
 			"Prefab": {
-				"path": "Mods/AR15/strike_cookie_cutter.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/strike_cookie_cutter.bundle",
 				"rcid": ""
 			},
 			"Conflictingitems":[],
@@ -1373,12 +1373,13 @@
 			"HeatFactor": 0.98,
 			"Loudness": 10,
 			"Prefab": {
-				"path": "Mods/LAPUA/cadex_mx1.bundle",
+				"path": "Mods/Lapua/cadex_mx1.bundle",
 				"rcid": ""
 			},
 			"Recoil": -11,
 			"Weight": 0.281,
-			"CoolFactor": 1
+			"CoolFactor": 1,
+			"Slots":[]
 		},
 		"locales": {
 			"en": {
@@ -1463,12 +1464,13 @@
 			"HeatFactor": 0.98,
 			"Loudness": 20,
 			"Prefab": {
-				"path": "Mods/LAPUA/cadex_mx1.bundle",
+				"path": "Mods/Lapua/cadex_mx1.bundle",
 				"rcid": ""
 			},
 			"Recoil": -14,
 			"Weight": 0.281,
-			"CoolFactor": 1
+			"CoolFactor": 1,
+			"Slots":[]
 		},
 		"locales": {
 			"en": {
@@ -1488,7 +1490,7 @@
 		"fleaPriceRoubles": 17200,
 		"handbookPriceRoubles": 9620,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -1501,7 +1503,7 @@
 				"_tpl": "DOLLARS"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -1548,7 +1550,7 @@
 		"handbookParentId": "MOD_FLASHHIDER",
 		"overrideProperties": {
 			"Prefab": {
-				"path": "Mods/AR15/gt_etm_3p.bundle",
+				"path": "Mods/AR10/gt_etm_3p.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.056,
@@ -1593,7 +1595,7 @@
 		"fleaPriceRoubles": 14000,
 		"handbookPriceRoubles": 14200,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -1653,7 +1655,7 @@
 		"handbookParentId": "MOD_FLASHHIDER",
 		"overrideProperties": {
 			"Prefab": {
-				"path": "Mods/AR15/kac_mams.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/kac_mams.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.065,
@@ -1677,7 +1679,7 @@
 		"fleaPriceRoubles": 26250,
 		"handbookPriceRoubles": 7100,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -1741,7 +1743,7 @@
 				"rcid": ""
 			},
 			"Weight": 0.167,
-			"Recoil": -6.5,
+			"Recoil": -7.5,
 			"Ergonomics":-1.5
 		},
 		"locales": {
@@ -1773,6 +1775,177 @@
 			{
 				"count": 8800,
 				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1900
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"7df07162a928f5e9ab26404a": {
+		"itemTplToClone": "544a38634bdc2d58388b4568",
+		"parentId": "FLASHHIDER",
+		"handbookParentId": "MOD_FLASHHIDER",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/AR15_Muzzle_Devices/xm177_fh.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.082,
+			"Recoil": -6,
+			"Ergonomics":-1.5,
+			"Loudness": -5,
+			"Slots":[]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Colt XM-177E2 5.56x45 flash hider",
+				"shortName": "XM-177E2",
+				"description": "The original XM177E2 flash hider made by Colt for the Gau-5A rifles requested by the United States Air Force and other special forces units in the 60's and 70's."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 8420,
+		"handbookPriceRoubles": 1000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 22,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1900
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"101e593cde9a1f6fb8476d1e": {
+		"itemTplToClone": "56ea8180d2720bf2698b456a",
+		"parentId": "FLASHHIDER",
+		"handbookParentId": "MOD_FLASHHIDER",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/AR15_Muzzle_Devices/kac_triple_tap_fh.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.073,
+			"Recoil": -7.5
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 KAC Enhanced Compensator 5.56x45 Flash Suppressor Kit",
+				"shortName": "KAC 3T",
+				"description": "The KAC 5.56 Enhanced Compensator Kit also known as the \"Triple Tap\" or \"3T\" has been engineered to increase controllability, to significantly reduce felt recoil, and to help mitigate a rifle’s flash signature as compared to traditional muzzle brake designs."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 8420,
+		"handbookPriceRoubles": 1000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 36,
+				"_tpl": "DOLLARS"
 			}
 		],
 		"loyallevelitems": 2,

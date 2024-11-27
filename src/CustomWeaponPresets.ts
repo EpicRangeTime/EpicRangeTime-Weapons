@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { WTTInstanceManager } from "./WTTInstanceManager";
+import type { WTTInstanceManager } from "./WTTInstanceManager";
 import weaponPresetsData from "../db/CustomWeaponPresets/WeaponPresets.json";
 import * as path from "path";
 const modPath = path.normalize(path.join(__dirname, ".."));

@@ -1,0 +1,773 @@
+{
+    "09a00fdd295d5f374c3b6829": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15_Handguards/midwest_nf_9_25.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 8,
+            "ExtraSizeLeft": 1,
+            "Recoil": -0.5,
+			"Weight": 0.323,
+            "Width": 2,
+            "HeatFactor": 0.96,
+            "CoolFactor": 1.11,
+            "ConflictingItems": [
+                "a06aec4316ac6ff7353845f4",
+                "6357c98711fb55120211f7e1",
+                "5ae30e795acfc408fb139a0b",
+                "5a34fbadc4a28200741e230a",
+                "56ea8d2fd2720b7c698b4570"
+            ],
+            "Slots": [
+				{
+					"_name": "mod_mount_000",
+					"_id": "aca00fb78a2b2b65ac2e2712",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5b7be47f5acfc400170e2dd2",
+									"6269220d70b6c02e665f2635",
+									"6269545d0e57f218e4548ca2"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_mount_001",
+					"_id": "18da7bcce28bb652d5ba59b9",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5b7be47f5acfc400170e2dd2",
+									"6269220d70b6c02e665f2635",
+									"6269545d0e57f218e4548ca2"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_mount_002",
+					"_id": "e16ae15e30636979a4c8da2b",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5b7be47f5acfc400170e2dd2",
+									"6269220d70b6c02e665f2635",
+									"6269545d0e57f218e4548ca2",
+									"923987338260a1bb89e6a11b",
+									"0f8b8c2fc55b90cea6b5b63b",
+									"8af8534244b4e4189d53bec2"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_tactical_000",
+					"_id": "d73cc49a0ade1811cad79770",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"57fd23e32459772d0805bcf1",
+									"544909bb4bdc2d6f028b4577",
+									"5d10b49bd7ad1a1a560708b0",
+									"5c06595c0db834001a66af6c",
+									"5a7b483fe899ef0016170d15",
+									"61605d88ffa6e502ac5e7eeb",
+									"5c5952732e2216398b5abda2",
+									"644a3df63b0b6f03e101e065"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_scope",
+					"_id": "e026a602ebb572494232a1d4",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5649a2464bdc2d91118b45a8"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_foregrip",
+					"_id": "4a94c155b81708065cdd398f",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"57cffb66245977632f391a99",
+									"57cffcd624597763133760c5",
+									"57cffcdd24597763f5110006",
+									"57cffce524597763b31685d8",
+									"5b7be4895acfc400170e2dd5",
+									"651a8bf3a8520e48047bf708",
+									"651a8e529829226ceb67c319"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_sight_front",
+					"_id": "32bb89758ce6c441e4eb4b36",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5ba26b01d4351e0085325a51",
+									"5dfa3d950dee1b22f862eae0",
+									"5c17804b2e2216152006c02f",
+									"5fb6567747ce63734e3fa1dc",
+									"5bc09a30d4351e00367fb7c8",
+									"5c18b90d2e2216152142466b",
+									"5fc0fa362770a0045c59c677",
+									"5894a73486f77426d259076c",
+									"55d4af3a4bdc2d972f8b456f"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Midwest Industries Night Fighter 9.25 inch M-LOK handguard",
+                "shortName": "Night Fighter 9.25",
+                "description": "Midwest Industries designed the Night Fighter handguards in an effort to provide a more rigid platform for mounting weapon lasers so as to reduce the impact shift between shots, including an extended 4140 steel barrel nut. Made in USA."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 65000,
+        "handbookPriceRoubles": 28988,
+        "addtoTraders": true,
+        "traderId": "BADGER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 177,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 2000
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "fda2c36ae178185078035ce3": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15_Handguards/midwest_nf_10_5.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 9.5,
+            "ExtraSizeLeft": 1,
+            "Recoil": -1,
+			"Weight": 0.351,
+            "Width": 2,
+            "HeatFactor": 0.96,
+            "CoolFactor": 1.11,
+            "ConflictingItems": [
+                "a06aec4316ac6ff7353845f4",
+                "6357c98711fb55120211f7e1",
+                "5ae30e795acfc408fb139a0b",
+                "5a34fbadc4a28200741e230a",
+                "56ea8d2fd2720b7c698b4570",
+				"c6b01e3e7a1ec6168254e687",
+				"55d35ee94bdc2d61338b4568"
+            ],
+            "Slots": [
+				{
+					"_name": "mod_mount_000",
+					"_id": "aca00fb78a2b2b65ac2e2712",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5b7be47f5acfc400170e2dd2",
+									"6269220d70b6c02e665f2635",
+									"6269545d0e57f218e4548ca2"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_mount_001",
+					"_id": "18da7bcce28bb652d5ba59b9",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5b7be47f5acfc400170e2dd2",
+									"6269220d70b6c02e665f2635",
+									"6269545d0e57f218e4548ca2"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_mount_002",
+					"_id": "e16ae15e30636979a4c8da2b",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5b7be47f5acfc400170e2dd2",
+									"6269220d70b6c02e665f2635",
+									"6269545d0e57f218e4548ca2",
+									"923987338260a1bb89e6a11b",
+									"0f8b8c2fc55b90cea6b5b63b",
+									"8af8534244b4e4189d53bec2"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_tactical_000",
+					"_id": "d73cc49a0ade1811cad79770",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"57fd23e32459772d0805bcf1",
+									"544909bb4bdc2d6f028b4577",
+									"5d10b49bd7ad1a1a560708b0",
+									"5c06595c0db834001a66af6c",
+									"5a7b483fe899ef0016170d15",
+									"61605d88ffa6e502ac5e7eeb",
+									"5c5952732e2216398b5abda2",
+									"644a3df63b0b6f03e101e065"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_scope",
+					"_id": "e026a602ebb572494232a1d4",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5649a2464bdc2d91118b45a8"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_foregrip",
+					"_id": "4a94c155b81708065cdd398f",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"57cffb66245977632f391a99",
+									"57cffcd624597763133760c5",
+									"57cffcdd24597763f5110006",
+									"57cffce524597763b31685d8",
+									"5b7be4895acfc400170e2dd5",
+									"651a8bf3a8520e48047bf708",
+									"651a8e529829226ceb67c319"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_sight_front",
+					"_id": "32bb89758ce6c441e4eb4b36",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5ba26b01d4351e0085325a51",
+									"5dfa3d950dee1b22f862eae0",
+									"5c17804b2e2216152006c02f",
+									"5fb6567747ce63734e3fa1dc",
+									"5bc09a30d4351e00367fb7c8",
+									"5c18b90d2e2216152142466b",
+									"5fc0fa362770a0045c59c677",
+									"5894a73486f77426d259076c",
+									"55d4af3a4bdc2d972f8b456f"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Midwest Industries Night Fighter 10.5 inch M-LOK handguard",
+                "shortName": "Night Fighter 10.5",
+                "description": "Midwest Industries designed the Night Fighter handguards in an effort to provide a more rigid platform for mounting weapon lasers so as to reduce the impact shift between shots, including an extended 4140 steel barrel nut. Made in USA."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 65000,
+        "handbookPriceRoubles": 28988,
+        "addtoTraders": true,
+        "traderId": "BADGER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 205,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 2000
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "ec47c8fd149c9b6a07db4dc6": {
+        "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR15_Handguards/midwest_nf_13_5.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 10,
+            "ExtraSizeLeft": 2,
+            "Recoil": -1.5,
+			"Weight": 0.399,
+            "Width": 3,
+            "HeatFactor": 0.96,
+            "CoolFactor": 1.11,
+            "ConflictingItems": [
+                "a06aec4316ac6ff7353845f4",
+                "6357c98711fb55120211f7e1",
+                "5ae30e795acfc408fb139a0b",
+                "5a34fbadc4a28200741e230a",
+                "56ea8d2fd2720b7c698b4570",
+				"c6b01e3e7a1ec6168254e687",
+				"55d35ee94bdc2d61338b4568",
+				"bc9a059a5c6cb11a3b57c670",
+				"63d3ce0446bd475bcb50f55f"
+            ],
+            "Slots": [
+				{
+					"_name": "mod_mount_000",
+					"_id": "aca00fb78a2b2b65ac2e2712",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5b7be47f5acfc400170e2dd2",
+									"6269220d70b6c02e665f2635",
+									"6269545d0e57f218e4548ca2"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_mount_001",
+					"_id": "18da7bcce28bb652d5ba59b9",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5b7be47f5acfc400170e2dd2",
+									"6269220d70b6c02e665f2635",
+									"6269545d0e57f218e4548ca2"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_mount_002",
+					"_id": "e16ae15e30636979a4c8da2b",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5b7be47f5acfc400170e2dd2",
+									"6269220d70b6c02e665f2635",
+									"6269545d0e57f218e4548ca2",
+									"923987338260a1bb89e6a11b",
+									"0f8b8c2fc55b90cea6b5b63b",
+									"8af8534244b4e4189d53bec2"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_tactical_000",
+					"_id": "d73cc49a0ade1811cad79770",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"57fd23e32459772d0805bcf1",
+									"544909bb4bdc2d6f028b4577",
+									"5d10b49bd7ad1a1a560708b0",
+									"5c06595c0db834001a66af6c",
+									"5a7b483fe899ef0016170d15",
+									"61605d88ffa6e502ac5e7eeb",
+									"5c5952732e2216398b5abda2",
+									"644a3df63b0b6f03e101e065"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_scope",
+					"_id": "e026a602ebb572494232a1d4",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5649a2464bdc2d91118b45a8"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_foregrip",
+					"_id": "4a94c155b81708065cdd398f",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"57cffb66245977632f391a99",
+									"57cffcd624597763133760c5",
+									"57cffcdd24597763f5110006",
+									"57cffce524597763b31685d8",
+									"5b7be4895acfc400170e2dd5",
+									"651a8bf3a8520e48047bf708",
+									"651a8e529829226ceb67c319"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_sight_front",
+					"_id": "32bb89758ce6c441e4eb4b36",
+					"_parent": "99b4f9090dabbe90dd48a5ee",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5ba26b01d4351e0085325a51",
+									"5dfa3d950dee1b22f862eae0",
+									"5c17804b2e2216152006c02f",
+									"5fb6567747ce63734e3fa1dc",
+									"5bc09a30d4351e00367fb7c8",
+									"5c18b90d2e2216152142466b",
+									"5fc0fa362770a0045c59c677",
+									"5894a73486f77426d259076c",
+									"55d4af3a4bdc2d972f8b456f"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Midwest Industries Night Fighter 13.5 inch M-LOK handguard",
+                "shortName": "Night Fighter 13.5",
+                "description": "Midwest Industries designed the Night Fighter handguards in an effort to provide a more rigid platform for mounting weapon lasers so as to reduce the impact shift between shots, including an extended 4140 steel barrel nut. Made in USA."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 65000,
+        "handbookPriceRoubles": 28988,
+        "addtoTraders": true,
+        "traderId": "BADGER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 227,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 2,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 2000
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    }
+}

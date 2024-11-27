@@ -10,15 +10,12 @@ import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 // WTT imports
 import { WTTInstanceManager } from "./WTTInstanceManager";
-
 import { CustomItemService } from "./CustomItemService";
 import { epicItemClass } from  "./EpicsEdits"
-
+import { TraderBadger } from "./Traders/TraderBadger";
 // Custom Trader Assort Items
 import { CustomAssortSchemeService } from "./CustomAssortSchemeService";
 import { CustomWeaponPresets } from "./CustomWeaponPresets";
-
-
 
 class EpicRangeTimeWeapons
 implements IPreSptLoadMod, IPostDBLoadMod
@@ -29,9 +26,8 @@ implements IPreSptLoadMod, IPostDBLoadMod
     private config;
 
     private customItemService: CustomItemService = new CustomItemService();
-
     private epicItemClass: epicItemClass = new epicItemClass();
-
+    private traderBadger: TraderBadger = new TraderBadger();
     private customAssortSchemeService: CustomAssortSchemeService = new CustomAssortSchemeService();
     private customWeaponPresets: CustomWeaponPresets = new CustomWeaponPresets();
 
@@ -51,7 +47,7 @@ implements IPreSptLoadMod, IPostDBLoadMod
         this.customItemService.preSptLoad(this.Instance);
 
         this.epicItemClass.preSptLoad(this.Instance);
-
+        this.traderBadger.preSptLoad(this.Instance);
         this.customAssortSchemeService.preSptLoad(this.Instance);
 
         this.customWeaponPresets.preSptLoad(this.Instance);
@@ -65,10 +61,9 @@ implements IPreSptLoadMod, IPostDBLoadMod
         this.Instance.postDBLoad(container);
         // EVERYTHING AFTER HERE MUST USE THE INSTANCE
 
-        this.customItemService.postDBLoad();
-
         this.epicItemClass.postDBLoad();
-
+        this.traderBadger.postDBLoad();
+        this.customItemService.postDBLoad();
         this.customAssortSchemeService.postDBLoad();
         this.customWeaponPresets.postDBLoad();
 

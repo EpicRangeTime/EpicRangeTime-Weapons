@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_13_tan.bundle",
+				"path": "Mods/AR15_Handguards/urx4_13_tan.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -189,7 +189,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "AR-15 Knights Armament URX 4 13 inch handguard (FDE)",
+				"name": "AR-15 Knights Armament URX 4 13 inch M-LOK handguard (FDE)",
 				"shortName": "URX4 13",
 				"description": "The URX 4 rail produced by Knights Armament, Mlok version."
 			}
@@ -266,7 +266,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_13_blk.bundle",
+				"path": "Mods/AR15_Handguards/urx4_13_blk.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -449,7 +449,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "AR-15 Knights Armament URX 4 13 inch handguard",
+				"name": "AR-15 Knights Armament URX 4 13 inch M-LOK handguard",
 				"shortName": "URX4 13",
 				"description": "The URX 4 rail produced by Knights Armament, Mlok version."
 			}
@@ -526,7 +526,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_145_tan.bundle",
+				"path": "Mods/AR15_Handguards/urx4_145_tan.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -715,7 +715,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "AR-15 Knights Armament URX 4 14.5 inch handguard (FDE)",
+				"name": "AR-15 Knights Armament URX 4 14.5 inch M-LOK handguard (FDE)",
 				"shortName": "URX4 14.5",
 				"description": "The URX 4 rail produced by Knights Armament, Mlok version."
 			}
@@ -792,7 +792,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_145_blk.bundle",
+				"path": "Mods/AR15_Handguards/urx4_145_blk.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -981,7 +981,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "AR-15 Knights Armament URX 4 14.5 inch handguard",
+				"name": "AR-15 Knights Armament URX 4 14.5 inch M-LOK handguard",
 				"shortName": "URX4 14.5",
 				"description": "The URX 4 rail produced by Knights Armament, Mlok version."
 			}
@@ -1058,7 +1058,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_1075_blk.bundle",
+				"path": "Mods/AR15_Handguards/urx4_1075_blk.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -1234,7 +1234,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "AR-15 Knights Armament URX 4 10.75 inch handguard",
+				"name": "AR-15 Knights Armament URX 4 10.75 inch M-LOK handguard",
 				"shortName": "URX4 10.75",
 				"description": "The URX 4 rail produced by Knights Armament, Mlok version."
 			}
@@ -1304,14 +1304,14 @@
 		"addweaponpreset": false,
 		"weaponpresets": []
 	},
-	"d358ade47bd93cce3bb7afa6": {
+	"d358ade47bd93cce3bb7afa6": { 
 		"itemTplToClone": "595cf16b86f77427440c32e2",
 		"parentId": "HANDGUARD",
 		"handbookParentId": "MOD_HANDGUARD",
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_1075_tan.bundle",
+				"path": "Mods/AR15_Handguards/urx4_1075_tan.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -1487,7 +1487,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "AR-15 Knights Armament URX 4 10.75 inch handguard (FDE)",
+				"name": "AR-15 Knights Armament URX 4 10.75 inch M-LOK handguard (FDE)",
 				"shortName": "URX4 10.75",
 				"description": "The URX 4 rail produced by Knights Armament, Mlok version."
 			}
@@ -1564,7 +1564,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_85_blk.bundle",
+				"path": "Mods/AR15_Handguards/urx4_85_blk.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -1738,7 +1738,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "AR-15 Knights Armament URX 4 8.5 inch handguard",
+				"name": "AR-15 Knights Armament URX 4 8.5 inch M-LOK handguard",
 				"shortName": "URX4 8.5",
 				"description": "The URX 4 rail produced by Knights Armament, Mlok version."
 			}
@@ -1815,7 +1815,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/urx4_85_tan.bundle",
+				"path": "Mods/AR15_Handguards/urx4_85_tan.bundle",
 				"rcid": ""
 			},
 			"Accuracy": 5,
@@ -1987,7 +1987,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "AR-15 Knights Armament URX 4 8.5 inch handguard (FDE)",
+				"name": "AR-15 Knights Armament URX 4 8.5 inch M-LOK handguard (FDE)",
 				"shortName": "URX4 8.5",
 				"description": "The URX 4 rail produced by Knights Armament, Mlok version."
 			}

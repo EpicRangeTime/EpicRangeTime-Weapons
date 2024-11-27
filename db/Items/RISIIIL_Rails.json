@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ris_iii_13l_fde.bundle",
+				"path": "Mods/AR15_Handguards/ris_iii_13l_fde.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -141,7 +141,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ris_iii_13l_dfde.bundle",
+				"path": "Mods/AR15_Handguards/ris_iii_13l_dfde.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -276,7 +276,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ris_iii_13l_blk.bundle",
+				"path": "Mods/AR15_Handguards/ris_iii_13l_blk.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -411,7 +411,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ris_iii_12_5l_fde.bundle",
+				"path": "Mods/AR15_Handguards/ris_iii_12_5l_fde.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -546,7 +546,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ris_iii_12_5l_dfde.bundle",
+				"path": "Mods/AR15_Handguards/ris_iii_12_5l_dfde.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -681,7 +681,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ris_iii_12_5l_blk.bundle",
+				"path": "Mods/AR15_Handguards/ris_iii_12_5l_blk.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -816,7 +816,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ris_iii_10_5l_fde.bundle",
+				"path": "Mods/AR15_Handguards/ris_iii_10_5l_fde.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -850,7 +850,7 @@
 				{
 					"_id": "7c97dff4d6a275d5009efd31",
 					"_mergeSlotWithChildren": false,
-					"_name": "mod_tactical_004",
+					"_name": "mod_tactical_003",
 					"_parent": "eb314fb4d8025c0d696a3ffc",
 					"_props": {
 						"filters": [
@@ -951,7 +951,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ris_iii_10_5l_dfde.bundle",
+				"path": "Mods/AR15_Handguards/ris_iii_10_5l_dfde.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -985,7 +985,7 @@
 				{
 					"_id": "2735979ba909616f97d35354",
 					"_mergeSlotWithChildren": false,
-					"_name": "mod_tactical_004",
+					"_name": "mod_tactical_003",
 					"_parent": "887069265f946005918c6279",
 					"_props": {
 						"filters": [
@@ -1086,7 +1086,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ris_iii_10_5l_blk.bundle",
+				"path": "Mods/AR15_Handguards/ris_iii_10_5l_blk.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -1120,7 +1120,7 @@
 				{
 					"_id": "bd9a8fa0408bab2d0d27f023",
 					"_mergeSlotWithChildren": false,
-					"_name": "mod_tactical_004",
+					"_name": "mod_tactical_003",
 					"_parent": "d08180b5c44b8b094246f8c3",
 					"_props": {
 						"filters": [
@@ -1221,7 +1221,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ris_iii_9_5l_fde.bundle",
+				"path": "Mods/AR15_Handguards/ris_iii_9_5l_fde.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -1356,7 +1356,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ris_iii_9_5l_dfde.bundle",
+				"path": "Mods/AR15_Handguards/ris_iii_9_5l_dfde.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [
@@ -1491,7 +1491,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/ris_iii_9_5l_blk.bundle",
+				"path": "Mods/AR15_Handguards/ris_iii_9_5l_blk.bundle",
 				"rcid": ""
 			},
 			"ConflictingItems": [

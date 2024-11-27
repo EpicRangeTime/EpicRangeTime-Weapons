@@ -1,0 +1,190 @@
+{
+    "f5e580d2d78aee1a68978f70": {
+        "itemTplToClone": "5df916dfbb49d91fb446d6b9",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR10/midwest_ar10_12_625.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 9,
+            "ExtraSizeLeft": 1,
+            "Recoil": -1,
+			"Weight": 0.357,
+            "Width": 2,
+            "HeatFactor": 0.96,
+            "CoolFactor": 1.11,
+            "ConflictingItems": [
+                "807cce3153fd6d07fa931fa1",
+                "60658776f2cb2e02a42ace2b",
+                "7e907f07001010565675cab3",
+                "e76f8cc1a9991402c3577669"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-10 Midwest Industries 308 Combat Rail 12.625 inch M-LOK handguard",
+                "shortName": "Combat Rail 12.625",
+                "description": "Compatible with DPMS high rail style receivers, Midwest Industries made this combat rail for the AR-10 style rifle to give its end users more options for accessorizing their .308 AR. Made in USA."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 65000,
+        "handbookPriceRoubles": 28988,
+        "addtoTraders": true,
+        "traderId": "BADGER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 244,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 2,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 2000
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "0a64906cf9e00f3d10314995": {
+        "itemTplToClone": "5df916dfbb49d91fb446d6b9",
+        "parentId": "HANDGUARD",
+        "handbookParentId": "MOD_HANDGUARD",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "Mods/AR10/midwest_ar10_15.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 8,
+			"Weight": 0.411,
+            "ConflictingItems": [
+                "807cce3153fd6d07fa931fa1",
+                "60658776f2cb2e02a42ace2b",
+                "3f0cfc550b6aae26f59f7e25",
+                "7e907f07001010565675cab3",
+                "e76f8cc1a9991402c3577669"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-10 Midwest Industries 308 Combat Rail 15 inch M-LOK handguard",
+                "shortName": "Combat Rail 15",
+                "description": "Compatible with DPMS high rail style receivers, Midwest Industries made this combat rail for the AR-10 style rifle to give its end users more options for accessorizing their .308 AR. Made in USA."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_handguard"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 65000,
+        "handbookPriceRoubles": 28988,
+        "addtoTraders": true,
+        "traderId": "BADGER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 254,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 2000
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 2000
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "M870",
+                "Templates": [
+                    "SerbuShotgun"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    }
+}

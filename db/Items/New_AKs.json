@@ -8,6 +8,9 @@
 				"path": "assets/content/weapons/ak100/weapon_izhmash_ak101_556x45_container.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5a7dbfc1159bd40016548fde"
+			],
 			"Slots": [
 				{
 					"_name": "mod_gas_block",
@@ -25,7 +28,12 @@
 									"5b237e425acfc4771e1be0b6",
 									"59ccfdba86f7747f2109a587",
 									"5cf656f2d7f00c06585fb6eb",
-									"5d4aab30a4b9365435358c55"
+									"5d4aab30a4b9365435358c55",
+									"726928d910aacf0b1b40b934",
+									"eebec7fdda3d612c25d48af6",
+									"4da17d6e133487626488aa2d",
+									"f896348f6bab6164ae6e0c2e",
+									"4c467c02973c90a5284cb89a"
 								]
 							}
 						]
@@ -183,7 +191,9 @@
 								"AnimationIndex": -1,
 								"Filter": [
 									"5ac66c5d5acfc4001718d314",
-									"5c0548ae0db834001966a3c2"
+									"5c0548ae0db834001966a3c2",
+									"c9aeb745fc67045b814af837",
+									"4656b02dbe4bfa4a3a9e6d40"
 								]
 							}
 						]
@@ -208,7 +218,8 @@
 									"6386300124a1dc425c00577a",
 									"649ec87d8007560a9001ab36",
 									"185bbb4e20e87b9aec36b1d5",
-									"df1d3bfbd9835563f1574809"
+									"df1d3bfbd9835563f1574809",
+									"9d387502b50d1f4b0fb8b0ce"
 								]
 							}
 						]
@@ -539,7 +550,9 @@
 								"AnimationIndex": -1,
 								"Filter": [
 									"5ac66c5d5acfc4001718d314",
-									"5c0548ae0db834001966a3c2"
+									"5c0548ae0db834001966a3c2",
+									"c9aeb745fc67045b814af837",
+									"4656b02dbe4bfa4a3a9e6d40"
 								]
 							}
 						]
@@ -561,7 +574,8 @@
 									"5ab626e4d8ce87272e4c6e43",
 									"57dc347d245977596754e7a1",
 									"185bbb4e20e87b9aec36b1d5",
-									"df1d3bfbd9835563f1574809"
+									"df1d3bfbd9835563f1574809",
+									"9d387502b50d1f4b0fb8b0ce"
 								]
 							}
 						]
@@ -905,7 +919,9 @@
 								"AnimationIndex": -1,
 								"Filter": [
 									"5ac66c5d5acfc4001718d314",
-									"5c0548ae0db834001966a3c2"
+									"5c0548ae0db834001966a3c2",
+									"c9aeb745fc67045b814af837",
+									"4656b02dbe4bfa4a3a9e6d40"
 								]
 							}
 						]
@@ -927,7 +943,8 @@
 									"5ab626e4d8ce87272e4c6e43",
 									"57dc347d245977596754e7a1",
 									"185bbb4e20e87b9aec36b1d5",
-									"df1d3bfbd9835563f1574809"
+									"df1d3bfbd9835563f1574809",
+									"9d387502b50d1f4b0fb8b0ce"
 								]
 							}
 						]
@@ -1271,7 +1288,9 @@
 								"AnimationIndex": -1,
 								"Filter": [
 									"5ac66c5d5acfc4001718d314",
-									"5c0548ae0db834001966a3c2"
+									"5c0548ae0db834001966a3c2",
+									"c9aeb745fc67045b814af837",
+									"4656b02dbe4bfa4a3a9e6d40"
 								]
 							}
 						]
@@ -1293,7 +1312,8 @@
 									"5ab626e4d8ce87272e4c6e43",
 									"57dc347d245977596754e7a1",
 									"185bbb4e20e87b9aec36b1d5",
-									"df1d3bfbd9835563f1574809"
+									"df1d3bfbd9835563f1574809",
+									"9d387502b50d1f4b0fb8b0ce"
 								]
 							}
 						]
@@ -1500,6 +1520,17 @@
 				"path": "assets/content/weapons/ak100/weapon_izhmash_ak102_556x45_container.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems": [
+				"5b800e9286f7747a8b04f3ff",
+				"5b80242286f77429445e0b47",
+				"5c9a07572e221644f31c4b32",
+				"5c9a1c3a2e2216000e69fb6a",
+				"5c9a1c422e221600106f69f0",
+				"5c17664f2e2216398b5a7e3c",
+				"5a9d6d34a2750c00141e07da",
+				"59fb375986f7741b681b81a6",
+				"5a7dbfc1159bd40016548fde"
+			],
 			"Slots": [
 				{
 					"_name": "mod_gas_block",
@@ -1513,7 +1544,12 @@
 									"59c6633186f7740cf0493bb9",
 									"59d64ec286f774171d1e0a42",
 									"59e649f986f77411d949b246",
-									"59ccfdba86f7747f2109a587"
+									"59ccfdba86f7747f2109a587",
+									"726928d910aacf0b1b40b934",
+									"eebec7fdda3d612c25d48af6",
+									"4da17d6e133487626488aa2d",
+									"f896348f6bab6164ae6e0c2e",
+									"4c467c02973c90a5284cb89a"
 								]
 							}
 						]
@@ -1652,7 +1688,9 @@
 								"AnimationIndex": -1,
 								"Filter": [
 									"5ac66c5d5acfc4001718d314",
-									"5c0548ae0db834001966a3c2"
+									"5c0548ae0db834001966a3c2",
+									"c9aeb745fc67045b814af837",
+									"4656b02dbe4bfa4a3a9e6d40"
 								]
 							}
 						]
@@ -1677,7 +1715,8 @@
 									"6386300124a1dc425c00577a",
 									"649ec87d8007560a9001ab36",
 									"185bbb4e20e87b9aec36b1d5",
-									"df1d3bfbd9835563f1574809"
+									"df1d3bfbd9835563f1574809",
+									"9d387502b50d1f4b0fb8b0ce"
 								]
 							}
 						]
@@ -1974,7 +2013,8 @@
 									"5a0d63621526d8dba31fe3bf",
 									"59fb257e86f7742981561852",
 									"5a9fbacda2750c00141e080f",
-									"46cd26d8aff75c3562a031e5"
+									"46cd26d8aff75c3562a031e5",
+									"65f119212ffe657478130322"
 								]
 							}
 						]
@@ -2049,7 +2089,8 @@
 									"5ab626e4d8ce87272e4c6e43",
 									"57dc347d245977596754e7a1",
 									"185bbb4e20e87b9aec36b1d5",
-									"df1d3bfbd9835563f1574809"
+									"df1d3bfbd9835563f1574809",
+									"9d387502b50d1f4b0fb8b0ce"
 								]
 							}
 						]
@@ -2675,7 +2716,8 @@
 									"5cf50fc5d7f00c056c53f83c",
 									"5beec8b20db834001961942a",
 									"6386300124a1dc425c00577a",
-									"649ec87d8007560a9001ab36"
+									"649ec87d8007560a9001ab36",
+									"9d387502b50d1f4b0fb8b0ce"
 								]
 							}
 						]
@@ -2907,6 +2949,394 @@
 				],
 				"_name": "Century Arms Draco Stock preset",
 				"_parent": "76473c126cd112b5b585ae8b",
+				"_type": "Preset"
+			}
+		]
+	},
+	"52500592c7109667abb6cbeb": {
+		"itemTplToClone": "583990e32459771419544dd2",
+		"parentId": "ASSAULT_RIFLE",
+		"handbookParentId": "WEAPONS_ASSAULTRIFLES",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/weapons/aks74u/weapon_izhmash_aks74ub_545x39_container.bundle",
+				"rcid": ""
+			},
+			"RecoilForceBack": 369,
+			"RecoilForceUp": 111,
+			"Slots": [
+				{
+					"_name": "mod_pistol_grip",
+					"_id": "be3c51742bd2f6a327ccd04c",
+					"_parent": "52500592c7109667abb6cbeb",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5f6341043ada5942720e2dc5",
+									"6087e663132d4d12c81fd96b",
+									"5beec8ea0db834001a6f9dbf",
+									"5649ad3f4bdc2df8348b4585",
+									"5649ade84bdc2d1b2b8b4587",
+									"59e62cc886f77440d40b52a1",
+									"5a0071d486f77404e23a12b2",
+									"57e3dba62459770f0c32322b",
+									"5cf54404d7f00c108840b2ef",
+									"5e2192a498a36665e8337386",
+									"5b30ac585acfc433000eb79c",
+									"59e6318286f77444dd62c4cc",
+									"5cf50850d7f00c056e24104c",
+									"5cf508bfd7f00c056e24104e",
+									"5947f92f86f77427344a76b1",
+									"5947fa2486f77425b47c1a9b",
+									"5c6bf4aa2e2216001219b0ae",
+									"5649ae4a4bdc2d1b2b8b4588",
+									"5998517986f7746017232f7e",
+									"623c3be0484b5003161840dc",
+									"628a664bccaab13006640e47",
+									"628c9ab845c59e5b80768a81",
+									"63f4da90f31d4a33b87bd054",
+									"648ae3e356c6310a830fc291",
+									"651580dc71a4f10aec4b6056"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_charge",
+					"_id": "1b9746298c1ccf5d8b24eb81",
+					"_parent": "52500592c7109667abb6cbeb",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"6130ca3fd92c473c77020dbd",
+									"5648ac824bdc2ded0b8b457d"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_muzzle",
+					"_id": "3ef7f856ba4aab773e2ef50b",
+					"_parent": "52500592c7109667abb6cbeb",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5ac72e7d5acfc40016339a02",
+									"5ac72e895acfc43b321d4bd5",
+									"5f633f791b231926f2329f13",
+									"5a9ea27ca2750c00137fa672",
+									"5cc9ad73d7f00c000e2579d4",
+									"5649ab884bdc2ded0b8b457f",
+									"59bffc1f86f77435b128b872",
+									"5e208b9842457a4a7a33d074",
+									"5a0d63621526d8dba31fe3bf",
+									"59fb257e86f7742981561852",
+									"5a9fbacda2750c00141e080f",
+									"65f119212ffe657478130322",
+									"46cd26d8aff75c3562a031e5"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_magazine",
+					"_id": "b303e7c69c8ab92d33068993",
+					"_parent": "52500592c7109667abb6cbeb",
+					"_props": {
+						"filters": [
+							{
+								"AnimationIndex": -1,
+								"Filter": [
+									"59e5d83b86f7745aed03d262",
+									"5a01c29586f77474660c694c",
+									"5ac66bea5acfc43b321d4aec",
+									"59d625f086f774661516605d",
+									"5b1fd4e35acfc40018633c39",
+									"5a0060fc86f7745793204432",
+									"59e5f5a486f7746c530b3ce2",
+									"5b1fb3e15acfc4001637f068",
+									"59d6272486f77466146386ff",
+									"5e21a3c67e40bd02257a008a",
+									"5cbdc23eae9215001136a407",
+									"5c6175362e221600133e3b94",
+									"59fafc5086f7740dbe19f6c3",
+									"59fafc9386f774067d462453",
+									"5cfe8010d7ad1a59283b14c6",
+									"6272874a6c47bd74f92e2087",
+									"64b9cf0ac12b9c38db26923a"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c394bdc2dae468b4577"
+				},
+				{
+					"_name": "mod_stock",
+					"_id": "cf43ef162c5f15fa2473a6b4",
+					"_parent": "52500592c7109667abb6cbeb",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"59ecc28286f7746d7a68aa8c",
+									"5ab626e4d8ce87272e4c6e43",
+									"57dc347d245977596754e7a1",
+									"185bbb4e20e87b9aec36b1d5",
+									"df1d3bfbd9835563f1574809",
+									"9d387502b50d1f4b0fb8b0ce"
+								]
+							}
+						]
+					}
+				},
+				{
+					"_name": "mod_reciever",
+					"_id": "d1929bed11ae9d891f8fd1b5",
+					"_parent": "52500592c7109667abb6cbeb",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"57dc334d245977597164366f",
+									"5839a7742459773cf9693481",
+									"655cb6b5d680a544f30607fa"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_mount_000",
+					"_id": "e8b83ec99efa511b8b61dedc",
+					"_parent": "52500592c7109667abb6cbeb",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5947db3f86f77447880cf76f",
+									"6113d6c3290d254f5e6b27db",
+									"57486e672459770abd687134",
+									"618a5d5852ecee1505530b2a",
+									"5c82342f2e221644f31c060e",
+									"576fd4ec2459777f0b518431",
+									"5c82343a2e221644f31c0611",
+									"5cf638cbd7f00c06595bc936",
+									"5a7c74b3e899ef0014332c29",
+									"591ee00d86f774592f7b841e",
+									"5d0a29ead7ad1a0026013f27",
+									"618a75c9a3884f56c957ca1b",
+									"57acb6222459771ec34b5cb0",
+									"5c61a40d2e2216001403158d",
+									"5c90c3622e221601da359851",
+									"638db77630c4240f9e06f8b6",
+									"63d114019e35b334d82302f7",
+									"6544d4187c5457729210d277"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_gas_block",
+					"_id": "15eb020b1f8765da42633073",
+					"_parent": "52500592c7109667abb6cbeb",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"59d36a0086f7747e673f3946"
+								]
+							}
+						]
+					},
+					"_required": true,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			],
+			"ammoCaliber": "Caliber762x39",
+			"defMagType": "5ac66c5d5acfc4001718d314",
+			"defAmmo": "5fbe3ffdf8b6a877a729ea82",
+			"AdjustCollimatorsToTrajectory": false,
+			"shotgunDispersion": 0,
+			"Chambers": [
+				{
+					"_name": "patron_in_weapon",
+					"_id": "a0aee1fc268fa12a2721c8d3",
+					"_parent": "93bcdfda236122e67c098847",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"59e0d99486f7744a32234762",
+									"59e4d3d286f774176a36250a",
+									"5656d7c34bdc2d9d198b4587",
+									"59e4cf5286f7741778269d8a",
+									"59e4d24686f7741776641ac7",
+									"601aa3d2b2bcb34913271e6d",
+									"64b7af5a8532cf95ee0a0dbd",
+									"64b7af434b75259c590fa893",
+									"64b7af734b75259c590fa895"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d4af244bdc2d962f8b4571"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Modified Century Arms Draco 7.62x39 Assault Rifle",
+				"shortName": "Draco",
+				"description": "A Century arms Draco, modified expertly by badger for full auto fire and a dovetail mount."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 20800,
+		"handbookPriceRoubles": 10643,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 340,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Name": "AKM",
+				"Templates": [
+					"52500592c7109667abb6cbeb"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": [
+			{
+				"_changeWeaponName": false,
+				"_encyclopedia": "52500592c7109667abb6cbeb",
+				"_id": "660b4a90010010f388968e18",
+				"_items": [
+					{
+						"_id": "59a45b4ea310853e8020e02c",
+						"_tpl": "52500592c7109667abb6cbeb",
+						"upd": {
+							"StackObjectsCount": 99,
+							"Repairable": {
+								"MaxDurability": 100,
+								"Durability": 100
+							},
+							"Foldable": {
+								"Folded": false
+							},
+							"FireMode": {
+								"FireMode": "single"
+							}
+						}
+					},
+					{
+						"_id": "2b255c348f41b1d435e83eed",
+						"_tpl": "57e3dba62459770f0c32322b",
+						"parentId": "59a45b4ea310853e8020e02c",
+						"slotId": "mod_pistol_grip"
+					},
+					{
+						"_id": "6e7c37b30d87020344b42dfd",
+						"_tpl": "5ac72e895acfc43b321d4bd5",
+						"parentId": "59a45b4ea310853e8020e02c",
+						"slotId": "mod_muzzle"
+					},
+					{
+						"_id": "00e6897fdf9b2609178f4252",
+						"_tpl": "59d6272486f77466146386ff",
+						"parentId": "59a45b4ea310853e8020e02c",
+						"slotId": "mod_magazine"
+					},
+					{
+						"_id": "6a9a8d44f2a75452b407cb46",
+						"_tpl": "57dc347d245977596754e7a1",
+						"parentId": "59a45b4ea310853e8020e02c",
+						"slotId": "mod_stock"
+					},
+					{
+						"_id": "e4b0200747760435445586dd",
+						"_tpl": "57dc334d245977597164366f",
+						"parentId": "59a45b4ea310853e8020e02c",
+						"slotId": "mod_reciever"
+					},
+					{
+						"_id": "48de431f7092d13944709eca",
+						"_tpl": "59d36a0086f7747e673f3946",
+						"parentId": "59a45b4ea310853e8020e02c",
+						"slotId": "mod_gas_block"
+					},
+					{
+						"_id": "d04e321c6824e6066d99b3ba",
+						"_tpl": "57dc32dc245977596d4ef3d3",
+						"parentId": "48de431f7092d13944709eca",
+						"slotId": "mod_handguard"
+					}
+				],
+				"_name": "Modified Century Arms Draco Stock preset",
+				"_parent": "59a45b4ea310853e8020e02c",
 				"_type": "Preset"
 			}
 		]

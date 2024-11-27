@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mk8_7_blk.bundle",
+				"path": "Mods/AR15_Handguards/mk8_7_blk.bundle",
 				"rcid": ""
 			},
 			"ExtraSizeLeft": 1,
@@ -253,7 +253,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mk8_7_ddc.bundle",
+				"path": "Mods/AR15_Handguards/mk8_7_ddc.bundle",
 				"rcid": ""
 			},
 			"ExtraSizeLeft": 1,
@@ -500,7 +500,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mk8_7_odg.bundle",
+				"path": "Mods/AR15_Handguards/mk8_7_odg.bundle",
 				"rcid": ""
 			},
 			"ExtraSizeLeft": 1,
@@ -747,7 +747,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mk8_9_5_blk.bundle",
+				"path": "Mods/AR15_Handguards/mk8_9_5_blk.bundle",
 				"rcid": ""
 			},
 			"ExtraSizeLeft": 1,
@@ -995,7 +995,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mk8_9_5_ddc.bundle",
+				"path": "Mods/AR15_Handguards/mk8_9_5_ddc.bundle",
 				"rcid": ""
 			},
 			"ExtraSizeLeft": 1,
@@ -1243,7 +1243,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mk8_9_5_odg.bundle",
+				"path": "Mods/AR15_Handguards/mk8_9_5_odg.bundle",
 				"rcid": ""
 			},
 			"ExtraSizeLeft": 1,
@@ -1491,7 +1491,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mk8_13_blk.bundle",
+				"path": "Mods/AR15_Handguards/mk8_13_blk.bundle",
 				"rcid": ""
 			},
 			"Width": 3,
@@ -1747,7 +1747,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mk8_13_ddc.bundle",
+				"path": "Mods/AR15_Handguards/mk8_13_ddc.bundle",
 				"rcid": ""
 			},
 			"Width": 3,
@@ -2003,7 +2003,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mk8_13_odg.bundle",
+				"path": "Mods/AR15_Handguards/mk8_13_odg.bundle",
 				"rcid": ""
 			},
 			"Width": 3,
@@ -2259,7 +2259,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mk8_15_blk.bundle",
+				"path": "Mods/AR15_Handguards/mk8_15_blk.bundle",
 				"rcid": ""
 			},
 			"Width": 3,
@@ -2518,7 +2518,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mk8_15_ddc.bundle",
+				"path": "Mods/AR15_Handguards/mk8_15_ddc.bundle",
 				"rcid": ""
 			},
 			"Width": 3,
@@ -2777,7 +2777,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/mk8_15_odg.bundle",
+				"path": "Mods/AR15_Handguards/mk8_15_odg.bundle",
 				"rcid": ""
 			},
 			"Width": 3,

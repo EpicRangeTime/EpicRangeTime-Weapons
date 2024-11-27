@@ -352,7 +352,7 @@
 				"618178aa1cb55961fa0fdc80",
 				"615d8e9867085e45ef1409c6"
 			],
-			"Recoil": -16,
+			"Recoil": -15,
 			"Ergonomics": -22,
 			"HeatFactor": 1.08,
 			"Loudness": -28,
@@ -443,7 +443,7 @@
 				"618178aa1cb55961fa0fdc80",
 				"615d8e9867085e45ef1409c6"
 			],
-			"Recoil": -16,
+			"Recoil": -15,
 			"Ergonomics": -22,
 			"HeatFactor": 1.08,
 			"Loudness": -28,
@@ -1219,6 +1219,7 @@
 				"path": "Mods/Suppressors/putnik_blk.bundle",
 				"rcid": ""
 			},
+			"Weight": 0.620,
 			"ConflictingItems": [
 				"5d15ce51d7ad1a1eff619092",
 				"647db1eca8d3399c380d195c"
@@ -1310,6 +1311,7 @@
 				"path": "Mods/Suppressors/putnik_oreo.bundle",
 				"rcid": ""
 			},
+			"Weight": 0.620,
 			"ConflictingItems": [
 				"5d15ce51d7ad1a1eff619092",
 				"647db1eca8d3399c380d195c"
@@ -1401,6 +1403,7 @@
 				"path": "Mods/Suppressors/putnik_fde.bundle",
 				"rcid": ""
 			},
+			"Weight": 0.620,
 			"ConflictingItems": [
 				"5d15ce51d7ad1a1eff619092",
 				"647db1eca8d3399c380d195c"
@@ -2011,9 +2014,10 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/rotex_d_blk.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/rotex_d_blk.bundle",
 				"rcid": ""
 			},
+			"DurabilityBurnModificator": 1,
 			"Weight": 0.266,
 			"Recoil": -6,
 			"Ergonomics": -4,
@@ -2103,9 +2107,10 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/rotex_d_fde.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/rotex_d_fde.bundle",
 				"rcid": ""
 			},
+			"DurabilityBurnModificator": 1,
 			"Weight": 0.266,
 			"Recoil": -6,
 			"Ergonomics": -4,
@@ -2195,9 +2200,10 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/rotex_d_gry.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/rotex_d_gry.bundle",
 				"rcid": ""
 			},
+			"DurabilityBurnModificator": 1,
 			"Weight": 0.266,
 			"Recoil": -6,
 			"Ergonomics": -4,
@@ -2461,7 +2467,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/surefire_wardenqdblk.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/surefire_wardenqdblk.bundle",
 				"rcid": ""
 			},
 			"Recoil": -4,
@@ -2552,7 +2558,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/surefire_wardenqdfde.bundle",
+				"path": "Mods/AR15_Muzzle_Devices/surefire_wardenqdfde.bundle",
 				"rcid": ""
 			},
 			"Recoil": -4,
@@ -3901,6 +3907,381 @@
 			{
 				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
 				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"8d28d2b0bc17dad17f09676d": {
+		"itemTplToClone": "56ea8180d2720bf2698b456a",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/dd_sguard_556.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Recoil": -11,
+			"Ergonomics": -19,
+			"Loudness": -27,
+			"Weight": 0.623,
+			"ExtraSizeLeft": 1,
+			"Slots": []
+		},
+		"locales": {
+			"en": {
+				"name": "Daniel Defense Soundguard 5.56x45 sound suppressor",
+				"shortName": "SG-556",
+				"description": "Daniel SoundGuard Powered by KGM Suppressors utilize cutting-edge gas-flow dynamics that eliminate over-gassing and direct most gasses forward, not back in a shooter’s face. So, you experience less toxic gas blowback and can concentrate on putting more shots on target. State-of-the-art KGM technology significantly lowers impulse noise levels, protecting against hearing loss, while a patent-pending baffle stack and proprietary coating on internal parts reduce a firearm’s flash signature to virtually zero. Patent-pending gas-flow pathing stabilizes rounds to ensure extreme accuracy with minimal point-of-impact shift."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 42920,
+		"handbookPriceRoubles": 29000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 282,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"a1fd0589018e71233daeb331": {
+		"itemTplToClone": "5dfa3cd1b33c0951220c079b",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/dd_sguard_762.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Recoil": -12,
+			"Ergonomics": -19,
+			"Loudness": -29,
+			"Weight": 0.623,
+			"ExtraSizeLeft": 1,
+			"Slots": []
+		},
+		"locales": {
+			"en": {
+				"name": "Daniel Defense Soundguard 7.62x51 sound suppressor",
+				"shortName": "SG-762",
+				"description": "Daniel SoundGuard Powered by KGM Suppressors utilize cutting-edge gas-flow dynamics that eliminate over-gassing and direct most gasses forward, not back in a shooter’s face. So, you experience less toxic gas blowback and can concentrate on putting more shots on target. State-of-the-art KGM technology significantly lowers impulse noise levels, protecting against hearing loss, while a patent-pending baffle stack and proprietary coating on internal parts reduce a firearm’s flash signature to virtually zero. Patent-pending gas-flow pathing stabilizes rounds to ensure extreme accuracy with minimal point-of-impact shift."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 47290,
+		"handbookPriceRoubles": 30000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 290,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"45b07217916365a3171c079e": {
+		"itemTplToClone": "56ea8180d2720bf2698b456a",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/allen_m4_suppressor.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Recoil": -14,
+			"Ergonomics": -26,
+			"Loudness": -35,
+			"Weight": 0.680,
+			"ExtraSizeLeft": 1,
+			"Slots": [],
+			"ConflictingItems": [
+				"56eabcd4d2720b66698b4574",
+				"5d00ec68d7ad1a04a067e5be",
+				"56ea8d2fd2720b7c698b4570",
+				"63d3ce281fe77d0f2801859e",
+				"6357c98711fb55120211f7e1",
+				"cabcc6939632138bbb740c0f",
+				"2dd0bae941a035f84debc5d1",
+				"86171495d4b6145eb4f0f1d5",
+				"909d5c3241210a0bc5a22fa0"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Allen Engineering M4 5.56x45 sound suppressor",
+				"shortName": "AE M4",
+				"description": "The M4 is a modified Ops Inc. 3rd Model that adds a 5.56 baffle stack and keeps the direct thread 1st section. The M4 was designed directly thread onto a 14.5″ M4 Carbine with the simple instillation of a 3-piece collar that interfaces with the front sight block. The M4 suppressor was notably used by MSG. Gary Gordon during The Battle of Mogadishu."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 47290,
+		"handbookPriceRoubles": 30000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 340,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"005ea36cedb4cf3ed6503746": {
+		"itemTplToClone": "5f633f791b231926f2329f13",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/putnik_blk.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.620,
+			"ConflictingItems": [
+				"5d15ce51d7ad1a1eff619092",
+				"647db1eca8d3399c380d195c"
+			],
+			"Recoil": -12.5,
+			"Ergonomics": -19,
+			"HeatFactor": 1.062,
+			"Loudness": -25,
+			"Width":2,
+			"ExtraSizeLeft": 1
+		},
+		"locales": {
+			"en": {
+				"name": "AK-74 Resilient Suppressors Putnik 7.62x39 sound suppressor",
+				"shortName": "Putnik",
+				"description": "The Putnik is the perfect suppressor for your modern AK. Designed to be as true to Russian design as possible, while incorporating the best baffle technology."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 67290,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 326,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2292
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2292
 			}
 		],
 		"masteries": false,

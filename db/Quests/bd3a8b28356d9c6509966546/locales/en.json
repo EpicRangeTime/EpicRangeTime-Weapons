@@ -1,0 +1,18 @@
+{
+    "ff2c2fd5d1e216e8aa91f992 name": "Who Are You?",
+    "ff2c2fd5d1e216e8aa91f992 description": "I'm sure you've seen the state of the city lately eh? Fuckin rough place. Absolute dumpster fire of a situation. I tell you what, we can kick this thing off if you can whack some of the local upstarts who think they're something just because they have a rusted shitty kalash. Got some American green in it for you if you can paint the street with ten of them.",
+    "ff2c2fd5d1e216e8aa91f992 successMessageText": "Fuck yea man. Now we're talkin.",
+    "1eb36903302e0430b7c32ec9": "Kill 10 scavs on Streets of Tarkov",
+    "ff2c2fd5d1e216e8aa91f992 acceptPlayerMessage": "Hey who's there? Oh it's some PMC who thinks he can barge into my hotel room. Well listen here fuckstick, I don't take kindly to strangers so what do you want? That look on your face gives me the idea you know about as much of what's going on as me. Well here, take a seat and we can talk about the situation I'm in before you give your side.",
+    "be3c5ff9d7033690c03b761b name": "Groceries",
+    "be3c5ff9d7033690c03b761b description": "Hey man, I know I only just met you but it would help me greatly if I had something to snack on while I try to figure out what I want to do next. Now don't take me for a lazy bastard, I swear I've looked all over for this shit before I bothered asking you. Maybe I'm just not looking in the right places, who fucking knows, I'm not from here. But I want some sausage and crackers. It would just be nice. I wouldn't consider this a need, but if you come across some in your travels it would be appreciated. Thanks.",
+    "be3c5ff9d7033690c03b761b successMessageText": "Dude you're a lifesaver. Best snack ever for sitting at my PC. I'll let you know if anything comes up, I'm still thinking about some things. Thank you.",
+    "7c552af4e4a6f701383ae4e1": "Find a couple tubes of \"Salty Dog Beef Sausage\"",
+    "d2873c4fe32fa94215de778e": "Find a couple packs of \"Army Crackers\"",
+    "67296afd6e3127842d3a2e42 name": "Counter Raiding",
+    "67296afd6e3127842d3a2e42 description": "Hello again traveler. I figure you can see that I'm not in that great of sorts as of lately and I'd appreciate your help in helping me solve some of my issues. I know they're my issues to solve, but just given that you've been around for longer than me, I'm sure you know the neighborhoods much better than I. There are some drunkards who have been rooting through my shit lately and don't care what I threaten them with, so I hope you'd be okay taking some more of them out. The payment will be much more generous this time. This time though, bring me their weapons as proof they're dead. And here's a freebie if you can use it, seeing as you're working for me. Thanks again.",
+    "67296afd6e3127842d3a2e42 successMessageText": "Here's hoping they learn their damn lesson. I'll let you know if we have any more issues.",
+    "67296afd6e3127842d3a2e42 completePlayerMessage": "Here's hoping they learn their damn lesson. I'll let you know if we have any more issues.",
+    "67296afd5091dd70addc0a5f": "Kill 15 scavs around streets of tarkov",
+    "67296afdb7a5e3d8ff6599c4": "Hand over the weapons found on the scavs you kill"
+}

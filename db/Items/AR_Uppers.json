@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/sr15_upper_blk.bundle",
+				"path": "Mods/AR15_Uppers/sr15_upper_blk.bundle",
 				"rcid": ""
 			},
 			"Recoil": -3,
@@ -75,7 +75,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/AR15/sr15_upper_fde.bundle",
+				"path": "Mods/AR15_Uppers/sr15_upper_fde.bundle",
 				"rcid": ""
 			},
 			"Recoil": -3,
@@ -99,7 +99,7 @@
 		"fleaPriceRoubles": 14200,
 		"handbookPriceRoubles": 7800,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -112,7 +112,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 4,
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": false,
 		"StaticLootContainers": [

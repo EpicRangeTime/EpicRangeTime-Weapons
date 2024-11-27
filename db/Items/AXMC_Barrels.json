@@ -6,7 +6,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/LAPUA/barrel_ax_accuracy_international_508mm_762x51_pb.bundle",
+				"path": "Mods/Lapua/barrel_ax_accuracy_international_508mm_762x51_pb.bundle",
 				"rcid": ""
 			},
 			"Ergonomics": -9,
@@ -34,7 +34,7 @@
 		"fleaPriceRoubles": 128200,
 		"handbookPriceRoubles": 58000,
 		"addtoTraders": true,
-		"traderId": "JAEGER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -47,7 +47,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 4,
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": false,
 		"StaticLootContainers": [
@@ -79,7 +79,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/LAPUA/barrel_ax_accuracy_international_610mm_762x51_pb.bundle",
+				"path": "Mods/Lapua/barrel_ax_accuracy_international_610mm_762x51_pb.bundle",
 				"rcid": ""
 			},
 			"Ergonomics": -13,
@@ -150,7 +150,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/LAPUA/barrel_ax_accuracy_international_660mm_762x51_pb.bundle",
+				"path": "Mods/Lapua/barrel_ax_accuracy_international_660mm_762x51_pb.bundle",
 				"rcid": ""
 			},
 			"Ergonomics": -15,
