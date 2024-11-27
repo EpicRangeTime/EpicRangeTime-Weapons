@@ -5,7 +5,7 @@
     "license": "CC-NY-ND-NC 4.0",
     "author": "EpicRangeTime",
     "isBundleMod": true,
-    "sptVersion": "~3.9.x",
+    "sptVersion": "~3.10.x",
     "incompatibilities":[
         "WTT-Handguards_Galore"
     ],
