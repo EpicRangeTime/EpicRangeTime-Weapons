@@ -149,6 +149,9 @@ export class TraderAPI
                 this.instanceManager.database.templates.handbook.Items.push(handbook);
             handbooks++;
         }
+
+        this.instanceManager.database.traders["bd3a8b28356d9c6509966546"].dialogue = this.instanceManager.database.traders["54cb50c76803fa8b248b4571"].dialogue;
+
         this.instanceManager.logger.log(`[${this.instanceManager.modName}] TraderAPI: ${trader} added ${handbooks} items to handbook database.`, LogTextColor.GREEN);
 
         this.addTraderToLocales(trader, baseJson);
