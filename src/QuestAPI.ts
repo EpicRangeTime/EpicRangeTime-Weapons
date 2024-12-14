@@ -47,9 +47,9 @@ export class QuestAPI
         const jsonQuestFiles: any[] = [];
         const jsonLocaleFiles: any[] = [];
         const jsonImageFiles: any[] = [];
-        const questFiles = fs.readdirSync(this.instanceManager.dbPath.concat(`\\Quests\\${trader}\\`));
-        const questLocalesFiles = fs.readdirSync(this.instanceManager.dbPath.concat(`\\Quests\\${trader}\\locales`));
-        const questImageFiles = fs.readdirSync(this.instanceManager.dbPath.concat(`\\Quests\\${trader}\\images`));
+        const questFiles = fs.readdirSync(this.instanceManager.dbPath.concat(`\/Quests\/${trader}\/`));
+        const questLocalesFiles = fs.readdirSync(this.instanceManager.dbPath.concat(`\/Quests\/${trader}\/Zlocales`));
+        const questImageFiles = fs.readdirSync(this.instanceManager.dbPath.concat(`\/Quests\/${trader}\/images`));
 
         if (this.instanceManager.debug)
         {
@@ -66,7 +66,7 @@ export class QuestAPI
         // Load quest data from disk
         for (const file of questFiles)
         {
-            const filePath = path.join(this.instanceManager.dbPath.concat(`\\Quests\\${trader}`), file);
+            const filePath = path.join(this.instanceManager.dbPath.concat(`\/Quests\/${trader}`), file);
             const itemStats = fs.lstatSync(filePath);
             let fileContent: any;
 
@@ -95,7 +95,7 @@ export class QuestAPI
         // Load locale data from disk
         for (const locale of questLocalesFiles)
         {
-            const filePath = path.join(this.instanceManager.dbPath.concat(`\\Quests\\${trader}\\locales`), locale);
+            const filePath = path.join(this.instanceManager.dbPath.concat(`\/Quests\/${trader}\/locales`), locale);
             const itemStats = fs.lstatSync(filePath);
             let fileContent: any;
 
@@ -124,7 +124,7 @@ export class QuestAPI
         // Load image paths from disk
         for (const image of questImageFiles)
         {
-            const filePath = path.join(this.instanceManager.dbPath.concat(`\\Quests\\${trader}\\images`), image);
+            const filePath = path.join(this.instanceManager.dbPath.concat(`\/Quests\/${trader}\\images`), image);
             const itemStats = fs.lstatSync(filePath);
 
             if (itemStats.isFile()) 
