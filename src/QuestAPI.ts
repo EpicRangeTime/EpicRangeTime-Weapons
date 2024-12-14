@@ -48,7 +48,7 @@ export class QuestAPI
         const jsonLocaleFiles: any[] = [];
         const jsonImageFiles: any[] = [];
         const questFiles = fs.readdirSync(this.instanceManager.dbPath.concat(`\/Quests\/${trader}\/`));
-        const questLocalesFiles = fs.readdirSync(this.instanceManager.dbPath.concat(`\/Quests\/${trader}\/Zlocales`));
+        const questLocalesFiles = fs.readdirSync(this.instanceManager.dbPath.concat(`\/Quests\/${trader}\/locales`));
         const questImageFiles = fs.readdirSync(this.instanceManager.dbPath.concat(`\/Quests\/${trader}\/images`));
 
         if (this.instanceManager.debug)
