@@ -1593,6 +1593,14 @@
             ]
         },
         {
+            "key": "Mods/MCX/rattler_base_hg_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/MCX/rattler_canebrake.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -1610,6 +1618,14 @@
         },
         {
             "key": "Mods/MCX/rattler_pg.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/MCX/rattler_pg_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
