@@ -2438,6 +2438,14 @@
             ]
         },
         {
+            "key": "Mods/Suppressors/putnik_no_logo.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Suppressors/rotex-v_blk.bundle",
             "dependencyKeys": [
                 "shaders",

@@ -4209,7 +4209,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/Suppressors/putnik_blk.bundle",
+				"path": "Mods/Suppressors/putnik_no_logo.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.620,
