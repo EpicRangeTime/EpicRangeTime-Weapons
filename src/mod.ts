@@ -90,24 +90,35 @@ implements IPreSptLoadMod, IPostDBLoadMod
         });
     }
 
+    public colorLog(message: string, color: string) {
+        const colorCodes = {
+            red: "\x1b[31m",
+            green: "\x1b[32m",
+            yellow: "\x1b[33m",
+            blue: "\x1b[34m",
+            magenta: "\x1b[35m",
+            cyan: "\x1b[36m",
+            white: "\x1b[37m",
+            gray: "\x1b[90m",
+            brightRed: "\x1b[91m",
+            brightGreen: "\x1b[92m",
+            brightYellow: "\x1b[93m",
+            brightBlue: "\x1b[94m",
+            brightMagenta: "\x1b[95m",
+            brightCyan: "\x1b[96m",
+            brightWhite: "\x1b[97m"
+        };
+      
+        const resetCode = "\x1b[0m";
+        const colorCode = colorCodes[color as keyof typeof colorCodes] || "\x1b[37m"; // Default to white if color is invalid.
+        console.log(`${colorCode}${message}${resetCode}`); // Log the colored message here
+    }
+
     private displayCreditBanner(): void 
     {
-        this.Instance.logger.log(
-            `[${this.modName}] ----------------------------------------------------------------------------`,
-            LogTextColor.GREEN
-        );
-        this.Instance.logger.log(
-            `[${this.modName}] Developers:  EpicRangeTime   Code Framework: GroovypenguinX`,
-            LogTextColor.GREEN
-        );
-        this.Instance.logger.log(
-            `[${this.modName}] "People have an annoying habit of remembering things they shouldn't." - Brom`,
-            LogTextColor.GREEN
-        );
-        this.Instance.logger.log(
-            `[${this.modName}] ---------------------------------------------------------------------------`,
-            LogTextColor.GREEN
-        );
+        this.colorLog
+        (`[${this.modName}] Developers:  EpicRangeTime   Code Framework: GroovypenguinX
+                                                        Tony Lazuto says hello`, "green");
     }
 }
 
