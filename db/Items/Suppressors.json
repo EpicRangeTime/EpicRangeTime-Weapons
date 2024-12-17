@@ -5105,5 +5105,266 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"0b33e835730e05c6a996f452": {
+		"itemTplToClone": "626673016f1edc06f30cf6d5",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/cgs_sci_supp_blk.bundle",
+				"rcid": ""
+			},
+			"Recoil": -10,
+			"Ergonomics": -19,
+			"Loudness": -32,
+			"Weight": 0.484
+		},
+		"locales": {
+			"en": {
+				"name": "CGS SCI-SIX 5.56x45 sound suppressor (BLK)",
+				"shortName": "SCI-SIX",
+				"description": "The SCI-SIX is a centerfire rifle silencer intended for use on semiautomatic and automatic 5.56x45mm host weapons, with no barrel length restrictions.  The silencer mounts to the host firearm with a flash hider mount that left hand threads to the silencer body."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 397,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"24a57da0bf24002c1b8b31d9": {
+		"itemTplToClone": "626673016f1edc06f30cf6d5",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/cgs_sci_supp_fde.bundle",
+				"rcid": ""
+			},
+			"Recoil": -10,
+			"Ergonomics": -19,
+			"Loudness": -32,
+			"Weight": 0.484
+		},
+		"locales": {
+			"en": {
+				"name": "CGS SCI-SIX 5.56x45 sound suppressor (FDE)",
+				"shortName": "SCI-SIX",
+				"description": "The SCI-SIX is a centerfire rifle silencer intended for use on semiautomatic and automatic 5.56x45mm host weapons, with no barrel length restrictions.  The silencer mounts to the host firearm with a flash hider mount that left hand threads to the silencer body."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 397,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"e37c8df358fdec9a8780ea8c": {
+		"itemTplToClone": "626673016f1edc06f30cf6d5",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/cgs_sci_supp_gry.bundle",
+				"rcid": ""
+			},
+			"Recoil": -10,
+			"Ergonomics": -19,
+			"Loudness": -32,
+			"Weight": 0.484
+		},
+		"locales": {
+			"en": {
+				"name": "CGS SCI-SIX 5.56x45 sound suppressor (GRY)",
+				"shortName": "SCI-SIX",
+				"description": "The SCI-SIX is a centerfire rifle silencer intended for use on semiautomatic and automatic 5.56x45mm host weapons, with no barrel length restrictions.  The silencer mounts to the host firearm with a flash hider mount that left hand threads to the silencer body."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 397,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }

@@ -1988,5 +1988,111 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"32ae89929c7e53b5e412acb3": {
+		"itemTplToClone": "56ea8180d2720bf2698b456a",
+		"parentId": "FLASHHIDER",
+		"handbookParentId": "MOD_FLASHHIDER",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/AR15_Muzzle_Devices/cgs_sci_fh.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.07,
+			"Recoil": -4,
+			"Slots": [
+        {
+          "_name": "mod_muzzle",
+          "_id": "372dffe723f093f34e81fdf1",
+          "_parent": "32ae89929c7e53b5e412acb3",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "e37c8df358fdec9a8780ea8c",
+                  "24a57da0bf24002c1b8b31d9",
+				  "0b33e835730e05c6a996f452"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 CGS SCI-SIX 5.56x45 flash hider",
+				"shortName": "SCI-SIX",
+				"description": "A flash hider designed by Irregular Defense and produced by CGS for their SCI-SIX suppressor."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 10000,
+		"handbookPriceRoubles": 1800,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 33,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1900
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }
