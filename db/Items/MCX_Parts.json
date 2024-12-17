@@ -135,7 +135,8 @@
 								"Shift": 0,
 								"Filter": [
 									"5eb573512daee7c86171a26f",
-									"ae31c03a6323ef563cf37d5b"
+									"ae31c03a6323ef563cf37d5b",
+									"4e826b607efd7bd4630609c9"
 								]
 							}
 						]
@@ -421,7 +422,8 @@
 								"Shift": 0,
 								"Filter": [
 									"5eb573512daee7c86171a26f",
-									"ae31c03a6323ef563cf37d5b"
+									"ae31c03a6323ef563cf37d5b",
+									"4e826b607efd7bd4630609c9"
 								]
 							}
 						]
@@ -1032,6 +1034,90 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
+				"path": "Mods/MCX/rattler_pg_tan.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": 7
+		},
+		"locales": {
+			"en": {
+				"name": "MCX Rattler pistol grip (FDE)",
+				"shortName": "Rattler",
+				"description": "A polymer pistol grip for MCX assault rifles, manufactured by SIG Sauer."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_pistol_grip"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 10000,
+		"handbookPriceRoubles": 4500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 12,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1500
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1500
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1500
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1500
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1500
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1500
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"e81ca38571e29b3f1f98ebb9": {
+		"itemTplToClone": "5fbcbd6c187fea44d52eda14",
+		"parentId": "PISTOLGRIP",
+		"handbookParentId": "MOD_PISTOLGRIP",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
 				"path": "Mods/MCX/rattler_pg.bundle",
 				"rcid": ""
 			},
@@ -1039,7 +1125,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "MCX Rattler pistol grip",
+				"name": "MCX Rattler pistol grip (BLK)",
 				"shortName": "Rattler",
 				"description": "A polymer pistol grip for MCX assault rifles, manufactured by SIG Sauer."
 			}
@@ -1209,7 +1295,175 @@
 		},
 		"locales": {
 			"en": {
-				"name": "MCX Rattler M-lok handguard",
+				"name": "MCX Rattler M-lok handguard (BLK)",
+				"shortName": "Rattler HG",
+				"description": "A handguard specifically designed for the MCX Rattler."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 14400,
+		"handbookPriceRoubles": 6450,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 12000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"4e826b607efd7bd4630609c9": {
+		"itemTplToClone": "5fbc226eca32ed67276c155d",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/MCX/rattler_base_hg_fde.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_name": "mod_mount_000",
+					"_id": "a3345af77a278cd01696978c",
+					"_parent": "5eb573512daee7c86171a26f",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5b7be47f5acfc400170e2dd2",
+									"6269220d70b6c02e665f2635",
+									"6269545d0e57f218e4548ca2"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_mount_001",
+					"_id": "7a3b6723226470938c2546a2",
+					"_parent": "5eb573512daee7c86171a26f",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5b7be47f5acfc400170e2dd2",
+									"6269220d70b6c02e665f2635",
+									"6269545d0e57f218e4548ca2"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_sight_front",
+					"_id": "7a3b6723226470938c2546a2",
+					"_parent": "5eb573512daee7c86171a26f",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5ba26b01d4351e0085325a51",
+									"5dfa3d950dee1b22f862eae0",
+									"5c17804b2e2216152006c02f",
+									"5fb6567747ce63734e3fa1dc",
+									"5bc09a30d4351e00367fb7c8",
+									"5c18b90d2e2216152142466b",
+									"5fc0fa362770a0045c59c677",
+									"5894a73486f77426d259076c",
+									"55d4af3a4bdc2d972f8b456f"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				},
+				{
+					"_name": "mod_foregrip",
+					"_id": "8a53bd66a2bcb6ba68384c77",
+					"_parent": "5eb573512daee7c86171a26f",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"651a8bf3a8520e48047bf708",
+									"651a8e529829226ceb67c319"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "MCX Rattler M-lok handguard (FDE)",
 				"shortName": "Rattler HG",
 				"description": "A handguard specifically designed for the MCX Rattler."
 			}

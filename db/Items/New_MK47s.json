@@ -8,6 +8,8 @@
 				"path": "assets/content/weapons/mk47/weapon_cmmg_mk47_762x39_container.bundle",
 				"rcid": ""
 			},
+			"RecoilForceBack": 358,
+			"RecoilForceUp": 144,
 			"ConflictingItems": [
 				"60658776f2cb2e02a42ace2b",
 				"6065878ac9cf8012264142fd"
@@ -244,7 +246,7 @@
 		"weaponpresets": [
 			{
 				"_changeWeaponName": false,
-                "_encyclopedia": "52ce1b65b13e1035808c4fd2",
+				"_encyclopedia": "52ce1b65b13e1035808c4fd2",
 				"_id": "660b290e010010f38826f215",
 				"_items": [
 					{
@@ -306,7 +308,7 @@
 						"_id": "394a91eb9ac632b1ffe7bc2f",
 						"_tpl": "5bc09a18d4351e003562b68e",
 						"parentId": "9018c44f7b73d321eb52140f",
-						"slotId": "mod_sight_rear"						
+						"slotId": "mod_sight_rear"
 					},
 					{
 						"_id": "481bbeedcaabe221109a1b9a",
@@ -330,12 +332,12 @@
 						"_id": "86c8ebfb809e5eda3c14bc0b",
 						"_tpl": "5bc09a30d4351e00367fb7c8",
 						"parentId": "168e9f489cff5bdb12533534",
-						"slotId": "mod_sight_front"						
+						"slotId": "mod_sight_front"
 					}
 				],
-                "_name": "Mk47 5.45x39 Stock preset",
-                "_parent": "baad45aa6bf2c4c65890e4f7",
-                "_type": "Preset"
+				"_name": "Mk47 5.45x39 Stock preset",
+				"_parent": "baad45aa6bf2c4c65890e4f7",
+				"_type": "Preset"
 			}
 		]
 	},
@@ -348,6 +350,8 @@
 				"path": "assets/content/weapons/mk47/weapon_cmmg_mk47_762x39_container.bundle",
 				"rcid": ""
 			},
+			"RecoilForceBack": 362,
+			"RecoilForceUp": 147,
 			"ConflictingItems": [
 				"60658776f2cb2e02a42ace2b",
 				"6065878ac9cf8012264142fd"
@@ -568,7 +572,7 @@
 		"weaponpresets": [
 			{
 				"_changeWeaponName": false,
-                "_encyclopedia": "96f5c38a676e11e13544dfba",
+				"_encyclopedia": "96f5c38a676e11e13544dfba",
 				"_id": "660b28c6010010f38888304f",
 				"_items": [
 					{
@@ -654,12 +658,12 @@
 						"_id": "9b10612fc7cb81a6f5910283",
 						"_tpl": "5bc09a30d4351e00367fb7c8",
 						"parentId": "72a075fa21fda46c33480cb3",
-						"slotId": "mod_sight_front"						
+						"slotId": "mod_sight_front"
 					}
 				],
-                "_name": "Mk47 9x39 Stock preset",
-                "_parent": "797318f8fe5e5d58feb525a1",
-                "_type": "Preset"
+				"_name": "Mk47 9x39 Stock preset",
+				"_parent": "797318f8fe5e5d58feb525a1",
+				"_type": "Preset"
 			}
 		]
 	},

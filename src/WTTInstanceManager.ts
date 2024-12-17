@@ -32,9 +32,9 @@ export class WTTInstanceManager
     public modName: string;
     public debug: boolean;
     // Useful Paths
-    public modPath: string = path.join(process.cwd(), "\\user\\mods\\EpicRangeTime-Weapons\\");
-    public dbPath: string = path.join(process.cwd(), "\\user\\mods\\EpicRangeTime-Weapons\\db");
-    public profilePath: string = path.join(process.cwd(), "\\user\\profiles");
+    public modPath: string = path.join(process.cwd(), "\/user\/mods\/EpicRangeTime-Weapons\/");
+    public dbPath: string = path.join(process.cwd(), "\/user\/mods\/EpicRangeTime-Weapons\/db");
+    public profilePath: string = path.join(process.cwd(), "\/user\/profiles");
 
     // Instances
     public container: DependencyContainer;

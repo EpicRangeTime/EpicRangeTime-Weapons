@@ -1016,5 +1016,369 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"d1d91c5935812a383f894338": {
+		"itemTplToClone": "5d135e83d7ad1a21b83f42d8",
+		"parentId": "STOCK",
+		"handbookParentId": "MOD_STOCK",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Stocks/magpul_dt_pr_blk.bundle",
+				"rcid": ""
+			},
+			"Recoil":-21,
+			"Ergonomics": 12,
+			"Weight": 0.303,
+			"ConflictingItems":[
+				"5c0e2ff6d174af02a1659d4a",
+				"5a33e75ac4a2826c6e06d759"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Magpul DT-PR Carbine Stock (BLK)",
+				"shortName": "DT-PR",
+				"description": "The DT-PR stock is the Precision Rifle (PR) variant of our new Dual-Tension (DT) series of carbine stocks. It incorporates Magpul’s proprietary, patent-pending DT adjustment system, mitigating play between the buffer tube and the stock, resulting in a tighter fit across the stock’s entire length of pull."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_stock_000",
+			"mod_stock"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 9200,
+		"handbookPriceRoubles": 2000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 76,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2200
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"394ddec62819583ac6b760d7": {
+		"itemTplToClone": "5d135e83d7ad1a21b83f42d8",
+		"parentId": "STOCK",
+		"handbookParentId": "MOD_STOCK",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Stocks/magpul_dt_pr_fde.bundle",
+				"rcid": ""
+			},
+			"Recoil":-21,
+			"Ergonomics": 12,
+			"Weight": 0.303,
+			"ConflictingItems":[
+				"5c0e2ff6d174af02a1659d4a",
+				"5a33e75ac4a2826c6e06d759"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Magpul DT-PR Carbine Stock (FDE)",
+				"shortName": "DT-PR",
+				"description": "The DT-PR stock is the Precision Rifle (PR) variant of our new Dual-Tension (DT) series of carbine stocks. It incorporates Magpul’s proprietary, patent-pending DT adjustment system, mitigating play between the buffer tube and the stock, resulting in a tighter fit across the stock’s entire length of pull."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_stock_000",
+			"mod_stock"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 9200,
+		"handbookPriceRoubles": 2000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 76,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2200
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"364b69dba974eba7ec8a4f1a": {
+		"itemTplToClone": "5d135e83d7ad1a21b83f42d8",
+		"parentId": "STOCK",
+		"handbookParentId": "MOD_STOCK",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Stocks/str_stock_blk.bundle",
+				"rcid": ""
+			},
+			"Recoil":-21,
+			"Ergonomics": 12,
+			"Weight": 0.303,
+			"ConflictingItems":[
+				"5c0e2ff6d174af02a1659d4a",
+				"5a33e75ac4a2826c6e06d759"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Magpul STR Carbine Stock (BLK)",
+				"shortName": "STR",
+				"description": "The Magpul STR (Storage/Type Restricted) Carbine Stock – Mil-Spec is a drop-in replacement buttstock for AR15/M4 carbines using Mil-Spec sized receiver extension tubes. A storage-capable version of the CTR®, the STR has improved cheek weld and two water resistant battery tubes on a compact, reinforced polymer A-frame design."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_stock_000",
+			"mod_stock"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 9200,
+		"handbookPriceRoubles": 2000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 76,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2200
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"ffbf7c0c8acab5ec67bf4788": {
+		"itemTplToClone": "5d135e83d7ad1a21b83f42d8",
+		"parentId": "STOCK",
+		"handbookParentId": "MOD_STOCK",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Stocks/str_stock_fde.bundle",
+				"rcid": ""
+			},
+			"Recoil":-21,
+			"Ergonomics": 12,
+			"Weight": 0.303,
+			"ConflictingItems":[
+				"5c0e2ff6d174af02a1659d4a",
+				"5a33e75ac4a2826c6e06d759"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Magpul STR Carbine Stock (FDE)",
+				"shortName": "STR",
+				"description": "The Magpul STR (Storage/Type Restricted) Carbine Stock – Mil-Spec is a drop-in replacement buttstock for AR15/M4 carbines using Mil-Spec sized receiver extension tubes. A storage-capable version of the CTR®, the STR has improved cheek weld and two water resistant battery tubes on a compact, reinforced polymer A-frame design."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_stock_000",
+			"mod_stock"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 9200,
+		"handbookPriceRoubles": 2000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 76,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2200
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }
