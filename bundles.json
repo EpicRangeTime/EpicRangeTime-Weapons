@@ -9,6 +9,14 @@
             ]
         },
         {
+            "key": "Mods/Pistol_Grips/b5_pgrip.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "assets/content/items/mods/muzzle/muzzle_ar10_surefire_procomp_762_muzzle_brake_762x51.bundle",
             "dependencyKeys": [
                 "shaders",
