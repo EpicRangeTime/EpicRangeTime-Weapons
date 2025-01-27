@@ -124,7 +124,7 @@ export class QuestAPI
         // Load image paths from disk
         for (const image of questImageFiles)
         {
-            const filePath = path.join(this.instanceManager.dbPath.concat(`\/Quests\/${trader}\\images`), image);
+            const filePath = path.join(this.instanceManager.dbPath.concat(`\/Quests\/${trader}\/images`), image);
             const itemStats = fs.lstatSync(filePath);
 
             if (itemStats.isFile()) 
