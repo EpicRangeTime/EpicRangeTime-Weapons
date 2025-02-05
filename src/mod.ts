@@ -67,10 +67,6 @@ implements IPreSptLoadMod, IPostDBLoadMod
         this.customAssortSchemeService.postDBLoad();
         this.customWeaponPresets.postDBLoad();
 
-        this.Instance.logger.log(
-            `[${this.modName}] Database: Loading complete.`,
-            LogTextColor.GREEN
-        );
     }
 
     private getVersionFromJson(): void 

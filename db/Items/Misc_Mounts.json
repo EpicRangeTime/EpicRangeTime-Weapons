@@ -10,8 +10,7 @@
 				"rcid": ""
 			},
 			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4",
-				"8d9e9ff3020f92eb5fc46680"
+				"5ae30bad5acfc400185c2dc4"
 			],
 			"Ergonomics": 2,
 			"Width": 1,
@@ -147,8 +146,7 @@
 				"rcid": ""
 			},
 			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4",
-				"8d9e9ff3020f92eb5fc46680"
+				"5ae30bad5acfc400185c2dc4"
 			],
 			"Ergonomics": 2,
 			"Width": 1,
@@ -284,8 +282,7 @@
 				"rcid": ""
 			},
 			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4",
-				"8d9e9ff3020f92eb5fc46680"
+				"5ae30bad5acfc400185c2dc4"
 			],
 			"Width": 2,
 			"Slots": [
@@ -419,8 +416,7 @@
 				"rcid": ""
 			},
 			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4",
-				"8d9e9ff3020f92eb5fc46680"
+				"5ae30bad5acfc400185c2dc4"
 			],
 			"Width": 2,
 			"Slots": [
@@ -555,8 +551,7 @@
 			},
 			"Conflictingitems": [
 				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271",
-				"8d9e9ff3020f92eb5fc46680"
+				"275def25d1abe9b101511271"
 			],
 			"Ergonomics": 2,
 			"ExtraSizeUp": 1,
@@ -835,8 +830,7 @@
 				"623166e08c43374ca1567195",
 				"56083e1b4bdc2dc8488b4572",
 				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271",
-				"8d9e9ff3020f92eb5fc46680"
+				"275def25d1abe9b101511271"
 			],
 			"Slots": [
 				{
@@ -851,11 +845,7 @@
 									"56ea70acd2720b844b8b4594",
 									"5aa66be6e5b5b0214e506e97",
 									"61714eec290d254f5e6b2ffc",
-									"62850c28da09541f43158cca",
-									"85675a91454713828d6138e5",
-									"cd609524dadc768a89f99bba",
-									"750bcfb1b1f84f27a8f4f282",
-									"0afaf0c97b1d068d242df1dc"
+									"62850c28da09541f43158cca"
 								]
 							}
 						]
@@ -1000,8 +990,7 @@
 				"623166e08c43374ca1567195",
 				"56083e1b4bdc2dc8488b4572",
 				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271",
-				"8d9e9ff3020f92eb5fc46680"
+				"275def25d1abe9b101511271"
 			],
 			"Slots": [
 				{
@@ -1016,11 +1005,7 @@
 									"56ea70acd2720b844b8b4594",
 									"5aa66be6e5b5b0214e506e97",
 									"61714eec290d254f5e6b2ffc",
-									"62850c28da09541f43158cca",
-									"85675a91454713828d6138e5",
-									"cd609524dadc768a89f99bba",
-									"750bcfb1b1f84f27a8f4f282",
-									"0afaf0c97b1d068d242df1dc"
+									"62850c28da09541f43158cca"
 								]
 							}
 						]
@@ -2005,8 +1990,7 @@
 				"rcid": ""
 			},
 			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4",
-				"8d9e9ff3020f92eb5fc46680"
+				"5ae30bad5acfc400185c2dc4"
 			],
 			"Slots": [
 				{
@@ -2113,8 +2097,7 @@
 				"rcid": ""
 			},
 			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4",
-				"8d9e9ff3020f92eb5fc46680"
+				"5ae30bad5acfc400185c2dc4"
 			],
 			"Slots": [
 				{
@@ -2400,8 +2383,7 @@
 				"rcid": ""
 			},
 			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4",
-				"8d9e9ff3020f92eb5fc46680"
+				"5ae30bad5acfc400185c2dc4"
 			],
 			"Ergonomics": 1
 		},
@@ -2490,8 +2472,7 @@
 				"rcid": ""
 			},
 			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4",
-				"8d9e9ff3020f92eb5fc46680"
+				"5ae30bad5acfc400185c2dc4"
 			],
 			"Ergonomics": 1
 		},
@@ -2582,8 +2563,7 @@
 			"Conflictingitems": [
 				"5ae30bad5acfc400185c2dc4",
 				"55d5f46a4bdc2d1b198b4567",
-				"275def25d1abe9b101511271",
-				"8d9e9ff3020f92eb5fc46680"
+				"275def25d1abe9b101511271"
 			],
 			"Slots": [
 				{
@@ -2595,7 +2575,6 @@
 							{
 								"Shift": 0,
 								"Filter": [
-									"f5a80c63c2845fbc7c0c00b0"
 								]
 							}
 						]
@@ -2725,7 +2704,6 @@
 							{
 								"Shift": 0,
 								"Filter": [
-									"8d9e9ff3020f92eb5fc46680"
 								]
 							}
 						]
@@ -2833,8 +2811,7 @@
 				"5894a81786f77427140b8347",
 				"55d5f46a4bdc2d1b198b4567",
 				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271",
-				"8d9e9ff3020f92eb5fc46680"
+				"275def25d1abe9b101511271"
 			],
 			"Width": 2,
 			"Slots": [
@@ -2887,8 +2864,6 @@
 							{
 								"Shift": 0,
 								"Filter": [
-									"41e97223a2ad6374a096ae14",
-									"7ca248803b89788492384ba2"
 								]
 							}
 						]
@@ -2998,8 +2973,7 @@
 				"5894a81786f77427140b8347",
 				"55d5f46a4bdc2d1b198b4567",
 				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271",
-				"8d9e9ff3020f92eb5fc46680"
+				"275def25d1abe9b101511271"
 			],
 			"Slots": [
 				{
@@ -3032,8 +3006,6 @@
 							{
 								"Shift": 0,
 								"Filter": [
-									"41e97223a2ad6374a096ae14",
-									"7ca248803b89788492384ba2"
 								]
 							}
 						]
@@ -3143,8 +3115,7 @@
 				"5894a81786f77427140b8347",
 				"55d5f46a4bdc2d1b198b4567",
 				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271",
-				"8d9e9ff3020f92eb5fc46680"
+				"275def25d1abe9b101511271"
 			],
 			"Slots": [
 				{
@@ -3177,8 +3148,6 @@
 							{
 								"Shift": 0,
 								"Filter": [
-									"41e97223a2ad6374a096ae14",
-									"7ca248803b89788492384ba2"
 								]
 							}
 						]
@@ -3277,8 +3246,7 @@
 				"623166e08c43374ca1567195",
 				"56083e1b4bdc2dc8488b4572",
 				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271",
-				"8d9e9ff3020f92eb5fc46680"
+				"275def25d1abe9b101511271"
 			],
 			"Slots": [
 				{
@@ -3293,11 +3261,7 @@
 									"56ea70acd2720b844b8b4594",
 									"5aa66be6e5b5b0214e506e97",
 									"61714eec290d254f5e6b2ffc",
-									"62850c28da09541f43158cca",
-									"85675a91454713828d6138e5",
-									"cd609524dadc768a89f99bba",
-									"750bcfb1b1f84f27a8f4f282",
-									"0afaf0c97b1d068d242df1dc"
+									"62850c28da09541f43158cca"
 								]
 							}
 						]
@@ -3419,8 +3383,7 @@
 				"623166e08c43374ca1567195",
 				"56083e1b4bdc2dc8488b4572",
 				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271",
-				"8d9e9ff3020f92eb5fc46680"
+				"275def25d1abe9b101511271"
 			],
 			"Slots": [
 				{
@@ -3435,11 +3398,7 @@
 									"56ea70acd2720b844b8b4594",
 									"5aa66be6e5b5b0214e506e97",
 									"61714eec290d254f5e6b2ffc",
-									"62850c28da09541f43158cca",
-									"85675a91454713828d6138e5",
-									"cd609524dadc768a89f99bba",
-									"750bcfb1b1f84f27a8f4f282",
-									"0afaf0c97b1d068d242df1dc"
+									"62850c28da09541f43158cca"
 								]
 							}
 						]

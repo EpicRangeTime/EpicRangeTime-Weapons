@@ -25,7 +25,11 @@ export class TraderBadger
         this.BadgerAssort = this.instanceManager.traderApi.loadTraderAssortJson("bd3a8b28356d9c6509966546");
         this.BadgerQuestAssort = this.instanceManager.traderApi.loadTraderQuestAssortJson("bd3a8b28356d9c6509966546");
         this.instanceManager.traderApi.setupTrader("bd3a8b28356d9c6509966546", this.BadgerBaseJson);
-        this.instanceManager.logger.log(`[${this.instanceManager.modName}] Trader: Badger Active`, LogTextColor.GREEN);
+
+        if (this.instanceManager.debug)
+        {
+            this.instanceManager.logger.log(`[${this.instanceManager.modName}] Trader: Badger Active`, LogTextColor.GREEN);
+        }
     }
     
     /**

@@ -48,29 +48,68 @@ export class QuestModifier {
                     } else if (type === 'weaponModsInclusive' || type === 'weaponModsExclusive') {
                         const existingWeaponModsInclusive = jsonUtil.clone(conditions.weaponModsInclusive || []);
                         const updatedWeaponModsInclusive = new Set(existingWeaponModsInclusive.flat());
-
-                        for (const weaponModArray of items as string[][]) {
-                            for (const weaponMod of weaponModArray) {
-                                if (!updatedWeaponModsInclusive.has(weaponMod)) {
-                                    updatedWeaponModsInclusive.add(weaponMod);
-                                    modified = true;
-
-                                    if (debug) {
-                                        console.log(`Added new weapon mod ${weaponMod} to AvailableForFinish condition in quest ${questID}`);
+                    
+                        if (type === 'weaponModsInclusive') {
+                            // Handle inclusive logic
+                            for (const weaponModArray of items as string[][]) {
+                                for (const weaponMod of weaponModArray) {
+                                    if (!updatedWeaponModsInclusive.has(weaponMod)) {
+                                        updatedWeaponModsInclusive.add(weaponMod);
+                                        modified = true;
+                    
+                                        if (debug) {
+                                            console.log(`Added new weapon mod ${weaponMod} to AvailableForFinish condition in quest ${questID}`);
+                                        }
+                                    } else if (debug) {
+                                        console.log(`AvailableForFinish condition in quest ${questID} already has the weapon mod ${weaponMod}`);
                                     }
-                                } else if (debug) {
-                                    console.log(`AvailableForFinish condition in quest ${questID} already has the weapon mod ${weaponMod}`);
+                                }
+                            }
+                    
+                            if (modified) {
+                                conditions.weaponModsInclusive = Array.from(updatedWeaponModsInclusive).map(mod => [mod]);
+                                if (debug) {
+                                    console.log(`Modified AvailableForFinish conditions in quest ${questID}:`, conditions.weaponModsInclusive);
+                                }
+                            }
+                        } else if (type === 'weaponModsExclusive') {
+                            // Handle exclusive logic
+                            const existingWeaponModsExclusive = jsonUtil.clone(conditions.weaponModsExclusive || []);
+                            const updatedWeaponModsExclusive = new Set(existingWeaponModsExclusive.flat());
+                    
+                            for (const weaponModArray of items as string[][]) {
+                                for (const weaponMod of weaponModArray) {
+                                    // For exclusive mods, remove the mod if it exists and add it to the exclusive list
+                                    if (updatedWeaponModsInclusive.has(weaponMod)) {
+                                        updatedWeaponModsInclusive.delete(weaponMod);
+                                        modified = true;
+                    
+                                        if (debug) {
+                                            console.log(`Removed weapon mod ${weaponMod} from AvailableForFinish condition (inclusive) in quest ${questID}`);
+                                        }
+                                    }
+                    
+                                    // Add the mod to exclusive list
+                                    updatedWeaponModsExclusive.add(weaponMod);
+                                    modified = true;
+                    
+                                    if (debug) {
+                                        console.log(`Added weapon mod ${weaponMod} to AvailableForFinish condition (exclusive) in quest ${questID}`);
+                                    }
+                                }
+                            }
+                    
+                            if (modified) {
+                                conditions.weaponModsExclusive = Array.from(updatedWeaponModsExclusive).map(mod => [mod]);
+                                conditions.weaponModsInclusive = Array.from(updatedWeaponModsInclusive).map(mod => [mod]);
+                                if (debug) {
+                                    console.log(`Modified AvailableForFinish conditions in quest ${questID}:`, conditions.weaponModsExclusive);
+                                    console.log(`Modified AvailableForFinish conditions (inclusive) in quest ${questID}:`, conditions.weaponModsInclusive);
                                 }
                             }
                         }
-
-                        if (modified) {
-                            conditions.weaponModsInclusive = Array.from(updatedWeaponModsInclusive).map(mod => [mod]);
-                            if (debug) {
-                                console.log(`Modified AvailableForFinish conditions in quest ${questID}:`, conditions.weaponModsInclusive);
-                            }
-                        }
                     }
+                    
                 }
 
             } catch (error) {
@@ -115,6 +154,7 @@ export class QuestModifier {
                     );
                 } else if (type === 'weaponModsInclusive' || type === 'weaponModsExclusive') {
                     this.updateQuestWeaponMods(
+                        type,
                         questID,
                         items as string[][],
                         tables,
@@ -179,10 +219,11 @@ export class QuestModifier {
     }
     
 
-    // Method to update weapon mods inclusive in the quest
+    // Method to update weapon mods inclusive in the quest// Method to update weapon mods inclusive and exclusive in the quest
     private updateQuestWeaponMods(
+        type: 'weaponModsInclusive' | 'weaponModsExclusive',
         questID: string,
-        weaponModsInclusive: string[][],
+        weaponMods: string[][],
         tables: IDatabaseTables,
         jsonUtil: JsonUtil,
         debug: boolean,
@@ -191,50 +232,92 @@ export class QuestModifier {
         const quest = tables.templates.quests[questID];
         if (quest) {
             try {
-                // Extract existing weapon mods inclusive based on the specified index
+                // Extract existing weapon mods inclusive and exclusive based on the specified index
                 const availableForFinish = quest.conditions.AvailableForFinish;
                 if (availableForFinish.length <= availableForFinishIndex) {
                     console.warn(`Index ${availableForFinishIndex} is out of bounds for AvailableForFinish in quest ${questID}.`);
                     return;
                 }
 
-                const existingWeaponModsInclusive = availableForFinish[availableForFinishIndex].counter.conditions[0].weaponModsInclusive;
-                // Clone the existing weapon mods inclusive array
+                const conditions = availableForFinish[availableForFinishIndex].counter.conditions[0];
+
+                const existingWeaponModsInclusive = conditions.weaponModsInclusive || [];
+                const existingWeaponModsExclusive = conditions.weaponModsExclusive || [];
+
+                // Clone the existing arrays to avoid direct mutation
                 const updatedWeaponModsInclusive = jsonUtil.clone(existingWeaponModsInclusive);
-                let modified = false;
+                const updatedWeaponModsExclusive = jsonUtil.clone(existingWeaponModsExclusive);
 
-                // Add new weapon mods if they do not already exist
-                for (const weaponModArray of weaponModsInclusive) {
-                    for (const weaponMod of weaponModArray) {
-                        if (!updatedWeaponModsInclusive.flat().includes(weaponMod)) {
-                            updatedWeaponModsInclusive.push(weaponModArray);
-                            modified = true;
+                let modifiedInclusive = false;
+                let modifiedExclusive = false;
 
-                            if (debug) {
-                                console.log(`Added new weapon mod ${weaponMod} to quest ${questID}`);
+                if (type === 'weaponModsInclusive') {
+                    // Add new inclusive weapon mods if they do not already exist
+                    for (const weaponModArray of weaponMods) {
+                        for (const weaponMod of weaponModArray) {
+                            if (!updatedWeaponModsInclusive.flat().includes(weaponMod)) {
+                                updatedWeaponModsInclusive.push(weaponModArray);
+                                modifiedInclusive = true;
+
+                                if (debug) {
+                                    console.log(`Added new inclusive weapon mod ${weaponMod} to quest ${questID}`);
+                                }
+                            } else if (debug) {
+                                console.log(`Quest ${questID} already has the inclusive weapon mod ${weaponMod}`);
                             }
-                        } else if (debug) {
-                            console.log(`Quest ${questID} already has the weapon mod ${weaponMod}`);
                         }
                     }
                 }
 
+                if (type === 'weaponModsExclusive') {
+                    // Add new exclusive weapon mods if they do not already exist
+                    for (const weaponModArray of weaponMods) {
+                        for (const weaponMod of weaponModArray) {
+                            // Remove the mod from inclusive list if it already exists in exclusive
+                            if (!updatedWeaponModsExclusive.flat().includes(weaponMod)) {
+                                updatedWeaponModsExclusive.push(weaponModArray);
+                                modifiedExclusive = true;
+
+                                if (debug) {
+                                    console.log(`Added exclusive weapon mod ${weaponMod} to quest ${questID}`);
+                                }
+                            }
+                            else if (debug) {
+                                console.log(`Quest ${questID} already has the exclusive weapon mod ${weaponMod}`);
+                            }
+                        }
+                    }
+                }
+                
+
                 // Only update the quest if modifications were made
-                if (modified) {
-                    availableForFinish[availableForFinishIndex].counter.conditions[0].weaponModsInclusive = updatedWeaponModsInclusive;
+                if (modifiedInclusive) {
+                    // Update both inclusive and exclusive arrays in the quest conditions
+                    conditions.weaponModsInclusive = updatedWeaponModsInclusive;
 
                     if (debug) {
-                        console.log(`Modified quest ${questID}:`, updatedWeaponModsInclusive);
+                        console.log(`Modified quest ${questID}:`, {
+                            inclusive: updatedWeaponModsInclusive,
+                        });
+                    }
+                }
+                if (modifiedExclusive) {
+                    // Update both inclusive and exclusive arrays in the quest conditions
+                    conditions.weaponModsExclusive = updatedWeaponModsExclusive;
+
+                    if (debug) {
+                        console.log(`Modified quest ${questID}:`, {
+                            exclusive: updatedWeaponModsExclusive,
+                        });
                     }
                 }
             } catch (error) {
-                console.error(`Error modifying quest ${questID} weapon mods inclusive:`, error);
+                console.error(`Error modifying quest ${questID} weapon mods inclusive and exclusive:`, error);
             }
         } else {
             console.warn(`Quest with ID ${questID} not found.`);
         }
     }
-    
 
     // Method to modify quests with specific items and updates
     public modifyQuests(tables: IDatabaseTables, jsonUtil: JsonUtil, debug: boolean): void {
@@ -291,19 +374,14 @@ export class QuestModifier {
             ["005ea36cedb4cf3ed6503746"]
         ];
         const newScopes = [
-            ["0afaf0c97b1d068d242df1dc"],
             ["797e1ab4422217d7cfe3d299"],
             ["c5042b1c75088ddfc6c196f4"],
-            ["750bcfb1b1f84f27a8f4f282"],
             ["bf8cf7b9d0f73ce039591c65"],
             ["09f8fed0abd75fbd0f81cd91"],
             ["c3ad313c8108f49a65187daf"],
             ["aad949705aece28fb98b820f"],
             ["08eb2cce6b620c5c8550a0b5"],
             ["cd1f0458b18b79f2da3ad03f"],
-            ["f5a80c63c2845fbc7c0c00b0"],
-            ["85675a91454713828d6138e5"],
-            ["cd609524dadc768a89f99bba"],
             ["5eb8a73e2c5eae1c5118afcb"],
             ["a87b4ff0e4df1af49c4d48b7"]
         ];

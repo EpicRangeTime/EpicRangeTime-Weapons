@@ -62,7 +62,6 @@ export class CustomItemService {
             numItemsAdded++;
         }
 
-
         if (numItemsAdded > 0) {
             this.Instance.logger.log(
                 `[${this.Instance.modName}] Database: Loaded ${numItemsAdded} custom items.`,

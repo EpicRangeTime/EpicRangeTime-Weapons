@@ -21,7 +21,6 @@ import type { ImporterUtil } from "@spt/utils/ImporterUtil";
 import type  { SaveServer } from "@spt/servers/SaveServer";
 import type  { ItemHelper } from "@spt/helpers/ItemHelper";
 import type  { ApplicationContext } from "@spt/context/ApplicationContext";
-import { WTTRouterService } from "./RouterService";
 import { QuestAPI } from "./QuestAPI";
 import { TraderAPI } from "./TraderAPI";
 import type { VFS } from "@spt/utils/VFS";
@@ -47,7 +46,6 @@ export class WTTInstanceManager
     public dynamicRouter: DynamicRouterModService;
     public profileController: ProfileController;
     public profileCallbacks: ProfileCallbacks;
-    private routerService: WTTRouterService = new WTTRouterService();
     //#endregion
 
     //#region Acceessible in or after postDBLoad
@@ -89,7 +87,6 @@ export class WTTInstanceManager
 
         this.questApi.preSptLoad(this);
         this.traderApi.preSptLoad(this);
-        this.routerService.preSptLoad(this);
     }
 
     public postDBLoad(container: DependencyContainer): void

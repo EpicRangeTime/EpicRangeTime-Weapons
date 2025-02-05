@@ -164,7 +164,10 @@ export class QuestAPI
             this.instanceManager.database.globals["QuestZones"].push(zone);
             zones++;
         }
+        if (this.instanceManager.debug)
+        {
         this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loaded ${zones} quest zones.`, LogTextColor.GREEN);
+        }
     }
 
     /**
@@ -172,13 +175,16 @@ export class QuestAPI
      */
     private importQuestData(jsonQuestFiles: any[], trader: string): void
     {
-        if (Object.keys(jsonQuestFiles).length < 1)
+        if (this.instanceManager.debug)
         {
-            this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} No quest files.`, LogTextColor.RED); 
-            return;
+            if (Object.keys(jsonQuestFiles).length < 1)
+                {
+                    this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} No quest files.`, LogTextColor.RED); 
+                    return;
+                }
+                this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loading ${Object.keys(jsonQuestFiles).length} quest files.`, LogTextColor.GREEN);
         }
-        this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loading ${Object.keys(jsonQuestFiles).length} quest files.`, LogTextColor.GREEN);
-        
+
         // Import quest data to the database
         let questCount = 0;
         for (const file of jsonQuestFiles)
@@ -189,7 +195,10 @@ export class QuestAPI
                 questCount++;
             }           
         }
-        this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loaded ${questCount} tasks.`, LogTextColor.GREEN);      
+        if (this.instanceManager.debug)
+        {
+            this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loaded ${questCount} tasks.`, LogTextColor.GREEN);      
+        }
     }
 
     /**
@@ -201,7 +210,11 @@ export class QuestAPI
         const questSideFile = fs.readFileSync(this.instanceManager.dbPath.concat("/Quests/QuestSideData.json"), "utf-8");
         const questSideJson = JSON.parse(questSideFile);
 
-        this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${questSideJson["UsecOnly"]}`, LogTextColor.BLUE);
+        if (this.instanceManager.debug)
+        {
+            this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${questSideJson["UsecOnly"]}`, LogTextColor.BLUE);
+            this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${questSideJson["BearOnly"]}`, LogTextColor.BLUE);
+        }
 
         for (const entry of questSideJson["UsecOnly"])
         {
@@ -219,12 +232,16 @@ export class QuestAPI
      */
     private importLocaleData(jsonLocaleFiles: any[], trader: string): void
     {
-        if (Object.keys(jsonLocaleFiles).length < 1)
+        if (this.instanceManager.debug)
         {
-            this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} No quest locale files.`, LogTextColor.RED); 
-            return;
+            if (Object.keys(jsonLocaleFiles).length < 1)
+                {
+                    this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} No quest locale files.`, LogTextColor.RED); 
+                    return;
+                }
+                this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loading ${Object.keys(jsonLocaleFiles).length} locale files.`, LogTextColor.GREEN);
         }
-        this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loading ${Object.keys(jsonLocaleFiles).length} locale files.`, LogTextColor.GREEN);
+
 
         // Import quest locales to the database
         let localeCount = 0;
@@ -236,7 +253,11 @@ export class QuestAPI
                 localeCount++;
             }           
         }
-        this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loaded ${localeCount} locales.`, LogTextColor.GREEN);
+
+        if (this.instanceManager.debug)
+        {
+            this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loaded ${localeCount} locales.`, LogTextColor.GREEN);
+        }
     }
 
     /**
@@ -250,6 +271,10 @@ export class QuestAPI
             this.instanceManager.imageRouter.addRoute(`/files/quest/icon/${path.basename(imagePath, path.extname(imagePath))}`, imagePath);
             imageCount++;
         }
-        this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loaded ${imageCount} images.`, LogTextColor.GREEN);
+
+        if (this.instanceManager.debug)
+        {
+            this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loaded ${imageCount} images.`, LogTextColor.GREEN);
+        }
     }
 }
