@@ -1281,7 +1281,9 @@
 				"path": "Mods/AR15_Muzzle_Devices/strike_cookie_cutter.bundle",
 				"rcid": ""
 			},
-			"Conflictingitems":[],
+			"Conflictingitems":[
+				"5a7ad74e51dfba0015068f45"
+			],
 			"Recoil": -10,
 			"Weight": 0.229,
 			"muzzleModType": "brake",

@@ -203,5 +203,89 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"e8d92f66b5cf4553048c5f5b": {
+		"itemTplToClone": "5c1780312e221602b66cc189",
+		"parentId": "55818ac54bdc2d5b648b456e",
+		"handbookParentId": "5b5f746686f77447ec5d7708",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Iron_Sights/matech_rear_sight.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": 0.5
+		},
+		"locales": {
+			"en": {
+				"name": "Matech Folding rear sight",
+				"shortName": "Matech",
+				"description": "Matech Back Up Iron Sights. BUIS. Rear Iron Sights. Solid, robust, and as accurate as your eyes and skill will allow. Elevation markings from 200 to 600 Meters. Adjustable windage."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_sight_rear"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 13000,
+		"handbookPriceRoubles": 3400,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 25,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }
