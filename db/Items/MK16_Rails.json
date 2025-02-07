@@ -1,0 +1,372 @@
+{
+	"22a72cf93077b10b2cd6b96e": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15_Handguards/geissele_smr_mk16_13_5_blk.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"5a34fbadc4a28200741e230a",
+				"56ea8d2fd2720b7c698b4570",
+				"55d35ee94bdc2d61338b4568",
+				"603372f153a60014f970616d",
+				"603372d154072b51b239f9e1",
+				"603372b4da11d6478d5a07ff",
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"c6b01e3e7a1ec6168254e687",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"5b62e4a75ec6adea49b29abc"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard (BLK)",
+				"shortName": "SMR MK16 13.5\"",
+				"description": "The Geissele SMR 13.5 inch M-LOK handguard for AR-15 equipped with an M-LOK interface for installation of additional devices and accessories. Black Color version."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 30422,
+		"handbookPriceRoubles": 8397,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 224,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"14c562c1c4f9f783c107ef27": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15_Handguards/geissele_smr_mk16_10_5_ddc.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"5a34fbadc4a28200741e230a",
+				"56ea8d2fd2720b7c698b4570",
+				"55d35ee94bdc2d61338b4568",
+				"603372b4da11d6478d5a07ff",
+				"a06aec4316ac6ff7353845f4",
+				"c6b01e3e7a1ec6168254e687"
+			],
+			"Recoil": 0.5,
+			"Ergonomics": 9,
+			"Width": 2,
+			"ExtraSizeLeft": 1
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK16 10.5 inch M-LOK handguard (DDC)",
+				"shortName": "SMR MK16 10.5\"",
+				"description": "The Geissele SMR 10.5 inch M-LOK handguard for AR-15 equipped with an M-LOK interface for installation of additional devices and accessories. Desert Dirt Color version."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 99250,
+		"handbookPriceRoubles": 14400,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 205,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"WEAP_M4_300BLK"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"467eb5903b8a619b136c6e93": {
+		"itemTplToClone": "5ea16ada09aa976f2e7a51be",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15_Handguards/geissele_smr_mk16_10_5_blk.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"5a34fbadc4a28200741e230a",
+				"56ea8d2fd2720b7c698b4570",
+				"55d35ee94bdc2d61338b4568",
+				"603372b4da11d6478d5a07ff",
+				"a06aec4316ac6ff7353845f4",
+				"c6b01e3e7a1ec6168254e687"
+			],
+			"Recoil": 0.5,
+			"Ergonomics": 9,
+			"Width": 2,
+			"ExtraSizeLeft": 1
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK16 10.5 inch M-LOK handguard (BLK)",
+				"shortName": "SMR MK16 10.5\"",
+				"description": "The Geissele SMR 10.5 inch M-LOK handguard for AR-15 equipped with an M-LOK interface for installation of additional devices and accessories. Black Color version."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 89250,
+		"handbookPriceRoubles": 14400,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 205,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"d21e3b7f7c8f308c1beba55c": {
+		"itemTplToClone": "5ea16acdfadf1d18c87b0784",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15_Handguards/geissele_smr_mk16_9_5_blk.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"5a34fbadc4a28200741e230a",
+				"56ea8d2fd2720b7c698b4570",
+				"a06aec4316ac6ff7353845f4"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Geissele SMR MK16 9.5 inch M-LOK handguard (BLK)",
+				"shortName": "SMR MK16 9.5\"",
+				"description": "The Geissele SMR 9.5 inch M-LOK handguard for AR-15 equipped with an M-LOK interface for installation of additional devices and accessories. Black Color version."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 40000,
+		"handbookPriceRoubles": 16100,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 195,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}

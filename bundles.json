@@ -377,6 +377,54 @@
             ]
         },
         {
+            "key": "Mods/AR15_Handguards/geissele_smr_mk16_9_5_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/geissele_smr_mk16_10_5_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/geissele_smr_mk16_10_5_ddc.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/geissele_smr_mk16_13_5_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/handguards/handguard_ar15_geissele_smr_mk16_95_inch.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/handguards/handguard_ar15_geissele_smr_mk16_135_inch.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/AR15_Handguards/ks1_hg_blk.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -1353,7 +1401,23 @@
             ]
         },
         {
-            "key": "Mods/Dots/acro_p2.bundle",
+            "key": "Mods/Dots/acro_p2_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Dots/cmore_railway_red_dot.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Dots/acro_p2_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1465,6 +1529,14 @@
             ]
         },
         {
+            "key": "Mods/Iron_Sights/matech_rear_sight.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Lapua/barrel_ax_accuracy_international_508mm_762x51_pb.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -1538,6 +1610,14 @@
         },
         {
             "key": "Mods/Magazines/pufgun_556_30rd_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Magazines/magpul_emag_30.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2009,6 +2089,54 @@
             ]
         },
         {
+            "key": "Mods/Mounts/rep_acro_193_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/rep_acro_193_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/rep_acro_cowitness_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/rep_acro_cowitness_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/rep_acro_offset_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/rep_acro_offset_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Scopes/acog_ta44.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -2174,6 +2302,78 @@
             ]
         },
         {
+            "key": "Mods/Stocks/magpul_dt_carbine_stock_grn.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/magpul_dt_carbine_stock_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/magpul_dt_carbine_stock_tan.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/mft_minimalist_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/maxim_cqb_buttpad_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/maxim_cqb_buttpad_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/maxim_cqb_gen7_stock_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/maxim_cqb_gen7_stock_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/mft_minimalist_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Stocks/b5_bravo_blk.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -2311,6 +2511,14 @@
         },
         {
             "key": "Mods/Suppressors/allen_m4_suppressor.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Suppressors/kac_uspt_suppressor.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
