@@ -1,0 +1,98 @@
+{
+	"5b99a88f9f815fdacb53e988": {
+		"itemTplToClone": "5a339805c4a2826c6e06d73d",
+		"parentId": "PISTOLGRIP",
+		"handbookParentId": "MOD_PISTOLGRIP",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Pistol_Grips/b5_pgrip.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.054,
+			"Ergonomics": 11
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 B5 Systems Type 22 Pistol Grip",
+				"shortName": "Type 22",
+				"description": "The B5 Systems Type 22 P-Grip offers an increased vertical grip angle to improve ergonomics and ensure proper trigger index. The lack of a backstrap places the hand higher on the grip for maximum engagement."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_pistol_grip"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 18000,
+		"handbookPriceRoubles": 3000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 6000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+				"Probability": 340
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 300
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 760
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 400
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 850
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1500
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+				"Probability": 900
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": []
+	}
+}

@@ -242,8 +242,8 @@
 		],
 		"barterScheme": [
 			{
-				"count": 2200,
-				"_tpl": "ROUBLES"
+				"count": 16,
+				"_tpl": "DOLLARS"
 			}
 		],
 		"loyallevelitems": 2,
@@ -326,11 +326,95 @@
 		],
 		"barterScheme": [
 			{
-				"count": 2200,
-				"_tpl": "ROUBLES"
+				"count": 16,
+				"_tpl": "DOLLARS"
 			}
 		],
 		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"5c827a7866c78dab05eb7637": {
+		"itemTplToClone": "55802d5f4bdc2dac148b458e",
+		"parentId": "MAGAZINE",
+		"handbookParentId": "MOD_MAGAZINE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Magazines/magpul_emag_30.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": -2
+		},
+		"locales": {
+			"en": {
+				"name": "5.56x45 Magpul EMAG 30 STANAG 30-round magazine",
+				"shortName": "EMAG",
+				"description": "Combining durable polymer construction with a MAGLEVEL window and a form factor that's optimized for European-style 5.56mm carbines, Magpul's EMAG magazines are designed for maximum durability and reliability in even the most extreme combat situations."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22500,
+		"handbookPriceRoubles": 8000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 14,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
