@@ -95,7 +95,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/Dots/acro_p2.bundle",
+				"path": "Mods/Dots/acro_p2_blk.bundle",
 				"rcid": ""
 			},
 			"CalibrationDistances": [
@@ -109,7 +109,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "Aimpoint ACRO P-2 reflex sight",
+				"name": "Aimpoint ACRO P-2 reflex sight (Black)",
 				"shortName": "ACRO P-2",
 				"description": "Aimpoint® has once again advanced the standard for pistol mounted optics with the introduction of the Acro P-2™ red dot sight. This next generation sight incorporates an improved LED emitter coupled with a higher capacity CR2032 battery to provide an astonishing five years (50,000 hours) of constant-on power while getting you on target faster and more accurately."
 			}
@@ -127,7 +127,7 @@
 		"fleaPriceRoubles": 22920,
 		"handbookPriceRoubles": 14000,
 		"addtoTraders": true,
-		"traderId": "PEACEKEEPER",
+		"traderId": "BADGER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -136,11 +136,104 @@
 		],
 		"barterScheme": [
 			{
-				"count": 162,
+				"count": 155,
 				"_tpl": "DOLLARS"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"36c4b709b7b9465d6e875d35": {
+		"itemTplToClone": "616442e4faa1272e43152193",
+		"parentId": "COMPACT_REFLEX_SIGHT",
+		"handbookParentId": "MOD_MICRO_DOT",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Dots/acro_p2_fde.bundle",
+				"rcid": ""
+			},
+			"CalibrationDistances": [
+				[
+				  50,
+				  100,
+				  150,
+				  200
+				]
+			  ]
+		},
+		"locales": {
+			"en": {
+				"name": "Aimpoint ACRO P-2 reflex sight (FDE)",
+				"shortName": "ACRO P-2",
+				"description": "Aimpoint® has once again advanced the standard for pistol mounted optics with the introduction of the Acro P-2™ red dot sight. This next generation sight incorporates an improved LED emitter coupled with a higher capacity CR2032 battery to provide an astonishing five years (50,000 hours) of constant-on power while getting you on target faster and more accurately."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+         	"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22920,
+		"handbookPriceRoubles": 14000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 160,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [
@@ -512,6 +605,91 @@
 			}
 		],
 		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"013a6d4ff28f8e4331898d68": {
+		"itemTplToClone": "558022b54bdc2dac148b458d",
+		"parentId": "REFLEX_SIGHT",
+		"handbookParentId": "5b5f742686f774093e6cb4ff",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Dots/cmore_railway_red_dot.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "C-More Railway reflex sight",
+				"shortName": "Railway",
+				"description": "The Railway sight quickly attaches to Weaver and Picatinny rail style scope mounts. This enables the Railway to be attached to virtually anything! Shotguns, rifles, handguns, revolvers, crossbows, paint ball guns; these are just a few of the applications the Railway has seen. The sight can be easily detached and installed on other weapons, making it the most versatile in the C-MORE line up."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+         	"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22000,
+		"handbookPriceRoubles": 7400,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 12500,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [

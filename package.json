@@ -1,6 +1,6 @@
 {
     "name": "Weapons",
-    "version": "2.0.0",
+    "version": "2.1.4",
     "main": "src/mod.js",
     "license": "CC-NY-ND-NC 4.0",
     "author": "EpicRangeTime",
