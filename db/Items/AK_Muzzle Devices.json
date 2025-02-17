@@ -389,5 +389,92 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"8ba3e8781a976de83ca7e6e4": {
+		"itemTplToClone": "5649ab884bdc2ded0b8b457f",
+		"parentId": "FLASHHIDER",
+		"handbookParentId": "MOD_FLASHHIDER",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AK/bulgarian_krink_fh.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": -2.5,
+			"Recoil": -8,
+			"Loudness": -5,
+			"Slots": []
+		},
+		"locales": {
+			"en": {
+				"name": "AKS-74U 5.45x39 Bulgarian style flash hider",
+				"shortName": "4 Piece",
+				"description": "This flash hider was designed in Bulgaria for AKS-74U style carbines as an alternative gas booster that also worked to hide the flash of the 8 inch barrel much better than the stock Izhmash one."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 18000,
+		"handbookPriceRoubles": 7500,
+		"addtoTraders": true,
+		"traderId": "PRAPOR",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 11000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 4800
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 4800
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 4800
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 4800
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 4800
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 4800
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }

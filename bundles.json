@@ -129,6 +129,14 @@
             ]
         },
         {
+            "key": "Mods/AK/bulgarian_krink_fh.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/AK/hand_stop.bundle",
             "dependencyKeys": [
                 "shaders",
