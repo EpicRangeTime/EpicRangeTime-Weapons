@@ -4816,5 +4816,288 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"23878a19adddf4afbbcc0537": {
+		"itemTplToClone": "5c064c400db834001d23f468",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/carry_handle_pic_mount.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_id": "1becd225e0ed6368cc6f871b",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_scope",
+					"_parent": "23878a19adddf4afbbcc0537",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"57ac965c24597706be5f975c",
+									"57aca93d2459771f2c7e26db",
+									"544a3f024bdc2d1d388b4568",
+									"544a3a774bdc2d3a388b4567",
+									"5d2dc3e548f035404a1a4798",
+									"57adff4f24597737f373b6e6",
+									"5c0517910db83400232ffee5",
+									"591c4efa86f7741030027726",
+									"570fd79bd2720bc7458b4583",
+									"570fd6c2d2720bc6458b457f",
+									"558022b54bdc2dac148b458d",
+									"5c07dd120db834001c39092d",
+									"5c0a2cec0db834001b7ce47d",
+									"58491f3324597764bc48fa02",
+									"584924ec24597768f12ae244",
+									"5b30b0dc5acfc400153b7124",
+									"6165ac8c290d254f5e6b2f6c",
+									"60a23797a37c940de7062d02",
+									"5d2da1e948f035477b1ce2ba",
+									"5c0505e00db834001b735073",
+									"609a63b6e2ff132951242d09",
+									"584984812459776a704a82a6",
+									"59f9d81586f7744c7506ee62",
+									"570fd721d2720bc5458b4596",
+									"57ae0171245977343c27bfcf",
+									"5dfe6104585a0c3e995c7b82",
+									"5d1b5e94d7ad1a2b865a96b0",
+									"609bab8b455afd752b2e6138",
+									"58d39d3d86f77445bb794ae7",
+									"616554fe50224f204c1da2aa",
+									"5c7d55f52e221644f31bff6a",
+									"616584766ef05c2ce828ef57",
+									"5b3b6dc75acfc47a8773fb1e",
+									"615d8d878004cc50514c3233",
+									"5b2389515acfc4771e1be0c0",
+									"577d128124597739d65d0e56",
+									"618b9643526131765025ab35",
+									"618bab21526131765025ab3f",
+									"5c86592b2e2216000e69e77c",
+									"5a37ca54c4a282000d72296a",
+									"58d2664f86f7747fec5834f6",
+									"57c69dd424597774c03b7bbc",
+									"5b3b99265acfc4704b4a1afb",
+									"5aa66a9be5b5b0214e506e89",
+									"5aa66c72e5b5b00016327c93",
+									"5c1cdd302e221602b3137250",
+									"61714b2467085e45ef140b2c",
+									"6171407e50224f204c1da3c5",
+									"61713cc4d8e3106d9806c109",
+									"5b31163c5acfc400153b71cb",
+									"5a33b652c4a28232996e407c",
+									"5a33b2c9c4a282000c5a9511",
+									"59db7eed86f77461f8380365",
+									"5a1ead28fcdbcb001912fa9f",
+									"5dff77c759400025ea5150cf",
+									"626bb8532c923541184624b4",
+									"63fc449f5bd61c6cf3784a88",
+									"6477772ea8a38bb2050ed4db",
+									"6478641c19d732620e045e17",
+									"64785e7c19d732620e045e15",
+									"655f13e0a246670fb0373245",
+									"6567e751a715f85433025998"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Carry Handle Tactical Picatinny Riser mount",
+				"shortName": "Carry Pic",
+				"description": "A picatinny rail designed to fit on top of an AR-15 carry handle. Oh the horrors of what people are going to do with this."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 27000,
+		"handbookPriceRoubles": 3500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 24,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"66713838ca123f9df8e7584e": {
+		"itemTplToClone": "5c064c400db834001d23f468",
+		"parentId": "MOUNT",
+		"handbookParentId": "MOD_MOUNT",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/carry_handle_gooseneck.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": -2,
+			"Width": 2,
+			"Slots": [
+				{
+					"_id": "ac529575d88d7f8390488b2c",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_scope",
+					"_parent": "66713838ca123f9df8e7584e",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"591c4efa86f7741030027726",
+									"570fd79bd2720bc7458b4583",
+									"570fd6c2d2720bc6458b457f",
+									"558022b54bdc2dac148b458d",
+									"58491f3324597764bc48fa02",
+									"584924ec24597768f12ae244",
+									"5b30b0dc5acfc400153b7124",
+									"60a23797a37c940de7062d02",
+									"5d2da1e948f035477b1ce2ba",
+									"5c0505e00db834001b735073",
+									"609a63b6e2ff132951242d09",
+									"59f9d81586f7744c7506ee62",
+									"58d39d3d86f77445bb794ae7",
+									"616554fe50224f204c1da2aa",
+									"5c7d55f52e221644f31bff6a",
+									"616584766ef05c2ce828ef57",
+									"615d8d878004cc50514c3233",
+									"5b31163c5acfc400153b71cb",
+									"5a33b652c4a28232996e407c",
+									"64785e7c19d732620e045e15",
+									"655f13e0a246670fb0373245"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Precision Reflex Carry Handle Mount \"Gooseneck\"",
+				"shortName": "Gooseneck",
+				"description": "The classic \"Gooseneck\" mount made by PRI. The markings may be missing due to multiple repaintings since its original purchase, but it will still make a solid mount."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 27000,
+		"handbookPriceRoubles": 3500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 27,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }

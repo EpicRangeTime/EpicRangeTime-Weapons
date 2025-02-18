@@ -1,0 +1,1264 @@
+{
+	"5eb8a73e2c5eae1c5118afcb": {
+		"itemTplToClone": "5c1780312e221602b66cc189",
+		"parentId": "55818add4bdc2d5b648b456f",
+		"handbookParentId": "5b5f740a86f77447ec5d7706",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/lepold_d_evo.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.391,
+			"Width": 2,
+			"Height": 1,
+			"RarityPvE": "Rare",
+			"ItemSound": "mod",
+			"LootExperience": 15,
+			"ExamineExperience": 4,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"ConflictingItems": [
+				"5ae30bad5acfc400185c2dc4"
+			],
+			"Ergonomics": -2,
+			"RaidModdable": false,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"SightingRange": 800,
+			"CustomAimPlane": "",
+			"sightModType": "optic",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.12
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					6
+				]
+			],
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Leupold D-Evo off-axis 6x20 compact scope (BLK)",
+				"shortName": "D-Evo",
+				"description": "The D-EVO's unique design lets you move between your 1x red dot site and the 6x magnification D-EVO® by simply shifting your eye line–not your head. Now you can quickly move between close-quarter shots and mid-range shots with speed and accuracy."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_sight_rear"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 26200,
+		"handbookPriceRoubles": 24000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 220,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"a87b4ff0e4df1af49c4d48b7": {
+		"itemTplToClone": "5c1780312e221602b66cc189",
+		"parentId": "55818add4bdc2d5b648b456f",
+		"handbookParentId": "5b5f740a86f77447ec5d7706",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/leupold_d_evo_fde.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.391,
+			"Width": 2,
+			"Height": 1,
+			"RarityPvE": "Rare",
+			"ItemSound": "mod",
+			"LootExperience": 15,
+			"ExamineExperience": 4,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"ConflictingItems": [
+				"5ae30bad5acfc400185c2dc4"
+			],
+			"Ergonomics": -2,
+			"RaidModdable": false,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"SightingRange": 800,
+			"CustomAimPlane": "",
+			"sightModType": "optic",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.12
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					6
+				]
+			],
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Leupold D-Evo off-axis 6x20 compact scope (FDE)",
+				"shortName": "D-Evo",
+				"description": "The D-EVO's unique design lets you move between your 1x red dot site and the 6x magnification D-EVO® by simply shifting your eye line–not your head. Now you can quickly move between close-quarter shots and mid-range shots with speed and accuracy."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_sight_rear"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 26200,
+		"handbookPriceRoubles": 24000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 220,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"bf8cf7b9d0f73ce039591c65": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/mgo_240_hs.bundle",
+				"rcid": ""
+			},
+			"Weight": 1.046,
+			"Zooms": [
+				[
+					6
+				]
+			],
+			"AimSensitivity": [
+				[
+					0.1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300,
+					350,
+					400,
+					450
+				]
+			],
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "18bcc773541e064f3c92632c",
+					"_parent": "bf8cf7b9d0f73ce039591c65",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"58d39d3d86f77445bb794ae7",
+									"616554fe50224f204c1da2aa",
+									"5c7d55f52e221644f31bff6a",
+									"616584766ef05c2ce828ef57",
+									"577d128124597739d65d0e56",
+									"615d8d878004cc50514c3233",
+									"5b31163c5acfc400153b71cb",
+									"5a33b652c4a28232996e407c",
+									"5a33b2c9c4a282000c5a9511",
+									"58d2664f86f7747fec5834f6",
+									"57ae0171245977343c27bfcf",
+									"558022b54bdc2dac148b458d",
+									"58491f3324597764bc48fa02",
+									"584924ec24597768f12ae244",
+									"5b30b0dc5acfc400153b7124",
+									"60a23797a37c940de7062d02",
+									"5d2da1e948f035477b1ce2ba",
+									"584984812459776a704a82a6",
+									"570fd721d2720bc5458b4596",
+									"64785e7c19d732620e045e15",
+									"93efffa7844876067d81dca5",
+									"6655df2d0169bf45a18535c8"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA648MGO-M240 6x32 scope (Black)",
+				"shortName": "TA648MGO-M240",
+				"description": "The TA648MGO-M240 6x48 ACOG is a Machine Gun Optic (MGO) designed specifically for the M240 weapon system. The MGO provides the shooter enhanced target identification and increased hit probability out to 1200 meters utilizing the Bullet Drop Compensator."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 20000,
+		"handbookPriceRoubles": 27663,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 270,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"09f8fed0abd75fbd0f81cd91": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/mgo_50_hs.bundle",
+				"rcid": ""
+			},
+			"Weight": 1.046,
+			"Zooms": [
+				[
+					6
+				]
+			],
+			"AimSensitivity": [
+				[
+					0.1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300,
+					350,
+					400,
+					450
+				]
+			],
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "cd7ced1b0fd89ce7e2443f41",
+					"_parent": "09f8fed0abd75fbd0f81cd91",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"58d39d3d86f77445bb794ae7",
+									"616554fe50224f204c1da2aa",
+									"5c7d55f52e221644f31bff6a",
+									"616584766ef05c2ce828ef57",
+									"577d128124597739d65d0e56",
+									"615d8d878004cc50514c3233",
+									"5b31163c5acfc400153b71cb",
+									"5a33b652c4a28232996e407c",
+									"5a33b2c9c4a282000c5a9511",
+									"58d2664f86f7747fec5834f6",
+									"57ae0171245977343c27bfcf",
+									"558022b54bdc2dac148b458d",
+									"58491f3324597764bc48fa02",
+									"584924ec24597768f12ae244",
+									"5b30b0dc5acfc400153b7124",
+									"60a23797a37c940de7062d02",
+									"5d2da1e948f035477b1ce2ba",
+									"584984812459776a704a82a6",
+									"570fd721d2720bc5458b4596",
+									"64785e7c19d732620e045e15",
+									"93efffa7844876067d81dca5",
+									"6655df2d0169bf45a18535c8"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA648MGO-M2 6x32 scope (Black)",
+				"shortName": "TA648MGO-M2",
+				"description": "The TA648MGO-M2 6x48 ACOG is a Machine Gun Optic (MGO) designed specifically for the .50 BMG M2 weapon system. The MGO provides the shooter enhanced target identification and increased hit probability out to 2000 meters utilizing the Bullet Drop Compensator."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 20000,
+		"handbookPriceRoubles": 27663,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 270,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"c3ad313c8108f49a65187daf": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/mgo_50_ch.bundle",
+				"rcid": ""
+			},
+			"Weight": 1.046,
+			"Zooms": [
+				[
+					6
+				]
+			],
+			"AimSensitivity": [
+				[
+					0.1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300,
+					350,
+					400,
+					450
+				]
+			],
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "4ed3bfec5556d97b238ca975",
+					"_parent": "c3ad313c8108f49a65187daf",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"58d39d3d86f77445bb794ae7",
+									"616554fe50224f204c1da2aa",
+									"5c7d55f52e221644f31bff6a",
+									"616584766ef05c2ce828ef57",
+									"577d128124597739d65d0e56",
+									"615d8d878004cc50514c3233",
+									"5b31163c5acfc400153b71cb",
+									"5a33b652c4a28232996e407c",
+									"5a33b2c9c4a282000c5a9511",
+									"58d2664f86f7747fec5834f6",
+									"57ae0171245977343c27bfcf",
+									"558022b54bdc2dac148b458d",
+									"58491f3324597764bc48fa02",
+									"584924ec24597768f12ae244",
+									"5b30b0dc5acfc400153b7124",
+									"60a23797a37c940de7062d02",
+									"5d2da1e948f035477b1ce2ba",
+									"584984812459776a704a82a6",
+									"570fd721d2720bc5458b4596",
+									"64785e7c19d732620e045e15",
+									"93efffa7844876067d81dca5",
+									"6655df2d0169bf45a18535c8"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA648-50 6x32 scope (Black)",
+				"shortName": "TA648-50",
+				"description": "The military’s need for a magnified, self-luminous tactical sight that enhances target identification and increases hit probability on extended-range shots has given rise to the new Trijicon ACOG® 6x48. Powered by Trijicon’s patented fiber optics and tritium-based technology, the new TA648-50 ACOG® reticle features a red chevron aiming point. It also incorporates a bullet drop compensator (BDC) with additional aiming points estimated for trajectory of the .50BMG round out to 1800 meters."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 20000,
+		"handbookPriceRoubles": 27663,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 270,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"aad949705aece28fb98b820f": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/mgo_308_ch.bundle",
+				"rcid": ""
+			},
+			"Weight": 1.046,
+			"Zooms": [
+				[
+					6
+				]
+			],
+			"AimSensitivity": [
+				[
+					0.1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300,
+					350,
+					400,
+					450
+				]
+			],
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "507435e69db974766812809e",
+					"_parent": "aad949705aece28fb98b820f",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"58d39d3d86f77445bb794ae7",
+									"616554fe50224f204c1da2aa",
+									"5c7d55f52e221644f31bff6a",
+									"616584766ef05c2ce828ef57",
+									"577d128124597739d65d0e56",
+									"615d8d878004cc50514c3233",
+									"5b31163c5acfc400153b71cb",
+									"5a33b652c4a28232996e407c",
+									"5a33b2c9c4a282000c5a9511",
+									"58d2664f86f7747fec5834f6",
+									"57ae0171245977343c27bfcf",
+									"558022b54bdc2dac148b458d",
+									"58491f3324597764bc48fa02",
+									"584924ec24597768f12ae244",
+									"5b30b0dc5acfc400153b7124",
+									"60a23797a37c940de7062d02",
+									"5d2da1e948f035477b1ce2ba",
+									"584984812459776a704a82a6",
+									"570fd721d2720bc5458b4596",
+									"64785e7c19d732620e045e15",
+									"93efffa7844876067d81dca5",
+									"6655df2d0169bf45a18535c8"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA648-308 6x32 scope (Black)",
+				"shortName": "TA648-308",
+				"description": "The military’s need for a magnified, self-luminous tactical sight that enhances target identification and increases hit probability on extended-range shots has given rise to the new Trijicon ACOG® 6x48. Powered by Trijicon’s patented fiber optics and tritium-based technology, the new TA648-308 ACOG® reticle features a red chevron aiming point."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 20000,
+		"handbookPriceRoubles": 27663,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 270,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"08eb2cce6b620c5c8550a0b5": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/mgo_308_hs.bundle",
+				"rcid": ""
+			},
+			"Weight": 1.046,
+			"Zooms": [
+				[
+					6
+				]
+			],
+			"AimSensitivity": [
+				[
+					0.1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300,
+					350,
+					400,
+					450
+				]
+			],
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "e4b02bc3742187eec273c8cb",
+					"_parent": "08eb2cce6b620c5c8550a0b5",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"58d39d3d86f77445bb794ae7",
+									"616554fe50224f204c1da2aa",
+									"5c7d55f52e221644f31bff6a",
+									"616584766ef05c2ce828ef57",
+									"577d128124597739d65d0e56",
+									"615d8d878004cc50514c3233",
+									"5b31163c5acfc400153b71cb",
+									"5a33b652c4a28232996e407c",
+									"5a33b2c9c4a282000c5a9511",
+									"58d2664f86f7747fec5834f6",
+									"57ae0171245977343c27bfcf",
+									"558022b54bdc2dac148b458d",
+									"58491f3324597764bc48fa02",
+									"584924ec24597768f12ae244",
+									"5b30b0dc5acfc400153b7124",
+									"60a23797a37c940de7062d02",
+									"5d2da1e948f035477b1ce2ba",
+									"584984812459776a704a82a6",
+									"570fd721d2720bc5458b4596",
+									"64785e7c19d732620e045e15",
+									"93efffa7844876067d81dca5",
+									"6655df2d0169bf45a18535c8"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA648-308H 6x32 scope (Black)",
+				"shortName": "TA648-308H",
+				"description": "The military’s need for a magnified, self-luminous tactical sight that enhances target identification and increases hit probability on extended-range shots has given rise to the new Trijicon ACOG® 6x48. Powered by Trijicon’s patented fiber optics and tritium-based technology, the new TA648-308H ACOG® reticle features a red dot aiming point circled by a black \"horseshoe.\" It also incorporates a bullet drop compensator (BDC) with additional aiming points estimated for trajectory of the 7.62mm M80 out to 1200 meters."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 20000,
+		"handbookPriceRoubles": 27663,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 270,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"cd1f0458b18b79f2da3ad03f": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/mgo_556_ch.bundle",
+				"rcid": ""
+			},
+			"Weight": 1.046,
+			"Zooms": [
+				[
+					6
+				]
+			],
+			"AimSensitivity": [
+				[
+					0.1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300,
+					350,
+					400,
+					450
+				]
+			],
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "0d29d9fa3470a235b77ba284",
+					"_parent": "cd1f0458b18b79f2da3ad03f",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"58d39d3d86f77445bb794ae7",
+									"616554fe50224f204c1da2aa",
+									"5c7d55f52e221644f31bff6a",
+									"616584766ef05c2ce828ef57",
+									"577d128124597739d65d0e56",
+									"615d8d878004cc50514c3233",
+									"5b31163c5acfc400153b71cb",
+									"5a33b652c4a28232996e407c",
+									"5a33b2c9c4a282000c5a9511",
+									"58d2664f86f7747fec5834f6",
+									"57ae0171245977343c27bfcf",
+									"558022b54bdc2dac148b458d",
+									"58491f3324597764bc48fa02",
+									"584924ec24597768f12ae244",
+									"5b30b0dc5acfc400153b7124",
+									"60a23797a37c940de7062d02",
+									"5d2da1e948f035477b1ce2ba",
+									"584984812459776a704a82a6",
+									"570fd721d2720bc5458b4596",
+									"64785e7c19d732620e045e15",
+									"93efffa7844876067d81dca5",
+									"6655df2d0169bf45a18535c8"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA648 6x32 scope (Black)",
+				"shortName": "TA648",
+				"description": "The military’s need for a magnified, self-luminous tactical sight that enhances target identification and increases hit probability on extended-range shots has given rise to the new Trijicon ACOG® 6x48. Powered by Trijicon’s patented fiber optics and tritium-based technology, the new TA648 ACOG® reticle features a red chevron aiming point. It also incorporates a bullet drop compensator (BDC) with additional aiming points estimated for trajectory of the 5.56mm M855 out to 800 meters."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 20000,
+		"handbookPriceRoubles": 27663,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 270,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"f5a80c63c2845fbc7c0c00b0": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/acog_ta44.bundle",
+				"rcid": ""
+			},
+			"Weight": 1.046,
+			"Zooms": [
+				[
+					1.5
+				]
+			],
+			"AimSensitivity": [
+				[
+					0.36
+				]
+			],
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250
+				]
+			],
+			"Slots": []
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG Low Height TA44-C 1.5x16 compact scope",
+				"shortName": "TA44",
+				"description": "The Trijicon ACOG 1.5x16S Scope is a fixed magnification riflescope with an illuminated reticle pattern for use in any lighting conditions. Dual illumination provides two sources of battery-free illumination – fiber optics and tritium. The fiber optics use ambient light to automatically adjust the brightness level and contrast of the reticle to available light conditions."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 26200,
+		"handbookPriceRoubles": 24000,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 34000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}

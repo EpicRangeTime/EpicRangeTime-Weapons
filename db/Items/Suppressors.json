@@ -9,10 +9,14 @@
 				"path": "assets/content/items/mods/silencers/silencer_qdc_kac_qdc_suppressor_556x45.bundle",
 				"rcid": ""
 			},
-			"Recoil": -10,
-			"Ergonomics": -20,
-			"HeatFactor": 1,
-			"Loudness": -26
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
+			"Recoil": -5.5,
+			"Ergonomics": -19,
+			"HeatFactor": 1.1,
+			"Loudness": -23
 		},
 		"locales": {
 			"en": {
@@ -94,7 +98,11 @@
 			"Prefab": {
 				"path": "Mods/Suppressors/surefire_762mini2blk.bundle",
 				"rcid": ""
-			}
+			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			]
 		},
 		"locales": {
 			"en": {
@@ -176,7 +184,11 @@
 			"Prefab": {
 				"path": "Mods/Suppressors/surefire_762mini2fde.bundle",
 				"rcid": ""
-			}
+			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			]
 		},
 		"locales": {
 			"en": {
@@ -350,7 +362,9 @@
 			"Conflictingitems": [
 				"5a34fd2bc4a282329a73b4c5",
 				"618178aa1cb55961fa0fdc80",
-				"615d8e9867085e45ef1409c6"
+				"615d8e9867085e45ef1409c6",
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
 			],
 			"Recoil": -15,
 			"Ergonomics": -22,
@@ -441,7 +455,9 @@
 			"Conflictingitems": [
 				"5a34fd2bc4a282329a73b4c5",
 				"618178aa1cb55961fa0fdc80",
-				"615d8e9867085e45ef1409c6"
+				"615d8e9867085e45ef1409c6",
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
 			],
 			"Recoil": -15,
 			"Ergonomics": -22,
@@ -529,6 +545,10 @@
 				"path": "Mods/Suppressors/b&t_rbs_c_762_sf.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Weight": 0.824,
 			"Recoil": -9,
 			"Ergonomics": -19,
@@ -618,6 +638,10 @@
 				"path": "Mods/Suppressors/surefire_rc3_blk.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -8,
 			"HeatFactor": 1.06,
 			"Loudness": -19,
@@ -705,6 +729,10 @@
 				"path": "Mods/Suppressors/surefire_rc3_fde.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -8,
 			"HeatFactor": 1.06,
 			"Loudness": -19,
@@ -792,6 +820,10 @@
 				"path": "Mods/Suppressors/huxwrks_flow_556k_blk.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Weight": 0.34,
 			"Recoil": -11,
 			"Ergonomics": -14,
@@ -877,6 +909,10 @@
 				"path": "Mods/Suppressors/huxwrks_flow_556k_tan.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Weight": 0.34,
 			"Recoil": -11,
 			"Ergonomics": -14,
@@ -961,7 +997,11 @@
 			"Prefab": {
 				"path": "Mods/Suppressors/surefire_rc2_556_blk.bundle",
 				"rcid": ""
-			}
+			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			]
 		},
 		"locales": {
 			"en": {
@@ -1495,6 +1535,10 @@
 				"path": "Mods/Suppressors/rotex-v_blk.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Weight": 0.684,
 			"Recoil": -9,
 			"Ergonomics": -17,
@@ -1582,6 +1626,10 @@
 				"path": "Mods/Suppressors/rotex-v_fde.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Weight": 0.684,
 			"Recoil": -9,
 			"Ergonomics": -17,
@@ -1669,6 +1717,10 @@
 				"path": "Mods/Suppressors/rotex-v_gry.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Weight": 0.684,
 			"Recoil": -9,
 			"Ergonomics": -17,
@@ -1756,6 +1808,10 @@
 				"path": "Mods/Suppressors/rotex_c_blk.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Weight": 0.625,
 			"Recoil": -7,
 			"Ergonomics": -14,
@@ -1843,6 +1899,10 @@
 				"path": "Mods/Suppressors/rotex_c_fde.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Weight": 0.625,
 			"Recoil": -7,
 			"Ergonomics": -14,
@@ -1930,6 +1990,10 @@
 				"path": "Mods/Suppressors/rotex_c_gry.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Weight": 0.625,
 			"Recoil": -7,
 			"Ergonomics": -14,
@@ -2017,6 +2081,10 @@
 				"path": "Mods/AR15_Muzzle_Devices/rotex_d_blk.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"DurabilityBurnModificator": 1,
 			"Weight": 0.266,
 			"Recoil": -6,
@@ -2110,6 +2178,10 @@
 				"path": "Mods/AR15_Muzzle_Devices/rotex_d_fde.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"DurabilityBurnModificator": 1,
 			"Weight": 0.266,
 			"Recoil": -6,
@@ -2203,6 +2275,10 @@
 				"path": "Mods/AR15_Muzzle_Devices/rotex_d_gry.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"DurabilityBurnModificator": 1,
 			"Weight": 0.266,
 			"Recoil": -6,
@@ -2296,6 +2372,10 @@
 				"path": "Mods/Suppressors/surefire_556mini2blk.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -6,
 			"Loudness": -18,
 			"Ergonomics": -14,
@@ -2383,6 +2463,10 @@
 				"path": "Mods/Suppressors/surefire_556mini2fde.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -6,
 			"Loudness": -18,
 			"Ergonomics": -14,
@@ -2470,6 +2554,10 @@
 				"path": "Mods/AR15_Muzzle_Devices/surefire_wardenqdblk.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -4,
 			"Ergonomics": -3,
 			"HeatFactor": 1,
@@ -2561,6 +2649,10 @@
 				"path": "Mods/AR15_Muzzle_Devices/surefire_wardenqdfde.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -4,
 			"Ergonomics": -3,
 			"HeatFactor": 1,
@@ -2868,6 +2960,10 @@
 				"path": "Mods/Suppressors/surefire_762rc2blk.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -9,
 			"Loudness": -30,
 			"Ergonomics": -21,
@@ -2955,6 +3051,10 @@
 				"path": "Mods/Suppressors/surefire_762rc2fde.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -9,
 			"Loudness": -30,
 			"Ergonomics": -21,
@@ -3042,6 +3142,10 @@
 				"path": "Mods/Suppressors/gemtech_neutron_762.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -6,
 			"Ergonomics": -16,
 			"Loudness": -28,
@@ -3127,6 +3231,10 @@
 				"path": "Mods/Suppressors/prt_mcq_blk.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -6,
 			"Ergonomics": -12,
 			"Loudness": -13,
@@ -3238,6 +3346,10 @@
 				"path": "Mods/Suppressors/prt_mcq_fde.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -6,
 			"Ergonomics": -12,
 			"Loudness": -13,
@@ -3711,6 +3823,10 @@
 				"path": "Mods/Suppressors/prt_supp_blk.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -9,
 			"Ergonomics": -18,
 			"Loudness": -28,
@@ -3821,6 +3937,10 @@
 				"path": "Mods/Suppressors/prt_supp_fde.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -9,
 			"Ergonomics": -18,
 			"Loudness": -28,
@@ -3931,6 +4051,10 @@
 				"path": "Mods/Suppressors/dd_sguard_556.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Width": 2,
 			"Recoil": -11,
 			"Ergonomics": -19,
@@ -4021,6 +4145,10 @@
 				"path": "Mods/Suppressors/dd_sguard_762.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Width": 2,
 			"Recoil": -12,
 			"Ergonomics": -19,
@@ -4306,6 +4434,10 @@
 				"path": "Mods/Suppressors/polo_556_blk.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Width": 2,
 			"Recoil": -13.5,
 			"Ergonomics": -20,
@@ -4396,6 +4528,10 @@
 				"path": "Mods/Suppressors/polo_556_fde.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Width": 2,
 			"Recoil": -13.5,
 			"Ergonomics": -20,
@@ -4486,6 +4622,10 @@
 				"path": "Mods/Suppressors/polo_556_worn.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Width": 2,
 			"Recoil": -13.5,
 			"Ergonomics": -20,
@@ -4576,6 +4716,10 @@
 				"path": "Mods/Suppressors/polo_556k_blk.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Width": 2,
 			"Recoil": -12,
 			"Ergonomics": -20,
@@ -4666,6 +4810,10 @@
 				"path": "Mods/Suppressors/polo_556k_fde.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Width": 2,
 			"Recoil": -12,
 			"Ergonomics": -20,
@@ -4756,6 +4904,10 @@
 				"path": "Mods/Suppressors/polo_556k_worn.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Width": 2,
 			"Recoil": -12,
 			"Ergonomics": -20,
@@ -4846,6 +4998,10 @@
 				"path": "Mods/Suppressors/polo_762_blk.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Width": 2,
 			"Recoil": -14,
 			"Ergonomics": -21,
@@ -4936,6 +5092,10 @@
 				"path": "Mods/Suppressors/polo_762_fde.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Width": 2,
 			"Recoil": -14,
 			"Ergonomics": -21,
@@ -5026,6 +5186,10 @@
 				"path": "Mods/Suppressors/polo_762_worn.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Width": 2,
 			"Recoil": -14,
 			"Ergonomics": -21,
@@ -5116,6 +5280,10 @@
 				"path": "Mods/Suppressors/cgs_sci_supp_blk.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -10,
 			"Ergonomics": -19,
 			"Loudness": -32,
@@ -5203,6 +5371,10 @@
 				"path": "Mods/Suppressors/cgs_sci_supp_fde.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -10,
 			"Ergonomics": -19,
 			"Loudness": -32,
@@ -5290,6 +5462,10 @@
 				"path": "Mods/Suppressors/cgs_sci_supp_gry.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems":[
+				"5c78f2882e22165df16b832e",
+				"5c6d85e02e22165df16b81f4"
+			],
 			"Recoil": -10,
 			"Ergonomics": -19,
 			"Loudness": -32,

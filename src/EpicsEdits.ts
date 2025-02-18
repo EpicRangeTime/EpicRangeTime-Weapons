@@ -313,6 +313,339 @@ export class epicItemClass {
                     "5c793fc42e221600114ca25d",
                     "638de3603a1a4031d8260b8c");
             } //Pushing all AR stocks to HK416
+            if (fileData._id === "5ae30bad5acfc400185c2dc4") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("66713838ca123f9df8e7584e",
+                    "23878a19adddf4afbbcc0537"
+                );
+            } //Pushing Carry handle mounts to carry handle
+            if (fileData._id === "5ae30bad5acfc400185c2dc4") {
+                fileData._props.Prefab.path = "assets/content/items/mods/sights_rear/sight_rear_ar15_colt_carry_hande_std.bundle";
+            } //Changing carry handle prefab path
+            if (fileData._id === "5ae30bad5acfc400185c2dc4") {
+                fileData._parent = "55818ad54bdc2ddc698b4569";
+            } //Changing carry handle parent
+            if (fileData._id === "55d5f46a4bdc2d1b198b4567") {
+                fileData._parent = "55818ad54bdc2ddc698b4569";
+            } //Changing A2 rear sight parent
+            if (fileData._id === "5ae30bad5acfc400185c2dc4") {
+                fileData._props.ConflictingItems = [
+                    "61817865d3a39d50044c13a4",
+                    "5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"
+                ];
+            } //Changing carry handle conflicting items
+            if (fileData._id === "5c0e2f26d174af02a9625114") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "55d355e64bdc2d962f8b4569") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5d4405aaa4b9361e6a4e6bd3") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5c07a8770db8340023300450") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "59bfe68886f7746004266202") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "63f5ed14534b2c3d5479a677") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "6529119424cbe3c74a05e5bb") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5bb20d53d4351e4502010a69") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5c488a752e221602b412af63") {
+                fileData._props.Slots[5]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5dcbd56fdbd3d91b3e5468d5") {
+                fileData._props.Slots[5]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5df8e4080b92095fd441e594") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5fc278107283c4046c581489") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "602e63fb6335467b0c5ac94d") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "606587a88900dc2d9a55b659") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "6165adcdd3a39d50044c120f") {
+                fileData._props.Slots[2]._props.filters[0].Filter = ["61817865d3a39d50044c13a4",
+                    "5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "6165aeedfaa1272e431521e3") {
+                fileData._props.Slots[2]._props.filters[0].Filter = ["61817865d3a39d50044c13a4",
+                    "5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "61713a8fd92c473c770214a4") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "618405198004cc50514c3594") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["61817865d3a39d50044c13a4",
+                    "5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "618426d96c780c1e710c9b9f") {
+                fileData._props.Slots[3]._props.filters[0].Filter = ["61817865d3a39d50044c13a4",
+                    "5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "62811fbf09427b40ab14e767") {
+                fileData._props.Slots[2]._props.filters[0].Filter = ["5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"];
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5c0e2f26d174af02a9625114") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "55d355e64bdc2d962f8b4569") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5d4405aaa4b9361e6a4e6bd3") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5c07a8770db8340023300450") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "59bfe68886f7746004266202") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "63f5ed14534b2c3d5479a677") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "6529119424cbe3c74a05e5bb") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5bb20d53d4351e4502010a69") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5c488a752e221602b412af63") {
+                fileData._props.Slots[4]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5dcbd56fdbd3d91b3e5468d5") {
+                fileData._props.Slots[4]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5df8e4080b92095fd441e594") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "5fc278107283c4046c581489") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "602e63fb6335467b0c5ac94d") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "606587a88900dc2d9a55b659") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "6165adcdd3a39d50044c120f") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "6165aeedfaa1272e431521e3") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "61713a8fd92c473c770214a4") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "618405198004cc50514c3594") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "618426d96c780c1e710c9b9f") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
+            if (fileData._id === "62811fbf09427b40ab14e767") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
+            } //Changing filters for AR15 rear sights
         }
     }
 
