@@ -1801,6 +1801,22 @@
             ]
         },
         {
+            "key": "Mods/Mounts/ta31_ard.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/ta31_rmr_mount.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Mounts/34mm_rof_45_blk.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -2210,6 +2226,226 @@
         },
         {
             "key": "Mods/Scopes/acog_ta44.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_black_amber_300.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_black_amber_horseshoe.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_black_green_300.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_black_green_chev.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_black_green_cross.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_black_green_horseshoe.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_black_red_300.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_black_red_chev.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_black_red_crosshair.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_black_red_horseshoe.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_tan_amber_300.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_tan_amber_horseshoe.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_tan_green_300.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_tan_green_chev.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_tan_green_cross.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_tan_green_horseshoe.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_tan_red_300.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_tan_red_chev.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_tan_red_cross.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/ta31_tan_red_horseshoe.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
