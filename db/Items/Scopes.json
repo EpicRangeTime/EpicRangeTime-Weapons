@@ -1260,5 +1260,2685 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"e9341af94ccbdf828aac2ed4": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_black_amber_300.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31-C Amber 4x32 scope (Black)",
+				"shortName": "TA31-C",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated crosshair reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"1e3c5a570c1c628376877232": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_black_amber_horseshoe.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31H Amber 4x32 scope (Black)",
+				"shortName": "TA31H",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated horseshoe reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"530c92166b34a8f2c2c96732": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_black_green_300.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31-C Green 4x32 scope (Black)",
+				"shortName": "TA31-C",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated crosshair reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"5518037d5b8964f16bd7fa0b": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_black_green_chev.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31F Green 4x32 scope (Black)",
+				"shortName": "TA31F",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated chevron reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"765efc3218305b91ce279f7c": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_black_green_cross.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31-CH Green 4x32 scope (Black)",
+				"shortName": "TA31-CH",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated crosshair reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"86509ab9a719ec35d68335ec": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_black_green_horseshoe.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31H Green 4x32 scope (Black)",
+				"shortName": "TA31H",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated horseshoe reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"427426766389fca83151e49a": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_black_red_300.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31-C Red 4x32 scope (Black)",
+				"shortName": "TA31-C",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated crosshair reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"8e91893cd97979e31dc69ff4": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_black_red_chev.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31F Red 4x32 scope (Black)",
+				"shortName": "TA31F",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated chevron reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"ee7de8251099e046b66a27a8": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_black_red_crosshair.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31-CH Red 4x32 scope (Black)",
+				"shortName": "TA31-CH",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated crosshair reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"98faf3e813c71c69fdc058a6": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_black_red_horseshoe.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31H Red 4x32 scope (Black)",
+				"shortName": "TA31H",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated horseshoe reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"5114ba0ec07b64d2027476c3": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_tan_amber_300.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31-C Amber 4x32 scope (Tan)",
+				"shortName": "TA31-C",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated crosshair reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 195,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"028cf9570b14453d61753a76": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_tan_amber_horseshoe.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31H Amber 4x32 scope (Tan)",
+				"shortName": "TA31H",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated horseshoe reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"0433f01e906bc793e94272dd": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_tan_green_300.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31-C Green 4x32 scope (Tan)",
+				"shortName": "TA31-C",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated crosshair reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"f4792fb5785c3cbfcd5e8e42": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_tan_green_chev.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31F Green 4x32 scope (Tan)",
+				"shortName": "TA31F",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated chevron reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 195,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"6d875b085e791a94448f6373": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_tan_green_cross.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31-CH Green 4x32 scope (Tan)",
+				"shortName": "TA31-CH",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated crosshair reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"ed3ce625f8d5660361ffaf30": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_tan_green_horseshoe.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31H Green 4x32 scope (Tan)",
+				"shortName": "TA31H",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated horseshoe reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"96cff8d59fab622a65e41136": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_tan_red_300.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31-C Red 4x32 scope (Tan)",
+				"shortName": "TA31-C",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated crosshair reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"a9567853f9fc33f38c4180ac": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_tan_red_chev.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31F Red 4x32 scope (Tan)",
+				"shortName": "TA31F",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated chevron reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 32000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"51054b0249f56482df575434": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_tan_red_cross.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31-CH Red 4x32 scope (Tan)",
+				"shortName": "TA31-CH",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated crosshair reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 195,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"a1552040390284f58de50a7a": {
+		"itemTplToClone": "5c05293e0db83400232fff80",
+		"parentId": "ASSAULT_SCOPE",
+		"handbookParentId": "MOD_ASSAULT_SCOPE",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Scopes/ta31_tan_red_horseshoe.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.422,
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200,
+					250,
+					300
+				]
+			],
+			"Slots": [
+				{
+					"_id": "a61ea16a37399463e186c2e4",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"e35149017403373f6b780e3b"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "9a34ade2ef4874bdea4cebbe",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "e9341af94ccbdf828aac2ed4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"fd70d4ce13dd451e8753f6f7"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Trijicon ACOG TA31H Red 4x32 scope (Tan)",
+				"shortName": "TA31H",
+				"description": "The Trijicon ACOG (Advanced Combat Optical Gunsight) is a fixed-power compact riflescope with an illuminated horseshoe reticle. It is designed to be extremely durable and reliable. Combining traditional, precise distance marksmanship with CQB speed, this variant includes a bullet-drop compensated (BDC) reticle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34200,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 195,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 890
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 890
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }
