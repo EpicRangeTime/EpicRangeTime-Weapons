@@ -5632,5 +5632,177 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"5cc125555c98bf150a4fd068": {
+		"itemTplToClone": "5a0d63621526d8dba31fe3bf",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/deadair_wolverine_14mm.bundle",
+				"rcid": ""
+			},
+			"Recoil": -9.5,
+			"Loudness": -30,
+			"Weight": 0.561
+		},
+		"locales": {
+			"en": {
+				"name": "Dead Air Wolverine 7.62x39 direct thread sound suppressor",
+				"shortName": "Wolverine",
+				"description": "Whether you’re shouldering your AK at the crack of a red dawn or hitting the local range for plinking and training, you need a suppressor worthy of Mikhail Kalahnikov’s legacy. The Dead Air Wolverine is the modern incarnation of the iconic PBS-1 AK suppressor, ready to adorn the muzzle of your cherished combloc rifle with classic Cold War panache."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 47000,
+		"handbookPriceRoubles": 14000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 215,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"c55bf7b1464db07d86ea62e8": {
+		"itemTplToClone": "5a0d63621526d8dba31fe3bf",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/deadair_wolverine_keymount.bundle",
+				"rcid": ""
+			},
+			"Recoil": -6.5,
+			"Loudness": -30,
+			"Weight": 0.691
+		},
+		"locales": {
+			"en": {
+				"name": "Dead Air Wolverine 7.62x39 keymount sound suppressor",
+				"shortName": "Wolverine",
+				"description": "Whether you’re shouldering your AK at the crack of a red dawn or hitting the local range for plinking and training, you need a suppressor worthy of Mikhail Kalahnikov’s legacy. The Dead Air Wolverine is the modern incarnation of the iconic PBS-1 AK suppressor, ready to adorn the muzzle of your cherished combloc rifle with classic Cold War panache."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 52000,
+		"handbookPriceRoubles": 18000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 233,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }

@@ -63,16 +63,20 @@ export class CustomItemService {
         }
 
         if (numItemsAdded > 0) {
+            if (this.Instance.debug) {
             this.Instance.logger.log(
                 `[${this.Instance.modName}] Database: Loaded ${numItemsAdded} custom items.`,
                 LogTextColor.GREEN
             );
         }
+        }
         else {
+            if (this.Instance.debug) {
             this.Instance.logger.log(
                 `[${this.Instance.modName}] Database: No custom items loaded.`,
                 LogTextColor.GREEN
             );
+        }
         }
 
 

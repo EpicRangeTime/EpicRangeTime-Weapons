@@ -9,11 +9,193 @@
             ]
         },
         {
+            "key": "Wearables/Headsets/ops_amp_blk.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Wearables/Headsets/ops_amp_blk_camo.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Wearables/Headsets/ops_amp_tan.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Wearables/Headsets/ops_amp_tan_camo.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Wearables/Facemasks/m53a1_gas_mask.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Lasers/perst_4_laser.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/textures/holemanager/glow_particle_bright.bundle",
+                "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+                "assets/systems/effects/collimator.bundle",
+                "assets/systems/effects/laserbeam/laser.bundle",
+                "assets/systems/effects/multiflare/multiflare.bundle",
+                "assets/systems/effects/nightvision.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
             "key": "Mods/Pistol_Grips/b5_pgrip.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
                 "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Pistol_Grips/hogue_ar_pg_black.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Pistol_Grips/hogue_ar_pg_blue.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Pistol_Grips/hogue_ar_pg_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Pistol_Grips/hogue_ar_pg_green.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Pistol_Grips/hogue_ar_pg_grey.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Pistol_Grips/hogue_ar_pg_pink.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/sights_rear/sight_rear_ar15_colt_carry_hande_std.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/weapons/m4a1/weapon_colt_m4a1_556x45_container.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/weapons/additional_hands/client_assets.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/magazines/mag_m14_springfield_armory_762x51_10.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/magazines/mag_m14_springfield_armory_762x51_20.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/magazines/mag_m14_triple_k_m14_magazine_762x51_30.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/magazines/mag_m14_x_products_drum_magazine_m14_762x51_50.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/scopes/scope_base_trijicon_acog_ta01nsn_4x32.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/items/mods/scopes/scope_base_trijicon_acog_ta01nsn_4x32_mark",
+                "assets/content/items/mods/scopes/scope_base_trijicon_acog_ta01nsn_4x32_mesh",
+                "assets/content/items/mods/scopes/scope_base_trijicon_acog_ta01nsn_4x32_textures",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/scopes/scope_base_trijicon_acog_ta01nsn_4x32_tan.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/items/mods/scopes/scope_base_trijicon_acog_ta01nsn_4x32_mark",
+                "assets/content/items/mods/scopes/scope_base_trijicon_acog_ta01nsn_4x32_mesh",
+                "assets/content/items/mods/scopes/scope_base_trijicon_acog_ta01nsn_4x32_textures",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+                "cubemaps",
+                "shaders"
             ]
         },
         {
@@ -57,39 +239,7 @@
             ]
         },
         {
-            "key": "assets/content/items/mods/sights_rear/sight_rear_ar15_colt_carry_hande_std.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "assets/content/items/mods/magazines/mag_m14_springfield_armory_762x51_10.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "assets/content/items/mods/magazines/mag_m14_springfield_armory_762x51_20.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "assets/content/items/mods/magazines/mag_m14_triple_k_m14_magazine_762x51_30.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "assets/content/items/mods/magazines/mag_m14_x_products_drum_magazine_m14_762x51_50.bundle",
+            "key": "Barter/sony_walkman.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -105,7 +255,87 @@
             ]
         },
         {
+            "key": "Barter/tamagotchi.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Barter/boston_record.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Barter/bebop_record.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AK/hogue_ak_pgrip_black.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AK/hogue_ak_pgrip_green.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AK/hogue_ak_pgrip_red.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AK/hogue_ak_pgrip_spec_green.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AK/hogue_ak_pgrip_tan.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/AK/ak100_hg_top.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AK/sharkfin_dong_hg.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AK/bulgarian_krink_fh.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -162,22 +392,6 @@
         },
         {
             "key": "Mods/AK/dtk2_mb.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/AK/sharkfin_dong_hg.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/AK/bulgarian_krink_fh.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -282,6 +496,14 @@
         },
         {
             "key": "Mods/AK/tube_hg.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR10/kac_ff_ras_sr25_hg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -426,6 +648,70 @@
         },
         {
             "key": "Mods/AR15_Barrels/sr15_16_barrel.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_blue.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_gray.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_olive_green.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_black.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_pink.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_red.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_tan.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_olive_drab.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1537,6 +1823,95 @@
             ]
         },
         {
+            "key": "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Glock_Parts/barrel_triarc_g19.bundle",
+            "dependencyKeys": [
+                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Glock_Parts/barrel_triarc_g19_threaded.bundle",
+            "dependencyKeys": [
+                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Glock_Parts/receiver_glock_triarc_mos.bundle",
+            "dependencyKeys": [
+                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Glock_Parts/sight_front_glock_supp_height_triarc.bundle",
+            "dependencyKeys": [
+                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Glock_Parts/sight_front_glock_triarc.bundle",
+            "dependencyKeys": [
+                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Glock_Parts/sight_rear_glock_suppressor_height_triarc.bundle",
+            "dependencyKeys": [
+                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Glock_Parts/sight_rear_glock_triarc.bundle",
+            "dependencyKeys": [
+                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Glock_Parts/thread_prot_triarc.bundle",
+            "dependencyKeys": [
+                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Glock_Parts/zev_optic_plate.bundle",
+            "dependencyKeys": [
+                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/HK/hk_smr_10_5_blk.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -1681,27 +2056,102 @@
             ]
         },
         {
-            "key": "Mods/Magnifiers/g33_exps3_magnifier.bundle",
+            "key": "Mods/Magnifiers/exps3_high_mag_combo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
             ]
         },
         {
-            "key": "Mods/Magnifiers/unity_ftc_blk.bundle",
+            "key": "Mods/Magnifiers/exps3_low_mag_combo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
             ]
         },
         {
-            "key": "Mods/Magnifiers/unity_ftc_fde.bundle",
+            "key": "Mods/Magnifiers/uh1_low_mag_combo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Magnifiers/uh1_high_mag_combo.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Magnifiers/leupold_lco_low_mag_combo.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Magnifiers/leupold_lco_high_mag_combo.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Magnifiers/romeo8t_high_mag_combo.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Magnifiers/romeo8t_low_mag_combo.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Magnifiers/t1_high_mag_combo.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
             ]
         },
         {
@@ -1801,6 +2251,54 @@
             ]
         },
         {
+            "key": "Mods/Mounts/spectre_1_5_6_killflash.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/leupold_ims_35mm_mount.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/spectre_1_5_6_rmr_mount.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/hogue_3_hole_rail.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/carry_handle_gooseneck.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/carry_handle_pic_mount.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Mounts/ta31_ard.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -1850,22 +2348,6 @@
         },
         {
             "key": "Mods/Mounts/acro_pic_mount_short.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/Mounts/carry_handle_gooseneck.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/Mounts/carry_handle_pic_mount.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2467,6 +2949,61 @@
             ]
         },
         {
+            "key": "Mods/Scopes/burris_rt6_scope.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/nightforce_nxs_3_5_25.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/vortex_spitfire_5x.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/leupold_mk5_5_25_tan.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Scopes/leupold_mk5_5_25_black.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
             "key": "Mods/Scopes/atacr_f1_1-8.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -2812,6 +3349,46 @@
         },
         {
             "key": "Mods/Stocks/magpul_dt_pr_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/hogue_stock_black.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/hogue_stock_blue.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/hogue_stock_green.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/hogue_stock_grey.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/hogue_stock_pink.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3244,6 +3821,22 @@
         },
         {
             "key": "Mods/Suppressors/cgs_sci_supp_gry.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Suppressors/deadair_wolverine_14mm.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Suppressors/deadair_wolverine_keymount.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",

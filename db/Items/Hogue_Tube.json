@@ -1,0 +1,1629 @@
+{
+	"f5977d24bf0cb52fda608b51": {
+		"itemTplToClone": "640b20359ab20e15ee445fa9",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15_Handguards/hogue_15_inch_hg_black.bundle",
+				"rcid": ""
+			},
+			"Accuracy": 5,
+			"Recoil": -1,
+			"Ergonomics": 14,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0",
+				"56ea8d2fd2720b7c698b4570",
+				"55d3632e4bdc2d972f8b4569",
+				"63d3ce0446bd475bcb50f55f",
+				"5b62e4a75ec6adea49b29abc"
+			],
+			"Slots": [
+				{
+					"_id": "0d5475f10f123950e74220ec",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_000",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "af9562a9528a77c5c5d13bb5",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_001",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "8225a870c84e582286ab9a1e",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_002",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "8dfbfda03229862b7e032b66",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_003",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"b7b10f13bd22b361d850dad4"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Black)",
+				"shortName": "Overmolded",
+				"description": "With the Hogue AR15 Ext. Length FF Forend w/ OverMolded Grip Area/Accessory Attachments, your shooting experience will be improved beyond what you ever thought was possible, due to its secure fit and ability to provide an unyielding grip."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22000,
+		"handbookPriceRoubles": 8000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 110,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"e5a6a64960d3f9901e3b0df1": {
+		"itemTplToClone": "640b20359ab20e15ee445fa9",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15_Handguards/hogue_15_inch_hg_red.bundle",
+				"rcid": ""
+			},
+			"Accuracy": 5,
+			"Recoil": -1,
+			"Ergonomics": 14,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0",
+				"56ea8d2fd2720b7c698b4570",
+				"55d3632e4bdc2d972f8b4569",
+				"63d3ce0446bd475bcb50f55f",
+				"5b62e4a75ec6adea49b29abc"
+			],
+			"Slots": [
+				{
+					"_id": "0d5475f10f123950e74220ec",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_000",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "af9562a9528a77c5c5d13bb5",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_001",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "8225a870c84e582286ab9a1e",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_002",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "8dfbfda03229862b7e032b66",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_003",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"b7b10f13bd22b361d850dad4"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Red)",
+				"shortName": "Overmolded",
+				"description": "With the Hogue AR15 Ext. Length FF Forend w/ OverMolded Grip Area/Accessory Attachments, your shooting experience will be improved beyond what you ever thought was possible, due to its secure fit and ability to provide an unyielding grip."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22000,
+		"handbookPriceRoubles": 8000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 110,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"18a7cf56c4de695573ac3b2f": {
+		"itemTplToClone": "640b20359ab20e15ee445fa9",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15_Handguards/hogue_15_inch_hg_olive_drab.bundle",
+				"rcid": ""
+			},
+			"Accuracy": 5,
+			"Recoil": -1,
+			"Ergonomics": 14,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0",
+				"56ea8d2fd2720b7c698b4570",
+				"55d3632e4bdc2d972f8b4569",
+				"63d3ce0446bd475bcb50f55f",
+				"5b62e4a75ec6adea49b29abc"
+			],
+			"Slots": [
+				{
+					"_id": "0d5475f10f123950e74220ec",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_000",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "af9562a9528a77c5c5d13bb5",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_001",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "8225a870c84e582286ab9a1e",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_002",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "8dfbfda03229862b7e032b66",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_003",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"b7b10f13bd22b361d850dad4"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Olive Drab)",
+				"shortName": "Overmolded",
+				"description": "With the Hogue AR15 Ext. Length FF Forend w/ OverMolded Grip Area/Accessory Attachments, your shooting experience will be improved beyond what you ever thought was possible, due to its secure fit and ability to provide an unyielding grip."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22000,
+		"handbookPriceRoubles": 8000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 110,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"85089908aa319642316b9cfb": {
+		"itemTplToClone": "640b20359ab20e15ee445fa9",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15_Handguards/hogue_15_inch_hg_pink.bundle",
+				"rcid": ""
+			},
+			"Accuracy": 5,
+			"Recoil": -1,
+			"Ergonomics": 14,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0",
+				"56ea8d2fd2720b7c698b4570",
+				"55d3632e4bdc2d972f8b4569",
+				"63d3ce0446bd475bcb50f55f",
+				"5b62e4a75ec6adea49b29abc"
+			],
+			"Slots": [
+				{
+					"_id": "0d5475f10f123950e74220ec",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_000",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "af9562a9528a77c5c5d13bb5",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_001",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "8225a870c84e582286ab9a1e",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_002",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "8dfbfda03229862b7e032b66",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_003",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"b7b10f13bd22b361d850dad4"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Pink)",
+				"shortName": "Overmolded",
+				"description": "With the Hogue AR15 Ext. Length FF Forend w/ OverMolded Grip Area/Accessory Attachments, your shooting experience will be improved beyond what you ever thought was possible, due to its secure fit and ability to provide an unyielding grip."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22000,
+		"handbookPriceRoubles": 8000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 110,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"d04e8e4692ccca8ee535f3da": {
+		"itemTplToClone": "640b20359ab20e15ee445fa9",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15_Handguards/hogue_15_inch_hg_gray.bundle",
+				"rcid": ""
+			},
+			"Accuracy": 5,
+			"Recoil": -1,
+			"Ergonomics": 14,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0",
+				"56ea8d2fd2720b7c698b4570",
+				"55d3632e4bdc2d972f8b4569",
+				"63d3ce0446bd475bcb50f55f",
+				"5b62e4a75ec6adea49b29abc"
+			],
+			"Slots": [
+				{
+					"_id": "0d5475f10f123950e74220ec",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_000",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "af9562a9528a77c5c5d13bb5",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_001",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "8225a870c84e582286ab9a1e",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_002",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "8dfbfda03229862b7e032b66",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_003",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"b7b10f13bd22b361d850dad4"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Slate Grey)",
+				"shortName": "Overmolded",
+				"description": "With the Hogue AR15 Ext. Length FF Forend w/ OverMolded Grip Area/Accessory Attachments, your shooting experience will be improved beyond what you ever thought was possible, due to its secure fit and ability to provide an unyielding grip."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22000,
+		"handbookPriceRoubles": 8000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 110,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"d107e3b5a93a69ccfcb9f439": {
+		"itemTplToClone": "640b20359ab20e15ee445fa9",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15_Handguards/hogue_15_inch_hg_tan.bundle",
+				"rcid": ""
+			},
+			"Accuracy": 5,
+			"Recoil": -1,
+			"Ergonomics": 14,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0",
+				"56ea8d2fd2720b7c698b4570",
+				"55d3632e4bdc2d972f8b4569",
+				"63d3ce0446bd475bcb50f55f",
+				"5b62e4a75ec6adea49b29abc"
+			],
+			"Slots": [
+				{
+					"_id": "0d5475f10f123950e74220ec",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_000",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "af9562a9528a77c5c5d13bb5",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_001",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "8225a870c84e582286ab9a1e",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_002",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "8dfbfda03229862b7e032b66",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_003",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"b7b10f13bd22b361d850dad4"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (FDE)",
+				"shortName": "Overmolded",
+				"description": "With the Hogue AR15 Ext. Length FF Forend w/ OverMolded Grip Area/Accessory Attachments, your shooting experience will be improved beyond what you ever thought was possible, due to its secure fit and ability to provide an unyielding grip."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22000,
+		"handbookPriceRoubles": 8000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 110,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"c0f85d7483fde9c114eb3c54": {
+		"itemTplToClone": "640b20359ab20e15ee445fa9",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15_Handguards/hogue_15_inch_hg_olive_green.bundle",
+				"rcid": ""
+			},
+			"Accuracy": 5,
+			"Recoil": -1,
+			"Ergonomics": 14,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0",
+				"56ea8d2fd2720b7c698b4570",
+				"55d3632e4bdc2d972f8b4569",
+				"63d3ce0446bd475bcb50f55f",
+				"5b62e4a75ec6adea49b29abc"
+			],
+			"Slots": [
+				{
+					"_id": "0d5475f10f123950e74220ec",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_000",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "af9562a9528a77c5c5d13bb5",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_001",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "8225a870c84e582286ab9a1e",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_002",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "8dfbfda03229862b7e032b66",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_003",
+					"_parent": "4eec6c5df7521b4c5512d257",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"b7b10f13bd22b361d850dad4"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Olive Green)",
+				"shortName": "Overmolded",
+				"description": "With the Hogue AR15 Ext. Length FF Forend w/ OverMolded Grip Area/Accessory Attachments, your shooting experience will be improved beyond what you ever thought was possible, due to its secure fit and ability to provide an unyielding grip."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22000,
+		"handbookPriceRoubles": 8000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 110,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"0ebd9f8dfaf03d6bf5db3b96": {
+		"itemTplToClone": "640b20359ab20e15ee445fa9",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15_Handguards/hogue_15_inch_hg_blue.bundle",
+				"rcid": ""
+			},
+			"Accuracy": 5,
+			"Recoil": -1,
+			"Ergonomics": 14,
+			"ConflictingItems": [
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"6357c98711fb55120211f7e1",
+				"5ae30e795acfc408fb139a0b",
+				"55d35ee94bdc2d61338b4568",
+				"c6b01e3e7a1ec6168254e687",
+				"855c66034be3bb6aece3919b",
+				"bc9a059a5c6cb11a3b57c670",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"a6cd0aecdd7c681e6ce5fad0",
+				"56ea8d2fd2720b7c698b4570",
+				"55d3632e4bdc2d972f8b4569",
+				"63d3ce0446bd475bcb50f55f",
+				"5b62e4a75ec6adea49b29abc"
+			],
+			"Slots": [
+				{
+					"_id": "9a5c1f1fc8caa170e3d90504",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_000",
+					"_parent": "b811a1a20c65f79d14938f44",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "13ae90842f0ff299c604da7a",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_001",
+					"_parent": "b811a1a20c65f79d14938f44",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "d47c1a7b169e2dda40d0d54e",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_002",
+					"_parent": "b811a1a20c65f79d14938f44",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"f4da160b9f3bbdb55ee46201"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "b811a1a20c65f79d14938f44",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_003",
+					"_parent": "b811a1a20c65f79d14938f44",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"b7b10f13bd22b361d850dad4"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Aqua)",
+				"shortName": "Overmolded",
+				"description": "With the Hogue AR15 Ext. Length FF Forend w/ OverMolded Grip Area/Accessory Attachments, your shooting experience will be improved beyond what you ever thought was possible, due to its secure fit and ability to provide an unyielding grip."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22000,
+		"handbookPriceRoubles": 8000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 110,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"f4da160b9f3bbdb55ee46201": {
+		"itemTplToClone": "5b7be47f5acfc400170e2dd2",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Mounts/hogue_3_hole_rail.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "Hogue Overmolded handguard 3 hole rail (front)",
+				"shortName": "3H front",
+				"description": "An accessory rail for the hogue overmolded handguard system."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 14000,
+		"handbookPriceRoubles": 1000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 11,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"b7b10f13bd22b361d850dad4": {
+		"itemTplToClone": "5b7be47f5acfc400170e2dd2",
+		"parentId": "HANDGUARD",
+		"handbookParentId": "MOD_HANDGUARD",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Mounts/hogue_3_hole_rail.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_id": "d0d98dfb208dd2c49f7fafc3",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical",
+					"_parent": "b7b10f13bd22b361d850dad4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"57fd23e32459772d0805bcf1",
+									"544909bb4bdc2d6f028b4577",
+									"5c06595c0db834001a66af6c",
+									"61605d88ffa6e502ac5e7eeb",
+									"5c5952732e2216398b5abda2",
+									"5649a2464bdc2d91118b45a8"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Hogue Overmolded handguard 3 hole rail (rear)",
+				"shortName": "3H Rear",
+				"description": "An accessory rail for the hogue overmolded handguard system."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 14000,
+		"handbookPriceRoubles": 1000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 11,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}
