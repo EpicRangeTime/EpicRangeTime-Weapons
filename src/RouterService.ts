@@ -11,7 +11,9 @@ export class WTTRouterService
     {
         this.instanceManager = instance;
         this.registerQuestZoneRoute();
+        if (this.instanceManager.debug) {
         this.instanceManager.logger.log(`[${this.instanceManager.modName}] WTTRouter: Initialized and registered routes.`, LogTextColor.GREEN);
+        }
     }
 
     private registerQuestZoneRoute(): void

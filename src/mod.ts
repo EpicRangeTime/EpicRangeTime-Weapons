@@ -117,7 +117,7 @@ implements IPreSptLoadMod, IPostDBLoadMod
     private displayCreditBanner(): void 
     {
         this.colorLog
-        (`[${this.modName}] Developers:  EpicRangeTime   Code Framework: GroovypenguinX - I had the best of teachers.`, "green");
+        (`[${this.modName}] Developers:  EpicRangeTime   Code Framework: GroovypenguinX - Thank you guys for everything.`, "green");
     }
 }
 

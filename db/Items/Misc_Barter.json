@@ -114,5 +114,385 @@
 		],
 		"addweaponpreset": true,
 		"weaponpresets": []
+	},
+	"0554e5da796b8133eb65b389": {
+		"itemTplToClone": "5c12620d86f7743f8b198b72",
+		"parentId": "57864a66245977548f04a81f",
+		"handbookParentId": "5b47574386f77428ca22b2ef",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Barter/tamagotchi.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.098,
+			"Height": 1,
+			"Width": 1
+		},
+		"locales": {
+			"en": {
+				"name": "Tamagotchi toy",
+				"shortName": "Tamagotchi",
+				"description": "A small toy for children created by Bandai in Japan. Take care of it!"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 45000,
+		"handbookPriceRoubles": 35000,
+		"addtoTraders": false,
+		"traderId": "RAGMAN",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 45000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+				"Probability": 340
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 300
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 760
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 400
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 850
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1500
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+				"Probability": 900
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": []
+	},
+	"349f9715d8899a1d4ca845c0": {
+		"itemTplToClone": "62a09e974f842e1bd12da3f0",
+		"parentId": "5448ecbe4bdc2d60728b4568",
+		"handbookParentId": "5b47574386f77428ca22b341",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Barter/bebop_record.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.140,
+			"Height": 2,
+			"Width": 2
+		},
+		"locales": {
+			"en": {
+				"name": "Cowboy Bebop Vinyl Record",
+				"shortName": "Bebop",
+				"description": "The Cowboy Bebop OST recorded on vinyl, very well made in a splatter pattern."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 62000,
+		"handbookPriceRoubles": 44000,
+		"addtoTraders": false,
+		"traderId": "RAGMAN",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 45000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+				"Probability": 340
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 300
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 760
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 400
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 850
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1500
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+				"Probability": 900
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": []
+	},
+	"e44b40d309fa123643258996": {
+		"itemTplToClone": "62a09e974f842e1bd12da3f0",
+		"parentId": "5448ecbe4bdc2d60728b4568",
+		"handbookParentId": "5b47574386f77428ca22b341",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Barter/boston_record.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.140,
+			"Height": 2,
+			"Width": 2
+		},
+		"locales": {
+			"en": {
+				"name": "Boston Greatest Hits Vinyl Record",
+				"shortName": "Boston",
+				"description": "The Boston Greatest Hits album recorded on vinyl."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 42000,
+		"handbookPriceRoubles": 28000,
+		"addtoTraders": false,
+		"traderId": "RAGMAN",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 45000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+				"Probability": 340
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 300
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 760
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 400
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 850
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1500
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+				"Probability": 900
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": []
+	},
+	"42b95b1bf04e5b70d4005d19": {
+		"itemTplToClone": "62a09e974f842e1bd12da3f0",
+		"parentId": "5448ecbe4bdc2d60728b4568",
+		"handbookParentId": "5b47574386f77428ca22b341",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Barter/sony_walkman.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.391,
+			"Height": 2,
+			"Width": 1
+		},
+		"locales": {
+			"en": {
+				"name": "Sony TPS-L2 Walkman Cassette Player",
+				"shortName": "Walkman",
+				"description": "The famous Sony TPS-L2 Walkman, belonging to a person known only as RockaHorse."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 92000,
+		"handbookPriceRoubles": 65000,
+		"addtoTraders": false,
+		"traderId": "RAGMAN",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 45000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+				"Probability": 340
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 300
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 760
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 400
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 850
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1500
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+				"Probability": 1000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1200
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+				"Probability": 900
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": []
 	}
 }

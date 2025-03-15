@@ -1,0 +1,135 @@
+{
+	"c544b1b34703aebab8ee0e5c": {
+		"itemTplToClone": "60363c0c92ec1c31037959f5",
+		"parentId": "5a341c4686f77469e155819e",
+		"handbookParentId": "5b47574386f77428ca22b32f",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Wearables/Facemasks/m53a1_gas_mask.bundle",
+				"rcid": ""
+			},
+			"Weight": 1.09,
+			"ConflictingItems": [
+				"60a7acf20c5cb24b01346648",
+				"65719f9ef392ad76c50a2ec8",
+				"59e770f986f7742cbe3164ef",
+				"572b7d8524597762b472f9d1",
+				"5aa2b87de5b5b00016327c25",
+				"5aa2a7e8e5b5b00016327c16",
+				"5aa2b89be5b5b0001569311f",
+				"5aa2b8d7e5b5b00014028f4a",
+				"5aa2ba46e5b5b000137b758d",
+				"5aa2b9ede5b5b000137b758b",
+				"5aa2ba19e5b5b00014028f4e",
+				"5ab8f20c86f7745cdb629fb2",
+				"5645bc214bdc2d363b8b4571",
+				"5c066ef40db834001966a595",
+				"5aa7d193e5b5b000171d063f",
+				"5b4329f05acfc47a86086aa1",
+				"5b43271c5acfc432ff4dce65",
+				"5b40e5e25acfc4001a599bea",
+				"5f60e6403b85f6263c14558c",
+				"5f60e7788adaa7100c3adb49",
+				"5f60e784f2bcbb675b00dac7",
+				"5d96141523f0ea1b7f2aacab",
+				"5bd073c986f7747f627e796c",
+				"603618feffd42c541047f771",
+				"603619720ca681766b6a0fc4",
+				"6040de02647ad86262233012",
+				"60361a7497633951dc245eb4",
+				"60361b0b5a45383c122086a1",
+				"60361b5a9a15b10d96792291",
+				"5b4327aa5acfc400175496e0",
+				"5b40e61f5acfc4001a599bec",
+				"5c0d2727d174af02a012cf58",
+				"5c08f87c0db8340019124324",
+				"5e4bfc1586f774264f7582d3",
+				"59ef13ca86f77445fd0e2483",
+				"572b7fa124597762b472f9d2",
+				"5aa7e373e5b5b000137b76f0",
+				"5a16ba61fcdbcb098008728a",
+				"5a16b7e1fcdbcb00165aa6c9",
+				"5f60c076f2bcbb675b00dac2",
+				"5d6d3829a4b9361bc8618943",
+				"5c0919b50db834001b7ce3b9",
+				"5c0e842486f77443a74d2976",
+				"5f60c85b58eff926626a60f7",
+				"5e00cdd986f7747473332240",
+				"5b432b965acfc47a8774094e",
+				"65709d2d21b9f815e208ff95",
+				"65749ccf33fdc9c0cf06d3ca",
+				"65749cb8e0423b9ebe0c79c9",
+				"5ca2113f86f7740b2547e1d2"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Avon M53A1 gas mask",
+				"shortName": "M53A1",
+				"description": "The M53A1 is a protective mask developed to counter the military unique and domestic threats encountered on the modern battlefield, global war on terrorism, and CBRN operations around the world. The M53A1 provides excellent protection against traditional chemical and biological agents, select toxic industrial chemicals (TICs), and particulate matter including radioactive dust."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 44000,
+		"handbookPriceRoubles": 28000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 260,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}

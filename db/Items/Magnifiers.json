@@ -1,45 +1,49 @@
 {
 	"41e97223a2ad6374a096ae14": {
 		"itemTplToClone": "5c07dd120db834001c39092d",
-		"parentId": "ASSAULT_SCOPE",
-		"handbookParentId": "MOD_AUX",
+		"parentId": "55818ad54bdc2ddc698b4569",
+		"handbookParentId": "5b5f742686f774093e6cb4ff",
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/Magnifiers/unity_ftc_blk.bundle",
+				"path": "Mods/Magnifiers/exps3_high_mag_combo.bundle",
 				"rcid": ""
 			},
-			"Ergonomics": -1,
-			"Weight": 0.455,
-			"CalibrationDistances": [
-				[
-					50
-				]
+			"ConflictingItems":[
+				"55d5f46a4bdc2d1b198b4567",
+				"5894a81786f77427140b8347",
+				"5ba26b17d4351e00367f9bdd",
+				"5bb20e49d4351e3bac1212de",
+				"5bc09a18d4351e003562b68e",
+				"5c1780312e221602b66cc189",
+				"5c18b9192e2216398b5a8104",
+				"5dfa3d7ac41b2312ea33362a",
+				"5fb6564947ce63734e3fa1da",
+				"5fc0fa957283c4046c58147e",
+				"61817865d3a39d50044c13a4",
+				"275def25d1abe9b101511271"
 			],
-			"AimSensitivity": [
-				[
-					0.25,
-					0.5
-				]
-			],
-			"Width": 1,
-			"Height": 2
+			"Ergonomics": -1.5,
+			"Weight": 0.544
 		},
 		"locales": {
 			"en": {
-				"name": "Eotech G33 Magnifier /w Unity FTC mount (BLK)",
-				"shortName": "Unity FTC",
+				"name": "Eotech EXPS3 /w Unity FTC (FDE)",
+				"shortName": "EXPS3 Unity Mag",
 				"description": "The FAST FTC OMNI magnifier mount employs a simple force-to-overcome mechanism, stowing the magnifier below the optical sight plane and completely within the footprint of the weapon’s receiver when not in use. UNITY™ Tactical’s FTC (flip-to-center) technology eliminates the flip-to-side placement of legacy products so users receive all the benefits of magnification when required with no snag hazards or occlusion of sight pictures when stowed. The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight."
 			}
 		},
 		"clearClonedProps": false,
 		"addtoInventorySlots": [],
-		"addtoModSlots": false,
-		"modSlot": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope_000",
+			"mod_scope"
+		],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
-		"fleaPriceRoubles": 31200,
-		"handbookPriceRoubles": 18397,
+		"fleaPriceRoubles": 64000,
+		"handbookPriceRoubles": 35000,
 		"addtoTraders": true,
 		"traderId": "SKIER",
 		"traderItems": [
@@ -50,7 +54,7 @@
 		],
 		"barterScheme": [
 			{
-				"count": 19500,
+				"count": 50000,
 				"_tpl": "ROUBLES"
 			}
 		],
@@ -97,45 +101,149 @@
 	},
 	"7ca248803b89788492384ba2": {
 		"itemTplToClone": "5c07dd120db834001c39092d",
-		"parentId": "ASSAULT_SCOPE",
-		"handbookParentId": "MOD_AUX",
+		"parentId": "55818ad54bdc2ddc698b4569",
+		"handbookParentId": "5b5f742686f774093e6cb4ff",
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/Magnifiers/unity_ftc_fde.bundle",
+				"path": "Mods/Magnifiers/exps3_low_mag_combo.bundle",
 				"rcid": ""
 			},
-			"Ergonomics": -1,
-			"Weight": 0.455,
-			"CalibrationDistances": [
-				[
-					50
-				]
+			"ConflictingItems":[
+				"55d5f46a4bdc2d1b198b4567",
+				"5894a81786f77427140b8347",
+				"5ba26b17d4351e00367f9bdd",
+				"5bb20e49d4351e3bac1212de",
+				"5bc09a18d4351e003562b68e",
+				"5c1780312e221602b66cc189",
+				"5c18b9192e2216398b5a8104",
+				"5dfa3d7ac41b2312ea33362a",
+				"5fb6564947ce63734e3fa1da",
+				"5fc0fa957283c4046c58147e",
+				"61817865d3a39d50044c13a4",
+				"275def25d1abe9b101511271"
 			],
-			"AimSensitivity": [
-				[
-					0.25,
-					0.5
-				]
-			],
-			"Width": 1,
-			"Height": 2
+			"Ergonomics": -1.5,
+			"Weight": 0.544
 		},
 		"locales": {
 			"en": {
-				"name": "Eotech G33 Magnifier /w Unity FTC mount (FDE)",
-				"shortName": "Unity FTC",
+				"name": "Eotech EXPS3 /w G33",
+				"shortName": "EXPS3 G33 Mag",
+				"description": "The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight. The mount provides fast transitioning from 3X to 1X, and the optic offers tool-free vertical and horizontal adjustments, larger field-of-view and an adjustable diopter for improved, precise focusing."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope_000",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 46000,
+		"handbookPriceRoubles": 35000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 285,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"8d9e9ff3020f92eb5fc46680": {
+		"itemTplToClone": "5c07dd120db834001c39092d",
+		"parentId": "55818ad54bdc2ddc698b4569",
+		"handbookParentId": "5b5f742686f774093e6cb4ff",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Magnifiers/leupold_lco_high_mag_combo.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems":[
+				"55d5f46a4bdc2d1b198b4567",
+				"5894a81786f77427140b8347",
+				"5ba26b17d4351e00367f9bdd",
+				"5bb20e49d4351e3bac1212de",
+				"5bc09a18d4351e003562b68e",
+				"5c1780312e221602b66cc189",
+				"5c18b9192e2216398b5a8104",
+				"5dfa3d7ac41b2312ea33362a",
+				"5fb6564947ce63734e3fa1da",
+				"5fc0fa957283c4046c58147e",
+				"61817865d3a39d50044c13a4",
+				"275def25d1abe9b101511271"
+			],
+			"Ergonomics": -1.5,
+			"Weight": 0.544
+		},
+		"locales": {
+			"en": {
+				"name": "Leupold LCO /w Unity FTC (Black)",
+				"shortName": "LCO Unity Mag",
 				"description": "The FAST FTC OMNI magnifier mount employs a simple force-to-overcome mechanism, stowing the magnifier below the optical sight plane and completely within the footprint of the weapon’s receiver when not in use. UNITY™ Tactical’s FTC (flip-to-center) technology eliminates the flip-to-side placement of legacy products so users receive all the benefits of magnification when required with no snag hazards or occlusion of sight pictures when stowed. The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight."
 			}
 		},
 		"clearClonedProps": false,
 		"addtoInventorySlots": [],
-		"addtoModSlots": false,
-		"modSlot": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope_000",
+			"mod_scope"
+		],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
-		"fleaPriceRoubles": 31200,
-		"handbookPriceRoubles": 18397,
+		"fleaPriceRoubles": 39000,
+		"handbookPriceRoubles": 34000,
 		"addtoTraders": true,
 		"traderId": "SKIER",
 		"traderItems": [
@@ -146,8 +254,308 @@
 		],
 		"barterScheme": [
 			{
-				"count": 19500,
+				"count": 43000,
 				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"2e31bdb165e6f6f7ac19b0d8": {
+		"itemTplToClone": "5c07dd120db834001c39092d",
+		"parentId": "55818ad54bdc2ddc698b4569",
+		"handbookParentId": "5b5f742686f774093e6cb4ff",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Magnifiers/leupold_lco_low_mag_combo.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems":[
+				"55d5f46a4bdc2d1b198b4567",
+				"5894a81786f77427140b8347",
+				"5ba26b17d4351e00367f9bdd",
+				"5bb20e49d4351e3bac1212de",
+				"5bc09a18d4351e003562b68e",
+				"5c1780312e221602b66cc189",
+				"5c18b9192e2216398b5a8104",
+				"5dfa3d7ac41b2312ea33362a",
+				"5fb6564947ce63734e3fa1da",
+				"5fc0fa957283c4046c58147e",
+				"61817865d3a39d50044c13a4",
+				"275def25d1abe9b101511271"
+			],
+			"Ergonomics": -1.5,
+			"Weight": 0.544
+		},
+		"locales": {
+			"en": {
+				"name": "Leupold LCO /w G33",
+				"shortName": "LCO G33 Mag",
+				"description": "The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight. The mount provides fast transitioning from 3X to 1X, and the optic offers tool-free vertical and horizontal adjustments, larger field-of-view and an adjustable diopter for improved, precise focusing."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope_000",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 36500,
+		"handbookPriceRoubles": 34000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 250,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"a5c171496c1870f205a3c972": {
+		"itemTplToClone": "5c07dd120db834001c39092d",
+		"parentId": "55818ad54bdc2ddc698b4569",
+		"handbookParentId": "5b5f742686f774093e6cb4ff",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Magnifiers/uh1_high_mag_combo.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems":[
+				"55d5f46a4bdc2d1b198b4567",
+				"5894a81786f77427140b8347",
+				"5ba26b17d4351e00367f9bdd",
+				"5bb20e49d4351e3bac1212de",
+				"5bc09a18d4351e003562b68e",
+				"5c1780312e221602b66cc189",
+				"5c18b9192e2216398b5a8104",
+				"5dfa3d7ac41b2312ea33362a",
+				"5fb6564947ce63734e3fa1da",
+				"5fc0fa957283c4046c58147e",
+				"61817865d3a39d50044c13a4",
+				"275def25d1abe9b101511271"
+			],
+			"Ergonomics": -1.5,
+			"Weight": 0.544
+		},
+		"locales": {
+			"en": {
+				"name": "Vortex UH-1 /w Unity FTC (Black)",
+				"shortName": "UH-1 Unity Mag",
+				"description": "The FAST FTC OMNI magnifier mount employs a simple force-to-overcome mechanism, stowing the magnifier below the optical sight plane and completely within the footprint of the weapon’s receiver when not in use. UNITY™ Tactical’s FTC (flip-to-center) technology eliminates the flip-to-side placement of legacy products so users receive all the benefits of magnification when required with no snag hazards or occlusion of sight pictures when stowed. The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope_000",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 44000,
+		"handbookPriceRoubles": 37000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 305,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"22345a1c542354f86796efda": {
+		"itemTplToClone": "5c07dd120db834001c39092d",
+		"parentId": "55818ad54bdc2ddc698b4569",
+		"handbookParentId": "5b5f742686f774093e6cb4ff",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Magnifiers/uh1_low_mag_combo.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems":[
+				"55d5f46a4bdc2d1b198b4567",
+				"5894a81786f77427140b8347",
+				"5ba26b17d4351e00367f9bdd",
+				"5bb20e49d4351e3bac1212de",
+				"5bc09a18d4351e003562b68e",
+				"5c1780312e221602b66cc189",
+				"5c18b9192e2216398b5a8104",
+				"5dfa3d7ac41b2312ea33362a",
+				"5fb6564947ce63734e3fa1da",
+				"5fc0fa957283c4046c58147e",
+				"61817865d3a39d50044c13a4",
+				"275def25d1abe9b101511271"
+			],
+			"Ergonomics": -1.5,
+			"Weight": 0.544
+		},
+		"locales": {
+			"en": {
+				"name": "Vortex UH-1 /w G33",
+				"shortName": "UH-1 G33 Mag",
+				"description": "The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight. The mount provides fast transitioning from 3X to 1X, and the optic offers tool-free vertical and horizontal adjustments, larger field-of-view and an adjustable diopter for improved, precise focusing."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope_000",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 49000,
+		"handbookPriceRoubles": 38000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 270,
+				"_tpl": "DOLLARS"
 			}
 		],
 		"loyallevelitems": 3,
@@ -191,126 +599,53 @@
 		"addweaponpreset": false,
 		"weaponpresets": []
 	},
-	"8d9e9ff3020f92eb5fc46680": {
-		"itemTplToClone": "5bc09a18d4351e003562b68e",
-		"parentId": "ASSAULT_SCOPE",
-		"handbookParentId": "MOD_AUX",
+	"81fb194d053a4ccedce3782d": {
+		"itemTplToClone": "5c07dd120db834001c39092d",
+		"parentId": "55818ad54bdc2ddc698b4569",
+		"handbookParentId": "5b5f742686f774093e6cb4ff",
 		"overrideProperties": {
-			"Weight": 0.3,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 2,
-			"ItemSound": "mod",
+			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Mods/Magnifiers/g33_exps3_magnifier.bundle",
+				"path": "Mods/Magnifiers/romeo8t_high_mag_combo.bundle",
 				"rcid": ""
 			},
-			"LootExperience": 10,
-			"ExamineExperience": 2,
-			"ConflictingItems": [
-				"57ac965c24597706be5f975c",
-				"57aca93d2459771f2c7e26db",
-				"544a3f024bdc2d1d388b4568",
-				"544a3a774bdc2d3a388b4567",
-				"5d2dc3e548f035404a1a4798",
-				"57adff4f24597737f373b6e6",
-				"5c0517910db83400232ffee5",
-				"5c07dd120db834001c39092d",
-				"5c0a2cec0db834001b7ce47d",
-				"58491f3324597764bc48fa02",
-				"584924ec24597768f12ae244",
-				"5b30b0dc5acfc400153b7124",
-				"6165ac8c290d254f5e6b2f6c",
-				"5d2da1e948f035477b1ce2ba",
-				"5c0505e00db834001b735073",
-				"609a63b6e2ff132951242d09",
-				"584984812459776a704a82a6",
-				"570fd721d2720bc5458b4596",
-				"57ae0171245977343c27bfcf",
-				"5dfe6104585a0c3e995c7b82",
-				"544a3d0a4bdc2d1b388b4567",
-				"5d1b5e94d7ad1a2b865a96b0",
-				"609bab8b455afd752b2e6138",
-				"5b3b6dc75acfc47a8773fb1e",
-				"5b2389515acfc4771e1be0c0",
-				"577d128124597739d65d0e56",
-				"618b9643526131765025ab35",
-				"618bab21526131765025ab3f",
-				"5c86592b2e2216000e69e77c",
-				"5a37ca54c4a282000d72296a",
-				"5d0a29fed7ad1a002769ad08",
-				"5c064c400db834001d23f468",
-				"58d2664f86f7747fec5834f6",
-				"57c69dd424597774c03b7bbc",
-				"5b3b99265acfc4704b4a1afb",
-				"5aa66a9be5b5b0214e506e89",
-				"5aa66c72e5b5b00016327c93",
-				"5c1cdd302e221602b3137250",
-				"61714b2467085e45ef140b2c",
-				"6171407e50224f204c1da3c5",
-				"61713cc4d8e3106d9806c109",
-				"5b31163c5acfc400153b71cb",
-				"5a33b2c9c4a282000c5a9511",
-				"59db7eed86f77461f8380365",
-				"5a1ead28fcdbcb001912fa9f",
-				"5dff77c759400025ea5150cf",
-				"626bb8532c923541184624b4",
-				"62811f461d5df4475f46a332",
-				"63fc449f5bd61c6cf3784a88",
-				"6477772ea8a38bb2050ed4db",
-				"6478641c19d732620e045e17",
-				"64785e7c19d732620e045e15",
-				"65392f611406374f82152ba5",
-				"653931da5db71d30ab1d6296",
-				"6567e751a715f85433025998"
+			"ConflictingItems":[
+				"55d5f46a4bdc2d1b198b4567",
+				"5894a81786f77427140b8347",
+				"5ba26b17d4351e00367f9bdd",
+				"5bb20e49d4351e3bac1212de",
+				"5bc09a18d4351e003562b68e",
+				"5c1780312e221602b66cc189",
+				"5c18b9192e2216398b5a8104",
+				"5dfa3d7ac41b2312ea33362a",
+				"5fb6564947ce63734e3fa1da",
+				"5fc0fa957283c4046c58147e",
+				"61817865d3a39d50044c13a4",
+				"275def25d1abe9b101511271"
 			],
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Ergonomics": -3,
-			"SightingRange": 600,
-			"CustomAimPlane": "",
-			"sightModType": "hybrid",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.25,
-					0.5
-				]
-			],
-			"ModesCount": [
-				2
-			],
-			"Zooms": [
-				[
-					3,
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					50
-				]
-			]
+			"Ergonomics": -1.5,
+			"Weight": 0.544
 		},
 		"locales": {
 			"en": {
-				"name": "Eotech G33 Magnifier /w STS mount (BLK)",
-				"shortName": "G33 STS",
-				"description": "The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight. The mount provides fast transitioning from 3X to 1X, and the optic offers tool-free vertical and horizontal adjustments, larger field-of-view and an adjustable diopter for improved, precise focusing."
+				"name": "SIG Sauer ROMEO8T /w Unity FTC (Black)",
+				"shortName": "ROMEO8T Unity Mag",
+				"description": "The FAST FTC OMNI magnifier mount employs a simple force-to-overcome mechanism, stowing the magnifier below the optical sight plane and completely within the footprint of the weapon’s receiver when not in use. UNITY™ Tactical’s FTC (flip-to-center) technology eliminates the flip-to-side placement of legacy products so users receive all the benefits of magnification when required with no snag hazards or occlusion of sight pictures when stowed. The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight."
 			}
 		},
 		"clearClonedProps": false,
 		"addtoInventorySlots": [],
 		"addtoModSlots": true,
 		"modSlot": [
-			"mod_sight_rear"
+			"mod_scope_000",
+			"mod_scope"
 		],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
-		"fleaPriceRoubles": 31200,
-		"handbookPriceRoubles": 18397,
+		"fleaPriceRoubles": 54000,
+		"handbookPriceRoubles": 36000,
 		"addtoTraders": true,
-		"traderId": "MECHANIC",
+		"traderId": "SKIER",
 		"traderItems": [
 			{
 				"unlimitedCount": true,
@@ -319,11 +654,211 @@
 		],
 		"barterScheme": [
 			{
-				"count": 17950,
+				"count": 44000,
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 3,
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"0377e32842c4024a423c472e": {
+		"itemTplToClone": "5c07dd120db834001c39092d",
+		"parentId": "55818ad54bdc2ddc698b4569",
+		"handbookParentId": "5b5f742686f774093e6cb4ff",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Magnifiers/romeo8t_low_mag_combo.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems":[
+				"55d5f46a4bdc2d1b198b4567",
+				"5894a81786f77427140b8347",
+				"5ba26b17d4351e00367f9bdd",
+				"5bb20e49d4351e3bac1212de",
+				"5bc09a18d4351e003562b68e",
+				"5c1780312e221602b66cc189",
+				"5c18b9192e2216398b5a8104",
+				"5dfa3d7ac41b2312ea33362a",
+				"5fb6564947ce63734e3fa1da",
+				"5fc0fa957283c4046c58147e",
+				"61817865d3a39d50044c13a4",
+				"275def25d1abe9b101511271"
+			],
+			"Ergonomics": -1.5,
+			"Weight": 0.544
+		},
+		"locales": {
+			"en": {
+				"name": "SIG Sauer ROMEO8T /w G33",
+				"shortName": "ROMEO8T G33 Mag",
+				"description": "The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight. The mount provides fast transitioning from 3X to 1X, and the optic offers tool-free vertical and horizontal adjustments, larger field-of-view and an adjustable diopter for improved, precise focusing."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope_000",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 57000,
+		"handbookPriceRoubles": 34000,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 49000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"08940f5c853aa6acf4049bc2": {
+		"itemTplToClone": "5c07dd120db834001c39092d",
+		"parentId": "55818ad54bdc2ddc698b4569",
+		"handbookParentId": "5b5f742686f774093e6cb4ff",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Magnifiers/t1_high_mag_combo.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems":[
+				"55d5f46a4bdc2d1b198b4567",
+				"5894a81786f77427140b8347",
+				"5ba26b17d4351e00367f9bdd",
+				"5bb20e49d4351e3bac1212de",
+				"5bc09a18d4351e003562b68e",
+				"5c1780312e221602b66cc189",
+				"5c18b9192e2216398b5a8104",
+				"5dfa3d7ac41b2312ea33362a",
+				"5fb6564947ce63734e3fa1da",
+				"5fc0fa957283c4046c58147e",
+				"61817865d3a39d50044c13a4",
+				"275def25d1abe9b101511271"
+			],
+			"Ergonomics": -1.5,
+			"Weight": 0.544
+		},
+		"locales": {
+			"en": {
+				"name": "Aimpoint Micro T-1 /w Unity FTC (Black)",
+				"shortName": "Micro T-1 Unity Mag",
+				"description": "The FAST FTC OMNI magnifier mount employs a simple force-to-overcome mechanism, stowing the magnifier below the optical sight plane and completely within the footprint of the weapon’s receiver when not in use. UNITY™ Tactical’s FTC (flip-to-center) technology eliminates the flip-to-side placement of legacy products so users receive all the benefits of magnification when required with no snag hazards or occlusion of sight pictures when stowed. The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope_000",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 46000,
+		"handbookPriceRoubles": 32000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 240,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [

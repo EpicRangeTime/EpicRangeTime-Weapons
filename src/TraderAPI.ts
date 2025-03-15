@@ -131,7 +131,9 @@ export class TraderAPI
             }
             items++;
         }
+        if (this.instanceManager.debug) {
         this.instanceManager.logger.log(`[${this.instanceManager.modName}] TraderAPI: ${trader} added ${items} to the database.`, LogTextColor.GREEN);
+        }
 
 
         
@@ -140,7 +142,9 @@ export class TraderAPI
             ...locales.en,
             ...mydb?.locales.en
         };
+        if (this.instanceManager.debug) {
         this.instanceManager.logger.log(`[${this.instanceManager.modName}] TraderAPI: ${trader} added item locales.`, LogTextColor.GREEN);
+        }
 
         let handbooks = 0;
         for (const handbook of mydb.templates.handbook.Items) 
@@ -149,11 +153,15 @@ export class TraderAPI
                 this.instanceManager.database.templates.handbook.Items.push(handbook);
             handbooks++;
         }
+        if (this.instanceManager.debug) {
         this.instanceManager.logger.log(`[${this.instanceManager.modName}] TraderAPI: ${trader} added ${handbooks} items to handbook database.`, LogTextColor.GREEN);
+        }
 
         this.addTraderToLocales(trader, baseJson);
 
+        if (this.instanceManager.debug) {
         this.instanceManager.logger.log(`[${this.instanceManager.modName}] TraderAPI: ${trader} successfully added to database.`, LogTextColor.GREEN);
+        }
     }
 
     /**
@@ -175,7 +183,9 @@ export class TraderAPI
             count++;
         }
 
+        if (this.instanceManager.debug) {
         this.instanceManager.logger.log(`[${this.instanceManager.modName}] TraderAPI: ${trader} loaded ${count} locales`, LogTextColor.GREEN);
+        }
     }
 
     private registerProfileImage(trader: string, baseJson: any): void 
