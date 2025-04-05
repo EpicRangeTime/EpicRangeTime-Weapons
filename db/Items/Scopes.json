@@ -4363,8 +4363,8 @@
 				]
 			],
 			"MinMaxFov": {
-				"x": 6.514,
-				"y": 2,
+				"x": 6.857,
+				"y": 1.6,
 				"z": 4
 			},
 			"CalibrationDistances": [
