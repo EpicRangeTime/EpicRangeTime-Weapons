@@ -1,11 +1,11 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 
-import * as fs from "fs";
-import * as path from "path";
+import fs from "node:fs";
+import path from "node:path";
 
-import { DependencyContainer } from "tsyringe";
-import { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
-import { IPreSptLoadMod } from "@spt/models/external/IPreSptLoadMod";
+import type { DependencyContainer } from "tsyringe";
+import type { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
+import type { IPreSptLoadMod } from "@spt/models/external/IPreSptLoadMod";
 import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 // WTT imports
@@ -55,14 +55,14 @@ implements IPreSptLoadMod, IPostDBLoadMod
     }
 
     // Anything that needs done on postDBLoad, place here.
-    postDBLoad(container: DependencyContainer): void 
+    public async postDBLoadAsync(container: DependencyContainer): Promise<void> 
     {
     // Initialize the instance manager DO NOTHING ELSE BEFORE THIS
         this.Instance.postDBLoad(container);
         // EVERYTHING AFTER HERE MUST USE THE INSTANCE
 
         this.epicItemClass.postDBLoad();
-        this.traderBadger.postDBLoad();
+        await this.traderBadger.postDBLoad();
         this.customItemService.postDBLoad();
         this.customAssortSchemeService.postDBLoad();
         this.customWeaponPresets.postDBLoad();
