@@ -119,6 +119,38 @@
             ]
         },
         {
+            "key": "Mods/Pistol_Grips/dd_pistol_grip_black.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Pistol_Grips/dd_pistol_grip_brown.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Pistol_Grips/dd_pistol_grip_gray.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Pistol_Grips/dd_pistol_grip_tan.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "assets/content/items/mods/sights_rear/sight_rear_ar15_colt_carry_hande_std.bundle",
             "dependencyKeys": [
                 "shaders",
