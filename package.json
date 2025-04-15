@@ -1,11 +1,11 @@
 {
     "name": "Weapons",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "main": "src/mod.js",
     "license": "CC-NY-ND-NC 4.0",
     "author": "EpicRangeTime",
     "isBundleMod": true,
-    "sptVersion": "~3.10.x",
+    "sptVersion": "~3.11.x",
     "incompatibilities":[],
     "scripts": {
         "setup": "npm i",
