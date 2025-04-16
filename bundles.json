@@ -2295,14 +2295,6 @@
             ]
         },
         {
-            "key": "Mods/Mounts/leupold_ims_35mm_mount.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
             "key": "Mods/Mounts/spectre_1_5_6_rmr_mount.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -3008,28 +3000,6 @@
         },
         {
             "key": "Mods/Scopes/vortex_spitfire_5x.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle",
-                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
-                "assets/content/textures/holemanager/round_spec_mask.bundle",
-                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
-            ]
-        },
-        {
-            "key": "Mods/Scopes/leupold_mk5_5_25_tan.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle",
-                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
-                "assets/content/textures/holemanager/round_spec_mask.bundle",
-                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
-            ]
-        },
-        {
-            "key": "Mods/Scopes/leupold_mk5_5_25_black.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
