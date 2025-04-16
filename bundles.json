@@ -145,20 +145,6 @@
             ]
         },
         {
-            "key": "assets/content/weapons/m4a1/weapon_colt_m4a1_556x45_container.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle",
-                "assets/content/weapons/weapon_root_anim_fix.bundle",
-                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
-                "assets/systems/effects/heathaze/defaultheathaze.bundle",
-                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
-                "assets/content/audio/weapons/generic",
-                "assets/content/weapons/additional_hands/client_assets.bundle"
-            ]
-        },
-        {
             "key": "assets/content/items/mods/magazines/mag_m14_springfield_armory_762x51_10.bundle",
             "dependencyKeys": [
                 "shaders",
