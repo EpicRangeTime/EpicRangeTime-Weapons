@@ -2951,21 +2951,7 @@
 			},
 			"Weight": 0.085,
 			"Accuracy": 2,
-			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4",
-				"5bb20e49d4351e3bac1212de",
-				"5ba26b17d4351e00367f9bdd",
-				"5dfa3d7ac41b2312ea33362a",
-				"5c1780312e221602b66cc189",
-				"5fb6564947ce63734e3fa1da",
-				"5bc09a18d4351e003562b68e",
-				"5c18b9192e2216398b5a8104",
-				"5fc0fa957283c4046c58147e",
-				"5894a81786f77427140b8347",
-				"55d5f46a4bdc2d1b198b4567",
-				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271"
-			],
+			"Conflictingitems": [],
 			"Slots": [
 				{
 					"_name": "mod_scope",
@@ -3076,21 +3062,7 @@
 			},
 			"Weight": 0.085,
 			"Accuracy": 2,
-			"Conflictingitems": [
-				"5ae30bad5acfc400185c2dc4",
-				"5bb20e49d4351e3bac1212de",
-				"5ba26b17d4351e00367f9bdd",
-				"5dfa3d7ac41b2312ea33362a",
-				"5c1780312e221602b66cc189",
-				"5fb6564947ce63734e3fa1da",
-				"5bc09a18d4351e003562b68e",
-				"5c18b9192e2216398b5a8104",
-				"5fc0fa957283c4046c58147e",
-				"5894a81786f77427140b8347",
-				"55d5f46a4bdc2d1b198b4567",
-				"5ae30bad5acfc400185c2dc4",
-				"275def25d1abe9b101511271"
-			],
+			"Conflictingitems": [],
 			"Slots": [
 				{
 					"_name": "mod_scope",
