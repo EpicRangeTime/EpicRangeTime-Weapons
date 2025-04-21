@@ -9,7 +9,9 @@
 				"path": "Mods/AR15_Handguards/midwest_ss_7_5.bundle",
 				"rcid": ""
 			},
-			"ConflictingItems":[],
+			"ConflictingItems":[
+				"5ae30e795acfc408fb139a0b"
+			],
 			"Ergonomics": 3,
 			"Recoil": 0,
 			"Weight": 0.255,
@@ -76,7 +78,10 @@
 									"5a7b483fe899ef0016170d15",
 									"61605d88ffa6e502ac5e7eeb",
 									"5c5952732e2216398b5abda2",
-									"644a3df63b0b6f03e101e065"
+									"644a3df63b0b6f03e101e065",
+									"275def25d1abe9b101511271",
+									"d62cced77df83a0683e38fbc",
+									"d4f59f06b5099086743e3b62"
 								],
 								"Shift": 0
 							}
@@ -221,7 +226,9 @@
 				"path": "Mods/AR15_Handguards/midwest_ss_9_25.bundle",
 				"rcid": ""
 			},
-			"ConflictingItems":[],
+			"ConflictingItems":[
+				"5ae30e795acfc408fb139a0b"
+			],
 			"Ergonomics": 4.5,
 			"Recoil": -0.5,
 			"Weight": 0.289,
@@ -310,7 +317,10 @@
 									"5a7b483fe899ef0016170d15",
 									"61605d88ffa6e502ac5e7eeb",
 									"5c5952732e2216398b5abda2",
-									"644a3df63b0b6f03e101e065"
+									"644a3df63b0b6f03e101e065",
+									"275def25d1abe9b101511271",
+									"d62cced77df83a0683e38fbc",
+									"d4f59f06b5099086743e3b62"
 								],
 								"Shift": 0
 							}
@@ -455,7 +465,9 @@
 				"path": "Mods/AR15_Handguards/midwest_ss_10_5.bundle",
 				"rcid": ""
 			},
-			"ConflictingItems":[],
+			"ConflictingItems":[
+				"5ae30e795acfc408fb139a0b"
+			],
 			"Ergonomics": 6,
 			"Recoil": -1,
 			"Weight": 0.317,
@@ -546,7 +558,9 @@
 				"path": "Mods/AR15_Handguards/midwest_ss_12_625.bundle",
 				"rcid": ""
 			},
-			"ConflictingItems":[],
+			"ConflictingItems":[
+				"5ae30e795acfc408fb139a0b"
+			],
 			"Ergonomics": 7.5,
 			"Recoil": -1.5,
 			"Weight": 0.362,
