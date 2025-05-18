@@ -1,0 +1,413 @@
+{
+	"ca44e6083975d6dc27495d8e": {
+		"itemTplToClone": "5d122e7bd7ad1a07102d6d7f",
+		"parentId": "55818a104bdc2db9688b4569",
+		"handbookParentId": "5b5f75e486f77447ec5d7712",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15_Handguards/urx_3_1_13_5_upper.bundle",
+				"rcid": ""
+			},
+			"Recoil": -1.5,
+			"Ergonomics": 2,
+			"ExtraSizeLeft": 3,
+			"Width": 3,
+			"ConflictingItems": [
+				"5a34fbadc4a28200741e230a",
+				"5ae30e795acfc408fb139a0b",
+				"56ea8d2fd2720b7c698b4570",
+				"55d35ee94bdc2d61338b4568",
+				"a06aec4316ac6ff7353845f4",
+				"44805f562c61dd6f99629991",
+				"d40c79f8cd80c888bd960068",
+				"2d2dbf0375f49c5b7ac899ab",
+				"c6b01e3e7a1ec6168254e687",
+				"9e7ef7236e5189be2386e4c2",
+				"981bedd65e69fa6439c52c84",
+				"d0b292e070ee6c5263285461",
+				"5b62e4a75ec6adea49b29abc",
+				"603372b4da11d6478d5a07ff",
+				"603372d154072b51b239f9e1",
+				"603372f153a60014f970616d"
+			],
+			"Slots": [
+				{
+					"_id": "eb3f4c88ccdf4e68bf87a9e1",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_000",
+					"_parent": "ca44e6083975d6dc27495d8e",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5d123b70d7ad1a0ee35e0754",
+									"5d124c0ed7ad1a10d168dd9b",
+									"5d123a3cd7ad1a004e476058",
+									"5d124c01d7ad1a115c7d59fb"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "f73fee44ec27a7d744dbd6b3",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount_001",
+					"_parent": "ca44e6083975d6dc27495d8e",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5d123b70d7ad1a0ee35e0754",
+									"5d124c0ed7ad1a10d168dd9b",
+									"5d123a3cd7ad1a004e476058",
+									"5d124c01d7ad1a115c7d59fb"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "da6d40b3ee19d2951f99c439",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_scope",
+					"_parent": "ca44e6083975d6dc27495d8e",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5649a2464bdc2d91118b45a8"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "2e3547f1e0c41bcd33cb9d3a",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_sight_front",
+					"_parent": "ca44e6083975d6dc27495d8e",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5ba26b01d4351e0085325a51",
+									"5dfa3d950dee1b22f862eae0",
+									"5c17804b2e2216152006c02f",
+									"5fb6567747ce63734e3fa1dc",
+									"5bc09a30d4351e00367fb7c8",
+									"5c18b90d2e2216152142466b",
+									"5fc0fa362770a0045c59c677",
+									"5894a73486f77426d259076c"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "6481898cf7378bd097644e4c",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical_000",
+					"_parent": "ca44e6083975d6dc27495d8e",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"57fd23e32459772d0805bcf1",
+									"544909bb4bdc2d6f028b4577",
+									"5d10b49bd7ad1a1a560708b0",
+									"5c06595c0db834001a66af6c",
+									"5a7b483fe899ef0016170d15",
+									"61605d88ffa6e502ac5e7eeb",
+									"5c5952732e2216398b5abda2",
+									"644a3df63b0b6f03e101e065",
+									"b1c1a92264b2e9c5dc64506e",
+									"d4f59f06b5099086743e3b62",
+									"d62cced77df83a0683e38fbc",
+									"275def25d1abe9b101511271"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "1a9f24ec3ca4d2579bb0b61b",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical_001",
+					"_parent": "ca44e6083975d6dc27495d8e",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5a800961159bd4315e3a1657",
+									"57fd23e32459772d0805bcf1",
+									"544909bb4bdc2d6f028b4577",
+									"5c06595c0db834001a66af6c",
+									"5cc9c20cd7f00c001336c65d",
+									"5d2369418abbc306c62e0c80",
+									"5b07dd285acfc4001754240d",
+									"56def37dd2720bec348b456a",
+									"5a7b483fe899ef0016170d15",
+									"61605d88ffa6e502ac5e7eeb",
+									"5a5f1ce64f39f90b401987bc",
+									"560d657b4bdc2da74d8b4572",
+									"5b3a337e5acfc4704b4a19a0",
+									"5c5952732e2216398b5abda2",
+									"57d17e212459775a1179a0f5",
+									"6267c6396b642f77f56f5c1c",
+									"6272370ee4013c5d7e31f418",
+									"6272379924e29f06af4d5ecb",
+									"626becf9582c3e319310b837",
+									"644a3df63b0b6f03e101e065",
+									"646f6322f43d0c5d62063715",
+									"d4f59f06b5099086743e3b62",
+									"d62cced77df83a0683e38fbc",
+									"275def25d1abe9b101511271"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "02504877e3487a7f33594aef",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical_002",
+					"_parent": "ca44e6083975d6dc27495d8e",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5a800961159bd4315e3a1657",
+									"57fd23e32459772d0805bcf1",
+									"544909bb4bdc2d6f028b4577",
+									"5c06595c0db834001a66af6c",
+									"5cc9c20cd7f00c001336c65d",
+									"5d2369418abbc306c62e0c80",
+									"5b07dd285acfc4001754240d",
+									"56def37dd2720bec348b456a",
+									"5a7b483fe899ef0016170d15",
+									"61605d88ffa6e502ac5e7eeb",
+									"5a5f1ce64f39f90b401987bc",
+									"560d657b4bdc2da74d8b4572",
+									"5b3a337e5acfc4704b4a19a0",
+									"5c5952732e2216398b5abda2",
+									"57d17e212459775a1179a0f5",
+									"6267c6396b642f77f56f5c1c",
+									"6272370ee4013c5d7e31f418",
+									"6272379924e29f06af4d5ecb",
+									"626becf9582c3e319310b837",
+									"644a3df63b0b6f03e101e065",
+									"646f6322f43d0c5d62063715",
+									"d4f59f06b5099086743e3b62",
+									"d62cced77df83a0683e38fbc",
+									"275def25d1abe9b101511271"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "0a367fc7f93c8133c39c9ddc",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_handguard",
+					"_parent": "ca44e6083975d6dc27495d8e",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"d14d71c0f588fde9942cf62f"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 KAC URX 3.1 13.5 inch handguard",
+				"shortName": "URX3.1 13.5\"",
+				"description": "The Knight's Armament URX 3.1 handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22000,
+		"handbookPriceRoubles": 15200,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 126,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"d14d71c0f588fde9942cf62f": {
+		"itemTplToClone": "637f57c532b66e7e320a6676",
+		"parentId": "55818a104bdc2db9688b4569",
+		"handbookParentId": "5b5f75e486f77447ec5d7712",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15_Handguards/urx_3_1_13_5_lower.bundle",
+				"rcid": ""
+			},
+			"Recoil": -2.5,
+			"Ergonomics": 5,
+			"ConflictingItems": [
+				"5a34fbadc4a28200741e230a",
+				"5ae30e795acfc408fb139a0b",
+				"56ea8d2fd2720b7c698b4570",
+				"55d35ee94bdc2d61338b4568",
+				"6357c98711fb55120211f7e1"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 KAC URX 3.1 13.5 inch lower handguard",
+				"shortName": "URX3.1 13.5\"",
+				"description": "The Knight's Armament URX 3.1 lower handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 29000,
+		"handbookPriceRoubles": 6200,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 65,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}

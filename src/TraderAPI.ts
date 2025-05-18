@@ -31,9 +31,10 @@ export class TraderAPI
      *  db/Traders/@param trader/{content}
      * @returns 
      */
-    public loadTraderDbRecursive(trader: string): any
+    public async loadTraderDbRecursive(trader: string): Promise<any>
     {
-        return this.instanceManager.importerUtil.loadRecursive(path.join(this.dbPath, `\/${trader}\/`));
+        const mydb = await this.instanceManager.importerUtil.loadAsync(path.join(this.dbPath, `\/${trader}\/`));
+        return mydb;
     }
 
     /**
@@ -119,47 +120,15 @@ export class TraderAPI
         ragfairConfig.traders[baseJson._id] = true;
 
         
-        let items = 0;
-        for (const item in mydb.templates.items.items.templates) 
-        {
-
-            const parent =mydb.templates.items.items.templates[item]._parent;
-            this.instanceManager.database.templates.items[item] = mydb.templates.items.items.templates[item];
-            if (this.instanceManager.debug)
-            {
-                console.log("Adding item:", item, "with parent:", parent);
-            }
-            items++;
-        }
-        if (this.instanceManager.debug) {
-        this.instanceManager.logger.log(`[${this.instanceManager.modName}] TraderAPI: ${trader} added ${items} to the database.`, LogTextColor.GREEN);
-        }
-
-
-        
         const locales: Record<string, Record<string, string>> = this.instanceManager.database.locales.global;
         locales.en = {
             ...locales.en,
-            ...mydb?.locales.en
+            ...mydb?.locales?.en
         };
         if (this.instanceManager.debug) {
         this.instanceManager.logger.log(`[${this.instanceManager.modName}] TraderAPI: ${trader} added item locales.`, LogTextColor.GREEN);
         }
 
-        let handbooks = 0;
-        for (const handbook of mydb.templates.handbook.Items) 
-        {
-            if (!this.instanceManager.database.templates.handbook.Items.find((i) => i.Id === handbook.Id)) 
-                this.instanceManager.database.templates.handbook.Items.push(handbook);
-            handbooks++;
-        }
-
-        this.instanceManager.database.traders["bd3a8b28356d9c6509966546"].dialogue = this.instanceManager.database.traders["54cb50c76803fa8b248b4571"].dialogue;
-
-        if (this.instanceManager.debug)
-        {
-        this.instanceManager.logger.log(`[${this.instanceManager.modName}] TraderAPI: ${trader} added ${handbooks} items to handbook database.`, LogTextColor.GREEN);
-        }
 
         this.addTraderToLocales(trader, baseJson);
 

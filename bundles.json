@@ -63,6 +63,48 @@
             ]
         },
         {
+            "key": "Mods/Lasers/raid_xe_black.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/textures/holemanager/glow_particle_bright.bundle",
+                "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+                "assets/systems/effects/collimator.bundle",
+                "assets/systems/effects/laserbeam/laser.bundle",
+                "assets/systems/effects/multiflare/multiflare.bundle",
+                "assets/systems/effects/nightvision.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "Mods/Lasers/raid_xe_fde.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/textures/holemanager/glow_particle_bright.bundle",
+                "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+                "assets/systems/effects/collimator.bundle",
+                "assets/systems/effects/laserbeam/laser.bundle",
+                "assets/systems/effects/multiflare/multiflare.bundle",
+                "assets/systems/effects/nightvision.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "Mods/Lasers/phantom_ctf_2.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/textures/holemanager/glow_particle_bright.bundle",
+                "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+                "assets/systems/effects/collimator.bundle",
+                "assets/systems/effects/laserbeam/laser.bundle",
+                "assets/systems/effects/multiflare/multiflare.bundle",
+                "assets/systems/effects/nightvision.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
             "key": "Mods/Pistol_Grips/b5_pgrip.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -119,7 +161,7 @@
             ]
         },
         {
-            "key": "assets/content/items/mods/sights_rear/sight_rear_ar15_colt_carry_hande_std.bundle",
+            "key": "Mods/Pistol_Grips/dd_pistol_grip_black.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -127,17 +169,35 @@
             ]
         },
         {
-            "key": "assets/content/weapons/m4a1/weapon_colt_m4a1_556x45_container.bundle",
+            "key": "Mods/Pistol_Grips/dd_pistol_grip_brown.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle",
-                "assets/content/weapons/weapon_root_anim_fix.bundle",
-                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
-                "assets/systems/effects/heathaze/defaultheathaze.bundle",
-                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
-                "assets/content/audio/weapons/generic",
-                "assets/content/weapons/additional_hands/client_assets.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Pistol_Grips/dd_pistol_grip_gray.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Pistol_Grips/dd_pistol_grip_tan.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/sights_rear/sight_rear_ar15_colt_carry_hande_std.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
         {
@@ -767,6 +827,38 @@
             ]
         },
         {
+            "key": "assets/content/items/mods/handguards/handguard_ar15_kac_urx_3_8_inch.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/handguards/handguard_ar15_kac_urx_3_8_inch_lower.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/handguards/handguard_ar15_kac_urx_31_10,75_inch.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/handguards/handguard_ar15_kac_urx_31_10,75_inch_lower.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/AR15_Handguards/ks1_hg_blk.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -1000,6 +1092,38 @@
         },
         {
             "key": "Mods/AR15_Handguards/mfr9_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/midwest_ss_7_5.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/midwest_ss_9_25.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/midwest_ss_10_5.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/midwest_ss_12_625.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1464,6 +1588,22 @@
         },
         {
             "key": "Mods/AR15_Handguards/ris_ii_fspl.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/urx_3_1_13_5_lower.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/urx_3_1_13_5_upper.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2259,14 +2399,6 @@
             ]
         },
         {
-            "key": "Mods/Mounts/leupold_ims_35mm_mount.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
             "key": "Mods/Mounts/spectre_1_5_6_rmr_mount.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -2972,28 +3104,6 @@
         },
         {
             "key": "Mods/Scopes/vortex_spitfire_5x.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle",
-                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
-                "assets/content/textures/holemanager/round_spec_mask.bundle",
-                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
-            ]
-        },
-        {
-            "key": "Mods/Scopes/leupold_mk5_5_25_tan.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle",
-                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
-                "assets/content/textures/holemanager/round_spec_mask.bundle",
-                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
-            ]
-        },
-        {
-            "key": "Mods/Scopes/leupold_mk5_5_25_black.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",

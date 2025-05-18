@@ -23,7 +23,6 @@ import type  { ItemHelper } from "@spt/helpers/ItemHelper";
 import type  { ApplicationContext } from "@spt/context/ApplicationContext";
 import { QuestAPI } from "./QuestAPI";
 import { TraderAPI } from "./TraderAPI";
-import type { VFS } from "@spt/utils/VFS";
 
 export class WTTInstanceManager 
 {
@@ -59,7 +58,6 @@ export class WTTInstanceManager
     public importerUtil: ImporterUtil;
     public traderAssortService: TraderAssortService;
     public applicationContext: ApplicationContext;
-    public vfs: VFS;
     public questApi: QuestAPI = new QuestAPI();
     public traderApi: TraderAPI = new TraderAPI();
     //#endregion
@@ -82,7 +80,6 @@ export class WTTInstanceManager
         this.staticRouter = container.resolve<StaticRouterModService>("StaticRouterModService");
         this.dynamicRouter = container.resolve<DynamicRouterModService>("DynamicRouterModService");
         this.traderAssortService = container.resolve<TraderAssortService>("TraderAssortService");
-        this.vfs = container.resolve<VFS>("VFS");
 
 
         this.questApi.preSptLoad(this);
