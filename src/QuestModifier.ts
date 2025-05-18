@@ -305,7 +305,7 @@ export class QuestModifier {
 
         ];
         const newScopesExcluded = [
-            ["5eb8a73e2c5eae1c5118afcb"]
+            ["5eb8a73e2c5eae1c5118afcb"],
             ["a87b4ff0e4df1af49c4d48b7"],
             ["bf8cf7b9d0f73ce039591c65"],
             ["09f8fed0abd75fbd0f81cd91"],
