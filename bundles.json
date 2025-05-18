@@ -91,6 +91,20 @@
             ]
         },
         {
+            "key": "Mods/Lasers/phantom_ctf_2.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/textures/holemanager/glow_particle_bright.bundle",
+                "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+                "assets/systems/effects/collimator.bundle",
+                "assets/systems/effects/laserbeam/laser.bundle",
+                "assets/systems/effects/multiflare/multiflare.bundle",
+                "assets/systems/effects/nightvision.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
             "key": "Mods/Pistol_Grips/b5_pgrip.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -806,6 +820,38 @@
         },
         {
             "key": "assets/content/items/mods/handguards/handguard_ar15_geissele_smr_mk16_135_inch.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/handguards/handguard_ar15_kac_urx_3_8_inch.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/handguards/handguard_ar15_kac_urx_3_8_inch_lower.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/handguards/handguard_ar15_kac_urx_31_10,75_inch.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/handguards/handguard_ar15_kac_urx_31_10,75_inch_lower.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1542,6 +1588,22 @@
         },
         {
             "key": "Mods/AR15_Handguards/ris_ii_fspl.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/urx_3_1_13_5_lower.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/AR15_Handguards/urx_3_1_13_5_upper.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",

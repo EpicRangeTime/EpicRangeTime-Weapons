@@ -280,5 +280,99 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"b1c1a92264b2e9c5dc64506e": {
+		"itemTplToClone": "5c5952732e2216398b5abda2",
+		"parentId": "55818b164bdc2ddc698b456c",
+		"handbookParentId": "5b5f737886f774093e6cb4fb",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Lasers/phantom_ctf_2.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": -1.5,
+			"ModesCount": 4
+		},
+		"locales": {
+			"en": {
+				"name": "Phantom Hill CTF-2 tactical device",
+				"shortName": "CTF-2",
+				"description": "A modular laser aiming module produced by Phantom Hill, since purchased by another company. It sits low enough to the rail to allow the user to aim over it with even cowitness height optics."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_tactical",
+			"mod_tactical002",
+			"mod_tactical001",
+			"mod_tactical_000",
+			"mod_tactical_001",
+			"mod_tactical_002",
+			"mod_tactical_003",
+			"mod_tactical_004",
+			"mod_equipment",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 34000,
+		"handbookPriceRoubles": 22000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 284,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }
