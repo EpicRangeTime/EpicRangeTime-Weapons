@@ -3114,17 +3114,6 @@
             ]
         },
         {
-            "key": "Mods/Scopes/atacr_f1_1-8.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle",
-                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
-                "assets/content/textures/holemanager/round_spec_mask.bundle",
-                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
-            ]
-        },
-        {
             "key": "Mods/Scopes/elcan_1_5-6.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -3231,28 +3220,6 @@
         },
         {
             "key": "Mods/Scopes/nf4-16f1.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle",
-                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
-                "assets/content/textures/holemanager/round_spec_mask.bundle",
-                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
-            ]
-        },
-        {
-            "key": "Mods/Scopes/vortex_eleanor_1_10_blk.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle",
-                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
-                "assets/content/textures/holemanager/round_spec_mask.bundle",
-                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
-            ]
-        },
-        {
-            "key": "Mods/Scopes/vortex_eleanor_1_10_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
