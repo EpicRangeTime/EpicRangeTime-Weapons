@@ -4260,7 +4260,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "Allen Engineering M4 5.56x45 sound suppressor",
+				"name": "AR-15 Allen Engineering M4 5.56x45 sound suppressor",
 				"shortName": "AE M4",
 				"description": "The M4 is a modified Ops Inc. 3rd Model that adds a 5.56 baffle stack and keeps the direct thread 1st section. The M4 was designed directly thread onto a 14.5″ M4 Carbine with the simple instillation of a 3-piece collar that interfaces with the front sight block. The M4 suppressor was notably used by MSG. Gary Gordon during The Battle of Mogadishu."
 			}
@@ -5765,6 +5765,90 @@
 			}
 		],
 		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1100
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1100
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"afcb0df7801fadd95111a3d6": {
+		"itemTplToClone": "5a0d63621526d8dba31fe3bf",
+		"parentId": "550aa4cd4bdc2dd8348b456c",
+		"handbookParentId": "5b5f731a86f774093e6cb4f9",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Suppressors/aem5_suppressor.bundle",
+				"rcid": ""
+			},
+			"Recoil": -7,
+			"Loudness": -35,
+			"Weight": 0.595
+		},
+		"locales": {
+			"en": {
+				"name": "Allen Engineering AEM5 5.56x45 sound suppressor",
+				"shortName": "AEM5",
+				"description": "The AEM5 (OPS INC 12th Model) was the contracted suppressor for the MK12 SPR program and was used on a variety of MIL/LE precision rifles. The AEM5 attaches to the weapon via a muzzle device and a collar that goes over the barrel for alignment."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 56000,
+		"handbookPriceRoubles": 24000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 264,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
 		"addtoBots": false,
 		"addtostaticlootcontainer": true,
 		"StaticLootContainers": [

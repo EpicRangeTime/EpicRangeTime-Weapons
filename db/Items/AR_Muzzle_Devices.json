@@ -2096,5 +2096,107 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"ac14dc7aa887301d799e3b2b": {
+		"itemTplToClone": "612e0cfc8004cc50514c2d9e",
+		"parentId": "550aa4bf4bdc2dd6348b456b",
+		"handbookParentId": "5b5f724c86f774093f2ecf15",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/AR15_Muzzle_Devices/aem_brake_collar.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.141,
+			"Recoil": -8,
+			"Slots": [
+        {
+          "_name": "mod_muzzle",
+          "_id": "6fc5de12dfb1c7b3a64d53ee",
+          "_parent": "ac14dc7aa887301d799e3b2b",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "afcb0df7801fadd95111a3d6"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+		},
+		"locales": {
+			"en": {
+				"name": "AR-15 Allen Engineering OPS INC 5.56x45 muzzle brake",
+				"shortName": "OPS INC",
+				"description": "The iconic OPS INC™ brake, recognized the world over as the primary host muzzle device for all OPS INC™ and Allen Engineering™ brake mounted suppressors. It features a single exit port, directed slightly upward to direct muzzle blast away from the ground during unsuppressed use, minimizing dust kick up."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 12000,
+		"handbookPriceRoubles": 8000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 40,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1900
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1900
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }

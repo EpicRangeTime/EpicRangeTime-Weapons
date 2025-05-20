@@ -1339,6 +1339,24 @@ export class epicItemClass {
             if (fileData._id === "615d8d878004cc50514c3233") {
                 fileData._props.ConflictingItems=[];
             } //Manually add rmr mount to elcan fde
+            if (fileData._id === "5d440b9fa4b93601354d480c") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("ac14dc7aa887301d799e3b2b")
+            } //Manually add AEM Brake to 20 inch AR15 barrel
+            if (fileData._id === "5d440b93a4b9364276578d4b") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("ac14dc7aa887301d799e3b2b")
+            } //Manually add AEM Brake to 18 inch AR15 barrel
+            if (fileData._id === "63d3d44a2a49307baf09386d") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("ac14dc7aa887301d799e3b2b")
+            } //Manually add AEM Brake to Hansen 16 inch AR15 barrel
+            if (fileData._id === "5c0e2f94d174af029f650d56") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("ac14dc7aa887301d799e3b2b")
+            } //Manually add AEM Brake to Molot 16 inch AR15 barrel
+            if (fileData._id === "55d3632e4bdc2d972f8b4569") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("ac14dc7aa887301d799e3b2b")
+            } //Manually add AEM Brake to 14.5 inch AR15 barrel
+            if (fileData._id === "63d3ce0446bd475bcb50f55f") {
+                fileData._props.Slots[0]._props.filters[0].Filter.push("ac14dc7aa887301d799e3b2b")
+            } //Manually add AEM Brake to 13.7 inch AR15 barrel
         }
     }
 
