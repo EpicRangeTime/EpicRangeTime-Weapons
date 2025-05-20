@@ -1819,6 +1819,14 @@
             ]
         },
         {
+            "key": "Mods/AR15_Muzzle_Devices/aem_brake_collar.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/AR15_Uppers/sr15_ambi_ch_blk.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -3219,17 +3227,6 @@
             ]
         },
         {
-            "key": "Mods/Scopes/nf4-16f1.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle",
-                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
-                "assets/content/textures/holemanager/round_spec_mask.bundle",
-                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
-            ]
-        },
-        {
             "key": "Mods/Scopes/vortex_golden_eagle.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -3914,6 +3911,14 @@
         },
         {
             "key": "Mods/Suppressors/deadair_wolverine_keymount.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Suppressors/aem5_suppressor.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
