@@ -10,7 +10,8 @@
 				"rcid": ""
 			},
 			"Ergonomics": -1.5,
-			"ModesCount": 2
+			"ModesCount": 2,
+			"Weight": 0.220
 		},
 		"locales": {
 			"en": {
@@ -104,7 +105,8 @@
 				"rcid": ""
 			},
 			"Ergonomics": -1.5,
-			"ModesCount": 9
+			"ModesCount": 9,
+			"Weight": 0.137
 		},
 		"locales": {
 			"en": {
@@ -198,7 +200,8 @@
 				"rcid": ""
 			},
 			"Ergonomics": -1.5,
-			"ModesCount": 9
+			"ModesCount": 9,
+			"Weight": 0.137
 		},
 		"locales": {
 			"en": {
@@ -292,7 +295,8 @@
 				"rcid": ""
 			},
 			"Ergonomics": -1.5,
-			"ModesCount": 4
+			"ModesCount": 4,
+			"Weight": 0.323
 		},
 		"locales": {
 			"en": {
@@ -387,6 +391,7 @@
 			},
 			"Ergonomics": -1.5,
 			"ModesCount": 4,
+			"Weight": 0.226,
 			"Slots": [
         {
           "_id": "7a576ce762fa2bc5f0b9e6e5",
@@ -503,6 +508,7 @@
 			},
 			"Ergonomics": -1.5,
 			"ModesCount": 4,
+			"Weight": 0.226,
 			"Slots": [
         {
           "_id": "61f4f844bb91e83a034654b9",
@@ -563,6 +569,382 @@
 		"barterScheme": [
 			{
 				"count": 135,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"0257250579c25ee07a7fd721": {
+		"itemTplToClone": "5d10b49bd7ad1a1a560708b0",
+		"parentId": "55818b164bdc2ddc698b456c",
+		"handbookParentId": "5b5f737886f774093e6cb4fb",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Lasers/otal_c_blk_vis_red.bundle",
+				"rcid": ""
+			},
+			"ModesCount": 1,
+			"Weight": 0.159
+		},
+		"locales": {
+			"en": {
+				"name": "Steiner OTAL-C tactical device (Black-Vis)",
+				"shortName": "OTAL-C",
+				"description": "The OTAL-C is  the \"classic\"  version of this offset tactical aiming laser. Rugged and compact, the OTAL-C laser is used by military and law enforcement agencies worldwide and has developed a reputation for ruggedness and reliability."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_tactical",
+			"mod_tactical002",
+			"mod_tactical001",
+			"mod_tactical_000",
+			"mod_tactical_001",
+			"mod_tactical_002",
+			"mod_tactical_003",
+			"mod_tactical_004",
+			"mod_equipment",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 16000,
+		"handbookPriceRoubles": 11000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 85,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"e99dbf09963efebab19a118b": {
+		"itemTplToClone": "5d10b49bd7ad1a1a560708b0",
+		"parentId": "55818b164bdc2ddc698b456c",
+		"handbookParentId": "5b5f737886f774093e6cb4fb",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Lasers/otal_c_fde_grn_vis.bundle",
+				"rcid": ""
+			},
+			"ModesCount": 1,
+			"Weight": 0.159
+		},
+		"locales": {
+			"en": {
+				"name": "Steiner OTAL-C tactical device (FDE-Vis)",
+				"shortName": "OTAL-C",
+				"description": "The OTAL-C is  the \"classic\"  version of this offset tactical aiming laser. Rugged and compact, the OTAL-C laser is used by military and law enforcement agencies worldwide and has developed a reputation for ruggedness and reliability."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_tactical",
+			"mod_tactical002",
+			"mod_tactical001",
+			"mod_tactical_000",
+			"mod_tactical_001",
+			"mod_tactical_002",
+			"mod_tactical_003",
+			"mod_tactical_004",
+			"mod_equipment",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 17000,
+		"handbookPriceRoubles": 10000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 92,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"0ce051265bcb619558b2ef9a": {
+		"itemTplToClone": "5d10b49bd7ad1a1a560708b0",
+		"parentId": "55818b164bdc2ddc698b456c",
+		"handbookParentId": "5b5f737886f774093e6cb4fb",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Lasers/otal_c_fde_ir.bundle",
+				"rcid": ""
+			},
+			"ModesCount": 1,
+			"Weight": 0.159
+		},
+		"locales": {
+			"en": {
+				"name": "Steiner OTAL-C tactical device (FDE-IR)",
+				"shortName": "OTAL-C",
+				"description": "The OTAL-C is  the \"classic\"  version of this offset tactical aiming laser. Rugged and compact, the OTAL-C laser is used by military and law enforcement agencies worldwide and has developed a reputation for ruggedness and reliability."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_tactical",
+			"mod_tactical002",
+			"mod_tactical001",
+			"mod_tactical_000",
+			"mod_tactical_001",
+			"mod_tactical_002",
+			"mod_tactical_003",
+			"mod_tactical_004",
+			"mod_equipment",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22000,
+		"handbookPriceRoubles": 14000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 100,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"77f31a56076dc8e398797a7c": {
+		"itemTplToClone": "5d10b49bd7ad1a1a560708b0",
+		"parentId": "55818b164bdc2ddc698b456c",
+		"handbookParentId": "5b5f737886f774093e6cb4fb",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Lasers/otal_c_blk_ir.bundle",
+				"rcid": ""
+			},
+			"ModesCount": 1,
+			"Weight": 0.159
+		},
+		"locales": {
+			"en": {
+				"name": "Steiner OTAL-C tactical device (Black-IR)",
+				"shortName": "OTAL-C",
+				"description": "The OTAL-C is  the \"classic\"  version of this offset tactical aiming laser. Rugged and compact, the OTAL-C laser is used by military and law enforcement agencies worldwide and has developed a reputation for ruggedness and reliability."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_tactical",
+			"mod_tactical002",
+			"mod_tactical001",
+			"mod_tactical_000",
+			"mod_tactical_001",
+			"mod_tactical_002",
+			"mod_tactical_003",
+			"mod_tactical_004",
+			"mod_equipment",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 20000,
+		"handbookPriceRoubles": 13000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 98,
 				"_tpl": "DOLLARS"
 			}
 		],
