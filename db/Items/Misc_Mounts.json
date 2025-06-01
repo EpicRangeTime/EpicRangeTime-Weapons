@@ -5389,5 +5389,287 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"caa063259af7ba16d12efdec": {
+		"itemTplToClone": "5a33bab6c4a28200741e22f8",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/dbal_i2_rmr.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_id": "d76672f76bdc3a94c0ae8420",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_scope",
+					"_parent": "caa063259af7ba16d12efdec",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5a32aa8bc4a2826c6e06d737"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Farrow Tech DBAL-i2 RMR mount",
+				"shortName": "RMR",
+				"description": "Plate designed to mount a Trijicon RMR to a DBAL-i2 tactical device."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 12000,
+		"handbookPriceRoubles": 6100,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 18,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"ebef489a3c50f53e143480f9": {
+		"itemTplToClone": "5a33bab6c4a28200741e22f8",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/dbal_i2_leaf.bundle",
+				"rcid": ""
+			},
+			"Slots": [],
+			"Ergonomics": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Railscales DBAL-i2 LEAF front sight",
+				"shortName": "LEAF",
+				"description": "LEAF fixed Iron Sight for DBAL Lasers. Hard mount to your laser and clean up valuable rail space by eliminating your folding front sight. Just mount to your laser, and adjust your rear windage to your Red dot."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 8000,
+		"handbookPriceRoubles": 4660,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 12,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"df8c1c5015d2342b6c6edb56": {
+		"itemTplToClone": "5a33bab6c4a28200741e22f8",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Mods/Mounts/dbal_i2_acro.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_id": "7b58558e01e24091b1cfa8d0",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_scope",
+					"_parent": "eeb62fba336b644c26813276",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"616442e4faa1272e43152193"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Farrow Tech DBAL-i2 ACRO mount",
+				"shortName": "ACRO",
+				"description": "Plate designed to mount an Aimpoint ACRO to a DBAL-i2 tactical device."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 13500,
+		"handbookPriceRoubles": 7200,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 21,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 1600
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 1600
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }

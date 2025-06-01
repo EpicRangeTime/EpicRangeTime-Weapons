@@ -113,6 +113,34 @@
             ]
         },
         {
+            "key": "Mods/Lasers/dbal_i2_black.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/textures/holemanager/glow_particle_bright.bundle",
+                "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+                "assets/systems/effects/collimator.bundle",
+                "assets/systems/effects/laserbeam/laser.bundle",
+                "assets/systems/effects/multiflare/multiflare.bundle",
+                "assets/systems/effects/nightvision.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "Mods/Lasers/dbal_i2_fde.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/textures/holemanager/glow_particle_bright.bundle",
+                "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+                "assets/systems/effects/collimator.bundle",
+                "assets/systems/effects/laserbeam/laser.bundle",
+                "assets/systems/effects/multiflare/multiflare.bundle",
+                "assets/systems/effects/nightvision.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
             "key": "Mods/Pistol_Grips/b5_pgrip.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -2848,6 +2876,38 @@
         },
         {
             "key": "Mods/Mounts/rep_acro_offset_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/dbal_i2_rmr.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/dbal_i2_leaf.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/dbal_i2_docter.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Mounts/dbal_i2_acro.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",

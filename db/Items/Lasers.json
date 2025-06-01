@@ -374,5 +374,237 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"bb4bb5d7e4f3ad7a1f19571e": {
+		"itemTplToClone": "5c5952732e2216398b5abda2",
+		"parentId": "55818b164bdc2ddc698b456c",
+		"handbookParentId": "5b5f737886f774093e6cb4fb",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Lasers/dbal_i2_black.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": -1.5,
+			"ModesCount": 4,
+			"Slots": [
+        {
+          "_id": "7a576ce762fa2bc5f0b9e6e5",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "bb4bb5d7e4f3ad7a1f19571e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "df8c1c5015d2342b6c6edb56",
+				  "ebef489a3c50f53e143480f9",
+				  "caa063259af7ba16d12efdec"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+		},
+		"locales": {
+			"en": {
+				"name": "Steiner DBAL-i2 tactical device (Black)",
+				"shortName": "DBAL-i2",
+				"description": "The most lightweight model in the DBAL Series, this “intelligent” laser provides extreme accuracy in low- light conditions and can be used with night-vision devices."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_tactical",
+			"mod_tactical002",
+			"mod_tactical001",
+			"mod_tactical_000",
+			"mod_tactical_001",
+			"mod_tactical_002",
+			"mod_tactical_003",
+			"mod_tactical_004",
+			"mod_equipment",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22000,
+		"handbookPriceRoubles": 17000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 135,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"e727709694036c1f49f234e6": {
+		"itemTplToClone": "5c5952732e2216398b5abda2",
+		"parentId": "55818b164bdc2ddc698b456c",
+		"handbookParentId": "5b5f737886f774093e6cb4fb",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Lasers/dbal_i2_fde.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": -1.5,
+			"ModesCount": 4,
+			"Slots": [
+        {
+          "_id": "61f4f844bb91e83a034654b9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "e727709694036c1f49f234e6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "df8c1c5015d2342b6c6edb56",
+				  "ebef489a3c50f53e143480f9",
+				  "caa063259af7ba16d12efdec"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+		},
+		"locales": {
+			"en": {
+				"name": "Steiner DBAL-i2 tactical device (FDE)",
+				"shortName": "DBAL-i2",
+				"description": "The most lightweight model in the DBAL Series, this “intelligent” laser provides extreme accuracy in low- light conditions and can be used with night-vision devices."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_tactical",
+			"mod_tactical002",
+			"mod_tactical001",
+			"mod_tactical_000",
+			"mod_tactical_001",
+			"mod_tactical_002",
+			"mod_tactical_003",
+			"mod_tactical_004",
+			"mod_equipment",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22000,
+		"handbookPriceRoubles": 17000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 135,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }
