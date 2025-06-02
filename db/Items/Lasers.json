@@ -988,5 +988,193 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"c0e0bac29a8c50eff201f00e": {
+		"itemTplToClone": "5d10b49bd7ad1a1a560708b0",
+		"parentId": "55818b164bdc2ddc698b456c",
+		"handbookParentId": "5b5f737886f774093e6cb4fb",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Lasers/cqbl_1_blk.bundle",
+				"rcid": ""
+			},
+			"ModesCount": 2,
+			"Weight": 0.170
+		},
+		"locales": {
+			"en": {
+				"name": "Steiner CQBL-1 tactical device (Black)",
+				"shortName": "CQBL-1",
+				"description": "One of the smallest and most rugged dual-function lasers available, the CQBL-1 is compatible with virtually every submachine gun and short-barrel rifle there is; durable and rugged for use on carbine, rifle and light machine gun systems."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_tactical",
+			"mod_tactical002",
+			"mod_tactical001",
+			"mod_tactical_000",
+			"mod_tactical_001",
+			"mod_tactical_002",
+			"mod_tactical_003",
+			"mod_tactical_004",
+			"mod_equipment",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 32000,
+		"handbookPriceRoubles": 16000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 136,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"51ef8504f4a2e4d2029ff682": {
+		"itemTplToClone": "5d10b49bd7ad1a1a560708b0",
+		"parentId": "55818b164bdc2ddc698b456c",
+		"handbookParentId": "5b5f737886f774093e6cb4fb",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Lasers/cqbl_1_fde.bundle",
+				"rcid": ""
+			},
+			"ModesCount": 2,
+			"Weight": 0.170
+		},
+		"locales": {
+			"en": {
+				"name": "Steiner CQBL-1 tactical device (FDE)",
+				"shortName": "CQBL-1",
+				"description": "One of the smallest and most rugged dual-function lasers available, the CQBL-1 is compatible with virtually every submachine gun and short-barrel rifle there is; durable and rugged for use on carbine, rifle and light machine gun systems."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_tactical",
+			"mod_tactical002",
+			"mod_tactical001",
+			"mod_tactical_000",
+			"mod_tactical_001",
+			"mod_tactical_002",
+			"mod_tactical_003",
+			"mod_tactical_004",
+			"mod_equipment",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 37000,
+		"handbookPriceRoubles": 16500,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 139,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }
