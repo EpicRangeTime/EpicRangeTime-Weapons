@@ -52,22 +52,6 @@ export class epicItemClass {
             if (fileData._id === "5fbbfacda56d053a3543f799") {
                 fileData._props.Slots[0]._props.filters[0].Filter.push("9930f05d4e38813e5ef5ff90");
             } //Manually pushing .30 cal flash hider to MCX barrels
-            if (fileData._id === "5c0548ae0db834001966a3c2") {
-                fileData._props.Cartridges[0]._props.filters[0].Filter.push("5fbe3ffdf8b6a877a729ea82",
-                    "5fd20ff893a8961fc660a954",
-                    "619636be6db0f2477964e710",
-                    "6196364158ef8c428c287d9f",
-                    "6196365d58ef8c428c287da1",
-                    "64b8725c4b75259c590fa899");
-            } //Pushing .300blk to 5.56 AK mags
-            if (fileData._id === "5ac66c5d5acfc4001718d314") {
-                fileData._props.Cartridges[0]._props.filters[0].Filter.push("5fbe3ffdf8b6a877a729ea82",
-                    "5fd20ff893a8961fc660a954",
-                    "619636be6db0f2477964e710",
-                    "6196364158ef8c428c287d9f",
-                    "6196365d58ef8c428c287da1",
-                    "64b8725c4b75259c590fa899");
-            } //Pushing .300blk to 5.56 AK mags
             if (fileData._id === "5d25a6538abbc306c62e630d") {
                 fileData._props.Cartridges[0]._props.filters[0].Filter.push("6529243824cbe3c74a05e5c1",
                     "6529302b8c26af6326029fb7");
@@ -277,33 +261,6 @@ export class epicItemClass {
             if (fileData._id === "5580223e4bdc2d1c128b457f") {
                 fileData._props.Slots[0]._props.filters[0].Filter.push("64748d02d1c009260702b526");
             } //Pushing short barrel to double barrel shotgun
-            if (fileData._id === "5ac66d9b5acfc4001633997a") {
-                fileData._props.Slots[2]._props.filters[0].Filter.push("5e21ca18e4d47f0da15e77dd");
-            } //Pushing 5.56 CNC warrior adapter to AK-105
-            if (fileData._id === "5bf3e03b0db834001d2c4a9c") {
-                fileData._props.Slots[2]._props.filters[0].Filter.push("5e21ca18e4d47f0da15e77dd");
-            } //Pushing 5.56 CNC warrior adapter to AK-74
-            if (fileData._id === "5ac4cd105acfc40016339859") {
-                fileData._props.Slots[2]._props.filters[0].Filter.push("5e21ca18e4d47f0da15e77dd");
-            } //Pushing 5.56 CNC warrior adapter to AK-74M
-            if (fileData._id === "5644bd2b4bdc2d3b4c8b4572") {
-                fileData._props.Slots[2]._props.filters[0].Filter.push("5e21ca18e4d47f0da15e77dd");
-            } //Pushing 5.56 CNC warrior adapter to AK-74N
-            if (fileData._id === "5bf3e0490db83400196199af") {
-                fileData._props.Slots[2]._props.filters[0].Filter.push("5e21ca18e4d47f0da15e77dd");
-            } //Pushing 5.56 CNC warrior adapter to AKS-74
-            if (fileData._id === "5ab8e9fcd8ce870019439434") {
-                fileData._props.Slots[2]._props.filters[0].Filter.push("5e21ca18e4d47f0da15e77dd");
-            } //Pushing 5.56 CNC warrior adapter to AKS-74N
-            if (fileData._id === "57dc2fa62459775949412633") {
-                fileData._props.Slots[4]._props.filters[0].Filter.push("5e21ca18e4d47f0da15e77dd");
-            } //Pushing 5.56 CNC warrior adapter to AKS-74U
-            if (fileData._id === "583990e32459771419544dd2") {
-                fileData._props.Slots[4]._props.filters[0].Filter.push("5e21ca18e4d47f0da15e77dd");
-            } //Pushing 5.56 CNC warrior adapter to AKS-74UN
-            if (fileData._id === "5839a40f24597726f856b511") {
-                fileData._props.Slots[4]._props.filters[0].Filter.push("5e21ca18e4d47f0da15e77dd");
-            } //Pushing 5.56 CNC warrior adapter to AKS-74UB
             if (fileData._id === "55d3632e4bdc2d972f8b4569") {
                 fileData._props.Slots[0]._props.filters[0].Filter.push("45b07217916365a3171c079e");
             } //Manually pushing the AE M4 suppressor only to the AR 370mm barrel
@@ -1073,26 +1030,26 @@ export class epicItemClass {
                 fileData._props.Slots[0]._props.filters[0].Filter.push("5ae30bad5acfc400185c2dc4");
             } //Changing filters for AR15 rear sights
             if (fileData._id === "628a66b41d5e41750e314f34") {
-                fileData._props.Slots=[
+                fileData._props.Slots = [
                     {
-                      "_id": "41d4699a7cded67adf9cd69a",
-                      "_mergeSlotWithChildren": false,
-                      "_name": "mod_muzzle",
-                      "_parent": "628a66b41d5e41750e314f34",
-                      "_props": {
-                        "filters": [
-                          {
-                            "Filter": [
-                              "c55bf7b1464db07d86ea62e8"
-                            ],
-                            "Shift": 0
-                          }
-                        ]
-                      },
-                      "_proto": "55d30c4c4bdc2db4468b457e",
-                      "_required": false
+                        "_id": "41d4699a7cded67adf9cd69a",
+                        "_mergeSlotWithChildren": false,
+                        "_name": "mod_muzzle",
+                        "_parent": "628a66b41d5e41750e314f34",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "c55bf7b1464db07d86ea62e8"
+                                    ],
+                                    "Shift": 0
+                                }
+                            ]
+                        },
+                        "_proto": "55d30c4c4bdc2db4468b457e",
+                        "_required": false
                     }
-                  ];
+                ];
             } //Adding muzzle slot for keymount 7.62 muzzle brake
             if (fileData._id === "55d35ee94bdc2d61338b4568") {
                 fileData._props.Slots[0]._props.filters[0].Filter.push("5cc125555c98bf150a4fd068");
@@ -1217,33 +1174,33 @@ export class epicItemClass {
             if (fileData._id === "652910565ae2ae97b80fdf35") {
                 fileData._props.Slots[0]._props.filters[0].Filter.push("5cc125555c98bf150a4fd068",
                     "612e0d3767085e45ef14057f",
-                  "5b7d693d5acfc43bca706a3d",
-                  "5a34fd2bc4a282329a73b4c5",
-                  "6065c6e7132d4d12c81fd8e1",
-                  "5d1f819086f7744b355c219b",
-                  "5dcbe965e4ed22586443a79d",
-                  "5d026791d7ad1a04a067ea63",
-                  "5dfa3cd1b33c0951220c079b",
-                  "6130c43c67085e45ef1405a1",
-                  "5cdd7685d7f00c000f260ed2",
-                  "5c878e9d2e2216000f201903",
-                  "5d02677ad7ad1a04a15c0f95",
-                  "5bbdb8bdd4351e4502011460",
-                  "5cdd7693d7f00c0010373aa5",
-                  "607ffb988900dc2d9a55b6e4",
-                  "615d8eb350224f204c1da1cf",
-                  "612e0e3c290d254f5e6b291d",
-                  "5d443f8fa4b93678dd4a01aa",
-                  "5c7954d52e221600106f4cc7",
-                  "5fbc22ccf24b94483f726483",
-                  "59bffc1f86f77435b128b872",
-                  "5cf78496d7f00c065703d6ca",
-                  "5d270ca28abbc31ee25ee821",
-                  "5d270b3c8abbc3105335cfb8",
-                  "5fbe7618d6fa9c00c571bb6c",
-                  "628a66b41d5e41750e314f34",
-                  "618178aa1cb55961fa0fdc80",
-                  "6642f63667f5cb56a00662eb"
+                    "5b7d693d5acfc43bca706a3d",
+                    "5a34fd2bc4a282329a73b4c5",
+                    "6065c6e7132d4d12c81fd8e1",
+                    "5d1f819086f7744b355c219b",
+                    "5dcbe965e4ed22586443a79d",
+                    "5d026791d7ad1a04a067ea63",
+                    "5dfa3cd1b33c0951220c079b",
+                    "6130c43c67085e45ef1405a1",
+                    "5cdd7685d7f00c000f260ed2",
+                    "5c878e9d2e2216000f201903",
+                    "5d02677ad7ad1a04a15c0f95",
+                    "5bbdb8bdd4351e4502011460",
+                    "5cdd7693d7f00c0010373aa5",
+                    "607ffb988900dc2d9a55b6e4",
+                    "615d8eb350224f204c1da1cf",
+                    "612e0e3c290d254f5e6b291d",
+                    "5d443f8fa4b93678dd4a01aa",
+                    "5c7954d52e221600106f4cc7",
+                    "5fbc22ccf24b94483f726483",
+                    "59bffc1f86f77435b128b872",
+                    "5cf78496d7f00c065703d6ca",
+                    "5d270ca28abbc31ee25ee821",
+                    "5d270b3c8abbc3105335cfb8",
+                    "5fbe7618d6fa9c00c571bb6c",
+                    "628a66b41d5e41750e314f34",
+                    "618178aa1cb55961fa0fdc80",
+                    "6642f63667f5cb56a00662eb"
                 );
             } //Manually add wolverine and other muzzle devices to Spear 330mm 6.8 barrel
             if (fileData._id === "60658776f2cb2e02a42ace2b") {
@@ -1337,7 +1294,7 @@ export class epicItemClass {
                 fileData._props.Slots[0]._props.filters[0].Filter.push("eeb62fba336b644c26813276");
             } //Manually add rmr mount to elcan fde
             if (fileData._id === "615d8d878004cc50514c3233") {
-                fileData._props.ConflictingItems=[];
+                fileData._props.ConflictingItems = [];
             } //Manually add rmr mount to elcan fde
             if (fileData._id === "5d440b9fa4b93601354d480c") {
                 fileData._props.Slots[0]._props.filters[0].Filter.push("ac14dc7aa887301d799e3b2b")
