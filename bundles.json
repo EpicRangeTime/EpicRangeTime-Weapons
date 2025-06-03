@@ -225,6 +225,20 @@
             ]
         },
         {
+            "key": "Mods/Lasers/l3_ngal_fp_la23_peq.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/textures/holemanager/glow_particle_bright.bundle",
+                "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+                "assets/systems/effects/collimator.bundle",
+                "assets/systems/effects/laserbeam/laser.bundle",
+                "assets/systems/effects/multiflare/multiflare.bundle",
+                "assets/systems/effects/nightvision.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
             "key": "Mods/Pistol_Grips/b5_pgrip.bundle",
             "dependencyKeys": [
                 "shaders",

@@ -990,7 +990,7 @@
 		"weaponpresets": []
 	},
 	"c0e0bac29a8c50eff201f00e": {
-		"itemTplToClone": "5d10b49bd7ad1a1a560708b0",
+		"itemTplToClone": "544909bb4bdc2d6f028b4577",
 		"parentId": "55818b164bdc2ddc698b456c",
 		"handbookParentId": "5b5f737886f774093e6cb4fb",
 		"overrideProperties": {
@@ -1084,7 +1084,7 @@
 		"weaponpresets": []
 	},
 	"51ef8504f4a2e4d2029ff682": {
-		"itemTplToClone": "5d10b49bd7ad1a1a560708b0",
+		"itemTplToClone": "544909bb4bdc2d6f028b4577",
 		"parentId": "55818b164bdc2ddc698b456c",
 		"handbookParentId": "5b5f737886f774093e6cb4fb",
 		"overrideProperties": {
@@ -1137,6 +1137,100 @@
 			}
 		],
 		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"1de63dfb52c91ccb9dd2c83a": {
+		"itemTplToClone": "544909bb4bdc2d6f028b4577",
+		"parentId": "55818b164bdc2ddc698b456c",
+		"handbookParentId": "5b5f737886f774093e6cb4fb",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Lasers/l3_ngal_fp_la23_peq.bundle",
+				"rcid": ""
+			},
+			"ModesCount": 7,
+			"Weight": 0.141
+		},
+		"locales": {
+			"en": {
+				"name": "L3Harris LA-23/PEQ tactical device",
+				"shortName": "NGAL",
+				"description": "The L3Harris NGAL is a rugged, ultra-compact and lightweight system designed to be compatible with all generations of night vision devices. NGAL uses an advanced illuminator design to achieve a more uniform Near Infrared illuminator beam for increased Situation Awareness. The L3Harris NGAL was selected as the USSOCOM WPNAC (Weapon Accessories) Miniaturized Aiming System, Laser (MAS-L) as the Squad Aiming Laser (SAL) to replace the MDNS (Miniature Day Night Sight) ATPIAL in USSOCM use, and classified as the LA-23/PEQ."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_tactical",
+			"mod_tactical002",
+			"mod_tactical001",
+			"mod_tactical_000",
+			"mod_tactical_001",
+			"mod_tactical_002",
+			"mod_tactical_003",
+			"mod_tactical_004",
+			"mod_equipment",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 44000,
+		"handbookPriceRoubles": 16500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 224,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
 		"addtoBots": false,
 		"addtostaticlootcontainer": false,
 		"StaticLootContainers": [
