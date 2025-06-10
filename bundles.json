@@ -3556,6 +3556,14 @@
             ]
         },
         {
+            "key": "Mods/Stocks/stock_m16a2_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Stocks/stock_midwestindustriesfixed.bundle",
             "dependencyKeys": [
                 "shaders",
