@@ -817,38 +817,6 @@
             ]
         },
         {
-            "key": "Mods/AR15_Barrels/kac_mod2_gb.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/AR15_Barrels/ks1_barrel.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/AR15_Barrels/ks1_gb.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/AR15_Barrels/sr15_16_barrel.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
             "key": "Mods/AR15_Handguards/hogue_15_inch_hg_blue.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -986,22 +954,6 @@
         },
         {
             "key": "assets/content/items/mods/handguards/handguard_ar15_kac_urx_31_10,75_inch_lower.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/AR15_Handguards/ks1_hg_blk.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/AR15_Handguards/ks1_hg_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1954,38 +1906,6 @@
         },
         {
             "key": "Mods/AR15_Muzzle_Devices/aem_brake_collar.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/AR15_Uppers/sr15_ambi_ch_blk.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/AR15_Uppers/sr15_ambi_ch_fde.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/AR15_Uppers/sr15_upper_blk.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/AR15_Uppers/sr15_upper_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
