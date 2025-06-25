@@ -1270,5 +1270,381 @@
 		],
 		"addweaponpreset": false,
 		"weaponpresets": []
+	},
+	"253279f21f3222961c5dfa8d": {
+		"itemTplToClone": "544909bb4bdc2d6f028b4577",
+		"parentId": "55818b164bdc2ddc698b456c",
+		"handbookParentId": "5b5f737886f774093e6cb4fb",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Lasers/eotech_ogl_black.bundle",
+				"rcid": ""
+			},
+			"ModesCount": 10,
+			"Weight": 0.227
+		},
+		"locales": {
+			"en": {
+				"name": "Eotech OGL tactical device (Black)",
+				"shortName": "OGL",
+				"description": "The design for the EOTECH On-Gun Laser (OGL) focuses on human performance factors under extreme stress creating the premium choice for professional users. The OGL Standard Power (restricted to MIL/LE use) is powered by a single CR123 battery providing up to 9 hours of continuous run time. The machined aluminum housing provides extreme durability in a compact package roughly the size of a standard deck of playing cards."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_tactical",
+			"mod_tactical002",
+			"mod_tactical001",
+			"mod_tactical_000",
+			"mod_tactical_001",
+			"mod_tactical_002",
+			"mod_tactical_003",
+			"mod_tactical_004",
+			"mod_equipment",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 67000,
+		"handbookPriceRoubles": 24000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 214,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"c569fa63e462980552ecdc77": {
+		"itemTplToClone": "544909bb4bdc2d6f028b4577",
+		"parentId": "55818b164bdc2ddc698b456c",
+		"handbookParentId": "5b5f737886f774093e6cb4fb",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Lasers/eotech_ogl_fde.bundle",
+				"rcid": ""
+			},
+			"ModesCount": 10,
+			"Weight": 0.227
+		},
+		"locales": {
+			"en": {
+				"name": "Eotech OGL tactical device (FDE)",
+				"shortName": "OGL",
+				"description": "The design for the EOTECH On-Gun Laser (OGL) focuses on human performance factors under extreme stress creating the premium choice for professional users. The OGL Standard Power (restricted to MIL/LE use) is powered by a single CR123 battery providing up to 9 hours of continuous run time. The machined aluminum housing provides extreme durability in a compact package roughly the size of a standard deck of playing cards."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_tactical",
+			"mod_tactical002",
+			"mod_tactical001",
+			"mod_tactical_000",
+			"mod_tactical_001",
+			"mod_tactical_002",
+			"mod_tactical_003",
+			"mod_tactical_004",
+			"mod_equipment",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 69420,
+		"handbookPriceRoubles": 22000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 217,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"a681a1c93529b1fb2118488a": {
+		"itemTplToClone": "544909bb4bdc2d6f028b4577",
+		"parentId": "55818b164bdc2ddc698b456c",
+		"handbookParentId": "5b5f737886f774093e6cb4fb",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Lasers/dbal_a2_black.bundle",
+				"rcid": ""
+			},
+			"ModesCount": 8,
+			"Weight": 0.227
+		},
+		"locales": {
+			"en": {
+				"name": "Steiner DBAL-A2 AN/PEQ-15A tactical device",
+				"shortName": "AN/PEQ-15A",
+				"description": "US Army issued AN/PEQ-15A, obviously captured from an issued rifle. Incorporates an improved IR illuminator to provide better illumination at longer distances, and the cleaner, circular beam allows for accurate range estimation and engagement of moving targets."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_tactical",
+			"mod_tactical002",
+			"mod_tactical001",
+			"mod_tactical_000",
+			"mod_tactical_001",
+			"mod_tactical_002",
+			"mod_tactical_003",
+			"mod_tactical_004",
+			"mod_equipment",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 47000,
+		"handbookPriceRoubles": 18000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 220,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"673dee1aa998f18003f111f5": {
+		"itemTplToClone": "544909bb4bdc2d6f028b4577",
+		"parentId": "55818b164bdc2ddc698b456c",
+		"handbookParentId": "5b5f737886f774093e6cb4fb",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/Lasers/dbal_a3_black.bundle",
+				"rcid": ""
+			},
+			"ModesCount": 7,
+			"Weight": 0.218
+		},
+		"locales": {
+			"en": {
+				"name": "Steiner DBAL-A3 tactical device",
+				"shortName": "DBAL-A3",
+				"description": "The dual-beam infrared laser and illuminator combination is extremely accurate in low- and no-light maneuvers. In addition, the DBAL-A3 is the first to feature new defocused adjustable IR illumination technology to enable both midrange and close quarter target acquisition."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_tactical",
+			"mod_tactical002",
+			"mod_tactical001",
+			"mod_tactical_000",
+			"mod_tactical_001",
+			"mod_tactical_002",
+			"mod_tactical_003",
+			"mod_tactical_004",
+			"mod_equipment",
+			"mod_scope"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 49000,
+		"handbookPriceRoubles": 20000,
+		"addtoTraders": true,
+		"traderId": "BADGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 234,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 2000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 2000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
 	}
 }
