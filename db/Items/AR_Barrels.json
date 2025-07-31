@@ -303,7 +303,7 @@
 				]
 			}
 		],
-		"addweaponpreset": true,
+		"addweaponpreset": false,
 		"weaponpresets": [
 			{
 				"_changeWeaponName": true,
@@ -2464,7 +2464,7 @@
 			"Accuracy": -3,
 			"Recoil": -2,
 			"Ergonomics": -7,
-			"Velocity": -16.6,
+			"Velocity": -8.73,
 			"ConflictingItems": [
 				"5d00ef6dd7ad1a0940739b16",
 				"5df916dfbb49d91fb446d6b9",
@@ -2559,11 +2559,18 @@
 			"Accuracy": -1,
 			"Recoil": -4,
 			"Ergonomics": -9,
-			"Velocity": -14,
-			"ConflictingItems": [
+			"ConflictingItems":[
 				"6065881d1246154cad35d637",
-				"5df916dfbb49d91fb446d6b9"
-			]
+				"5df916dfbb49d91fb446d6b9",
+				"5d00ef6dd7ad1a0940739b16",
+				"5a329052c4a28200741e22d3",
+				"4bc96df7c1aa5766c0bc72c8",
+				"b757c01e1177f77291bb9730",
+				"be33d9bccda7b14e52e7d230"
+			],
+			"CoolFactor": 0.98,
+			"HeatFactor": 0.94,
+			"Velocity": -7.23
 		},
 		"locales": {
 			"en": {
