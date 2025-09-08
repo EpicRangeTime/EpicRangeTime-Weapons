@@ -41,11 +41,14 @@ export class QuestAPI {
      */
     public loadQuestsFromDirectory(trader: string): void {
         const jsonQuestFiles: any[] = [];
-        const jsonLocaleFiles: any[] = [];
+        const jsonLocaleData: any[] = [];
         const jsonImageFiles: any[] = [];
         const questFiles = fs.readdirSync(path.join(this.instanceManager.dbPath, "Quests", trader));
         const questLocalesFiles = fs.readdirSync(path.join(this.instanceManager.dbPath, "Quests", trader, "locales"));
         const questImageFiles = fs.readdirSync(path.join(this.instanceManager.dbPath, "Quests", trader, "images"));
+        const serverLocales = ["ch", "cz", "en", "es", "es-mx", "fr", "ge", "hu", "it", "jp", "kr", "pl", "po", "ru", "sk", "tu"];
+        const fallbackLocale = "en";
+        const fallbackLocalePath = path.join(this.instanceManager.dbPath.concat(`\/Quests\/${trader}\/locales`), fallbackLocale + ".json");
 
         if (this.instanceManager.debug) {
             console.log("---------------------------------------------------------");
@@ -82,24 +85,30 @@ export class QuestAPI {
             }
         }
 
-        // Load locale data from disk
-        for (const locale of questLocalesFiles) {
-            const filePath = path.join(this.instanceManager.dbPath.concat(`\/Quests\/${trader}\/locales`), locale);
-            const itemStats = fs.lstatSync(filePath);
+        // Iterate over known locale names, load locale data from disk
+        for (const localeName of serverLocales) {
+            const filePath = path.join(this.instanceManager.dbPath.concat(`\/Quests\/${trader}\/locales`), localeName + ".json");
             let fileContent: any;
 
-            if (itemStats.isFile()) {
+            // Check if locale file is present before attempting to read the file,
+            // otherwise fallback to default locale (en).
+            if (fs.existsSync(filePath) && fs.lstatSync(filePath).isFile()) {
+                if (this.instanceManager.debug) {
+                    console.log(`Trader: ${trader} quest \"${localeName}\" locale file path:`)
+                    console.log(filePath);
+                }
                 fileContent = fs.readFileSync(filePath, "utf-8");
-            }
-
-            if (this.instanceManager.debug) {
-                console.log(`Trader: ${trader} quest locale file path:`)
-                console.log(filePath);
+            } else {
+                if (this.instanceManager.debug) {
+                    console.log(`Trader: ${trader} quest \"${localeName}\" locale does not exist, will fallback to:`)
+                    console.log(fallbackLocalePath);
+                }
+                fileContent = fs.readFileSync(fallbackLocalePath, "utf-8");
             }
 
             try {
                 const jsonData = JSON.parse(fileContent);
-                jsonLocaleFiles.push(jsonData);
+                jsonLocaleData.push({ locale: localeName, content: jsonData });
             }
             catch (error) {
                 console.error(`Error parsing JSON from file ${filePath}: ${error}`);
@@ -122,7 +131,7 @@ export class QuestAPI {
         }
 
         this.importQuestData(jsonQuestFiles, trader);
-        this.importLocaleData(jsonLocaleFiles, trader);
+        this.importLocaleData(jsonLocaleData, trader);
         this.importImageData(jsonImageFiles, trader);
     }
 
@@ -195,25 +204,31 @@ export class QuestAPI {
     /**
      * Import locale data into the database
      */
-    private importLocaleData(jsonLocaleFiles: any[], trader: string): void {
-        if (Object.keys(jsonLocaleFiles).length < 1) {
+    private importLocaleData(jsonLocaleData: any[], trader: string): void {
+        if (Object.keys(jsonLocaleData).length < 1) {
             this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} No quest locale files.`, LogTextColor.RED);
             return;
         }
         if (this.instanceManager.debug) {
-        this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loading ${Object.keys(jsonLocaleFiles).length} locale files.`, LogTextColor.GREEN);
+            this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loading ${Object.keys(jsonLocaleData).length} locale files.`, LogTextColor.GREEN);
         }
 
         // Import quest locales to the database
         let localeCount = 0;
-        for (const file of jsonLocaleFiles) {
-            for (const locale in file) {
-                this.instanceManager.database.locales.global["en"][locale] = file[locale]
+        for (const localeData of jsonLocaleData) {
+            // just to be safe, lets init global locale if it is not initialized
+            if (!this.instanceManager.database.locales.global[localeData.locale]) {
+                this.instanceManager.database.locales.global[localeData.locale] = {};
+            }
+
+            for (const key in localeData.content) {
+                this.instanceManager.database.locales.global[localeData.locale][key] = localeData.content[key];
                 localeCount++;
             }
         }
+
         if (this.instanceManager.debug) {
-        this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loaded ${localeCount} locales.`, LogTextColor.GREEN);
+            this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loaded ${localeCount} locales.`, LogTextColor.GREEN);
         }
     }
 
