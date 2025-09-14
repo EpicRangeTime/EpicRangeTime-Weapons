@@ -3,10 +3,10 @@ import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 
 export class epicItemClass {
 
-    private Instance: WTTInstanceManager = new WTTInstanceManager();
+    private instanceManager: WTTInstanceManager = new WTTInstanceManager();
 
-    public preSptLoad(Instance: WTTInstanceManager): void {
-        this.Instance = Instance;
+    public preSptLoad(instanceManager: WTTInstanceManager): void {
+        this.instanceManager = instanceManager;
     }
 
     public postDBLoad(): void {
@@ -15,7 +15,7 @@ export class epicItemClass {
     }
 
     public epicEdits(): void {
-        const db: IDatabaseTables = this.Instance.database;
+        const db: IDatabaseTables = this.instanceManager.database;
         const dbItems = db.templates.items;
         for (let file in dbItems) {
             let fileData = dbItems[file];

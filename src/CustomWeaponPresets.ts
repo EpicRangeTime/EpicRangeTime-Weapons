@@ -11,10 +11,10 @@ interface WeaponPresets {
 const weaponPresets: WeaponPresets = weaponPresetsData;
 
 export class CustomWeaponPresets {
-    private Instance: WTTInstanceManager;
+    private instanceManager: WTTInstanceManager;
 
-    public preSptLoad(Instance: WTTInstanceManager): void {
-        this.Instance = Instance;
+    public preSptLoad(instanceManager: WTTInstanceManager): void {
+        this.instanceManager = instanceManager;
     }
 
     public postDBLoad(): void {
@@ -22,7 +22,7 @@ export class CustomWeaponPresets {
             this.addWeaponPresets();
             this.addWeaponPresetLocales();
         } else {
-            if (this.Instance.debug) {
+            if (this.instanceManager.debug) {
                 console.log("CustomWeaponPresets: ItemPresets not found in weaponPresets.json");
             }
         }
@@ -30,7 +30,7 @@ export class CustomWeaponPresets {
 
     public addWeaponPresets(): void {
         for (const preset in weaponPresets.ItemPresets) {
-            this.Instance.database.globals.ItemPresets[preset] = weaponPresets.ItemPresets[preset];
+            this.instanceManager.database.globals.ItemPresets[preset] = weaponPresets.ItemPresets[preset];
         }
     }
 
@@ -45,7 +45,7 @@ export class CustomWeaponPresets {
                 localeFile = require(`${modPath}/db/locales/${locale}.json`);
             } catch (error) {
                 // Log an error if the file cannot be found, but continue to the next iteration
-                if (this.Instance.debug) {
+                if (this.instanceManager.debug) {
                     console.error(`Error loading locale file for '${locale}':`, error);
                 }
                 continue;
@@ -55,7 +55,7 @@ export class CustomWeaponPresets {
             if (Object.keys(localeFile).length < 1) continue;
 
             for (const currentItem in localeFile) {
-                this.Instance.database.locales.global[locale][currentItem] = localeFile[currentItem];
+                this.instanceManager.database.locales.global[locale][currentItem] = localeFile[currentItem];
 
                 if (!addedLocales[locale]) addedLocales[locale] = {};
                 addedLocales[locale][currentItem] = localeFile[currentItem];
@@ -70,8 +70,8 @@ export class CustomWeaponPresets {
 
             if (!(locale in addedLocales)) {
                 for (const englishItem in englishItems) {
-                    if (this.Instance.database.locales.global[locale] && !(englishItem in this.Instance.database.locales.global[locale])) {
-                        this.Instance.database.locales.global[locale][englishItem] = englishItems[englishItem];
+                    if (this.instanceManager.database.locales.global[locale] && !(englishItem in this.instanceManager.database.locales.global[locale])) {
+                        this.instanceManager.database.locales.global[locale][englishItem] = englishItems[englishItem];
                     }
                 }
             }

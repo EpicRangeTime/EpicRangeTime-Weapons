@@ -5,16 +5,16 @@ import { traderIDs } from "./references/configConsts";
 import { ITraderAssort } from "@spt/models/eft/common/tables/ITrader";
 export class CustomAssortSchemeService 
 {
-    private Instance: WTTInstanceManager;
+    private instanceManager: WTTInstanceManager;
 
-    public preSptLoad(Instance: WTTInstanceManager): void 
+    public preSptLoad(instanceManager: WTTInstanceManager): void 
     {
-        this.Instance = Instance;
+        this.instanceManager = instanceManager;
     }
 
     public postDBLoad(): void 
     {
-        const tables = this.Instance.database;
+        const tables = this.instanceManager.database;
         for (const traderId in customAssortSchemes)
         {
             const traderIdFromMap = traderIDs[traderId];

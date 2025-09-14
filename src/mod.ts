@@ -13,6 +13,7 @@ import { WTTInstanceManager } from "./WTTInstanceManager";
 import { CustomItemService } from "./CustomItemService";
 import { epicItemClass } from  "./EpicsEdits"
 import { TraderBadger } from "./Traders/TraderBadger";
+import { QuestModifier } from "./QuestModifier";
 // Custom Trader Assort Items
 import { CustomAssortSchemeService } from "./CustomAssortSchemeService";
 import { CustomWeaponPresets } from "./CustomWeaponPresets";
@@ -20,7 +21,7 @@ import { CustomWeaponPresets } from "./CustomWeaponPresets";
 class EpicRangeTimeWeapons
 implements IPreSptLoadMod, IPostDBLoadMod
 {
-    private Instance: WTTInstanceManager = new WTTInstanceManager();
+    private instanceManager: WTTInstanceManager = new WTTInstanceManager();
     private version: string;
     private modName = "EpicRangeTime-Weapons";
     private config;
@@ -31,26 +32,28 @@ implements IPreSptLoadMod, IPostDBLoadMod
     private customAssortSchemeService: CustomAssortSchemeService = new CustomAssortSchemeService();
     private customWeaponPresets: CustomWeaponPresets = new CustomWeaponPresets();
 
+    private questModifier: QuestModifier = new QuestModifier();
+
     debug = false;
 
     // Anything that needs done on preSptLoad, place here.
     public preSptLoad(container: DependencyContainer): void 
     {
     // Initialize the instance manager DO NOTHING ELSE BEFORE THIS
-        this.Instance.preSptLoad(container, this.modName);
-        this.Instance.debug = this.debug;
+        this.instanceManager.preSptLoad(container, this.modName);
+        this.instanceManager.debug = this.debug;
         // EVERYTHING AFTER HERE MUST USE THE INSTANCE
         
         this.getVersionFromJson();
         this.displayCreditBanner();
 
-        this.customItemService.preSptLoad(this.Instance);
+        this.customItemService.preSptLoad(this.instanceManager);
 
-        this.epicItemClass.preSptLoad(this.Instance);
-        this.traderBadger.preSptLoad(this.Instance);
-        this.customAssortSchemeService.preSptLoad(this.Instance);
+        this.epicItemClass.preSptLoad(this.instanceManager);
+        this.traderBadger.preSptLoad(this.instanceManager);
+        this.customAssortSchemeService.preSptLoad(this.instanceManager);
 
-        this.customWeaponPresets.preSptLoad(this.Instance);
+        this.customWeaponPresets.preSptLoad(this.instanceManager);
 
     }
 
@@ -58,7 +61,7 @@ implements IPreSptLoadMod, IPostDBLoadMod
     public async postDBLoadAsync(container: DependencyContainer): Promise<void> 
     {
     // Initialize the instance manager DO NOTHING ELSE BEFORE THIS
-        this.Instance.postDBLoad(container);
+        this.instanceManager.postDBLoad(container);
         // EVERYTHING AFTER HERE MUST USE THE INSTANCE
 
         this.epicItemClass.postDBLoad();
@@ -67,7 +70,9 @@ implements IPreSptLoadMod, IPostDBLoadMod
         this.customAssortSchemeService.postDBLoad();
         this.customWeaponPresets.postDBLoad();
 
-        this.Instance.logger.log(
+        this.questModifier.modifyQuests(this.instanceManager.database, this.instanceManager.jsonUtil, this.debug);
+
+        this.instanceManager.logger.log(
             `[${this.modName}] Database: Loading complete.`,
             LogTextColor.GREEN
         );
