@@ -112,7 +112,7 @@ export class TraderAPI
     {
         this.instanceManager.database.traders[baseJson._id] = {
             assort: this.instanceManager.jsonUtil.deserialize(this.instanceManager.jsonUtil.serialize(assortJson)) as ITraderAssort,
-            base: JSON.parse(JSON.stringify({ ...baseJson, unlockedByDefault: true })) as ITraderBase,
+            base: JSON.parse(JSON.stringify({ ...baseJson})) as ITraderBase,
             questassort: JSON.parse(JSON.stringify(questAssortJson))
         };
 
