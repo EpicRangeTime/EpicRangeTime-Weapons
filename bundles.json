@@ -1961,14 +1961,6 @@
             ]
         },
         {
-            "key": "Mods/Bipods/atlas_bp.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
             "key": "Mods/Bipods/bipod_stud_mlok.bundle",
             "dependencyKeys": [
                 "shaders",
