@@ -5206,6 +5206,7 @@
     "modSlot": [
       "mod_muzzle"
     ],
+    "addtoEmptyPropSlots": true,
     "emptyPropSlot": {
       "itemToAddTo": "628a66b41d5e41750e314f34",
       "modSlot": "mod_muzzle"
