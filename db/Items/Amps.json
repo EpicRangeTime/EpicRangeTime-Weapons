@@ -9,6 +9,7 @@
 				"rcid": ""
 			},
 			"Weight": 0.426,
+			"BlocksEarpiece": true,
 			"ClientPlayerCompressorSendLevel": -7,
 			"CompressorAttack": 35,
 			"CompressorGain": 8,
@@ -119,6 +120,7 @@
 				"rcid": ""
 			},
 			"Weight": 0.426,
+			"BlocksEarpiece": true,
 			"ClientPlayerCompressorSendLevel": -7,
 			"CompressorAttack": 35,
 			"CompressorGain": 8,
@@ -229,6 +231,7 @@
 				"rcid": ""
 			},
 			"Weight": 0.426,
+			"BlocksEarpiece": true,
 			"ClientPlayerCompressorSendLevel": -7,
 			"CompressorAttack": 35,
 			"CompressorGain": 8,
@@ -339,6 +342,7 @@
 				"rcid": ""
 			},
 			"Weight": 0.426,
+			"BlocksEarpiece": true,
 			"ClientPlayerCompressorSendLevel": -7,
 			"CompressorAttack": 35,
 			"CompressorGain": 8,

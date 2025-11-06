@@ -301,7 +301,8 @@ export class QuestModifier {
             ["e37c8df358fdec9a8780ea8c"],
             ["e0070ec5799a2d6228eca115"],
             ["5cc125555c98bf150a4fd068"],
-            ["c55bf7b1464db07d86ea62e8"]
+            ["c55bf7b1464db07d86ea62e8"],
+            ["afcb0df7801fadd95111a3d6"]
 
         ];
         const newScopesExcluded = [
@@ -599,5 +600,4 @@ export class QuestModifier {
             console.log('Updated quests with new items.');
         }
     }
-
 }

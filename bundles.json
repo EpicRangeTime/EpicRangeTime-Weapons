@@ -593,14 +593,6 @@
             ]
         },
         {
-            "key": "Mods/AK/ak12_stock.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
             "key": "Mods/AK/ak74_upper_hg.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -1962,14 +1954,6 @@
         },
         {
             "key": "Mods/AR15_Muzzle_Devices/aem_brake_collar.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Mods/Bipods/atlas_bp.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",

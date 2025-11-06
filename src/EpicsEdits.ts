@@ -3,10 +3,10 @@ import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 
 export class epicItemClass {
 
-    private Instance: WTTInstanceManager = new WTTInstanceManager();
+    private instanceManager: WTTInstanceManager = new WTTInstanceManager();
 
-    public preSptLoad(Instance: WTTInstanceManager): void {
-        this.Instance = Instance;
+    public preSptLoad(instanceManager: WTTInstanceManager): void {
+        this.instanceManager = instanceManager;
     }
 
     public postDBLoad(): void {
@@ -15,7 +15,7 @@ export class epicItemClass {
     }
 
     public epicEdits(): void {
-        const db: IDatabaseTables = this.Instance.database;
+        const db: IDatabaseTables = this.instanceManager.database;
         const dbItems = db.templates.items;
         for (let file in dbItems) {
             let fileData = dbItems[file];
@@ -932,7 +932,7 @@ export class epicItemClass {
                     "55d5f46a4bdc2d1b198b4567"];
             } //Changing filters for AR15 rear sights
             if (fileData._id === "618405198004cc50514c3594") {
-                fileData._props.Slots[3]._props.filters[0].Filter = ["61817865d3a39d50044c13a4",
+                fileData._props.Slots[2]._props.filters[0].Filter = ["61817865d3a39d50044c13a4",
                     "5bb20e49d4351e3bac1212de",
                     "5ba26b17d4351e00367f9bdd",
                     "5dfa3d7ac41b2312ea33362a",
@@ -945,7 +945,7 @@ export class epicItemClass {
                     "55d5f46a4bdc2d1b198b4567"];
             } //Changing filters for AR15 rear sights
             if (fileData._id === "618426d96c780c1e710c9b9f") {
-                fileData._props.Slots[3]._props.filters[0].Filter = ["61817865d3a39d50044c13a4",
+                fileData._props.Slots[2]._props.filters[0].Filter = ["61817865d3a39d50044c13a4",
                     "5bb20e49d4351e3bac1212de",
                     "5ba26b17d4351e00367f9bdd",
                     "5dfa3d7ac41b2312ea33362a",

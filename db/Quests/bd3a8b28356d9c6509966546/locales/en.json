@@ -14,5 +14,16 @@
     "67296afd6e3127842d3a2e42 successMessageText": "Here's hoping they learn their damn lesson. I'll let you know if we have any more issues.",
     "67296afd6e3127842d3a2e42 completePlayerMessage": "Here's hoping they learn their damn lesson. I'll let you know if we have any more issues.",
     "67296afd5091dd70addc0a5f": "Kill 15 scavs around streets of tarkov",
-    "67296afdb7a5e3d8ff6599c4": "Hand over the weapons found on the scavs you kill"
+    "67296afdb7a5e3d8ff6599c4": "Hand over the weapons found on the scavs you kill",
+    "68d99864e574f10eb9d0f773 name": "Stranded",
+    "68d99864e574f10eb9d0f773 description": "Another person caught in the net of the blockade. A visitor from the west was vacationing here just prior to the conflict and overstayed his welcome in Tarkov and got stuck in the bear trap. Him and I have been discussing quite a lot though, and I think we could all use his connections and skills. He worked on firearms back home professionally, you understand? So he needs some things in order to get his business started over here, since he's not exactly going anywhere anytime soon. Here's your list, now get to it.",
+    "68d99864e574f10eb9d0f773 acceptPlayerMessage": "You have the list? Well get to it then. He needs this stuff pronto.",
+    "68d99864e574f10eb9d0f773 completePlayerMessage": "Excellent, I'll get this stuff to him right away.",
+    "68d99864e574f10eb9d0f773 successMessageText": "Excellent, I'll get this stuff to him right away.",
+    "68d988dd79696dd8275ddf7a": "Hand over the found in raid PC CPU",
+    "68d98ad95895a0d53c787fc0": "Hand over the found in raid CPU Fan",
+    "68d98af2b22c969baefab3d9": "Hand over the found in raid PSU",
+    "68d98b5242d2eba7f4a3a3a6": "Hand over the found in raid Power cord",
+    "68d98b66d6e7b0ed3422fc35": "Hand over the Military COFDM Wireless Signal Transmitter",
+    "68d98bb479490e3ae2afe059": "Hand over the found in raid rifle"
 }
