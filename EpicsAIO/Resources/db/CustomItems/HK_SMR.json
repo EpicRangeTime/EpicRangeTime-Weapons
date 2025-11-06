@@ -1,0 +1,328 @@
+{
+  "acc415b469ea6ac82c20ea5f": {
+    "itemTplToClone": "5c6d11072e2216000e69d2e4",
+    "parentId": "HANDGUARD",
+    "handbookParentId": "MOD_HANDGUARD",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/HK/hk_smr_14_5_blk.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 12,
+      "ConflictingItems": [
+        "5c6d85e02e22165df16b81f4",
+        "5bb20d92d4351e00853263eb",
+        "5bb20d9cd4351e00334c9d8a",
+        "5bb20da5d4351e0035629dbf"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "HK 416A5 Geissele SMR 14.5 inch handguard (BLK)",
+        "shortName": "HK SMR 14.5",
+        "description": "The Geissele Super Modular HK 416 rail was designed to replace the standard rail on the HK 416 weapon platform. Constructed of precision machined, 6061-T6 aluminum allows the SMR HK to incorporate strength, rigidity and modularity while utilizing the stock HK barrel nut."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "fleaPriceRoubles": 64240,
+    "handbookPriceRoubles": 15000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1650
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26cdf": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 146,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "befa747c1e35a5283d2b4b66": {
+    "itemTplToClone": "5c6d11072e2216000e69d2e4",
+    "parentId": "HANDGUARD",
+    "handbookParentId": "MOD_HANDGUARD",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/HK/hk_smr_14_5_ddc.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 12,
+      "ConflictingItems": [
+        "5c6d85e02e22165df16b81f4",
+        "5bb20d92d4351e00853263eb",
+        "5bb20d9cd4351e00334c9d8a",
+        "5bb20da5d4351e0035629dbf"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "HK 416A5 Geissele SMR 14.5 inch handguard (DDC)",
+        "shortName": "HK SMR 14.5",
+        "description": "The Geissele Super Modular HK 416 rail was designed to replace the standard rail on the HK 416 weapon platform. Constructed of precision machined, 6061-T6 aluminum allows the SMR HK to incorporate strength, rigidity and modularity while utilizing the stock HK barrel nut."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "fleaPriceRoubles": 66240,
+    "handbookPriceRoubles": 15000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1650
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26ce0": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 154,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "687ff858ff57353a91a66ca5": {
+    "itemTplToClone": "5c6d11072e2216000e69d2e4",
+    "parentId": "HANDGUARD",
+    "handbookParentId": "MOD_HANDGUARD",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/HK/hk_smr_10_5_blk.bundle",
+        "rcid": ""
+      },
+      "Recoil": 0,
+      "Ergonomics": 9,
+      "HeatFactor": 0.982,
+      "Width": 2,
+      "ExtraSizeLeft": 1,
+      "ConflictingItems": []
+    },
+    "locales": {
+      "en": {
+        "name": "HK 416A5 Geissele SMR 10.5 inch handguard (BLK)",
+        "shortName": "HK SMR 10.5",
+        "description": "The Geissele Super Modular HK 416 rail was designed to replace the standard rail on the HK 416 weapon platform. Constructed of precision machined, 6061-T6 aluminum allows the SMR HK to incorporate strength, rigidity and modularity while utilizing the stock HK barrel nut."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "fleaPriceRoubles": 54240,
+    "handbookPriceRoubles": 13000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1650
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26ce1": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 122,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "559582b091fc761d95c2da36": {
+    "itemTplToClone": "5c6d11072e2216000e69d2e4",
+    "parentId": "HANDGUARD",
+    "handbookParentId": "MOD_HANDGUARD",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/HK/hk_smr_10_5_ddc.bundle",
+        "rcid": ""
+      },
+      "Recoil": 0,
+      "Ergonomics": 9,
+      "HeatFactor": 0.982,
+      "Width": 2,
+      "ExtraSizeLeft": 1,
+      "ConflictingItems": []
+    },
+    "locales": {
+      "en": {
+        "name": "HK 416A5 Geissele SMR 10.5 inch handguard (DDC)",
+        "shortName": "HK SMR 10.5",
+        "description": "The Geissele Super Modular HK 416 rail was designed to replace the standard rail on the HK 416 weapon platform. Constructed of precision machined, 6061-T6 aluminum allows the SMR HK to incorporate strength, rigidity and modularity while utilizing the stock HK barrel nut."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "fleaPriceRoubles": 59240,
+    "handbookPriceRoubles": 13000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1650
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1650
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26ce2": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 127,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

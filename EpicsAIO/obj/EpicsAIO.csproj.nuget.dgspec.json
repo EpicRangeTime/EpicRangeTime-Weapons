@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Github Workspace\\EpicRangeTime-Weapons\\EpicsAIO\\EpicsAIO.csproj": {}
+    "F:\\SPT 4.0\\Server Modding\\EpicRangeTime-Weapons\\EpicsAIO\\EpicsAIO.csproj": {}
   },
   "projects": {
-    "F:\\Github Workspace\\EpicRangeTime-Weapons\\EpicsAIO\\EpicsAIO.csproj": {
-      "version": "3.1.5",
+    "F:\\SPT 4.0\\Server Modding\\EpicRangeTime-Weapons\\EpicsAIO\\EpicsAIO.csproj": {
+      "version": "4.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Github Workspace\\EpicRangeTime-Weapons\\EpicsAIO\\EpicsAIO.csproj",
+        "projectUniqueName": "F:\\SPT 4.0\\Server Modding\\EpicRangeTime-Weapons\\EpicsAIO\\EpicsAIO.csproj",
         "projectName": "EpicsAIO",
-        "projectPath": "F:\\Github Workspace\\EpicRangeTime-Weapons\\EpicsAIO\\EpicsAIO.csproj",
+        "projectPath": "F:\\SPT 4.0\\Server Modding\\EpicRangeTime-Weapons\\EpicsAIO\\EpicsAIO.csproj",
         "packagesPath": "C:\\Users\\Tyler Smith\\.nuget\\packages\\",
-        "outputPath": "F:\\Github Workspace\\EpicRangeTime-Weapons\\EpicsAIO\\obj\\",
+        "outputPath": "F:\\SPT 4.0\\Server Modding\\EpicRangeTime-Weapons\\EpicsAIO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tyler Smith\\AppData\\Roaming\\NuGet\\NuGet.Config"

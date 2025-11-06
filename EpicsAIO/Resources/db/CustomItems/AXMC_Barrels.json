@@ -1,0 +1,217 @@
+{
+  "8d5a67fd685ff05e7253b4f7": {
+    "itemTplToClone": "628121434fa03b6b6c35dc6a",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Lapua/barrel_ax_accuracy_international_508mm_762x51_pb.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -9,
+      "Recoil": -2,
+      "Velocity": 2.8,
+      "Weight": 1.378,
+      "Width": 3,
+      "ExtraSizeLeft": 3
+    },
+    "locales": {
+      "en": {
+        "name": "AI AXMC .338 LM 20 inch barrel",
+        "shortName": "AXMC .338LM 20\"",
+        "description": "A 20 inch (508mm) barrel for the AI AXMC chambered in .338 Lapua Magnum ammo."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 128200,
+    "handbookPriceRoubles": 58000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      },
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 150
+      }
+    ],
+    "masteries": true,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26cb3": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 68250,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "013114b6d9dc19eda4d0cad3": {
+    "itemTplToClone": "628121434fa03b6b6c35dc6a",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Lapua/barrel_ax_accuracy_international_610mm_762x51_pb.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -13,
+      "Recoil": -3,
+      "Velocity": 4.2,
+      "Weight": 1.654
+    },
+    "locales": {
+      "en": {
+        "name": "AI AXMC .338 LM 24 inch barrel",
+        "shortName": "AXMC .338LM 24\"",
+        "description": "A 24 inch (610mm) barrel for the AI AXMC chambered in .338 Lapua Magnum ammo."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 124200,
+    "handbookPriceRoubles": 58000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      },
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 150
+      }
+    ],
+    "masteries": true,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "JAEGER": {
+        "690c2a76efda1c3d78f26cb4": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 70250,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "a3a94608ed92771a766c6244": {
+    "itemTplToClone": "628121434fa03b6b6c35dc6a",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Lapua/barrel_ax_accuracy_international_660mm_762x51_pb.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -15,
+      "Recoil": -4,
+      "Velocity": 5,
+      "Weight": 1.723
+    },
+    "locales": {
+      "en": {
+        "name": "AI AXMC .338 LM 25 inch barrel",
+        "shortName": "AXMC .338LM 25\"",
+        "description": "A 25 inch (660mm) barrel for the AI AXMC chambered in .338 Lapua Magnum ammo."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 118200,
+    "handbookPriceRoubles": 58000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      },
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 150
+      }
+    ],
+    "masteries": true,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "JAEGER": {
+        "690c2a76efda1c3d78f26cb5": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 72250,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  }
+}

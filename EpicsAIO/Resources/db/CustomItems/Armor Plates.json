@@ -1,0 +1,323 @@
+{
+  "b5223cb4b895fb6a438ac533": {
+    "itemTplToClone": "656fa61e94b480b8a500c0e8",
+    "parentId": "ARMORPLATE",
+    "handbookParentId": "GEAR_COMPONENTS",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/plate_ar500/item_equipment_plate_ar500_new.bundle",
+        "rcid": ""
+      },
+      "Weight": 1,
+      "armorClass": "5",
+      "CanSellOnRagfair": true,
+      "ArmorMaterial": "UHMWPE"
+    },
+    "locales": {
+      "en": {
+        "name": "Hesco 3800C-SA-MC ballistic plate",
+        "shortName": "Hesco 3800C",
+        "description": "The 3800C Plate features a Polyurea coating, versus the Cordura covering of standard 3800 Plate. It is the same exact threat rating but more water resistant. The 3800C was recently selected by U.S. Customs and Border Protection as the standard issued plate for thousands of personnel."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Front_plate",
+      "Back_plate"
+    ],
+    "fleaPriceRoubles": 24250,
+    "handbookPriceRoubles": 48217,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 168
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 168
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 168
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 168
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 168
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 168
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26c69": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 237,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cf2ab73b0f0c00a0df3852e4": {
+    "itemTplToClone": "656fa61e94b480b8a500c0e8",
+    "parentId": "ARMORPLATE",
+    "handbookParentId": "GEAR_COMPONENTS",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/plate_ar500/item_equipment_plate_ar500_new.bundle",
+        "rcid": ""
+      },
+      "Weight": 2.2,
+      "armorClass": "6",
+      "CanSellOnRagfair": false,
+      "ArmorMaterial": "Ceramic"
+    },
+    "locales": {
+      "en": {
+        "name": "Hesco 4800 ballistic plate",
+        "shortName": "Hesco 4800",
+        "description": "The flagship 800 series is designed to perform in fast moving, highly volatile environments which require extensive protection and maneuverability. Using next generation materials, 800 Series plates are the lightest weight and highest quality plates in their class. Finished with a highly durable wrap and water-resistant coating, 800 Series armor delivers unsurpassed quality in feel and performance."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Front_plate",
+      "Back_plate"
+    ],
+    "fleaPriceRoubles": 150000,
+    "handbookPriceRoubles": 96217,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 168
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 168
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 168
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 168
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 168
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 168
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "RAGMAN": {
+        "690c2a76efda1c3d78f26c6a": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 76845,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "58c0a16f420c97fe1c3d2e27": {
+    "itemTplToClone": "656fa61e94b480b8a500c0e8",
+    "parentId": "ARMORPLATE",
+    "handbookParentId": "GEAR_COMPONENTS",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/plate_ar500/item_equipment_plate_ar500_new.bundle",
+        "rcid": ""
+      },
+      "Weight": 1.76,
+      "armorClass": "5",
+      "CanSellOnRagfair": false,
+      "ArmorMaterial": "UHMWPE"
+    },
+    "locales": {
+      "en": {
+        "name": "Hesco U211 ballistic plate",
+        "shortName": "Hesco U211",
+        "description": "The HESCO U211 and our 200 Series plates are designed to be worn where concealability is an asset, featuring models that offer both low visibility and special threat protection. The closest thing to not wearing armor. Ultra low visibility ergonomic design. Ultimate in concealable survivability."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Front_plate",
+      "Back_plate"
+    ],
+    "fleaPriceRoubles": 84250,
+    "handbookPriceRoubles": 86240,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 205
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 205
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 205
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 205
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 205
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 205
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26c6b": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 476,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "2aed3f0a15813b3d366fcdb9": {
+    "itemTplToClone": "656fa61e94b480b8a500c0e8",
+    "parentId": "ARMORPLATE",
+    "handbookParentId": "GEAR_COMPONENTS",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/plate_ar500/item_equipment_plate_ar500_new.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.86,
+      "armorClass": "5",
+      "CanSellOnRagfair": false,
+      "ArmorMaterial": "UHMWPE",
+      "speedPenaltyPercent": -1.5
+    },
+    "locales": {
+      "en": {
+        "name": "Tyr Tactical ultra low vis level III ballistic plate",
+        "shortName": "Tyr ULV",
+        "description": "This world class ballistic plate has served operators and diplomats alike around the globe."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Front_plate",
+      "Back_plate"
+    ],
+    "fleaPriceRoubles": 124250,
+    "handbookPriceRoubles": 86240,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 138
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 138
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 138
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 138
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 138
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 138
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26c6c": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 360,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

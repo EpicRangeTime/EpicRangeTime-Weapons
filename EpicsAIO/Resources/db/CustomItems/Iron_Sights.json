@@ -1,0 +1,291 @@
+{
+  "275def25d1abe9b101511271": {
+    "itemTplToClone": "5bc09a18d4351e003562b68e",
+    "parentId": "IRON_SIGHT",
+    "handbookParentId": "MOD_IRON_SIGHT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Iron_Sights/sw_peak_r.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 1,
+      "ConflictingItems": [
+        "57ac965c24597706be5f975c",
+        "57aca93d2459771f2c7e26db",
+        "544a3f024bdc2d1d388b4568",
+        "544a3a774bdc2d3a388b4567",
+        "57adff4f24597737f373b6e6",
+        "5c0517910db83400232ffee5",
+        "591c4efa86f7741030027726",
+        "570fd79bd2720bc7458b4583",
+        "5c07dd120db834001c39092d",
+        "5c0a2cec0db834001b7ce47d",
+        "5dff772da3651922b360bf91",
+        "56ea70acd2720b844b8b4594",
+        "5aa66be6e5b5b0214e506e97",
+        "5dfe6104585a0c3e995c7b82",
+        "5d1b5e94d7ad1a2b865a96b0",
+        "5b3b6dc75acfc47a8773fb1e",
+        "5b2389515acfc4771e1be0c0",
+        "5a37ca54c4a282000d72296a",
+        "5d0a29fed7ad1a002769ad08",
+        "57c69dd424597774c03b7bbc",
+        "5b3b99265acfc4704b4a1afb",
+        "5aa66a9be5b5b0214e506e89",
+        "5aa66c72e5b5b00016327c93",
+        "5c1cdd302e221602b3137250",
+        "5b31163c5acfc400153b71cb",
+        "5a33b652c4a28232996e407c",
+        "59db7eed86f77461f8380365",
+        "5a1ead28fcdbcb001912fa9f",
+        "5dff77c759400025ea5150cf",
+        "62811f461d5df4475f46a332",
+        "6171407e50224f204c1da3c5",
+        "61713cc4d8e3106d9806c109",
+        "618b9643526131765025ab35",
+        "618bab21526131765025ab3f",
+        "5c86592b2e2216000e69e77c"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Scalarworks PEAK rear sight",
+        "shortName": "PEAK",
+        "description": "Designed for discerning shooters who want the familiarity of classic AR-15 fixed iron sights, while demanding modern features, refined styling, and world class build quality."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_sight_rear"
+    ],
+    "fleaPriceRoubles": 22000,
+    "handbookPriceRoubles": 17000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "SKIER": {
+        "690c2a76efda1c3d78f26ced": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 16800,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "48dd8b7edd39c0ab164435ad": {
+    "itemTplToClone": "5bc09a30d4351e00367fb7c8",
+    "parentId": "IRON_SIGHT",
+    "handbookParentId": "MOD_IRON_SIGHT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Iron_Sights/sw_peak_fr.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 1
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Scalarworks PEAK front sight",
+        "shortName": "PEAK",
+        "description": "Designed for discerning shooters who want the familiarity of classic AR-15 fixed iron sights, while demanding modern features, refined styling, and world class build quality."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_sight_front"
+    ],
+    "fleaPriceRoubles": 22000,
+    "handbookPriceRoubles": 17000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "SKIER": {
+        "690c2a76efda1c3d78f26cee": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 16800,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "e8d92f66b5cf4553048c5f5b": {
+    "itemTplToClone": "5c1780312e221602b66cc189",
+    "parentId": "55818ac54bdc2d5b648b456e",
+    "handbookParentId": "5b5f746686f77447ec5d7708",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Iron_Sights/matech_rear_sight.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 0.5
+    },
+    "locales": {
+      "en": {
+        "name": "Matech Folding rear sight",
+        "shortName": "Matech",
+        "description": "Matech Back Up Iron Sights. BUIS. Rear Iron Sights. Solid, robust, and as accurate as your eyes and skill will allow. Elevation markings from 200 to 600 Meters. Adjustable windage."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_sight_rear"
+    ],
+    "fleaPriceRoubles": 13000,
+    "handbookPriceRoubles": 3400,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26cef": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 25,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  }
+}

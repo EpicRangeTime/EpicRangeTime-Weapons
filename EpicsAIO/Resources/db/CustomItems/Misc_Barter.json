@@ -1,0 +1,585 @@
+{
+  "b7d643dc4b783b2805c743c9": {
+    "itemTplToClone": "5737292724597765e5728562",
+    "parentId": "AMMO_CONTAINER",
+    "handbookParentId": "AMMO_BOXES",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/9mm_export_900_can.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.1,
+      "Height": 2,
+      "Width": 3,
+      "StackMinRandom": 900,
+      "StackMaxRandom": 900,
+      "ammoCaliber": "Caliber9x19PARA",
+      "StackSlots": [
+        {
+          "_name": "cartridges",
+          "_id": "95676aaaab2f488af719148d",
+          "_parent": "b7d643dc4b783b2805c743c9",
+          "_max_count": 900,
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58864a4f2459770fcc257101"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "9x19 PSO gzh spam can (900 pcs)",
+        "shortName": "PSO 900",
+        "description": "A spam can of 9mm PSO ammunition marked in english characters, intended for export."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 49000,
+    "handbookPriceRoubles": 36000,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+        "probability": 340
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 300
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 760
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 400
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 850
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1500
+      },
+      {
+        "containerName": "LOOTCONTAINER_GROUND_CACHE",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1200
+      },
+      {
+        "containerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+        "probability": 900
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "0554e5da796b8133eb65b389": {
+    "itemTplToClone": "5bc9be8fd4351e00334cae6e",
+    "parentId": "57864a66245977548f04a81f",
+    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Barter/tamagotchi.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.098,
+      "Height": 1,
+      "Width": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Tamagotchi toy",
+        "shortName": "Tamagotchi",
+        "description": "A small toy for children created by Bandai in Japan. Take care of it!"
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "smallTrophies1",
+      "smallTrophies2",
+      "smallTrophies3",
+      "smallTrophies4",
+      "smallTrophies5",
+      "smallTrophies6",
+      "smallTrophies7",
+      "smallTrophies8",
+      "smallTrophies9",
+      "smallTrophies10",
+      "smallTrophies11",
+      "smallTrophies12",
+      "smallTrophies13",
+      "smallTrophies14",
+      "smallTrophies15",
+      "smallTrophies16",
+      "smallTrophies17",
+      "smallTrophies18",
+      "smallTrophies19",
+      "smallTrophies20",
+      "smallTrophies21",
+      "smallTrophies22",
+      "smallTrophies23",
+      "smallTrophies24",
+      "Statuette_Gym_1",
+      "Statuette_PlaceOfFame_1",
+      "Statuette_PlaceOfFame_2",
+      "Statuette_PlaceOfFame_3",
+      "Statuette_Heating_1",
+      "Statuette_Heating_2",
+      "Statuette_Library_1",
+      "Statuette_Library_2",
+      "Statuette_RestSpace_1",
+      "Statuette_RestSpace_2",
+      "Statuette_MedStation_1",
+      "Statuette_MedStation_2",
+      "Statuette_Kitchen_1",
+      "Statuette_Kitchen_2",
+      "Statuette_BoozeGenerator_1",
+      "Statuette_Workbench_1",
+      "Statuette_IntelligenceCenter_1",
+      "Statuette_ShootingRange_1"
+    ],
+    "fleaPriceRoubles": 45000,
+    "handbookPriceRoubles": 35000,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+        "probability": 340
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 300
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 760
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 400
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 850
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1500
+      },
+      {
+        "containerName": "LOOTCONTAINER_GROUND_CACHE",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1200
+      },
+      {
+        "containerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+        "probability": 900
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "349f9715d8899a1d4ca845c0": {
+    "itemTplToClone": "62a09e974f842e1bd12da3f0",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Barter/bebop_record.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.14,
+      "Height": 2,
+      "Width": 2
+    },
+    "locales": {
+      "en": {
+        "name": "Cowboy Bebop Vinyl Record",
+        "shortName": "Bebop",
+        "description": "The Cowboy Bebop OST recorded on vinyl, very well made in a splatter pattern."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "bigTrophies1",
+      "bigTrophies2",
+      "bigTrophies3",
+      "bigTrophies4",
+      "bigTrophies5",
+      "bigTrophies6",
+      "bigTrophies7",
+      "bigTrophies8",
+      "bigTrophies9",
+      "bigTrophies10",
+      "bigTrophies11",
+      "bigTrophies12",
+      "bigTrophies13",
+      "bigTrophies14",
+      "bigTrophies15",
+      "bigTrophies16",
+      "bigTrophies17",
+      "bigTrophies18",
+      "bigTrophies19",
+      "bigTrophies20",
+      "bigTrophies21",
+      "bigTrophies22",
+      "bigTrophies23",
+      "bigTrophies24",
+      "Statuette_Gym_1",
+      "Statuette_PlaceOfFame_1",
+      "Statuette_PlaceOfFame_2",
+      "Statuette_PlaceOfFame_3",
+      "Statuette_Heating_1",
+      "Statuette_Heating_2",
+      "Statuette_Library_1",
+      "Statuette_Library_2",
+      "Statuette_RestSpace_1",
+      "Statuette_RestSpace_2",
+      "Statuette_MedStation_1",
+      "Statuette_MedStation_2",
+      "Statuette_Kitchen_1",
+      "Statuette_Kitchen_2",
+      "Statuette_BoozeGenerator_1",
+      "Statuette_Workbench_1",
+      "Statuette_IntelligenceCenter_1",
+      "Statuette_ShootingRange_1"
+    ],
+    "fleaPriceRoubles": 62000,
+    "handbookPriceRoubles": 44000,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+        "probability": 340
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 300
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 760
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 400
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 850
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1500
+      },
+      {
+        "containerName": "LOOTCONTAINER_GROUND_CACHE",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1200
+      },
+      {
+        "containerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+        "probability": 900
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "e44b40d309fa123643258996": {
+    "itemTplToClone": "62a09e974f842e1bd12da3f0",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Barter/boston_record.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.14,
+      "Height": 2,
+      "Width": 2
+    },
+    "locales": {
+      "en": {
+        "name": "Boston Greatest Hits Vinyl Record",
+        "shortName": "Boston",
+        "description": "The Boston Greatest Hits album recorded on vinyl."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "bigTrophies1",
+      "bigTrophies2",
+      "bigTrophies3",
+      "bigTrophies4",
+      "bigTrophies5",
+      "bigTrophies6",
+      "bigTrophies7",
+      "bigTrophies8",
+      "bigTrophies9",
+      "bigTrophies10",
+      "bigTrophies11",
+      "bigTrophies12",
+      "bigTrophies13",
+      "bigTrophies14",
+      "bigTrophies15",
+      "bigTrophies16",
+      "bigTrophies17",
+      "bigTrophies18",
+      "bigTrophies19",
+      "bigTrophies20",
+      "bigTrophies21",
+      "bigTrophies22",
+      "bigTrophies23",
+      "bigTrophies24",
+      "Statuette_Gym_1",
+      "Statuette_PlaceOfFame_1",
+      "Statuette_PlaceOfFame_2",
+      "Statuette_PlaceOfFame_3",
+      "Statuette_Heating_1",
+      "Statuette_Heating_2",
+      "Statuette_Library_1",
+      "Statuette_Library_2",
+      "Statuette_RestSpace_1",
+      "Statuette_RestSpace_2",
+      "Statuette_MedStation_1",
+      "Statuette_MedStation_2",
+      "Statuette_Kitchen_1",
+      "Statuette_Kitchen_2",
+      "Statuette_BoozeGenerator_1",
+      "Statuette_Workbench_1",
+      "Statuette_IntelligenceCenter_1",
+      "Statuette_ShootingRange_1"
+    ],
+    "fleaPriceRoubles": 42000,
+    "handbookPriceRoubles": 28000,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+        "probability": 340
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 300
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 760
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 400
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 850
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1500
+      },
+      {
+        "containerName": "LOOTCONTAINER_GROUND_CACHE",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1200
+      },
+      {
+        "containerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+        "probability": 900
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "42b95b1bf04e5b70d4005d19": {
+    "itemTplToClone": "62a09e974f842e1bd12da3f0",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Barter/sony_walkman.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.391,
+      "Height": 2,
+      "Width": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Sony TPS-L2 Walkman Cassette Player",
+        "shortName": "Walkman",
+        "description": "The famous Sony TPS-L2 Walkman, belonging to a person known only as RockaHorse."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "bigTrophies1",
+      "bigTrophies2",
+      "bigTrophies3",
+      "bigTrophies4",
+      "bigTrophies5",
+      "bigTrophies6",
+      "bigTrophies7",
+      "bigTrophies8",
+      "bigTrophies9",
+      "bigTrophies10",
+      "bigTrophies11",
+      "bigTrophies12",
+      "bigTrophies13",
+      "bigTrophies14",
+      "bigTrophies15",
+      "bigTrophies16",
+      "bigTrophies17",
+      "bigTrophies18",
+      "bigTrophies19",
+      "bigTrophies20",
+      "bigTrophies21",
+      "bigTrophies22",
+      "bigTrophies23",
+      "bigTrophies24",
+      "Statuette_Gym_1",
+      "Statuette_PlaceOfFame_1",
+      "Statuette_PlaceOfFame_2",
+      "Statuette_PlaceOfFame_3",
+      "Statuette_Heating_1",
+      "Statuette_Heating_2",
+      "Statuette_Library_1",
+      "Statuette_Library_2",
+      "Statuette_RestSpace_1",
+      "Statuette_RestSpace_2",
+      "Statuette_MedStation_1",
+      "Statuette_MedStation_2",
+      "Statuette_Kitchen_1",
+      "Statuette_Kitchen_2",
+      "Statuette_BoozeGenerator_1",
+      "Statuette_Workbench_1",
+      "Statuette_IntelligenceCenter_1",
+      "Statuette_ShootingRange_1"
+    ],
+    "fleaPriceRoubles": 92000,
+    "handbookPriceRoubles": 65000,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+        "probability": 340
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 300
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 760
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 400
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 850
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1500
+      },
+      {
+        "containerName": "LOOTCONTAINER_GROUND_CACHE",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1200
+      },
+      {
+        "containerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+        "probability": 900
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  }
+}

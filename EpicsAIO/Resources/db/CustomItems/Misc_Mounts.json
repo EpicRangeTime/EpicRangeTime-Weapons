@@ -1,0 +1,5277 @@
+{
+  "877f002b7dadc7ae31d1fda1": {
+    "itemTplToClone": "58d39d3d86f77445bb794ae7",
+    "parentId": "REFLEX_SIGHT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Mounts/unity_micro_226_blk.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4"
+      ],
+      "Ergonomics": 2,
+      "Width": 1,
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "243d80e1c423d7be2aa5491e",
+          "_parent": "877f002b7dadc7ae31d1fda1",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "61657230d92c473c770213d7",
+                  "58d399e486f77442e0016fe7",
+                  "5b3116595acfc40019476364"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "SightingRange": 100,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "UniqueAnimationModID": 0,
+      "CustomAimPlane": "",
+      "sightModType": "iron",
+      "ScopesCount": 1,
+      "AimSensitivity": [
+        [
+          0.7
+        ]
+      ],
+      "ModesCount": [
+        1
+      ],
+      "Zooms": [
+        [
+          1
+        ]
+      ],
+      "CalibrationDistances": [
+        [
+          100
+        ]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Unity Tactical FAST Micro Mount, 2.26",
+        "shortName": "FAST Micro",
+        "description": "The Unity Tactical FAST(tm) is a series of optic mounts and platforms that provide end users with a quicker sight picture than standard height mounts."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 16250,
+    "handbookPriceRoubles": 2420,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d2e": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 7240,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "c26f2af872656829feb27c08": {
+    "itemTplToClone": "58d39d3d86f77445bb794ae7",
+    "parentId": "REFLEX_SIGHT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Mounts/unity_micro_226_fde.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4"
+      ],
+      "Ergonomics": 2,
+      "Width": 1,
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "130a58166dd5c860c759be0e",
+          "_parent": "c26f2af872656829feb27c08",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "61657230d92c473c770213d7",
+                  "58d399e486f77442e0016fe7",
+                  "5b3116595acfc40019476364"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "SightingRange": 100,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "UniqueAnimationModID": 0,
+      "CustomAimPlane": "",
+      "sightModType": "iron",
+      "ScopesCount": 1,
+      "AimSensitivity": [
+        [
+          0.7
+        ]
+      ],
+      "ModesCount": [
+        1
+      ],
+      "Zooms": [
+        [
+          1
+        ]
+      ],
+      "CalibrationDistances": [
+        [
+          100
+        ]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Unity Tactical FAST Micro Mount, 2.26 (FDE)",
+        "shortName": "FAST Micro",
+        "description": "The Unity Tactical FAST(tm) is a series of optic mounts and platforms that provide end users with a quicker sight picture than standard height mounts."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 16250,
+    "handbookPriceRoubles": 2420,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d2f": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 7240,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "de53b0fd978f0eaad71c5528": {
+    "itemTplToClone": "5c064c400db834001d23f468",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Mounts/hydra-mid-blk.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4"
+      ],
+      "Width": 2,
+      "Slots": [
+        {
+          "_name": "mod_tactical",
+          "_id": "3fc01ec5a3357590ed760b80",
+          "_parent": "de53b0fd978f0eaad71c5528",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065",
+                  "d62cced77df83a0683e38fbc",
+                  "d4f59f06b5099086743e3b62",
+                  "8fb322f5202cf87746ec83b4",
+                  "bb4bb5d7e4f3ad7a1f19571e",
+                  "e727709694036c1f49f234e6",
+                  "0257250579c25ee07a7fd721",
+                  "e99dbf09963efebab19a118b",
+                  "0ce051265bcb619558b2ef9a",
+                  "77f31a56076dc8e398797a7c",
+                  "c0e0bac29a8c50eff201f00e",
+                  "51ef8504f4a2e4d2029ff682",
+                  "1de63dfb52c91ccb9dd2c83a",
+                  "253279f21f3222961c5dfa8d",
+                  "c569fa63e462980552ecdc77",
+                  "a681a1c93529b1fb2118488a",
+                  "673dee1aa998f18003f111f5"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_scope",
+          "_id": "ea43f44dcf38d4370f43ef18",
+          "_parent": "de53b0fd978f0eaad71c5528",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "558022b54bdc2dac148b458d",
+                  "59f9d81586f7744c7506ee62",
+                  "60a23797a37c940de7062d02"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "GBRS Hydra riser combo mount",
+        "shortName": "Hydra Mid",
+        "description": "HYDRA is the first dual optic mount designed for end users that offers a 2.91 inch Optic Centerline for faster target ID, regardless of gear/ equipment obstructions, ie. EarPro/Comms headsets, Gas masks/ CBRN, and Night vision use."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 12200,
+    "handbookPriceRoubles": 2400,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26d30": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 37,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "d3e07e32dc01693c226878dc": {
+    "itemTplToClone": "5c064c400db834001d23f468",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Mounts/hydra-mid-fde.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4"
+      ],
+      "Width": 2,
+      "Slots": [
+        {
+          "_name": "mod_tactical",
+          "_id": "2051e5cd1706a56f7d2d1b05",
+          "_parent": "d3e07e32dc01693c226878dc",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065",
+                  "d62cced77df83a0683e38fbc",
+                  "d4f59f06b5099086743e3b62",
+                  "8fb322f5202cf87746ec83b4",
+                  "bb4bb5d7e4f3ad7a1f19571e",
+                  "e727709694036c1f49f234e6",
+                  "0257250579c25ee07a7fd721",
+                  "e99dbf09963efebab19a118b",
+                  "0ce051265bcb619558b2ef9a",
+                  "77f31a56076dc8e398797a7c",
+                  "c0e0bac29a8c50eff201f00e",
+                  "51ef8504f4a2e4d2029ff682",
+                  "1de63dfb52c91ccb9dd2c83a",
+                  "253279f21f3222961c5dfa8d",
+                  "c569fa63e462980552ecdc77",
+                  "a681a1c93529b1fb2118488a",
+                  "673dee1aa998f18003f111f5"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_scope",
+          "_id": "e9354a1c023bde5ba9017983",
+          "_parent": "d3e07e32dc01693c226878dc",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "558022b54bdc2dac148b458d",
+                  "59f9d81586f7744c7506ee62",
+                  "60a23797a37c940de7062d02"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "GBRS Hydra riser combo mount (FDE)",
+        "shortName": "Hydra Mid",
+        "description": "HYDRA is the first dual optic mount designed for end users that offers a 2.91 inch Optic Centerline for faster target ID, regardless of gear/ equipment obstructions, ie. EarPro/Comms headsets, Gas masks/ CBRN, and Night vision use."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 11000,
+    "handbookPriceRoubles": 2400,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26d31": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 37,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "befd7a2bbc07793f73133f2c": {
+    "itemTplToClone": "618b9643526131765025ab35",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Mounts/unity_scope_high.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4",
+        "275def25d1abe9b101511271"
+      ],
+      "Ergonomics": 2,
+      "ExtraSizeUp": 1,
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "9378f5771b31eae8a959ac98",
+          "_parent": "befd7a2bbc07793f73133f2c",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5b2388675acfc4771e1be0be",
+                  "5b3b99475acfc432ff4dcbee",
+                  "5a37cb10c4a282329a73b4e7",
+                  "57c5ac0824597754771e88a9",
+                  "618ba27d9008e4636a67f61d",
+                  "617151c1d92c473c770214ab",
+                  "6567e7681265c8a131069b0f"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Unity Tactical FAST LPVO 30mm ring scope mount",
+        "shortName": "FAST LPVO",
+        "description": "Creating a 2.05” optical centerline from the rail, the FAST™ LPVO scope mount is the perfect solution for deploying low power variable optics on the modern battlefield."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 26250,
+    "handbookPriceRoubles": 14250,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "SKIER": {
+        "690c2a76efda1c3d78f26d32": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 13500,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "e4f2fd43b5613348b6e25bb5": {
+    "itemTplToClone": "618b9671d14d6d5ab879c5ea",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/g$_34mm_cap_blk.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Geissele 34mm Super Precision top ring cap",
+        "shortName": "Geis top",
+        "description": "A regular 34mm top ring cap for the Geissele Super Precision mounts."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 26250,
+    "handbookPriceRoubles": 1500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d33": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 1800,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "2437ee507945dfe829ddf298": {
+    "itemTplToClone": "618b9671d14d6d5ab879c5ea",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/g$_34mm_cap_ddc.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Geissele 34mm Super Precision top ring cap (DDC)",
+        "shortName": "Geis top",
+        "description": "A regular 34mm top ring cap for the Geissele Super Precision mounts. Desert Dirt Color version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 39500,
+    "handbookPriceRoubles": 1700,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d34": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2000,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "b2d57758abe9bb9345c58e4a": {
+    "itemTplToClone": "618b9643526131765025ab35",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/g$_sp34mm_blk.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "55d5f46a4bdc2d1b198b4567",
+        "623166e08c43374ca1567195",
+        "56083e1b4bdc2dc8488b4572",
+        "5ae30bad5acfc400185c2dc4",
+        "275def25d1abe9b101511271"
+      ],
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "bd0f3ec666237a5bc6887e26",
+          "_parent": "b2d57758abe9bb9345c58e4a",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "56ea70acd2720b844b8b4594",
+                  "5aa66be6e5b5b0214e506e97",
+                  "61714eec290d254f5e6b2ffc",
+                  "62850c28da09541f43158cca",
+                  "85675a91454713828d6138e5",
+                  "cd609524dadc768a89f99bba",
+                  "750bcfb1b1f84f27a8f4f282",
+                  "0afaf0c97b1d068d242df1dc"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_000",
+          "_id": "bde5ff1f0e7e0ce61472fc63",
+          "_parent": "b2d57758abe9bb9345c58e4a",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "e4f2fd43b5613348b6e25bb5",
+                  "2437ee507945dfe829ddf298",
+                  "ee8d5029626f7ba2e1510676",
+                  "959b54e7798be68a1a54ff81",
+                  "d4424e8a8d6e6789adbfcde2",
+                  "42aac757e1ac8161f6ec6766"
+                ]
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_001",
+          "_id": "0674a69fe80617931dedfdd1",
+          "_parent": "b2d57758abe9bb9345c58e4a",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "e4f2fd43b5613348b6e25bb5",
+                  "2437ee507945dfe829ddf298",
+                  "ee8d5029626f7ba2e1510676",
+                  "959b54e7798be68a1a54ff81",
+                  "d4424e8a8d6e6789adbfcde2",
+                  "42aac757e1ac8161f6ec6766"
+                ]
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Geissele Super Precision 34mm ring scope mount",
+        "shortName": "Geis 34mm",
+        "description": "A universal 34mm scope base mount for installation on Picatinny rails. Manufactured by Geissele."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 33222,
+    "handbookPriceRoubles": 12500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d35": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 16270,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "67ea8b32e0d7701fc6bfc5bf": {
+    "itemTplToClone": "618b9643526131765025ab35",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/g$_sp34mm_ddc.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "55d5f46a4bdc2d1b198b4567",
+        "623166e08c43374ca1567195",
+        "56083e1b4bdc2dc8488b4572",
+        "5ae30bad5acfc400185c2dc4",
+        "275def25d1abe9b101511271"
+      ],
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "cac37f92747f781c659170b0",
+          "_parent": "67ea8b32e0d7701fc6bfc5bf",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "56ea70acd2720b844b8b4594",
+                  "5aa66be6e5b5b0214e506e97",
+                  "61714eec290d254f5e6b2ffc",
+                  "62850c28da09541f43158cca",
+                  "85675a91454713828d6138e5",
+                  "cd609524dadc768a89f99bba",
+                  "750bcfb1b1f84f27a8f4f282",
+                  "0afaf0c97b1d068d242df1dc"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_000",
+          "_id": "a00b0933176ccec36050d597",
+          "_parent": "67ea8b32e0d7701fc6bfc5bf",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "e4f2fd43b5613348b6e25bb5",
+                  "2437ee507945dfe829ddf298",
+                  "ee8d5029626f7ba2e1510676",
+                  "959b54e7798be68a1a54ff81",
+                  "d4424e8a8d6e6789adbfcde2",
+                  "42aac757e1ac8161f6ec6766"
+                ]
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_001",
+          "_id": "56f66e3f3a5444614da8d419",
+          "_parent": "67ea8b32e0d7701fc6bfc5bf",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "e4f2fd43b5613348b6e25bb5",
+                  "2437ee507945dfe829ddf298",
+                  "ee8d5029626f7ba2e1510676",
+                  "959b54e7798be68a1a54ff81",
+                  "d4424e8a8d6e6789adbfcde2",
+                  "42aac757e1ac8161f6ec6766"
+                ]
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Geissele Super Precision 34mm ring scope mount (DDC)",
+        "shortName": "Geis 34mm",
+        "description": "A universal 34mm scope base mount for installation on Picatinny rails. Manufactured by Geissele. Desert Dirt Color version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 33222,
+    "handbookPriceRoubles": 12500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d36": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 16270,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ee8d5029626f7ba2e1510676": {
+    "itemTplToClone": "618b9682a3884f56c957ca78",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/34mm_rof_90_blk.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "959b54e7798be68a1a54ff81",
+        "d4424e8a8d6e6789adbfcde2",
+        "42aac757e1ac8161f6ec6766",
+        "ee8d5029626f7ba2e1510676"
+      ],
+      "Slots": [
+        {
+          "_name": "mod_scope_000",
+          "_id": "bb8bca6e11fe032e866567c8",
+          "_parent": "ee8d5029626f7ba2e1510676",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5a32aa8bc4a2826c6e06d737",
+                  "81ee14e532991b2b9993ae0e",
+                  "ac738256c846acc25b183a80",
+                  "26f02172906cbaa1ae78e57d",
+                  "87690b1fadc788a959d42e46"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia 34mm ROF-90 RMR mount for Geissele scope mounts",
+        "shortName": "ROF-90 RMR",
+        "description": "The Reptilia ROF-90 mount allows installation of the Trijicon RMR reflex sight on the Geissele scope mount series. Replaces the standard Geissele top ring caps."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 14250,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d37": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2250,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "959b54e7798be68a1a54ff81": {
+    "itemTplToClone": "618b9682a3884f56c957ca78",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/34mm_rof_90_ddc.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "ee8d5029626f7ba2e1510676",
+        "d4424e8a8d6e6789adbfcde2",
+        "42aac757e1ac8161f6ec6766",
+        "959b54e7798be68a1a54ff81"
+      ],
+      "Slots": [
+        {
+          "_name": "mod_scope_000",
+          "_id": "4d78dd94b2dfe6dc412bfa91",
+          "_parent": "959b54e7798be68a1a54ff81",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5a32aa8bc4a2826c6e06d737",
+                  "81ee14e532991b2b9993ae0e",
+                  "ac738256c846acc25b183a80",
+                  "26f02172906cbaa1ae78e57d",
+                  "87690b1fadc788a959d42e46"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia 34mm ROF-90 RMR mount for Geissele scope mounts (DDC)",
+        "shortName": "ROF-90 RMR",
+        "description": "The Reptilia ROF-90 mount allows installation of the Trijicon RMR reflex sight on the Geissele scope mount series. Replaces the standard Geissele top ring caps."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 14200,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d38": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2500,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "d4424e8a8d6e6789adbfcde2": {
+    "itemTplToClone": "618b9682a3884f56c957ca78",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/34mm_rof_45_blk.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "42aac757e1ac8161f6ec6766",
+        "959b54e7798be68a1a54ff81",
+        "ee8d5029626f7ba2e1510676",
+        "d4424e8a8d6e6789adbfcde2"
+      ],
+      "Slots": [
+        {
+          "_name": "mod_scope_000",
+          "_id": "e92ed3749e9e957f7b174897",
+          "_parent": "d4424e8a8d6e6789adbfcde2",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5a32aa8bc4a2826c6e06d737",
+                  "81ee14e532991b2b9993ae0e",
+                  "ac738256c846acc25b183a80",
+                  "26f02172906cbaa1ae78e57d",
+                  "87690b1fadc788a959d42e46"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia 34mm ROF-45 RMR mount for Geissele scope mounts",
+        "shortName": "ROF-45 RMR",
+        "description": "The Reptilia ROF-45 mount allows installation of the Trijicon RMR reflex sight on the Geissele scope mount series. Replaces the standard Geissele top ring caps."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 16550,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d39": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2400,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "42aac757e1ac8161f6ec6766": {
+    "itemTplToClone": "618b9682a3884f56c957ca78",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/34mm_rof_45_ddc.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "d4424e8a8d6e6789adbfcde2",
+        "959b54e7798be68a1a54ff81",
+        "959b54e7798be68a1a54ff81",
+        "42aac757e1ac8161f6ec6766"
+      ],
+      "Slots": [
+        {
+          "_name": "mod_scope_000",
+          "_id": "96b38ff1faeb4e971e7e8171",
+          "_parent": "42aac757e1ac8161f6ec6766",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5a32aa8bc4a2826c6e06d737",
+                  "81ee14e532991b2b9993ae0e",
+                  "ac738256c846acc25b183a80",
+                  "26f02172906cbaa1ae78e57d",
+                  "87690b1fadc788a959d42e46"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia 34mm ROF-45 RMR mount for Geissele scope mounts (DDC)",
+        "shortName": "ROF-45 RMR",
+        "description": "The Reptilia ROF-45 mount allows installation of the Trijicon RMR reflex sight on the Geissele scope mount series. Replaces the standard Geissele top ring caps."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 19200,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d3a": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2820,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "81ee14e532991b2b9993ae0e": {
+    "itemTplToClone": "618b9671d14d6d5ab879c5ea",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/rof2_5mm_spacer_blk.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 0,
+      "Slots": [
+        {
+          "_name": "mod_scope_001",
+          "_id": "a1f8108b600a09dcdaf304a1",
+          "_parent": "81ee14e532991b2b9993ae0e",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5a32aa8bc4a2826c6e06d737"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia 2.5mm RMR Riser for Trijicon RMR",
+        "shortName": "Riser",
+        "description": "The Reptilia® ROF Riser is an add-on plate for our ROF line. It moves the mounted red dot sight 2.5mm OR 10mm further from the host scope’s centerline, providing extra clearance for tall turrets or larger-belled scope bodies."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 4200,
+    "handbookPriceRoubles": 250,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26d3b": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 6,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ac738256c846acc25b183a80": {
+    "itemTplToClone": "618b9671d14d6d5ab879c5ea",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/rof2_5mm_spacer_ddc.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 0,
+      "Slots": [
+        {
+          "_name": "mod_scope_001",
+          "_id": "cb98a6ac3246eb1c093a1d47",
+          "_parent": "ac738256c846acc25b183a80",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5a32aa8bc4a2826c6e06d737"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia 2.5mm RMR Riser for Trijicon RMR (DDC)",
+        "shortName": "Riser",
+        "description": "The Reptilia® ROF Riser is an add-on plate for our ROF line. It moves the mounted red dot sight 2.5mm OR 10mm further from the host scope’s centerline, providing extra clearance for tall turrets or larger-belled scope bodies."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 4200,
+    "handbookPriceRoubles": 250,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26d3c": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 6,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "26f02172906cbaa1ae78e57d": {
+    "itemTplToClone": "618b9671d14d6d5ab879c5ea",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/rof_10mm_spacer_blk.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -0.5,
+      "Slots": [
+        {
+          "_name": "mod_scope_001",
+          "_id": "be8ce5ec4e79337b77ef7a29",
+          "_parent": "26f02172906cbaa1ae78e57d",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5a32aa8bc4a2826c6e06d737"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia 10mm RMR Riser for Trijicon RMR",
+        "shortName": "Riser",
+        "description": "The Reptilia® ROF Riser is an add-on plate for our ROF line. It moves the mounted red dot sight 2.5mm OR 10mm further from the host scope’s centerline, providing extra clearance for tall turrets or larger-belled scope bodies."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 4200,
+    "handbookPriceRoubles": 250,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26d3d": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 6,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "87690b1fadc788a959d42e46": {
+    "itemTplToClone": "618b9671d14d6d5ab879c5ea",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/rof_10mm_spacer_ddc.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -0.5,
+      "Slots": [
+        {
+          "_name": "mod_scope_001",
+          "_id": "505f7214993f9ca2fafd809e",
+          "_parent": "87690b1fadc788a959d42e46",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5a32aa8bc4a2826c6e06d737"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia 10mm RMR Riser for Trijicon RMR (DDC)",
+        "shortName": "Riser",
+        "description": "The Reptilia® ROF Riser is an add-on plate for our ROF line. It moves the mounted red dot sight 2.5mm OR 10mm further from the host scope’s centerline, providing extra clearance for tall turrets or larger-belled scope bodies."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 4200,
+    "handbookPriceRoubles": 250,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26d3e": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 6,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6655df2d0169bf45a18535c8": {
+    "itemTplToClone": "58d39d3d86f77445bb794ae7",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/mro_short.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4"
+      ],
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "1b31718ef089cc7533c62d1a",
+          "_parent": "6655df2d0169bf45a18535c8",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "3f18b9a4a43e2c071b08179a"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Trijicon MRO standard mount (short)",
+        "shortName": "MRO Short",
+        "description": "The standard mount base for MRO reflex sights, produced by Trijicon."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 8420,
+    "handbookPriceRoubles": 1700,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "SKIER": {
+        "690c2a76efda1c3d78f26d3f": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2400,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "794a8aea9ca78d01fc24a4f8": {
+    "itemTplToClone": "58d39d3d86f77445bb794ae7",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/mro_tall.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4"
+      ],
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "7ec925b570b27cffd1adcbf9",
+          "_parent": "794a8aea9ca78d01fc24a4f8",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "3f18b9a4a43e2c071b08179a"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Trijicon MRO standard mount (tall)",
+        "shortName": "MRO Tall",
+        "description": "The standard mount base for MRO reflex sights, produced by Trijicon."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 8420,
+    "handbookPriceRoubles": 1700,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "SKIER": {
+        "690c2a76efda1c3d78f26d40": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2800,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "4330375080cfa3b0acf681c0": {
+    "itemTplToClone": "5b31163c5acfc400153b71cb",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Mounts/geissele_sp_l1_3_t1_blk.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4"
+      ],
+      "Ergonomics": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Geissele Super Precision T1 Lower 1/3 Co-Witness mount (Black)",
+        "shortName": "SP-T1 H",
+        "description": "The Super Precision T1 Series was developed specifically to work with the Aimpoint T1 and similarly mounted red dot optics. These mounts are precision machined from a single piece of 7075-T6 high strength aluminum and are available in absolute co-witness, lower third co-witness and 1.93\" height options."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 18520,
+    "handbookPriceRoubles": 4000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "SKIER": {
+        "690c2a76efda1c3d78f26d41": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 9620,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "dc443bf6ab32570c69096e37": {
+    "itemTplToClone": "5b31163c5acfc400153b71cb",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Mounts/geissele_sp_l1_3_t1_fde.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4"
+      ],
+      "Ergonomics": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Geissele Super Precision T1 Lower 1/3 Co-Witness mount (FDE)",
+        "shortName": "SP-T1 H",
+        "description": "The Super Precision T1 Series was developed specifically to work with the Aimpoint T1 and similarly mounted red dot optics. These mounts are precision machined from a single piece of 7075-T6 high strength aluminum and are available in absolute co-witness, lower third co-witness and 1.93\" height options."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 18520,
+    "handbookPriceRoubles": 4000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "SKIER": {
+        "690c2a76efda1c3d78f26d42": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 9620,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "66079d40016c0de3509a31e7": {
+    "itemTplToClone": "58d39d3d86f77445bb794ae7",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Mounts/geissele_sp_cw_t1_blk.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4"
+      ],
+      "Ergonomics": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Geissele Super Precision T1 Absolute Co-Witness mount (Black)",
+        "shortName": "SP-T1 L",
+        "description": "The Super Precision T1 Series was developed specifically to work with the Aimpoint T1 and similarly mounted red dot optics. These mounts are precision machined from a single piece of 7075-T6 high strength aluminum and are available in absolute co-witness, lower third co-witness and 1.93\" height options."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 16250,
+    "handbookPriceRoubles": 2420,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d43": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 7240,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ca9b71e00031160119ab1e58": {
+    "itemTplToClone": "58d39d3d86f77445bb794ae7",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Mounts/geissele_sp_cw_t1_fde.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4"
+      ],
+      "Ergonomics": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Geissele Super Precision T1 Absolute Co-Witness mount (FDE)",
+        "shortName": "SP-T1 L",
+        "description": "The Super Precision T1 Series was developed specifically to work with the Aimpoint T1 and similarly mounted red dot optics. These mounts are precision machined from a single piece of 7075-T6 high strength aluminum and are available in absolute co-witness, lower third co-witness and 1.93\" height options."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 16250,
+    "handbookPriceRoubles": 2420,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d44": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 7240,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "58c3819c7e3f0593dbb9851a": {
+    "itemTplToClone": "59db7eed86f77461f8380365",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Mounts/ta44_mount.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4",
+        "55d5f46a4bdc2d1b198b4567",
+        "275def25d1abe9b101511271"
+      ],
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "baf93d911227f01eaa05af38",
+          "_parent": "58c3819c7e3f0593dbb9851a",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "f5a80c63c2845fbc7c0c00b0"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Trijicon TA44 sight mount",
+        "shortName": "TA44",
+        "description": "The TA44 universal mount for installation of the Trijicon 1.5x16 sight."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 8620,
+    "handbookPriceRoubles": 900,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d45": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 1200,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "f849f458cb4ad62c5d8b96e1": {
+    "itemTplToClone": "5c064c400db834001d23f468",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Mounts/kac_high_forward.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4"
+      ],
+      "Width": 2,
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "3fc01ec5a3357590ed760b80",
+          "_parent": "f849f458cb4ad62c5d8b96e1",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "61657230d92c473c770213d7",
+                  "58d399e486f77442e0016fe7",
+                  "5b3116595acfc40019476364",
+                  "58d39b0386f77443380bf13c"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_tactical",
+          "_id": "ea43f44dcf38d4370f43ef18",
+          "_parent": "f849f458cb4ad62c5d8b96e1",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": []
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "KAC Aimpoint Micro NVG riser mount",
+        "shortName": "KAC NVG",
+        "description": "Aimpoint Micro NVG High Rise Mount By lifting the optic up higher you can clear lights, lasers and any other items that can obstruct your sight picture. Intended to be used with Eotech or Aimpoint magnifiers on the rearward rail."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 14400,
+    "handbookPriceRoubles": 2400,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26d46": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 46,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "86f1db244188717106a25806": {
+    "itemTplToClone": "5c064c400db834001d23f468",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Mounts/kac_high_reverse.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4",
+        "5bb20e49d4351e3bac1212de",
+        "5ba26b17d4351e00367f9bdd",
+        "5dfa3d7ac41b2312ea33362a",
+        "5c1780312e221602b66cc189",
+        "5fb6564947ce63734e3fa1da",
+        "5bc09a18d4351e003562b68e",
+        "5c18b9192e2216398b5a8104",
+        "5fc0fa957283c4046c58147e",
+        "5894a81786f77427140b8347",
+        "55d5f46a4bdc2d1b198b4567",
+        "5ae30bad5acfc400185c2dc4",
+        "275def25d1abe9b101511271"
+      ],
+      "Width": 2,
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "3fc01ec5a3357590ed760b80",
+          "_parent": "86f1db244188717106a25806",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "61657230d92c473c770213d7",
+                  "58d399e486f77442e0016fe7",
+                  "5b3116595acfc40019476364",
+                  "58d39b0386f77443380bf13c"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_tactical_000",
+          "_id": "ea43f44dcf38d4370f43ef18",
+          "_parent": "86f1db244188717106a25806",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5c06595c0db834001a66af6c",
+                  "544909bb4bdc2d6f028b4577"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "KAC Aimpoint Micro NVG riser mount (Reversed)",
+        "shortName": "KAC NVG",
+        "description": "Aimpoint Micro NVG High Rise Mount By lifting the optic up higher you can clear lights, lasers and any other items that can obstruct your sight picture. Intended to be used with Eotech or Aimpoint magnifiers on the rearward rail."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 16250,
+    "handbookPriceRoubles": 2400,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26d47": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 46,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "2e681ada9836f6e030080191": {
+    "itemTplToClone": "5c064c400db834001d23f468",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Mounts/unity_ftc_riser_blk.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.085,
+      "Accuracy": 2,
+      "Conflictingitems": [],
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "006c68f92a368d4b93703de9",
+          "_parent": "2e681ada9836f6e030080191",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "558022b54bdc2dac148b458d",
+                  "59f9d81586f7744c7506ee62",
+                  "60a23797a37c940de7062d02",
+                  "655f13e0a246670fb0373245"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Unity FAST Optic Riser (BLK)",
+        "shortName": "FAST",
+        "description": "The FAST™ Optic Riser securely elevates direct-to-rail mounted red dot optics with a standard lower 1/3 co-witness picatinny mount to a 2.26″ optical center line. The FAST™ Optic Riser provides an elevated M1913 Picatinny platform for direct attachment of optics, such as EOTech® EXPS, Vortex® UH-1 and other lower 1/3 co-witness optics. It can be paired with any FAST™ FTC (Flip-to-Center) magnifier mount."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 14300,
+    "handbookPriceRoubles": 2900,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "SKIER": {
+        "690c2a76efda1c3d78f26d48": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 3950,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "e1543def58291668bac8e2c8": {
+    "itemTplToClone": "5c064c400db834001d23f468",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Mounts/unity_ftc_riser_fde.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.085,
+      "Accuracy": 2,
+      "Conflictingitems": [],
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "5344c5b335fac8f5b2dcef2f",
+          "_parent": "e1543def58291668bac8e2c8",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "558022b54bdc2dac148b458d",
+                  "59f9d81586f7744c7506ee62",
+                  "60a23797a37c940de7062d02",
+                  "655f13e0a246670fb0373245"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Unity FAST Optic Riser (FDE)",
+        "shortName": "FAST",
+        "description": "The FAST™ Optic Riser securely elevates direct-to-rail mounted red dot optics with a standard lower 1/3 co-witness picatinny mount to a 2.26″ optical center line. The FAST™ Optic Riser provides an elevated M1913 Picatinny platform for direct attachment of optics, such as EOTech® EXPS, Vortex® UH-1 and other lower 1/3 co-witness optics. It can be paired with any FAST™ FTC (Flip-to-Center) magnifier mount."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 14300,
+    "handbookPriceRoubles": 2900,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "SKIER": {
+        "690c2a76efda1c3d78f26d49": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 3950,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "7af1b735539670b26a3fe68b": {
+    "itemTplToClone": "618b9643526131765025ab35",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/reptilia_34mm_mount_fde.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "55d5f46a4bdc2d1b198b4567",
+        "623166e08c43374ca1567195",
+        "56083e1b4bdc2dc8488b4572",
+        "5ae30bad5acfc400185c2dc4",
+        "275def25d1abe9b101511271"
+      ],
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "c3a0c6726558534a52ef5b91",
+          "_parent": "7af1b735539670b26a3fe68b",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "56ea70acd2720b844b8b4594",
+                  "5aa66be6e5b5b0214e506e97",
+                  "61714eec290d254f5e6b2ffc",
+                  "62850c28da09541f43158cca",
+                  "85675a91454713828d6138e5",
+                  "cd609524dadc768a89f99bba",
+                  "750bcfb1b1f84f27a8f4f282",
+                  "0afaf0c97b1d068d242df1dc"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount",
+          "_id": "0c52c2da4a9b89161febdd6b",
+          "_parent": "67ea8b32e0d7701fc6bfc5bf",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "0ce104382851509ab14fb19c",
+                  "27b92c2226b1110635235c2e",
+                  "04b7ab7e14e564819a6d0e22",
+                  "0d914f394390e16506a949da",
+                  "7b3525a6de4f4847921529c0",
+                  "159023b10fa02ac28247fce3"
+                ]
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia AUS 34mm ring scope mount (FDE)",
+        "shortName": "AUS 34mm",
+        "description": "Introducing the AUS Mount for 34mm diameter magnified optics, from Reptilia. Driven by the request of an end user group, the AUS Mount is the culmination of a 2 year development program."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 27520,
+    "handbookPriceRoubles": 9000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d4a": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 14290,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "e3dcf75199f821636a95cb9b": {
+    "itemTplToClone": "618b9643526131765025ab35",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/reptilia_34mm_mount_blk.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "55d5f46a4bdc2d1b198b4567",
+        "623166e08c43374ca1567195",
+        "56083e1b4bdc2dc8488b4572",
+        "5ae30bad5acfc400185c2dc4",
+        "275def25d1abe9b101511271"
+      ],
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "d180f87d9cac7548e5cd65c6",
+          "_parent": "e3dcf75199f821636a95cb9b",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "56ea70acd2720b844b8b4594",
+                  "5aa66be6e5b5b0214e506e97",
+                  "61714eec290d254f5e6b2ffc",
+                  "62850c28da09541f43158cca",
+                  "85675a91454713828d6138e5",
+                  "cd609524dadc768a89f99bba",
+                  "750bcfb1b1f84f27a8f4f282",
+                  "0afaf0c97b1d068d242df1dc"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount",
+          "_id": "c4c5c97a0a3516d249e90d4d",
+          "_parent": "e3dcf75199f821636a95cb9b",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "0ce104382851509ab14fb19c",
+                  "27b92c2226b1110635235c2e",
+                  "04b7ab7e14e564819a6d0e22",
+                  "0d914f394390e16506a949da",
+                  "7b3525a6de4f4847921529c0",
+                  "159023b10fa02ac28247fce3"
+                ]
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia AUS 34mm ring scope mount (BLK)",
+        "shortName": "AUS 34mm",
+        "description": "Introducing the AUS Mount for 34mm diameter magnified optics, from Reptilia. Driven by the request of an end user group, the AUS Mount is the culmination of a 2 year development program."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 27520,
+    "handbookPriceRoubles": 9000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d4b": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 14290,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "0ce104382851509ab14fb19c": {
+    "itemTplToClone": "618b9682a3884f56c957ca78",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/reptilia_34mm_rmr_blk.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_scope_001",
+          "_id": "4af17e6e372c170c6cf5111f",
+          "_parent": "0ce104382851509ab14fb19c",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5a32aa8bc4a2826c6e06d737",
+                  "81ee14e532991b2b9993ae0e",
+                  "ac738256c846acc25b183a80",
+                  "26f02172906cbaa1ae78e57d",
+                  "87690b1fadc788a959d42e46"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia 34mm ROF-90 RMR mount for Reptilia scope mounts (BLK)",
+        "shortName": "ROF-90 RMR",
+        "description": "The Reptilia ROF-90 mount allows installation of the Trijicon RMR reflex sight on the Reptilia AUS scope mount series. Replaces the standard Reptilia top ring caps."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 17900,
+    "handbookPriceRoubles": 1500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d4c": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2820,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "27b92c2226b1110635235c2e": {
+    "itemTplToClone": "618b9682a3884f56c957ca78",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/reptilia_34mm_rmr_fde.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_scope_001",
+          "_id": "f91cd50a4418d2ad0d3c0010",
+          "_parent": "27b92c2226b1110635235c2e",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5a32aa8bc4a2826c6e06d737",
+                  "81ee14e532991b2b9993ae0e",
+                  "ac738256c846acc25b183a80",
+                  "26f02172906cbaa1ae78e57d",
+                  "87690b1fadc788a959d42e46"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia 34mm ROF-90 RMR mount for Reptilia scope mounts (FDE)",
+        "shortName": "ROF-90 RMR",
+        "description": "The Reptilia ROF-90 mount allows installation of the Trijicon RMR reflex sight on the Reptilia AUS scope mount series. Replaces the standard Reptilia top ring caps."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 17900,
+    "handbookPriceRoubles": 1500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d4d": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2820,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "04b7ab7e14e564819a6d0e22": {
+    "itemTplToClone": "618b9671d14d6d5ab879c5ea",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/reptilia_ring_blk.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia AUS 34mm top ring cap (BLK)",
+        "shortName": "AUS top",
+        "description": "A regular 34mm top ring cap for the Reptilia AUS mounts."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 39500,
+    "handbookPriceRoubles": 1700,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d4e": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2000,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "0d914f394390e16506a949da": {
+    "itemTplToClone": "618b9671d14d6d5ab879c5ea",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/reptilia_ring_fde.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia AUS 34mm top ring cap (FDE)",
+        "shortName": "AUS top",
+        "description": "A regular 34mm top ring cap for the Reptilia AUS mounts."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 39500,
+    "handbookPriceRoubles": 1700,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d4f": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2000,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "7b3525a6de4f4847921529c0": {
+    "itemTplToClone": "618b9682a3884f56c957ca78",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/reptilia_34mm_acro_blk.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_scope_002",
+          "_id": "1a4f4edf8fd029061b535969",
+          "_parent": "7b3525a6de4f4847921529c0",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "616442e4faa1272e43152193",
+                  "dd7caf9bd203b146528c8da4"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia 34mm ROF-90 ACRO mount for Reptilia scope mounts (BLK)",
+        "shortName": "ROF-90 ACRO",
+        "description": "The Reptilia ROF-90 mount allows installation of the Aimpoint ACRO reflex sight on the Reptilia AUS scope mount series. Replaces the standard Reptilia top ring caps."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 17900,
+    "handbookPriceRoubles": 1500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d50": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2820,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "159023b10fa02ac28247fce3": {
+    "itemTplToClone": "618b9682a3884f56c957ca78",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/reptilia_34mm_acro_fde.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_scope_002",
+          "_id": "6a1d20ed9fe6722e330e4c26",
+          "_parent": "159023b10fa02ac28247fce3",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "616442e4faa1272e43152193",
+                  "dd7caf9bd203b146528c8da4"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia 34mm ROF-90 ACRO mount for Reptilia scope mounts (FDE)",
+        "shortName": "ROF-90 ACRO",
+        "description": "The Reptilia ROF-90 mount allows installation of the Aimpoint ACRO reflex sight on the Reptilia AUS scope mount series. Replaces the standard Reptilia top ring caps."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 17900,
+    "handbookPriceRoubles": 1500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26d51": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2820,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "93efffa7844876067d81dca5": {
+    "itemTplToClone": "615d8d878004cc50514c3233",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/acro_pic_mount_short.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "B&T QD low mount for Aimpoint ACRO",
+        "shortName": "B&T Low",
+        "description": "The Brugger & Thomet QD NAR is a special mount for the Aimpoint ACRO-series reflex sights. low height version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 26250,
+    "handbookPriceRoubles": 1500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26d52": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 22,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "85a2077a2a40a73a0f95f74a": {
+    "itemTplToClone": "5649a2464bdc2d91118b45a8",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/micro_offset.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "5649dc074bdc2d1b2b8b458f",
+          "_parent": "85a2077a2a40a73a0f95f74a",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "61657230d92c473c770213d7",
+                  "58d399e486f77442e0016fe7",
+                  "5b3116595acfc40019476364",
+                  "026dfdb287f69c3025f0f728",
+                  "2589a5a2424122404cf3a94c"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Larue LT724 Angled CQB Micro T-1 mount",
+        "shortName": "LT724",
+        "description": "Magnified scopes are great for distance targets, but are slow and awkward when engaging targets close-in. When used in combination with a magnified scope, the LT-724 positions the excellent Aimpoint T-1 off to the side, so you'll have all the benefits of a red-dot simply by rotating the rifle a few degrees for rapid transition to close-range targets."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001",
+      "mod_mount"
+    ],
+    "fleaPriceRoubles": 39200,
+    "handbookPriceRoubles": 2500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d53": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 31,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "55dccd6302404bfc237a814e": {
+    "itemTplToClone": "615d8d878004cc50514c3233",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/rep_acro_193_blk.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia 1.93\" mount for Aimpoint ACRO (Black)",
+        "shortName": "Rep ACRO",
+        "description": "The 1.93 inch height DOT Mount™ for Aimpoint ACRO by Reptilia is a lightweight, slim-line mounting solution for a variety of red dot optics."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 27000,
+    "handbookPriceRoubles": 3500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d54": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 24,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "1c852a7fd73bcde9d3ff968b": {
+    "itemTplToClone": "615d8d878004cc50514c3233",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/rep_acro_193_fde.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia 1.93\" mount for Aimpoint ACRO (FDE)",
+        "shortName": "Rep ACRO",
+        "description": "The 1.93 inch height DOT Mount™ for Aimpoint ACRO by Reptilia is a lightweight, slim-line mounting solution for a variety of red dot optics."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 27000,
+    "handbookPriceRoubles": 3500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d55": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 25,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "71e6bc96b1a4cce0b4340b20": {
+    "itemTplToClone": "615d8d878004cc50514c3233",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/rep_acro_cowitness_blk.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia Lower 1/3 mount for Aimpoint ACRO (Black)",
+        "shortName": "Rep ACRO",
+        "description": "The lower 1/3 height DOT Mount™ for Aimpoint ACRO by Reptilia is a lightweight, slim-line mounting solution for a variety of red dot optics."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 27000,
+    "handbookPriceRoubles": 3500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d56": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 22,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "986150a30f2c89c4555dead5": {
+    "itemTplToClone": "615d8d878004cc50514c3233",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/rep_acro_cowitness_fde.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia Lower 1/3 mount for Aimpoint ACRO (FDE)",
+        "shortName": "Rep ACRO",
+        "description": "The lower 1/3 height DOT Mount™ for Aimpoint ACRO by Reptilia is a lightweight, slim-line mounting solution for a variety of red dot optics."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 27000,
+    "handbookPriceRoubles": 3500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d57": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 23,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "f07a16a89f1c954f72bbf50e": {
+    "itemTplToClone": "5649a2464bdc2d91118b45a8",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/rep_acro_offset_blk.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "d1d608301ad081f6f908bf07",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "f07a16a89f1c954f72bbf50e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "616442e4faa1272e43152193",
+                  "dd7caf9bd203b146528c8da4",
+                  "36c4b709b7b9465d6e875d35"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia Offset mount for Aimpoint ACRO (Black)",
+        "shortName": "Rep ACRO",
+        "description": "The offset DOT Mount™ for Aimpoint ACRO by Reptilia is a lightweight, slim-line mounting solution for a variety of red dot optics."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 27000,
+    "handbookPriceRoubles": 3500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d58": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 20,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "7e07f0150bb32a595e2c142b": {
+    "itemTplToClone": "5649a2464bdc2d91118b45a8",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/rep_acro_offset_fde.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "b0b74a4f1b3e617292d8f852",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "7e07f0150bb32a595e2c142b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "616442e4faa1272e43152193",
+                  "dd7caf9bd203b146528c8da4",
+                  "36c4b709b7b9465d6e875d35"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Reptilia Offset mount for Aimpoint ACRO (FDE)",
+        "shortName": "Rep ACRO",
+        "description": "The offset DOT Mount™ for Aimpoint ACRO by Reptilia is a lightweight, slim-line mounting solution for a variety of red dot optics."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 27000,
+    "handbookPriceRoubles": 3500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d59": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 20,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "23878a19adddf4afbbcc0537": {
+    "itemTplToClone": "5c064c400db834001d23f468",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/carry_handle_pic_mount.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "1becd225e0ed6368cc6f871b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "23878a19adddf4afbbcc0537",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "5b2389515acfc4771e1be0c0",
+                  "577d128124597739d65d0e56",
+                  "618b9643526131765025ab35",
+                  "618bab21526131765025ab3f",
+                  "5c86592b2e2216000e69e77c",
+                  "5a37ca54c4a282000d72296a",
+                  "58d2664f86f7747fec5834f6",
+                  "57c69dd424597774c03b7bbc",
+                  "5b3b99265acfc4704b4a1afb",
+                  "5aa66a9be5b5b0214e506e89",
+                  "5aa66c72e5b5b00016327c93",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "6171407e50224f204c1da3c5",
+                  "61713cc4d8e3106d9806c109",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "5dff77c759400025ea5150cf",
+                  "626bb8532c923541184624b4",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "655f13e0a246670fb0373245",
+                  "6567e751a715f85433025998",
+                  "93efffa7844876067d81dca5"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Carry Handle Tactical Picatinny Riser mount",
+        "shortName": "Carry Pic",
+        "description": "A picatinny rail designed to fit on top of an AR-15 carry handle. Oh the horrors of what people are going to do with this."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 27000,
+    "handbookPriceRoubles": 3500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26d5a": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 24,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "66713838ca123f9df8e7584e": {
+    "itemTplToClone": "5c064c400db834001d23f468",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/carry_handle_gooseneck.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -2,
+      "Width": 2,
+      "Slots": [
+        {
+          "_id": "ac529575d88d7f8390488b2c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "66713838ca123f9df8e7584e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "59f9d81586f7744c7506ee62",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "615d8d878004cc50514c3233",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "64785e7c19d732620e045e15",
+                  "655f13e0a246670fb0373245",
+                  "93efffa7844876067d81dca5"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Precision Reflex Carry Handle Mount \"Gooseneck\"",
+        "shortName": "Gooseneck",
+        "description": "The classic \"Gooseneck\" mount made by PRI. The markings may be missing due to multiple repaintings since its original purchase, but it will still make a solid mount."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 27000,
+    "handbookPriceRoubles": 3500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26d5b": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 27,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "e35149017403373f6b780e3b": {
+    "itemTplToClone": "5a33bab6c4a28200741e22f8",
+    "parentId": "MOUNT",
+    "handbookParentId": "MOD_MOUNT",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/ta31_rmr_mount.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Trijicon RM35 mount for TA31 scope",
+        "shortName": "RM35",
+        "description": "The Trijicon RM35 is an easy to install adapter plate providing a hardpoint to install a Trijicon RMR reflex sight."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 18000,
+    "handbookPriceRoubles": 5000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d5c": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 19,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "fd70d4ce13dd451e8753f6f7": {
+    "itemTplToClone": "5d123a3cd7ad1a004e476058",
+    "parentId": "5a74651486f7744e73386dd1",
+    "handbookParentId": "5b5f74cc86f77447ec5d770a",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/ta31_ard.bundle",
+        "rcid": ""
+      },
+      "Conflictingitems": [
+        "5ae30bad5acfc400185c2dc4"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Tenebraex RCO-ARD killFLASH",
+        "shortName": "killFLASH",
+        "description": "The standard TA31 ARD made by Tenebraex. It will keep any reflection from giving away your position."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 11000,
+    "handbookPriceRoubles": 3000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d5d": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 10,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "df76c6ddaa6fd565159b9679": {
+    "itemTplToClone": "591c4e1186f77410354b316e",
+    "parentId": "5a74651486f7744e73386dd1",
+    "handbookParentId": "5b5f74cc86f77447ec5d770a",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/spectre_1_5_6_killflash.bundle",
+        "rcid": ""
+      },
+      "Width": 2,
+      "Ergonomics": 2
+    },
+    "locales": {
+      "en": {
+        "name": "Tenebraex SpecterDR 1.5-6 killFLASH",
+        "shortName": "killFLASH",
+        "description": "The ARD for the SpecterDR 1.5-6 scope made by Tenebraex. It will keep any reflection from giving away your position."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 13000,
+    "handbookPriceRoubles": 3000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d5e": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 11,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "eeb62fba336b644c26813276": {
+    "itemTplToClone": "5a33bab6c4a28200741e22f8",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/spectre_1_5_6_rmr_mount.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "79e1067ba725ad52047de321",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "eeb62fba336b644c26813276",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a32aa8bc4a2826c6e06d737"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Elcan SpecterDR RMR mount",
+        "shortName": "Elcan RMR",
+        "description": "Plate designed to mount a Trijicon RMR to ELCAN Specter Combat Scope"
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 8000,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d5f": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 8,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "caa063259af7ba16d12efdec": {
+    "itemTplToClone": "5a33bab6c4a28200741e22f8",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/dbal_i2_rmr.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "d76672f76bdc3a94c0ae8420",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "caa063259af7ba16d12efdec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a32aa8bc4a2826c6e06d737"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Farrow Tech DBAL-i2 RMR mount",
+        "shortName": "RMR",
+        "description": "Plate designed to mount a Trijicon RMR to a DBAL-i2 tactical device."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 12000,
+    "handbookPriceRoubles": 6100,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d60": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 18,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ebef489a3c50f53e143480f9": {
+    "itemTplToClone": "5a33bab6c4a28200741e22f8",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/dbal_i2_leaf.bundle",
+        "rcid": ""
+      },
+      "Slots": [],
+      "Ergonomics": 0
+    },
+    "locales": {
+      "en": {
+        "name": "Railscales DBAL-i2 LEAF front sight",
+        "shortName": "LEAF",
+        "description": "LEAF fixed Iron Sight for DBAL Lasers. Hard mount to your laser and clean up valuable rail space by eliminating your folding front sight. Just mount to your laser, and adjust your rear windage to your Red dot."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 8000,
+    "handbookPriceRoubles": 4660,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d61": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 12,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "df8c1c5015d2342b6c6edb56": {
+    "itemTplToClone": "5a33bab6c4a28200741e22f8",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Mods/Mounts/dbal_i2_acro.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "7b58558e01e24091b1cfa8d0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "eeb62fba336b644c26813276",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "616442e4faa1272e43152193"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Farrow Tech DBAL-i2 ACRO mount",
+        "shortName": "ACRO",
+        "description": "Plate designed to mount an Aimpoint ACRO to a DBAL-i2 tactical device."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 13500,
+    "handbookPriceRoubles": 7200,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d62": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 21,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

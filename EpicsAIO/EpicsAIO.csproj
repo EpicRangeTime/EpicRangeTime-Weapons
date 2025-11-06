@@ -22,7 +22,9 @@
 
   <ItemGroup>
     <Folder Include="Resources\bundles\" />
-    <Folder Include="Resources\db\" />
+    <Folder Include="Resources\db\CustomQuests\Badger\Locales\" />
+    <Folder Include="Resources\db\CustomQuestZones\" />
+    <Folder Include="Resources\res\" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">

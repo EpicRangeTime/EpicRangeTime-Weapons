@@ -1,0 +1,2714 @@
+{
+  "70eb49132ee4b5a739b8fa7f": {
+    "itemTplToClone": "5ae30c9a5acfc408fb139a03",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/b5_bravo_blk.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 9,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 B5 Systems Bravo stock",
+        "shortName": "Bravo",
+        "description": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 8250,
+    "handbookPriceRoubles": 4699,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26c95": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 8200,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "857f6f505667d85233704faa": {
+    "itemTplToClone": "5ae30c9a5acfc408fb139a03",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/b5_bravo_cb.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 9,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 B5 Systems Bravo stock (Coyote)",
+        "shortName": "Bravo",
+        "description": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 8250,
+    "handbookPriceRoubles": 4699,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26c96": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 8200,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "3f9e58d5bea75f1a0ca43399": {
+    "itemTplToClone": "5ae30c9a5acfc408fb139a03",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/b5_bravo_fde.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 9,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 B5 Systems Bravo stock (FDE)",
+        "shortName": "Bravo",
+        "description": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 8250,
+    "handbookPriceRoubles": 4699,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26c97": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 8200,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "b6ec2a1724ebddcb6ff9f16c": {
+    "itemTplToClone": "5ae30c9a5acfc408fb139a03",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/b5_bravo_grey.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 9,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 B5 Systems Bravo stock (Grey)",
+        "shortName": "Bravo",
+        "description": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 8250,
+    "handbookPriceRoubles": 4699,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26c98": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 8200,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "cbd2e6731fb69eb72df5cd78": {
+    "itemTplToClone": "5ae30c9a5acfc408fb139a03",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/b5_bravo_odg.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 9,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 B5 Systems Bravo stock (ODG)",
+        "shortName": "Bravo",
+        "description": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 8250,
+    "handbookPriceRoubles": 4699,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "690c2a76efda1c3d78f26c99": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 8200,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "2a6882a9265b63e56b00f0e8": {
+    "itemTplToClone": "5ae30c9a5acfc408fb139a03",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/prs_lite_blk.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 7,
+      "Recoil": -23,
+      "Weight": 0.515,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Magpul PRS Lite stock",
+        "shortName": "Lite",
+        "description": "The PRS Lite provides much of the same adjustability and many features of our PRS GEN3 Precision-Adjustable Stock, with the added benefits of reduced weight and a price that’s almost half of its fully featured counterpart."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 8250,
+    "handbookPriceRoubles": 4699,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26c9a": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 146,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "e7033144137177533f1fe6cf": {
+    "itemTplToClone": "5ae30c9a5acfc408fb139a03",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/prs_lite_fde.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 7,
+      "Recoil": -23,
+      "Weight": 0.515,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Magpul PRS Lite stock (FDE)",
+        "shortName": "Lite",
+        "description": "The PRS Lite provides much of the same adjustability and many features of our PRS GEN3 Precision-Adjustable Stock, with the added benefits of reduced weight and a price that’s almost half of its fully featured counterpart."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 8250,
+    "handbookPriceRoubles": 4699,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26c9b": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 146,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "26aab2ba6d945ea7877cfded": {
+    "itemTplToClone": "5d44069ca4b9361ebd26fc37",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/stock_m16a1.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 4,
+      "Recoil": -21,
+      "Weight": 0.204,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Armalite M16A1 fixed stock type D",
+        "shortName": "M16A1 Type D",
+        "description": "Produced by Armalite for the United States military in the mid 60s, these fixed M16 stocks have no trapdoor and a rubber buttpad. Molded from fiberglass and very lightweight, it won't serve you wrong."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 9200,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26c9c": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 96,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "bfe86caecde6728199b9eed5": {
+    "itemTplToClone": "5d44069ca4b9361ebd26fc37",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/stock_m16a2.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 4,
+      "Recoil": -20,
+      "Weight": 0.272,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
+      "Slots": [
+        {
+          "_name": "mod_tactical",
+          "_id": "63b063231033d44ad1782676",
+          "_parent": "bfe86caecde6728199b9eed5",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5448ff904bdc2d6f028b456e",
+                  "65815f0e647e3d7246384e14",
+                  "544fb6cc4bdc2d34748b456e",
+                  "56742c284bdc2d98058b456d",
+                  "5e2af2bc86f7746d3f3c33fc",
+                  "57347b8b24597737dd42e192",
+                  "56742c2e4bdc2d95058b456d",
+                  "5e2af37686f774755a234b65",
+                  "57347c5b245977448d35f6e1",
+                  "57347c77245977448d35f6e2",
+                  "5672cb124bdc2d1a0f8b4568",
+                  "5e2aedd986f7746d404f3aa4",
+                  "5e2af22086f7746d3f3c33fa",
+                  "5d235a5986f77443f6329bc6"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Colt M16A2 fixed stock",
+        "shortName": "M16A2 Fixed",
+        "description": "Produced by Colt for the United States military through the current day, these fixed M16 stocks have a trapdoor for storing all of your favorite snacks. Molded from fiberglass and very lightweight, it won't serve you wrong."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 9200,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26c9d": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 102,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "788eac2547e9e3f30daa57ba": {
+    "itemTplToClone": "5d44069ca4b9361ebd26fc37",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/stock_m16a2_fde.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 4,
+      "Recoil": -20,
+      "Weight": 0.272,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
+      "Slots": [
+        {
+          "_name": "mod_tactical",
+          "_id": "63b063231033d44ad1782676",
+          "_parent": "bfe86caecde6728199b9eed5",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5448ff904bdc2d6f028b456e",
+                  "65815f0e647e3d7246384e14",
+                  "544fb6cc4bdc2d34748b456e",
+                  "56742c284bdc2d98058b456d",
+                  "5e2af2bc86f7746d3f3c33fc",
+                  "57347b8b24597737dd42e192",
+                  "56742c2e4bdc2d95058b456d",
+                  "5e2af37686f774755a234b65",
+                  "57347c5b245977448d35f6e1",
+                  "57347c77245977448d35f6e2",
+                  "5672cb124bdc2d1a0f8b4568",
+                  "5e2aedd986f7746d404f3aa4",
+                  "5e2af22086f7746d3f3c33fa",
+                  "5d235a5986f77443f6329bc6"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 UTG M16A2 style fixed stock (FDE)",
+        "shortName": "M16A2 Fixed",
+        "description": "Produced by UTG for Brownells in the United States, these fixed M16 style stocks have a trapdoor for storing all of your favorite snacks. Molded from nylon polymer and very lightweight, it won't serve you wrong."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 9200,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26c9e": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 107,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "bb51865a7e56f49a5af59829": {
+    "itemTplToClone": "55d4ae6c4bdc2d8b2f8b456e",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/stock_car15.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.121,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Colt FiberLite stock",
+        "shortName": "FiberLite",
+        "description": "The original stock featured on the CAR-15, made from fiberglass just like so many things of the 80's."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 9200,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26c9f": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 67,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "d69ecdc7b49d7b7aa6f8d4b8": {
+    "itemTplToClone": "5c5db6f82e2216003a0fe914",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/stock_midwestindustriesfixed.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 3,
+      "Recoil": -24,
+      "Weight": 0.439
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Midwest Industries Fixed Extruded stock",
+        "shortName": "Midwest Extruded",
+        "description": "A heavy duty fixed stock produced by Midwest Industries for picatinny stock mounts. Fully constructed from 6061 aluminum and 4140 heat treated steel for maximum rigidity."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 9200,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26ca0": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 57,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "d1d91c5935812a383f894338": {
+    "itemTplToClone": "5d135e83d7ad1a21b83f42d8",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/magpul_dt_pr_blk.bundle",
+        "rcid": ""
+      },
+      "Recoil": -21,
+      "Ergonomics": 12,
+      "Weight": 0.303,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Magpul DT-PR Carbine Stock (BLK)",
+        "shortName": "DT-PR",
+        "description": "The DT-PR stock is the Precision Rifle (PR) variant of our new Dual-Tension (DT) series of carbine stocks. It incorporates Magpul’s proprietary, patent-pending DT adjustment system, mitigating play between the buffer tube and the stock, resulting in a tighter fit across the stock’s entire length of pull."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 9200,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26ca1": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 76,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "394ddec62819583ac6b760d7": {
+    "itemTplToClone": "5d135e83d7ad1a21b83f42d8",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/magpul_dt_pr_fde.bundle",
+        "rcid": ""
+      },
+      "Recoil": -21,
+      "Ergonomics": 12,
+      "Weight": 0.303,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Magpul DT-PR Carbine Stock (FDE)",
+        "shortName": "DT-PR",
+        "description": "The DT-PR stock is the Precision Rifle (PR) variant of our new Dual-Tension (DT) series of carbine stocks. It incorporates Magpul’s proprietary, patent-pending DT adjustment system, mitigating play between the buffer tube and the stock, resulting in a tighter fit across the stock’s entire length of pull."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 9200,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26ca2": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 76,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "364b69dba974eba7ec8a4f1a": {
+    "itemTplToClone": "5d135e83d7ad1a21b83f42d8",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/str_stock_blk.bundle",
+        "rcid": ""
+      },
+      "Recoil": -21,
+      "Ergonomics": 12,
+      "Weight": 0.303,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Magpul STR Carbine Stock (BLK)",
+        "shortName": "STR",
+        "description": "The Magpul STR (Storage/Type Restricted) Carbine Stock – Mil-Spec is a drop-in replacement buttstock for AR15/M4 carbines using Mil-Spec sized receiver extension tubes. A storage-capable version of the CTR®, the STR has improved cheek weld and two water resistant battery tubes on a compact, reinforced polymer A-frame design."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 9200,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26ca3": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 76,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "ffbf7c0c8acab5ec67bf4788": {
+    "itemTplToClone": "5d135e83d7ad1a21b83f42d8",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/str_stock_fde.bundle",
+        "rcid": ""
+      },
+      "Recoil": -21,
+      "Ergonomics": 12,
+      "Weight": 0.303,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Magpul STR Carbine Stock (FDE)",
+        "shortName": "STR",
+        "description": "The Magpul STR (Storage/Type Restricted) Carbine Stock – Mil-Spec is a drop-in replacement buttstock for AR15/M4 carbines using Mil-Spec sized receiver extension tubes. A storage-capable version of the CTR®, the STR has improved cheek weld and two water resistant battery tubes on a compact, reinforced polymer A-frame design."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 9200,
+    "handbookPriceRoubles": 2000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26ca4": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 76,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "2adbfe8b01c45020b7a77a9e": {
+    "itemTplToClone": "58d2946386f774496974c37e",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/magpul_dt_carbine_stock_blk.bundle",
+        "rcid": ""
+      },
+      "Recoil": -25,
+      "Ergonomics": 11,
+      "Weight": 0.277,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Magpul DT Carbine Stock (Black)",
+        "shortName": "DT",
+        "description": "The DT Carbine Stock is a drop-in replacement buttstock for AR15/M16/M4 carbines (or comparable platforms) equipped with Mil-Spec profile receiver extensions. It merges the best features of the SL® and CTR® product lines with its new dual tensioning technology, which provides greater strength and security for a more rugged and stable platform that’s easy to adjust."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 62000,
+    "handbookPriceRoubles": 8000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26ca5": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 79,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "bc1310a6a0aaa46970321e55": {
+    "itemTplToClone": "58d2946386f774496974c37e",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/magpul_dt_carbine_stock_tan.bundle",
+        "rcid": ""
+      },
+      "Recoil": -25,
+      "Ergonomics": 11,
+      "Weight": 0.277,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Magpul DT Carbine Stock (FDE)",
+        "shortName": "DT FDE",
+        "description": "The DT Carbine Stock is a drop-in replacement buttstock for AR15/M16/M4 carbines (or comparable platforms) equipped with Mil-Spec profile receiver extensions. It merges the best features of the SL® and CTR® product lines with its new dual tensioning technology, which provides greater strength and security for a more rugged and stable platform that’s easy to adjust."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 46000,
+    "handbookPriceRoubles": 8000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26ca6": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 82,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "c492dd59489e2096f9461ffb": {
+    "itemTplToClone": "58d2946386f774496974c37e",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/magpul_dt_carbine_stock_grn.bundle",
+        "rcid": ""
+      },
+      "Recoil": -25,
+      "Ergonomics": 11,
+      "Weight": 0.277,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Magpul DT Carbine Stock (Foliage Green)",
+        "shortName": "DT FG",
+        "description": "The DT Carbine Stock is a drop-in replacement buttstock for AR15/M16/M4 carbines (or comparable platforms) equipped with Mil-Spec profile receiver extensions. It merges the best features of the SL® and CTR® product lines with its new dual tensioning technology, which provides greater strength and security for a more rugged and stable platform that’s easy to adjust."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 29000,
+    "handbookPriceRoubles": 8000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26ca7": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 64,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "eb35aa47f15f9bd6f211c967": {
+    "itemTplToClone": "606587d11246154cad35d635",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/mft_minimalist_blk.bundle",
+        "rcid": ""
+      },
+      "Recoil": -19.5,
+      "Ergonomics": 9.5,
+      "Weight": 0.164,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 MFT BATTLELINK Minimalist stock (Black)",
+        "shortName": "Minimalist",
+        "description": "All of the functional requirements are met while keeping the weight under 6 ounces. This stock adapts and changes to your environment or operational needs by utilizing custom accessory mounts and accepts a new optimized sling configuration."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 22000,
+    "handbookPriceRoubles": 5000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26ca8": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 42,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cfb17094a69e2094a4886fb8": {
+    "itemTplToClone": "606587d11246154cad35d635",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/mft_minimalist_fde.bundle",
+        "rcid": ""
+      },
+      "Recoil": -19.5,
+      "Ergonomics": 9.5,
+      "Weight": 0.164,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 MFT BATTLELINK Minimalist stock (SDE)",
+        "shortName": "Minimalist",
+        "description": "All of the functional requirements are met while keeping the weight under 6 ounces. This stock adapts and changes to your environment or operational needs by utilizing custom accessory mounts and accepts a new optimized sling configuration."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 18000,
+    "handbookPriceRoubles": 5000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26ca9": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 42,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "e486df50a1cc3fbc01855f96": {
+    "itemTplToClone": "591aef7986f774139d495f03",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/maxim_cqb_gen7_stock_blk.bundle",
+        "rcid": ""
+      },
+      "Recoil": -8,
+      "Ergonomics": 2,
+      "Weight": 0.283,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
+      "Slots": [
+        {
+          "_id": "5649dbce4bdc2d9d198b456c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock_000",
+          "_parent": "5649be884bdc2d79388b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "e191f12b24388f954a284c20",
+                  "9d60f153bb8ee15f018f180b"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Maxim Gen 7 CQB stock tube (Black)",
+        "shortName": "Maxim CQB",
+        "description": "The Gen 7 is a CQB stock built for comfort and durability for real-world use. No buttons to push, just pull the stock to deploy. At its most collapsed position, this CQB stock only adds 5.35” to your AR15. At full extension, the Maxim CQB stock is the length of an extended carbine stock."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 16000,
+    "handbookPriceRoubles": 4000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26caa": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 24,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "4eac102401922d4979e4e3e1": {
+    "itemTplToClone": "591aef7986f774139d495f03",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/maxim_cqb_gen7_stock_fde.bundle",
+        "rcid": ""
+      },
+      "Recoil": -8,
+      "Ergonomics": 2,
+      "Weight": 0.283,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
+      "Slots": [
+        {
+          "_id": "5649dbce4bdc2d9d198b456c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock_000",
+          "_parent": "5649be884bdc2d79388b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "e191f12b24388f954a284c20",
+                  "9d60f153bb8ee15f018f180b"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Maxim Gen 7 CQB stock tube (Arid)",
+        "shortName": "Maxim CQB",
+        "description": "The Gen 7 is a CQB stock built for comfort and durability for real-world use. No buttons to push, just pull the stock to deploy. At its most collapsed position, this CQB stock only adds 5.35” to your AR15. At full extension, the Maxim CQB stock is the length of an extended carbine stock."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 14000,
+    "handbookPriceRoubles": 3500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26cab": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 24,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "e191f12b24388f954a284c20": {
+    "itemTplToClone": "5649be884bdc2d79388b4577",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/maxim_cqb_buttpad_fde.bundle",
+        "rcid": ""
+      },
+      "Recoil": -11,
+      "Ergonomics": 18,
+      "Weight": 0.24,
+      "ExtraSizeRight": 0,
+      "ConflictingItems": [],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Maxim Gen 7 CQB buttpad (Arid)",
+        "shortName": "Maxim CQB",
+        "description": "The Gen 7 is a CQB stock built for comfort and durability for real-world use. No buttons to push, just pull the stock to deploy. At its most collapsed position, this CQB stock only adds 5.35” to your AR15. At full extension, the Maxim CQB stock is the length of an extended carbine stock."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 6900,
+    "handbookPriceRoubles": 2500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26cac": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 18,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "9d60f153bb8ee15f018f180b": {
+    "itemTplToClone": "5649be884bdc2d79388b4577",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/maxim_cqb_buttpad_blk.bundle",
+        "rcid": ""
+      },
+      "Recoil": -11,
+      "Ergonomics": 18,
+      "Weight": 0.24,
+      "ExtraSizeRight": 0,
+      "ConflictingItems": [],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Maxim Gen 7 CQB buttpad (Black)",
+        "shortName": "Maxim CQB",
+        "description": "The Gen 7 is a CQB stock built for comfort and durability for real-world use. No buttons to push, just pull the stock to deploy. At its most collapsed position, this CQB stock only adds 5.35” to your AR15. At full extension, the Maxim CQB stock is the length of an extended carbine stock."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 6800,
+    "handbookPriceRoubles": 2500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26cad": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 18,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "80cf189d3de1a40fb52a902f": {
+    "itemTplToClone": "58d2946386f774496974c37e",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/hogue_stock_black.bundle",
+        "rcid": ""
+      },
+      "Recoil": -22,
+      "Ergonomics": 10,
+      "Weight": 0.235,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Hogue OverMolded Carbine stock (Black)",
+        "shortName": "OMCS Blk",
+        "description": "Designed to please the most demanding shooter, the Hogue buttstocks are manufactured to MilSpec tolerances."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 38000,
+    "handbookPriceRoubles": 6000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26cae": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 78,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "eb3ba7bf51c35159a78e90e9": {
+    "itemTplToClone": "58d2946386f774496974c37e",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/hogue_stock_blue.bundle",
+        "rcid": ""
+      },
+      "Recoil": -22,
+      "Ergonomics": 10,
+      "Weight": 0.235,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Hogue OverMolded Carbine stock (Aqua)",
+        "shortName": "OMCS AQ",
+        "description": "Designed to please the most demanding shooter, the Hogue buttstocks are manufactured to MilSpec tolerances."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 38000,
+    "handbookPriceRoubles": 6000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26caf": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 78,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ac318298b846df28e18338ab": {
+    "itemTplToClone": "58d2946386f774496974c37e",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/hogue_stock_green.bundle",
+        "rcid": ""
+      },
+      "Recoil": -22,
+      "Ergonomics": 10,
+      "Weight": 0.235,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Hogue OverMolded Carbine stock (OD Green)",
+        "shortName": "OMCS OD",
+        "description": "Designed to please the most demanding shooter, the Hogue buttstocks are manufactured to MilSpec tolerances."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 38000,
+    "handbookPriceRoubles": 6000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26cb0": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 78,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "308b73dbcf2997db750985dc": {
+    "itemTplToClone": "58d2946386f774496974c37e",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/hogue_stock_grey.bundle",
+        "rcid": ""
+      },
+      "Recoil": -22,
+      "Ergonomics": 10,
+      "Weight": 0.235,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Hogue OverMolded Carbine stock (Grey)",
+        "shortName": "OMCS GRY",
+        "description": "Designed to please the most demanding shooter, the Hogue buttstocks are manufactured to MilSpec tolerances."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 38000,
+    "handbookPriceRoubles": 6000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26cb1": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 78,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "9798b0087903422f1eb5475a": {
+    "itemTplToClone": "58d2946386f774496974c37e",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/Stocks/hogue_stock_pink.bundle",
+        "rcid": ""
+      },
+      "Recoil": -22,
+      "Ergonomics": 10,
+      "Weight": 0.235,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Hogue OverMolded Carbine stock (Pink)",
+        "shortName": "OMCS PNK",
+        "description": "Designed to please the most demanding shooter, the Hogue buttstocks are manufactured to MilSpec tolerances."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 38000,
+    "handbookPriceRoubles": 6000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26cb2": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 78,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

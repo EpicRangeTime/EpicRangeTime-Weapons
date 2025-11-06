@@ -1,0 +1,356 @@
+{
+  "22a72cf93077b10b2cd6b96e": {
+    "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+    "parentId": "HANDGUARD",
+    "handbookParentId": "MOD_HANDGUARD",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR15_Handguards/geissele_smr_mk16_13_5_blk.bundle",
+        "rcid": ""
+      },
+      "ConflictingItems": [
+        "6357c98711fb55120211f7e1",
+        "5ae30e795acfc408fb139a0b",
+        "5a34fbadc4a28200741e230a",
+        "56ea8d2fd2720b7c698b4570",
+        "55d35ee94bdc2d61338b4568",
+        "603372f153a60014f970616d",
+        "603372d154072b51b239f9e1",
+        "603372b4da11d6478d5a07ff",
+        "a06aec4316ac6ff7353845f4",
+        "44805f562c61dd6f99629991",
+        "d40c79f8cd80c888bd960068",
+        "2d2dbf0375f49c5b7ac899ab",
+        "c6b01e3e7a1ec6168254e687",
+        "9e7ef7236e5189be2386e4c2",
+        "981bedd65e69fa6439c52c84",
+        "d0b292e070ee6c5263285461",
+        "5b62e4a75ec6adea49b29abc"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard (BLK)",
+        "shortName": "SMR MK16 13.5\"",
+        "description": "The Geissele SMR 13.5 inch M-LOK handguard for AR-15 equipped with an M-LOK interface for installation of additional devices and accessories. Black Color version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "fleaPriceRoubles": 30422,
+    "handbookPriceRoubles": 8397,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d63": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 224,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "14c562c1c4f9f783c107ef27": {
+    "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+    "parentId": "HANDGUARD",
+    "handbookParentId": "MOD_HANDGUARD",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR15_Handguards/geissele_smr_mk16_10_5_ddc.bundle",
+        "rcid": ""
+      },
+      "ConflictingItems": [
+        "6357c98711fb55120211f7e1",
+        "5ae30e795acfc408fb139a0b",
+        "5a34fbadc4a28200741e230a",
+        "56ea8d2fd2720b7c698b4570",
+        "55d35ee94bdc2d61338b4568",
+        "603372b4da11d6478d5a07ff",
+        "a06aec4316ac6ff7353845f4",
+        "c6b01e3e7a1ec6168254e687"
+      ],
+      "Recoil": 0.5,
+      "Ergonomics": 9,
+      "Width": 2,
+      "ExtraSizeLeft": 1
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Geissele SMR MK16 10.5 inch M-LOK handguard (DDC)",
+        "shortName": "SMR MK16 10.5\"",
+        "description": "The Geissele SMR 10.5 inch M-LOK handguard for AR-15 equipped with an M-LOK interface for installation of additional devices and accessories. Desert Dirt Color version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "fleaPriceRoubles": 99250,
+    "handbookPriceRoubles": 14400,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d64": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 205,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "467eb5903b8a619b136c6e93": {
+    "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+    "parentId": "HANDGUARD",
+    "handbookParentId": "MOD_HANDGUARD",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR15_Handguards/geissele_smr_mk16_10_5_blk.bundle",
+        "rcid": ""
+      },
+      "ConflictingItems": [
+        "6357c98711fb55120211f7e1",
+        "5ae30e795acfc408fb139a0b",
+        "5a34fbadc4a28200741e230a",
+        "56ea8d2fd2720b7c698b4570",
+        "55d35ee94bdc2d61338b4568",
+        "603372b4da11d6478d5a07ff",
+        "a06aec4316ac6ff7353845f4",
+        "c6b01e3e7a1ec6168254e687"
+      ],
+      "Recoil": 0.5,
+      "Ergonomics": 9,
+      "Width": 2,
+      "ExtraSizeLeft": 1
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Geissele SMR MK16 10.5 inch M-LOK handguard (BLK)",
+        "shortName": "SMR MK16 10.5\"",
+        "description": "The Geissele SMR 10.5 inch M-LOK handguard for AR-15 equipped with an M-LOK interface for installation of additional devices and accessories. Black Color version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "fleaPriceRoubles": 89250,
+    "handbookPriceRoubles": 14400,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d65": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 205,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "d21e3b7f7c8f308c1beba55c": {
+    "itemTplToClone": "5ea16acdfadf1d18c87b0784",
+    "parentId": "HANDGUARD",
+    "handbookParentId": "MOD_HANDGUARD",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR15_Handguards/geissele_smr_mk16_9_5_blk.bundle",
+        "rcid": ""
+      },
+      "ConflictingItems": [
+        "6357c98711fb55120211f7e1",
+        "5ae30e795acfc408fb139a0b",
+        "5a34fbadc4a28200741e230a",
+        "56ea8d2fd2720b7c698b4570",
+        "a06aec4316ac6ff7353845f4"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Geissele SMR MK16 9.5 inch M-LOK handguard (BLK)",
+        "shortName": "SMR MK16 9.5\"",
+        "description": "The Geissele SMR 9.5 inch M-LOK handguard for AR-15 equipped with an M-LOK interface for installation of additional devices and accessories. Black Color version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "fleaPriceRoubles": 40000,
+    "handbookPriceRoubles": 16100,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26d66": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 195,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

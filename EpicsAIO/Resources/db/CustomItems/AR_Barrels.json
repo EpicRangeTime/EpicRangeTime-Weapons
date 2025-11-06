@@ -1,0 +1,2609 @@
+{
+  "a06aec4316ac6ff7353845f4": {
+    "itemTplToClone": "55d35ee94bdc2d61338b4568",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR15_Barrels/ar15_8_5.bundle",
+        "rcid": ""
+      },
+      "Recoil": 2,
+      "Ergonomics": 4,
+      "HeatFactor": 0.935,
+      "Velocity": -21.5,
+      "ConflictingItems": [
+        "5447a9cd4bdc2dbd208b4567",
+        "5d43021ca4b9362eab4b5e25",
+        "5c07c60e0db834002330051f",
+        "5c0e2f5cd174af02a012cfc9",
+        "619b5db699fb192e7430664f",
+        "5b2cfa535acfc432ff4db7a0",
+        "5ae30db85acfc408fb139a05",
+        "5c9a25172e2216000f20314e",
+        "55f84c3c4bdc2d5f408b4576",
+        "588b56d02459771481110ae2",
+        "5c9a26332e2216001219ea70",
+        "5ea16ada09aa976f2e7a51be",
+        "5ea16acdfadf1d18c87b0784",
+        "55d459824bdc2d892f8b4573",
+        "5d122e7bd7ad1a07102d6d7f",
+        "5d4405f0a4b9361e6a4e6bd9",
+        "5c78f2792e221600106f4683",
+        "5c78f26f2e221601da3581d1",
+        "5c78f2492e221600114c9f04",
+        "5c78f2612e221600114c9f0d",
+        "6034e3e20ddce744014cb878",
+        "6034e3d953a60014f970617b",
+        "6034e3cb0ddce744014cb870",
+        "5c6d5d8b2e221644fc630b39",
+        "5d00e0cbd7ad1a6c6566a42d",
+        "5d00f63bd7ad1a59283b1c1e",
+        "6087e0336d0bd7580617bb7a",
+        "595cfa8b86f77427437e845b",
+        "595cf16b86f77427440c32e2",
+        "63888bbd28e5cc32cc09d2b6",
+        "640b20359ab20e15ee445fa9",
+        "59e6920f86f77411d82aa167",
+        "59e6927d86f77411da468256",
+        "54527a984bdc2d4e668b4567",
+        "54527ac44bdc2d36668b4567",
+        "59e68f6f86f7746c9f75e846",
+        "59e6906286f7746c9f75e847",
+        "59e690b686f7746c9f75e848",
+        "59e6918f86f7746c9f75e849",
+        "60194943740c5d77f6705eea",
+        "601949593ae8f707c4608daa",
+        "5c0d5ae286f7741e46554302",
+        "647de824196bf69818044c93",
+        "5bb2475ed4351e00853264e3",
+        "72efec8b80389ea82673eac8"
+      ],
+      "Slots": [
+        {
+          "_id": "03ec0d8b1b6bfd2ee855c007",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "a06aec4316ac6ff7353845f4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ae30e795acfc408fb139a0b",
+                  "56eabcd4d2720b66698b4574",
+                  "5d00ec68d7ad1a04a067e5be",
+                  "56ea8d2fd2720b7c698b4570",
+                  "63d3ce281fe77d0f2801859e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "b776efc4319458568f120b02",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "a06aec4316ac6ff7353845f4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "612e0d3767085e45ef14057f",
+                  "5b7d693d5acfc43bca706a3d",
+                  "5a34fd2bc4a282329a73b4c5",
+                  "6065c6e7132d4d12c81fd8e1",
+                  "5d1f819086f7744b355c219b",
+                  "5dcbe965e4ed22586443a79d",
+                  "5d026791d7ad1a04a067ea63",
+                  "5dfa3cd1b33c0951220c079b",
+                  "6130c43c67085e45ef1405a1",
+                  "5cdd7685d7f00c000f260ed2",
+                  "5c878e9d2e2216000f201903",
+                  "5d02677ad7ad1a04a15c0f95",
+                  "5bbdb8bdd4351e4502011460",
+                  "5cdd7693d7f00c0010373aa5",
+                  "607ffb988900dc2d9a55b6e4",
+                  "615d8eb350224f204c1da1cf",
+                  "612e0e3c290d254f5e6b291d",
+                  "5d443f8fa4b93678dd4a01aa",
+                  "5c7954d52e221600106f4cc7",
+                  "5fbc22ccf24b94483f726483",
+                  "59bffc1f86f77435b128b872",
+                  "5cf78496d7f00c065703d6ca",
+                  "5fbe7618d6fa9c00c571bb6c",
+                  "628a66b41d5e41750e314f34",
+                  "6878917c7adb7e17eb1273ce",
+                  "10c1dae2a05599e8a2b59cda"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 .300 blackout 8.5 inch barrel",
+        "shortName": "8.5 .300",
+        "description": "An 8.5 inch barrel for AR-15 based weapons chambered in .300 Blackout."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 22500,
+    "handbookPriceRoubles": 19118,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26c6d": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 176,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "44805f562c61dd6f99629991": {
+    "itemTplToClone": "55d35ee94bdc2d61338b4568",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR15_Barrels/ar15_11_5.bundle",
+        "rcid": ""
+      },
+      "Accuracy": 5,
+      "Recoil": -1,
+      "Ergonomics": -11,
+      "HeatFactor": 0.955,
+      "Velocity": -15.25,
+      "ConflictingItems": [
+        "5b2cfa535acfc432ff4db7a0",
+        "5c9a25172e2216000f20314e",
+        "5ea16ada09aa976f2e7a51be",
+        "5d4405f0a4b9361e6a4e6bd9",
+        "5c78f2492e221600114c9f04",
+        "5c78f2882e22165df16b832e",
+        "6034e3e20ddce744014cb878",
+        "6034e3d953a60014f970617b",
+        "6087e0336d0bd7580617bb7a",
+        "595cfa8b86f77427437e845b",
+        "63888bbd28e5cc32cc09d2b6",
+        "5c0e2f5cd174af02a012cfc9",
+        "5c78f26f2e221601da3581d1",
+        "595cf16b86f77427440c32e2",
+        "640b20359ab20e15ee445fa9",
+        "7f2528f5e1c01b7ac7d8cc82"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45mm 11.5 inch barrel",
+        "shortName": "AR15 11.5",
+        "description": "An 11.5 inch barrel for AR-15 based weapons chambered in 5.56x45."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 24000,
+    "handbookPriceRoubles": 19118,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26c6e": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 162,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "d40c79f8cd80c888bd960068": {
+    "itemTplToClone": "55d35ee94bdc2d61338b4568",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR15_Barrels/ar15_12_5_carbine.bundle",
+        "rcid": ""
+      },
+      "Recoil": -3,
+      "Ergonomics": -11,
+      "Velocity": -14.68,
+      "ConflictingItems": [
+        "5b2cfa535acfc432ff4db7a0",
+        "5c9a25172e2216000f20314e",
+        "5ea16ada09aa976f2e7a51be",
+        "5d4405f0a4b9361e6a4e6bd9",
+        "5c78f2492e221600114c9f04",
+        "5c78f2882e22165df16b832e",
+        "6034e3e20ddce744014cb878",
+        "6034e3d953a60014f970617b",
+        "6087e0336d0bd7580617bb7a",
+        "595cfa8b86f77427437e845b",
+        "63888bbd28e5cc32cc09d2b6",
+        "5c78f26f2e221601da3581d1",
+        "5c0e2f5cd174af02a012cfc9",
+        "640b20359ab20e15ee445fa9",
+        "7f2528f5e1c01b7ac7d8cc82"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 12.5 Carbine barrel",
+        "shortName": "AR15 12.5C",
+        "description": "A 12.5 inch barrel for AR-15 based weapons chambered in 5.56x45."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 65000,
+    "handbookPriceRoubles": 21250,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26c6f": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 172,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "2d2dbf0375f49c5b7ac899ab": {
+    "itemTplToClone": "5c0e2f94d174af029f650d56",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR15_Barrels/ar15_12_5_mid.bundle",
+        "rcid": ""
+      },
+      "Accuracy": 5,
+      "Recoil": -5,
+      "Ergonomics": -11,
+      "Velocity": -14.68,
+      "Width": 2,
+      "Extrasizeleft": 2,
+      "ConflictingItems": [
+        "5c9a26332e2216001219ea70",
+        "5d00f63bd7ad1a59283b1c1e",
+        "5d00e0cbd7ad1a6c6566a42d",
+        "647de824196bf69818044c93",
+        "55d459824bdc2d892f8b4573",
+        "5ae30db85acfc408fb139a05",
+        "5c78f2792e221600106f4683",
+        "5c78f2492e221600114c9f04",
+        "5c9a25172e2216000f20314e",
+        "595cfa8b86f77427437e845b",
+        "640b20359ab20e15ee445fa9",
+        "5ea16ada09aa976f2e7a51be",
+        "6034e3d953a60014f970617b",
+        "5d4405f0a4b9361e6a4e6bd9",
+        "63888bbd28e5cc32cc09d2b6",
+        "6034e3e20ddce744014cb878",
+        "5b2cfa535acfc432ff4db7a0",
+        "6087e0336d0bd7580617bb7a",
+        "5c78f2882e22165df16b832e",
+        "7f2528f5e1c01b7ac7d8cc82"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 12.5 inch mid barrel",
+        "shortName": "AR15 12.5M",
+        "description": "A 12.5 inch mid gas barrel for AR-15 based weapons chambered in 5.56x45."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 65000,
+    "handbookPriceRoubles": 16200,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26c70": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 23420,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "36743efe52b803c9ec56ba99": {
+    "itemTplToClone": "5c0e2f94d174af029f650d56",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_ar15_adar_406mm.bundle",
+        "rcid": ""
+      },
+      "Recoil": 4,
+      "Velocity": -2,
+      "ConflictingItems": [
+        "5ae30db85acfc408fb139a05",
+        "55d459824bdc2d892f8b4573",
+        "5c9a26332e2216001219ea70",
+        "5c78f2792e221600106f4683",
+        "5d00e0cbd7ad1a6c6566a42d",
+        "5d00f63bd7ad1a59283b1c1e",
+        "5447a9cd4bdc2dbd208b4567",
+        "5c07c60e0db834002330051f",
+        "5d43021ca4b9362eab4b5e25",
+        "5c78f2882e22165df16b832e",
+        "5bb2475ed4351e00853264e3",
+        "72efec8b80389ea82673eac8"
+      ],
+      "Slots": [
+        {
+          "_id": "156413184cbf9ee873ff7096",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "36743efe52b803c9ec56ba99",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ae30e795acfc408fb139a0b",
+                  "56eabcd4d2720b66698b4574",
+                  "5d00ec68d7ad1a04a067e5be",
+                  "56ea8d2fd2720b7c698b4570",
+                  "63d3ce281fe77d0f2801859e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "33fc08a4af5c21b885ec0089",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "36743efe52b803c9ec56ba99",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "612e0d3767085e45ef14057f",
+                  "5b7d693d5acfc43bca706a3d",
+                  "5a34fd2bc4a282329a73b4c5",
+                  "6065c6e7132d4d12c81fd8e1",
+                  "5d1f819086f7744b355c219b",
+                  "5dcbe965e4ed22586443a79d",
+                  "5d026791d7ad1a04a067ea63",
+                  "5dfa3cd1b33c0951220c079b",
+                  "6130c43c67085e45ef1405a1",
+                  "5cdd7685d7f00c000f260ed2",
+                  "5c878e9d2e2216000f201903",
+                  "5d02677ad7ad1a04a15c0f95",
+                  "5bbdb8bdd4351e4502011460",
+                  "5cdd7693d7f00c0010373aa5",
+                  "607ffb988900dc2d9a55b6e4",
+                  "615d8eb350224f204c1da1cf",
+                  "612e0e3c290d254f5e6b291d",
+                  "5d443f8fa4b93678dd4a01aa",
+                  "5c7954d52e221600106f4cc7",
+                  "5fbc22ccf24b94483f726483",
+                  "59bffc1f86f77435b128b872",
+                  "5cf78496d7f00c065703d6ca",
+                  "5fbe7618d6fa9c00c571bb6c",
+                  "628a66b41d5e41750e314f34",
+                  "6878917c7adb7e17eb1273ce",
+                  "10c1dae2a05599e8a2b59cda"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 .300 blackout 406mm barrel",
+        "shortName": "406 .300",
+        "description": "A 406mm barrel for AR-15 based weapons chambered in .300 blackout."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 18500,
+    "handbookPriceRoubles": 19118,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "SKIER": {
+        "690c2a76efda1c3d78f26c71": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 18630,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "855c66034be3bb6aece3919b": {
+    "itemTplToClone": "55d3632e4bdc2d972f8b4569",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_ar15_370mm.bundle",
+        "rcid": ""
+      },
+      "Recoil": 5,
+      "Velocity": -6,
+      "ConflictingItems": [
+        "5c0e2f5cd174af02a012cfc9",
+        "5c78f2612e221600114c9f0d",
+        "5c78f26f2e221601da3581d1",
+        "5d4405f0a4b9361e6a4e6bd9",
+        "5df916dfbb49d91fb446d6b9",
+        "5447a9cd4bdc2dbd208b4567",
+        "5c07c60e0db834002330051f",
+        "5d43021ca4b9362eab4b5e25",
+        "5c78f2882e22165df16b832e",
+        "5bb2475ed4351e00853264e3",
+        "72efec8b80389ea82673eac8"
+      ],
+      "Slots": [
+        {
+          "_id": "93d5dcac699355075eb0fb71",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "855c66034be3bb6aece3919b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ae30e795acfc408fb139a0b",
+                  "56eabcd4d2720b66698b4574",
+                  "5d00ec68d7ad1a04a067e5be",
+                  "56ea8d2fd2720b7c698b4570",
+                  "63d3ce281fe77d0f2801859e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "0eefa1878c189025cfb7ddd9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "855c66034be3bb6aece3919b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "612e0d3767085e45ef14057f",
+                  "5b7d693d5acfc43bca706a3d",
+                  "5a34fd2bc4a282329a73b4c5",
+                  "6065c6e7132d4d12c81fd8e1",
+                  "5d1f819086f7744b355c219b",
+                  "5dcbe965e4ed22586443a79d",
+                  "5d026791d7ad1a04a067ea63",
+                  "5dfa3cd1b33c0951220c079b",
+                  "6130c43c67085e45ef1405a1",
+                  "5cdd7685d7f00c000f260ed2",
+                  "5c878e9d2e2216000f201903",
+                  "5d02677ad7ad1a04a15c0f95",
+                  "5bbdb8bdd4351e4502011460",
+                  "5cdd7693d7f00c0010373aa5",
+                  "607ffb988900dc2d9a55b6e4",
+                  "615d8eb350224f204c1da1cf",
+                  "612e0e3c290d254f5e6b291d",
+                  "5d443f8fa4b93678dd4a01aa",
+                  "5c7954d52e221600106f4cc7",
+                  "5fbc22ccf24b94483f726483",
+                  "59bffc1f86f77435b128b872",
+                  "5cf78496d7f00c065703d6ca",
+                  "5fbe7618d6fa9c00c571bb6c",
+                  "628a66b41d5e41750e314f34",
+                  "6878917c7adb7e17eb1273ce",
+                  "10c1dae2a05599e8a2b59cda"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "b7335bc3c31cec1a2c6309e0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_launcher",
+          "_parent": "855c66034be3bb6aece3919b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6357c98711fb55120211f7e1"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 .300 blackout 370mm barrel",
+        "shortName": "370 .300",
+        "description": "A 370mm barrel for AR-15 based weapons chambered in .300 blackout."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 28000,
+    "handbookPriceRoubles": 19118,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26c72": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 209,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "c6b01e3e7a1ec6168254e687": {
+    "itemTplToClone": "55d35ee94bdc2d61338b4568",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_ar15_260mm.bundle",
+        "rcid": ""
+      },
+      "Recoil": 6,
+      "Velocity": -19.23,
+      "ConflictingItems": [
+        "5fc235db2770a0045c59c683",
+        "6034e3d953a60014f970617b",
+        "6034e3e20ddce744014cb878",
+        "6065881d1246154cad35d637",
+        "6087e0336d0bd7580617bb7a",
+        "619b5db699fb192e7430664f",
+        "637f57c532b66e7e320a6676",
+        "63888bbd28e5cc32cc09d2b6",
+        "640b20359ab20e15ee445fa9",
+        "595cfa8b86f77427437e845b",
+        "5c0e2f5cd174af02a012cfc9",
+        "5c78f2492e221600114c9f04",
+        "5c78f26f2e221601da3581d1",
+        "5c9a25172e2216000f20314e",
+        "5d00ede1d7ad1a0940739a76",
+        "5d00ef6dd7ad1a0940739b16",
+        "5d122e7bd7ad1a07102d6d7f",
+        "5d4405f0a4b9361e6a4e6bd9",
+        "5df916dfbb49d91fb446d6b9",
+        "5ea16ada09aa976f2e7a51be",
+        "5447a9cd4bdc2dbd208b4567",
+        "5c07c60e0db834002330051f",
+        "5d43021ca4b9362eab4b5e25",
+        "72efec8b80389ea82673eac8"
+      ],
+      "Slots": [
+        {
+          "_id": "d7b74124c46cb6c9ea666ff7",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "c6b01e3e7a1ec6168254e687",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ae30e795acfc408fb139a0b",
+                  "56eabcd4d2720b66698b4574",
+                  "5d00ec68d7ad1a04a067e5be",
+                  "56ea8d2fd2720b7c698b4570",
+                  "63d3ce281fe77d0f2801859e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "657a4c85ac1f42f6f71e1d9f",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "c6b01e3e7a1ec6168254e687",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "612e0d3767085e45ef14057f",
+                  "5b7d693d5acfc43bca706a3d",
+                  "5a34fd2bc4a282329a73b4c5",
+                  "6065c6e7132d4d12c81fd8e1",
+                  "5d1f819086f7744b355c219b",
+                  "5dcbe965e4ed22586443a79d",
+                  "5d026791d7ad1a04a067ea63",
+                  "5dfa3cd1b33c0951220c079b",
+                  "6130c43c67085e45ef1405a1",
+                  "5cdd7685d7f00c000f260ed2",
+                  "5c878e9d2e2216000f201903",
+                  "5d02677ad7ad1a04a15c0f95",
+                  "5bbdb8bdd4351e4502011460",
+                  "5cdd7693d7f00c0010373aa5",
+                  "607ffb988900dc2d9a55b6e4",
+                  "615d8eb350224f204c1da1cf",
+                  "612e0e3c290d254f5e6b291d",
+                  "5d443f8fa4b93678dd4a01aa",
+                  "5c7954d52e221600106f4cc7",
+                  "5fbc22ccf24b94483f726483",
+                  "59bffc1f86f77435b128b872",
+                  "5cf78496d7f00c065703d6ca",
+                  "5fbe7618d6fa9c00c571bb6c",
+                  "628a66b41d5e41750e314f34",
+                  "6878917c7adb7e17eb1273ce",
+                  "10c1dae2a05599e8a2b59cda"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 .300 blackout 260mm barrel",
+        "shortName": "260 .300",
+        "description": "A 260mm barrel for AR-15 based weapons chambered in .300 blackout."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 19200,
+    "handbookPriceRoubles": 19118,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26c73": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 163,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "bc9a059a5c6cb11a3b57c670": {
+    "itemTplToClone": "63d3ce0446bd475bcb50f55f",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_ar15_ba_hanson_carbine_pro_348mm.bundle",
+        "rcid": ""
+      },
+      "Recoil": 5,
+      "Velocity": -7,
+      "ConflictingItems": [
+        "640b20359ab20e15ee445fa9",
+        "5c0e2f5cd174af02a012cfc9",
+        "5c78f26f2e221601da3581d1",
+        "5c78f2882e22165df16b832e",
+        "5d4405f0a4b9361e6a4e6bd9",
+        "63f4ba71f31d4a33b87bd046",
+        "5447a9cd4bdc2dbd208b4567",
+        "5c07c60e0db834002330051f",
+        "5d43021ca4b9362eab4b5e25",
+        "5bb2475ed4351e00853264e3",
+        "72efec8b80389ea82673eac8"
+      ],
+      "Slots": [
+        {
+          "_id": "1f9ee07f45759e952e566c60",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "bc9a059a5c6cb11a3b57c670",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ae30e795acfc408fb139a0b",
+                  "56eabcd4d2720b66698b4574",
+                  "5d00ec68d7ad1a04a067e5be",
+                  "56ea8d2fd2720b7c698b4570",
+                  "63d3ce281fe77d0f2801859e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "8ce0a3737c22a026460de3d9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "bc9a059a5c6cb11a3b57c670",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "612e0d3767085e45ef14057f",
+                  "5b7d693d5acfc43bca706a3d",
+                  "5a34fd2bc4a282329a73b4c5",
+                  "6065c6e7132d4d12c81fd8e1",
+                  "5d1f819086f7744b355c219b",
+                  "5dcbe965e4ed22586443a79d",
+                  "5d026791d7ad1a04a067ea63",
+                  "5dfa3cd1b33c0951220c079b",
+                  "6130c43c67085e45ef1405a1",
+                  "5cdd7685d7f00c000f260ed2",
+                  "5c878e9d2e2216000f201903",
+                  "5d02677ad7ad1a04a15c0f95",
+                  "5bbdb8bdd4351e4502011460",
+                  "5cdd7693d7f00c0010373aa5",
+                  "607ffb988900dc2d9a55b6e4",
+                  "615d8eb350224f204c1da1cf",
+                  "612e0e3c290d254f5e6b291d",
+                  "5d443f8fa4b93678dd4a01aa",
+                  "5c7954d52e221600106f4cc7",
+                  "5fbc22ccf24b94483f726483",
+                  "59bffc1f86f77435b128b872",
+                  "5cf78496d7f00c065703d6ca",
+                  "5fbe7618d6fa9c00c571bb6c",
+                  "628a66b41d5e41750e314f34",
+                  "6878917c7adb7e17eb1273ce",
+                  "10c1dae2a05599e8a2b59cda"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "f1d50a96943befed40485eca",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_launcher",
+          "_parent": "bc9a059a5c6cb11a3b57c670",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6357c98711fb55120211f7e1"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Hanson Carbine .300 blackout 13.7 inch barrel",
+        "shortName": "13.7 .300",
+        "description": "A 13.7in barrel for AR-15 based weapons chambered in .300 blackout."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 24500,
+    "handbookPriceRoubles": 19118,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "SKIER": {
+        "690c2a76efda1c3d78f26c74": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 28253,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "920e1fdd287c92fd605183d4": {
+    "itemTplToClone": "5d440b9fa4b93601354d480c",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_ar15_508mm.bundle",
+        "rcid": ""
+      },
+      "Recoil": 2,
+      "Velocity": 1,
+      "ConflictingItems": [
+        "5c0e2f5cd174af02a012cfc9",
+        "5ae30db85acfc408fb139a05",
+        "55d459824bdc2d892f8b4573",
+        "5c78f2792e221600106f4683",
+        "5c78f26f2e221601da3581d1",
+        "5d00e0cbd7ad1a6c6566a42d",
+        "5d00f63bd7ad1a59283b1c1e",
+        "63f4ba71f31d4a33b87bd046",
+        "5c78f2612e221600114c9f0d",
+        "5c78f2882e22165df16b832e",
+        "5447a9cd4bdc2dbd208b4567",
+        "5c07c60e0db834002330051f",
+        "5d43021ca4b9362eab4b5e25",
+        "5bb2475ed4351e00853264e3",
+        "72efec8b80389ea82673eac8"
+      ],
+      "Slots": [
+        {
+          "_id": "09381a1690971dea82b13cbe",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "920e1fdd287c92fd605183d4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ae30e795acfc408fb139a0b",
+                  "56eabcd4d2720b66698b4574",
+                  "5d00ec68d7ad1a04a067e5be",
+                  "56ea8d2fd2720b7c698b4570",
+                  "63d3ce281fe77d0f2801859e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "de452b4a823815a3bf1e3837",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "920e1fdd287c92fd605183d4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "612e0d3767085e45ef14057f",
+                  "5b7d693d5acfc43bca706a3d",
+                  "5a34fd2bc4a282329a73b4c5",
+                  "6065c6e7132d4d12c81fd8e1",
+                  "5d1f819086f7744b355c219b",
+                  "5dcbe965e4ed22586443a79d",
+                  "5d026791d7ad1a04a067ea63",
+                  "5dfa3cd1b33c0951220c079b",
+                  "6130c43c67085e45ef1405a1",
+                  "5cdd7685d7f00c000f260ed2",
+                  "5c878e9d2e2216000f201903",
+                  "5d02677ad7ad1a04a15c0f95",
+                  "5bbdb8bdd4351e4502011460",
+                  "5cdd7693d7f00c0010373aa5",
+                  "607ffb988900dc2d9a55b6e4",
+                  "615d8eb350224f204c1da1cf",
+                  "612e0e3c290d254f5e6b291d",
+                  "5d443f8fa4b93678dd4a01aa",
+                  "5c7954d52e221600106f4cc7",
+                  "5fbc22ccf24b94483f726483",
+                  "59bffc1f86f77435b128b872",
+                  "5cf78496d7f00c065703d6ca",
+                  "5fbe7618d6fa9c00c571bb6c",
+                  "628a66b41d5e41750e314f34",
+                  "6878917c7adb7e17eb1273ce",
+                  "10c1dae2a05599e8a2b59cda"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 .300 blackout 20 inch barrel",
+        "shortName": "20 .300",
+        "description": "A 20in barrel for AR-15 based weapons chambered in .300 blackout."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 40000,
+    "handbookPriceRoubles": 19118,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26c75": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 312,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "8f3a04aaba92798bf7c59f91": {
+    "itemTplToClone": "5d440b93a4b9364276578d4b",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_ar15_457mm.bundle",
+        "rcid": ""
+      },
+      "Recoil": 3,
+      "Velocity": 0,
+      "ConflictingItems": [
+        "5c0e2f5cd174af02a012cfc9",
+        "5ae30db85acfc408fb139a05",
+        "55d459824bdc2d892f8b4573",
+        "5c78f2792e221600106f4683",
+        "5c78f26f2e221601da3581d1",
+        "5d00e0cbd7ad1a6c6566a42d",
+        "5d00f63bd7ad1a59283b1c1e",
+        "63f4ba71f31d4a33b87bd046",
+        "5c78f2612e221600114c9f0d",
+        "5c78f2882e22165df16b832e",
+        "5447a9cd4bdc2dbd208b4567",
+        "5c07c60e0db834002330051f",
+        "5d43021ca4b9362eab4b5e25",
+        "5bb2475ed4351e00853264e3",
+        "72efec8b80389ea82673eac8"
+      ],
+      "Slots": [
+        {
+          "_id": "df32376ff9bccc77abfa71cd",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "8f3a04aaba92798bf7c59f91",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ae30e795acfc408fb139a0b",
+                  "56eabcd4d2720b66698b4574",
+                  "5d00ec68d7ad1a04a067e5be",
+                  "56ea8d2fd2720b7c698b4570",
+                  "63d3ce281fe77d0f2801859e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "39f445d3fe0fb0a282ecfb33",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "8f3a04aaba92798bf7c59f91",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "612e0d3767085e45ef14057f",
+                  "5b7d693d5acfc43bca706a3d",
+                  "5a34fd2bc4a282329a73b4c5",
+                  "6065c6e7132d4d12c81fd8e1",
+                  "5d1f819086f7744b355c219b",
+                  "5dcbe965e4ed22586443a79d",
+                  "5d026791d7ad1a04a067ea63",
+                  "5dfa3cd1b33c0951220c079b",
+                  "6130c43c67085e45ef1405a1",
+                  "5cdd7685d7f00c000f260ed2",
+                  "5c878e9d2e2216000f201903",
+                  "5d02677ad7ad1a04a15c0f95",
+                  "5bbdb8bdd4351e4502011460",
+                  "5cdd7693d7f00c0010373aa5",
+                  "607ffb988900dc2d9a55b6e4",
+                  "615d8eb350224f204c1da1cf",
+                  "612e0e3c290d254f5e6b291d",
+                  "5d443f8fa4b93678dd4a01aa",
+                  "5c7954d52e221600106f4cc7",
+                  "5fbc22ccf24b94483f726483",
+                  "59bffc1f86f77435b128b872",
+                  "5cf78496d7f00c065703d6ca",
+                  "5fbe7618d6fa9c00c571bb6c",
+                  "628a66b41d5e41750e314f34",
+                  "6878917c7adb7e17eb1273ce",
+                  "10c1dae2a05599e8a2b59cda"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 .300 Blackout 18 inch barrel",
+        "shortName": "18 .300",
+        "description": "An 18in barrel for AR-15 based weapons chambered in .300 blackout."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 52800,
+    "handbookPriceRoubles": 19118,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": []
+  },
+  "f8774eaf5abb081a89bbb950": {
+    "itemTplToClone": "63d3d44a2a49307baf09386d",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_ar15_ba_hanson_carbine_pro_406mm.bundle",
+        "rcid": ""
+      },
+      "Recoil": 3,
+      "Velocity": -1,
+      "ConflictingItems": [
+        "5ae30db85acfc408fb139a05",
+        "55d459824bdc2d892f8b4573",
+        "5c78f2792e221600106f4683",
+        "5d00e0cbd7ad1a6c6566a42d",
+        "5d00f63bd7ad1a59283b1c1e",
+        "5447a9cd4bdc2dbd208b4567",
+        "5c07c60e0db834002330051f",
+        "5d43021ca4b9362eab4b5e25",
+        "5c78f2882e22165df16b832e",
+        "5bb2475ed4351e00853264e3",
+        "72efec8b80389ea82673eac8"
+      ],
+      "Slots": [
+        {
+          "_id": "d581db32946f1639b0c3c851",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "f8774eaf5abb081a89bbb950",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ae30e795acfc408fb139a0b",
+                  "56eabcd4d2720b66698b4574",
+                  "5d00ec68d7ad1a04a067e5be",
+                  "56ea8d2fd2720b7c698b4570",
+                  "63d3ce281fe77d0f2801859e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "f078e6023d25c340b57f03d8",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "f8774eaf5abb081a89bbb950",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "612e0d3767085e45ef14057f",
+                  "5b7d693d5acfc43bca706a3d",
+                  "5a34fd2bc4a282329a73b4c5",
+                  "6065c6e7132d4d12c81fd8e1",
+                  "5d1f819086f7744b355c219b",
+                  "5dcbe965e4ed22586443a79d",
+                  "5d026791d7ad1a04a067ea63",
+                  "5dfa3cd1b33c0951220c079b",
+                  "6130c43c67085e45ef1405a1",
+                  "5cdd7685d7f00c000f260ed2",
+                  "5c878e9d2e2216000f201903",
+                  "5d02677ad7ad1a04a15c0f95",
+                  "5bbdb8bdd4351e4502011460",
+                  "5cdd7693d7f00c0010373aa5",
+                  "607ffb988900dc2d9a55b6e4",
+                  "615d8eb350224f204c1da1cf",
+                  "612e0e3c290d254f5e6b291d",
+                  "5d443f8fa4b93678dd4a01aa",
+                  "5c7954d52e221600106f4cc7",
+                  "5fbc22ccf24b94483f726483",
+                  "59bffc1f86f77435b128b872",
+                  "5cf78496d7f00c065703d6ca",
+                  "5fbe7618d6fa9c00c571bb6c",
+                  "628a66b41d5e41750e314f34",
+                  "6878917c7adb7e17eb1273ce",
+                  "10c1dae2a05599e8a2b59cda"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Hanson Carbine .300 blackout 16 inch barrel",
+        "shortName": "16 .300",
+        "description": "A 16in barrel for AR-15 based weapons chambered in .300 blackout."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 74666,
+    "handbookPriceRoubles": 19118,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "SKIER": {
+        "690c2a76efda1c3d78f26c76": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 36303,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "9e7ef7236e5189be2386e4c2": {
+    "itemTplToClone": "55d35ee94bdc2d61338b4568",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR15_Barrels/ar15_11_5.bundle",
+        "rcid": ""
+      },
+      "Accuracy": 5,
+      "Recoil": 1,
+      "Ergonomics": -11,
+      "HeatFactor": 0.955,
+      "Velocity": -16.25,
+      "ConflictingItems": [
+        "5b2cfa535acfc432ff4db7a0",
+        "5c9a25172e2216000f20314e",
+        "5ea16ada09aa976f2e7a51be",
+        "5d4405f0a4b9361e6a4e6bd9",
+        "5c78f2492e221600114c9f04",
+        "5c78f2882e22165df16b832e",
+        "6034e3e20ddce744014cb878",
+        "6034e3d953a60014f970617b",
+        "6087e0336d0bd7580617bb7a",
+        "595cfa8b86f77427437e845b",
+        "63888bbd28e5cc32cc09d2b6",
+        "5c0e2f5cd174af02a012cfc9",
+        "5c78f26f2e221601da3581d1",
+        "5447a9cd4bdc2dbd208b4567",
+        "595cf16b86f77427440c32e2",
+        "640b20359ab20e15ee445fa9",
+        "5c07c60e0db834002330051f",
+        "5d43021ca4b9362eab4b5e25",
+        "5bb2475ed4351e00853264e3",
+        "72efec8b80389ea82673eac8"
+      ],
+      "Slots": [
+        {
+          "_id": "cde5778f2afaceea5224c7dd",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "9e7ef7236e5189be2386e4c2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ae30e795acfc408fb139a0b",
+                  "56eabcd4d2720b66698b4574",
+                  "5d00ec68d7ad1a04a067e5be",
+                  "56ea8d2fd2720b7c698b4570",
+                  "63d3ce281fe77d0f2801859e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "fe747a9ae16c01e358360637",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "9e7ef7236e5189be2386e4c2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "612e0d3767085e45ef14057f",
+                  "5b7d693d5acfc43bca706a3d",
+                  "5a34fd2bc4a282329a73b4c5",
+                  "6065c6e7132d4d12c81fd8e1",
+                  "5d1f819086f7744b355c219b",
+                  "5dcbe965e4ed22586443a79d",
+                  "5d026791d7ad1a04a067ea63",
+                  "5dfa3cd1b33c0951220c079b",
+                  "6130c43c67085e45ef1405a1",
+                  "5cdd7685d7f00c000f260ed2",
+                  "5c878e9d2e2216000f201903",
+                  "5d02677ad7ad1a04a15c0f95",
+                  "5bbdb8bdd4351e4502011460",
+                  "5cdd7693d7f00c0010373aa5",
+                  "607ffb988900dc2d9a55b6e4",
+                  "615d8eb350224f204c1da1cf",
+                  "612e0e3c290d254f5e6b291d",
+                  "5d443f8fa4b93678dd4a01aa",
+                  "5c7954d52e221600106f4cc7",
+                  "5fbc22ccf24b94483f726483",
+                  "59bffc1f86f77435b128b872",
+                  "5cf78496d7f00c065703d6ca",
+                  "5fbe7618d6fa9c00c571bb6c",
+                  "628a66b41d5e41750e314f34",
+                  "6878917c7adb7e17eb1273ce",
+                  "10c1dae2a05599e8a2b59cda"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 .300 Blackout 11.5 inch barrel",
+        "shortName": "11.5 .300",
+        "description": "An 11.5 inch barrel for AR-15 based weapons chambered in .300 blackout."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 24000,
+    "handbookPriceRoubles": 19118,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26c77": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 162,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "981bedd65e69fa6439c52c84": {
+    "itemTplToClone": "55d35ee94bdc2d61338b4568",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR15_Barrels/ar15_12_5_carbine.bundle",
+        "rcid": ""
+      },
+      "Recoil": -3,
+      "Ergonomics": -11,
+      "Velocity": -11.68,
+      "ConflictingItems": [
+        "5b2cfa535acfc432ff4db7a0",
+        "5c9a25172e2216000f20314e",
+        "5ea16ada09aa976f2e7a51be",
+        "5d4405f0a4b9361e6a4e6bd9",
+        "5c78f2492e221600114c9f04",
+        "5c78f2882e22165df16b832e",
+        "6034e3e20ddce744014cb878",
+        "6034e3d953a60014f970617b",
+        "6087e0336d0bd7580617bb7a",
+        "595cfa8b86f77427437e845b",
+        "63888bbd28e5cc32cc09d2b6",
+        "5447a9cd4bdc2dbd208b4567",
+        "5c78f26f2e221601da3581d1",
+        "5c0e2f5cd174af02a012cfc9",
+        "640b20359ab20e15ee445fa9",
+        "5c07c60e0db834002330051f",
+        "5d43021ca4b9362eab4b5e25",
+        "5bb2475ed4351e00853264e3",
+        "72efec8b80389ea82673eac8"
+      ],
+      "Slots": [
+        {
+          "_id": "682f8af4719b179ba48c0336",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "981bedd65e69fa6439c52c84",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ae30e795acfc408fb139a0b",
+                  "56eabcd4d2720b66698b4574",
+                  "5d00ec68d7ad1a04a067e5be",
+                  "56ea8d2fd2720b7c698b4570",
+                  "63d3ce281fe77d0f2801859e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "882e278226ff5c255062c520",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "981bedd65e69fa6439c52c84",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "612e0d3767085e45ef14057f",
+                  "5b7d693d5acfc43bca706a3d",
+                  "5a34fd2bc4a282329a73b4c5",
+                  "6065c6e7132d4d12c81fd8e1",
+                  "5d1f819086f7744b355c219b",
+                  "5dcbe965e4ed22586443a79d",
+                  "5d026791d7ad1a04a067ea63",
+                  "5dfa3cd1b33c0951220c079b",
+                  "6130c43c67085e45ef1405a1",
+                  "5cdd7685d7f00c000f260ed2",
+                  "5c878e9d2e2216000f201903",
+                  "5d02677ad7ad1a04a15c0f95",
+                  "5bbdb8bdd4351e4502011460",
+                  "5cdd7693d7f00c0010373aa5",
+                  "607ffb988900dc2d9a55b6e4",
+                  "615d8eb350224f204c1da1cf",
+                  "612e0e3c290d254f5e6b291d",
+                  "5d443f8fa4b93678dd4a01aa",
+                  "5c7954d52e221600106f4cc7",
+                  "5fbc22ccf24b94483f726483",
+                  "59bffc1f86f77435b128b872",
+                  "5cf78496d7f00c065703d6ca",
+                  "5fbe7618d6fa9c00c571bb6c",
+                  "628a66b41d5e41750e314f34",
+                  "6878917c7adb7e17eb1273ce",
+                  "10c1dae2a05599e8a2b59cda"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 .300 Blackout 12.5 Carbine barrel",
+        "shortName": "12.5C .300",
+        "description": "A 12.5 inch barrel for AR-15 based weapons chambered in .300 blackout."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 65000,
+    "handbookPriceRoubles": 21250,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26c78": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 172,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "d0b292e070ee6c5263285461": {
+    "itemTplToClone": "5c0e2f94d174af029f650d56",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR15_Barrels/ar15_12_5_mid.bundle",
+        "rcid": ""
+      },
+      "Accuracy": 5,
+      "Recoil": -5,
+      "Ergonomics": -11,
+      "Velocity": -11.68,
+      "Width": 2,
+      "Extrasizeleft": 2,
+      "ConflictingItems": [
+        "5447a9cd4bdc2dbd208b4567",
+        "5c9a26332e2216001219ea70",
+        "5d00f63bd7ad1a59283b1c1e",
+        "5d00e0cbd7ad1a6c6566a42d",
+        "647de824196bf69818044c93",
+        "55d459824bdc2d892f8b4573",
+        "5ae30db85acfc408fb139a05",
+        "5c78f2792e221600106f4683",
+        "5c78f2492e221600114c9f04",
+        "5c9a25172e2216000f20314e",
+        "595cfa8b86f77427437e845b",
+        "640b20359ab20e15ee445fa9",
+        "5ea16ada09aa976f2e7a51be",
+        "6034e3d953a60014f970617b",
+        "5d4405f0a4b9361e6a4e6bd9",
+        "63888bbd28e5cc32cc09d2b6",
+        "6034e3e20ddce744014cb878",
+        "5b2cfa535acfc432ff4db7a0",
+        "6087e0336d0bd7580617bb7a",
+        "5c07c60e0db834002330051f",
+        "5d43021ca4b9362eab4b5e25",
+        "5c78f2882e22165df16b832e",
+        "5bb2475ed4351e00853264e3",
+        "72efec8b80389ea82673eac8"
+      ],
+      "Slots": [
+        {
+          "_id": "7743a4538dac0da8eb0034ae",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "d0b292e070ee6c5263285461",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ae30e795acfc408fb139a0b",
+                  "56eabcd4d2720b66698b4574",
+                  "5d00ec68d7ad1a04a067e5be",
+                  "56ea8d2fd2720b7c698b4570",
+                  "63d3ce281fe77d0f2801859e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "f688124ad156fb146c5cd5a2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "d0b292e070ee6c5263285461",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "612e0d3767085e45ef14057f",
+                  "5b7d693d5acfc43bca706a3d",
+                  "5a34fd2bc4a282329a73b4c5",
+                  "6065c6e7132d4d12c81fd8e1",
+                  "5d1f819086f7744b355c219b",
+                  "5dcbe965e4ed22586443a79d",
+                  "5d026791d7ad1a04a067ea63",
+                  "5dfa3cd1b33c0951220c079b",
+                  "6130c43c67085e45ef1405a1",
+                  "5cdd7685d7f00c000f260ed2",
+                  "5c878e9d2e2216000f201903",
+                  "5d02677ad7ad1a04a15c0f95",
+                  "5bbdb8bdd4351e4502011460",
+                  "5cdd7693d7f00c0010373aa5",
+                  "607ffb988900dc2d9a55b6e4",
+                  "615d8eb350224f204c1da1cf",
+                  "612e0e3c290d254f5e6b291d",
+                  "5d443f8fa4b93678dd4a01aa",
+                  "5c7954d52e221600106f4cc7",
+                  "5fbc22ccf24b94483f726483",
+                  "59bffc1f86f77435b128b872",
+                  "5cf78496d7f00c065703d6ca",
+                  "5fbe7618d6fa9c00c571bb6c",
+                  "628a66b41d5e41750e314f34",
+                  "6878917c7adb7e17eb1273ce",
+                  "10c1dae2a05599e8a2b59cda"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 .300 Blackout 12.5 inch mid barrel",
+        "shortName": "12.5M .300",
+        "description": "A 12.5 inch mid gas barrel for AR-15 based weapons chambered in .300 blackout."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 65000,
+    "handbookPriceRoubles": 16200,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "SKIER": {
+        "690c2a76efda1c3d78f26c79": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 23420,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "807cce3153fd6d07fa931fa1": {
+    "itemTplToClone": "5df917564a9f347bc92edca3",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR10/sr25_11_5.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.96,
+      "Width": 2,
+      "Extrasizeleft": 2,
+      "Accuracy": -3,
+      "Recoil": -2,
+      "Ergonomics": -7,
+      "Velocity": -8.73,
+      "ConflictingItems": [
+        "5d00ef6dd7ad1a0940739b16",
+        "5df916dfbb49d91fb446d6b9",
+        "6065881d1246154cad35d637",
+        "5f6336bbda967c74a42e9932",
+        "5a329052c4a28200741e22d3"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "SR-25 7.62x51 11.5 inch barrel",
+        "shortName": "SR-25 11.5\"",
+        "description": "A 11.5 inch barrel for AR-10 based weapons for 7.62x51 NATO ammo."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 28200,
+    "handbookPriceRoubles": 28900,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26c7a": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 265,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "3f0cfc550b6aae26f59f7e25": {
+    "itemTplToClone": "5df917564a9f347bc92edca3",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR10/sr25_14_5.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.99,
+      "Accuracy": -1,
+      "Recoil": -4,
+      "Ergonomics": -9,
+      "ConflictingItems": [
+        "6065881d1246154cad35d637",
+        "5df916dfbb49d91fb446d6b9",
+        "5d00ef6dd7ad1a0940739b16",
+        "5a329052c4a28200741e22d3",
+        "4bc96df7c1aa5766c0bc72c8",
+        "b757c01e1177f77291bb9730",
+        "be33d9bccda7b14e52e7d230"
+      ],
+      "CoolFactor": 0.98,
+      "HeatFactor": 0.94,
+      "Velocity": -7.23
+    },
+    "locales": {
+      "en": {
+        "name": "SR-25 7.62x51 14.5 inch barrel",
+        "shortName": "SR-25 14.5\"",
+        "description": "A 14.5 inch (370mm) barrel for AR-10 based weapons for 7.62x51 NATO ammo."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 27000,
+    "handbookPriceRoubles": 28900,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26c7b": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 256,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "5b62e4a75ec6adea49b29abc": {
+    "itemTplToClone": "55d3632e4bdc2d972f8b4569",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR15_Barrels/16_in_faux_dissapator_barrel.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -15,
+      "Velocity": -5.48,
+      "ConflictingItems": [
+        "5c78f2492e221600114c9f04",
+        "5c0e2f5cd174af02a012cfc9",
+        "595cfa8b86f77427437e845b",
+        "640b20359ab20e15ee445fa9",
+        "5ea16ada09aa976f2e7a51be",
+        "6034e3d953a60014f970617b",
+        "5c78f26f2e221601da3581d1",
+        "6087e0336d0bd7580617bb7a",
+        "5d4405f0a4b9361e6a4e6bd9",
+        "cdd912ad2c46dc2c85ddabe9",
+        "575c716cbedac41ab557af94",
+        "70b3405196c9249af41c613b",
+        "51be09eec1005e41348693cf",
+        "04a8d9c50f3227ef6550e613",
+        "d2234d6695f82aae5012f0d5",
+        "4ff0af6a0e6cdbd096c0197c",
+        "be1851da8c6438810d9aae86",
+        "5ce8cf47be4bcafcae8c7bd9",
+        "9ebdaeae9c89c472c3fdcad7",
+        "b3388010e3e50af19b770e77",
+        "539b18d0242b3bc3d4ed0e7a",
+        "5c78f2882e22165df16b832e",
+        "6357c98711fb55120211f7e1",
+        "7f2528f5e1c01b7ac7d8cc82"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 16 inch faux dissipator barrel",
+        "shortName": "Faux Dissipator",
+        "description": "This barrel is the result of a person wanting a front sight post at the rifle gas position but wanting the recoil impulse and malfunction chance of a carbine gassed barrel. Really fugly, but here we are. Why they didn't just go rifle gas is beyond me."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 29900,
+    "handbookPriceRoubles": 27000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "690c2a76efda1c3d78f26c7c": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 195,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cd97339d6bfa982e1539bb1c": {
+    "itemTplToClone": "55d3632e4bdc2d972f8b4569",
+    "parentId": "BARREL",
+    "handbookParentId": "MOD_BARREL",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "Mods/AR15_Barrels/16in_riflegas_diss.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -15,
+      "Recoil": -5,
+      "Velocity": -5.48,
+      "ConflictingItems": [
+        "5ae30db85acfc408fb139a05",
+        "55d459824bdc2d892f8b4573",
+        "5c78f2792e221600106f4683",
+        "5d00e0cbd7ad1a6c6566a42d",
+        "5d00f63bd7ad1a59283b1c1e",
+        "5c78f2882e22165df16b832e",
+        "5c0e2f5cd174af02a012cfc9",
+        "647de824196bf69818044c93",
+        "5c78f26f2e221601da3581d1",
+        "5d4405f0a4b9361e6a4e6bd9",
+        "640b20359ab20e15ee445fa9",
+        "595cfa8b86f77427437e845b",
+        "7f2528f5e1c01b7ac7d8cc82"
+      ],
+      "Slots": [
+        {
+          "_id": "95ac745979da23c062224629",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "cd97339d6bfa982e1539bb1c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ae30e795acfc408fb139a0b",
+                  "56eabcd4d2720b66698b4574",
+                  "5d00ec68d7ad1a04a067e5be",
+                  "56ea8d2fd2720b7c698b4570",
+                  "63d3ce281fe77d0f2801859e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "ade3d8b037caaff201004654",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_launcher",
+          "_parent": "cd97339d6bfa982e1539bb1c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6357c98711fb55120211f7e1"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "89949091ea80d092a8e83bd6",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "cd97339d6bfa982e1539bb1c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b3a16655acfc40016387a2a",
+                  "5c7e5f112e221600106f4ede",
+                  "5c0fafb6d174af02a96260ba",
+                  "612e0cfc8004cc50514c2d9e",
+                  "5cf6937cd7f00c056c53fb39",
+                  "544a38634bdc2d58388b4568",
+                  "5cff9e5ed7ad1a09407397d4",
+                  "5c48a2a42e221602b66d1e07",
+                  "5f6372e2865db925d54f3869",
+                  "615d8e2f1cb55961fa0fd9a4",
+                  "56ea8180d2720bf2698b456a",
+                  "5d02676dd7ad1a049e54f6dc",
+                  "56ea6fafd2720b844b8b4593",
+                  "5943ee5a86f77413872d25ec",
+                  "609269c3b0e443224b421cc1",
+                  "5c7fb51d2e2216001219ce11",
+                  "5ea172e498dacb342978818e",
+                  "5c6d710d2e22165df16b81e7",
+                  "612e0e55a112697a4b3a66e7",
+                  "5d440625a4b9361eec4ae6c5",
+                  "5cc9b815d7f00c000e2579d6",
+                  "5a7c147ce899ef00150bd8b8",
+                  "5c7954d52e221600106f4cc7",
+                  "59bffc1f86f77435b128b872",
+                  "5a9fbb84a2750c00137fa685",
+                  "626667e87379c44d557b7550",
+                  "62669bccdb9ebb4daa44cd14",
+                  "626a74340be03179a165e30c",
+                  "6386120cd6baa055ad1e201c",
+                  "63ac5c9658d0485fc039f0b8",
+                  "6405ff6bd4578826ec3e377a",
+                  "64943b74e9998d641b0412ed",
+                  "6621455e3aceea9e2b0b01e7",
+                  "664301213dd83ddae20dda18"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 16 inch dissipator barrel",
+        "shortName": "Dissipator",
+        "description": "A rifle gas 16 inch barrel, perfect choice for a person wanting the longer handguard options but not wanting to have a full M16 barrel at 20 inches."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 29900,
+    "handbookPriceRoubles": 27000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "690c2a76efda1c3d78f26c7d": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 180,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
