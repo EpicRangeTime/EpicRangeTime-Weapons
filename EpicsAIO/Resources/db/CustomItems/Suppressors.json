@@ -5206,6 +5206,10 @@
     "modSlot": [
       "mod_muzzle"
     ],
+    "emptyPropSlot": {
+      "itemToAddTo": "628a66b41d5e41750e314f34",
+      "modSlot": "mod_muzzle"
+    },
     "fleaPriceRoubles": 52000,
     "handbookPriceRoubles": 18000,
     "addtoTraders": true,

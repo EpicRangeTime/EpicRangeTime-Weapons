@@ -910,7 +910,82 @@ public class BaseGameItemEdits(
                         "5ae30bad5acfc400185c2dc4"]);
                     break; //Change filters for AR15 rear sights
                 
+                case "5ae30bad5acfc400185c2dc4":
+                    ModifySlotFilters(item, 0, 0, [
+                        "66713838ca123f9df8e7584e",
+                        "23878a19adddf4afbbcc0537"]); //Push Carry handle mounts to carry handle
+                    
+                    item.Properties!.Prefab!.Path = "assets/content/items/mods/sights_rear/sight_rear_ar15_colt_carry_hande_std.bundle";
+                    //Change Carry handle prefab path
+                    
+                    item.Parent = "55818ad54bdc2ddc698b4569"; //Change carry handle parent
+                    
+                    item.Properties.ConflictingItems = 
+                    ["61817865d3a39d50044c13a4",
+                    "5bb20e49d4351e3bac1212de",
+                    "5ba26b17d4351e00367f9bdd",
+                    "5dfa3d7ac41b2312ea33362a",
+                    "5c1780312e221602b66cc189",
+                    "5fb6564947ce63734e3fa1da",
+                    "5bc09a18d4351e003562b68e",
+                    "5c18b9192e2216398b5a8104",
+                    "5fc0fa957283c4046c58147e",
+                    "5894a81786f77427140b8347",
+                    "55d5f46a4bdc2d1b198b4567"
+                    ]; //Change carry conflicting items
+                    break;
                 
+                case "55d5f46a4bdc2d1b198b4567":
+                    item.Parent = "55818ad54bdc2ddc698b4569";
+                    break; //Change A2 rear sight parent
+                
+                case "5bfd4c980db834001b73449d":
+                    item.Parent = "55818ad54bdc2ddc698b4569";
+                    break; //Change mosin carbine sight parent
+                
+                case "5ae099925acfc4001a5fc7b3":
+                    item.Parent = "55818ad54bdc2ddc698b4569";
+                    break; //Change mosin rifle sight parent
+                
+                case "59d650cf86f7741b846413a4":
+                    item.Parent = "55818ad54bdc2ddc698b4569";
+                    break; //Change akm rear sight parent
+                
+                case "5a0eb980fcdbcb001a3b00a6":
+                    item.Parent = "55818ad54bdc2ddc698b4569";
+                    break; //Change akmb rear sight parent
+                
+                case "628a7b23b0f75035732dd565":
+                    item.Parent = "55818ad54bdc2ddc698b4569";
+                    break; //Change RD704 enhanced rear sight parent
+                
+                case "5ac733a45acfc400192630e2":
+                    item.Parent = "55818ad54bdc2ddc698b4569";
+                    break; //Change AK105 rear sight parent
+                
+                case "5649b0544bdc2d1b2b8b458a":
+                    item.Parent = "55818ad54bdc2ddc698b4569";
+                    break; //Change AK74 rear sight parent
+                
+                case "5ac72e475acfc400180ae6fe":
+                    item.Parent = "55818ad54bdc2ddc698b4569";
+                    break; //Change AK74M rear sight parent
+                
+                case "649ec2cec93611967b03495e":
+                    item.Parent = "55818ad54bdc2ddc698b4569";
+                    break; //Change AK12 rear sight parent
+                
+                case "5bf3f59f0db834001a6fa060":
+                    item.Parent = "55818ad54bdc2ddc698b4569";
+                    break; //Change RPK16 rear sight parent
+                
+                case "651450ce0e00edc794068371":
+                    item.Properties!.BFirerate = 750;
+                    break; //Change SR3M firerate to match sounds
+                
+                case "615d8d878004cc50514c3233":
+                    item.Properties!.ConflictingItems = [];
+                    break; //Clear conflicting items on B&T ACRO NAR mount
             }
         }
     }
