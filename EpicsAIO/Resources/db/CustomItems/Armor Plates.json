@@ -27,8 +27,8 @@
       "Front_plate",
       "Back_plate"
     ],
-    "fleaPriceRoubles": 24250,
-    "handbookPriceRoubles": 48217,
+    "fleaPriceRoubles": 196000,
+    "handbookPriceRoubles": 62000,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -65,13 +65,13 @@
       "BADGER": {
         "690c2a76efda1c3d78f26c69": {
           "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
+            "loyalLevel": 3,
+            "unlimitedCount": false,
+            "stackObjectsCount": 4
           },
           "barters": [
             {
-              "count": 237,
+              "count": 268,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -107,8 +107,8 @@
       "Front_plate",
       "Back_plate"
     ],
-    "fleaPriceRoubles": 150000,
-    "handbookPriceRoubles": 96217,
+    "fleaPriceRoubles": 240000,
+    "handbookPriceRoubles": 74000,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -146,12 +146,12 @@
         "690c2a76efda1c3d78f26c6a": {
           "barterSettings": {
             "loyalLevel": 3,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
+            "unlimitedCount": false,
+            "stackObjectsCount": 2
           },
           "barters": [
             {
-              "count": 76845,
+              "count": 98000,
               "_tpl": "MONEY_ROUBLES"
             }
           ]
@@ -187,8 +187,8 @@
       "Front_plate",
       "Back_plate"
     ],
-    "fleaPriceRoubles": 84250,
-    "handbookPriceRoubles": 86240,
+    "fleaPriceRoubles": 115000,
+    "handbookPriceRoubles": 65000,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -225,13 +225,13 @@
       "PEACEKEEPER": {
         "690c2a76efda1c3d78f26c6b": {
           "barterSettings": {
-            "loyalLevel": 2,
+            "loyalLevel": 3,
             "unlimitedCount": true,
             "stackObjectsCount": 99
           },
           "barters": [
             {
-              "count": 476,
+              "count": 235,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -268,8 +268,8 @@
       "Front_plate",
       "Back_plate"
     ],
-    "fleaPriceRoubles": 124250,
-    "handbookPriceRoubles": 86240,
+    "fleaPriceRoubles": 195000,
+    "handbookPriceRoubles": 94000,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -312,7 +312,7 @@
           },
           "barters": [
             {
-              "count": 360,
+              "count": 295,
               "_tpl": "MONEY_DOLLARS"
             }
           ]

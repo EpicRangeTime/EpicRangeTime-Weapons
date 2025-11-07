@@ -4723,8 +4723,8 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 18000,
-    "handbookPriceRoubles": 5000,
+    "fleaPriceRoubles": 34000,
+    "handbookPriceRoubles": 6000,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -4761,13 +4761,13 @@
       "BADGER": {
         "690c2a76efda1c3d78f26d5c": {
           "barterSettings": {
-            "loyalLevel": 1,
+            "loyalLevel": 3,
             "unlimitedCount": true,
             "stackObjectsCount": 99
           },
           "barters": [
             {
-              "count": 19,
+              "count": 22,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -4964,8 +4964,8 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 8000,
-    "handbookPriceRoubles": 2000,
+    "fleaPriceRoubles": 47000,
+    "handbookPriceRoubles": 3500,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -5002,13 +5002,13 @@
       "BADGER": {
         "690c2a76efda1c3d78f26d5f": {
           "barterSettings": {
-            "loyalLevel": 1,
+            "loyalLevel": 3,
             "unlimitedCount": true,
             "stackObjectsCount": 99
           },
           "barters": [
             {
-              "count": 8,
+              "count": 26,
               "_tpl": "MONEY_DOLLARS"
             }
           ]

@@ -388,8 +388,8 @@
       ],
       "AimSensitivity": [
         [
-          0.7,
-          0.7
+          0.65,
+          0.65
         ]
       ],
       "CalibrationDistances": [

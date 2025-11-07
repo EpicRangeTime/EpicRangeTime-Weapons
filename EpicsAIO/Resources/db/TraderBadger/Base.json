@@ -17,16 +17,14 @@
     "discount": 0,
     "discount_end": 0,
     "gridHeight": 160,
-    "insurance": {
-      "availability": true,
-      "excluded_category": [
-        "62e9103049c018f425059f38"
-      ],
-      "max_return_hour": 24,
-      "max_storage_time": 144,
-      "min_payment": 0,
-      "min_return_hour": 20
-    },
+  "insurance": {
+    "availability": false,
+    "excluded_category": [],
+    "max_return_hour": 36,
+    "max_storage_time": 72,
+    "min_payment": 0,
+    "min_return_hour": 24
+  },
     "items_buy": {
       "category": [
         "5422acb9af1c889c16000029",
@@ -55,41 +53,41 @@
     },
     "loyaltyLevels": [
       {
-        "buy_price_coef": 75,
+        "buy_price_coef": 78,
         "exchange_price_coef": 0,
         "heal_price_coef": 0,
         "insurance_price_coef": 21,
-        "minLevel": 1,
+        "minLevel": 12,
         "minSalesSum": 0,
         "minStanding": 0.1,
         "repair_price_coef": 210
       },
       {
-        "buy_price_coef": 62,
+        "buy_price_coef": 60,
         "exchange_price_coef": 0,
         "heal_price_coef": 0,
         "insurance_price_coef": 19,
-        "minLevel": 27,
+        "minLevel": 28,
         "minSalesSum": 2500,
         "minStanding": 0.13,
         "repair_price_coef": 180
       },
       {
-        "buy_price_coef": 55,
+        "buy_price_coef": 46,
         "exchange_price_coef": 0,
         "heal_price_coef": 0,
         "insurance_price_coef": 17,
-        "minLevel": 39,
+        "minLevel": 42,
         "minSalesSum": 7500,
         "minStanding": 0.23,
         "repair_price_coef": 175
       },
       {
-        "buy_price_coef": 45,
+        "buy_price_coef": 36,
         "exchange_price_coef": 0,
         "heal_price_coef": 0,
         "insurance_price_coef": 15,
-        "minLevel": 55,
+        "minLevel": 54,
         "minSalesSum": 22500,
         "minStanding": 0.23,
         "repair_price_coef": 165
@@ -104,7 +102,7 @@
       "excluded_category": [],
       "excluded_id_list": [],
       "price_rate": 0,
-      "quality": "0.8"
+      "quality": "0.85"
     },
     "sell_category": [
       "5b5f71b386f774093f2ecf11",

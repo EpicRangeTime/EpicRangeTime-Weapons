@@ -727,8 +727,8 @@
         "path": "Mods/Stocks/stock_m16a2.bundle",
         "rcid": ""
       },
-      "Ergonomics": 4,
-      "Recoil": -20,
+      "Ergonomics": 5,
+      "Recoil": -21,
       "Weight": 0.272,
       "ConflictingItems": [
         "5c0e2ff6d174af02a1659d4a",
@@ -851,8 +851,8 @@
         "path": "Mods/Stocks/stock_m16a2_fde.bundle",
         "rcid": ""
       },
-      "Ergonomics": 4,
-      "Recoil": -20,
+      "Ergonomics": 5,
+      "Recoil": -21,
       "Weight": 0.272,
       "ConflictingItems": [
         "5c0e2ff6d174af02a1659d4a",
@@ -1064,7 +1064,7 @@
         "path": "Mods/Stocks/stock_midwestindustriesfixed.bundle",
         "rcid": ""
       },
-      "Ergonomics": 3,
+      "Ergonomics": 2,
       "Recoil": -24,
       "Weight": 0.439
     },
@@ -1172,8 +1172,8 @@
       "mod_stock_000",
       "mod_stock"
     ],
-    "fleaPriceRoubles": 9200,
-    "handbookPriceRoubles": 2000,
+    "fleaPriceRoubles": 62000,
+    "handbookPriceRoubles": 10500,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -1216,7 +1216,7 @@
           },
           "barters": [
             {
-              "count": 76,
+              "count": 94,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -1263,8 +1263,8 @@
       "mod_stock_000",
       "mod_stock"
     ],
-    "fleaPriceRoubles": 9200,
-    "handbookPriceRoubles": 2000,
+    "fleaPriceRoubles": 77000,
+    "handbookPriceRoubles": 10500,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -1307,7 +1307,7 @@
           },
           "barters": [
             {
-              "count": 76,
+              "count": 99,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -1333,8 +1333,8 @@
         "path": "Mods/Stocks/str_stock_blk.bundle",
         "rcid": ""
       },
-      "Recoil": -21,
-      "Ergonomics": 12,
+      "Recoil": -22,
+      "Ergonomics": 10,
       "Weight": 0.303,
       "ConflictingItems": [
         "5c0e2ff6d174af02a1659d4a",
@@ -1354,8 +1354,8 @@
       "mod_stock_000",
       "mod_stock"
     ],
-    "fleaPriceRoubles": 9200,
-    "handbookPriceRoubles": 2000,
+    "fleaPriceRoubles": 87000,
+    "handbookPriceRoubles": 10000,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -1398,7 +1398,7 @@
           },
           "barters": [
             {
-              "count": 76,
+              "count": 88,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -1424,8 +1424,8 @@
         "path": "Mods/Stocks/str_stock_fde.bundle",
         "rcid": ""
       },
-      "Recoil": -21,
-      "Ergonomics": 12,
+      "Recoil": -22,
+      "Ergonomics": 10,
       "Weight": 0.303,
       "ConflictingItems": [
         "5c0e2ff6d174af02a1659d4a",
@@ -1445,8 +1445,8 @@
       "mod_stock_000",
       "mod_stock"
     ],
-    "fleaPriceRoubles": 9200,
-    "handbookPriceRoubles": 2000,
+    "fleaPriceRoubles": 89000,
+    "handbookPriceRoubles": 10000,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -1489,7 +1489,7 @@
           },
           "barters": [
             {
-              "count": 76,
+              "count": 90,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -1506,7 +1506,7 @@
     ]
   },
   "2adbfe8b01c45020b7a77a9e": {
-    "itemTplToClone": "58d2946386f774496974c37e",
+    "itemTplToClone": "5d135e83d7ad1a21b83f42d8",
     "parentId": "STOCK",
     "handbookParentId": "MOD_STOCK",
     "overrideProperties": {
@@ -1515,7 +1515,7 @@
         "path": "Mods/Stocks/magpul_dt_carbine_stock_blk.bundle",
         "rcid": ""
       },
-      "Recoil": -25,
+      "Recoil": -21,
       "Ergonomics": 11,
       "Weight": 0.277,
       "ConflictingItems": [
@@ -1537,7 +1537,7 @@
       "mod_stock_000",
       "mod_stock"
     ],
-    "fleaPriceRoubles": 62000,
+    "fleaPriceRoubles": 77000,
     "handbookPriceRoubles": 8000,
     "addtoTraders": true,
     "addtoBots": false,
@@ -1575,7 +1575,7 @@
       "BADGER": {
         "690c2a76efda1c3d78f26ca5": {
           "barterSettings": {
-            "loyalLevel": 1,
+            "loyalLevel": 2,
             "unlimitedCount": true,
             "stackObjectsCount": 99
           },
@@ -1599,7 +1599,7 @@
         "path": "Mods/Stocks/magpul_dt_carbine_stock_tan.bundle",
         "rcid": ""
       },
-      "Recoil": -25,
+      "Recoil": -21,
       "Ergonomics": 11,
       "Weight": 0.277,
       "ConflictingItems": [
@@ -1621,7 +1621,7 @@
       "mod_stock_000",
       "mod_stock"
     ],
-    "fleaPriceRoubles": 46000,
+    "fleaPriceRoubles": 69000,
     "handbookPriceRoubles": 8000,
     "addtoTraders": true,
     "addtoBots": false,
@@ -1683,7 +1683,7 @@
         "path": "Mods/Stocks/magpul_dt_carbine_stock_grn.bundle",
         "rcid": ""
       },
-      "Recoil": -25,
+      "Recoil": -21,
       "Ergonomics": 11,
       "Weight": 0.277,
       "ConflictingItems": [
@@ -1705,7 +1705,7 @@
       "mod_stock_000",
       "mod_stock"
     ],
-    "fleaPriceRoubles": 29000,
+    "fleaPriceRoubles": 65000,
     "handbookPriceRoubles": 8000,
     "addtoTraders": true,
     "addtoBots": false,
@@ -1743,13 +1743,13 @@
       "BADGER": {
         "690c2a76efda1c3d78f26ca7": {
           "barterSettings": {
-            "loyalLevel": 3,
+            "loyalLevel": 2,
             "unlimitedCount": true,
             "stackObjectsCount": 99
           },
           "barters": [
             {
-              "count": 64,
+              "count": 77,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -1767,7 +1767,7 @@
         "path": "Mods/Stocks/mft_minimalist_blk.bundle",
         "rcid": ""
       },
-      "Recoil": -19.5,
+      "Recoil": -18.5,
       "Ergonomics": 9.5,
       "Weight": 0.164,
       "ConflictingItems": [
@@ -1827,13 +1827,13 @@
       "BADGER": {
         "690c2a76efda1c3d78f26ca8": {
           "barterSettings": {
-            "loyalLevel": 2,
+            "loyalLevel": 1,
             "unlimitedCount": true,
             "stackObjectsCount": 99
           },
           "barters": [
             {
-              "count": 42,
+              "count": 66,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -1851,7 +1851,7 @@
         "path": "Mods/Stocks/mft_minimalist_fde.bundle",
         "rcid": ""
       },
-      "Recoil": -19.5,
+      "Recoil": -18.5,
       "Ergonomics": 9.5,
       "Weight": 0.164,
       "ConflictingItems": [
@@ -1873,7 +1873,7 @@
       "mod_stock_000",
       "mod_stock"
     ],
-    "fleaPriceRoubles": 18000,
+    "fleaPriceRoubles": 22000,
     "handbookPriceRoubles": 5000,
     "addtoTraders": true,
     "addtoBots": false,
@@ -1911,13 +1911,13 @@
       "BADGER": {
         "690c2a76efda1c3d78f26ca9": {
           "barterSettings": {
-            "loyalLevel": 2,
+            "loyalLevel": 1,
             "unlimitedCount": true,
             "stackObjectsCount": 99
           },
           "barters": [
             {
-              "count": 42,
+              "count": 68,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -2021,7 +2021,7 @@
           },
           "barters": [
             {
-              "count": 24,
+              "count": 29,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -2125,7 +2125,7 @@
           },
           "barters": [
             {
-              "count": 24,
+              "count": 29,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -2143,8 +2143,8 @@
         "path": "Mods/Stocks/maxim_cqb_buttpad_fde.bundle",
         "rcid": ""
       },
-      "Recoil": -11,
-      "Ergonomics": 18,
+      "Recoil": -10,
+      "Ergonomics": 21,
       "Weight": 0.24,
       "ExtraSizeRight": 0,
       "ConflictingItems": [],
@@ -2160,8 +2160,8 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 6900,
-    "handbookPriceRoubles": 2500,
+    "fleaPriceRoubles": 28000,
+    "handbookPriceRoubles": 4400,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -2204,7 +2204,7 @@
           },
           "barters": [
             {
-              "count": 18,
+              "count": 35,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -2222,8 +2222,8 @@
         "path": "Mods/Stocks/maxim_cqb_buttpad_blk.bundle",
         "rcid": ""
       },
-      "Recoil": -11,
-      "Ergonomics": 18,
+      "Recoil": -10,
+      "Ergonomics": 21,
       "Weight": 0.24,
       "ExtraSizeRight": 0,
       "ConflictingItems": [],
@@ -2239,8 +2239,8 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 6800,
-    "handbookPriceRoubles": 2500,
+    "fleaPriceRoubles": 28000,
+    "handbookPriceRoubles": 3500,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -2283,7 +2283,7 @@
           },
           "barters": [
             {
-              "count": 18,
+              "count": 35,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -2323,7 +2323,7 @@
       "mod_stock_000",
       "mod_stock"
     ],
-    "fleaPriceRoubles": 38000,
+    "fleaPriceRoubles": 44000,
     "handbookPriceRoubles": 6000,
     "addtoTraders": true,
     "addtoBots": false,
@@ -2367,7 +2367,7 @@
           },
           "barters": [
             {
-              "count": 78,
+              "count": 82,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -2407,7 +2407,7 @@
       "mod_stock_000",
       "mod_stock"
     ],
-    "fleaPriceRoubles": 38000,
+    "fleaPriceRoubles": 47000,
     "handbookPriceRoubles": 6000,
     "addtoTraders": true,
     "addtoBots": false,
@@ -2451,7 +2451,7 @@
           },
           "barters": [
             {
-              "count": 78,
+              "count": 82,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -2491,7 +2491,7 @@
       "mod_stock_000",
       "mod_stock"
     ],
-    "fleaPriceRoubles": 38000,
+    "fleaPriceRoubles": 54000,
     "handbookPriceRoubles": 6000,
     "addtoTraders": true,
     "addtoBots": false,
@@ -2535,7 +2535,7 @@
           },
           "barters": [
             {
-              "count": 78,
+              "count": 82,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -2575,7 +2575,7 @@
       "mod_stock_000",
       "mod_stock"
     ],
-    "fleaPriceRoubles": 38000,
+    "fleaPriceRoubles": 42000,
     "handbookPriceRoubles": 6000,
     "addtoTraders": true,
     "addtoBots": false,
@@ -2619,7 +2619,7 @@
           },
           "barters": [
             {
-              "count": 78,
+              "count": 82,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
@@ -2703,7 +2703,7 @@
           },
           "barters": [
             {
-              "count": 78,
+              "count": 82,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
