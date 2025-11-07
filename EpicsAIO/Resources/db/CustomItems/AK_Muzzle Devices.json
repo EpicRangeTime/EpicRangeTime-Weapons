@@ -130,7 +130,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/dtk2_mb.bundle",
+        "path": "mods/ak/dtk2_mb.bundle",
         "rcid": ""
       },
       "Ergonomics": -2,
@@ -216,7 +216,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/dtk2_mb.bundle",
+        "path": "mods/ak/dtk2_mb.bundle",
         "rcid": ""
       },
       "Ergonomics": -1,
@@ -302,7 +302,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/dtech_mpi_9x19.bundle",
+        "path": "mods/ak/dtech_mpi_9x19.bundle",
         "rcid": ""
       },
       "Ergonomics": -2,
@@ -389,7 +389,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/bulgarian_krink_fh.bundle",
+        "path": "mods/ak/bulgarian_krink_fh.bundle",
         "rcid": ""
       },
       "Ergonomics": -2.5,

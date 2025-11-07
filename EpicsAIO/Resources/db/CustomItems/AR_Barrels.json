@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Barrels/ar15_8_5.bundle",
+        "path": "mods/ar15_barrels/ar15_8_5.bundle",
         "rcid": ""
       },
       "Recoil": 2,
@@ -199,7 +199,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Barrels/ar15_11_5.bundle",
+        "path": "mods/ar15_barrels/ar15_11_5.bundle",
         "rcid": ""
       },
       "Accuracy": 5,
@@ -297,7 +297,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Barrels/ar15_12_5_carbine.bundle",
+        "path": "mods/ar15_barrels/ar15_12_5_carbine.bundle",
         "rcid": ""
       },
       "Recoil": -3,
@@ -392,7 +392,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Barrels/ar15_12_5_mid.bundle",
+        "path": "mods/ar15_barrels/ar15_12_5_mid.bundle",
         "rcid": ""
       },
       "Accuracy": 5,
@@ -584,9 +584,9 @@
     },
     "locales": {
       "en": {
-        "name": "AR-15 .300 blackout 406mm barrel",
-        "shortName": "406 .300",
-        "description": "A 406mm barrel for AR-15 based weapons chambered in .300 blackout."
+        "name": "AR-15 .300 blackout 16 inch barrel",
+        "shortName": "16\" .300",
+        "description": "A 16 inch barrel for AR-15 based weapons chambered in .300 blackout."
       }
     },
     "addtoInventorySlots": [],
@@ -759,9 +759,9 @@
     },
     "locales": {
       "en": {
-        "name": "AR-15 .300 blackout 370mm barrel",
-        "shortName": "370 .300",
-        "description": "A 370mm barrel for AR-15 based weapons chambered in .300 blackout."
+        "name": "AR-15 .300 blackout 14.5 inch barrel",
+        "shortName": "14.5\" .300",
+        "description": "A 14.5 inch barrel for AR-15 based weapons chambered in .300 blackout."
       }
     },
     "addtoInventorySlots": [],
@@ -929,9 +929,9 @@
     },
     "locales": {
       "en": {
-        "name": "AR-15 .300 blackout 260mm barrel",
-        "shortName": "260 .300",
-        "description": "A 260mm barrel for AR-15 based weapons chambered in .300 blackout."
+        "name": "AR-15 .300 blackout 10.3 inch barrel",
+        "shortName": "10.3\" .300",
+        "description": "A 10.3 inch barrel for AR-15 based weapons chambered in .300 blackout."
       }
     },
     "addtoInventorySlots": [],
@@ -1635,7 +1635,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Barrels/ar15_11_5.bundle",
+        "path": "mods/ar15_barrels/ar15_11_5.bundle",
         "rcid": ""
       },
       "Accuracy": 5,
@@ -1804,7 +1804,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Barrels/ar15_12_5_carbine.bundle",
+        "path": "mods/ar15_barrels/ar15_12_5_carbine.bundle",
         "rcid": ""
       },
       "Recoil": -3,
@@ -1970,7 +1970,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Barrels/ar15_12_5_mid.bundle",
+        "path": "mods/ar15_barrels/ar15_12_5_mid.bundle",
         "rcid": ""
       },
       "Accuracy": 5,
@@ -2144,7 +2144,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR10/sr25_11_5.bundle",
+        "path": "mods/ar10/sr25_11_5.bundle",
         "rcid": ""
       },
       "Weight": 0.96,
@@ -2233,7 +2233,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR10/sr25_14_5.bundle",
+        "path": "mods/ar10/sr25_14_5.bundle",
         "rcid": ""
       },
       "Weight": 0.99,
@@ -2324,7 +2324,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Barrels/16_in_faux_dissapator_barrel.bundle",
+        "path": "mods/ar15_barrels/16_in_faux_dissapator_barrel.bundle",
         "rcid": ""
       },
       "Ergonomics": -15,
@@ -2427,7 +2427,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Barrels/16in_riflegas_diss.bundle",
+        "path": "mods/ar15_barrels/16in_riflegas_diss.bundle",
         "rcid": ""
       },
       "Ergonomics": -15,

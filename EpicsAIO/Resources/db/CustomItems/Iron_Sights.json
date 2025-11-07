@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Iron_Sights/sw_peak_r.bundle",
+        "path": "mods/iron_sights/sw_peak_r.bundle",
         "rcid": ""
       },
       "Ergonomics": 1,
@@ -45,7 +45,8 @@
         "61713cc4d8e3106d9806c109",
         "618b9643526131765025ab35",
         "618bab21526131765025ab3f",
-        "5c86592b2e2216000e69e77c"
+        "5c86592b2e2216000e69e77c",
+        "5ae30bad5acfc400185c2dc4"
       ]
     },
     "locales": {
@@ -127,7 +128,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Iron_Sights/sw_peak_fr.bundle",
+        "path": "mods/iron_sights/sw_peak_fr.bundle",
         "rcid": ""
       },
       "Ergonomics": 1
@@ -211,7 +212,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Iron_Sights/matech_rear_sight.bundle",
+        "path": "mods/iron_sights/matech_rear_sight.bundle",
         "rcid": ""
       },
       "Ergonomics": 0.5

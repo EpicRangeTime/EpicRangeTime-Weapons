@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Bipods/harris_bp_railmount.bundle",
+        "path": "mods/bipods/harris_bp_railmount.bundle",
         "rcid": ""
       },
       "Ergonomics": 2,
@@ -97,7 +97,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Bipods/magpul_bp.bundle",
+        "path": "mods/bipods/magpul_bp.bundle",
         "rcid": ""
       },
       "Ergonomics": 2,

@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_95_odg.bundle",
+        "path": "mods/ar15_handguards/mk4_95_odg.bundle",
         "rcid": ""
       },
       "ExtraSizeLeft": 1,
@@ -357,7 +357,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_95_ddc.bundle",
+        "path": "mods/ar15_handguards/mk4_95_ddc.bundle",
         "rcid": ""
       },
       "ExtraSizeLeft": 1,
@@ -708,7 +708,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_95_blk.bundle",
+        "path": "mods/ar15_handguards/mk4_95_blk.bundle",
         "rcid": ""
       },
       "ExtraSizeLeft": 1,
@@ -1059,7 +1059,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_47_odg.bundle",
+        "path": "mods/ar15_handguards/mk4_47_odg.bundle",
         "rcid": ""
       },
       "ExtraSizeLeft": 1,
@@ -1405,7 +1405,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_47_ddc.bundle",
+        "path": "mods/ar15_handguards/mk4_47_ddc.bundle",
         "rcid": ""
       },
       "ExtraSizeLeft": 1,
@@ -1750,7 +1750,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_47_blk.bundle",
+        "path": "mods/ar15_handguards/mk4_47_blk.bundle",
         "rcid": ""
       },
       "ExtraSizeLeft": 1,
@@ -2095,7 +2095,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_15_odg.bundle",
+        "path": "mods/ar15_handguards/mk4_15_odg.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2457,7 +2457,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_15_ddc.bundle",
+        "path": "mods/ar15_handguards/mk4_15_ddc.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2819,7 +2819,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_15_blk.bundle",
+        "path": "mods/ar15_handguards/mk4_15_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -3181,7 +3181,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_13_odg.bundle",
+        "path": "mods/ar15_handguards/mk4_13_odg.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -3540,7 +3540,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_13_ddc.bundle",
+        "path": "mods/ar15_handguards/mk4_13_ddc.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -3899,7 +3899,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_13_blk.bundle",
+        "path": "mods/ar15_handguards/mk4_13_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -4258,7 +4258,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_10f_odg.bundle",
+        "path": "mods/ar15_handguards/mk4_10f_odg.bundle",
         "rcid": ""
       },
       "ExtraSizeLeft": 1,
@@ -4631,7 +4631,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_10f_ddc.bundle",
+        "path": "mods/ar15_handguards/mk4_10f_ddc.bundle",
         "rcid": ""
       },
       "ExtraSizeLeft": 1,
@@ -5004,7 +5004,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/mk4_10f_blk.bundle",
+        "path": "mods/ar15_handguards/mk4_10f_blk.bundle",
         "rcid": ""
       },
       "ExtraSizeLeft": 1,

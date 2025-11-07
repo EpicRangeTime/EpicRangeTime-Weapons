@@ -420,7 +420,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/M700/m700_16.bundle",
+        "path": "mods/m700/m700_16.bundle",
         "rcid": ""
       },
       "Recoil": -3,

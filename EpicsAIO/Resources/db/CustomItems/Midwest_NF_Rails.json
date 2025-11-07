@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/midwest_nf_9_25.bundle",
+        "path": "mods/ar15_handguards/midwest_nf_9_25.bundle",
         "rcid": ""
       },
       "Ergonomics": 8,
@@ -274,7 +274,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/midwest_nf_10_5.bundle",
+        "path": "mods/ar15_handguards/midwest_nf_10_5.bundle",
         "rcid": ""
       },
       "Ergonomics": 9.5,
@@ -544,7 +544,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/midwest_nf_13_5.bundle",
+        "path": "mods/ar15_handguards/midwest_nf_13_5.bundle",
         "rcid": ""
       },
       "Ergonomics": 10,

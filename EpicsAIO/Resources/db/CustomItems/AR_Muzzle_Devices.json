@@ -12,7 +12,7 @@
       "HeatFactor": 0.99,
       "Loudness": 0,
       "Prefab": {
-        "path": "Mods/AR10/warcomp_762.bundle",
+        "path": "mods/ar10/warcomp_762.bundle",
         "rcid": ""
       },
       "RaidModdable": true,
@@ -126,7 +126,7 @@
       "HeatFactor": 0.99,
       "Loudness": 0,
       "Prefab": {
-        "path": "Mods/AR10/sf3p_762.bundle",
+        "path": "mods/ar10/sf3p_762.bundle",
         "rcid": ""
       },
       "Recoil": -6,
@@ -231,7 +231,7 @@
     "handbookParentId": "MOD_FLASHHIDER",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/sfct_556.bundle",
+        "path": "mods/ar15_muzzle_devices/sfct_556.bundle",
         "rcid": ""
       },
       "Weight": 0.073
@@ -308,7 +308,7 @@
       "DurabilityBurnModificator": 0.95,
       "Loudness": 10,
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/sfmb_556.bundle",
+        "path": "mods/ar15_muzzle_devices/sfmb_556.bundle",
         "rcid": ""
       },
       "Recoil": -8,
@@ -390,7 +390,7 @@
       "HeatFactor": 0.99,
       "Loudness": 10,
       "Prefab": {
-        "path": "Mods/AR10/sfmb_762.bundle",
+        "path": "mods/ar10/sfmb_762.bundle",
         "rcid": ""
       },
       "Recoil": -8,
@@ -495,7 +495,7 @@
     "handbookParentId": "MOD_FLASHHIDER",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/warct_556.bundle",
+        "path": "mods/ar15_muzzle_devices/warct_556.bundle",
         "rcid": ""
       },
       "Weight": 0.076
@@ -570,7 +570,7 @@
     "handbookParentId": "MOD_FLASHHIDER",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/eliminator_556.bundle",
+        "path": "mods/ar15_muzzle_devices/eliminator_556.bundle",
         "rcid": ""
       },
       "Slots": [],
@@ -652,7 +652,7 @@
       "HeatFactor": 0.99,
       "Loudness": 0,
       "Prefab": {
-        "path": "Mods/AR10/eliminator_762.bundle",
+        "path": "mods/ar10/eliminator_762.bundle",
         "rcid": ""
       },
       "Recoil": -6,
@@ -734,7 +734,7 @@
       "DurabilityBurnModificator": 0.95,
       "Loudness": 10,
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/procomp_223.bundle",
+        "path": "mods/ar15_muzzle_devices/procomp_223.bundle",
         "rcid": ""
       },
       "Recoil": -8,
@@ -812,7 +812,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Lapua/sfmb338.bundle",
+        "path": "mods/lapua/sfmb338.bundle",
         "rcid": ""
       },
       "Recoil": -9,
@@ -910,7 +910,7 @@
     "overrideProperties": {
       "DurabilityBurnModificator": 0.97,
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/huxwrks_556k_fh.bundle",
+        "path": "mods/ar15_muzzle_devices/huxwrks_556k_fh.bundle",
         "rcid": ""
       },
       "Slots": [
@@ -1011,7 +1011,7 @@
       "HeatFactor": 0.98,
       "Loudness": 45,
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/strike_cookie_cutter.bundle",
+        "path": "mods/ar15_muzzle_devices/strike_cookie_cutter.bundle",
         "rcid": ""
       },
       "Recoil": -12,
@@ -1092,7 +1092,7 @@
       "HeatFactor": 0.98,
       "Loudness": 45,
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/strike_cookie_cutter.bundle",
+        "path": "mods/ar15_muzzle_devices/strike_cookie_cutter.bundle",
         "rcid": ""
       },
       "Recoil": -12,
@@ -1174,7 +1174,7 @@
       "HeatFactor": 0.98,
       "Loudness": 45,
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/strike_cookie_cutter.bundle",
+        "path": "mods/ar15_muzzle_devices/strike_cookie_cutter.bundle",
         "rcid": ""
       },
       "Conflictingitems": [
@@ -1263,7 +1263,7 @@
       "HeatFactor": 0.98,
       "Loudness": 10,
       "Prefab": {
-        "path": "Mods/Lapua/cadex_mx1.bundle",
+        "path": "mods/lapua/cadex_mx1.bundle",
         "rcid": ""
       },
       "Recoil": -11,
@@ -1346,7 +1346,7 @@
       "HeatFactor": 0.98,
       "Loudness": 20,
       "Prefab": {
-        "path": "Mods/Lapua/cadex_mx1.bundle",
+        "path": "mods/lapua/cadex_mx1.bundle",
         "rcid": ""
       },
       "Recoil": -14,
@@ -1424,7 +1424,7 @@
     "handbookParentId": "MOD_FLASHHIDER",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/AR10/gt_etm_3p.bundle",
+        "path": "mods/ar10/gt_etm_3p.bundle",
         "rcid": ""
       },
       "Weight": 0.056,
@@ -1521,7 +1521,7 @@
     "handbookParentId": "MOD_FLASHHIDER",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/kac_mams.bundle",
+        "path": "mods/ar15_muzzle_devices/kac_mams.bundle",
         "rcid": ""
       },
       "Weight": 0.065,
@@ -1597,7 +1597,7 @@
     "handbookParentId": "MOD_FLASHHIDER",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/AR10/fatman_hex_brake.bundle",
+        "path": "mods/ar10/fatman_hex_brake.bundle",
         "rcid": ""
       },
       "Weight": 0.167,
@@ -1674,7 +1674,7 @@
     "handbookParentId": "MOD_FLASHHIDER",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/xm177_fh.bundle",
+        "path": "mods/ar15_muzzle_devices/xm177_fh.bundle",
         "rcid": ""
       },
       "Weight": 0.082,
@@ -1753,7 +1753,7 @@
     "handbookParentId": "MOD_FLASHHIDER",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/kac_triple_tap_fh.bundle",
+        "path": "mods/ar15_muzzle_devices/kac_triple_tap_fh.bundle",
         "rcid": ""
       },
       "Weight": 0.073,
@@ -1829,7 +1829,7 @@
     "handbookParentId": "MOD_FLASHHIDER",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/cgs_sci_fh.bundle",
+        "path": "mods/ar15_muzzle_devices/cgs_sci_fh.bundle",
         "rcid": ""
       },
       "Weight": 0.07,
@@ -1927,7 +1927,7 @@
     "handbookParentId": "5b5f724c86f774093f2ecf15",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/aem_brake_collar.bundle",
+        "path": "mods/ar15_muzzle_devices/aem_brake_collar.bundle",
         "rcid": ""
       },
       "Weight": 0.141,

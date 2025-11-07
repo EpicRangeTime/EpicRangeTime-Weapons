@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/ak74_upper_hg.bundle",
+        "path": "mods/ak/ak74_upper_hg.bundle",
         "rcid": ""
       },
       "Ergonomics": 2,
@@ -113,7 +113,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/ak100_hg_top.bundle",
+        "path": "mods/ak/ak100_hg_top.bundle",
         "rcid": ""
       },
       "Ergonomics": 2,
@@ -220,7 +220,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/b10_lower.bundle",
+        "path": "mods/ak/b10_lower.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -374,7 +374,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/sports_p1.bundle",
+        "path": "mods/ak/sports_p1.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -516,7 +516,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/sports_rail_section_long.bundle",
+        "path": "mods/ak/sports_rail_section_long.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -651,7 +651,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/b22_mount.bundle",
+        "path": "mods/ak/b22_mount.bundle",
         "rcid": ""
       }
     },
@@ -735,7 +735,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/sports_rail_section_long.bundle",
+        "path": "mods/ak/sports_rail_section_long.bundle",
         "rcid": ""
       },
       "Slots": [
@@ -873,7 +873,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/hand_stop.bundle",
+        "path": "mods/ak/hand_stop.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -959,7 +959,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/tube_hg.bundle",
+        "path": "mods/ak/tube_hg.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -1061,7 +1061,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/tube_hg.bundle",
+        "path": "mods/ak/tube_hg.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -1159,7 +1159,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/sports_p3.bundle",
+        "path": "mods/ak/sports_p3.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -1425,7 +1425,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/sports_p2.bundle",
+        "path": "mods/ak/sports_p2.bundle",
         "rcid": ""
       },
       "Slots": []
@@ -1499,7 +1499,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/b9_rail.bundle",
+        "path": "mods/ak/b9_rail.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -1643,7 +1643,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/sag_mk3_blk.bundle",
+        "path": "mods/ak/sag_mk3_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -1993,7 +1993,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/sag_mk3_grn.bundle",
+        "path": "mods/ak/sag_mk3_grn.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2343,7 +2343,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/sag_mk3_gry.bundle",
+        "path": "mods/ak/sag_mk3_gry.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2693,7 +2693,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/sag_mk3_plum.bundle",
+        "path": "mods/ak/sag_mk3_plum.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -3043,7 +3043,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/sag_mk3_tan.bundle",
+        "path": "mods/ak/sag_mk3_tan.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -3395,7 +3395,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/sharkfin_dong_hg.bundle",
+        "path": "mods/ak/sharkfin_dong_hg.bundle",
         "rcid": ""
       },
       "ConflictingItems": [],

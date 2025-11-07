@@ -88,7 +88,7 @@
     "handbookParentId": "MOD_SUPPRESSOR",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Suppressors/surefire_762mini2blk.bundle",
+        "path": "mods/suppressors/surefire_762mini2blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -149,7 +149,7 @@
     "handbookParentId": "MOD_SUPPRESSOR",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Suppressors/surefire_762mini2fde.bundle",
+        "path": "mods/suppressors/surefire_762mini2fde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -211,7 +211,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/socom338ti.bundle",
+        "path": "mods/suppressors/socom338ti.bundle",
         "rcid": ""
       },
       "Recoil": -15,
@@ -290,7 +290,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/aac-m4-2000blk.bundle",
+        "path": "mods/suppressors/aac-m4-2000blk.bundle",
         "rcid": ""
       },
       "Conflictingitems": [
@@ -375,7 +375,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/aac-m4-2000tan.bundle",
+        "path": "mods/suppressors/aac-m4-2000tan.bundle",
         "rcid": ""
       },
       "Conflictingitems": [
@@ -460,7 +460,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/b&t_rbs_c_762_sf.bundle",
+        "path": "mods/suppressors/b&t_rbs_c_762_sf.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -545,7 +545,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/surefire_rc3_blk.bundle",
+        "path": "mods/suppressors/surefire_rc3_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -628,7 +628,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/surefire_rc3_fde.bundle",
+        "path": "mods/suppressors/surefire_rc3_fde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -711,7 +711,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/huxwrks_flow_556k_blk.bundle",
+        "path": "mods/suppressors/huxwrks_flow_556k_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -792,7 +792,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/huxwrks_flow_556k_tan.bundle",
+        "path": "mods/suppressors/huxwrks_flow_556k_tan.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -873,7 +873,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/surefire_rc2_556_blk.bundle",
+        "path": "mods/suppressors/surefire_rc2_556_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -935,7 +935,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/twi_supp.bundle",
+        "path": "mods/suppressors/twi_supp.bundle",
         "rcid": ""
       },
       "Recoil": -9,
@@ -1014,7 +1014,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/twi_supp_thin.bundle",
+        "path": "mods/suppressors/twi_supp_thin.bundle",
         "rcid": ""
       },
       "Recoil": -7,
@@ -1093,7 +1093,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/putnik_blk.bundle",
+        "path": "mods/suppressors/putnik_blk.bundle",
         "rcid": ""
       },
       "Weight": 0.62,
@@ -1177,7 +1177,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/putnik_oreo.bundle",
+        "path": "mods/suppressors/putnik_oreo.bundle",
         "rcid": ""
       },
       "Weight": 0.62,
@@ -1261,7 +1261,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/putnik_fde.bundle",
+        "path": "mods/suppressors/putnik_fde.bundle",
         "rcid": ""
       },
       "Weight": 0.62,
@@ -1345,7 +1345,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/rotex-v_blk.bundle",
+        "path": "mods/suppressors/rotex-v_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -1428,7 +1428,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/rotex-v_fde.bundle",
+        "path": "mods/suppressors/rotex-v_fde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -1511,7 +1511,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/rotex-v_gry.bundle",
+        "path": "mods/suppressors/rotex-v_gry.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -1594,7 +1594,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/rotex_c_blk.bundle",
+        "path": "mods/suppressors/rotex_c_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -1677,7 +1677,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/rotex_c_fde.bundle",
+        "path": "mods/suppressors/rotex_c_fde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -1760,7 +1760,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/rotex_c_gry.bundle",
+        "path": "mods/suppressors/rotex_c_gry.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -1843,7 +1843,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/rotex_d_blk.bundle",
+        "path": "mods/ar15_muzzle_devices/rotex_d_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -1932,7 +1932,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/rotex_d_fde.bundle",
+        "path": "mods/ar15_muzzle_devices/rotex_d_fde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2021,7 +2021,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/rotex_d_gry.bundle",
+        "path": "mods/ar15_muzzle_devices/rotex_d_gry.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2110,7 +2110,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/surefire_556mini2blk.bundle",
+        "path": "mods/suppressors/surefire_556mini2blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2193,7 +2193,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/surefire_556mini2fde.bundle",
+        "path": "mods/suppressors/surefire_556mini2fde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2276,7 +2276,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/surefire_wardenqdblk.bundle",
+        "path": "mods/ar15_muzzle_devices/surefire_wardenqdblk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2363,7 +2363,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Muzzle_Devices/surefire_wardenqdfde.bundle",
+        "path": "mods/ar15_muzzle_devices/surefire_wardenqdfde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2450,7 +2450,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/surefire_762ti2blk.bundle",
+        "path": "mods/suppressors/surefire_762ti2blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2550,7 +2550,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/surefire_762ti2fde.bundle",
+        "path": "mods/suppressors/surefire_762ti2fde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2650,7 +2650,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/surefire_762rc2blk.bundle",
+        "path": "mods/suppressors/surefire_762rc2blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2733,7 +2733,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/surefire_762rc2fde.bundle",
+        "path": "mods/suppressors/surefire_762rc2fde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2816,7 +2816,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/gemtech_neutron_762.bundle",
+        "path": "mods/suppressors/gemtech_neutron_762.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -2897,7 +2897,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/prt_mcq_blk.bundle",
+        "path": "mods/suppressors/prt_mcq_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -3004,7 +3004,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/prt_mcq_fde.bundle",
+        "path": "mods/suppressors/prt_mcq_fde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -3111,7 +3111,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/mcq_cover_blk.bundle",
+        "path": "mods/suppressors/mcq_cover_blk.bundle",
         "rcid": ""
       },
       "Recoil": 0,
@@ -3194,7 +3194,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/mcq_cover_fde.bundle",
+        "path": "mods/suppressors/mcq_cover_fde.bundle",
         "rcid": ""
       },
       "Recoil": 0,
@@ -3277,7 +3277,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/prt_cover_blk.bundle",
+        "path": "mods/suppressors/prt_cover_blk.bundle",
         "rcid": ""
       },
       "Recoil": 0,
@@ -3359,7 +3359,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/prt_cover_fde.bundle",
+        "path": "mods/suppressors/prt_cover_fde.bundle",
         "rcid": ""
       },
       "Recoil": 0,
@@ -3441,7 +3441,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/prt_supp_blk.bundle",
+        "path": "mods/suppressors/prt_supp_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -3547,7 +3547,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/prt_supp_fde.bundle",
+        "path": "mods/suppressors/prt_supp_fde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -3653,7 +3653,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/dd_sguard_556.bundle",
+        "path": "mods/suppressors/dd_sguard_556.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -3739,7 +3739,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/dd_sguard_762.bundle",
+        "path": "mods/suppressors/dd_sguard_762.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -3825,7 +3825,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/allen_m4_suppressor.bundle",
+        "path": "mods/suppressors/allen_m4_suppressor.bundle",
         "rcid": ""
       },
       "Width": 2,
@@ -3918,7 +3918,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/putnik_no_logo.bundle",
+        "path": "mods/suppressors/putnik_no_logo.bundle",
         "rcid": ""
       },
       "Weight": 0.62,
@@ -4004,7 +4004,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/polo_556_blk.bundle",
+        "path": "mods/suppressors/polo_556_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -4090,7 +4090,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/polo_556_fde.bundle",
+        "path": "mods/suppressors/polo_556_fde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -4176,7 +4176,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/polo_556_worn.bundle",
+        "path": "mods/suppressors/polo_556_worn.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -4262,7 +4262,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/polo_556k_blk.bundle",
+        "path": "mods/suppressors/polo_556k_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -4348,7 +4348,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/polo_556k_fde.bundle",
+        "path": "mods/suppressors/polo_556k_fde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -4434,7 +4434,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/polo_556k_worn.bundle",
+        "path": "mods/suppressors/polo_556k_worn.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -4520,7 +4520,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/polo_762_blk.bundle",
+        "path": "mods/suppressors/polo_762_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -4606,7 +4606,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/polo_762_fde.bundle",
+        "path": "mods/suppressors/polo_762_fde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -4692,7 +4692,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/polo_762_worn.bundle",
+        "path": "mods/suppressors/polo_762_worn.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -4778,7 +4778,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/cgs_sci_supp_blk.bundle",
+        "path": "mods/suppressors/cgs_sci_supp_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -4861,7 +4861,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/cgs_sci_supp_fde.bundle",
+        "path": "mods/suppressors/cgs_sci_supp_fde.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -4944,7 +4944,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/cgs_sci_supp_gry.bundle",
+        "path": "mods/suppressors/cgs_sci_supp_gry.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -5027,7 +5027,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/kac_uspt_suppressor.bundle",
+        "path": "mods/suppressors/kac_uspt_suppressor.bundle",
         "rcid": ""
       },
       "Width": 2,
@@ -5109,7 +5109,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/deadair_wolverine_14mm.bundle",
+        "path": "mods/suppressors/deadair_wolverine_14mm.bundle",
         "rcid": ""
       },
       "Recoil": -9.5,
@@ -5187,7 +5187,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/deadair_wolverine_keymount.bundle",
+        "path": "mods/suppressors/deadair_wolverine_keymount.bundle",
         "rcid": ""
       },
       "Recoil": -6.5,
@@ -5270,7 +5270,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Suppressors/aem5_suppressor.bundle",
+        "path": "mods/suppressors/aem5_suppressor.bundle",
         "rcid": ""
       },
       "Recoil": -7,

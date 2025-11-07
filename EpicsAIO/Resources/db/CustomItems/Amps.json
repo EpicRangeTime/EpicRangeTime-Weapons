@@ -5,7 +5,7 @@
     "handbookParentId": "5b5f6f3c86f774094242ef87",
     "overrideProperties": {
       "Prefab": {
-        "path": "Wearables/Headsets/ops_amp_blk.bundle",
+        "path": "wearables/headsets/ops_amp_blk.bundle",
         "rcid": ""
       },
       "Weight": 0.426,
@@ -116,7 +116,7 @@
     "handbookParentId": "5b5f6f3c86f774094242ef87",
     "overrideProperties": {
       "Prefab": {
-        "path": "Wearables/Headsets/ops_amp_blk_camo.bundle",
+        "path": "wearables/headsets/ops_amp_blk_camo.bundle",
         "rcid": ""
       },
       "Weight": 0.426,
@@ -227,7 +227,7 @@
     "handbookParentId": "5b5f6f3c86f774094242ef87",
     "overrideProperties": {
       "Prefab": {
-        "path": "Wearables/Headsets/ops_amp_tan.bundle",
+        "path": "wearables/headsets/ops_amp_tan.bundle",
         "rcid": ""
       },
       "Weight": 0.426,
@@ -338,7 +338,7 @@
     "handbookParentId": "5b5f6f3c86f774094242ef87",
     "overrideProperties": {
       "Prefab": {
-        "path": "Wearables/Headsets/ops_amp_tan_camo.bundle",
+        "path": "wearables/headsets/ops_amp_tan_camo.bundle",
         "rcid": ""
       },
       "Weight": 0.426,

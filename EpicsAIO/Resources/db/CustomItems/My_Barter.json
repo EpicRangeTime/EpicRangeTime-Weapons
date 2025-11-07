@@ -5,7 +5,7 @@
     "handbookParentId": "BARTER_ELECTRONICS",
     "overrideProperties": {
       "Prefab": {
-        "path": "Barter/fluke_87v.bundle",
+        "path": "barter/fluke_87v.bundle",
         "rcid": ""
       },
       "Weight": 0.355,

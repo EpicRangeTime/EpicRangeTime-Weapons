@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Magazines/ar15_straight_mag_20.bundle",
+        "path": "mods/magazines/ar15_straight_mag_20.bundle",
         "rcid": ""
       },
       "Weight": 0.09,
@@ -91,7 +91,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Magazines/x_15_ar15_50rd_drum.bundle",
+        "path": "mods/magazines/x_15_ar15_50rd_drum.bundle",
         "rcid": ""
       },
       "Weight": 0.878,
@@ -210,7 +210,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Magazines/pufgun_556_30rd_blk.bundle",
+        "path": "mods/magazines/pufgun_556_30rd_blk.bundle",
         "rcid": ""
       },
       "Ergonomics": -2
@@ -294,7 +294,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Magazines/pufgun_556_30rd_fde.bundle",
+        "path": "mods/magazines/pufgun_556_30rd_fde.bundle",
         "rcid": ""
       },
       "Ergonomics": -2
@@ -378,7 +378,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Magazines/magpul_emag_30.bundle",
+        "path": "mods/magazines/magpul_emag_30.bundle",
         "rcid": ""
       },
       "Ergonomics": -2
@@ -433,7 +433,7 @@
       "BADGER": {
         "690c2a76efda1c3d78f26d0c": {
           "barterSettings": {
-            "loyalLevel": 1,
+            "loyalLevel": 2,
             "unlimitedCount": true,
             "stackObjectsCount": 99
           },

@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/midwest_ss_7_5.bundle",
+        "path": "mods/ar15_handguards/midwest_ss_7_5.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -228,7 +228,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/midwest_ss_9_25.bundle",
+        "path": "mods/ar15_handguards/midwest_ss_9_25.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -472,7 +472,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/midwest_ss_10_5.bundle",
+        "path": "mods/ar15_handguards/midwest_ss_10_5.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -557,7 +557,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/midwest_ss_12_625.bundle",
+        "path": "mods/ar15_handguards/midwest_ss_12_625.bundle",
         "rcid": ""
       },
       "ConflictingItems": [

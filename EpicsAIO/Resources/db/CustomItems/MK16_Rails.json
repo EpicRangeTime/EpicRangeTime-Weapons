@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/geissele_smr_mk16_13_5_blk.bundle",
+        "path": "mods/ar15_handguards/geissele_smr_mk16_13_5_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -100,7 +100,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/geissele_smr_mk16_10_5_ddc.bundle",
+        "path": "mods/ar15_handguards/geissele_smr_mk16_10_5_ddc.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -189,7 +189,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/geissele_smr_mk16_10_5_blk.bundle",
+        "path": "mods/ar15_handguards/geissele_smr_mk16_10_5_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -278,7 +278,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/geissele_smr_mk16_9_5_blk.bundle",
+        "path": "mods/ar15_handguards/geissele_smr_mk16_9_5_blk.bundle",
         "rcid": ""
       },
       "ConflictingItems": [

@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Magnifiers/exps3_high_mag_combo.bundle",
+        "path": "mods/magnifiers/exps3_high_mag_combo.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -106,7 +106,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Magnifiers/exps3_low_mag_combo.bundle",
+        "path": "mods/magnifiers/exps3_low_mag_combo.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -206,7 +206,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Magnifiers/leupold_lco_high_mag_combo.bundle",
+        "path": "mods/magnifiers/leupold_lco_high_mag_combo.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -306,7 +306,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Magnifiers/leupold_lco_low_mag_combo.bundle",
+        "path": "mods/magnifiers/leupold_lco_low_mag_combo.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -406,7 +406,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Magnifiers/uh1_high_mag_combo.bundle",
+        "path": "mods/magnifiers/uh1_high_mag_combo.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -506,7 +506,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Magnifiers/uh1_low_mag_combo.bundle",
+        "path": "mods/magnifiers/uh1_low_mag_combo.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -606,7 +606,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Magnifiers/romeo8t_high_mag_combo.bundle",
+        "path": "mods/magnifiers/romeo8t_high_mag_combo.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -706,7 +706,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Magnifiers/romeo8t_low_mag_combo.bundle",
+        "path": "mods/magnifiers/romeo8t_low_mag_combo.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -806,7 +806,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Magnifiers/t1_high_mag_combo.bundle",
+        "path": "mods/magnifiers/t1_high_mag_combo.bundle",
         "rcid": ""
       },
       "ConflictingItems": [

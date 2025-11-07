@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/MCX/rattler_rec_blk.bundle",
+        "path": "mods/mcx/rattler_rec_blk.bundle",
         "rcid": ""
       },
       "Slots": [
@@ -302,7 +302,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/MCX/rattler_rec_fde.bundle",
+        "path": "mods/mcx/rattler_rec_fde.bundle",
         "rcid": ""
       },
       "Slots": [
@@ -598,7 +598,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/MCX/mcx_droop_stock.bundle",
+        "path": "mods/mcx/mcx_droop_stock.bundle",
         "rcid": ""
       },
       "Recoil": -18,
@@ -676,7 +676,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/MCX/rattler_5_5.bundle",
+        "path": "mods/mcx/rattler_5_5.bundle",
         "rcid": ""
       },
       "Slots": [
@@ -791,7 +791,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/MCX/rattler_gb.bundle",
+        "path": "mods/mcx/rattler_gb.bundle",
         "rcid": ""
       }
     },
@@ -864,7 +864,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/MCX/rattler_300_3pr.bundle",
+        "path": "mods/mcx/rattler_300_3pr.bundle",
         "rcid": ""
       },
       "Recoil": -5,
@@ -943,7 +943,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/MCX/rattler_556_3pr.bundle",
+        "path": "mods/mcx/rattler_556_3pr.bundle",
         "rcid": ""
       },
       "Recoil": -7
@@ -1017,7 +1017,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/MCX/rattler_pg_tan.bundle",
+        "path": "mods/mcx/rattler_pg_tan.bundle",
         "rcid": ""
       },
       "Ergonomics": 7
@@ -1093,7 +1093,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/MCX/rattler_pg.bundle",
+        "path": "mods/mcx/rattler_pg.bundle",
         "rcid": ""
       },
       "Ergonomics": 7
@@ -1169,7 +1169,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/MCX/rattler_base_hg.bundle",
+        "path": "mods/mcx/rattler_base_hg.bundle",
         "rcid": ""
       },
       "Slots": [
@@ -1329,7 +1329,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/MCX/rattler_base_hg_fde.bundle",
+        "path": "mods/mcx/rattler_base_hg_fde.bundle",
         "rcid": ""
       },
       "Slots": [
@@ -1489,7 +1489,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/MCX/rattler_canebrake.bundle",
+        "path": "mods/mcx/rattler_canebrake.bundle",
         "rcid": ""
       },
       "Recoil": -1,

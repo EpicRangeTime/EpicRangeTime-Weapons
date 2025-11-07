@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/lepold_d_evo.bundle",
+        "path": "mods/scopes/lepold_d_evo.bundle",
         "rcid": ""
       },
       "Weight": 0.391,
@@ -134,7 +134,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/leupold_d_evo_fde.bundle",
+        "path": "mods/scopes/leupold_d_evo_fde.bundle",
         "rcid": ""
       },
       "Weight": 0.391,
@@ -262,7 +262,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/mgo_240_hs.bundle",
+        "path": "mods/scopes/mgo_240_hs.bundle",
         "rcid": ""
       },
       "Weight": 1.046,
@@ -412,7 +412,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/mgo_50_hs.bundle",
+        "path": "mods/scopes/mgo_50_hs.bundle",
         "rcid": ""
       },
       "Weight": 1.046,
@@ -562,7 +562,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/mgo_50_ch.bundle",
+        "path": "mods/scopes/mgo_50_ch.bundle",
         "rcid": ""
       },
       "Weight": 1.046,
@@ -712,7 +712,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/mgo_308_ch.bundle",
+        "path": "mods/scopes/mgo_308_ch.bundle",
         "rcid": ""
       },
       "Weight": 1.046,
@@ -862,7 +862,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/mgo_308_hs.bundle",
+        "path": "mods/scopes/mgo_308_hs.bundle",
         "rcid": ""
       },
       "Weight": 1.046,
@@ -1012,7 +1012,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/mgo_556_ch.bundle",
+        "path": "mods/scopes/mgo_556_ch.bundle",
         "rcid": ""
       },
       "Weight": 1.046,
@@ -1162,7 +1162,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/acog_ta44.bundle",
+        "path": "mods/scopes/acog_ta44.bundle",
         "rcid": ""
       },
       "Weight": 1.046,
@@ -1268,7 +1268,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_black_amber_300.bundle",
+        "path": "mods/scopes/ta31_black_amber_300.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -1402,7 +1402,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_black_amber_horseshoe.bundle",
+        "path": "mods/scopes/ta31_black_amber_horseshoe.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -1536,7 +1536,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_black_green_300.bundle",
+        "path": "mods/scopes/ta31_black_green_300.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -1670,7 +1670,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_black_green_chev.bundle",
+        "path": "mods/scopes/ta31_black_green_chev.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -1804,7 +1804,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_black_green_cross.bundle",
+        "path": "mods/scopes/ta31_black_green_cross.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -1938,7 +1938,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_black_green_horseshoe.bundle",
+        "path": "mods/scopes/ta31_black_green_horseshoe.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -2072,7 +2072,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_black_red_300.bundle",
+        "path": "mods/scopes/ta31_black_red_300.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -2206,7 +2206,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_black_red_chev.bundle",
+        "path": "mods/scopes/ta31_black_red_chev.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -2340,7 +2340,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_black_red_crosshair.bundle",
+        "path": "mods/scopes/ta31_black_red_crosshair.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -2474,7 +2474,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_black_red_horseshoe.bundle",
+        "path": "mods/scopes/ta31_black_red_horseshoe.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -2608,7 +2608,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_tan_amber_300.bundle",
+        "path": "mods/scopes/ta31_tan_amber_300.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -2742,7 +2742,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_tan_amber_horseshoe.bundle",
+        "path": "mods/scopes/ta31_tan_amber_horseshoe.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -2876,7 +2876,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_tan_green_300.bundle",
+        "path": "mods/scopes/ta31_tan_green_300.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -3010,7 +3010,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_tan_green_chev.bundle",
+        "path": "mods/scopes/ta31_tan_green_chev.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -3144,7 +3144,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_tan_green_cross.bundle",
+        "path": "mods/scopes/ta31_tan_green_cross.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -3278,7 +3278,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_tan_green_horseshoe.bundle",
+        "path": "mods/scopes/ta31_tan_green_horseshoe.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -3412,7 +3412,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_tan_red_300.bundle",
+        "path": "mods/scopes/ta31_tan_red_300.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -3546,7 +3546,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_tan_red_chev.bundle",
+        "path": "mods/scopes/ta31_tan_red_chev.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -3680,7 +3680,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_tan_red_cross.bundle",
+        "path": "mods/scopes/ta31_tan_red_cross.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -3814,7 +3814,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/ta31_tan_red_horseshoe.bundle",
+        "path": "mods/scopes/ta31_tan_red_horseshoe.bundle",
         "rcid": ""
       },
       "Weight": 0.422,
@@ -3948,7 +3948,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/elcan_1_5-6.bundle",
+        "path": "mods/scopes/elcan_1_5-6.bundle",
         "rcid": ""
       },
       "Weight": 0.715,
@@ -4105,7 +4105,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/burris_rt6_scope.bundle",
+        "path": "mods/scopes/burris_rt6_scope.bundle",
         "rcid": ""
       },
       "Weight": 0.493,
@@ -4202,7 +4202,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/vortex_golden_eagle.bundle",
+        "path": "mods/scopes/vortex_golden_eagle.bundle",
         "rcid": ""
       },
       "Weight": 0.841,
@@ -4344,7 +4344,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/nightforce_nxs_3_5_25.bundle",
+        "path": "mods/scopes/nightforce_nxs_3_5_25.bundle",
         "rcid": ""
       },
       "AdjustableOpticSensitivity": 0.125,
@@ -4484,7 +4484,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Scopes/vortex_spitfire_5x.bundle",
+        "path": "mods/scopes/vortex_spitfire_5x.bundle",
         "rcid": ""
       },
       "ConflictingItems": [

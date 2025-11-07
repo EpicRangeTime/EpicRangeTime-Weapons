@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR10/midwest_ar10_12_625.bundle",
+        "path": "mods/ar10/midwest_ar10_12_625.bundle",
         "rcid": ""
       },
       "Ergonomics": 9,
@@ -94,7 +94,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR10/midwest_ar10_15.bundle",
+        "path": "mods/ar10/midwest_ar10_15.bundle",
         "rcid": ""
       },
       "Ergonomics": 8,

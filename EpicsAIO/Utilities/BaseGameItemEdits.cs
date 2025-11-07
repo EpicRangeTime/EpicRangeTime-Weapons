@@ -931,7 +931,8 @@ public class BaseGameItemEdits(
                     "5c18b9192e2216398b5a8104",
                     "5fc0fa957283c4046c58147e",
                     "5894a81786f77427140b8347",
-                    "55d5f46a4bdc2d1b198b4567"
+                    "55d5f46a4bdc2d1b198b4567",
+                    "e8d92f66b5cf4553048c5f5b"
                     ]; //Change carry conflicting items
                     break;
                 

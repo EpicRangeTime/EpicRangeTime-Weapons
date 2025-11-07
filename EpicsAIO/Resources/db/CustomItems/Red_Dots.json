@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Dots/triji_mro.bundle",
+        "path": "mods/red_dots/triji_mro.bundle",
         "rcid": ""
       },
       "CalibrationDistances": [
@@ -95,7 +95,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Dots/acro_p2_blk.bundle",
+        "path": "mods/red_dots/acro_p2_blk.bundle",
         "rcid": ""
       },
       "CalibrationDistances": [
@@ -188,7 +188,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Dots/acro_p2_fde.bundle",
+        "path": "mods/red_dots/acro_p2_fde.bundle",
         "rcid": ""
       },
       "CalibrationDistances": [
@@ -281,7 +281,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Dots/lepold_lco.bundle",
+        "path": "mods/red_dots/lepold_lco.bundle",
         "rcid": ""
       },
       "CalibrationDistances": [
@@ -374,7 +374,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Dots/steiner_r1x.bundle",
+        "path": "mods/red_dots/steiner_r1x.bundle",
         "rcid": ""
       },
       "ModesCount": [
@@ -482,7 +482,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Dots/compm5.bundle",
+        "path": "mods/red_dots/compm5.bundle",
         "rcid": ""
       }
     },
@@ -567,7 +567,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Dots/compm5_fde.bundle",
+        "path": "mods/red_dots/compm5_fde.bundle",
         "rcid": ""
       }
     },
@@ -652,7 +652,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Dots/cmore_railway_red_dot.bundle",
+        "path": "mods/red_dots/cmore_railway_red_dot.bundle",
         "rcid": ""
       }
     },

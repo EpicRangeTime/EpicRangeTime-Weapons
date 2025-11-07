@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR10/kac_ff_ras_sr25_hg.bundle",
+        "path": "mods/ar10/kac_ff_ras_sr25_hg.bundle",
         "rcid": ""
       },
       "Ergonomics": 9,

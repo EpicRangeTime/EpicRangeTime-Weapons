@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/hogue_15_inch_hg_black.bundle",
+        "path": "mods/ar15_handguards/hogue_15_inch_hg_black.bundle",
         "rcid": ""
       },
       "Accuracy": 5,
@@ -178,7 +178,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/hogue_15_inch_hg_red.bundle",
+        "path": "mods/ar15_handguards/hogue_15_inch_hg_red.bundle",
         "rcid": ""
       },
       "Accuracy": 5,
@@ -350,7 +350,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/hogue_15_inch_hg_olive_drab.bundle",
+        "path": "mods/ar15_handguards/hogue_15_inch_hg_olive_drab.bundle",
         "rcid": ""
       },
       "Accuracy": 5,
@@ -522,7 +522,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/hogue_15_inch_hg_pink.bundle",
+        "path": "mods/ar15_handguards/hogue_15_inch_hg_pink.bundle",
         "rcid": ""
       },
       "Accuracy": 5,
@@ -694,7 +694,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/hogue_15_inch_hg_gray.bundle",
+        "path": "mods/ar15_handguards/hogue_15_inch_hg_gray.bundle",
         "rcid": ""
       },
       "Accuracy": 5,
@@ -866,7 +866,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/hogue_15_inch_hg_tan.bundle",
+        "path": "mods/ar15_handguards/hogue_15_inch_hg_tan.bundle",
         "rcid": ""
       },
       "Accuracy": 5,
@@ -1038,7 +1038,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/hogue_15_inch_hg_olive_green.bundle",
+        "path": "mods/ar15_handguards/hogue_15_inch_hg_olive_green.bundle",
         "rcid": ""
       },
       "Accuracy": 5,
@@ -1210,7 +1210,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/hogue_15_inch_hg_blue.bundle",
+        "path": "mods/ar15_handguards/hogue_15_inch_hg_blue.bundle",
         "rcid": ""
       },
       "Accuracy": 5,
@@ -1382,7 +1382,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Mounts/hogue_3_hole_rail.bundle",
+        "path": "mods/mounts/hogue_3_hole_rail.bundle",
         "rcid": ""
       }
     },
@@ -1455,7 +1455,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Mounts/hogue_3_hole_rail.bundle",
+        "path": "mods/mounts/hogue_3_hole_rail.bundle",
         "rcid": ""
       },
       "Slots": [

@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/Pic_Adapter_for_AK.bundle",
+        "path": "mods/ak/Pic_Adapter_for_AK.bundle",
         "rcid": ""
       },
       "Recoil": 0,
@@ -112,7 +112,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/Pic_Adapter_for_AK.bundle",
+        "path": "mods/ak/Pic_Adapter_for_AK.bundle",
         "rcid": ""
       },
       "Recoil": 0,
@@ -218,7 +218,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/sag_buttstock_adapter_folding.bundle",
+        "path": "mods/ak/sag_buttstock_adapter_folding.bundle",
         "rcid": ""
       },
       "Ergonomics": 1,

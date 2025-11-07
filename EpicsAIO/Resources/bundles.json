@@ -9,7 +9,7 @@
             ]
         },
         {
-            "key": "Ammo/9mm_export_900_can.bundle",
+            "key": "ammo/9mm_export_900_can.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "key": "Wearables/Headsets/ops_amp_blk.bundle",
+            "key": "wearables/headsets/ops_amp_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -25,7 +25,7 @@
             ]
         },
         {
-            "key": "Wearables/Headsets/ops_amp_blk_camo.bundle",
+            "key": "wearables/headsets/ops_amp_blk_camo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "key": "Wearables/Headsets/ops_amp_tan.bundle",
+            "key": "wearables/headsets/ops_amp_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -41,7 +41,7 @@
             ]
         },
         {
-            "key": "Wearables/Headsets/ops_amp_tan_camo.bundle",
+            "key": "wearables/headsets/ops_amp_tan_camo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -49,7 +49,7 @@
             ]
         },
         {
-            "key": "Wearables/Facemasks/m53a1_gas_mask.bundle",
+            "key": "wearables/facemasks/m53a1_gas_mask.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/perst_4_laser.bundle",
+            "key": "mods/lasers/perst_4_laser.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -71,7 +71,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/raid_xe_black.bundle",
+            "key": "mods/lasers/raid_xe_black.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -85,7 +85,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/raid_xe_fde.bundle",
+            "key": "mods/lasers/raid_xe_fde.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -99,7 +99,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/phantom_ctf_2.bundle",
+            "key": "mods/lasers/phantom_ctf_2.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -113,7 +113,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/dbal_i2_black.bundle",
+            "key": "mods/lasers/dbal_i2_black.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -127,7 +127,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/dbal_i2_fde.bundle",
+            "key": "mods/lasers/dbal_i2_fde.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -141,7 +141,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/otal_c_blk_ir.bundle",
+            "key": "mods/lasers/otal_c_blk_ir.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -155,7 +155,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/otal_c_blk_vis_red.bundle",
+            "key": "mods/lasers/otal_c_blk_vis_red.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -169,7 +169,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/otal_c_fde_grn_vis.bundle",
+            "key": "mods/lasers/otal_c_fde_grn_vis.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -183,7 +183,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/otal_c_fde_ir.bundle",
+            "key": "mods/lasers/otal_c_fde_ir.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -197,7 +197,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/cqbl_1_blk.bundle",
+            "key": "mods/lasers/cqbl_1_blk.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -211,7 +211,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/cqbl_1_fde.bundle",
+            "key": "mods/lasers/cqbl_1_fde.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -225,7 +225,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/l3_ngal_fp_la23_peq.bundle",
+            "key": "mods/lasers/l3_ngal_fp_la23_peq.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -239,7 +239,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/eotech_ogl_black.bundle",
+            "key": "mods/lasers/eotech_ogl_black.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -253,7 +253,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/eotech_ogl_fde.bundle",
+            "key": "mods/lasers/eotech_ogl_fde.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -267,7 +267,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/dbal_a2_black.bundle",
+            "key": "mods/lasers/dbal_a2_black.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -281,7 +281,7 @@
             ]
         },
         {
-            "key": "Mods/Lasers/dbal_a3_black.bundle",
+            "key": "mods/lasers/dbal_a3_black.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -295,7 +295,7 @@
             ]
         },
         {
-            "key": "Mods/Pistol_Grips/b5_pgrip.bundle",
+            "key": "mods/pistol_grips/b5_pgrip.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -303,7 +303,7 @@
             ]
         },
         {
-            "key": "Mods/Pistol_Grips/hogue_ar_pg_black.bundle",
+            "key": "mods/pistol_grips/hogue_ar_pg_black.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -311,7 +311,7 @@
             ]
         },
         {
-            "key": "Mods/Pistol_Grips/hogue_ar_pg_blue.bundle",
+            "key": "mods/pistol_grips/hogue_ar_pg_blue.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -319,7 +319,7 @@
             ]
         },
         {
-            "key": "Mods/Pistol_Grips/hogue_ar_pg_fde.bundle",
+            "key": "mods/pistol_grips/hogue_ar_pg_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -327,7 +327,7 @@
             ]
         },
         {
-            "key": "Mods/Pistol_Grips/hogue_ar_pg_green.bundle",
+            "key": "mods/pistol_grips/hogue_ar_pg_green.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -335,7 +335,7 @@
             ]
         },
         {
-            "key": "Mods/Pistol_Grips/hogue_ar_pg_grey.bundle",
+            "key": "mods/pistol_grips/hogue_ar_pg_grey.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -343,7 +343,7 @@
             ]
         },
         {
-            "key": "Mods/Pistol_Grips/hogue_ar_pg_pink.bundle",
+            "key": "mods/pistol_grips/hogue_ar_pg_pink.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -351,7 +351,7 @@
             ]
         },
         {
-            "key": "Mods/Pistol_Grips/dd_pistol_grip_black.bundle",
+            "key": "mods/pistol_grips/dd_pistol_grip_black.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -359,7 +359,7 @@
             ]
         },
         {
-            "key": "Mods/Pistol_Grips/dd_pistol_grip_brown.bundle",
+            "key": "mods/pistol_grips/dd_pistol_grip_brown.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -367,7 +367,7 @@
             ]
         },
         {
-            "key": "Mods/Pistol_Grips/dd_pistol_grip_gray.bundle",
+            "key": "mods/pistol_grips/dd_pistol_grip_gray.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -375,7 +375,7 @@
             ]
         },
         {
-            "key": "Mods/Pistol_Grips/dd_pistol_grip_tan.bundle",
+            "key": "mods/pistol_grips/dd_pistol_grip_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -489,7 +489,7 @@
             ]
         },
         {
-            "key": "Barter/sony_walkman.bundle",
+            "key": "barter/sony_walkman.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -497,7 +497,7 @@
             ]
         },
         {
-            "key": "Barter/fluke_87v.bundle",
+            "key": "barter/fluke_87v.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -505,7 +505,7 @@
             ]
         },
         {
-            "key": "Barter/tamagotchi.bundle",
+            "key": "barter/tamagotchi.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -513,7 +513,7 @@
             ]
         },
         {
-            "key": "Barter/boston_record.bundle",
+            "key": "barter/boston_record.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -521,7 +521,7 @@
             ]
         },
         {
-            "key": "Barter/bebop_record.bundle",
+            "key": "barter/bebop_record.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -529,7 +529,7 @@
             ]
         },
         {
-            "key": "Mods/AK/hogue_ak_pgrip_black.bundle",
+            "key": "mods/ak/hogue_ak_pgrip_black.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -537,7 +537,7 @@
             ]
         },
         {
-            "key": "Mods/AK/hogue_ak_pgrip_green.bundle",
+            "key": "mods/ak/hogue_ak_pgrip_green.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -545,7 +545,7 @@
             ]
         },
         {
-            "key": "Mods/AK/hogue_ak_pgrip_red.bundle",
+            "key": "mods/ak/hogue_ak_pgrip_red.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -553,7 +553,7 @@
             ]
         },
         {
-            "key": "Mods/AK/hogue_ak_pgrip_spec_green.bundle",
+            "key": "mods/ak/hogue_ak_pgrip_spec_green.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -561,7 +561,7 @@
             ]
         },
         {
-            "key": "Mods/AK/hogue_ak_pgrip_tan.bundle",
+            "key": "mods/ak/hogue_ak_pgrip_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -569,7 +569,7 @@
             ]
         },
         {
-            "key": "Mods/AK/ak100_hg_top.bundle",
+            "key": "mods/ak/ak100_hg_top.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -577,7 +577,7 @@
             ]
         },
         {
-            "key": "Mods/AK/sharkfin_dong_hg.bundle",
+            "key": "mods/ak/sharkfin_dong_hg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -585,7 +585,7 @@
             ]
         },
         {
-            "key": "Mods/AK/bulgarian_krink_fh.bundle",
+            "key": "mods/ak/bulgarian_krink_fh.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -593,7 +593,7 @@
             ]
         },
         {
-            "key": "Mods/AK/ak74_upper_hg.bundle",
+            "key": "mods/ak/ak74_upper_hg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -601,7 +601,7 @@
             ]
         },
         {
-            "key": "Mods/AK/b10_lower.bundle",
+            "key": "mods/ak/b10_lower.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -609,7 +609,7 @@
             ]
         },
         {
-            "key": "Mods/AK/b22_mount.bundle",
+            "key": "mods/ak/b22_mount.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -617,7 +617,7 @@
             ]
         },
         {
-            "key": "Mods/AK/b9_rail.bundle",
+            "key": "mods/ak/b9_rail.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -625,7 +625,7 @@
             ]
         },
         {
-            "key": "Mods/AK/dtech_mpi_9x19.bundle",
+            "key": "mods/ak/dtech_mpi_9x19.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -633,7 +633,7 @@
             ]
         },
         {
-            "key": "Mods/AK/dtk2_mb.bundle",
+            "key": "mods/ak/dtk2_mb.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -641,7 +641,7 @@
             ]
         },
         {
-            "key": "Mods/AK/hand_stop.bundle",
+            "key": "mods/ak/hand_stop.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -649,7 +649,7 @@
             ]
         },
         {
-            "key": "Mods/AK/Pic_Adapter_for_AK.bundle",
+            "key": "mods/ak/Pic_Adapter_for_AK.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -657,7 +657,7 @@
             ]
         },
         {
-            "key": "Mods/AK/sag_buttstock_adapter_folding.bundle",
+            "key": "mods/ak/sag_buttstock_adapter_folding.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -665,7 +665,7 @@
             ]
         },
         {
-            "key": "Mods/AK/sag_mk3_blk.bundle",
+            "key": "mods/ak/sag_mk3_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -673,7 +673,7 @@
             ]
         },
         {
-            "key": "Mods/AK/sag_mk3_grn.bundle",
+            "key": "mods/ak/sag_mk3_grn.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -681,7 +681,7 @@
             ]
         },
         {
-            "key": "Mods/AK/sag_mk3_gry.bundle",
+            "key": "mods/ak/sag_mk3_gry.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -689,7 +689,7 @@
             ]
         },
         {
-            "key": "Mods/AK/sag_mk3_plum.bundle",
+            "key": "mods/ak/sag_mk3_plum.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -697,7 +697,7 @@
             ]
         },
         {
-            "key": "Mods/AK/sag_mk3_tan.bundle",
+            "key": "mods/ak/sag_mk3_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -705,7 +705,7 @@
             ]
         },
         {
-            "key": "Mods/AK/sports_p1.bundle",
+            "key": "mods/ak/sports_p1.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -713,7 +713,7 @@
             ]
         },
         {
-            "key": "Mods/AK/sports_p2.bundle",
+            "key": "mods/ak/sports_p2.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -721,7 +721,7 @@
             ]
         },
         {
-            "key": "Mods/AK/sports_p3.bundle",
+            "key": "mods/ak/sports_p3.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -729,7 +729,7 @@
             ]
         },
         {
-            "key": "Mods/AK/sports_rail_section_long.bundle",
+            "key": "mods/ak/sports_rail_section_long.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -737,7 +737,7 @@
             ]
         },
         {
-            "key": "Mods/AK/tube_hg.bundle",
+            "key": "mods/ak/tube_hg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -745,7 +745,7 @@
             ]
         },
         {
-            "key": "Mods/AR10/kac_ff_ras_sr25_hg.bundle",
+            "key": "mods/ar10/kac_ff_ras_sr25_hg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -753,7 +753,7 @@
             ]
         },
         {
-            "key": "Mods/AR10/eliminator_762.bundle",
+            "key": "mods/ar10/eliminator_762.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -761,7 +761,7 @@
             ]
         },
         {
-            "key": "Mods/AR10/fatman_hex_brake.bundle",
+            "key": "mods/ar10/fatman_hex_brake.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -769,7 +769,7 @@
             ]
         },
         {
-            "key": "Mods/AR10/gt_etm_3p.bundle",
+            "key": "mods/ar10/gt_etm_3p.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -777,7 +777,7 @@
             ]
         },
         {
-            "key": "Mods/AR10/sf3p_762.bundle",
+            "key": "mods/ar10/sf3p_762.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -785,7 +785,7 @@
             ]
         },
         {
-            "key": "Mods/AR10/sfmb_762.bundle",
+            "key": "mods/ar10/sfmb_762.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -793,7 +793,7 @@
             ]
         },
         {
-            "key": "Mods/AR10/sr25_11_5.bundle",
+            "key": "mods/ar10/sr25_11_5.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -801,7 +801,7 @@
             ]
         },
         {
-            "key": "Mods/AR10/sr25_14_5.bundle",
+            "key": "mods/ar10/sr25_14_5.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -809,7 +809,7 @@
             ]
         },
         {
-            "key": "Mods/AR10/warcomp_762.bundle",
+            "key": "mods/ar10/warcomp_762.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -817,7 +817,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Barrels/16in_riflegas_diss.bundle",
+            "key": "mods/ar15_barrels/16in_riflegas_diss.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -825,7 +825,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Barrels/16_in_faux_dissapator_barrel.bundle",
+            "key": "mods/ar15_barrels/16_in_faux_dissapator_barrel.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -833,7 +833,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Barrels/ar15_11_5.bundle",
+            "key": "mods/ar15_barrels/ar15_11_5.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -841,7 +841,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Barrels/ar15_12_5_carbine.bundle",
+            "key": "mods/ar15_barrels/ar15_12_5_carbine.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -849,7 +849,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Barrels/ar15_12_5_mid.bundle",
+            "key": "mods/ar15_barrels/ar15_12_5_mid.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -857,7 +857,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Barrels/ar15_8_5.bundle",
+            "key": "mods/ar15_barrels/ar15_8_5.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -865,7 +865,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_blue.bundle",
+            "key": "mods/ar15_handguards/hogue_15_inch_hg_blue.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -873,7 +873,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_gray.bundle",
+            "key": "mods/ar15_handguards/hogue_15_inch_hg_gray.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -881,7 +881,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_olive_green.bundle",
+            "key": "mods/ar15_handguards/hogue_15_inch_hg_olive_green.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -889,7 +889,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_black.bundle",
+            "key": "mods/ar15_handguards/hogue_15_inch_hg_black.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -897,7 +897,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_pink.bundle",
+            "key": "mods/ar15_handguards/hogue_15_inch_hg_pink.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -905,7 +905,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_red.bundle",
+            "key": "mods/ar15_handguards/hogue_15_inch_hg_red.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -913,7 +913,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_tan.bundle",
+            "key": "mods/ar15_handguards/hogue_15_inch_hg_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -921,7 +921,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/hogue_15_inch_hg_olive_drab.bundle",
+            "key": "mods/ar15_handguards/hogue_15_inch_hg_olive_drab.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -929,7 +929,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/geissele_smr_mk16_9_5_blk.bundle",
+            "key": "mods/ar15_handguards/geissele_smr_mk16_9_5_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -937,7 +937,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/geissele_smr_mk16_10_5_blk.bundle",
+            "key": "mods/ar15_handguards/geissele_smr_mk16_10_5_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -945,7 +945,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/geissele_smr_mk16_10_5_ddc.bundle",
+            "key": "mods/ar15_handguards/geissele_smr_mk16_10_5_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -953,7 +953,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/geissele_smr_mk16_13_5_blk.bundle",
+            "key": "mods/ar15_handguards/geissele_smr_mk16_13_5_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1009,7 +1009,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mcmr10_blk.bundle",
+            "key": "mods/ar15_handguards/mcmr10_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1017,7 +1017,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mcmr10_fde.bundle",
+            "key": "mods/ar15_handguards/mcmr10_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1025,7 +1025,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mcmr13_blk.bundle",
+            "key": "mods/ar15_handguards/mcmr13_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1033,7 +1033,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mcmr13_fde.bundle",
+            "key": "mods/ar15_handguards/mcmr13_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1041,7 +1041,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mcmr15_blk.bundle",
+            "key": "mods/ar15_handguards/mcmr15_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1049,7 +1049,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mcmr15_fde.bundle",
+            "key": "mods/ar15_handguards/mcmr15_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1057,7 +1057,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mcmr7_blk.bundle",
+            "key": "mods/ar15_handguards/mcmr7_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1065,7 +1065,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mcmr7_fde.bundle",
+            "key": "mods/ar15_handguards/mcmr7_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1073,7 +1073,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mcmr8_blk.bundle",
+            "key": "mods/ar15_handguards/mcmr8_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1081,7 +1081,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mcmr8_fde.bundle",
+            "key": "mods/ar15_handguards/mcmr8_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1089,7 +1089,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mcmr9_blk.bundle",
+            "key": "mods/ar15_handguards/mcmr9_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1097,7 +1097,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mcmr9_fde.bundle",
+            "key": "mods/ar15_handguards/mcmr9_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1105,7 +1105,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr10_blk.bundle",
+            "key": "mods/ar15_handguards/mfr10_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1113,7 +1113,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr10_cbt.bundle",
+            "key": "mods/ar15_handguards/mfr10_cbt.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1121,7 +1121,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr10_dw.bundle",
+            "key": "mods/ar15_handguards/mfr10_dw.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1129,7 +1129,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr10_fde.bundle",
+            "key": "mods/ar15_handguards/mfr10_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1137,7 +1137,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr13_5_blk.bundle",
+            "key": "mods/ar15_handguards/mfr13_5_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1145,7 +1145,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr13_5_cbt.bundle",
+            "key": "mods/ar15_handguards/mfr13_5_cbt.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1153,7 +1153,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr13_5_dw.bundle",
+            "key": "mods/ar15_handguards/mfr13_5_dw.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1161,7 +1161,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr13_5_fde.bundle",
+            "key": "mods/ar15_handguards/mfr13_5_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1169,7 +1169,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr15_blk.bundle",
+            "key": "mods/ar15_handguards/mfr15_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1177,7 +1177,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr15_cbt.bundle",
+            "key": "mods/ar15_handguards/mfr15_cbt.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1185,7 +1185,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr15_dw.bundle",
+            "key": "mods/ar15_handguards/mfr15_dw.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1193,7 +1193,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr15_fde.bundle",
+            "key": "mods/ar15_handguards/mfr15_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1201,7 +1201,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr9_blk.bundle",
+            "key": "mods/ar15_handguards/mfr9_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1209,7 +1209,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr9_cbt.bundle",
+            "key": "mods/ar15_handguards/mfr9_cbt.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1217,7 +1217,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr9_dw.bundle",
+            "key": "mods/ar15_handguards/mfr9_dw.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1225,7 +1225,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mfr9_fde.bundle",
+            "key": "mods/ar15_handguards/mfr9_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1233,7 +1233,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/midwest_ss_7_5.bundle",
+            "key": "mods/ar15_handguards/midwest_ss_7_5.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1241,7 +1241,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/midwest_ss_9_25.bundle",
+            "key": "mods/ar15_handguards/midwest_ss_9_25.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1249,7 +1249,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/midwest_ss_10_5.bundle",
+            "key": "mods/ar15_handguards/midwest_ss_10_5.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1257,7 +1257,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/midwest_ss_12_625.bundle",
+            "key": "mods/ar15_handguards/midwest_ss_12_625.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1265,7 +1265,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/midwest_nf_10_5.bundle",
+            "key": "mods/ar15_handguards/midwest_nf_10_5.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1273,7 +1273,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/midwest_nf_13_5.bundle",
+            "key": "mods/ar15_handguards/midwest_nf_13_5.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1281,7 +1281,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/midwest_nf_9_25.bundle",
+            "key": "mods/ar15_handguards/midwest_nf_9_25.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1289,7 +1289,7 @@
             ]
         },
         {
-            "key": "Mods/AR10/midwest_ar10_12_625.bundle",
+            "key": "mods/ar10/midwest_ar10_12_625.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1297,7 +1297,7 @@
             ]
         },
         {
-            "key": "Mods/AR10/midwest_ar10_15.bundle",
+            "key": "mods/ar10/midwest_ar10_15.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1305,7 +1305,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_10f_blk.bundle",
+            "key": "mods/ar15_handguards/mk4_10f_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1313,7 +1313,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_10f_ddc.bundle",
+            "key": "mods/ar15_handguards/mk4_10f_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1321,7 +1321,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_10f_odg.bundle",
+            "key": "mods/ar15_handguards/mk4_10f_odg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1329,7 +1329,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_13_blk.bundle",
+            "key": "mods/ar15_handguards/mk4_13_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1337,7 +1337,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_13_ddc.bundle",
+            "key": "mods/ar15_handguards/mk4_13_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1345,7 +1345,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_13_odg.bundle",
+            "key": "mods/ar15_handguards/mk4_13_odg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1353,7 +1353,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_15_blk.bundle",
+            "key": "mods/ar15_handguards/mk4_15_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1361,7 +1361,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_15_ddc.bundle",
+            "key": "mods/ar15_handguards/mk4_15_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1369,7 +1369,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_15_odg.bundle",
+            "key": "mods/ar15_handguards/mk4_15_odg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1377,7 +1377,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_47_blk.bundle",
+            "key": "mods/ar15_handguards/mk4_47_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1385,7 +1385,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_47_ddc.bundle",
+            "key": "mods/ar15_handguards/mk4_47_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1393,7 +1393,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_47_odg.bundle",
+            "key": "mods/ar15_handguards/mk4_47_odg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1401,7 +1401,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_95_blk.bundle",
+            "key": "mods/ar15_handguards/mk4_95_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1409,7 +1409,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_95_ddc.bundle",
+            "key": "mods/ar15_handguards/mk4_95_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1417,7 +1417,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk4_95_odg.bundle",
+            "key": "mods/ar15_handguards/mk4_95_odg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1425,7 +1425,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk8_13_blk.bundle",
+            "key": "mods/ar15_handguards/mk8_13_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1433,7 +1433,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk8_13_ddc.bundle",
+            "key": "mods/ar15_handguards/mk8_13_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1441,7 +1441,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk8_13_odg.bundle",
+            "key": "mods/ar15_handguards/mk8_13_odg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1449,7 +1449,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk8_15_blk.bundle",
+            "key": "mods/ar15_handguards/mk8_15_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1457,7 +1457,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk8_15_ddc.bundle",
+            "key": "mods/ar15_handguards/mk8_15_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1465,7 +1465,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk8_15_odg.bundle",
+            "key": "mods/ar15_handguards/mk8_15_odg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1473,7 +1473,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk8_7_blk.bundle",
+            "key": "mods/ar15_handguards/mk8_7_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1481,7 +1481,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk8_7_ddc.bundle",
+            "key": "mods/ar15_handguards/mk8_7_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1489,7 +1489,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk8_7_odg.bundle",
+            "key": "mods/ar15_handguards/mk8_7_odg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1497,7 +1497,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk8_9_5_blk.bundle",
+            "key": "mods/ar15_handguards/mk8_9_5_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1505,7 +1505,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk8_9_5_ddc.bundle",
+            "key": "mods/ar15_handguards/mk8_9_5_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1513,7 +1513,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/mk8_9_5_odg.bundle",
+            "key": "mods/ar15_handguards/mk8_9_5_odg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1521,7 +1521,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_10_5l_blk.bundle",
+            "key": "mods/ar15_handguards/ris_iii_10_5l_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1529,7 +1529,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_10_5l_dfde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_10_5l_dfde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1537,7 +1537,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_10_5l_fde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_10_5l_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1545,7 +1545,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_10_5u_blk.bundle",
+            "key": "mods/ar15_handguards/ris_iii_10_5u_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1553,7 +1553,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_10_5u_dfde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_10_5u_dfde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1561,7 +1561,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_10_5u_fde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_10_5u_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1569,7 +1569,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_12_5l_blk.bundle",
+            "key": "mods/ar15_handguards/ris_iii_12_5l_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1577,7 +1577,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_12_5l_dfde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_12_5l_dfde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1585,7 +1585,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_12_5l_fde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_12_5l_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1593,7 +1593,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_12_5u_blk.bundle",
+            "key": "mods/ar15_handguards/ris_iii_12_5u_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1601,7 +1601,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_12_5u_dfde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_12_5u_dfde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1609,7 +1609,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_12_5u_fde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_12_5u_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1617,7 +1617,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_13l_blk.bundle",
+            "key": "mods/ar15_handguards/ris_iii_13l_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1625,7 +1625,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_13l_dfde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_13l_dfde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1633,7 +1633,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_13l_fde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_13l_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1641,7 +1641,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_13u_blk.bundle",
+            "key": "mods/ar15_handguards/ris_iii_13u_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1649,7 +1649,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_13u_dfde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_13u_dfde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1657,7 +1657,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_13u_fde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_13u_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1665,7 +1665,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_9_5l_blk.bundle",
+            "key": "mods/ar15_handguards/ris_iii_9_5l_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1673,7 +1673,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_9_5l_dfde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_9_5l_dfde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1681,7 +1681,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_9_5l_fde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_9_5l_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1689,7 +1689,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_9_5u_blk.bundle",
+            "key": "mods/ar15_handguards/ris_iii_9_5u_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1697,7 +1697,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_9_5u_dfde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_9_5u_dfde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1705,7 +1705,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_iii_9_5u_fde.bundle",
+            "key": "mods/ar15_handguards/ris_iii_9_5u_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1713,7 +1713,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_ii_fsp.bundle",
+            "key": "mods/ar15_handguards/ris_ii_fsp.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1721,7 +1721,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/ris_ii_fspl.bundle",
+            "key": "mods/ar15_handguards/ris_ii_fspl.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1729,7 +1729,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/urx_3_1_13_5_lower.bundle",
+            "key": "mods/ar15_handguards/urx_3_1_13_5_lower.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1737,7 +1737,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/urx_3_1_13_5_upper.bundle",
+            "key": "mods/ar15_handguards/urx_3_1_13_5_upper.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1745,7 +1745,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/urx4_1075_blk.bundle",
+            "key": "mods/ar15_handguards/urx4_1075_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1753,7 +1753,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/urx4_1075_tan.bundle",
+            "key": "mods/ar15_handguards/urx4_1075_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1761,7 +1761,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/urx4_10_blk.bundle",
+            "key": "mods/ar15_handguards/urx4_10_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1769,7 +1769,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/urx4_10_tan.bundle",
+            "key": "mods/ar15_handguards/urx4_10_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1777,7 +1777,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/urx4_13_blk.bundle",
+            "key": "mods/ar15_handguards/urx4_13_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1785,7 +1785,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/urx4_13_tan.bundle",
+            "key": "mods/ar15_handguards/urx4_13_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1793,7 +1793,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/urx4_145_blk.bundle",
+            "key": "mods/ar15_handguards/urx4_145_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1801,7 +1801,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/urx4_145_tan.bundle",
+            "key": "mods/ar15_handguards/urx4_145_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1809,7 +1809,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/urx4_85_blk.bundle",
+            "key": "mods/ar15_handguards/urx4_85_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1817,7 +1817,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Handguards/urx4_85_tan.bundle",
+            "key": "mods/ar15_handguards/urx4_85_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1825,7 +1825,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/eliminator_556.bundle",
+            "key": "mods/ar15_muzzle_devices/eliminator_556.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1833,7 +1833,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/kac_triple_tap_fh.bundle",
+            "key": "mods/ar15_muzzle_devices/kac_triple_tap_fh.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1841,7 +1841,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/cgs_sci_fh.bundle",
+            "key": "mods/ar15_muzzle_devices/cgs_sci_fh.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1849,7 +1849,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/xm177_fh.bundle",
+            "key": "mods/ar15_muzzle_devices/xm177_fh.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1857,7 +1857,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/huxwrks_556k_fh.bundle",
+            "key": "mods/ar15_muzzle_devices/huxwrks_556k_fh.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1865,7 +1865,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/kac_mams.bundle",
+            "key": "mods/ar15_muzzle_devices/kac_mams.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1873,7 +1873,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/procomp_223.bundle",
+            "key": "mods/ar15_muzzle_devices/procomp_223.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1881,7 +1881,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/rotex_d_blk.bundle",
+            "key": "mods/ar15_muzzle_devices/rotex_d_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1889,7 +1889,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/rotex_d_fde.bundle",
+            "key": "mods/ar15_muzzle_devices/rotex_d_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1897,7 +1897,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/rotex_d_gry.bundle",
+            "key": "mods/ar15_muzzle_devices/rotex_d_gry.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1905,7 +1905,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/sfct_556.bundle",
+            "key": "mods/ar15_muzzle_devices/sfct_556.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1913,7 +1913,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/sfmb_556.bundle",
+            "key": "mods/ar15_muzzle_devices/sfmb_556.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1921,7 +1921,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/strike_cookie_cutter.bundle",
+            "key": "mods/ar15_muzzle_devices/strike_cookie_cutter.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1929,7 +1929,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/surefire_wardenqdblk.bundle",
+            "key": "mods/ar15_muzzle_devices/surefire_wardenqdblk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1937,7 +1937,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/surefire_wardenqdfde.bundle",
+            "key": "mods/ar15_muzzle_devices/surefire_wardenqdfde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1945,7 +1945,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/warct_556.bundle",
+            "key": "mods/ar15_muzzle_devices/warct_556.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1953,7 +1953,7 @@
             ]
         },
         {
-            "key": "Mods/AR15_Muzzle_Devices/aem_brake_collar.bundle",
+            "key": "mods/ar15_muzzle_devices/aem_brake_collar.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1961,7 +1961,7 @@
             ]
         },
         {
-            "key": "Mods/Bipods/bipod_stud_mlok.bundle",
+            "key": "mods/bipods/bipod_stud_mlok.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1969,7 +1969,7 @@
             ]
         },
         {
-            "key": "Mods/Bipods/harris_bp_railmount.bundle",
+            "key": "mods/bipods/harris_bp_railmount.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1977,7 +1977,7 @@
             ]
         },
         {
-            "key": "Mods/Bipods/magpul_bp.bundle",
+            "key": "mods/bipods/magpul_bp.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1985,7 +1985,7 @@
             ]
         },
         {
-            "key": "Mods/Dots/acro_p2_blk.bundle",
+            "key": "mods/red_dots/acro_p2_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1993,7 +1993,7 @@
             ]
         },
         {
-            "key": "Mods/Dots/cmore_railway_red_dot.bundle",
+            "key": "mods/red_dots/cmore_railway_red_dot.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2001,7 +2001,7 @@
             ]
         },
         {
-            "key": "Mods/Dots/acro_p2_fde.bundle",
+            "key": "mods/red_dots/acro_p2_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2009,7 +2009,7 @@
             ]
         },
         {
-            "key": "Mods/Dots/romeo9t_blk.bundle",
+            "key": "mods/red_dots/romeo9t_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2017,7 +2017,7 @@
             ]
         },
         {
-            "key": "Mods/Dots/romeo9t_fde.bundle",
+            "key": "mods/red_dots/romeo9t_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2025,7 +2025,7 @@
             ]
         },
         {
-            "key": "Mods/Dots/compm5.bundle",
+            "key": "mods/red_dots/compm5.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2033,7 +2033,7 @@
             ]
         },
         {
-            "key": "Mods/Dots/compm5_fde.bundle",
+            "key": "mods/red_dots/compm5_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2041,7 +2041,7 @@
             ]
         },
         {
-            "key": "Mods/Dots/lepold_lco.bundle",
+            "key": "mods/red_dots/lepold_lco.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2049,7 +2049,7 @@
             ]
         },
         {
-            "key": "Mods/Dots/steiner_r1x.bundle",
+            "key": "mods/red_dots/steiner_r1x.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2057,7 +2057,7 @@
             ]
         },
         {
-            "key": "Mods/Dots/triji_mro.bundle",
+            "key": "mods/red_dots/triji_mro.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2065,7 +2065,7 @@
             ]
         },
         {
-            "key": "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+            "key": "mods/glock_parts/triarc_glock_slide_textures.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2073,88 +2073,88 @@
             ]
         },
         {
-            "key": "Mods/Glock_Parts/barrel_triarc_g19.bundle",
+            "key": "mods/glock_parts/barrel_triarc_g19.bundle",
             "dependencyKeys": [
-                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "mods/glock_parts/triarc_glock_slide_textures.bundle",
                 "shaders",
                 "cubemaps",
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
         {
-            "key": "Mods/Glock_Parts/barrel_triarc_g19_threaded.bundle",
+            "key": "mods/glock_parts/barrel_triarc_g19_threaded.bundle",
             "dependencyKeys": [
-                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "mods/glock_parts/triarc_glock_slide_textures.bundle",
                 "shaders",
                 "cubemaps",
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
         {
-            "key": "Mods/Glock_Parts/receiver_glock_triarc_mos.bundle",
+            "key": "mods/glock_parts/receiver_glock_triarc_mos.bundle",
             "dependencyKeys": [
-                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "mods/glock_parts/triarc_glock_slide_textures.bundle",
                 "shaders",
                 "cubemaps",
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
         {
-            "key": "Mods/Glock_Parts/sight_front_glock_supp_height_triarc.bundle",
+            "key": "mods/glock_parts/sight_front_glock_supp_height_triarc.bundle",
             "dependencyKeys": [
-                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "mods/glock_parts/triarc_glock_slide_textures.bundle",
                 "shaders",
                 "cubemaps",
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
         {
-            "key": "Mods/Glock_Parts/sight_front_glock_triarc.bundle",
+            "key": "mods/glock_parts/sight_front_glock_triarc.bundle",
             "dependencyKeys": [
-                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "mods/glock_parts/triarc_glock_slide_textures.bundle",
                 "shaders",
                 "cubemaps",
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
         {
-            "key": "Mods/Glock_Parts/sight_rear_glock_suppressor_height_triarc.bundle",
+            "key": "mods/glock_parts/sight_rear_glock_suppressor_height_triarc.bundle",
             "dependencyKeys": [
-                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "mods/glock_parts/triarc_glock_slide_textures.bundle",
                 "shaders",
                 "cubemaps",
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
         {
-            "key": "Mods/Glock_Parts/sight_rear_glock_triarc.bundle",
+            "key": "mods/glock_parts/sight_rear_glock_triarc.bundle",
             "dependencyKeys": [
-                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "mods/glock_parts/triarc_glock_slide_textures.bundle",
                 "shaders",
                 "cubemaps",
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
         {
-            "key": "Mods/Glock_Parts/thread_prot_triarc.bundle",
+            "key": "mods/glock_parts/thread_prot_triarc.bundle",
             "dependencyKeys": [
-                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "mods/glock_parts/triarc_glock_slide_textures.bundle",
                 "shaders",
                 "cubemaps",
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
         {
-            "key": "Mods/Glock_Parts/zev_optic_plate.bundle",
+            "key": "mods/glock_parts/zev_optic_plate.bundle",
             "dependencyKeys": [
-                "Mods/Glock_Parts/triarc_glock_slide_textures.bundle",
+                "mods/glock_parts/triarc_glock_slide_textures.bundle",
                 "shaders",
                 "cubemaps",
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
         {
-            "key": "Mods/HK/hk_smr_10_5_blk.bundle",
+            "key": "mods/hk/hk_smr_10_5_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2162,7 +2162,7 @@
             ]
         },
         {
-            "key": "Mods/HK/hk_smr_10_5_ddc.bundle",
+            "key": "mods/hk/hk_smr_10_5_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2170,7 +2170,7 @@
             ]
         },
         {
-            "key": "Mods/HK/hk_smr_14_5_blk.bundle",
+            "key": "mods/hk/hk_smr_14_5_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2178,7 +2178,7 @@
             ]
         },
         {
-            "key": "Mods/HK/hk_smr_14_5_ddc.bundle",
+            "key": "mods/hk/hk_smr_14_5_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2186,7 +2186,7 @@
             ]
         },
         {
-            "key": "Mods/Iron_Sights/sw_peak_fr.bundle",
+            "key": "mods/iron_sights/sw_peak_fr.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2194,7 +2194,7 @@
             ]
         },
         {
-            "key": "Mods/Iron_Sights/sw_peak_r.bundle",
+            "key": "mods/iron_sights/sw_peak_r.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2202,7 +2202,7 @@
             ]
         },
         {
-            "key": "Mods/Iron_Sights/matech_rear_sight.bundle",
+            "key": "mods/iron_sights/matech_rear_sight.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2210,7 +2210,7 @@
             ]
         },
         {
-            "key": "Mods/Lapua/barrel_ax_accuracy_international_508mm_762x51_pb.bundle",
+            "key": "mods/lapua/barrel_ax_accuracy_international_508mm_762x51_pb.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2218,7 +2218,7 @@
             ]
         },
         {
-            "key": "Mods/Lapua/barrel_ax_accuracy_international_610mm_762x51_pb.bundle",
+            "key": "mods/lapua/barrel_ax_accuracy_international_610mm_762x51_pb.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2226,7 +2226,7 @@
             ]
         },
         {
-            "key": "Mods/Lapua/barrel_ax_accuracy_international_660mm_762x51_pb.bundle",
+            "key": "mods/lapua/barrel_ax_accuracy_international_660mm_762x51_pb.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2234,7 +2234,7 @@
             ]
         },
         {
-            "key": "Mods/Lapua/cadex_mx1.bundle",
+            "key": "mods/lapua/cadex_mx1.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2242,7 +2242,7 @@
             ]
         },
         {
-            "key": "Mods/Lapua/sfmb338.bundle",
+            "key": "mods/lapua/sfmb338.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2250,7 +2250,7 @@
             ]
         },
         {
-            "key": "Mods/M700/m700_16.bundle",
+            "key": "mods/m700/m700_16.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2258,7 +2258,7 @@
             ]
         },
         {
-            "key": "Mods/Magazines/pufgun_556_30rd_blk.bundle",
+            "key": "mods/magazines/pufgun_556_30rd_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2266,7 +2266,7 @@
             ]
         },
         {
-            "key": "Mods/Magazines/ar15_straight_mag_20.bundle",
+            "key": "mods/magazines/ar15_straight_mag_20.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2274,7 +2274,7 @@
             ]
         },
         {
-            "key": "Mods/Magazines/x_15_ar15_50rd_drum.bundle",
+            "key": "mods/magazines/x_15_ar15_50rd_drum.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2282,7 +2282,7 @@
             ]
         },
         {
-            "key": "Mods/Magazines/pufgun_556_30rd_fde.bundle",
+            "key": "mods/magazines/pufgun_556_30rd_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2290,7 +2290,7 @@
             ]
         },
         {
-            "key": "Mods/Magazines/magpul_emag_30.bundle",
+            "key": "mods/magazines/magpul_emag_30.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2298,7 +2298,7 @@
             ]
         },
         {
-            "key": "Mods/Magnifiers/exps3_high_mag_combo.bundle",
+            "key": "mods/magnifiers/exps3_high_mag_combo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2309,7 +2309,7 @@
             ]
         },
         {
-            "key": "Mods/Magnifiers/exps3_low_mag_combo.bundle",
+            "key": "mods/magnifiers/exps3_low_mag_combo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2320,7 +2320,7 @@
             ]
         },
         {
-            "key": "Mods/Magnifiers/uh1_low_mag_combo.bundle",
+            "key": "mods/magnifiers/uh1_low_mag_combo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2331,7 +2331,7 @@
             ]
         },
         {
-            "key": "Mods/Magnifiers/uh1_high_mag_combo.bundle",
+            "key": "mods/magnifiers/uh1_high_mag_combo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2342,7 +2342,7 @@
             ]
         },
         {
-            "key": "Mods/Magnifiers/leupold_lco_low_mag_combo.bundle",
+            "key": "mods/magnifiers/leupold_lco_low_mag_combo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2353,7 +2353,7 @@
             ]
         },
         {
-            "key": "Mods/Magnifiers/leupold_lco_high_mag_combo.bundle",
+            "key": "mods/magnifiers/leupold_lco_high_mag_combo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2364,7 +2364,7 @@
             ]
         },
         {
-            "key": "Mods/Magnifiers/romeo8t_high_mag_combo.bundle",
+            "key": "mods/magnifiers/romeo8t_high_mag_combo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2375,7 +2375,7 @@
             ]
         },
         {
-            "key": "Mods/Magnifiers/romeo8t_low_mag_combo.bundle",
+            "key": "mods/magnifiers/romeo8t_low_mag_combo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2386,7 +2386,7 @@
             ]
         },
         {
-            "key": "Mods/Magnifiers/t1_high_mag_combo.bundle",
+            "key": "mods/magnifiers/t1_high_mag_combo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2397,7 +2397,7 @@
             ]
         },
         {
-            "key": "Mods/MCX/mcx_droop_stock.bundle",
+            "key": "mods/mcx/mcx_droop_stock.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2405,7 +2405,7 @@
             ]
         },
         {
-            "key": "Mods/MCX/rattler_300_3pr.bundle",
+            "key": "mods/mcx/rattler_300_3pr.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2413,7 +2413,7 @@
             ]
         },
         {
-            "key": "Mods/MCX/rattler_556_3pr.bundle",
+            "key": "mods/mcx/rattler_556_3pr.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2421,7 +2421,7 @@
             ]
         },
         {
-            "key": "Mods/MCX/rattler_5_5.bundle",
+            "key": "mods/mcx/rattler_5_5.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2429,7 +2429,7 @@
             ]
         },
         {
-            "key": "Mods/MCX/rattler_base_hg.bundle",
+            "key": "mods/mcx/rattler_base_hg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2437,7 +2437,7 @@
             ]
         },
         {
-            "key": "Mods/MCX/rattler_base_hg_fde.bundle",
+            "key": "mods/mcx/rattler_base_hg_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2445,7 +2445,7 @@
             ]
         },
         {
-            "key": "Mods/MCX/rattler_canebrake.bundle",
+            "key": "mods/mcx/rattler_canebrake.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2453,7 +2453,7 @@
             ]
         },
         {
-            "key": "Mods/MCX/rattler_gb.bundle",
+            "key": "mods/mcx/rattler_gb.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2461,7 +2461,7 @@
             ]
         },
         {
-            "key": "Mods/MCX/rattler_pg.bundle",
+            "key": "mods/mcx/rattler_pg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2469,7 +2469,7 @@
             ]
         },
         {
-            "key": "Mods/MCX/rattler_pg_tan.bundle",
+            "key": "mods/mcx/rattler_pg_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2477,7 +2477,7 @@
             ]
         },
         {
-            "key": "Mods/MCX/rattler_rec_blk.bundle",
+            "key": "mods/mcx/rattler_rec_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2485,7 +2485,7 @@
             ]
         },
         {
-            "key": "Mods/MCX/rattler_rec_fde.bundle",
+            "key": "mods/mcx/rattler_rec_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2493,7 +2493,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/spectre_1_5_6_killflash.bundle",
+            "key": "mods/mounts/spectre_1_5_6_killflash.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2501,7 +2501,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/spectre_1_5_6_rmr_mount.bundle",
+            "key": "mods/mounts/spectre_1_5_6_rmr_mount.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2509,7 +2509,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/hogue_3_hole_rail.bundle",
+            "key": "mods/mounts/hogue_3_hole_rail.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2517,7 +2517,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/carry_handle_gooseneck.bundle",
+            "key": "mods/mounts/carry_handle_gooseneck.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2525,7 +2525,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/carry_handle_pic_mount.bundle",
+            "key": "mods/mounts/carry_handle_pic_mount.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2533,7 +2533,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/ta31_ard.bundle",
+            "key": "mods/mounts/ta31_ard.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2541,7 +2541,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/ta31_rmr_mount.bundle",
+            "key": "mods/mounts/ta31_rmr_mount.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2549,7 +2549,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/34mm_rof_45_blk.bundle",
+            "key": "mods/mounts/34mm_rof_45_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2557,7 +2557,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/34mm_rof_45_ddc.bundle",
+            "key": "mods/mounts/34mm_rof_45_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2565,7 +2565,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/34mm_rof_90_blk.bundle",
+            "key": "mods/mounts/34mm_rof_90_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2573,7 +2573,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/34mm_rof_90_ddc.bundle",
+            "key": "mods/mounts/34mm_rof_90_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2581,7 +2581,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/acro_pic_mount_short.bundle",
+            "key": "mods/mounts/acro_pic_mount_short.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2589,7 +2589,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/g$_34mm_cap_blk.bundle",
+            "key": "mods/mounts/g$_34mm_cap_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2597,7 +2597,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/g$_34mm_cap_ddc.bundle",
+            "key": "mods/mounts/g$_34mm_cap_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2605,7 +2605,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/g$_sp34mm_blk.bundle",
+            "key": "mods/mounts/g$_sp34mm_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2613,7 +2613,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/g$_sp34mm_ddc.bundle",
+            "key": "mods/mounts/g$_sp34mm_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2621,7 +2621,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/geissele_sp_cw_t1_blk.bundle",
+            "key": "mods/mounts/geissele_sp_cw_t1_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2629,7 +2629,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/geissele_sp_cw_t1_fde.bundle",
+            "key": "mods/mounts/geissele_sp_cw_t1_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2637,7 +2637,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/geissele_sp_l1_3_t1_blk.bundle",
+            "key": "mods/mounts/geissele_sp_l1_3_t1_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2645,7 +2645,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/geissele_sp_l1_3_t1_fde.bundle",
+            "key": "mods/mounts/geissele_sp_l1_3_t1_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2653,7 +2653,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/hydra-mid-blk.bundle",
+            "key": "mods/mounts/hydra-mid-blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2661,7 +2661,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/hydra-mid-fde.bundle",
+            "key": "mods/mounts/hydra-mid-fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2669,7 +2669,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/kac_high_forward.bundle",
+            "key": "mods/mounts/kac_high_forward.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2677,7 +2677,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/kac_high_reverse.bundle",
+            "key": "mods/mounts/kac_high_reverse.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2685,7 +2685,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/micro_offset.bundle",
+            "key": "mods/mounts/micro_offset.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2693,7 +2693,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/mro_short.bundle",
+            "key": "mods/mounts/mro_short.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2701,7 +2701,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/mro_tall.bundle",
+            "key": "mods/mounts/mro_tall.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2709,7 +2709,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/reptilia_34mm_acro_blk.bundle",
+            "key": "mods/mounts/reptilia_34mm_acro_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2717,7 +2717,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/reptilia_34mm_acro_fde.bundle",
+            "key": "mods/mounts/reptilia_34mm_acro_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2725,7 +2725,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/reptilia_34mm_mount_blk.bundle",
+            "key": "mods/mounts/reptilia_34mm_mount_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2733,7 +2733,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/reptilia_34mm_mount_fde.bundle",
+            "key": "mods/mounts/reptilia_34mm_mount_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2741,7 +2741,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/reptilia_34mm_rmr_blk.bundle",
+            "key": "mods/mounts/reptilia_34mm_rmr_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2749,7 +2749,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/reptilia_34mm_rmr_fde.bundle",
+            "key": "mods/mounts/reptilia_34mm_rmr_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2757,7 +2757,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/reptilia_ring_blk.bundle",
+            "key": "mods/mounts/reptilia_ring_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2765,7 +2765,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/reptilia_ring_fde.bundle",
+            "key": "mods/mounts/reptilia_ring_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2773,7 +2773,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/rof2_5mm_spacer_blk.bundle",
+            "key": "mods/mounts/rof2_5mm_spacer_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2781,7 +2781,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/rof2_5mm_spacer_ddc.bundle",
+            "key": "mods/mounts/rof2_5mm_spacer_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2789,7 +2789,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/rof_10mm_spacer_blk.bundle",
+            "key": "mods/mounts/rof_10mm_spacer_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2797,7 +2797,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/rof_10mm_spacer_ddc.bundle",
+            "key": "mods/mounts/rof_10mm_spacer_ddc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2805,7 +2805,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/ta44_mount.bundle",
+            "key": "mods/mounts/ta44_mount.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2813,7 +2813,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/unity_micro_226_blk.bundle",
+            "key": "mods/mounts/unity_micro_226_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2821,7 +2821,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/unity_ftc_riser_blk.bundle",
+            "key": "mods/mounts/unity_ftc_riser_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2829,7 +2829,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/unity_ftc_riser_fde.bundle",
+            "key": "mods/mounts/unity_ftc_riser_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2837,7 +2837,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/unity_micro_226_fde.bundle",
+            "key": "mods/mounts/unity_micro_226_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2845,7 +2845,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/unity_scope_high.bundle",
+            "key": "mods/mounts/unity_scope_high.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2853,7 +2853,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/unity_comp_blk.bundle",
+            "key": "mods/mounts/unity_comp_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2861,7 +2861,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/unity_comp_brn.bundle",
+            "key": "mods/mounts/unity_comp_brn.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2869,7 +2869,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/unity_comp_grn.bundle",
+            "key": "mods/mounts/unity_comp_grn.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2877,7 +2877,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/unity_comp_tan.bundle",
+            "key": "mods/mounts/unity_comp_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2885,7 +2885,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/unity_comp_wht.bundle",
+            "key": "mods/mounts/unity_comp_wht.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2893,7 +2893,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/rep_acro_193_blk.bundle",
+            "key": "mods/mounts/rep_acro_193_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2901,7 +2901,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/rep_acro_193_fde.bundle",
+            "key": "mods/mounts/rep_acro_193_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2909,7 +2909,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/rep_acro_cowitness_blk.bundle",
+            "key": "mods/mounts/rep_acro_cowitness_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2917,7 +2917,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/rep_acro_cowitness_fde.bundle",
+            "key": "mods/mounts/rep_acro_cowitness_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2925,7 +2925,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/rep_acro_offset_blk.bundle",
+            "key": "mods/mounts/rep_acro_offset_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2933,7 +2933,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/rep_acro_offset_fde.bundle",
+            "key": "mods/mounts/rep_acro_offset_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2941,7 +2941,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/dbal_i2_rmr.bundle",
+            "key": "mods/mounts/dbal_i2_rmr.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2949,7 +2949,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/dbal_i2_leaf.bundle",
+            "key": "mods/mounts/dbal_i2_leaf.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2957,7 +2957,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/dbal_i2_docter.bundle",
+            "key": "mods/mounts/dbal_i2_docter.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2965,7 +2965,7 @@
             ]
         },
         {
-            "key": "Mods/Mounts/dbal_i2_acro.bundle",
+            "key": "mods/mounts/dbal_i2_acro.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2973,7 +2973,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/acog_ta44.bundle",
+            "key": "mods/scopes/acog_ta44.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2984,7 +2984,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_black_amber_300.bundle",
+            "key": "mods/scopes/ta31_black_amber_300.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -2995,7 +2995,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_black_amber_horseshoe.bundle",
+            "key": "mods/scopes/ta31_black_amber_horseshoe.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3006,7 +3006,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_black_green_300.bundle",
+            "key": "mods/scopes/ta31_black_green_300.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3017,7 +3017,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_black_green_chev.bundle",
+            "key": "mods/scopes/ta31_black_green_chev.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3028,7 +3028,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_black_green_cross.bundle",
+            "key": "mods/scopes/ta31_black_green_cross.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3039,7 +3039,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_black_green_horseshoe.bundle",
+            "key": "mods/scopes/ta31_black_green_horseshoe.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3050,7 +3050,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_black_red_300.bundle",
+            "key": "mods/scopes/ta31_black_red_300.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3061,7 +3061,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_black_red_chev.bundle",
+            "key": "mods/scopes/ta31_black_red_chev.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3072,7 +3072,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_black_red_crosshair.bundle",
+            "key": "mods/scopes/ta31_black_red_crosshair.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3083,7 +3083,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_black_red_horseshoe.bundle",
+            "key": "mods/scopes/ta31_black_red_horseshoe.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3094,7 +3094,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_tan_amber_300.bundle",
+            "key": "mods/scopes/ta31_tan_amber_300.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3105,7 +3105,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_tan_amber_horseshoe.bundle",
+            "key": "mods/scopes/ta31_tan_amber_horseshoe.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3116,7 +3116,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_tan_green_300.bundle",
+            "key": "mods/scopes/ta31_tan_green_300.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3127,7 +3127,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_tan_green_chev.bundle",
+            "key": "mods/scopes/ta31_tan_green_chev.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3138,7 +3138,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_tan_green_cross.bundle",
+            "key": "mods/scopes/ta31_tan_green_cross.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3149,7 +3149,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_tan_green_horseshoe.bundle",
+            "key": "mods/scopes/ta31_tan_green_horseshoe.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3160,7 +3160,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_tan_red_300.bundle",
+            "key": "mods/scopes/ta31_tan_red_300.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3171,7 +3171,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_tan_red_chev.bundle",
+            "key": "mods/scopes/ta31_tan_red_chev.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3182,7 +3182,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_tan_red_cross.bundle",
+            "key": "mods/scopes/ta31_tan_red_cross.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3193,7 +3193,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/ta31_tan_red_horseshoe.bundle",
+            "key": "mods/scopes/ta31_tan_red_horseshoe.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3204,7 +3204,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/mgo_common_assets.bundle",
+            "key": "mods/scopes/mgo_common_assets.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3215,7 +3215,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/burris_rt6_scope.bundle",
+            "key": "mods/scopes/burris_rt6_scope.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3226,7 +3226,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/nightforce_nxs_3_5_25.bundle",
+            "key": "mods/scopes/nightforce_nxs_3_5_25.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3237,7 +3237,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/vortex_spitfire_5x.bundle",
+            "key": "mods/scopes/vortex_spitfire_5x.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3248,7 +3248,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/elcan_1_5-6.bundle",
+            "key": "mods/scopes/elcan_1_5-6.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3259,7 +3259,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/lepold_d_evo.bundle",
+            "key": "mods/scopes/lepold_d_evo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3270,7 +3270,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/leupold_d_evo_fde.bundle",
+            "key": "mods/scopes/leupold_d_evo_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3281,7 +3281,7 @@
             ]
         },
         {
-            "key": "Mods/Scopes/mgo_240_hs.bundle",
+            "key": "mods/scopes/mgo_240_hs.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3289,11 +3289,11 @@
                 "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
                 "assets/content/textures/holemanager/round_spec_mask.bundle",
                 "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-                "Mods/Scopes/mgo_common_assets.bundle"
+                "mods/scopes/mgo_common_assets.bundle"
             ]
         },
         {
-            "key": "Mods/Scopes/mgo_308_ch.bundle",
+            "key": "mods/scopes/mgo_308_ch.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3301,11 +3301,11 @@
                 "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
                 "assets/content/textures/holemanager/round_spec_mask.bundle",
                 "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-                "Mods/Scopes/mgo_common_assets.bundle"
+                "mods/scopes/mgo_common_assets.bundle"
             ]
         },
         {
-            "key": "Mods/Scopes/mgo_308_hs.bundle",
+            "key": "mods/scopes/mgo_308_hs.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3313,11 +3313,11 @@
                 "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
                 "assets/content/textures/holemanager/round_spec_mask.bundle",
                 "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-                "Mods/Scopes/mgo_common_assets.bundle"
+                "mods/scopes/mgo_common_assets.bundle"
             ]
         },
         {
-            "key": "Mods/Scopes/mgo_50_ch.bundle",
+            "key": "mods/scopes/mgo_50_ch.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3325,11 +3325,11 @@
                 "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
                 "assets/content/textures/holemanager/round_spec_mask.bundle",
                 "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-                "Mods/Scopes/mgo_common_assets.bundle"
+                "mods/scopes/mgo_common_assets.bundle"
             ]
         },
         {
-            "key": "Mods/Scopes/mgo_50_hs.bundle",
+            "key": "mods/scopes/mgo_50_hs.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3337,11 +3337,11 @@
                 "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
                 "assets/content/textures/holemanager/round_spec_mask.bundle",
                 "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-                "Mods/Scopes/mgo_common_assets.bundle"
+                "mods/scopes/mgo_common_assets.bundle"
             ]
         },
         {
-            "key": "Mods/Scopes/mgo_556_ch.bundle",
+            "key": "mods/scopes/mgo_556_ch.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3349,11 +3349,11 @@
                 "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
                 "assets/content/textures/holemanager/round_spec_mask.bundle",
                 "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-                "Mods/Scopes/mgo_common_assets.bundle"
+                "mods/scopes/mgo_common_assets.bundle"
             ]
         },
         {
-            "key": "Mods/Scopes/vortex_golden_eagle.bundle",
+            "key": "mods/scopes/vortex_golden_eagle.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3364,7 +3364,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/magpul_dt_carbine_stock_grn.bundle",
+            "key": "mods/stocks/magpul_dt_carbine_stock_grn.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3372,7 +3372,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/magpul_dt_carbine_stock_blk.bundle",
+            "key": "mods/stocks/magpul_dt_carbine_stock_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3380,7 +3380,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/magpul_dt_carbine_stock_tan.bundle",
+            "key": "mods/stocks/magpul_dt_carbine_stock_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3388,7 +3388,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/mft_minimalist_fde.bundle",
+            "key": "mods/stocks/mft_minimalist_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3396,7 +3396,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/maxim_cqb_buttpad_blk.bundle",
+            "key": "mods/stocks/maxim_cqb_buttpad_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3404,7 +3404,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/maxim_cqb_buttpad_fde.bundle",
+            "key": "mods/stocks/maxim_cqb_buttpad_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3412,7 +3412,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/maxim_cqb_gen7_stock_blk.bundle",
+            "key": "mods/stocks/maxim_cqb_gen7_stock_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3420,7 +3420,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/maxim_cqb_gen7_stock_fde.bundle",
+            "key": "mods/stocks/maxim_cqb_gen7_stock_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3428,7 +3428,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/mft_minimalist_blk.bundle",
+            "key": "mods/stocks/mft_minimalist_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3436,7 +3436,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/b5_bravo_blk.bundle",
+            "key": "mods/stocks/b5_bravo_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3444,7 +3444,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/b5_bravo_cb.bundle",
+            "key": "mods/stocks/b5_bravo_cb.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3452,7 +3452,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/b5_bravo_fde.bundle",
+            "key": "mods/stocks/b5_bravo_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3460,7 +3460,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/b5_bravo_grey.bundle",
+            "key": "mods/stocks/b5_bravo_grey.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3468,7 +3468,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/b5_bravo_odg.bundle",
+            "key": "mods/stocks/b5_bravo_odg.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3476,7 +3476,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/prs_lite_blk.bundle",
+            "key": "mods/stocks/b5_bravo_wood.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3484,7 +3484,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/prs_lite_fde.bundle",
+            "key": "mods/stocks/b5_bravo_tiger.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3492,7 +3492,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/stock_car15.bundle",
+            "key": "mods/stocks/b5_bravo_mcb.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3500,7 +3500,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/stock_m16a1.bundle",
+            "key": "mods/stocks/b5_bravo_mc.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3508,7 +3508,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/stock_m16a2.bundle",
+            "key": "mods/stocks/prs_lite_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3516,7 +3516,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/stock_m16a2_fde.bundle",
+            "key": "mods/stocks/prs_lite_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3524,7 +3524,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/stock_midwestindustriesfixed.bundle",
+            "key": "mods/stocks/stock_car15.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3532,7 +3532,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/magpul_dt_pr_blk.bundle",
+            "key": "mods/stocks/stock_m16a1.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3540,7 +3540,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/str_stock_blk.bundle",
+            "key": "mods/stocks/stock_m16a2.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3548,7 +3548,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/str_stock_fde.bundle",
+            "key": "mods/stocks/stock_m16a2_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3556,7 +3556,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/magpul_dt_pr_fde.bundle",
+            "key": "mods/stocks/stock_midwestindustriesfixed.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3564,7 +3564,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/hogue_stock_black.bundle",
+            "key": "mods/stocks/magpul_dt_pr_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3572,7 +3572,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/hogue_stock_blue.bundle",
+            "key": "mods/stocks/str_stock_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3580,7 +3580,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/hogue_stock_green.bundle",
+            "key": "mods/stocks/str_stock_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3588,7 +3588,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/hogue_stock_grey.bundle",
+            "key": "mods/stocks/magpul_dt_pr_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3596,7 +3596,7 @@
             ]
         },
         {
-            "key": "Mods/Stocks/hogue_stock_pink.bundle",
+            "key": "mods/stocks/hogue_stock_black.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3604,7 +3604,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/aac-m4-2000blk.bundle",
+            "key": "mods/stocks/hogue_stock_blue.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3612,7 +3612,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/aac-m4-2000tan.bundle",
+            "key": "mods/stocks/hogue_stock_green.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3620,7 +3620,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/allen_m4_suppressor.bundle",
+            "key": "mods/stocks/hogue_stock_grey.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3628,7 +3628,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/kac_uspt_suppressor.bundle",
+            "key": "mods/stocks/hogue_stock_pink.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3636,7 +3636,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/b&t_rbs_c_762_sf.bundle",
+            "key": "mods/suppressors/aac-m4-2000blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3644,7 +3644,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/dd_sguard_556.bundle",
+            "key": "mods/suppressors/aac-m4-2000tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3652,7 +3652,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/dd_sguard_762.bundle",
+            "key": "mods/suppressors/allen_m4_suppressor.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3660,7 +3660,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/gemtech_neutron_762.bundle",
+            "key": "mods/suppressors/kac_uspt_suppressor.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3668,7 +3668,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/huxwrks_flow_556k_blk.bundle",
+            "key": "mods/suppressors/b&t_rbs_c_762_sf.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3676,7 +3676,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/huxwrks_flow_556k_tan.bundle",
+            "key": "mods/suppressors/dd_sguard_556.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3684,7 +3684,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/mcq_cover_blk.bundle",
+            "key": "mods/suppressors/dd_sguard_762.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3692,7 +3692,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/mcq_cover_fde.bundle",
+            "key": "mods/suppressors/gemtech_neutron_762.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3700,7 +3700,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/prt_cover_blk.bundle",
+            "key": "mods/suppressors/huxwrks_flow_556k_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3708,7 +3708,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/prt_cover_fde.bundle",
+            "key": "mods/suppressors/huxwrks_flow_556k_tan.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3716,7 +3716,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/prt_mcq_blk.bundle",
+            "key": "mods/suppressors/mcq_cover_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3724,7 +3724,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/prt_mcq_fde.bundle",
+            "key": "mods/suppressors/mcq_cover_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3732,7 +3732,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/prt_supp_blk.bundle",
+            "key": "mods/suppressors/prt_cover_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3740,7 +3740,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/prt_supp_fde.bundle",
+            "key": "mods/suppressors/prt_cover_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3748,7 +3748,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/putnik_blk.bundle",
+            "key": "mods/suppressors/prt_mcq_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3756,7 +3756,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/putnik_fde.bundle",
+            "key": "mods/suppressors/prt_mcq_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3764,7 +3764,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/putnik_oreo.bundle",
+            "key": "mods/suppressors/prt_supp_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3772,7 +3772,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/putnik_no_logo.bundle",
+            "key": "mods/suppressors/prt_supp_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3780,7 +3780,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/rotex-v_blk.bundle",
+            "key": "mods/suppressors/putnik_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3788,7 +3788,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/rotex-v_fde.bundle",
+            "key": "mods/suppressors/putnik_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3796,7 +3796,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/rotex-v_gry.bundle",
+            "key": "mods/suppressors/putnik_oreo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3804,7 +3804,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/rotex_c_blk.bundle",
+            "key": "mods/suppressors/putnik_no_logo.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3812,7 +3812,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/rotex_c_fde.bundle",
+            "key": "mods/suppressors/rotex-v_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3820,7 +3820,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/rotex_c_gry.bundle",
+            "key": "mods/suppressors/rotex-v_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3828,7 +3828,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/socom338ti.bundle",
+            "key": "mods/suppressors/rotex-v_gry.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3836,7 +3836,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/surefire_556mini2blk.bundle",
+            "key": "mods/suppressors/rotex_c_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3844,7 +3844,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/surefire_556mini2fde.bundle",
+            "key": "mods/suppressors/rotex_c_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3852,7 +3852,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/surefire_762mini2blk.bundle",
+            "key": "mods/suppressors/rotex_c_gry.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3860,7 +3860,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/surefire_762mini2fde.bundle",
+            "key": "mods/suppressors/socom338ti.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3868,7 +3868,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/surefire_762rc2blk.bundle",
+            "key": "mods/suppressors/surefire_556mini2blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3876,7 +3876,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/surefire_762rc2fde.bundle",
+            "key": "mods/suppressors/surefire_556mini2fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3884,7 +3884,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/surefire_762ti2blk.bundle",
+            "key": "mods/suppressors/surefire_762mini2blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3892,7 +3892,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/surefire_762ti2fde.bundle",
+            "key": "mods/suppressors/surefire_762mini2fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3900,7 +3900,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/surefire_rc2_556_blk.bundle",
+            "key": "mods/suppressors/surefire_762rc2blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3908,7 +3908,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/surefire_rc3_blk.bundle",
+            "key": "mods/suppressors/surefire_762rc2fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3916,7 +3916,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/surefire_rc3_fde.bundle",
+            "key": "mods/suppressors/surefire_762ti2blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3924,7 +3924,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/twi_supp.bundle",
+            "key": "mods/suppressors/surefire_762ti2fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3932,7 +3932,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/twi_supp_thin.bundle",
+            "key": "mods/suppressors/surefire_rc2_556_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3940,7 +3940,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/polo_556_blk.bundle",
+            "key": "mods/suppressors/surefire_rc3_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3948,7 +3948,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/polo_556_fde.bundle",
+            "key": "mods/suppressors/surefire_rc3_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3956,7 +3956,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/polo_556_worn.bundle",
+            "key": "mods/suppressors/twi_supp.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3964,7 +3964,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/polo_556k_blk.bundle",
+            "key": "mods/suppressors/twi_supp_thin.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3972,7 +3972,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/polo_556k_fde.bundle",
+            "key": "mods/suppressors/polo_556_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3980,7 +3980,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/polo_556k_worn.bundle",
+            "key": "mods/suppressors/polo_556_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3988,7 +3988,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/polo_762_blk.bundle",
+            "key": "mods/suppressors/polo_556_worn.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3996,7 +3996,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/polo_762_fde.bundle",
+            "key": "mods/suppressors/polo_556k_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -4004,7 +4004,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/polo_762_worn.bundle",
+            "key": "mods/suppressors/polo_556k_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -4012,7 +4012,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/cgs_sci_supp_blk.bundle",
+            "key": "mods/suppressors/polo_556k_worn.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -4020,7 +4020,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/cgs_sci_supp_fde.bundle",
+            "key": "mods/suppressors/polo_762_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -4028,7 +4028,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/cgs_sci_supp_gry.bundle",
+            "key": "mods/suppressors/polo_762_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -4036,7 +4036,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/deadair_wolverine_14mm.bundle",
+            "key": "mods/suppressors/polo_762_worn.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -4044,7 +4044,7 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/deadair_wolverine_keymount.bundle",
+            "key": "mods/suppressors/cgs_sci_supp_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -4052,7 +4052,39 @@
             ]
         },
         {
-            "key": "Mods/Suppressors/aem5_suppressor.bundle",
+            "key": "mods/suppressors/cgs_sci_supp_fde.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "mods/suppressors/cgs_sci_supp_gry.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "mods/suppressors/deadair_wolverine_14mm.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "mods/suppressors/deadair_wolverine_keymount.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "mods/suppressors/aem5_suppressor.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",

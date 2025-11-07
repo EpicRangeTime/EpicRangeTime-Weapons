@@ -5,7 +5,7 @@
     "handbookParentId": "5b5f764186f77447ec5d7714",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Glock_Parts/receiver_glock_triarc_mos.bundle",
+        "path": "mods/glock_parts/receiver_glock_triarc_mos.bundle",
         "rcid": ""
       },
       "Ergonomics": 8,
@@ -197,7 +197,7 @@
     "handbookParentId": "5b5f75c686f774094242f19f",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Glock_Parts/barrel_triarc_g19_threaded.bundle",
+        "path": "mods/glock_parts/barrel_triarc_g19_threaded.bundle",
         "rcid": ""
       },
       "Ergonomics": -2,
@@ -333,7 +333,7 @@
     "handbookParentId": "5b5f75c686f774094242f19f",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Glock_Parts/barrel_triarc_g19.bundle",
+        "path": "mods/glock_parts/barrel_triarc_g19.bundle",
         "rcid": ""
       },
       "Ergonomics": -2,
@@ -437,7 +437,7 @@
     "handbookParentId": "5b5f746686f77447ec5d7708",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Glock_Parts/sight_front_glock_supp_height_triarc.bundle",
+        "path": "mods/glock_parts/sight_front_glock_supp_height_triarc.bundle",
         "rcid": ""
       }
     },
@@ -539,7 +539,7 @@
     "handbookParentId": "5b5f746686f77447ec5d7708",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Glock_Parts/sight_front_glock_triarc.bundle",
+        "path": "mods/glock_parts/sight_front_glock_triarc.bundle",
         "rcid": ""
       }
     },
@@ -641,7 +641,7 @@
     "handbookParentId": "5b5f746686f77447ec5d7708",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Glock_Parts/sight_rear_glock_suppressor_height_triarc.bundle",
+        "path": "mods/glock_parts/sight_rear_glock_suppressor_height_triarc.bundle",
         "rcid": ""
       }
     },
@@ -743,7 +743,7 @@
     "handbookParentId": "5b5f746686f77447ec5d7708",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Glock_Parts/sight_rear_glock_triarc.bundle",
+        "path": "mods/glock_parts/sight_rear_glock_triarc.bundle",
         "rcid": ""
       }
     },
@@ -845,7 +845,7 @@
     "handbookParentId": "5b5f72f786f77447ec5d7702",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Glock_Parts/thread_prot_triarc.bundle",
+        "path": "mods/glock_parts/thread_prot_triarc.bundle",
         "rcid": ""
       }
     },
@@ -947,7 +947,7 @@
     "handbookParentId": "5b5f74cc86f77447ec5d770a",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Glock_Parts/zev_optic_plate.bundle",
+        "path": "mods/glock_parts/zev_optic_plate.bundle",
         "rcid": ""
       }
     },

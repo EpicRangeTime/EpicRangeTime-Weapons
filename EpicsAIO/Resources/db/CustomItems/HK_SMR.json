@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/HK/hk_smr_14_5_blk.bundle",
+        "path": "mods/hk/hk_smr_14_5_blk.bundle",
         "rcid": ""
       },
       "Ergonomics": 12,
@@ -88,7 +88,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/HK/hk_smr_14_5_ddc.bundle",
+        "path": "mods/hk/hk_smr_14_5_ddc.bundle",
         "rcid": ""
       },
       "Ergonomics": 12,
@@ -170,7 +170,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/HK/hk_smr_10_5_blk.bundle",
+        "path": "mods/hk/hk_smr_10_5_blk.bundle",
         "rcid": ""
       },
       "Recoil": 0,
@@ -251,7 +251,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/HK/hk_smr_10_5_ddc.bundle",
+        "path": "mods/hk/hk_smr_10_5_ddc.bundle",
         "rcid": ""
       },
       "Recoil": 0,

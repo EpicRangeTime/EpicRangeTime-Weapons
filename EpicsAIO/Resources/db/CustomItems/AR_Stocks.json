@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/b5_bravo_blk.bundle",
+        "path": "mods/stocks/b5_bravo_blk.bundle",
         "rcid": ""
       },
       "Ergonomics": 9,
@@ -95,7 +95,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/b5_bravo_cb.bundle",
+        "path": "mods/stocks/b5_bravo_cb.bundle",
         "rcid": ""
       },
       "Ergonomics": 9,
@@ -184,7 +184,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/b5_bravo_fde.bundle",
+        "path": "mods/stocks/b5_bravo_fde.bundle",
         "rcid": ""
       },
       "Ergonomics": 9,
@@ -273,7 +273,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/b5_bravo_grey.bundle",
+        "path": "mods/stocks/b5_bravo_grey.bundle",
         "rcid": ""
       },
       "Ergonomics": 9,
@@ -362,7 +362,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/b5_bravo_odg.bundle",
+        "path": "mods/stocks/b5_bravo_odg.bundle",
         "rcid": ""
       },
       "Ergonomics": 9,
@@ -444,6 +444,294 @@
       }
     ]
   },
+  "690da468f4f15d2850000001": {
+    "itemTplToClone": "5ae30c9a5acfc408fb139a03",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/stocks/b5_bravo_wood.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 9,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 B5 Systems Bravo stock (Woodland)",
+        "shortName": "Bravo",
+        "description": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 8250,
+    "handbookPriceRoubles": 4699,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "690da468f4f15d2850000002": {
+    "itemTplToClone": "5ae30c9a5acfc408fb139a03",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/stocks/b5_bravo_tiger.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 9,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 B5 Systems Bravo stock (Tiger Stripe)",
+        "shortName": "Bravo",
+        "description": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 8250,
+    "handbookPriceRoubles": 4699,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "690da468f4f15d2850000003": {
+    "itemTplToClone": "5ae30c9a5acfc408fb139a03",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/stocks/b5_bravo_mcb.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 9,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 B5 Systems Bravo stock (Multicam Black)",
+        "shortName": "Bravo",
+        "description": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 8250,
+    "handbookPriceRoubles": 4699,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "690da468f4f15d2850000004": {
+    "itemTplToClone": "5ae30c9a5acfc408fb139a03",
+    "parentId": "STOCK",
+    "handbookParentId": "MOD_STOCK",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/stocks/b5_bravo_mc.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 9,
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 B5 Systems Bravo stock (Multicam)",
+        "shortName": "Bravo",
+        "description": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000",
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 8250,
+    "handbookPriceRoubles": 4699,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2600
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
   "2a6882a9265b63e56b00f0e8": {
     "itemTplToClone": "5ae30c9a5acfc408fb139a03",
     "parentId": "STOCK",
@@ -451,7 +739,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/prs_lite_blk.bundle",
+        "path": "mods/stocks/prs_lite_blk.bundle",
         "rcid": ""
       },
       "Ergonomics": 7,
@@ -542,7 +830,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/prs_lite_fde.bundle",
+        "path": "mods/stocks/prs_lite_fde.bundle",
         "rcid": ""
       },
       "Ergonomics": 7,
@@ -633,7 +921,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/stock_m16a1.bundle",
+        "path": "mods/stocks/stock_m16a1.bundle",
         "rcid": ""
       },
       "Ergonomics": 4,
@@ -724,7 +1012,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/stock_m16a2.bundle",
+        "path": "mods/stocks/stock_m16a2.bundle",
         "rcid": ""
       },
       "Ergonomics": 5,
@@ -848,7 +1136,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/stock_m16a2_fde.bundle",
+        "path": "mods/stocks/stock_m16a2_fde.bundle",
         "rcid": ""
       },
       "Ergonomics": 5,
@@ -972,7 +1260,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/stock_car15.bundle",
+        "path": "mods/stocks/stock_car15.bundle",
         "rcid": ""
       },
       "Weight": 0.121,
@@ -1061,7 +1349,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/stock_midwestindustriesfixed.bundle",
+        "path": "mods/stocks/stock_midwestindustriesfixed.bundle",
         "rcid": ""
       },
       "Ergonomics": 2,
@@ -1148,7 +1436,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/magpul_dt_pr_blk.bundle",
+        "path": "mods/stocks/magpul_dt_pr_blk.bundle",
         "rcid": ""
       },
       "Recoil": -21,
@@ -1239,7 +1527,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/magpul_dt_pr_fde.bundle",
+        "path": "mods/stocks/magpul_dt_pr_fde.bundle",
         "rcid": ""
       },
       "Recoil": -21,
@@ -1330,7 +1618,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/str_stock_blk.bundle",
+        "path": "mods/stocks/str_stock_blk.bundle",
         "rcid": ""
       },
       "Recoil": -22,
@@ -1421,7 +1709,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/str_stock_fde.bundle",
+        "path": "mods/stocks/str_stock_fde.bundle",
         "rcid": ""
       },
       "Recoil": -22,
@@ -1512,7 +1800,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/magpul_dt_carbine_stock_blk.bundle",
+        "path": "mods/stocks/magpul_dt_carbine_stock_blk.bundle",
         "rcid": ""
       },
       "Recoil": -21,
@@ -1596,7 +1884,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/magpul_dt_carbine_stock_tan.bundle",
+        "path": "mods/stocks/magpul_dt_carbine_stock_tan.bundle",
         "rcid": ""
       },
       "Recoil": -21,
@@ -1680,7 +1968,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/magpul_dt_carbine_stock_grn.bundle",
+        "path": "mods/stocks/magpul_dt_carbine_stock_grn.bundle",
         "rcid": ""
       },
       "Recoil": -21,
@@ -1764,7 +2052,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/mft_minimalist_blk.bundle",
+        "path": "mods/stocks/mft_minimalist_blk.bundle",
         "rcid": ""
       },
       "Recoil": -18.5,
@@ -1848,7 +2136,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/mft_minimalist_fde.bundle",
+        "path": "mods/stocks/mft_minimalist_fde.bundle",
         "rcid": ""
       },
       "Recoil": -18.5,
@@ -1932,7 +2220,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/maxim_cqb_gen7_stock_blk.bundle",
+        "path": "mods/stocks/maxim_cqb_gen7_stock_blk.bundle",
         "rcid": ""
       },
       "Recoil": -8,
@@ -2036,7 +2324,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/maxim_cqb_gen7_stock_fde.bundle",
+        "path": "mods/stocks/maxim_cqb_gen7_stock_fde.bundle",
         "rcid": ""
       },
       "Recoil": -8,
@@ -2140,7 +2428,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/maxim_cqb_buttpad_fde.bundle",
+        "path": "mods/stocks/maxim_cqb_buttpad_fde.bundle",
         "rcid": ""
       },
       "Recoil": -10,
@@ -2219,7 +2507,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/maxim_cqb_buttpad_blk.bundle",
+        "path": "mods/stocks/maxim_cqb_buttpad_blk.bundle",
         "rcid": ""
       },
       "Recoil": -10,
@@ -2298,7 +2586,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/hogue_stock_black.bundle",
+        "path": "mods/stocks/hogue_stock_black.bundle",
         "rcid": ""
       },
       "Recoil": -22,
@@ -2382,7 +2670,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/hogue_stock_blue.bundle",
+        "path": "mods/stocks/hogue_stock_blue.bundle",
         "rcid": ""
       },
       "Recoil": -22,
@@ -2466,7 +2754,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/hogue_stock_green.bundle",
+        "path": "mods/stocks/hogue_stock_green.bundle",
         "rcid": ""
       },
       "Recoil": -22,
@@ -2550,7 +2838,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/hogue_stock_grey.bundle",
+        "path": "mods/stocks/hogue_stock_grey.bundle",
         "rcid": ""
       },
       "Recoil": -22,
@@ -2634,7 +2922,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/Stocks/hogue_stock_pink.bundle",
+        "path": "mods/stocks/hogue_stock_pink.bundle",
         "rcid": ""
       },
       "Recoil": -22,

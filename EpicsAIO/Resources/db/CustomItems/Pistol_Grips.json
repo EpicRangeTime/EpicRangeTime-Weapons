@@ -5,7 +5,7 @@
     "handbookParentId": "MOD_PISTOLGRIP",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Pistol_Grips/b5_pgrip.bundle",
+        "path": "mods/pistol_grips/b5_pgrip.bundle",
         "rcid": ""
       },
       "Weight": 0.054,
@@ -101,7 +101,7 @@
     "handbookParentId": "MOD_PISTOLGRIP",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Pistol_Grips/hogue_ar_pg_black.bundle",
+        "path": "mods/pistol_grips/hogue_ar_pg_black.bundle",
         "rcid": ""
       },
       "Weight": 0.045,
@@ -197,7 +197,7 @@
     "handbookParentId": "MOD_PISTOLGRIP",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Pistol_Grips/hogue_ar_pg_blue.bundle",
+        "path": "mods/pistol_grips/hogue_ar_pg_blue.bundle",
         "rcid": ""
       },
       "Weight": 0.045,
@@ -293,7 +293,7 @@
     "handbookParentId": "MOD_PISTOLGRIP",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Pistol_Grips/hogue_ar_pg_fde.bundle",
+        "path": "mods/pistol_grips/hogue_ar_pg_fde.bundle",
         "rcid": ""
       },
       "Weight": 0.045,
@@ -389,7 +389,7 @@
     "handbookParentId": "MOD_PISTOLGRIP",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Pistol_Grips/hogue_ar_pg_green.bundle",
+        "path": "mods/pistol_grips/hogue_ar_pg_green.bundle",
         "rcid": ""
       },
       "Weight": 0.045,
@@ -485,7 +485,7 @@
     "handbookParentId": "MOD_PISTOLGRIP",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Pistol_Grips/hogue_ar_pg_grey.bundle",
+        "path": "mods/pistol_grips/hogue_ar_pg_grey.bundle",
         "rcid": ""
       },
       "Weight": 0.045,
@@ -581,7 +581,7 @@
     "handbookParentId": "MOD_PISTOLGRIP",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Pistol_Grips/hogue_ar_pg_pink.bundle",
+        "path": "mods/pistol_grips/hogue_ar_pg_pink.bundle",
         "rcid": ""
       },
       "Weight": 0.045,
@@ -677,7 +677,7 @@
     "handbookParentId": "5b5f761f86f774094242f1a1",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Pistol_Grips/dd_pistol_grip_black.bundle",
+        "path": "mods/pistol_grips/dd_pistol_grip_black.bundle",
         "rcid": ""
       },
       "Weight": 0.09,
@@ -773,7 +773,7 @@
     "handbookParentId": "5b5f761f86f774094242f1a1",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Pistol_Grips/dd_pistol_grip_gray.bundle",
+        "path": "mods/pistol_grips/dd_pistol_grip_gray.bundle",
         "rcid": ""
       },
       "Weight": 0.09,
@@ -869,7 +869,7 @@
     "handbookParentId": "5b5f761f86f774094242f1a1",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Pistol_Grips/dd_pistol_grip_tan.bundle",
+        "path": "mods/pistol_grips/dd_pistol_grip_tan.bundle",
         "rcid": ""
       },
       "Weight": 0.09,
@@ -965,7 +965,7 @@
     "handbookParentId": "5b5f761f86f774094242f1a1",
     "overrideProperties": {
       "Prefab": {
-        "path": "Mods/Pistol_Grips/dd_pistol_grip_brown.bundle",
+        "path": "mods/pistol_grips/dd_pistol_grip_brown.bundle",
         "rcid": ""
       },
       "Weight": 0.09,

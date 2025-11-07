@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/hogue_ak_pgrip_black.bundle",
+        "path": "mods/ak/hogue_ak_pgrip_black.bundle",
         "rcid": ""
       },
       "Ergonomics": 10
@@ -82,7 +82,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/hogue_ak_pgrip_green.bundle",
+        "path": "mods/ak/hogue_ak_pgrip_green.bundle",
         "rcid": ""
       },
       "Ergonomics": 10
@@ -158,7 +158,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/hogue_ak_pgrip_red.bundle",
+        "path": "mods/ak/hogue_ak_pgrip_red.bundle",
         "rcid": ""
       },
       "Ergonomics": 10
@@ -234,7 +234,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/hogue_ak_pgrip_spec_green.bundle",
+        "path": "mods/ak/hogue_ak_pgrip_spec_green.bundle",
         "rcid": ""
       },
       "Ergonomics": 10
@@ -310,7 +310,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AK/hogue_ak_pgrip_tan.bundle",
+        "path": "mods/ak/hogue_ak_pgrip_tan.bundle",
         "rcid": ""
       },
       "Ergonomics": 10

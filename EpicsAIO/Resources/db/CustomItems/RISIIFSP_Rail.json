@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/ris_ii_fsp.bundle",
+        "path": "mods/ar15_handguards/ris_ii_fsp.bundle",
         "rcid": ""
       },
       "ConflictingItems": [
@@ -319,7 +319,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/ris_ii_fspl.bundle",
+        "path": "mods/ar15_handguards/ris_ii_fspl.bundle",
         "rcid": ""
       },
       "ConflictingItems": [

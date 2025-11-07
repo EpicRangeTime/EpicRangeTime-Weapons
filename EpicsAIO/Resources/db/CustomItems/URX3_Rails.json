@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/urx_3_1_13_5_upper.bundle",
+        "path": "mods/ar15_handguards/urx_3_1_13_5_upper.bundle",
         "rcid": ""
       },
       "Recoil": -1.5,
@@ -356,7 +356,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "Mods/AR15_Handguards/urx_3_1_13_5_lower.bundle",
+        "path": "mods/ar15_handguards/urx_3_1_13_5_lower.bundle",
         "rcid": ""
       },
       "Recoil": -2.5,

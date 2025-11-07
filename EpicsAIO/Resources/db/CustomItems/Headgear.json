@@ -5,7 +5,7 @@
     "handbookParentId": "5b47574386f77428ca22b32f",
     "overrideProperties": {
       "Prefab": {
-        "path": "Wearables/Facemasks/m53a1_gas_mask.bundle",
+        "path": "wearables/facemasks/m53a1_gas_mask.bundle",
         "rcid": ""
       },
       "Weight": 1.09,
