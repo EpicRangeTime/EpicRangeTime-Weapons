@@ -1,11 +1,5 @@
 {
     "_id": "bd3a8b28356d9c6509966546",
-    "name": "Floyd",
-    "surname": "Emerson",
-    "nickname": "Badger",
-    "firstname": "Badger",
-    "location": "Streets of Tarkov",
-    "description": "An American gunsmith that was on vacation in St Petersburg when the conflict kicked off. He saw a business opportunity in it and got himself into more trouble than he bargained for. Luckily he has contacts.",
     "avatar": "/files/trader/avatar/badger.png",
     "availableInRaid": false,
     "balance_dol": 500000,
