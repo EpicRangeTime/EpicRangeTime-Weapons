@@ -9,6 +9,10 @@
             ]
         },
         {
+            "key": "tarkov_custom_shaders.bundle",
+            "dependencyKeys": []
+        },
+        {
             "key": "ammo/9mm_export_900_can.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -282,6 +286,20 @@
         },
         {
             "key": "mods/lasers/dbal_a3_black.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/textures/holemanager/glow_particle_bright.bundle",
+                "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+                "assets/systems/effects/collimator.bundle",
+                "assets/systems/effects/laserbeam/laser.bundle",
+                "assets/systems/effects/multiflare/multiflare.bundle",
+                "assets/systems/effects/nightvision.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "mods/lasers/dbal_d2_fde.bundle",
             "dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
                 "assets/content/textures/holemanager/glow_particle_bright.bundle",
@@ -605,7 +623,8 @@
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "tarkov_custom_shaders.bundle"
             ]
         },
         {
@@ -613,7 +632,8 @@
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "tarkov_custom_shaders.bundle"
             ]
         },
         {
@@ -621,7 +641,8 @@
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "tarkov_custom_shaders.bundle"
             ]
         },
         {
@@ -637,7 +658,8 @@
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "tarkov_custom_shaders.bundle"
             ]
         },
         {
@@ -645,7 +667,8 @@
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "tarkov_custom_shaders.bundle"
             ]
         },
         {
@@ -709,7 +732,8 @@
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "tarkov_custom_shaders.bundle"
             ]
         },
         {
@@ -717,7 +741,8 @@
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "tarkov_custom_shaders.bundle"
             ]
         },
         {
@@ -725,7 +750,8 @@
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "tarkov_custom_shaders.bundle"
             ]
         },
         {
@@ -733,7 +759,8 @@
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "tarkov_custom_shaders.bundle"
             ]
         },
         {
@@ -741,7 +768,8 @@
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "tarkov_custom_shaders.bundle"
             ]
         },
         {
@@ -3960,7 +3988,8 @@
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "tarkov_custom_shaders.bundle"
             ]
         },
         {
@@ -3968,7 +3997,8 @@
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "tarkov_custom_shaders.bundle"
             ]
         },
         {

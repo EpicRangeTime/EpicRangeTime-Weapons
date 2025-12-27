@@ -1646,5 +1646,99 @@
         ]
       }
     ]
+  },
+  "694f146cd178947eaf000001": {
+    "itemTplToClone": "544909bb4bdc2d6f028b4577",
+    "parentId": "55818b164bdc2ddc698b456c",
+    "handbookParentId": "5b5f737886f774093e6cb4fb",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/lasers/dbal_d2_fde.bundle",
+        "rcid": ""
+      },
+      "ModesCount": 7,
+      "Weight": 0.218
+    },
+    "locales": {
+      "en": {
+        "name": "Steiner DBAL-D2 tactical device (FDE)",
+        "shortName": "DBAL-D2",
+        "description": "Manufactured with high definition, aspherical telescopic lens technology, the DBAL-D2 features a 2° to 30° adjustable illumination beam. This highly collimated beam significantly enhances night vision performance and offers an eye-safe means of illuminating distances greater than 1000 m."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_tactical",
+      "mod_tactical002",
+      "mod_tactical001",
+      "mod_tactical_000",
+      "mod_tactical_001",
+      "mod_tactical_002",
+      "mod_tactical_003",
+      "mod_tactical_004",
+      "mod_equipment",
+      "mod_scope"
+    ],
+    "fleaPriceRoubles": 39000,
+    "handbookPriceRoubles": 22000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "694f14add178947eaf000002": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 204,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
   }
 }

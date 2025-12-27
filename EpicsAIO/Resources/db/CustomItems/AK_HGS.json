@@ -12,7 +12,7 @@
       "Ergonomics": 2,
       "Slots": [
         {
-          "_name": "mod_mount_000",
+          "_name": "mod_handguard",
           "_id": "791dca97abf65db99f85f84e",
           "_parent": "cbba369e0fbb09a1eda36c83",
           "_props": {
@@ -23,7 +23,8 @@
                   "df523ec57199fcc4f92fa25c",
                   "bbbdc1a53659b64553a51b4c",
                   "fe901517ef9bffafcf0ac2f6",
-                  "748cfa27eb4b3fe30f51fd9d"
+                  "748cfa27eb4b3fe30f51fd9d",
+                  "926b047bb9efdf9f7654a8c1"
                 ]
               }
             ]
@@ -130,7 +131,8 @@
                   "df523ec57199fcc4f92fa25c",
                   "bbbdc1a53659b64553a51b4c",
                   "fe901517ef9bffafcf0ac2f6",
-                  "748cfa27eb4b3fe30f51fd9d"
+                  "748cfa27eb4b3fe30f51fd9d",
+                  "926b047bb9efdf9f7654a8c1"
                 ]
               }
             ]
@@ -3411,10 +3413,8 @@
       }
     },
     "addtoInventorySlots": [],
-    "addtoModSlots": true,
-    "modSlot": [
-      "mod_handguard"
-    ],
+    "addtoModSlots": false,
+    "modSlot": [],
     "fleaPriceRoubles": 14000,
     "handbookPriceRoubles": 3500,
     "addtoTraders": true,

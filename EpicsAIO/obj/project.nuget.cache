@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rfvgZX+2ZFE=",
+  "dgSpecHash": "5JyGMKAZspA=",
   "success": true,
-  "projectFilePath": "F:\\SPT 4.0\\Server Modding\\EpicRangeTime-Weapons\\EpicsAIO\\EpicsAIO.csproj",
+  "projectFilePath": "C:\\Users\\Tyler Smith\\Documents\\All SPT Installations\\SPT 4.0\\Server Modding\\EpicRangeTime-Weapons\\EpicsAIO\\EpicsAIO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tyler Smith\\.nuget\\packages\\fastcloner\\3.3.16\\fastcloner.3.3.16.nupkg.sha512",
     "C:\\Users\\Tyler Smith\\.nuget\\packages\\jetbrains.annotations\\2025.2.2\\jetbrains.annotations.2025.2.2.nupkg.sha512",
