@@ -934,7 +934,7 @@
     },
     "locales": {
       "en": {
-        "name": "AR-15 Armalite M16A1 fixed stock type D",
+        "name": "AR-15 Armalite M16A1 fixed stock type D (EpicsAIO)",
         "shortName": "M16A1 Type D",
         "description": "Produced by Armalite for the United States military in the mid 60s, these fixed M16 stocks have no trapdoor and a rubber buttpad. Molded from fiberglass and very lightweight, it won't serve you wrong."
       }
@@ -1058,7 +1058,7 @@
     },
     "locales": {
       "en": {
-        "name": "AR-15 Colt M16A2 fixed stock",
+        "name": "AR-15 Colt M16A2 fixed stock (EpicsAIO)",
         "shortName": "M16A2 Fixed",
         "description": "Produced by Colt for the United States military through the current day, these fixed M16 stocks have a trapdoor for storing all of your favorite snacks. Molded from fiberglass and very lightweight, it won't serve you wrong."
       }
@@ -1182,7 +1182,7 @@
     },
     "locales": {
       "en": {
-        "name": "AR-15 UTG M16A2 style fixed stock (FDE)",
+        "name": "AR-15 UTG M16A2 style fixed stock (FDE) (EpicsAIO)",
         "shortName": "M16A2 Fixed",
         "description": "Produced by UTG for Brownells in the United States, these fixed M16 style stocks have a trapdoor for storing all of your favorite snacks. Molded from nylon polymer and very lightweight, it won't serve you wrong."
       }
@@ -1271,7 +1271,7 @@
     },
     "locales": {
       "en": {
-        "name": "AR-15 Colt FiberLite stock",
+        "name": "AR-15 Colt FiberLite stock (EpicsAIO)",
         "shortName": "FiberLite",
         "description": "The original stock featured on the CAR-15, made from fiberglass just like so many things of the 80's."
       }

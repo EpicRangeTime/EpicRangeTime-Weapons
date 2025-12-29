@@ -14,7 +14,7 @@
     },
     "locales": {
       "en": {
-        "name": "5.56x45 Colt AR-15 Straight 20-round magazine",
+        "name": "5.56x45 Colt AR-15 Straight 20-round magazine (EpicsAIO)",
         "shortName": "Straight",
         "description": "Designed for use with the M16 rifle in the 60s, and originally made by Okay Industries, these durable aluminum magazines will hold up to the toughest abuse in the field."
       }
@@ -396,7 +396,7 @@
       "mod_magazine"
     ],
     "fleaPriceRoubles": 22500,
-    "handbookPriceRoubles": 8000,
+    "handbookPriceRoubles": 2500,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -439,20 +439,12 @@
           },
           "barters": [
             {
-              "count": 14,
+              "count": 24,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
         }
       }
-    },
-    "masterySections": [
-      {
-        "Name": "M4",
-        "Templates": [
-          "4b81488c78c8a8ac7d37f9b9"
-        ]
-      }
-    ]
+    }
   }
 }
