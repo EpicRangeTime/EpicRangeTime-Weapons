@@ -960,7 +960,8 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "assets/commonassets/physics/physicsmaterials.bundle"
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "epic_shaders.bundle"
       ]
     },
     {
@@ -968,7 +969,8 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "assets/commonassets/physics/physicsmaterials.bundle"
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "epic_shaders.bundle"
       ]
     },
     {
@@ -976,7 +978,8 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "assets/commonassets/physics/physicsmaterials.bundle"
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "epic_shaders.bundle"
       ]
     },
     {
@@ -984,7 +987,8 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "assets/commonassets/physics/physicsmaterials.bundle"
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "epic_shaders.bundle"
       ]
     },
     {
@@ -992,7 +996,8 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "assets/commonassets/physics/physicsmaterials.bundle"
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "epic_shaders.bundle"
       ]
     },
     {
@@ -1000,7 +1005,8 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "assets/commonassets/physics/physicsmaterials.bundle"
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "epic_shaders.bundle"
       ]
     },
     {
