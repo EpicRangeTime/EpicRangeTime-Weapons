@@ -1,0 +1,102 @@
+[
+  {
+    "ZoneId": "badgertripwire1",
+    "ZoneName": "badgertripwire1",
+    "ZoneLocation": "TarkovStreets",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-113.4059",
+      "Y": "8.308829",
+      "Z": "63.51685",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.06104854",
+      "Z": "0",
+      "W": "0.9981349"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "1",
+      "Z": "1.5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "badgertripwire2",
+    "ZoneName": "badgertripwire2",
+    "ZoneLocation": "TarkovStreets",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-86.94971",
+      "Y": "8.451569",
+      "Z": "124.9437",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.05233596",
+      "Z": "0",
+      "W": "0.9986295"
+    },
+    "Scale": {
+      "X": "1.5",
+      "Y": "1",
+      "Z": "1.5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "badgertripwire3",
+    "ZoneName": "badgertripwire3",
+    "ZoneLocation": "TarkovStreets",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-48.53032",
+      "Y": "8.201609",
+      "Z": "155.5644",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1045285",
+      "Z": "0",
+      "W": "0.9945219"
+    },
+    "Scale": {
+      "X": "1.75",
+      "Y": "1",
+      "Z": "1.75",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "badgertripwire4",
+    "ZoneName": "badgertripwire4",
+    "ZoneLocation": "TarkovStreets",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-43.31992",
+      "Y": "5.365746",
+      "Z": "51.82952",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.07845911",
+      "Z": "0",
+      "W": "0.9969174"
+    },
+    "Scale": {
+      "X": "1.75",
+      "Y": "1",
+      "Z": "1.75",
+      "W": "0"
+    }
+  }
+]

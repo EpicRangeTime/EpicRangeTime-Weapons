@@ -521,17 +521,17 @@
     "addWeaponPreset": false,
     "weaponPresets": [],
     "traders": {
-      "MECHANIC": {
+      "BADGER": {
         "690c2a76efda1c3d78f26de8": {
           "barterSettings": {
-            "loyalLevel": 3,
+            "loyalLevel": 2,
             "unlimitedCount": true,
             "stackObjectsCount": 99
           },
           "barters": [
             {
               "count": 242,
-              "_tpl": "MONEY_EUROS"
+              "_tpl": "MONEY_DOLLARS"
             }
           ]
         }

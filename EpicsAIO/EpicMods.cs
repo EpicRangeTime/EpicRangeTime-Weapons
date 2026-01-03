@@ -13,11 +13,12 @@ public record ModMetadata : AbstractModMetadata
     public override string Author { get; init; } = "GrooveypenguinX, EpicRangeTime";
     public override List<string>? Contributors { get; init; } = null;
     public override SemanticVersioning.Version Version { get; init; } = new(typeof(ModMetadata).Assembly.GetName().Version?.ToString(3));
-    public override Range SptVersion { get; init; } = new("~4.0.3");
+    public override Range SptVersion { get; init; } = new("~4.0.4");
     public override List<string>? Incompatibilities { get; init; }
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
-        { "com.wtt.commonlib", new Range("~2.0.0") }
+        { "com.wtt.commonlib", new Range("~2.0.10") },
+        { "com.epicrangetime.shaders", new Range("~1.0.1") }
     };
     public override string? Url { get; init; }
     public override bool? IsBundleMod { get; init; } = true;
@@ -33,7 +34,7 @@ public class EpicRangeTimeWeapons(
         Assembly assembly = Assembly.GetExecutingAssembly();
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
         await wttCommon.CustomQuestService.CreateCustomQuests(assembly);
-        //await wttCommon.CustomQuestZoneService.CreateCustomQuestZones(assembly);
+        await wttCommon.CustomQuestZoneService.CreateCustomQuestZones(assembly);
         await wttCommon.CustomLocaleService.CreateCustomLocales(assembly);
     }
 }

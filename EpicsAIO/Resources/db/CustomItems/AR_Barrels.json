@@ -228,7 +228,7 @@
     },
     "locales": {
       "en": {
-        "name": "AR-15 5.56x45mm 11.5 inch barrel",
+        "name": "AR-15 5.56x45mm 11.5 inch barrel (Epics AIO)",
         "shortName": "AR15 11.5",
         "description": "An 11.5 inch barrel for AR-15 based weapons chambered in 5.56x45."
       }
