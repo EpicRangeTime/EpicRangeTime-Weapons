@@ -10,7 +10,7 @@ public record ModMetadata : AbstractModMetadata
 {
     public override string ModGuid { get; init; } = "com.epicrangetime.aio";
     public override string Name { get; init; } = "Epics All in One";
-    public override string Author { get; init; } = "GrooveypenguinX, EpicRangeTime";
+    public override string Author { get; init; } = "EpicRangeTime";
     public override List<string>? Contributors { get; init; } = null;
     public override SemanticVersioning.Version Version { get; init; } = new(typeof(ModMetadata).Assembly.GetName().Version?.ToString(3));
     public override Range SptVersion { get; init; } = new("~4.0.5");
