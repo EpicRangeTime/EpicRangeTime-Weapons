@@ -180,7 +180,7 @@ public class BaseGameItemEdits(
                         "6761779c48fa5c377e06fc3f",
                         "9d387502b50d1f4b0fb8b0ce"]); //Push AK-12 stock and SAG buffer tube to AKS-74
                     
-                    ModifySlotFilters(item, 0, 0, [
+                    ModifySlotFilters(item, 2, 0, [
                         "5cc125555c98bf150a4fd068"]); //Push Wolverine to AKS74
                     break;
                 
