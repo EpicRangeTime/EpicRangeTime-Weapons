@@ -13,7 +13,7 @@ public record ModMetadata : AbstractModMetadata
     public override string Author { get; init; } = "EpicRangeTime";
     public override List<string>? Contributors { get; init; } = null;
     public override SemanticVersioning.Version Version { get; init; } = new(typeof(ModMetadata).Assembly.GetName().Version?.ToString(3));
-    public override Range SptVersion { get; init; } = new("~4.0.5");
+    public override Range SptVersion { get; init; } = new("~4.0.11");
     public override List<string>? Incompatibilities { get; init; }
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
