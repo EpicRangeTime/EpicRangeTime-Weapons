@@ -3878,7 +3878,8 @@
       "mod_scope",
       "mod_scope_000",
       "mod_scope_001",
-      "mod_mount"
+      "mod_mount",
+      "mod_mount_002"
     ],
     "fleaPriceRoubles": 39200,
     "handbookPriceRoubles": 2500,
@@ -4280,7 +4281,9 @@
     "modSlot": [
       "mod_scope",
       "mod_scope_000",
-      "mod_scope_001"
+      "mod_scope_001",
+      "mod_mount",
+      "mod_mount_002"
     ],
     "fleaPriceRoubles": 27000,
     "handbookPriceRoubles": 3500,
