@@ -3047,6 +3047,18 @@
       ]
     },
     {
+      "key": "mods/scopes/leupold_cqbss_1_1_8.bundle",
+      "dependencyKeys": [
+        "assets/content/textures/holemanager/round_spec_mask.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
+        "epic_shaders.bundle"
+      ]
+    },
+    {
       "key": "mods/scopes/vortex_eleanor_1_10_blk.bundle",
       "dependencyKeys": [
         "assets/content/textures/holemanager/round_spec_mask.bundle",

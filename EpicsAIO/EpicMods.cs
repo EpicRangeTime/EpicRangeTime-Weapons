@@ -18,7 +18,7 @@ public record ModMetadata : AbstractModMetadata
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
         { "com.wtt.commonlib", new Range("~2.0.10") },
-        { "com.epicrangetime.shaders", new Range("~1.0.1") }
+        { "com.epicrangetime.shaders", new Range("~1.2.0") }
     };
     public override string? Url { get; init; }
     public override bool? IsBundleMod { get; init; } = true;
