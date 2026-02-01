@@ -4099,7 +4099,7 @@
     ]
   },
   "9936df6f6d9d13591df75e06": {
-    "itemTplToClone": "5b2388675acfc4771e1be0be",
+    "itemTplToClone": "618ba27d9008e4636a67f61d",
     "parentId": "55818ae44bdc2dde698b456c",
     "handbookParentId": "5b5f748386f774093e6cb501",
     "overrideProperties": {
@@ -4120,7 +4120,12 @@
           350,
           400
         ]
-      ]
+      ],
+      "MinMaxFov": {
+        "x": 15.13,
+        "y": 2.55,
+        "z": 5
+      }
     },
     "locales": {
       "en": {
@@ -4214,8 +4219,8 @@
         ]
       ],
       "MinMaxFov": {
-        "x": 2,
-        "y": 0.5,
+        "x": 1.008,
+        "y": 0.252,
         "z": 4
       },
       "AimSensitivity": [
@@ -4363,8 +4368,8 @@
         ]
       ],
       "MinMaxFov": {
-        "x": 6.857,
-        "y": 1.6,
+        "x": 4.32,
+        "y": 1.008,
         "z": 4
       },
       "CalibrationDistances": [
@@ -4572,6 +4577,547 @@
           "barters": [
             {
               "count": 189,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "69674481c529fe53e7000001": {
+    "itemTplToClone": "61714eec290d254f5e6b2ffc",
+    "parentId": "55818ae44bdc2dde698b456c",
+    "handbookParentId": "5b5f748386f774093e6cb501",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/scopes/scope_trijicon_accupower_1_8x.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -5,
+      "ConflictingItems": [
+        "591c4efa86f7741030027726",
+        "570fd79bd2720bc7458b4583",
+        "64785e7c19d732620e045e15",
+        "570fd6c2d2720bc6458b457f",
+        "558022b54bdc2dac148b458d",
+        "5b30b0dc5acfc400153b7124",
+        "6165ac8c290d254f5e6b2f6c",
+        "60a23797a37c940de7062d02",
+        "6477772ea8a38bb2050ed4db",
+        "5d2da1e948f035477b1ce2ba",
+        "5c0505e00db834001b735073",
+        "609a63b6e2ff132951242d09",
+        "570fd721d2720bc5458b4596"
+      ],
+      "ModesCount": [
+        1
+      ],
+      "MinMaxFov": {
+        "x": 15.14,
+        "y": 1.89,
+        "z": 4
+      },
+      "AimSensitivity": [
+        [
+          0.08,
+          0.6
+        ]
+      ],
+      "Weight": 0.306,
+      "Zooms": [
+        [
+          1,
+          8
+        ]
+      ],
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450
+        ]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Trijicon Accupower 1-8x28 34mm riflescope",
+        "shortName": "Accupower 1-8x28",
+        "description": "The Trijicon 1-8x28 AccuPower is the versatile riflescope perfect for competitive, tactical, and sporting applications. This is the optic of choice, whether running and gunning, hitting steel, or staring down dangerous game. A true 1x with 8x optical zoom and a first focal plane reticle, it offers both rapid target engagement and long-range precision."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope_000",
+      "mod_scope"
+    ],
+    "fleaPriceRoubles": 66000,
+    "handbookPriceRoubles": 44000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 500
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "696746478f9de73104000001": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 342,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "69685e95d7a97cb3f2000001": {
+    "itemTplToClone": "61714eec290d254f5e6b2ffc",
+    "parentId": "55818ae44bdc2dde698b456c",
+    "handbookParentId": "5b5f748386f774093e6cb501",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/scopes/vortex_eleanor_1_10_blk.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -4,
+      "ConflictingItems": [
+        "591c4efa86f7741030027726",
+        "570fd79bd2720bc7458b4583",
+        "64785e7c19d732620e045e15",
+        "570fd6c2d2720bc6458b457f",
+        "558022b54bdc2dac148b458d",
+        "5b30b0dc5acfc400153b7124",
+        "6165ac8c290d254f5e6b2f6c",
+        "60a23797a37c940de7062d02",
+        "6477772ea8a38bb2050ed4db",
+        "5d2da1e948f035477b1ce2ba",
+        "5c0505e00db834001b735073",
+        "609a63b6e2ff132951242d09",
+        "570fd721d2720bc5458b4596"
+      ],
+      "ModesCount": [
+        1
+      ],
+      "MinMaxFov": {
+        "x": 15.12,
+        "y": 1.51,
+        "z": 4
+      },
+      "AimSensitivity": [
+        [
+          0.075,
+          0.6
+        ]
+      ],
+      "Weight": 0.532,
+      "Zooms": [
+        [
+          1,
+          10
+        ]
+      ],
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450
+        ]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Vortex \"Eleanor\" AMG 1-10x24 34mm riflescope (Black)",
+        "shortName": "Eleanor 1-10x24",
+        "description": "The Eleanor AMG 1-10x24 is a compact, ultra-durable optic built for elite operators, delivering exceptional clarity on short-barreled carbines while preserving rail space for accessories."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope_000",
+      "mod_scope"
+    ],
+    "fleaPriceRoubles": 81000,
+    "handbookPriceRoubles": 52000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 500
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "696860f7d7a97cb3f2000002": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 351,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "6968615ed7a97cb3f2000004": {
+    "itemTplToClone": "61714eec290d254f5e6b2ffc",
+    "parentId": "55818ae44bdc2dde698b456c",
+    "handbookParentId": "5b5f748386f774093e6cb501",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/scopes/vortex_eleanor_1_10_fde.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -4,
+      "ConflictingItems": [
+        "591c4efa86f7741030027726",
+        "570fd79bd2720bc7458b4583",
+        "64785e7c19d732620e045e15",
+        "570fd6c2d2720bc6458b457f",
+        "558022b54bdc2dac148b458d",
+        "5b30b0dc5acfc400153b7124",
+        "6165ac8c290d254f5e6b2f6c",
+        "60a23797a37c940de7062d02",
+        "6477772ea8a38bb2050ed4db",
+        "5d2da1e948f035477b1ce2ba",
+        "5c0505e00db834001b735073",
+        "609a63b6e2ff132951242d09",
+        "570fd721d2720bc5458b4596"
+      ],
+      "ModesCount": [
+        1
+      ],
+      "MinMaxFov": {
+        "x": 15.12,
+        "y": 1.51,
+        "z": 4
+      },
+      "AimSensitivity": [
+        [
+          0.075,
+          0.6
+        ]
+      ],
+      "Weight": 0.532,
+      "Zooms": [
+        [
+          1,
+          10
+        ]
+      ],
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450
+        ]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Vortex \"Eleanor\" AMG 1-10x24 34mm riflescope (FDE)",
+        "shortName": "Eleanor 1-10x24",
+        "description": "The Eleanor AMG 1-10x24 is a compact, ultra-durable optic built for elite operators, delivering exceptional clarity on short-barreled carbines while preserving rail space for accessories."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope_000",
+      "mod_scope"
+    ],
+    "fleaPriceRoubles": 79000,
+    "handbookPriceRoubles": 53000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 500
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "69686132d7a97cb3f2000003": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 353,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "696c6554f59b16be98000001": {
+    "itemTplToClone": "676175789dcee773150c6925",
+    "parentId": "55818ae44bdc2dde698b456c",
+    "handbookParentId": "5b5f748386f774093e6cb501",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/scopes/leupold_mk5_5_25_mil_fde.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -4,
+      "ConflictingItems": [
+        "591c4efa86f7741030027726",
+        "570fd79bd2720bc7458b4583",
+        "64785e7c19d732620e045e15",
+        "570fd6c2d2720bc6458b457f",
+        "558022b54bdc2dac148b458d",
+        "58491f3324597764bc48fa02",
+        "584924ec24597768f12ae244",
+        "5b30b0dc5acfc400153b7124",
+        "6165ac8c290d254f5e6b2f6c",
+        "60a23797a37c940de7062d02",
+        "6477772ea8a38bb2050ed4db",
+        "5d2da1e948f035477b1ce2ba",
+        "5c0505e00db834001b735073",
+        "609a63b6e2ff132951242d09",
+        "584984812459776a704a82a6",
+        "59f9d81586f7744c7506ee62",
+        "570fd721d2720bc5458b4596",
+        "5c7d55f52e221644f31bff6a"
+      ],
+      "ModesCount": [
+        1
+      ],
+      "MinMaxFov": {
+        "x": 3.03,
+        "y": 0.606,
+        "z": 4
+      },
+      "AimSensitivity": [
+        [
+          0.07,
+          0.033
+        ]
+      ],
+      "Weight": 0.85,
+      "Zooms": [
+        [
+          5,
+          25
+        ]
+      ],
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450
+        ]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Leupold Mark 5HD 5-25x56mm 35mm riflescope (Mil-FDE)",
+        "shortName": "Mark 5HD 5-25x56",
+        "description": "The Mark 5HD 5-25x56 riflescope is known for being a lighter and more efficient optic than other scopes in its class. Featuring optical glass, full multi-coated lenses and an advanced light management system, the scope offers low-glare, high-contrast imaging. Installed on 35mm ring mounts. Manufactured by Leupold. Flat Dark Earth version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope_000",
+      "mod_scope"
+    ],
+    "fleaPriceRoubles": 58200,
+    "handbookPriceRoubles": 102529,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 500
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "696c667af59b16be98000002": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 400,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
