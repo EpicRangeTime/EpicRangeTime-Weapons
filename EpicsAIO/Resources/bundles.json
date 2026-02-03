@@ -3035,6 +3035,19 @@
       ]
     },
     {
+      "key": "mods/scopes/atacr_f1_1-8.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+        "assets/content/textures/holemanager/round_spec_mask.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+        "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
+        "epic_shaders.bundle"
+      ]
+    },
+    {
       "key": "mods/scopes/scope_trijicon_accupower_1_8x.bundle",
       "dependencyKeys": [
         "assets/content/textures/holemanager/round_spec_mask.bundle",

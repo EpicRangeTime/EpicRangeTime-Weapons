@@ -5243,7 +5243,7 @@
     "weaponPresets": [],
     "traders": {
       "BADGER": {
-        "696746478f9de73104000001": {
+        "69817e44ee9b6f2ceb000003": {
           "barterSettings": {
             "loyalLevel": 2,
             "unlimitedCount": true,
@@ -5252,6 +5252,140 @@
           "barters": [
             {
               "count": 350,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "69817cd3ee9b6f2ceb000001": {
+    "itemTplToClone": "61714eec290d254f5e6b2ffc",
+    "parentId": "55818ae44bdc2dde698b456c",
+    "handbookParentId": "5b5f748386f774093e6cb501",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/scopes/atacr_f1_1-8.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -5,
+      "ConflictingItems": [
+        "591c4efa86f7741030027726",
+        "570fd79bd2720bc7458b4583",
+        "64785e7c19d732620e045e15",
+        "570fd6c2d2720bc6458b457f",
+        "558022b54bdc2dac148b458d",
+        "5b30b0dc5acfc400153b7124",
+        "6165ac8c290d254f5e6b2f6c",
+        "60a23797a37c940de7062d02",
+        "6477772ea8a38bb2050ed4db",
+        "5d2da1e948f035477b1ce2ba",
+        "5c0505e00db834001b735073",
+        "609a63b6e2ff132951242d09",
+        "570fd721d2720bc5458b4596"
+      ],
+      "ModesCount": [
+        1
+      ],
+      "MinMaxFov": {
+        "x": 15.12,
+        "y": 1.89,
+        "z": 4
+      },
+      "AimSensitivity": [
+        [
+          0.08,
+          0.6
+        ]
+      ],
+      "Weight": 0.595,
+      "Zooms": [
+        [
+          1,
+          8
+        ]
+      ],
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450
+        ]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Nightforce ATACR F1 1-8x24 34mm riflescope",
+        "shortName": "ATACR 1-8x",
+        "description": "From close quarters to long-range engagements, the Mark 8 CQBSS 1.1-8x24mm incorporates everything military, law enforcement, and professional shooters need into one extremely versatile riflescope."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope_000",
+      "mod_scope"
+    ],
+    "fleaPriceRoubles": 65000,
+    "handbookPriceRoubles": 48000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 500
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "69817d6eee9b6f2ceb000002": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 337,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
