@@ -5400,5 +5400,139 @@
         ]
       }
     ]
+  },
+  "698281fd81a46da878000001": {
+    "itemTplToClone": "61714eec290d254f5e6b2ffc",
+    "parentId": "55818ae44bdc2dde698b456c",
+    "handbookParentId": "5b5f748386f774093e6cb501",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/scopes/kahles_k624i.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -6,
+      "ConflictingItems": [
+        "591c4efa86f7741030027726",
+        "570fd79bd2720bc7458b4583",
+        "64785e7c19d732620e045e15",
+        "570fd6c2d2720bc6458b457f",
+        "558022b54bdc2dac148b458d",
+        "5b30b0dc5acfc400153b7124",
+        "6165ac8c290d254f5e6b2f6c",
+        "60a23797a37c940de7062d02",
+        "6477772ea8a38bb2050ed4db",
+        "5d2da1e948f035477b1ce2ba",
+        "5c0505e00db834001b735073",
+        "609a63b6e2ff132951242d09",
+        "570fd721d2720bc5458b4596"
+      ],
+      "ModesCount": [
+        1
+      ],
+      "MinMaxFov": {
+        "x": 2.25,
+        "y": 0.5,
+        "z": 4
+      },
+      "AimSensitivity": [
+        [
+          0.017,
+          0.089
+        ]
+      ],
+      "Weight": 0.950,
+      "Zooms": [
+        [
+          6,
+          24
+        ]
+      ],
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450
+        ]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Kahles K624i 6-24x56 34mm riflescope",
+        "shortName": "K624i 6-24x",
+        "description": "The K624i offers unparalleled optical clarity in a small package."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope_000",
+      "mod_scope"
+    ],
+    "fleaPriceRoubles": 72000,
+    "handbookPriceRoubles": 50000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 500
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "6982834481a46da878000002": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 365,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
   }
 }
