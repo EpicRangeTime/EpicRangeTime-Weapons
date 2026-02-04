@@ -4099,7 +4099,7 @@
     ]
   },
   "9936df6f6d9d13591df75e06": {
-    "itemTplToClone": "618ba27d9008e4636a67f61d",
+    "itemTplToClone": "5b2388675acfc4771e1be0be",
     "parentId": "55818ae44bdc2dde698b456c",
     "handbookParentId": "5b5f748386f774093e6cb501",
     "overrideProperties": {
@@ -4108,6 +4108,8 @@
         "path": "mods/scopes/burris_rt6_scope.bundle",
         "rcid": ""
       },
+      "AdjustableOpticSensitivity": 0.2597,
+      "AdjustableOpticSensitivityMax": 0.0437,
       "Weight": 0.493,
       "CalibrationDistances": [
         [
@@ -4211,7 +4213,8 @@
         "rcid": ""
       },
       "Weight": 0.841,
-      "AdjustableOpticSensitivity": 0.085,
+      "AdjustableOpticSensitivity": 0.0183,
+      "AdjustableOpticSensitivityMax": 0.0045,
       "Zooms": [
         [
           15,
@@ -4223,11 +4226,6 @@
         "y": 0.252,
         "z": 4
       },
-      "AimSensitivity": [
-        [
-          0.0185
-        ]
-      ],
       "CalibrationDistances": [
         [
           100,
@@ -4352,14 +4350,8 @@
         "path": "mods/scopes/nightforce_nxs_3_5_25.bundle",
         "rcid": ""
       },
-      "AdjustableOpticSensitivity": 0.125,
-      "AdjustableOpticSensitivityMax": 0.0313,
-      "AimSensitivity": [
-        [
-          0.125,
-          0.0313
-        ]
-      ],
+      "AdjustableOpticSensitivity": 0.0786,
+      "AdjustableOpticSensitivityMax": 0.0183,
       "Weight": 0.85,
       "Zooms": [
         [
@@ -4602,6 +4594,8 @@
         "path": "mods/scopes/scope_trijicon_accupower_1_8x.bundle",
         "rcid": ""
       },
+      "AdjustableOpticSensitivity": 0.212,
+      "AdjustableOpticSensitivityMax": 0.0265,
       "Ergonomics": -5,
       "ConflictingItems": [
         "591c4efa86f7741030027726",
@@ -4736,6 +4730,8 @@
         "path": "mods/scopes/vortex_eleanor_1_10_blk.bundle",
         "rcid": ""
       },
+      "AdjustableOpticSensitivity": 0.2117,
+      "AdjustableOpticSensitivityMax": 0.0211,
       "Ergonomics": -4,
       "ConflictingItems": [
         "591c4efa86f7741030027726",
@@ -4870,6 +4866,8 @@
         "path": "mods/scopes/vortex_eleanor_1_10_fde.bundle",
         "rcid": ""
       },
+      "AdjustableOpticSensitivity": 0.2117,
+      "AdjustableOpticSensitivityMax": 0.0211,
       "Ergonomics": -4,
       "ConflictingItems": [
         "591c4efa86f7741030027726",
@@ -5004,6 +5002,8 @@
         "path": "mods/scopes/leupold_mk5_5_25_mil_fde.bundle",
         "rcid": ""
       },
+      "AdjustableOpticSensitivity": 0.0536,
+      "AdjustableOpticSensitivityMax": 0.0107,
       "Ergonomics": -4,
       "ConflictingItems": [
         "591c4efa86f7741030027726",
@@ -5143,6 +5143,8 @@
         "path": "mods/scopes/leupold_cqbss_1_1_8.bundle",
         "rcid": ""
       },
+      "AdjustableOpticSensitivity": 0.1925,
+      "AdjustableOpticSensitivityMax": 0.0265,
       "Ergonomics": -4.5,
       "ConflictingItems": [
         "591c4efa86f7741030027726",
@@ -5277,6 +5279,8 @@
         "path": "mods/scopes/atacr_f1_1-8.bundle",
         "rcid": ""
       },
+      "AdjustableOpticSensitivity": 0.2117,
+      "AdjustableOpticSensitivityMax": 0.0265,
       "Ergonomics": -5,
       "ConflictingItems": [
         "591c4efa86f7741030027726",
@@ -5411,6 +5415,8 @@
         "path": "mods/scopes/kahles_k624i.bundle",
         "rcid": ""
       },
+      "AdjustableOpticSensitivity": 0.0315,
+      "AdjustableOpticSensitivityMax": 0.007,
       "Ergonomics": -6,
       "ConflictingItems": [
         "591c4efa86f7741030027726",
@@ -5435,12 +5441,6 @@
         "y": 0.5,
         "z": 4
       },
-      "AimSensitivity": [
-        [
-          0.017,
-          0.089
-        ]
-      ],
       "Weight": 0.950,
       "Zooms": [
         [
