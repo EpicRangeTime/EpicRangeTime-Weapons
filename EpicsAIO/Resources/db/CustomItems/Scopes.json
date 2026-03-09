@@ -5004,7 +5004,7 @@
       },
       "AdjustableOpticSensitivity": 0.0536,
       "AdjustableOpticSensitivityMax": 0.0107,
-      "Ergonomics": -4,
+      "Ergonomics": -9,
       "ConflictingItems": [
         "591c4efa86f7741030027726",
         "570fd79bd2720bc7458b4583",
@@ -5276,7 +5276,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "mods/scopes/atacr_f1_1-8.bundle",
+        "path": "mods/scopes/nightforce_atacr_1_8x_f1.bundle",
         "rcid": ""
       },
       "AdjustableOpticSensitivity": 0.2117,
@@ -5334,7 +5334,7 @@
     },
     "locales": {
       "en": {
-        "name": "Nightforce ATACR F1 1-8x24 34mm riflescope",
+        "name": "Nightforce ATACR F1 1-8x24mm 34mm riflescope",
         "shortName": "ATACR 1-8x",
         "description": "From close quarters to long-range engagements, the Mark 8 CQBSS 1.1-8x24mm incorporates everything military, law enforcement, and professional shooters need into one extremely versatile riflescope."
       }
@@ -5417,7 +5417,7 @@
       },
       "AdjustableOpticSensitivity": 0.0315,
       "AdjustableOpticSensitivityMax": 0.007,
-      "Ergonomics": -6,
+      "Ergonomics": -8,
       "ConflictingItems": [
         "591c4efa86f7741030027726",
         "570fd79bd2720bc7458b4583",
@@ -5464,7 +5464,7 @@
     },
     "locales": {
       "en": {
-        "name": "Kahles K624i 6-24x56 34mm riflescope",
+        "name": "Kahles K624i 6-24x56mm 34mm riflescope",
         "shortName": "K624i 6-24x",
         "description": "The K624i offers unparalleled optical clarity in a small package."
       }
@@ -5520,6 +5520,495 @@
           "barters": [
             {
               "count": 365,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "69a7ca431422246fc7000001": {
+    "itemTplToClone": "676175789dcee773150c6925",
+    "parentId": "55818ae44bdc2dde698b456c",
+    "handbookParentId": "5b5f748386f774093e6cb501",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/scopes/leupold_mk5_3_6_18x_black.bundle",
+        "rcid": ""
+      },
+      "AdjustableOpticSensitivity": 0.074,
+      "AdjustableOpticSensitivityMax": 0.0148,
+      "Ergonomics": -7,
+      "ModesCount": [
+        1
+      ],
+      "MinMaxFov": {
+        "x": 4.208,
+        "y": 0.841,
+        "z": 4
+      },
+      "Weight": 0.737,
+      "Zooms": [
+        [
+          3.6,
+          18
+        ]
+      ],
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450
+        ]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Leupold Mark 5HD 3.6-18x44mm 35mm riflescope",
+        "shortName": "Mark 5HD 3.6-18x44",
+        "description": "Pick up a Mark 5HD 3.6-18x44mm and you'll feel the difference. It's up to 20 ounces lighter than other riflescopes in its class, giving you an advantage in the field or at the range."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope_000",
+      "mod_scope"
+    ],
+    "fleaPriceRoubles": 81500,
+    "handbookPriceRoubles": 65000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 500
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "69a7ca431422246fc7000002": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 379,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "69a7ca431422246fc7000003": {
+    "itemTplToClone": "676175789dcee773150c6925",
+    "parentId": "55818ae44bdc2dde698b456c",
+    "handbookParentId": "5b5f748386f774093e6cb501",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/scopes/leupold_mk5_3_6_18x_fde.bundle",
+        "rcid": ""
+      },
+      "AdjustableOpticSensitivity": 0.074,
+      "AdjustableOpticSensitivityMax": 0.0148,
+      "Ergonomics": -7,
+      "ModesCount": [
+        1
+      ],
+      "MinMaxFov": {
+        "x": 4.208,
+        "y": 0.841,
+        "z": 4
+      },
+      "Weight": 0.737,
+      "Zooms": [
+        [
+          3.6,
+          18
+        ]
+      ],
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450
+        ]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Leupold Mark 5HD 3.6-18x44mm 35mm riflescope (FDE)",
+        "shortName": "Mark 5HD 3.6-18x44",
+        "description": "Pick up a Mark 5HD 3.6-18x44mm and you'll feel the difference. It's up to 20 ounces lighter than other riflescopes in its class, giving you an advantage in the field or at the range."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope_000",
+      "mod_scope"
+    ],
+    "fleaPriceRoubles": 81500,
+    "handbookPriceRoubles": 65000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 500
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "69a7ca431422246fc7000004": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 368,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "69a7ca431422246fc7000005": {
+    "itemTplToClone": "61714eec290d254f5e6b2ffc",
+    "parentId": "55818ae44bdc2dde698b456c",
+    "handbookParentId": "5b5f748386f774093e6cb501",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/scopes/nightforce_atacr_4_20x_f1.bundle",
+        "rcid": ""
+      },
+      "AdjustableOpticSensitivity": 0.0529,
+      "AdjustableOpticSensitivityMax": 0.0106,
+      "ConflictingItems": [
+        "591c4efa86f7741030027726",
+        "570fd79bd2720bc7458b4583",
+        "64785e7c19d732620e045e15",
+        "570fd6c2d2720bc6458b457f",
+        "558022b54bdc2dac148b458d",
+        "5b30b0dc5acfc400153b7124",
+        "6165ac8c290d254f5e6b2f6c",
+        "60a23797a37c940de7062d02",
+        "6477772ea8a38bb2050ed4db",
+        "5d2da1e948f035477b1ce2ba",
+        "5c0505e00db834001b735073",
+        "609a63b6e2ff132951242d09",
+        "570fd721d2720bc5458b4596"
+      ],
+      "ModesCount": [
+        1
+      ],
+      "MinMaxFov": {
+        "x": 3.78,
+        "y": 0.756,
+        "z": 4
+      },
+      "Weight": 0.998,
+      "Zooms": [
+        [
+          4,
+          20
+        ]
+      ],
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450
+        ]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Nightforce ATACR F1 4-20x50mm 34mm riflescope",
+        "shortName": "ATACR F1 4-20x50mm",
+        "description": "The Nightforce ATACR 4-20x50mm F1 is an excellent choice for mid-range or designated marksmen rifles. This riflescope incorporates ED glass and 130 MOA/ 38 MRAD of elevation adjustments, in a more compact size than other riflescopes."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope_000",
+      "mod_scope"
+    ],
+    "fleaPriceRoubles": 76000,
+    "handbookPriceRoubles": 60000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 500
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "69a7ca431422246fc7000006": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 401,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "69a7ca431422246fc7000007": {
+    "itemTplToClone": "61714eec290d254f5e6b2ffc",
+    "parentId": "55818ae44bdc2dde698b456c",
+    "handbookParentId": "5b5f748386f774093e6cb501",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/scopes/nightforce_atacr_4-16x_f1.bundle",
+        "rcid": ""
+      },
+      "AdjustableOpticSensitivity": 0.0529,
+      "AdjustableOpticSensitivityMax": 0.0132,
+      "Ergonomics": -8,
+      "ConflictingItems": [
+        "591c4efa86f7741030027726",
+        "570fd79bd2720bc7458b4583",
+        "64785e7c19d732620e045e15",
+        "570fd6c2d2720bc6458b457f",
+        "558022b54bdc2dac148b458d",
+        "5b30b0dc5acfc400153b7124",
+        "6165ac8c290d254f5e6b2f6c",
+        "60a23797a37c940de7062d02",
+        "6477772ea8a38bb2050ed4db",
+        "5d2da1e948f035477b1ce2ba",
+        "5c0505e00db834001b735073",
+        "609a63b6e2ff132951242d09",
+        "570fd721d2720bc5458b4596"
+      ],
+      "ModesCount": [
+        1
+      ],
+      "MinMaxFov": {
+        "x": 3.78,
+        "y": 0.945,
+        "z": 4
+      },
+      "Weight": 0.850,
+      "Zooms": [
+        [
+          4,
+          16
+        ]
+      ],
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450
+        ]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Nightforce ATACR F1 4-16x42mm 34mm riflescope",
+        "shortName": "ATACR F1 4-16x42mm",
+        "description": "The Nightforce ATACR 4-16x42mm F1 is the ideal optic for precision semi-automatic rifles. The compact and lightweight design coupled with exceptional optical clarity gives shooters the ability to quickly identify and engage multiple targets."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope_000",
+      "mod_scope"
+    ],
+    "fleaPriceRoubles": 68000,
+    "handbookPriceRoubles": 54000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 500
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "BADGER": {
+        "69a7ca431422246fc7000008": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 398,
               "_tpl": "MONEY_DOLLARS"
             }
           ]

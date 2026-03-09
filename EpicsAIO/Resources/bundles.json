@@ -9,6 +9,10 @@
       ]
     },
     {
+      "key": "epic_shaders.bundle",
+      "dependencyKeys": []
+    },
+    {
       "key": "ammo/9mm_export_900_can.bundle",
       "dependencyKeys": [
         "shaders",
@@ -3035,7 +3039,59 @@
       ]
     },
     {
-      "key": "mods/scopes/atacr_f1_1-8.bundle",
+      "key": "mods/scopes/nightforce_atacr_1_8x_f1.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+        "assets/content/textures/holemanager/round_spec_mask.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+        "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
+        "epic_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/scopes/leupold_mk5_3_6_18x_black.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+        "assets/content/textures/holemanager/round_spec_mask.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+        "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
+        "epic_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/scopes/leupold_mk5_3_6_18x_fde.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+        "assets/content/textures/holemanager/round_spec_mask.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+        "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
+        "epic_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/scopes/nightforce_atacr_4_20x_f1.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+        "assets/content/textures/holemanager/round_spec_mask.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+        "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
+        "epic_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/scopes/nightforce_atacr_4-16x_f1.bundle",
       "dependencyKeys": [
         "shaders",
         "cubemaps",
