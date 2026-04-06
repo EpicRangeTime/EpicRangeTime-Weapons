@@ -9,7 +9,7 @@
       ]
     },
     {
-      "key": "epic_shaders.bundle",
+      "key": "epic_aio_shaders.bundle",
       "dependencyKeys": []
     },
     {
@@ -308,7 +308,7 @@
         "assets/systems/effects/laserbeam/laser.bundle",
         "assets/systems/effects/multiflare/multiflare.bundle",
         "assets/systems/effects/nightvision.bundle",
-        "epic_shaders.bundle",
+        "epic_aio_shaders.bundle",
         "cubemaps",
         "shaders"
       ]
@@ -513,7 +513,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -530,7 +530,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -539,7 +539,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -548,7 +548,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -606,7 +606,7 @@
         "cubemaps",
         "mods/ak/ak74_upper_hg.bundle",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -623,7 +623,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -632,7 +632,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -641,7 +641,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -650,7 +650,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -667,7 +667,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -676,7 +676,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -741,7 +741,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -750,7 +750,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -759,7 +759,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -768,7 +768,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -777,7 +777,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -970,7 +970,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -979,7 +979,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -988,7 +988,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -997,7 +997,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1006,7 +1006,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1015,7 +1015,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1352,7 +1352,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1361,7 +1361,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1370,7 +1370,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1379,7 +1379,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1388,7 +1388,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1397,7 +1397,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1406,7 +1406,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1415,7 +1415,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1424,7 +1424,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1433,7 +1433,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1442,7 +1442,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1451,7 +1451,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1460,7 +1460,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1469,7 +1469,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1478,7 +1478,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -2102,7 +2102,20 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "assets/commonassets/physics/physicsmaterials.bundle"
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "epic_aio_shaders.bundle",
+        "assets/systems/effects/collimator.bundle"
+      ]
+    },
+    {
+      "key": "mods/red_dots/lepold_lco_fde.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "epic_aio_shaders.bundle",
+        "mods/red_dots/lepold_lco.bundle",
+        "assets/systems/effects/collimator.bundle"
       ]
     },
     {
@@ -3050,7 +3063,7 @@
         "assets/content/textures/holemanager/round_spec_mask.bundle",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
         "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3063,7 +3076,7 @@
         "assets/content/textures/holemanager/round_spec_mask.bundle",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
         "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3076,7 +3089,7 @@
         "assets/content/textures/holemanager/round_spec_mask.bundle",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
         "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3089,7 +3102,7 @@
         "assets/content/textures/holemanager/round_spec_mask.bundle",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
         "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3102,7 +3115,7 @@
         "assets/content/textures/holemanager/round_spec_mask.bundle",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
         "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3114,7 +3127,7 @@
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
         "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3126,7 +3139,7 @@
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
         "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3138,7 +3151,7 @@
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
         "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3150,7 +3163,7 @@
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
         "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3162,7 +3175,7 @@
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
         "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3174,7 +3187,7 @@
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
         "assets/content/items/mods/scopes/scope_34mm_s&b_pm_ii_5_25x56.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3427,7 +3440,7 @@
         "assets/commonassets/physics/physicsmaterials.bundle",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
         "assets/content/items/mods/scopes/scope_30mm_leupold_mark4_lr_6,5_20x50.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3460,7 +3473,8 @@
         "assets/commonassets/physics/physicsmaterials.bundle",
         "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
         "assets/content/textures/holemanager/round_spec_mask.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3471,7 +3485,8 @@
         "assets/commonassets/physics/physicsmaterials.bundle",
         "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
         "assets/content/textures/holemanager/round_spec_mask.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -4155,7 +4170,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -4164,7 +4179,7 @@
         "shaders",
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle",
-        "epic_shaders.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {

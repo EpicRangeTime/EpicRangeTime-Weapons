@@ -297,7 +297,7 @@
       "en": {
         "name": "Leupold LCO reflex sight",
         "shortName": "LCO",
-        "description": "When tunnel vision kicks in, the LCO® gives you an edge. An open field of view keeps your peripheral vision free of knobs, dials, or the scope housing, which can mask targets."
+        "description": "When tunnel vision kicks in, the LCO gives you an edge. An open field of view keeps your peripheral vision free of knobs, dials, or the scope housing, which can mask targets."
       }
     },
     "addtoInventorySlots": [],
@@ -344,6 +344,99 @@
     "traders": {
       "PEACEKEEPER": {
         "690c2a76efda1c3d78f26da3": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 224,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "69d2e9660487eee221000002": {
+    "itemTplToClone": "558022b54bdc2dac148b458d",
+    "parentId": "REFLEX_SIGHT",
+    "handbookParentId": "5b5f742686f774093e6cb4ff",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/red_dots/lepold_lco_fde.bundle",
+        "rcid": ""
+      },
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200
+        ]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Leupold LCO reflex sight (FDE)",
+        "shortName": "LCO",
+        "description": "When tunnel vision kicks in, the LCO gives you an edge. An open field of view keeps your peripheral vision free of knobs, dials, or the scope housing, which can mask targets."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 33290,
+    "handbookPriceRoubles": 13000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "69d2e9660487eee221000001": {
           "barterSettings": {
             "loyalLevel": 2,
             "unlimitedCount": true,
