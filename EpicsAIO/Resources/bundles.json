@@ -1789,6 +1789,25 @@
       ]
     },
     {
+      "key": "mods/ar15_handguards/ris_ii_fsp_black.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/ris_ii_fspl_black.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "mods/ar15_handguards/ris_ii_fsp_black.bundle",
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
       "key": "mods/ar15_handguards/urx_3_1_13_5_lower.bundle",
       "dependencyKeys": [
         "shaders",
