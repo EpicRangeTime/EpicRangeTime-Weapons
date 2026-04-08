@@ -1774,7 +1774,8 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "assets/commonassets/physics/physicsmaterials.bundle"
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1782,7 +1783,9 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "assets/commonassets/physics/physicsmaterials.bundle"
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "mods/ar15_handguards/ris_ii_fsp.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
