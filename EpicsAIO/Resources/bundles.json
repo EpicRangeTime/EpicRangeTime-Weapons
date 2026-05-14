@@ -1,10 +1,6 @@
 {
   "manifest": [
     {
-      "key": "epic_aio_shaders.bundle",
-      "dependencyKeys": []
-    },
-    {
       "key": "ammo/9mm_export_900_can.bundle",
       "dependencyKeys": [
         "shaders"
@@ -158,6 +154,10 @@
     },
     {
       "key": "doge",
+      "dependencyKeys": []
+    },
+    {
+      "key": "epic_aio_shaders.bundle",
       "dependencyKeys": []
     },
     {
@@ -582,97 +582,97 @@
     {
       "key": "mods/ar15_handguards/mfr10_blk.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr10_cbt.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr10_dw.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr10_fde.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr13_5_blk.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr13_5_cbt.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr13_5_dw.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr13_5_fde.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr15_blk.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr15_cbt.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr15_dw.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr15_fde.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr9_blk.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr9_cbt.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr9_dw.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/mfr9_fde.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
