@@ -2849,13 +2849,14 @@
     {
       "key": "mods/suppressors/aac-m4-2000blk.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/suppressors/aac-m4-2000tan.bundle",
       "dependencyKeys": [
-        "shaders"
+        "mods/suppressors/aac-m4-2000blk.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
