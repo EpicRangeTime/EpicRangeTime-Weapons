@@ -1628,7 +1628,14 @@
     {
       "key": "mods/magazines/x_15_ar15_50rd_drum.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/magazines/x_15_ar15_50rd_drum_fde.bundle",
+      "dependencyKeys": [
+        "mods/magazines/x_15_ar15_50rd_drum.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
