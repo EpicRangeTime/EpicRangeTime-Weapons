@@ -819,7 +819,8 @@ public class BaseGameItemEdits(
                         "5c18b9192e2216398b5a8104",
                         "5fc0fa957283c4046c58147e",
                         "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567"]);
+                        "55d5f46a4bdc2d1b198b4567",
+                        "61817865d3a39d50044c13a4"]);
                     
                     ModifySlotFilters(item, 0, 0, [
                         "5ae30bad5acfc400185c2dc4"]);
@@ -836,7 +837,8 @@ public class BaseGameItemEdits(
                         "5c18b9192e2216398b5a8104",
                         "5fc0fa957283c4046c58147e",
                         "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567"]);
+                        "55d5f46a4bdc2d1b198b4567",
+                        "61817865d3a39d50044c13a4"]);
                     
                     ModifySlotFilters(item, 0, 0, [
                         "5ae30bad5acfc400185c2dc4"]);
@@ -870,7 +872,8 @@ public class BaseGameItemEdits(
                         "5c18b9192e2216398b5a8104",
                         "5fc0fa957283c4046c58147e",
                         "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567"]);
+                        "55d5f46a4bdc2d1b198b4567",
+                        "61817865d3a39d50044c13a4"]);
                     
                     ModifySlotFilters(item, 0, 0, [
                         "5ae30bad5acfc400185c2dc4"]);
@@ -887,7 +890,8 @@ public class BaseGameItemEdits(
                         "5c18b9192e2216398b5a8104",
                         "5fc0fa957283c4046c58147e",
                         "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567"]);
+                        "55d5f46a4bdc2d1b198b4567",
+                        "61817865d3a39d50044c13a4"]);
                     
                     ModifySlotFilters(item, 0, 0, [
                         "5ae30bad5acfc400185c2dc4"]);
