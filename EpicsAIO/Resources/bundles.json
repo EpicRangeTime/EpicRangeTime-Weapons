@@ -436,75 +436,525 @@
       ]
     },
     {
-      "key": "mods/ar15_handguards/geissele_smr_mk16_10_5_blk.bundle",
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr10_blk.bundle",
       "dependencyKeys": [
         "epic_aio_shaders.bundle"
       ]
     },
     {
-      "key": "mods/ar15_handguards/geissele_smr_mk16_10_5_ddc.bundle",
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr10_cbt.bundle",
       "dependencyKeys": [
         "epic_aio_shaders.bundle"
       ]
     },
     {
-      "key": "mods/ar15_handguards/geissele_smr_mk16_13_5_blk.bundle",
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr10_dw.bundle",
       "dependencyKeys": [
         "epic_aio_shaders.bundle"
       ]
     },
     {
-      "key": "mods/ar15_handguards/geissele_smr_mk16_9_5_blk.bundle",
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr10_fde.bundle",
       "dependencyKeys": [
         "epic_aio_shaders.bundle"
       ]
     },
     {
-      "key": "mods/ar15_handguards/hogue_15_inch_hg_black.bundle",
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr13_5_blk.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr13_5_cbt.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr13_5_dw.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr13_5_fde.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr15_blk.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr15_cbt.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr15_dw.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr15_fde.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr9_blk.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr9_cbt.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr9_dw.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_mfr_handguards/mfr9_fde.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_fsp.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_fsp_black.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_fspl.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_fspl_black.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_10_5l_blk.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_10_5l_dfde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_10_5l_fde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_10_5u_blk.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_10_5u_dfde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_10_5u_fde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_12_5l_blk.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_12_5l_dfde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_12_5l_fde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_12_5u_blk.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_12_5u_dfde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_12_5u_fde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_13l_blk.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_13l_dfde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_13l_fde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_13u_blk.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_13u_dfde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_13u_fde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_9_5l_blk.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_9_5l_dfde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_9_5l_fde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_9_5u_blk.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_9_5u_dfde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risiii_handguards/ris_iii_9_5u_fde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk16_handguards/geissele_smr_mk16_10_5_blk.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk16_handguards/geissele_smr_mk16_10_5_ddc.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk16_handguards/geissele_smr_mk16_13_5_blk.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk16_handguards/geissele_smr_mk16_9_5_blk.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_10f_blk.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_10f_ddc.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_10f_odg.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_13_blk.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_13_ddc.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_13_odg.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_15_blk.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_15_ddc.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_15_odg.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_47_blk.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_47_ddc.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_47_odg.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_95_blk.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_95_ddc.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk4_handguards/mk4_95_odg.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk8_handguards/mk8_13_blk.bundle",
       "dependencyKeys": [
         "shaders"
       ]
     },
     {
-      "key": "mods/ar15_handguards/hogue_15_inch_hg_blue.bundle",
+      "key": "mods/ar15_handguards/geissele_mk8_handguards/mk8_13_ddc.bundle",
       "dependencyKeys": [
         "shaders"
       ]
     },
     {
-      "key": "mods/ar15_handguards/hogue_15_inch_hg_gray.bundle",
+      "key": "mods/ar15_handguards/geissele_mk8_handguards/mk8_13_odg.bundle",
       "dependencyKeys": [
         "shaders"
       ]
     },
     {
-      "key": "mods/ar15_handguards/hogue_15_inch_hg_olive_drab.bundle",
+      "key": "mods/ar15_handguards/geissele_mk8_handguards/mk8_15_blk.bundle",
       "dependencyKeys": [
         "shaders"
       ]
     },
     {
-      "key": "mods/ar15_handguards/hogue_15_inch_hg_olive_green.bundle",
+      "key": "mods/ar15_handguards/geissele_mk8_handguards/mk8_15_ddc.bundle",
       "dependencyKeys": [
         "shaders"
       ]
     },
     {
-      "key": "mods/ar15_handguards/hogue_15_inch_hg_pink.bundle",
+      "key": "mods/ar15_handguards/geissele_mk8_handguards/mk8_15_odg.bundle",
       "dependencyKeys": [
         "shaders"
       ]
     },
     {
-      "key": "mods/ar15_handguards/hogue_15_inch_hg_red.bundle",
+      "key": "mods/ar15_handguards/geissele_mk8_handguards/mk8_7_blk.bundle",
       "dependencyKeys": [
         "shaders"
       ]
     },
     {
-      "key": "mods/ar15_handguards/hogue_15_inch_hg_tan.bundle",
+      "key": "mods/ar15_handguards/geissele_mk8_handguards/mk8_7_ddc.bundle",
       "dependencyKeys": [
         "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk8_handguards/mk8_7_odg.bundle",
+      "dependencyKeys": [
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk8_handguards/mk8_9_5_blk.bundle",
+      "dependencyKeys": [
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk8_handguards/mk8_9_5_ddc.bundle",
+      "dependencyKeys": [
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/geissele_mk8_handguards/mk8_9_5_odg.bundle",
+      "dependencyKeys": [
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/hogue_handguards/hogue_15_inch_hg_black.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/hogue_handguards/hogue_15_inch_hg_blue.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/hogue_handguards/hogue_15_inch_hg_gray.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/hogue_handguards/hogue_15_inch_hg_olive_drab.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/hogue_handguards/hogue_15_inch_hg_olive_green.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/hogue_handguards/hogue_15_inch_hg_pink.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/hogue_handguards/hogue_15_inch_hg_red.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/hogue_handguards/hogue_15_inch_hg_tan.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -580,102 +1030,6 @@
       ]
     },
     {
-      "key": "mods/ar15_handguards/mfr10_blk.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr10_cbt.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr10_dw.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr10_fde.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr13_5_blk.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr13_5_cbt.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr13_5_dw.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr13_5_fde.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr15_blk.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr15_cbt.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr15_dw.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr15_fde.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr9_blk.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr9_cbt.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr9_dw.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mfr9_fde.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
       "key": "mods/ar15_handguards/midwest_nf_10_5.bundle",
       "dependencyKeys": [
         "shaders"
@@ -714,362 +1068,6 @@
     {
       "key": "mods/ar15_handguards/midwest_ss_9_25.bundle",
       "dependencyKeys": [
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_10f_blk.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_10f_ddc.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_10f_odg.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_13_blk.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_13_ddc.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_13_odg.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_15_blk.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_15_ddc.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_15_odg.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_47_blk.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_47_ddc.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_47_odg.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_95_blk.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_95_ddc.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk4_95_odg.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk8_13_blk.bundle",
-      "dependencyKeys": [
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk8_13_ddc.bundle",
-      "dependencyKeys": [
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk8_13_odg.bundle",
-      "dependencyKeys": [
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk8_15_blk.bundle",
-      "dependencyKeys": [
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk8_15_ddc.bundle",
-      "dependencyKeys": [
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk8_15_odg.bundle",
-      "dependencyKeys": [
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk8_7_blk.bundle",
-      "dependencyKeys": [
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk8_7_ddc.bundle",
-      "dependencyKeys": [
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk8_7_odg.bundle",
-      "dependencyKeys": [
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk8_9_5_blk.bundle",
-      "dependencyKeys": [
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk8_9_5_ddc.bundle",
-      "dependencyKeys": [
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/mk8_9_5_odg.bundle",
-      "dependencyKeys": [
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_ii_fsp.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_ii_fsp_black.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_ii_fspl.bundle",
-      "dependencyKeys": [
-        "mods/ar15_handguards/ris_ii_fsp.bundle",
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_ii_fspl_black.bundle",
-      "dependencyKeys": [
-        "mods/ar15_handguards/ris_ii_fsp_black.bundle",
-        "epic_aio_shaders.bundle"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_10_5l_blk.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_10_5l_dfde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_10_5l_fde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_10_5u_blk.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_10_5u_dfde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_10_5u_fde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_12_5l_blk.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_12_5l_dfde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_12_5l_fde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_12_5u_blk.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_12_5u_dfde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_12_5u_fde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_13l_blk.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_13l_dfde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_13l_fde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_13u_blk.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_13u_dfde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_13u_fde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_9_5l_blk.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_9_5l_dfde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_9_5l_fde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_9_5u_blk.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_9_5u_dfde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
-      "key": "mods/ar15_handguards/ris_iii_9_5u_fde.bundle",
-      "dependencyKeys": [
-        "cubemaps",
         "shaders"
       ]
     },
@@ -2204,6 +2202,18 @@
     },
     {
       "key": "mods/pistol_grips/hogue_ar_pg_pink.bundle",
+      "dependencyKeys": [
+        "shaders"
+      ]
+    },
+    {
+      "key": "mods/rail_covers/dd_rail_cover_7.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/rail_covers/kac_rail_cover.bundle",
       "dependencyKeys": [
         "shaders"
       ]
