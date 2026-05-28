@@ -11,6 +11,24 @@
           "lib/net8.0/FastCloner.dll": {}
         }
       },
+      "HarmonyX/2.15.0": {
+        "type": "package",
+        "dependencies": {
+          "MonoMod.RuntimeDetour": "25.3.0",
+          "System.Reflection.Emit": "4.7.0",
+          "System.Text.Json": "5.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/0Harmony.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/0Harmony.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "JetBrains.Annotations/2025.2.2": {
         "type": "package",
         "compile": {
@@ -40,6 +58,135 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Mono.Cecil/0.11.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "related": ".Mdb.pdb;.pdb;.Pdb.pdb;.Rocks.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "related": ".Mdb.pdb;.pdb;.Pdb.pdb;.Rocks.pdb"
+          }
+        }
+      },
+      "MonoMod.Backports/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "MonoMod.ILHelpers": "1.1.0"
+        },
+        "compile": {
+          "lib/net8.0/MonoMod.Backports.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MonoMod.Backports.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MonoMod.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.11.6",
+          "MonoMod.Backports": "1.1.2",
+          "MonoMod.ILHelpers": "1.1.0",
+          "MonoMod.Utils": "25.0.8"
+        },
+        "compile": {
+          "lib/net9.0/MonoMod.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net9.0/MonoMod.Iced.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/MonoMod.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net9.0/MonoMod.Iced.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/MonoMod.Core.targets": {}
+        }
+      },
+      "MonoMod.ILHelpers/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/MonoMod.ILHelpers.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MonoMod.ILHelpers.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "MonoMod.RuntimeDetour/25.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.11.6",
+          "MonoMod.Backports": "1.1.2",
+          "MonoMod.Core": "1.3.0",
+          "MonoMod.ILHelpers": "1.1.0",
+          "MonoMod.Utils": "25.0.8"
+        },
+        "compile": {
+          "lib/net9.0/MonoMod.RuntimeDetour.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/MonoMod.RuntimeDetour.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/MonoMod.RuntimeDetour.targets": {}
+        }
+      },
+      "MonoMod.Utils/25.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.11.5",
+          "MonoMod.Backports": "1.1.2",
+          "MonoMod.ILHelpers": "1.1.0"
+        },
+        "compile": {
+          "lib/net9.0/MonoMod.Utils.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/MonoMod.Utils.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "SemanticVersioning/3.0.0": {
         "type": "package",
         "compile": {
@@ -49,7 +196,7 @@
           "lib/netstandard2.0/SemanticVersioning.dll": {}
         }
       },
-      "SPTarkov.Common/4.0.3": {
+      "SPTarkov.Common/4.0.13": {
         "type": "package",
         "dependencies": {
           "SemanticVersioning": "3.0.0"
@@ -68,7 +215,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "SPTarkov.DI/4.0.3": {
+      "SPTarkov.DI/4.0.13": {
         "type": "package",
         "dependencies": {
           "JetBrains.Annotations": "2025.2.2",
@@ -85,12 +232,30 @@
           }
         }
       },
-      "SPTarkov.Server.Core/4.0.3": {
+      "SPTarkov.Reflection/4.0.13": {
+        "type": "package",
+        "dependencies": {
+          "HarmonyX": "2.15.0",
+          "JetBrains.Annotations": "2025.2.2",
+          "SPTarkov.DI": "4.0.13"
+        },
+        "compile": {
+          "lib/net9.0/SPTarkov.Reflection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/SPTarkov.Reflection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SPTarkov.Server.Core/4.0.13": {
         "type": "package",
         "dependencies": {
           "FastCloner": "3.3.16",
-          "SPTarkov.Common": "4.0.3",
-          "SPTarkov.DI": "4.0.3",
+          "SPTarkov.Common": "4.0.13",
+          "SPTarkov.DI": "4.0.13",
           "System.IO.Hashing": "9.0.9"
         },
         "compile": {
@@ -120,10 +285,33 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "WTT-ServerCommonLib/2.0.0": {
+      "System.Reflection.Emit/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Text.Json/5.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WTT-ServerCommonLib/2.0.20": {
         "type": "package",
         "dependencies": {
-          "SPTarkov.Server.Core": "4.0.2"
+          "SPTarkov.Reflection": "4.0.13",
+          "SPTarkov.Server.Core": "4.0.13"
         },
         "compile": {
           "lib/net9.0/WTT-ServerCommonLib.dll": {
@@ -137,7 +325,17 @@
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
-        ]
+        ],
+        "contentFiles": {
+          "contentFiles/any/net9.0/Resources/db/CustomLocales/en.json": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        },
+        "build": {
+          "build/WTT-ServerCommonLib.props": {}
+        }
       }
     }
   },
@@ -156,6 +354,28 @@
         "lib/net46/FastCloner.dll",
         "lib/net8.0/FastCloner.dll",
         "lib/netstandard2.0/FastCloner.dll"
+      ]
+    },
+    "HarmonyX/2.15.0": {
+      "sha512": "k5fD4/k6s/A/llzr4KE6CZWxgf2BQH5yDb1OIKBpjy6IGX6knt0gCx8NZHg3B97aTI4+oRJVIubD8cTT53lC+Q==",
+      "type": "package",
+      "path": "harmonyx/2.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "harmonyx.2.15.0.nupkg.sha512",
+        "harmonyx.nuspec",
+        "lib/net35/0Harmony.dll",
+        "lib/net35/0Harmony.pdb",
+        "lib/net35/0Harmony.xml",
+        "lib/net452/0Harmony.dll",
+        "lib/net452/0Harmony.pdb",
+        "lib/net452/0Harmony.xml",
+        "lib/netstandard2.0/0Harmony.dll",
+        "lib/netstandard2.0/0Harmony.pdb",
+        "lib/netstandard2.0/0Harmony.xml",
+        "logo_mini.png"
       ]
     },
     "JetBrains.Annotations/2025.2.2": {
@@ -211,6 +431,255 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Mono.Cecil/0.11.6": {
+      "sha512": "f33RkDtZO8VlGXCtmQIviOtxgnUdym9xx/b1p9h91CRGOsJFxCFOFK1FDbVt1OCf1aWwYejUFa2MOQyFWTFjbA==",
+      "type": "package",
+      "path": "mono.cecil/0.11.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Mono.Cecil.Mdb.dll",
+        "lib/net40/Mono.Cecil.Mdb.pdb",
+        "lib/net40/Mono.Cecil.Pdb.dll",
+        "lib/net40/Mono.Cecil.Pdb.pdb",
+        "lib/net40/Mono.Cecil.Rocks.dll",
+        "lib/net40/Mono.Cecil.Rocks.pdb",
+        "lib/net40/Mono.Cecil.dll",
+        "lib/net40/Mono.Cecil.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "lib/netstandard2.0/Mono.Cecil.Mdb.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "lib/netstandard2.0/Mono.Cecil.Pdb.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "lib/netstandard2.0/Mono.Cecil.Rocks.pdb",
+        "lib/netstandard2.0/Mono.Cecil.dll",
+        "lib/netstandard2.0/Mono.Cecil.pdb",
+        "mono.cecil.0.11.6.nupkg.sha512",
+        "mono.cecil.nuspec"
+      ]
+    },
+    "MonoMod.Backports/1.1.2": {
+      "sha512": "baYlNy8n8kmaNhNvqmZ/dIPOeO1r9//dG1i2WbunMWtWZ2EKtIgmXaS+ZzphzTsikkGnoD4Jwr5g0TVdpDjgpw==",
+      "type": "package",
+      "path": "monomod.backports/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net35/MonoMod.Backports.dll",
+        "lib/net35/MonoMod.Backports.pdb",
+        "lib/net35/MonoMod.Backports.xml",
+        "lib/net452/MonoMod.Backports.dll",
+        "lib/net452/MonoMod.Backports.pdb",
+        "lib/net452/MonoMod.Backports.xml",
+        "lib/net5.0/MonoMod.Backports.dll",
+        "lib/net5.0/MonoMod.Backports.pdb",
+        "lib/net5.0/MonoMod.Backports.xml",
+        "lib/net6.0/MonoMod.Backports.dll",
+        "lib/net6.0/MonoMod.Backports.pdb",
+        "lib/net6.0/MonoMod.Backports.xml",
+        "lib/net7.0/MonoMod.Backports.dll",
+        "lib/net7.0/MonoMod.Backports.pdb",
+        "lib/net7.0/MonoMod.Backports.xml",
+        "lib/net8.0/MonoMod.Backports.dll",
+        "lib/net8.0/MonoMod.Backports.pdb",
+        "lib/net8.0/MonoMod.Backports.xml",
+        "lib/netcoreapp2.1/MonoMod.Backports.dll",
+        "lib/netcoreapp2.1/MonoMod.Backports.pdb",
+        "lib/netcoreapp2.1/MonoMod.Backports.xml",
+        "lib/netcoreapp3.0/MonoMod.Backports.dll",
+        "lib/netcoreapp3.0/MonoMod.Backports.pdb",
+        "lib/netcoreapp3.0/MonoMod.Backports.xml",
+        "lib/netcoreapp3.1/MonoMod.Backports.dll",
+        "lib/netcoreapp3.1/MonoMod.Backports.pdb",
+        "lib/netcoreapp3.1/MonoMod.Backports.xml",
+        "lib/netstandard2.0/MonoMod.Backports.dll",
+        "lib/netstandard2.0/MonoMod.Backports.pdb",
+        "lib/netstandard2.0/MonoMod.Backports.xml",
+        "lib/netstandard2.1/MonoMod.Backports.dll",
+        "lib/netstandard2.1/MonoMod.Backports.pdb",
+        "lib/netstandard2.1/MonoMod.Backports.xml",
+        "monomod.backports.1.1.2.nupkg.sha512",
+        "monomod.backports.nuspec"
+      ]
+    },
+    "MonoMod.Core/1.3.0": {
+      "sha512": "cTWgpZXSJo+4GKSxjx97/96DYZRiGGS7KGK5Rquyn2qkSmbvfuoTW0P46LNzvrhE9bD7xZtnk89yWFEQLwprJg==",
+      "type": "package",
+      "path": "monomod.core/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "buildTransitive/MonoMod.CheckTargetRuntime.targets",
+        "buildTransitive/MonoMod.Core.targets",
+        "icon.png",
+        "lib/net35/MonoMod.Core.dll",
+        "lib/net35/MonoMod.Core.pdb",
+        "lib/net35/MonoMod.Core.xml",
+        "lib/net35/MonoMod.Iced.dll",
+        "lib/net35/MonoMod.Iced.pdb",
+        "lib/net35/MonoMod.Iced.xml",
+        "lib/net452/MonoMod.Core.dll",
+        "lib/net452/MonoMod.Core.pdb",
+        "lib/net452/MonoMod.Core.xml",
+        "lib/net452/MonoMod.Iced.dll",
+        "lib/net452/MonoMod.Iced.pdb",
+        "lib/net452/MonoMod.Iced.xml",
+        "lib/net5.0/MonoMod.Core.dll",
+        "lib/net5.0/MonoMod.Core.pdb",
+        "lib/net5.0/MonoMod.Core.xml",
+        "lib/net5.0/MonoMod.Iced.dll",
+        "lib/net5.0/MonoMod.Iced.pdb",
+        "lib/net5.0/MonoMod.Iced.xml",
+        "lib/net6.0/MonoMod.Core.dll",
+        "lib/net6.0/MonoMod.Core.pdb",
+        "lib/net6.0/MonoMod.Core.xml",
+        "lib/net6.0/MonoMod.Iced.dll",
+        "lib/net6.0/MonoMod.Iced.pdb",
+        "lib/net6.0/MonoMod.Iced.xml",
+        "lib/net7.0/MonoMod.Core.dll",
+        "lib/net7.0/MonoMod.Core.pdb",
+        "lib/net7.0/MonoMod.Core.xml",
+        "lib/net7.0/MonoMod.Iced.dll",
+        "lib/net7.0/MonoMod.Iced.pdb",
+        "lib/net7.0/MonoMod.Iced.xml",
+        "lib/net8.0/MonoMod.Core.dll",
+        "lib/net8.0/MonoMod.Core.pdb",
+        "lib/net8.0/MonoMod.Core.xml",
+        "lib/net8.0/MonoMod.Iced.dll",
+        "lib/net8.0/MonoMod.Iced.pdb",
+        "lib/net8.0/MonoMod.Iced.xml",
+        "lib/net9.0/MonoMod.Core.dll",
+        "lib/net9.0/MonoMod.Core.pdb",
+        "lib/net9.0/MonoMod.Core.xml",
+        "lib/net9.0/MonoMod.Iced.dll",
+        "lib/net9.0/MonoMod.Iced.pdb",
+        "lib/net9.0/MonoMod.Iced.xml",
+        "lib/netstandard2.0/MonoMod.Core.dll",
+        "lib/netstandard2.0/MonoMod.Core.pdb",
+        "lib/netstandard2.0/MonoMod.Core.xml",
+        "lib/netstandard2.0/MonoMod.Iced.dll",
+        "lib/netstandard2.0/MonoMod.Iced.pdb",
+        "lib/netstandard2.0/MonoMod.Iced.xml",
+        "logo.png",
+        "monomod.core.1.3.0.nupkg.sha512",
+        "monomod.core.nuspec"
+      ]
+    },
+    "MonoMod.ILHelpers/1.1.0": {
+      "sha512": "L2FWjhTrv7tcIxshfZ+M3OcaNr4cNw0IwiVZEgwqRnZ5QAN3+RrNJ8ZwCzwXUWyPDqooJxMcjjg8PsSYUiNBjQ==",
+      "type": "package",
+      "path": "monomod.ilhelpers/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net35/MonoMod.ILHelpers.dll",
+        "lib/net35/MonoMod.ILHelpers.pdb",
+        "lib/net452/MonoMod.ILHelpers.dll",
+        "lib/net452/MonoMod.ILHelpers.pdb",
+        "lib/net5.0/MonoMod.ILHelpers.dll",
+        "lib/net5.0/MonoMod.ILHelpers.pdb",
+        "lib/net6.0/MonoMod.ILHelpers.dll",
+        "lib/net6.0/MonoMod.ILHelpers.pdb",
+        "lib/net7.0/MonoMod.ILHelpers.dll",
+        "lib/net7.0/MonoMod.ILHelpers.pdb",
+        "lib/net8.0/MonoMod.ILHelpers.dll",
+        "lib/net8.0/MonoMod.ILHelpers.pdb",
+        "lib/netcoreapp2.1/MonoMod.ILHelpers.dll",
+        "lib/netcoreapp2.1/MonoMod.ILHelpers.pdb",
+        "lib/netcoreapp3.0/MonoMod.ILHelpers.dll",
+        "lib/netcoreapp3.0/MonoMod.ILHelpers.pdb",
+        "lib/netcoreapp3.1/MonoMod.ILHelpers.dll",
+        "lib/netcoreapp3.1/MonoMod.ILHelpers.pdb",
+        "lib/netstandard2.0/MonoMod.ILHelpers.dll",
+        "lib/netstandard2.0/MonoMod.ILHelpers.pdb",
+        "lib/netstandard2.1/MonoMod.ILHelpers.dll",
+        "lib/netstandard2.1/MonoMod.ILHelpers.pdb",
+        "monomod.ilhelpers.1.1.0.nupkg.sha512",
+        "monomod.ilhelpers.nuspec"
+      ]
+    },
+    "MonoMod.RuntimeDetour/25.3.0": {
+      "sha512": "FdT1xWHpk5u0Fbq/v857MG16pI/BII+IJx9JqqTKXdJkey1ysXCK7wgPaFWwWO4I0q4Eg8rIhgZJXuCMt5YWAg==",
+      "type": "package",
+      "path": "monomod.runtimedetour/25.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "buildTransitive/MonoMod.CheckTargetRuntime.targets",
+        "buildTransitive/MonoMod.RuntimeDetour.targets",
+        "icon.png",
+        "lib/net35/MonoMod.RuntimeDetour.dll",
+        "lib/net35/MonoMod.RuntimeDetour.pdb",
+        "lib/net35/MonoMod.RuntimeDetour.xml",
+        "lib/net452/MonoMod.RuntimeDetour.dll",
+        "lib/net452/MonoMod.RuntimeDetour.pdb",
+        "lib/net452/MonoMod.RuntimeDetour.xml",
+        "lib/net5.0/MonoMod.RuntimeDetour.dll",
+        "lib/net5.0/MonoMod.RuntimeDetour.pdb",
+        "lib/net5.0/MonoMod.RuntimeDetour.xml",
+        "lib/net6.0/MonoMod.RuntimeDetour.dll",
+        "lib/net6.0/MonoMod.RuntimeDetour.pdb",
+        "lib/net6.0/MonoMod.RuntimeDetour.xml",
+        "lib/net7.0/MonoMod.RuntimeDetour.dll",
+        "lib/net7.0/MonoMod.RuntimeDetour.pdb",
+        "lib/net7.0/MonoMod.RuntimeDetour.xml",
+        "lib/net8.0/MonoMod.RuntimeDetour.dll",
+        "lib/net8.0/MonoMod.RuntimeDetour.pdb",
+        "lib/net8.0/MonoMod.RuntimeDetour.xml",
+        "lib/net9.0/MonoMod.RuntimeDetour.dll",
+        "lib/net9.0/MonoMod.RuntimeDetour.pdb",
+        "lib/net9.0/MonoMod.RuntimeDetour.xml",
+        "lib/netstandard2.0/MonoMod.RuntimeDetour.dll",
+        "lib/netstandard2.0/MonoMod.RuntimeDetour.pdb",
+        "lib/netstandard2.0/MonoMod.RuntimeDetour.xml",
+        "monomod.runtimedetour.25.3.0.nupkg.sha512",
+        "monomod.runtimedetour.nuspec"
+      ]
+    },
+    "MonoMod.Utils/25.0.8": {
+      "sha512": "8wfyawgvGqUvfchAj7/gPazAjXO8CWNyXH+C0az+hgJH/80zVL5LxDhQMz0NQTyoCEJWU6gNBGc7CL+G7vCbaQ==",
+      "type": "package",
+      "path": "monomod.utils/25.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net35/MonoMod.Utils.dll",
+        "lib/net35/MonoMod.Utils.pdb",
+        "lib/net35/MonoMod.Utils.xml",
+        "lib/net452/MonoMod.Utils.dll",
+        "lib/net452/MonoMod.Utils.pdb",
+        "lib/net452/MonoMod.Utils.xml",
+        "lib/net5.0/MonoMod.Utils.dll",
+        "lib/net5.0/MonoMod.Utils.pdb",
+        "lib/net5.0/MonoMod.Utils.xml",
+        "lib/net6.0/MonoMod.Utils.dll",
+        "lib/net6.0/MonoMod.Utils.pdb",
+        "lib/net6.0/MonoMod.Utils.xml",
+        "lib/net7.0/MonoMod.Utils.dll",
+        "lib/net7.0/MonoMod.Utils.pdb",
+        "lib/net7.0/MonoMod.Utils.xml",
+        "lib/net8.0/MonoMod.Utils.dll",
+        "lib/net8.0/MonoMod.Utils.pdb",
+        "lib/net8.0/MonoMod.Utils.xml",
+        "lib/net9.0/MonoMod.Utils.dll",
+        "lib/net9.0/MonoMod.Utils.pdb",
+        "lib/net9.0/MonoMod.Utils.xml",
+        "lib/netstandard2.0/MonoMod.Utils.dll",
+        "lib/netstandard2.0/MonoMod.Utils.pdb",
+        "lib/netstandard2.0/MonoMod.Utils.xml",
+        "monomod.utils.25.0.8.nupkg.sha512",
+        "monomod.utils.nuspec"
+      ]
+    },
     "SemanticVersioning/3.0.0": {
       "sha512": "RR+8GbPQ/gjDqov/1QN1OPoUlbUruNwcL3WjWCeLw+MY7+od/ENhnkYxCfAC6rQLIu3QifaJt3kPYyP3RumqMQ==",
       "type": "package",
@@ -225,45 +694,59 @@
         "semanticversioning.nuspec"
       ]
     },
-    "SPTarkov.Common/4.0.3": {
-      "sha512": "lROprZmqP7SX4qNV5g+QUVzP+Wj25q47boJM4ejcgbWHLGGj8OCcqpB9Pvn9HYsCg8k/TvS3cRS008mQ1rltMg==",
+    "SPTarkov.Common/4.0.13": {
+      "sha512": "jlTE8OsQXpZJUYeGFcKI75MISG0o8DDURhgvuJX4oqMVSWTsYFdH8svR8aO9vJrR9l1JcvFv8igSGF8kgisYqA==",
       "type": "package",
-      "path": "sptarkov.common/4.0.3",
+      "path": "sptarkov.common/4.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "lib/net9.0/SPTarkov.Common.dll",
         "lib/net9.0/SPTarkov.Common.xml",
-        "sptarkov.common.4.0.3.nupkg.sha512",
+        "sptarkov.common.4.0.13.nupkg.sha512",
         "sptarkov.common.nuspec"
       ]
     },
-    "SPTarkov.DI/4.0.3": {
-      "sha512": "B2cPKgLZRoqlPt17N/mfG2z6WS8zrFJ499S7Xcn+JrPKg/ycaxeJQIDiNxaJdWPE3p1jZpEh9ywnDRW9zFKTnA==",
+    "SPTarkov.DI/4.0.13": {
+      "sha512": "mV5A4lgUFmIx+0NIIksEcQnK1mHtvBScArbQPpguzkBf3tr+dd3bL046xn4tf/eFGiBBUqm/NTuOsrhrVfbQ7w==",
       "type": "package",
-      "path": "sptarkov.di/4.0.3",
+      "path": "sptarkov.di/4.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "lib/net9.0/SPTarkov.DI.dll",
         "lib/net9.0/SPTarkov.DI.xml",
-        "sptarkov.di.4.0.3.nupkg.sha512",
+        "sptarkov.di.4.0.13.nupkg.sha512",
         "sptarkov.di.nuspec"
       ]
     },
-    "SPTarkov.Server.Core/4.0.3": {
-      "sha512": "jRNV3F0AtLp0OT0kfEYy/sepNBrywHlcHr+/wqeoqytZfHRnQtYoUxREYkX50qf2N3mUY8TbGv3YfnFELjeB/g==",
+    "SPTarkov.Reflection/4.0.13": {
+      "sha512": "DN1ohI9sZRLvHXBK6L9Sw0HiqDmvfXt3k/BOESBY9mLsBNZ4Ck3SJ7EguK43LQp6FLC3FNMG5pmFQ4K2lQZB/w==",
       "type": "package",
-      "path": "sptarkov.server.core/4.0.3",
+      "path": "sptarkov.reflection/4.0.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net9.0/SPTarkov.Reflection.dll",
+        "lib/net9.0/SPTarkov.Reflection.xml",
+        "sptarkov.reflection.4.0.13.nupkg.sha512",
+        "sptarkov.reflection.nuspec"
+      ]
+    },
+    "SPTarkov.Server.Core/4.0.13": {
+      "sha512": "UyChgcUgaW4mjHwlUk5ZdMFSnZsH7w4789EEGM8R2LP01/Bhdidbqcn5fr1Dkkc/HGw+KFBGPgEm3Y0psqGYEQ==",
+      "type": "package",
+      "path": "sptarkov.server.core/4.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "lib/net9.0/SPTarkov.Server.Core.dll",
         "lib/net9.0/SPTarkov.Server.Core.xml",
-        "sptarkov.server.core.4.0.3.nupkg.sha512",
+        "sptarkov.server.core.4.0.13.nupkg.sha512",
         "sptarkov.server.core.nuspec"
       ]
     },
@@ -295,27 +778,106 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "WTT-ServerCommonLib/2.0.0": {
-      "sha512": "1TpG1GoR6Hdui5Vbt4phYw47EQqnKQO4OZsHYLMMn/6KfiBMBMiacqgGQJqPQ3S9x6VMEbv892mmHJSODjfHdQ==",
+    "System.Reflection.Emit/4.7.0": {
+      "sha512": "VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
       "type": "package",
-      "path": "wtt-servercommonlib/2.0.0",
+      "path": "system.reflection.emit/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Reflection.Emit.dll",
+        "lib/netstandard1.1/System.Reflection.Emit.xml",
+        "lib/netstandard1.3/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.xml",
+        "lib/netstandard2.1/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Reflection.Emit.dll",
+        "ref/netstandard1.1/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/de/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/es/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/fr/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/it/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ja/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ko/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.xml",
+        "ref/netstandard2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.xml",
+        "system.reflection.emit.4.7.0.nupkg.sha512",
+        "system.reflection.emit.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Json/5.0.2": {
+      "sha512": "I47dVIGiV6SfAyppphxqupertT/5oZkYLDCX6vC3HpOI4ZLjyoKAreUoem2ie6G0RbRuFrlqz/PcTQjfb2DOfQ==",
+      "type": "package",
+      "path": "system.text.json/5.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.5.0.2.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "WTT-ServerCommonLib/2.0.20": {
+      "sha512": "/62LSJUx2cyKkVRdXGQQjTOuvza6ur9hDpMRfpFIOcsaaCjZ21doDVnLw6LbfJykaXiG/akQP3Q8xJRuEF9JCQ==",
+      "type": "package",
+      "path": "wtt-servercommonlib/2.0.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
+        "build/WTT-ServerCommonLib.props",
+        "content/Resources/db/CustomLocales/en.json",
+        "contentFiles/any/net9.0/Resources/db/CustomLocales/en.json",
         "lib/net9.0/WTT-ServerCommonLib.dll",
         "lib/net9.0/WTT-ServerCommonLib.xml",
-        "wtt-servercommonlib.2.0.0.nupkg.sha512",
+        "wtt-servercommonlib.2.0.20.nupkg.sha512",
         "wtt-servercommonlib.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "SPTarkov.Common >= 4.0.3",
-      "SPTarkov.DI >= 4.0.3",
-      "SPTarkov.Server.Core >= 4.0.3",
-      "WTT-ServerCommonLib >= 2.0.0"
+      "SPTarkov.Common >= 4.0.13",
+      "SPTarkov.DI >= 4.0.13",
+      "SPTarkov.Server.Core >= 4.0.13",
+      "WTT-ServerCommonLib >= 2.0.20"
     ]
   },
   "packageFolders": {
@@ -363,19 +925,19 @@
         "dependencies": {
           "SPTarkov.Common": {
             "target": "Package",
-            "version": "[4.0.3, )"
+            "version": "[4.0.13, )"
           },
           "SPTarkov.DI": {
             "target": "Package",
-            "version": "[4.0.3, )"
+            "version": "[4.0.13, )"
           },
           "SPTarkov.Server.Core": {
             "target": "Package",
-            "version": "[4.0.3, )"
+            "version": "[4.0.13, )"
           },
           "WTT-ServerCommonLib": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "[2.0.20, )"
           }
         },
         "imports": [

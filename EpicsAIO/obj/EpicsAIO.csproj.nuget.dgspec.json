@@ -46,19 +46,19 @@
           "dependencies": {
             "SPTarkov.Common": {
               "target": "Package",
-              "version": "[4.0.3, )"
+              "version": "[4.0.13, )"
             },
             "SPTarkov.DI": {
               "target": "Package",
-              "version": "[4.0.3, )"
+              "version": "[4.0.13, )"
             },
             "SPTarkov.Server.Core": {
               "target": "Package",
-              "version": "[4.0.3, )"
+              "version": "[4.0.13, )"
             },
             "WTT-ServerCommonLib": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.0.20, )"
             }
           },
           "imports": [

@@ -7,6 +7,56 @@
       ]
     },
     {
+      "key": "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_12,25.bundle",
+      "dependencyKeys": [
+        "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_25_black.bundle",
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_12,25_lower.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_12,25.bundle",
+        "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_25_black.bundle",
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_9,5.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_9,5_blk.bundle",
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_9,5_blk.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_9,5_lower.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_9,5_blk.bundle",
+        "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_9,5.bundle",
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_9,5_lower_blk.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_9,5_blk.bundle",
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_fsp_9,5.bundle",
+      "dependencyKeys": [
+        "mods/ar15_handguards/dd_risii_handguards/ris_ii_9_5_fsp_black.bundle",
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
       "key": "assets/content/items/mods/handguards/handguard_ar15_geissele_smr_mk16_135_inch.bundle",
       "dependencyKeys": [
         "epic_aio_shaders.bundle"
@@ -532,26 +582,64 @@
       ]
     },
     {
-      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_fsp.bundle",
+      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_25_black.bundle",
       "dependencyKeys": [
         "epic_aio_shaders.bundle"
       ]
     },
     {
-      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_fsp_black.bundle",
+      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_25_l_black.bundle",
+      "dependencyKeys": [
+        "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_25_black.bundle",
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_5_fsp.bundle",
+      "dependencyKeys": [
+        "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_5_fsp_black.bundle",
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_5_fsp_black.bundle",
       "dependencyKeys": [
         "epic_aio_shaders.bundle"
       ]
     },
     {
-      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_fspl.bundle",
+      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_5_fspl.bundle",
+      "dependencyKeys": [
+        "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_5_fsp.bundle",
+        "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_5_fsp_black.bundle",
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_5_fspl_black.bundle",
+      "dependencyKeys": [
+        "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_5_fsp_black.bundle",
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_9_5_fsp_black.bundle",
       "dependencyKeys": [
         "epic_aio_shaders.bundle"
       ]
     },
     {
-      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_fspl_black.bundle",
+      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_9_5_fspl.bundle",
       "dependencyKeys": [
+        "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_fsp_9,5.bundle",
+        "mods/ar15_handguards/dd_risii_handguards/ris_ii_9_5_fsp_black.bundle",
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_9_5_fspl_black.bundle",
+      "dependencyKeys": [
+        "mods/ar15_handguards/dd_risii_handguards/ris_ii_9_5_fsp_black.bundle",
         "epic_aio_shaders.bundle"
       ]
     },

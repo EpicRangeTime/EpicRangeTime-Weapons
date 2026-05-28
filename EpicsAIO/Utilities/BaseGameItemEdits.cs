@@ -4,13 +4,15 @@ using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Services;
+using WTTServerCommonLib.Helpers;
 
 namespace EpicsAIO.Utilities;
 
 [Injectable(typePriority: OnLoadOrder.PostDBModLoader + 3)]
 public class BaseGameItemEdits(
     ISptLogger<BaseGameItemEdits> logger,
-    DatabaseService databaseService
+    DatabaseService databaseService,
+    SlotHelper slotHelper
 ):IOnLoad
 {
     public Task OnLoad()
@@ -1007,6 +1009,50 @@ public class BaseGameItemEdits(
                 case "615d8d878004cc50514c3233":
                     item.Properties!.ConflictingItems = [];
                     break; //Clear conflicting items on B&T ACRO NAR mount
+                case "55f84c3c4bdc2d5f408b4576":
+                    slotHelper.EnsureSlot(item, "mod_tactical_003", "55d30c4c4bdc2db4468b457e", false, false, 0);
+                    slotHelper.EnsureSlot(item, "mod_tactical_004", "55d30c4c4bdc2db4468b457e", false, false, 0);
+                    slotHelper.AddIdsToNamedSlot(item, "mod_tactical_003",
+                        "6a17976b6252dc8bcb000001",
+                        "68b26fcb9db8d58487000001");
+                    slotHelper.AddIdsToNamedSlot(item, "mod_tactical_004",
+                        "6a17976b6252dc8bcb000001",
+                        "68b26fcb9db8d58487000001");
+                    break; //Add rail cover slots to RIS II 9.5 CB
+                case "588b56d02459771481110ae2":
+                    slotHelper.EnsureSlot(item, "mod_tactical_003", "55d30c4c4bdc2db4468b457e", false, false, 0);
+                    slotHelper.EnsureSlot(item, "mod_tactical_004", "55d30c4c4bdc2db4468b457e", false, false, 0);
+                    slotHelper.AddIdsToNamedSlot(item, "mod_tactical_003",
+                        "6a17976b6252dc8bcb000001",
+                        "68b26fcb9db8d58487000001");
+                    slotHelper.AddIdsToNamedSlot(item, "mod_tactical_004",
+                        "6a17976b6252dc8bcb000001",
+                        "68b26fcb9db8d58487000001");
+                    break; //Add rail cover slots to RIS II 9.5 CB
+                case "5c9a25172e2216000f20314e":
+                    slotHelper.EnsureSlot(item, "mod_tactical_003", "55d30c4c4bdc2db4468b457e", false, false, 0);
+                    slotHelper.EnsureSlot(item, "mod_tactical_004", "55d30c4c4bdc2db4468b457e", false, false, 0);
+                    slotHelper.AddIdsToNamedSlot(item, "mod_tactical_003",
+                        "6a17976b6252dc8bcb000001",
+                        "68b26fcb9db8d58487000001");
+                    slotHelper.AddIdsToNamedSlot(item, "mod_tactical_004",
+                        "6a17976b6252dc8bcb000001",
+                        "68b26fcb9db8d58487000001");
+                    break; //Add rail cover slots to RIS II 12.25 CB
+                case "5c9a26332e2216001219ea70":
+                    item.Properties!.ConflictingItems = [];
+                    slotHelper.EnsureSlot(item, "mod_tactical_003", "55d30c4c4bdc2db4468b457e", false, false, 0);
+                    slotHelper.EnsureSlot(item, "mod_tactical_004", "55d30c4c4bdc2db4468b457e", false, false, 0);
+                    slotHelper.AddIdsToNamedSlot(item, "mod_tactical_003",
+                        "6a17976b6252dc8bcb000001",
+                        "68b26fcb9db8d58487000001");
+                    slotHelper.AddIdsToNamedSlot(item, "mod_tactical_004",
+                        "6a17976b6252dc8bcb000001",
+                        "68b26fcb9db8d58487000001");//Add rail cover slots to RIS II 9.5 CB
+                    ReplaceSlotFilters(item, 0, 0, [
+                    "6a1889fce506c69d80000001",
+                    "6a17d1bd98c6bf6da000000c"]);//Replace foregrip slot with handguards
+                    break;
             }
         }
     }
