@@ -1053,6 +1053,14 @@ public class BaseGameItemEdits(
                     "6a1889fce506c69d80000001",
                     "6a17d1bd98c6bf6da000000c"]);//Replace foregrip slot with handguards
                     break;
+                case "55d459824bdc2d892f8b4573":
+                    ModifySlotFilters(item, 1, 0, [
+                        "68b26fcb9db8d58487000001",
+                        "6a17976b6252dc8bcb000001"]);
+                    ModifySlotFilters(item, 3, 0, [
+                        "68b26fcb9db8d58487000001",
+                        "6a17976b6252dc8bcb000001"]);
+                    break; //Push KAC rail panels to KAC RIS rail
             }
         }
     }
