@@ -110,29 +110,25 @@
     {
       "key": "assets/content/items/mods/magazines/mag_m14_springfield_armory_762x51_10.bundle",
       "dependencyKeys": [
-        "shaders",
-        "epic_aio_shaders.bundle"
+        "shaders"
       ]
     },
     {
       "key": "assets/content/items/mods/magazines/mag_m14_springfield_armory_762x51_20.bundle",
       "dependencyKeys": [
-        "shaders",
-        "epic_aio_shaders.bundle"
+        "shaders"
       ]
     },
     {
       "key": "assets/content/items/mods/magazines/mag_m14_triple_k_m14_magazine_762x51_30.bundle",
       "dependencyKeys": [
-        "shaders",
-        "epic_aio_shaders.bundle"
+        "shaders"
       ]
     },
     {
       "key": "assets/content/items/mods/magazines/mag_m14_x_products_drum_magazine_m14_762x51_50.bundle",
       "dependencyKeys": [
-        "shaders",
-        "epic_aio_shaders.bundle"
+        "shaders"
       ]
     },
     {
@@ -228,6 +224,10 @@
     },
     {
       "key": "epicaio_common_meshes.bundle",
+      "dependencyKeys": []
+    },
+    {
+      "key": "epicaio_common_textures.bundle",
       "dependencyKeys": []
     },
     {
@@ -1669,163 +1669,184 @@
     {
       "key": "mods/lasers/cqbl_1_blk.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
         "assets/systems/effects/laserbeam/laser.bundle",
         "shaders",
+        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_meshes.bundle",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/lasers/cqbl_1_fde.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
         "assets/systems/effects/laserbeam/laser.bundle",
         "shaders",
+        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_meshes.bundle",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/lasers/dbal_a2_black.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
         "assets/systems/effects/laserbeam/laser.bundle",
         "shaders",
+        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_textures.bundle",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/lasers/dbal_a3_black.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
         "assets/systems/effects/laserbeam/laser.bundle",
         "shaders",
+        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_textures.bundle",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/lasers/dbal_d2_fde.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
         "assets/systems/effects/laserbeam/laser.bundle",
         "shaders",
-        "assets/content/textures/holemanager/glow_particle_bright.bundle",
+        "assets/systems/effects/collimator.bundle",
         "epic_aio_shaders.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "epicaio_common_textures.bundle",
+        "assets/content/textures/holemanager/glow_particle_bright.bundle"
       ]
     },
     {
       "key": "mods/lasers/dbal_i2_black.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
         "assets/systems/effects/laserbeam/laser.bundle",
         "shaders",
+        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_meshes.bundle",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/lasers/dbal_i2_fde.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_meshes.bundle",
         "assets/systems/effects/laserbeam/laser.bundle",
         "shaders",
+        "assets/systems/effects/collimator.bundle",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "epic_aio_shaders.bundle",
+        "mods/lasers/dbal_i2_black.bundle"
       ]
     },
     {
       "key": "mods/lasers/eotech_ogl_black.bundle",
       "dependencyKeys": [
-        "mods/lasers/eotech_ogl_fde.bundle",
-        "assets/systems/effects/collimator.bundle",
-        "assets/systems/effects/laserbeam/laser.bundle",
+        "epicaio_common_meshes.bundle",
         "shaders",
+        "assets/systems/effects/laserbeam/laser.bundle",
+        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_textures.bundle",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/lasers/eotech_ogl_fde.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
         "assets/systems/effects/laserbeam/laser.bundle",
         "shaders",
+        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_meshes.bundle",
+        "epicaio_common_textures.bundle",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle",
+        "epic_aio_shaders.bundle",
         "mods/lasers/eotech_ogl_black.bundle"
       ]
     },
     {
       "key": "mods/lasers/l3_ngal_fp_la23_peq.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
         "assets/systems/effects/laserbeam/laser.bundle",
         "shaders",
+        "assets/systems/effects/collimator.bundle",
+        "epic_aio_shaders.bundle",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/lasers/otal_c_blk_ir.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
-        "assets/systems/effects/laserbeam/laser.bundle",
         "shaders",
+        "assets/systems/effects/laserbeam/laser.bundle",
+        "assets/systems/effects/collimator.bundle",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "epicaio_common_meshes.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/lasers/otal_c_blk_vis_red.bundle",
       "dependencyKeys": [
+        "epicaio_common_meshes.bundle",
+        "mods/lasers/otal_c_blk_ir.bundle",
+        "epic_aio_shaders.bundle",
         "assets/systems/effects/laserbeam/laser.bundle",
-        "shaders",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "shaders"
       ]
     },
     {
       "key": "mods/lasers/otal_c_fde_grn_vis.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
-        "assets/systems/effects/laserbeam/laser.bundle",
+        "epicaio_common_meshes.bundle",
+        "mods/lasers/otal_c_blk_ir.bundle",
+        "epic_aio_shaders.bundle",
         "shaders",
-        "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "assets/systems/effects/laserbeam/laser.bundle",
+        "assets/systems/effects/collimator.bundle",
+        "assets/content/textures/holemanager/glow_particle_bright.bundle"
       ]
     },
     {
       "key": "mods/lasers/otal_c_fde_ir.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
-        "assets/systems/effects/laserbeam/laser.bundle",
+        "epicaio_common_meshes.bundle",
         "shaders",
+        "assets/systems/effects/laserbeam/laser.bundle",
+        "assets/systems/effects/collimator.bundle",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "mods/lasers/otal_c_blk_ir.bundle",
+        "epic_aio_shaders.bundle",
+        "mods/lasers/otal_c_fde_grn_vis.bundle"
       ]
     },
     {
       "key": "mods/lasers/perst_4_laser.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
-        "assets/systems/effects/laserbeam/laser.bundle",
         "shaders",
+        "assets/systems/effects/laserbeam/laser.bundle",
+        "assets/systems/effects/collimator.bundle",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/lasers/phantom_ctf_2.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_textures.bundle",
+        "epic_aio_shaders.bundle",
         "assets/systems/effects/laserbeam/laser.bundle",
         "shaders",
+        "assets/systems/effects/collimator.bundle",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "assets/systems/effects/nightvision.bundle"
+        "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle"
       ]
     },
     {
@@ -2089,25 +2110,28 @@
     {
       "key": "mods/mounts/dbal_i2_acro.bundle",
       "dependencyKeys": [
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/mounts/dbal_i2_docter.bundle",
       "dependencyKeys": [
-        "shaders"
+        "mods/mounts/dbal_i2_acro.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/mounts/dbal_i2_leaf.bundle",
       "dependencyKeys": [
-        "shaders"
+        "mods/mounts/dbal_i2_acro.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/mounts/dbal_i2_rmr.bundle",
       "dependencyKeys": [
-        "shaders"
+        "mods/mounts/dbal_i2_acro.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -2596,40 +2620,6 @@
       ]
     },
     {
-      "key": "mods/red_dots/reticle_lens_attachment.bundle",
-      "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
-        "shaders",
-        "assets/content/textures/holemanager/round_spec_mask.bundle"
-      ]
-    },
-    {
-      "key": "mods/red_dots/reticle_lens_attachment_test.bundle",
-      "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
-        "shaders",
-        "assets/content/textures/holemanager/round_spec_mask.bundle"
-      ]
-    },
-    {
-      "key": "mods/red_dots/romeo9t_blk.bundle",
-      "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
-        "shaders",
-        "assets/content/textures/holemanager/round_spec_mask.bundle",
-        "assets/commonassets/physics/physicsmaterials.bundle"
-      ]
-    },
-    {
-      "key": "mods/red_dots/romeo9t_fde.bundle",
-      "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
-        "shaders",
-        "assets/content/textures/holemanager/round_spec_mask.bundle",
-        "assets/commonassets/physics/physicsmaterials.bundle"
-      ]
-    },
-    {
       "key": "mods/red_dots/steiner_r1x.bundle",
       "dependencyKeys": [
         "assets/systems/effects/collimator.bundle",
@@ -2643,12 +2633,6 @@
         "assets/systems/effects/collimator.bundle",
         "shaders",
         "assets/content/textures/holemanager/round_spec_mask.bundle"
-      ]
-    },
-    {
-      "key": "mods/red_dots/trijicon_rx01.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle"
       ]
     },
     {
