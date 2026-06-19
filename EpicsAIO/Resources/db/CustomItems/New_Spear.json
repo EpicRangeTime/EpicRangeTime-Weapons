@@ -78,7 +78,6 @@
             "_id": "ede9189cfe8af0b323c54557",
             "_tpl": "8d59d8b10a4c2e85b871c317",
             "upd": {
-              "StackObjectsCount": 99,
               "Repairable": {
                 "MaxDurability": 100,
                 "Durability": 100
