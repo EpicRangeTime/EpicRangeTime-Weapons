@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EpicsAIO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("4.0.8.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("4.0.8+eb503470436125b477d0747598b384f7be8048cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("4.0.8+904ed98e7eb0d3b083a602d7090a14f06f4a9e0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EpicsAIO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EpicsAIO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("4.0.8.0")]
