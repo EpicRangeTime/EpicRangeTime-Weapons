@@ -2849,9 +2849,9 @@
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
         "shaders",
+        "mods/scopes/ta31_black_amber_300.bundle",
         "epic_aio_shaders.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "mods/scopes/ta31_black_amber_300.bundle"
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
@@ -2859,9 +2859,9 @@
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
         "shaders",
+        "mods/scopes/ta31_black_amber_300.bundle",
         "epic_aio_shaders.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "mods/scopes/ta31_black_amber_300.bundle"
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
@@ -2869,9 +2869,9 @@
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
         "shaders",
+        "mods/scopes/ta31_black_amber_300.bundle",
         "epic_aio_shaders.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "mods/scopes/ta31_black_amber_300.bundle"
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
@@ -2879,19 +2879,19 @@
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
         "shaders",
+        "mods/scopes/ta31_black_amber_300.bundle",
         "epic_aio_shaders.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "mods/scopes/ta31_black_amber_300.bundle"
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
       "key": "mods/scopes/ta31_black_green_horseshoe.bundle",
       "dependencyKeys": [
-        "epicaio_common_meshes.bundle",
         "shaders",
+        "epicaio_common_meshes.bundle",
+        "mods/scopes/ta31_black_amber_300.bundle",
         "epic_aio_shaders.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "mods/scopes/ta31_black_amber_300.bundle"
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
@@ -2899,19 +2899,19 @@
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
         "shaders",
+        "mods/scopes/ta31_black_amber_300.bundle",
         "epic_aio_shaders.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "mods/scopes/ta31_black_amber_300.bundle"
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
       "key": "mods/scopes/ta31_black_red_chev.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
-        "shaders",
+        "mods/scopes/ta31_black_amber_300.bundle",
         "epic_aio_shaders.bundle",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "mods/scopes/ta31_black_amber_300.bundle"
+        "shaders"
       ]
     },
     {
@@ -2919,9 +2919,9 @@
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
         "shaders",
+        "mods/scopes/ta31_black_amber_300.bundle",
         "epic_aio_shaders.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "mods/scopes/ta31_black_amber_300.bundle"
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
@@ -2929,9 +2929,9 @@
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
         "shaders",
+        "mods/scopes/ta31_black_amber_300.bundle",
         "epic_aio_shaders.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "mods/scopes/ta31_black_amber_300.bundle"
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
@@ -2939,9 +2939,9 @@
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
         "shaders",
+        "mods/scopes/ta31_black_amber_300.bundle",
         "epic_aio_shaders.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "mods/scopes/ta31_black_amber_300.bundle"
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
@@ -2949,10 +2949,10 @@
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
         "shaders",
-        "epic_aio_shaders.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+        "mods/scopes/ta31_tan_amber_300.bundle",
         "mods/scopes/ta31_black_amber_300.bundle",
-        "mods/scopes/ta31_tan_amber_300.bundle"
+        "epic_aio_shaders.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
@@ -2960,10 +2960,10 @@
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
         "shaders",
-        "epic_aio_shaders.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+        "mods/scopes/ta31_tan_amber_300.bundle",
         "mods/scopes/ta31_black_amber_300.bundle",
-        "mods/scopes/ta31_tan_amber_300.bundle"
+        "epic_aio_shaders.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
@@ -2971,10 +2971,10 @@
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
         "shaders",
-        "epic_aio_shaders.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+        "mods/scopes/ta31_tan_amber_300.bundle",
         "mods/scopes/ta31_black_amber_300.bundle",
-        "mods/scopes/ta31_tan_amber_300.bundle"
+        "epic_aio_shaders.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
@@ -2982,10 +2982,10 @@
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
         "shaders",
-        "epic_aio_shaders.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+        "mods/scopes/ta31_tan_amber_300.bundle",
         "mods/scopes/ta31_black_amber_300.bundle",
-        "mods/scopes/ta31_tan_amber_300.bundle"
+        "epic_aio_shaders.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
@@ -2993,31 +2993,31 @@
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
         "shaders",
-        "epic_aio_shaders.bundle",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+        "mods/scopes/ta31_tan_amber_300.bundle",
         "mods/scopes/ta31_black_amber_300.bundle",
-        "mods/scopes/ta31_tan_amber_300.bundle"
+        "epic_aio_shaders.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
       "key": "mods/scopes/ta31_tan_red_300.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
-        "shaders",
+        "mods/scopes/ta31_black_amber_300.bundle",
         "epic_aio_shaders.bundle",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "mods/scopes/ta31_black_amber_300.bundle",
+        "shaders",
         "mods/scopes/ta31_tan_amber_300.bundle"
       ]
     },
     {
       "key": "mods/scopes/ta31_tan_red_chev.bundle",
       "dependencyKeys": [
-        "epicaio_common_meshes.bundle",
         "shaders",
+        "epicaio_common_meshes.bundle",
+        "mods/scopes/ta31_black_amber_300.bundle",
         "epic_aio_shaders.bundle",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "mods/scopes/ta31_black_amber_300.bundle",
         "mods/scopes/ta31_tan_amber_300.bundle"
       ]
     },
@@ -3025,10 +3025,10 @@
       "key": "mods/scopes/ta31_tan_red_cross.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
-        "shaders",
+        "mods/scopes/ta31_black_amber_300.bundle",
         "epic_aio_shaders.bundle",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "mods/scopes/ta31_black_amber_300.bundle",
+        "shaders",
         "mods/scopes/ta31_tan_amber_300.bundle"
       ]
     },
@@ -3036,10 +3036,10 @@
       "key": "mods/scopes/ta31_tan_red_horseshoe.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
-        "shaders",
+        "mods/scopes/ta31_black_amber_300.bundle",
         "epic_aio_shaders.bundle",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "mods/scopes/ta31_black_amber_300.bundle",
+        "shaders",
         "mods/scopes/ta31_tan_amber_300.bundle"
       ]
     },
@@ -3076,6 +3076,7 @@
       "key": "mods/scopes/vortex_spitfire_5x.bundle",
       "dependencyKeys": [
         "shaders",
+        "epicaio_common_meshes.bundle",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },

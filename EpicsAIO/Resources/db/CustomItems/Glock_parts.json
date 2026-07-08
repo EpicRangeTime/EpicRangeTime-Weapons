@@ -155,11 +155,11 @@
       },
       {
         "containerName": "LOOTCONTAINER_TECHNICAL_SUPPLY_CRATE",
-        "probability": 2800
+        "probability": 2500
       },
       {
         "containerName": "LOOTCONTAINER_TOOLBOX",
-        "probability": 2800
+        "probability": 2500
       }
     ],
     "masteries": false,
@@ -291,11 +291,11 @@
       },
       {
         "containerName": "LOOTCONTAINER_TECHNICAL_SUPPLY_CRATE",
-        "probability": 2800
+        "probability": 2500
       },
       {
         "containerName": "LOOTCONTAINER_TOOLBOX",
-        "probability": 2800
+        "probability": 2500
       }
     ],
     "masteries": false,
@@ -395,11 +395,11 @@
       },
       {
         "containerName": "LOOTCONTAINER_TECHNICAL_SUPPLY_CRATE",
-        "probability": 2800
+        "probability": 2500
       },
       {
         "containerName": "LOOTCONTAINER_TOOLBOX",
-        "probability": 2800
+        "probability": 2500
       }
     ],
     "masteries": false,
@@ -497,11 +497,11 @@
       },
       {
         "containerName": "LOOTCONTAINER_TECHNICAL_SUPPLY_CRATE",
-        "probability": 2800
+        "probability": 2500
       },
       {
         "containerName": "LOOTCONTAINER_TOOLBOX",
-        "probability": 2800
+        "probability": 2500
       }
     ],
     "masteries": false,
@@ -599,11 +599,11 @@
       },
       {
         "containerName": "LOOTCONTAINER_TECHNICAL_SUPPLY_CRATE",
-        "probability": 2800
+        "probability": 2500
       },
       {
         "containerName": "LOOTCONTAINER_TOOLBOX",
-        "probability": 2800
+        "probability": 2500
       }
     ],
     "masteries": false,
@@ -701,11 +701,11 @@
       },
       {
         "containerName": "LOOTCONTAINER_TECHNICAL_SUPPLY_CRATE",
-        "probability": 2800
+        "probability": 2500
       },
       {
         "containerName": "LOOTCONTAINER_TOOLBOX",
-        "probability": 2800
+        "probability": 2500
       }
     ],
     "masteries": false,
@@ -803,11 +803,11 @@
       },
       {
         "containerName": "LOOTCONTAINER_TECHNICAL_SUPPLY_CRATE",
-        "probability": 2800
+        "probability": 2500
       },
       {
         "containerName": "LOOTCONTAINER_TOOLBOX",
-        "probability": 2800
+        "probability": 2500
       }
     ],
     "masteries": false,
@@ -905,11 +905,11 @@
       },
       {
         "containerName": "LOOTCONTAINER_TECHNICAL_SUPPLY_CRATE",
-        "probability": 2800
+        "probability": 2500
       },
       {
         "containerName": "LOOTCONTAINER_TOOLBOX",
-        "probability": 2800
+        "probability": 2500
       }
     ],
     "masteries": false,
@@ -1005,11 +1005,11 @@
       },
       {
         "containerName": "LOOTCONTAINER_TECHNICAL_SUPPLY_CRATE",
-        "probability": 2800
+        "probability": 2500
       },
       {
         "containerName": "LOOTCONTAINER_TOOLBOX",
-        "probability": 2800
+        "probability": 2500
       }
     ],
     "masteries": false,

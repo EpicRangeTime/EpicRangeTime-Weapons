@@ -37,27 +37,27 @@
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WOODEN_CRATE",
-        "probability": 1650
+        "probability": 1200
       }
     ],
     "masteries": false,
@@ -119,27 +119,27 @@
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WOODEN_CRATE",
-        "probability": 1650
+        "probability": 1200
       }
     ],
     "masteries": false,
@@ -200,27 +200,27 @@
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WOODEN_CRATE",
-        "probability": 1650
+        "probability": 1200
       }
     ],
     "masteries": false,
@@ -281,27 +281,27 @@
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 1650
+        "probability": 1200
       },
       {
         "containerName": "LOOTCONTAINER_WOODEN_CRATE",
-        "probability": 1650
+        "probability": 1200
       }
     ],
     "masteries": false,

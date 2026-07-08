@@ -55,7 +55,7 @@
       },
       {
         "containerName": "LOOTCONTAINER_GROUND_CACHE",
-        "probability": 1000
+        "probability": 700
       },
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
@@ -151,7 +151,7 @@
       },
       {
         "containerName": "LOOTCONTAINER_GROUND_CACHE",
-        "probability": 1000
+        "probability": 700
       },
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
@@ -247,7 +247,7 @@
       },
       {
         "containerName": "LOOTCONTAINER_GROUND_CACHE",
-        "probability": 1000
+        "probability": 700
       },
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
@@ -343,7 +343,7 @@
       },
       {
         "containerName": "LOOTCONTAINER_GROUND_CACHE",
-        "probability": 1000
+        "probability": 700
       },
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
@@ -439,7 +439,7 @@
       },
       {
         "containerName": "LOOTCONTAINER_GROUND_CACHE",
-        "probability": 1000
+        "probability": 700
       },
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
@@ -535,7 +535,7 @@
       },
       {
         "containerName": "LOOTCONTAINER_GROUND_CACHE",
-        "probability": 1000
+        "probability": 700
       },
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
@@ -631,7 +631,7 @@
       },
       {
         "containerName": "LOOTCONTAINER_GROUND_CACHE",
-        "probability": 1000
+        "probability": 700
       },
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
@@ -727,7 +727,7 @@
       },
       {
         "containerName": "LOOTCONTAINER_GROUND_CACHE",
-        "probability": 1000
+        "probability": 700
       },
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
@@ -823,7 +823,7 @@
       },
       {
         "containerName": "LOOTCONTAINER_GROUND_CACHE",
-        "probability": 1000
+        "probability": 700
       },
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
@@ -919,7 +919,7 @@
       },
       {
         "containerName": "LOOTCONTAINER_GROUND_CACHE",
-        "probability": 1000
+        "probability": 700
       },
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
@@ -1015,7 +1015,7 @@
       },
       {
         "containerName": "LOOTCONTAINER_GROUND_CACHE",
-        "probability": 1000
+        "probability": 700
       },
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
