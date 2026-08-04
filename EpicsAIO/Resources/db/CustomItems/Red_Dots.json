@@ -822,5 +822,110 @@
         ]
       }
     ]
+  },
+  "8141dda48ee834e98dc52e7c": {
+    "itemTplToClone": "570fd6c2d2720bc6458b457f",
+    "parentId": "55818ad54bdc2ddc698b4569",
+    "handbookParentId": "5b5f742686f774093e6cb4ff",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/red_dots/eotech_551.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.25,
+      "Ergonomics": -2,
+      "ConflictingItems": [
+        "5d0a3a58d7ad1a669c15ca14",
+        "5d0a3e8cd7ad1a6f6a3d35bd",
+        "5dff772da3651922b360bf91",
+        "61714eec290d254f5e6b2ffc",
+        "617151c1d92c473c770214ab",
+        "618ba27d9008e4636a67f61d",
+        "62850c28da09541f43158cca",
+        "6567e7681265c8a131069b0f",
+        "56ea70acd2720b844b8b4594",
+        "57c5ac0824597754771e88a9",
+        "5a37cb10c4a282329a73b4e7",
+        "5a7c74b3e899ef0014332c29",
+        "5aa66be6e5b5b0214e506e97",
+        "5b2388675acfc4771e1be0be",
+        "5b3b99475acfc432ff4dcbee",
+        "5bfd4c980db834001b73449d"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "EOTech 551 holographic sight",
+        "shortName": "551",
+        "description": "The EoTech 551 is a holographic daytime weapon sight that is night vision compatible. Fast and surgically precise sight acquisition is possible, without compromising your 'heads-up' peripheral vision."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 37000,
+    "handbookPriceRoubles": 21000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "695231b355c87ecb5c5b2fa1": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 322,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
   }
 }

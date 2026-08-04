@@ -1,0 +1,703 @@
+{
+  "ad1cf831c58d87a294fe64d0": {
+    "itemTplToClone": "5926d3c686f77410de68ebc8",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/mp5/mp5_acr_stock.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 7.5
+    },
+    "locales": {
+      "en": {
+        "name": "HK MP5 Magpul ACR stock",
+        "shortName": "MP5 ACR",
+        "description": "With this MP5 ACR combo stock you will add the capability of an adjustable cheek rest and length of pull. With folding capability you will still have the compact length to store and conceal your MP5."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 34000,
+    "handbookPriceRoubles": 13500,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "695231b355c87ecb5c5b2f7f": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 124,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "5f66e08d584ab061cc6dddab": {
+    "itemTplToClone": "5d2f259b48f0355a844acd74",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/mp5/sp5k_std_hg.bundle",
+        "rcid": ""
+      },
+      "ConflictingItems": [
+        "5a32a064c4a28200741e22de",
+        "5a9fb739a2750c003215717f",
+        "5c7e8fab2e22165df16b889b",
+        "5c07c5ed0db834001b73571c",
+        "615d8df08004cc50514c3236",
+        "59bffc1f86f77435b128b872"
+      ],
+      "Ergonomics": 9.5,
+      "Recoil": -1
+    },
+    "locales": {
+      "en": {
+        "name": "HK SP5K polymer handguard",
+        "shortName": "SP5K",
+        "description": "A polymer handguard for the SP5K 9mm carbine, manufactured by Heckler & Koch."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "fleaPriceRoubles": 8500,
+    "handbookPriceRoubles": 2400,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "695231b355c87ecb5c5b2f80": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 38,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "8aa910e170a2f2b192e2b04b": {
+    "itemTplToClone": "5d2f259b48f0355a844acd74",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/mp5/mp5k_prototype_hg.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 11,
+      "Recoil": -2.5
+    },
+    "locales": {
+      "en": {
+        "name": "HK MP5K Prototype handguard",
+        "shortName": "Proto",
+        "description": "The original handguard developed by Heckler and Koch for the MP5K when it was in its prototype phase. It was quickly replaced by other handguards but this one remained iconic for its looks in combination with the straight magazine also popular at the time."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "fleaPriceRoubles": 22000,
+    "handbookPriceRoubles": 3000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "695231b355c87ecb5c5b2f81": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 44,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "5212f88a5333bd554d1a25f1": {
+    "itemTplToClone": "5926c3b286f774640d189b6b",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/mp5/mp5_straight_waffle_mag.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "HK MP5 9x19 30-round waffle magazine",
+        "shortName": "Waffle",
+        "description": "The original straight style 30 round magazine heralded by Heckler and Koch in the 80s. Very cool, will go great with the prototype MP5K handguard."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "fleaPriceRoubles": 9400,
+    "handbookPriceRoubles": 4000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "695231b355c87ecb5c5b2f82": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 36,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "dc9e078ba13e848c475e7446": {
+    "itemTplToClone": "5926c36d86f77467a92a8629",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/mp5/mp5_slim_hg.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": 10.5
+    },
+    "locales": {
+      "en": {
+        "name": "HK MP5 Slimline polymer handguard",
+        "shortName": "Slimline",
+        "description": "A polymer handguard for the HK-produced MP5 SMGs, the so-called Slimline version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "fleaPriceRoubles": 12200,
+    "handbookPriceRoubles": 3200,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "695231b355c87ecb5c5b2f83": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 22,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "8f6b1094af72e578b924205f": {
+    "itemTplToClone": "5d2f261548f03576f500e7b7",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/mp5/mp5k_receiver_with_3lug.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "5d2f261548f03576f500e7b9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "8f6b1094af72e578b924205f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5d2f259b48f0355a844acd74",
+                  "8aa910e170a2f2b192e2b04b",
+                  "5f66e08d584ab061cc6dddab"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "5d2f261548f03576f500e7ba",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "8f6b1094af72e578b924205f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5926d2be86f774134d668e4e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "5d2f261548f03576f500e7bb",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "8f6b1094af72e578b924205f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5d2f25bc48f03502573e5d85"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "5d2f261548f03576f500e7bd",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "8f6b1094af72e578b924205f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5926dad986f7741f82604363"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "1c3f0bf6b505c09d1deef9df",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle_000",
+          "_parent": "8f6b1094af72e578b924205f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "615d8df08004cc50514c3236",
+                  "5c07c5ed0db834001b73571c",
+                  "59bffc1f86f77435b128b872",
+                  "5c7e8fab2e22165df16b889b",
+                  "5a9fb739a2750c003215717f",
+                  "5c6165902e22160010261b28",
+                  "5a32a064c4a28200741e22de",
+                  "68aaac9b237350e082000001"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "HK MP5K 9x19 upper receiver with 3 lug adapter",
+        "shortName": "MP5K-3L",
+        "description": "A regular upper receiver for the MP5K SMGs with an installed 3 lug adapter, manufactured by Heckler & Koch."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_reciever"
+    ],
+    "fleaPriceRoubles": 4400,
+    "handbookPriceRoubles": 3000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "695231b355c87ecb5c5b2f84": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 47,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "6a722ba4aab105b3e4000001": {
+    "itemTplToClone": "5d2f25bc48f03502573e5d85",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/mp5/stock_mp5_kurz_pdw.bundle",
+        "rcid": ""
+      },
+      "Recoil":-22,
+      "Ergonomics": 6,
+      "HasShoulderContact": true,
+      "ExtraSizeRight": 1,
+      "Weight": 0.286
+    },
+    "locales": {
+      "en": {
+        "name": "HK MP5K PDW Stock",
+        "shortName": "PDW",
+        "description": "The PDW stock for the MP5K, fresh out of the 90s."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 9400,
+    "handbookPriceRoubles": 5000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "695231b355c87ecb5c5b2f84": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 32,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  }
+}
