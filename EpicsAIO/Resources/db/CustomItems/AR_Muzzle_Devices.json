@@ -2014,5 +2014,116 @@
         }
       }
     }
+  },
+  "b0af64d9575027d096a300cf": {
+    "itemTplToClone": "5c7e5f112e221600106f4ede",
+    "parentId": "550aa4bf4bdc2dd6348b456b",
+    "handbookParentId": "5b5f724c86f774093f2ecf15",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/ar15_muzzle_devices/muzzle_hesychia_flash_hider.bundle",
+        "rcid": ""
+      },
+      "Loudness": 5,
+      "Weight": 0.085,
+      "Ergonomics": -1.5,
+      "Recoil": -8,
+      "Slots": [
+        {
+          "_id": "5399bb705fadfb4933797104",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "b0af64d9575027d096a300cf",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "048a3b3af76efce867c151a5",
+                  "1ef9a40b3f726de89f250ac8",
+                  "acf4e504691e34de50b23583",
+                  "a09395d8869ada4af71dace2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Irregular Defense HESYCHIA HFH 6mm flash hider",
+        "shortName": "HESYCHIA",
+        "description": "The HESYCHIA flash hider by Irregular Defense Group offers effective flash suppression with minimal added length, optimized for low-signature operations."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_muzzle",
+      "mod_muzzle_001"
+    ],
+    "fleaPriceRoubles": 14000,
+    "handbookPriceRoubles": 12000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 3000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 3000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "MECHANIC": {
+        "695231b355c87ecb5c5b2f9e": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 9920,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
   }
 }
