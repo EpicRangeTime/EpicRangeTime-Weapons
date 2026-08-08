@@ -1,10 +1,9 @@
 ﻿using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
-using SPTarkov.Server.Core.Helpers;
+using SPTarkov.Server.Core.Helpers.Server;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Spt.Config;
 using SPTarkov.Server.Core.Routers;
-using SPTarkov.Server.Core.Servers;
 using SPTarkov.Server.Core.Utils;
 using System.Reflection;
 using Path = System.IO.Path;
@@ -12,21 +11,18 @@ using EpicsAIO.Utilities;
 
 namespace EpicsAIO.Traders;
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
+[Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
 public class Badger(
     ModHelper modHelper,
     ImageRouter imageRouter,
-    ConfigServer configServer,
     TimeUtil timeUtil,
-    EpicTraderHelper traderHelper
+    EpicTraderHelper traderHelper,
+    TraderConfig traderConfig,
+    RagfairConfig ragfairConfig
 )
     : IOnLoad
 {
-    private readonly TraderConfig _traderConfig = configServer.GetConfig<TraderConfig>();
-    private readonly RagfairConfig _ragfairConfig = configServer.GetConfig<RagfairConfig>();
-
-
-    public Task OnLoad()
+    public Task OnLoadAsync(CancellationToken cancellationToken)
     {
         // A path to the mods files we use below
         var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
@@ -39,10 +35,10 @@ public class Badger(
 
         // Create a helper class and use it to register our traders image/icon + set its stock refresh time
         imageRouter.AddRoute(traderBase.Avatar.Replace(".png", ""), traderImagePath);
-        traderHelper.SetTraderUpdateTime(_traderConfig, traderBase, timeUtil.GetHoursAsSeconds(1), timeUtil.GetHoursAsSeconds(2));
+        traderHelper.SetTraderUpdateTime(traderConfig, traderBase, timeUtil.GetHoursAsSeconds(1), timeUtil.GetHoursAsSeconds(2));
 
         // Add our trader to the config file, this lets it be seen by the flea market
-        _ragfairConfig.Traders.TryAdd(traderBase.Id, true);
+        ragfairConfig.Traders.TryAdd(traderBase.Id, true);
 
         // Add our trader (with no items yet) to the server database
         // An 'assort' is the term used to describe the offers a trader sells, it has 3 parts to an assort

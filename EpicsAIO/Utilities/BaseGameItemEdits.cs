@@ -1,21 +1,21 @@
-﻿using SPTarkov.DI.Annotations;
+﻿using SPTarkov.Common.Models.Logging;
+using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
-using SPTarkov.Server.Core.Models.Utils;
-using SPTarkov.Server.Core.Services;
+using SPTarkov.Server.Core.Models.Spt.Tables;
 using WTTServerCommonLib.Helpers;
 
 namespace EpicsAIO.Utilities;
 
-[Injectable(typePriority: OnLoadOrder.PostDBModLoader + 3)]
+[Injectable(TypePriority = OnLoadOrder.PostLoad + 3)]
 public class BaseGameItemEdits(
     ISptLogger<BaseGameItemEdits> logger,
-    DatabaseService databaseService,
+    TemplateTable templateTable,
     SlotHelper slotHelper
-):IOnLoad
+) : IOnLoad
 {
-    public Task OnLoad()
+    public Task OnLoadAsync(CancellationToken cancellationToken)
     {
         EditFilters();
         return Task.CompletedTask;
@@ -23,7 +23,7 @@ public class BaseGameItemEdits(
 
     private void EditFilters()
     {
-        var dbItems = databaseService.GetItems();
+        var dbItems = templateTable.Items;
         foreach (var (id, item) in dbItems)
         {
             switch (id)
@@ -509,7 +509,7 @@ public class BaseGameItemEdits(
                         "5cc125555c98bf150a4fd068"]);
                     break; //Push Wolverine to M60E4 475mm
                 
-                case "6601279cc752a02bbe05e692":
+                case "6601279cc752a02bbe05e690":
                     ModifySlotFilters(item, 0, 0, [
                         "5cc125555c98bf150a4fd068"]);
                     break; //Push Wolverine to M60E3 584mm
