@@ -1,21 +1,20 @@
-﻿using SPTarkov.DI.Annotations;
+﻿using JetBrains.Annotations;
+using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
-using SPTarkov.Server.Core.Models.Utils;
-using SPTarkov.Server.Core.Services;
+using SPTarkov.Server.Core.Models.Spt.Tables;
 using WTTServerCommonLib.Helpers;
 
-namespace EpicsAIO.Utilities;
+namespace EpicsAIO.Edits;
 
-[Injectable(typePriority: OnLoadOrder.PostDBModLoader + 3)]
+[Injectable(typePriority: OnLoadOrder.Preload + 4), UsedImplicitly]
 public class BaseGameItemEdits(
-    ISptLogger<BaseGameItemEdits> logger,
-    DatabaseService databaseService,
+    TemplateTable templateTable,
     SlotHelper slotHelper
-):IOnLoad
+) : IOnLoad
 {
-    public Task OnLoad()
+    public Task OnLoadAsync(CancellationToken cancellationToken)
     {
         EditFilters();
         return Task.CompletedTask;
@@ -23,8 +22,7 @@ public class BaseGameItemEdits(
 
     private void EditFilters()
     {
-        var dbItems = databaseService.GetItems();
-        foreach (var (id, item) in dbItems)
+        foreach (var (id, item) in templateTable.Items)
         {
             switch (id)
             {
@@ -76,59 +74,27 @@ public class BaseGameItemEdits(
                     break; //Push M4-2k to 5.56 51T flash hider
                 
                 case "5d25a6538abbc306c62e630d":
-                    ModifySlotFilters(item, 0, 0, [
-                        "6529243824cbe3c74a05e5c1",
-                        "6529302b8c26af6326029fb7"], true);
-                    break; //Push 6.8x51 to M700 mags
                 
                 case "5d25a4a98abbc30b917421a4":
-                    ModifySlotFilters(item, 0, 0, [
-                        "6529243824cbe3c74a05e5c1",
-                        "6529302b8c26af6326029fb7"], true);
-                    break; //Push 6.8x51 to M700 mags
                 
                 case "5d25a7b88abbc3054f3e60bc":
-                    ModifySlotFilters(item, 0, 0, [
-                        "6529243824cbe3c74a05e5c1",
-                        "6529302b8c26af6326029fb7"], true);
-                    break; //Push 6.8x51 to M700 mags
                 
                 case "5ce69cbad7f00c00b61c5098":
-                    ModifySlotFilters(item, 0, 0, [
-                        "6529243824cbe3c74a05e5c1",
-                        "6529302b8c26af6326029fb7"], true);
-                    break; //Push 6.8x51 to M700 mags
                 
                 case "5d25a6a48abbc306c62e6310":
-                    ModifySlotFilters(item, 0, 0, [
-                        "6529243824cbe3c74a05e5c1",
-                        "6529302b8c26af6326029fb7"], true);
-                    break; //Push 6.8x51 to M700 mags
                 
                 case "5d25af8f8abbc3055079fec5":
-                    ModifySlotFilters(item, 0, 0, [
-                        "6529243824cbe3c74a05e5c1",
-                        "6529302b8c26af6326029fb7"], true);
-                    break; //Push 6.8x51 to M700 mags
                 
                 case "5cf12a15d7f00c05464b293f":
-                    ModifySlotFilters(item, 0, 0, [
-                        "6529243824cbe3c74a05e5c1",
-                        "6529302b8c26af6326029fb7"], true);
-                    break; //Push 6.8x51 to M700 mags
                 
                 case "5bfeaa0f0db834001b734927":
-                    ModifySlotFilters(item, 0, 0, [
-                        "6529243824cbe3c74a05e5c1",
-                        "6529302b8c26af6326029fb7"], true);
-                    break; //Push 6.8x51 to M700 mags
                 
                 case "5bfea7ad0db834001c38f1ee":
                     ModifySlotFilters(item, 0, 0, [
                         "6529243824cbe3c74a05e5c1",
                         "6529302b8c26af6326029fb7"], true);
                     break; //Push 6.8x51 to M700 mags
-                
+
                 case "59984ab886f7743e98271174":
                     ModifySlotFilters(item, 1, 0, [
                         "6761779c48fa5c377e06fc3f",
@@ -187,12 +153,6 @@ public class BaseGameItemEdits(
                     break;
                 
                 case "618b9682a3884f56c957ca78":
-                    ModifySlotFilters(item, 0, 0, [
-                        "81ee14e532991b2b9993ae0e",
-                        "ac738256c846acc25b183a80",
-                        "26f02172906cbaa1ae78e57d",
-                        "87690b1fadc788a959d42e46"]);
-                    break; //Push new RMR Risers to 30mm Geissele ROF mounts
                 
                 case "618ba92152ecee1505530bd3":
                     ModifySlotFilters(item, 0, 0, [
@@ -201,7 +161,7 @@ public class BaseGameItemEdits(
                         "26f02172906cbaa1ae78e57d",
                         "87690b1fadc788a959d42e46"]);
                     break; //Push new RMR Risers to 30mm Geissele ROF mounts
-                
+
                 case "5580223e4bdc2d1c128b457f":
                     ModifySlotFilters(item, 0, 0, [
                         "64748d02d1c009260702b526"]);
@@ -573,130 +533,18 @@ public class BaseGameItemEdits(
                     break; //Push RMR mount to FDE elcan
                 
                 case "5c0e2f26d174af02a9625114":
-                    ReplaceSlotFilters(item, 3, 0, [
-                        "5bb20e49d4351e3bac1212de",
-                        "5ba26b17d4351e00367f9bdd",
-                        "5dfa3d7ac41b2312ea33362a",
-                        "5c1780312e221602b66cc189",
-                        "5fb6564947ce63734e3fa1da",
-                        "5bc09a18d4351e003562b68e",
-                        "5c18b9192e2216398b5a8104",
-                        "5fc0fa957283c4046c58147e",
-                        "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567",
-                        "61817865d3a39d50044c13a4"]);
-                    
-                    ModifySlotFilters(item, 0, 0, [
-                        "5ae30bad5acfc400185c2dc4"]);
-                    break; //Change filters for AR15 rear sights
                 
                 case "55d355e64bdc2d962f8b4569":
-                    ReplaceSlotFilters(item, 3, 0, [
-                        "5bb20e49d4351e3bac1212de",
-                        "5ba26b17d4351e00367f9bdd",
-                        "5dfa3d7ac41b2312ea33362a",
-                        "5c1780312e221602b66cc189",
-                        "5fb6564947ce63734e3fa1da",
-                        "5bc09a18d4351e003562b68e",
-                        "5c18b9192e2216398b5a8104",
-                        "5fc0fa957283c4046c58147e",
-                        "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567",
-                        "61817865d3a39d50044c13a4"]);
-                    
-                    ModifySlotFilters(item, 0, 0, [
-                        "5ae30bad5acfc400185c2dc4"]);
-                    break; //Change filters for AR15 rear sights
                 
                 case "5d4405aaa4b9361e6a4e6bd3":
-                    ReplaceSlotFilters(item, 3, 0, [
-                        "5bb20e49d4351e3bac1212de",
-                        "5ba26b17d4351e00367f9bdd",
-                        "5dfa3d7ac41b2312ea33362a",
-                        "5c1780312e221602b66cc189",
-                        "5fb6564947ce63734e3fa1da",
-                        "5bc09a18d4351e003562b68e",
-                        "5c18b9192e2216398b5a8104",
-                        "5fc0fa957283c4046c58147e",
-                        "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567",
-                        "61817865d3a39d50044c13a4"]);
-                    
-                    ModifySlotFilters(item, 0, 0, [
-                        "5ae30bad5acfc400185c2dc4"]);
-                    break; //Change filters for AR15 rear sights
                 
                 case "5c07a8770db8340023300450":
-                    ReplaceSlotFilters(item, 3, 0, [
-                        "5bb20e49d4351e3bac1212de",
-                        "5ba26b17d4351e00367f9bdd",
-                        "5dfa3d7ac41b2312ea33362a",
-                        "5c1780312e221602b66cc189",
-                        "5fb6564947ce63734e3fa1da",
-                        "5bc09a18d4351e003562b68e",
-                        "5c18b9192e2216398b5a8104",
-                        "5fc0fa957283c4046c58147e",
-                        "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567",
-                        "61817865d3a39d50044c13a4"]);
-                    
-                    ModifySlotFilters(item, 0, 0, [
-                        "5ae30bad5acfc400185c2dc4"]);
-                    break; //Change filters for AR15 rear sights
                 
                 case "59bfe68886f7746004266202":
-                    ReplaceSlotFilters(item, 3, 0, [
-                        "5bb20e49d4351e3bac1212de",
-                        "5ba26b17d4351e00367f9bdd",
-                        "5dfa3d7ac41b2312ea33362a",
-                        "5c1780312e221602b66cc189",
-                        "5fb6564947ce63734e3fa1da",
-                        "5bc09a18d4351e003562b68e",
-                        "5c18b9192e2216398b5a8104",
-                        "5fc0fa957283c4046c58147e",
-                        "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567",
-                        "61817865d3a39d50044c13a4"]);
-                    
-                    ModifySlotFilters(item, 0, 0, [
-                        "5ae30bad5acfc400185c2dc4"]);
-                    break; //Change filters for AR15 rear sights
                 
                 case "63f5ed14534b2c3d5479a677":
-                    ReplaceSlotFilters(item, 3, 0, [
-                        "5bb20e49d4351e3bac1212de",
-                        "5ba26b17d4351e00367f9bdd",
-                        "5dfa3d7ac41b2312ea33362a",
-                        "5c1780312e221602b66cc189",
-                        "5fb6564947ce63734e3fa1da",
-                        "5bc09a18d4351e003562b68e",
-                        "5c18b9192e2216398b5a8104",
-                        "5fc0fa957283c4046c58147e",
-                        "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567",
-                        "61817865d3a39d50044c13a4"]);
-                    
-                    ModifySlotFilters(item, 0, 0, [
-                        "5ae30bad5acfc400185c2dc4"]);
-                    break; //Change filters for AR15 rear sights
                 
                 case "6529119424cbe3c74a05e5bb":
-                    ReplaceSlotFilters(item, 3, 0, [
-                        "5bb20e49d4351e3bac1212de",
-                        "5ba26b17d4351e00367f9bdd",
-                        "5dfa3d7ac41b2312ea33362a",
-                        "5c1780312e221602b66cc189",
-                        "5fb6564947ce63734e3fa1da",
-                        "5bc09a18d4351e003562b68e",
-                        "5c18b9192e2216398b5a8104",
-                        "5fc0fa957283c4046c58147e",
-                        "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567",
-                        "61817865d3a39d50044c13a4"]);
-                    
-                    ModifySlotFilters(item, 0, 0, [
-                        "5ae30bad5acfc400185c2dc4"]);
-                    break; //Change filters for AR15 rear sights
                 
                 case "5bb20d53d4351e4502010a69":
                     ReplaceSlotFilters(item, 3, 0, [
@@ -715,24 +563,8 @@ public class BaseGameItemEdits(
                     ModifySlotFilters(item, 0, 0, [
                         "5ae30bad5acfc400185c2dc4"]);
                     break; //Change filters for AR15 rear sights
-                
+
                 case "5c488a752e221602b412af63":
-                    ReplaceSlotFilters(item, 5, 0, [
-                        "5bb20e49d4351e3bac1212de",
-                        "5ba26b17d4351e00367f9bdd",
-                        "5dfa3d7ac41b2312ea33362a",
-                        "5c1780312e221602b66cc189",
-                        "5fb6564947ce63734e3fa1da",
-                        "5bc09a18d4351e003562b68e",
-                        "5c18b9192e2216398b5a8104",
-                        "5fc0fa957283c4046c58147e",
-                        "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567",
-                        "61817865d3a39d50044c13a4"]);
-                    
-                    ModifySlotFilters(item, 4, 0, [
-                        "5ae30bad5acfc400185c2dc4"]);
-                    break; //Change filters for AR15 rear sights
                 
                 case "5dcbd56fdbd3d91b3e5468d5":
                     ReplaceSlotFilters(item, 5, 0, [
@@ -751,60 +583,12 @@ public class BaseGameItemEdits(
                     ModifySlotFilters(item, 4, 0, [
                         "5ae30bad5acfc400185c2dc4"]);
                     break; //Change filters for AR15 rear sights
-                
+
                 case "5df8e4080b92095fd441e594":
-                    ReplaceSlotFilters(item, 3, 0, [
-                        "5bb20e49d4351e3bac1212de",
-                        "5ba26b17d4351e00367f9bdd",
-                        "5dfa3d7ac41b2312ea33362a",
-                        "5c1780312e221602b66cc189",
-                        "5fb6564947ce63734e3fa1da",
-                        "5bc09a18d4351e003562b68e",
-                        "5c18b9192e2216398b5a8104",
-                        "5fc0fa957283c4046c58147e",
-                        "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567",
-                        "61817865d3a39d50044c13a4"]);
-                    
-                    ModifySlotFilters(item, 0, 0, [
-                        "5ae30bad5acfc400185c2dc4"]);
-                    break; //Change filters for AR15 rear sights
                 
                 case "5fc278107283c4046c581489":
-                    ReplaceSlotFilters(item, 3, 0, [
-                        "5bb20e49d4351e3bac1212de",
-                        "5ba26b17d4351e00367f9bdd",
-                        "5dfa3d7ac41b2312ea33362a",
-                        "5c1780312e221602b66cc189",
-                        "5fb6564947ce63734e3fa1da",
-                        "5bc09a18d4351e003562b68e",
-                        "5c18b9192e2216398b5a8104",
-                        "5fc0fa957283c4046c58147e",
-                        "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567",
-                        "61817865d3a39d50044c13a4"]);
-                    
-                    ModifySlotFilters(item, 0, 0, [
-                        "5ae30bad5acfc400185c2dc4"]);
-                    break; //Change filters for AR15 rear sights
                 
                 case "602e63fb6335467b0c5ac94d":
-                    ReplaceSlotFilters(item, 3, 0, [
-                        "5bb20e49d4351e3bac1212de",
-                        "5ba26b17d4351e00367f9bdd",
-                        "5dfa3d7ac41b2312ea33362a",
-                        "5c1780312e221602b66cc189",
-                        "5fb6564947ce63734e3fa1da",
-                        "5bc09a18d4351e003562b68e",
-                        "5c18b9192e2216398b5a8104",
-                        "5fc0fa957283c4046c58147e",
-                        "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567",
-                        "61817865d3a39d50044c13a4"]);
-                    
-                    ModifySlotFilters(item, 0, 0, [
-                        "5ae30bad5acfc400185c2dc4"]);
-                    break; //Change filters for AR15 rear sights
                 
                 case "606587a88900dc2d9a55b659":
                     ReplaceSlotFilters(item, 3, 0, [
@@ -823,24 +607,8 @@ public class BaseGameItemEdits(
                     ModifySlotFilters(item, 0, 0, [
                         "5ae30bad5acfc400185c2dc4"]);
                     break; //Change filters for AR15 rear sights
-                
+
                 case "6165adcdd3a39d50044c120f":
-                    ReplaceSlotFilters(item, 2, 0, [
-                        "5bb20e49d4351e3bac1212de",
-                        "5ba26b17d4351e00367f9bdd",
-                        "5dfa3d7ac41b2312ea33362a",
-                        "5c1780312e221602b66cc189",
-                        "5fb6564947ce63734e3fa1da",
-                        "5bc09a18d4351e003562b68e",
-                        "5c18b9192e2216398b5a8104",
-                        "5fc0fa957283c4046c58147e",
-                        "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567",
-                        "61817865d3a39d50044c13a4"]);
-                    
-                    ModifySlotFilters(item, 0, 0, [
-                        "5ae30bad5acfc400185c2dc4"]);
-                    break; //Change filters for AR15 rear sights
                 
                 case "6165aeedfaa1272e431521e3":
                     ReplaceSlotFilters(item, 2, 0, [
@@ -859,7 +627,7 @@ public class BaseGameItemEdits(
                     ModifySlotFilters(item, 0, 0, [
                         "5ae30bad5acfc400185c2dc4"]);
                     break; //Change filters for AR15 rear sights
-                
+
                 case "61713a8fd92c473c770214a4":
                     ReplaceSlotFilters(item, 3, 0, [
                         "5bb20e49d4351e3bac1212de",
@@ -879,40 +647,8 @@ public class BaseGameItemEdits(
                     break; //Change filters for AR15 rear sights
                 
                 case "618405198004cc50514c3594":
-                    ReplaceSlotFilters(item, 2, 0, [
-                        "5bb20e49d4351e3bac1212de",
-                        "5ba26b17d4351e00367f9bdd",
-                        "5dfa3d7ac41b2312ea33362a",
-                        "5c1780312e221602b66cc189",
-                        "5fb6564947ce63734e3fa1da",
-                        "5bc09a18d4351e003562b68e",
-                        "5c18b9192e2216398b5a8104",
-                        "5fc0fa957283c4046c58147e",
-                        "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567",
-                        "61817865d3a39d50044c13a4"]);
-                    
-                    ModifySlotFilters(item, 0, 0, [
-                        "5ae30bad5acfc400185c2dc4"]);
-                    break; //Change filters for AR15 rear sights
                 
                 case "618426d96c780c1e710c9b9f":
-                    ReplaceSlotFilters(item, 2, 0, [
-                        "5bb20e49d4351e3bac1212de",
-                        "5ba26b17d4351e00367f9bdd",
-                        "5dfa3d7ac41b2312ea33362a",
-                        "5c1780312e221602b66cc189",
-                        "5fb6564947ce63734e3fa1da",
-                        "5bc09a18d4351e003562b68e",
-                        "5c18b9192e2216398b5a8104",
-                        "5fc0fa957283c4046c58147e",
-                        "5894a81786f77427140b8347",
-                        "55d5f46a4bdc2d1b198b4567",
-                        "61817865d3a39d50044c13a4"]);
-                    
-                    ModifySlotFilters(item, 0, 0, [
-                        "5ae30bad5acfc400185c2dc4"]);
-                    break; //Change filters for AR15 rear sights
                 
                 case "62811fbf09427b40ab14e767":
                     ReplaceSlotFilters(item, 2, 0, [
@@ -931,7 +667,7 @@ public class BaseGameItemEdits(
                     ModifySlotFilters(item, 0, 0, [
                         "5ae30bad5acfc400185c2dc4"]);
                     break; //Change filters for AR15 rear sights
-                
+
                 case "5ae30bad5acfc400185c2dc4":
                     ModifySlotFilters(item, 0, 0, [
                         "66713838ca123f9df8e7584e",
@@ -1010,18 +746,9 @@ public class BaseGameItemEdits(
                     item.Properties!.ConflictingItems = [];
                     break; //Clear conflicting items on B&T ACRO NAR mount
                 case "55f84c3c4bdc2d5f408b4576":
-                    slotHelper.EnsureSlot(item, "mod_tactical_003", "55d30c4c4bdc2db4468b457e", false, false, 0);
-                    slotHelper.EnsureSlot(item, "mod_tactical_004", "55d30c4c4bdc2db4468b457e", false, false, 0);
-                    slotHelper.AddIdsToNamedSlot(item, "mod_tactical_003",
-                        "6a17976b6252dc8bcb000001",
-                        "68b26fcb9db8d58487000001");
-                    slotHelper.AddIdsToNamedSlot(item, "mod_tactical_004",
-                        "6a17976b6252dc8bcb000001",
-                        "68b26fcb9db8d58487000001");
-                    break; //Add rail cover slots to RIS II 9.5 CB
                 case "588b56d02459771481110ae2":
-                    slotHelper.EnsureSlot(item, "mod_tactical_003", "55d30c4c4bdc2db4468b457e", false, false, 0);
-                    slotHelper.EnsureSlot(item, "mod_tactical_004", "55d30c4c4bdc2db4468b457e", false, false, 0);
+                    slotHelper.EnsureSlot(item, "mod_tactical_003", "55d30c4c4bdc2db4468b457e");
+                    slotHelper.EnsureSlot(item, "mod_tactical_004", "55d30c4c4bdc2db4468b457e");
                     slotHelper.AddIdsToNamedSlot(item, "mod_tactical_003",
                         "6a17976b6252dc8bcb000001",
                         "68b26fcb9db8d58487000001");
@@ -1030,8 +757,8 @@ public class BaseGameItemEdits(
                         "68b26fcb9db8d58487000001");
                     break; //Add rail cover slots to RIS II 9.5 CB
                 case "5c9a25172e2216000f20314e":
-                    slotHelper.EnsureSlot(item, "mod_tactical_003", "55d30c4c4bdc2db4468b457e", false, false, 0);
-                    slotHelper.EnsureSlot(item, "mod_tactical_004", "55d30c4c4bdc2db4468b457e", false, false, 0);
+                    slotHelper.EnsureSlot(item, "mod_tactical_003", "55d30c4c4bdc2db4468b457e");
+                    slotHelper.EnsureSlot(item, "mod_tactical_004", "55d30c4c4bdc2db4468b457e");
                     slotHelper.AddIdsToNamedSlot(item, "mod_tactical_003",
                         "6a17976b6252dc8bcb000001",
                         "68b26fcb9db8d58487000001");
@@ -1041,8 +768,8 @@ public class BaseGameItemEdits(
                     break; //Add rail cover slots to RIS II 12.25 CB
                 case "5c9a26332e2216001219ea70":
                     item.Properties!.ConflictingItems = [];
-                    slotHelper.EnsureSlot(item, "mod_tactical_003", "55d30c4c4bdc2db4468b457e", false, false, 0);
-                    slotHelper.EnsureSlot(item, "mod_tactical_004", "55d30c4c4bdc2db4468b457e", false, false, 0);
+                    slotHelper.EnsureSlot(item, "mod_tactical_003", "55d30c4c4bdc2db4468b457e");
+                    slotHelper.EnsureSlot(item, "mod_tactical_004", "55d30c4c4bdc2db4468b457e");
                     slotHelper.AddIdsToNamedSlot(item, "mod_tactical_003",
                         "6a17976b6252dc8bcb000001",
                         "68b26fcb9db8d58487000001");
@@ -1081,7 +808,7 @@ public class BaseGameItemEdits(
         filter.Filter!.UnionWith(ids);
     }
     
-    private Slot GetSlotAtIndex(TemplateItem item, int index, bool isCartridge = false)
+    private static Slot GetSlotAtIndex(TemplateItem item, int index, bool isCartridge = false)
     {
         var slots = isCartridge ? item.Properties?.Cartridges?.ToArray() : item.Properties?.Slots?.ToArray();
 
@@ -1093,7 +820,7 @@ public class BaseGameItemEdits(
         throw new IndexOutOfRangeException($"Index on item slot property `{item.Name}` is out of range");
     }
 
-    private SlotFilter GetSlotFilterAtIndex(Slot slot, int index)
+    private static SlotFilter GetSlotFilterAtIndex(Slot slot, int index)
     {  
         var slotFilter = slot.Properties?.Filters?.ToArray() ?? [];
 
