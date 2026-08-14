@@ -509,7 +509,7 @@ public class BaseGameItemEdits(
                         "5cc125555c98bf150a4fd068"]);
                     break; //Push Wolverine to M60E4 475mm
                 
-                case "6601279cc752a02bbe05e690":
+                case "6601279cc752a02bbe05e692":
                     ModifySlotFilters(item, 0, 0, [
                         "5cc125555c98bf150a4fd068"]);
                     break; //Push Wolverine to M60E3 584mm
