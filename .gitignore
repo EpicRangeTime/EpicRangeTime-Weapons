@@ -287,8 +287,8 @@ FakesAssemblies/
 .ntvs_analysis.dat
 node_modules/
 
-bin
-obj
+/EpicsAIO/obj/
+/EpicsAIO/bin/
 
 # Visual Studio 6 build log
 *.plg
