@@ -788,6 +788,12 @@ public class BaseGameItemEdits(
                         "68b26fcb9db8d58487000001",
                         "6a17976b6252dc8bcb000001"]);
                     break; //Push KAC rail panels to KAC RIS rail
+                case "5c05293e0db83400232fff80":
+                    item.Properties!.Prefab!.Path = "mods/scopes/acog_ta01nsn_4x32.bundle";
+                    break; //Swap ACOG TA01 black path
+                case "5c052a900db834001a66acbd":
+                    item.Properties!.Prefab!.Path = "mods/scopes/acog_ta01nsn_4x32_tan.bundle";
+                    break; //Swap ACOG TA01 tan path
             }
         }
     }

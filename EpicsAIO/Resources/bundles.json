@@ -153,24 +153,6 @@
       ]
     },
     {
-      "key": "assets/content/items/mods/scopes/scope_base_trijicon_acog_ta01nsn_4x32.bundle",
-      "dependencyKeys": [
-        "epicaio_common_meshes.bundle",
-        "shaders",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "epicaio_common_textures.bundle"
-      ]
-    },
-    {
-      "key": "assets/content/items/mods/scopes/scope_base_trijicon_acog_ta01nsn_4x32_tan.bundle",
-      "dependencyKeys": [
-        "epicaio_common_meshes.bundle",
-        "shaders",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "epicaio_common_textures.bundle"
-      ]
-    },
-    {
       "key": "assets/content/items/mods/sights_rear/sight_rear_ar15_colt_carry_hande_std.bundle",
       "dependencyKeys": [
         "shaders"
@@ -2620,6 +2602,12 @@
       ]
     },
     {
+      "key": "mods/mp5/stock_mp5_kurz_pdw.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/stocks/stock_mp5k_hk_kurtz_end_cap.bundle"
+      ]
+    },
+    {
       "key": "mods/pistol_grips/b5_pgrip.bundle",
       "dependencyKeys": [
         "shaders"
@@ -2801,19 +2789,19 @@
     {
       "key": "mods/red_dots/lepold_lco.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
-        "epicaio_common_meshes.bundle",
-        "shaders",
         "epic_aio_shaders.bundle",
+        "epicaio_common_textures.bundle",
         "assets/content/textures/holemanager/round_spec_mask.bundle",
-        "epicaio_common_textures.bundle"
+        "shaders",
+        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_meshes.bundle"
       ]
     },
     {
       "key": "mods/red_dots/lepold_lco_fde.bundle",
       "dependencyKeys": [
-        "epicaio_common_meshes.bundle",
         "mods/red_dots/lepold_lco.bundle",
+        "epicaio_common_meshes.bundle",
         "epic_aio_shaders.bundle"
       ]
     },
@@ -2833,6 +2821,24 @@
         "shaders",
         "epic_aio_shaders.bundle",
         "assets/content/textures/holemanager/round_spec_mask.bundle",
+        "epicaio_common_textures.bundle"
+      ]
+    },
+    {
+      "key": "mods/scopes/acog_ta01nsn_4x32.bundle",
+      "dependencyKeys": [
+        "epicaio_common_meshes.bundle",
+        "shaders",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+        "epicaio_common_textures.bundle"
+      ]
+    },
+    {
+      "key": "mods/scopes/acog_ta01nsn_4x32_tan.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "epicaio_common_meshes.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
         "epicaio_common_textures.bundle"
       ]
     },
@@ -3520,13 +3526,6 @@
       "key": "mods/stocks/stock_midwestindustriesfixed.bundle",
       "dependencyKeys": [
         "shaders"
-      ]
-    },
-    {
-      "key": "mods/mp5/stock_mp5_kurz_pdw.bundle",
-      "dependencyKeys": [
-        "epic_aio_shaders.bundle",
-        "assets/content/items/mods/stocks/stock_mp5k_hk_kurtz_end_cap.bundle"
       ]
     },
     {
