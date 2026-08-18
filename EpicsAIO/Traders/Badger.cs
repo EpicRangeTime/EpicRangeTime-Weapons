@@ -33,7 +33,6 @@ public class Badger(
         ragfairConfig.Traders.TryAdd(traderBase.Id, true);
         
         epicTraderHelper.AddTraderWithEmptyAssortToDb(traderBase);
-        epicTraderHelper.AddTraderToLocales(traderBase, "Badger", "An American gunsmith that was on vacation in St Petersburg when the conflict kicked off. He saw a business opportunity in it and got himself into more trouble than he bargained for. Luckily he has contacts.");
         
         var assort = modHelper.GetJsonDataFromFile<TraderAssort>(pathToMod, "db/TraderBadger/Assort.json");
         epicTraderHelper.OverwriteTraderAssort(traderBase.Id, assort);
