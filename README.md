@@ -10,6 +10,6 @@ How to install:
 4. Enjoy!
 
 
-LICENSE APPLICATION
-The license contained within license-assets.md is intended to cover the assets within the /bundles folder.
-The license contained within license-code.md is intended to cover the .dll file in the mod root and the config files within the /db folder.
+LICENSE APPLICATION:
+- The license contained within license-assets.md is intended to cover the assets within the /bundles folder.
+- The license contained within license-code.md is intended to cover the .dll file in the mod root and the config files within the /db folder.
