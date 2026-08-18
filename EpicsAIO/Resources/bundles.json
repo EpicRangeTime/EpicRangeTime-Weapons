@@ -2620,12 +2620,6 @@
       ]
     },
     {
-      "key": "mods/mp5/stock_mp5_kurz_pdw.bundle",
-      "dependencyKeys": [
-        "assets/content/items/mods/stocks/stock_mp5k_hk_kurtz_end_cap.bundle"
-      ]
-    },
-    {
       "key": "mods/pistol_grips/b5_pgrip.bundle",
       "dependencyKeys": [
         "shaders"
@@ -3529,7 +3523,7 @@
       ]
     },
     {
-      "key": "mods/stocks/stock_mp5_kurz_pdw.bundle",
+      "key": "mods/mp5/stock_mp5_kurz_pdw.bundle",
       "dependencyKeys": [
         "epic_aio_shaders.bundle",
         "assets/content/items/mods/stocks/stock_mp5k_hk_kurtz_end_cap.bundle"

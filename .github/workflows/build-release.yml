@@ -1,0 +1,147 @@
+﻿name: Build and Release SPT Mod
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Extract mod metadata
+        id: extract
+        run: |
+          # Extract init-only string properties from ModMetadata implementation
+          MODGUID=$(grep -rPho -h 'ModGuid\s*{\s*[^}]*}\s*=\s*"\K[^"]+' . --include \*.cs | head -n 1)
+          MOD_NAME=$(grep -rPho -h 'Name\s*{\s*[^}]*}\s*=\s*"\K[^"]+' . --include \*.cs | head -n 1)
+          AUTHOR=$(grep -rPho -h 'Author\s*{\s*[^}]*}\s*=\s*"\K[^"]+' . --include \*.cs | head -n 1)
+
+          # Version from csproj
+          VERSION=$(grep -rPo '<Version>(.*?)</Version>' **/*.csproj | sed -E 's/.*>(.*)<.*/\1/' | head -n 1)
+
+          echo "Extracted values:"
+          echo "ModGuid: $MODGUID"
+          echo "Name: $MOD_NAME"
+          echo "Author: $AUTHOR"
+          echo "Version: $VERSION"
+
+          if [ -z "$MOD_NAME" ] || [ -z "$AUTHOR" ] || [ -z "$VERSION" ]; then
+            echo "Missing metadata — failing early" && exit 1
+          fi
+
+          echo "MODGUID=$MODGUID" >> $GITHUB_ENV
+          echo "MOD_NAME=$MOD_NAME" >> $GITHUB_ENV
+          echo "AUTHOR=$AUTHOR" >> $GITHUB_ENV
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Restore Dependencies
+        run: dotnet restore
+
+      - name: Build Project
+        run: dotnet build -c Release
+
+      - name: Package mod folder
+        run: |
+          # Find Release output directory
+          OUTDIR=$(find . -type d -path "*/bin/Release*" | head -n 1)
+          if [ -z "$OUTDIR" ]; then
+            echo "No Release output folder found" && exit 1
+          fi
+
+          # Find inner build output folder (contains DLL)
+          INNER=$(find "$OUTDIR" -mindepth 1 -maxdepth 1 -type d | head -n 1)
+          if [ -z "$INNER" ]; then
+            echo "No inner build output folder found" && exit 1
+          fi
+
+          TARGET="package/SPT_Runtime/user/mods/$AUTHOR-$MOD_NAME"
+          echo "Packaging mod into $TARGET"
+          mkdir -p "$TARGET"
+
+          # Copy DLL(s)
+          DLLS=$(find "$INNER" -maxdepth 1 -type f -name "*.dll")
+          if [ -z "$DLLS" ]; then
+            echo "No DLLs found in build output" && exit 1
+          fi
+          rsync -av $DLLS "$TARGET/"
+
+          # Copy ONLY contents of Resources/ IF it exists
+          RESOURCES_DIR=$(find . -maxdepth 2 -type d -name "Resources" | head -n 1)
+          if [ -n "$RESOURCES_DIR" ]; then
+            echo "Resources folder found — copying contents"
+
+            # db/
+            if [ -d "$RESOURCES_DIR/db" ]; then
+              rsync -av "$RESOURCES_DIR/db/" "$TARGET/db/"
+            fi
+
+            # bundles/
+            if [ -d "$RESOURCES_DIR/bundles" ]; then
+              rsync -av "$RESOURCES_DIR/bundles/" "$TARGET/bundles/"
+            fi
+
+            # bundles.json
+            if [ -f "$RESOURCES_DIR/bundles.json" ]; then
+              rsync -av "$RESOURCES_DIR/bundles.json" "$TARGET/"
+            fi
+
+          else
+            echo "No Resources folder found — skipping Resources packaging"
+          fi
+
+      - name: Zip mod folder
+        run: |
+          mkdir -p package
+          cd package
+          zip -r "${AUTHOR}-${MOD_NAME}_v${VERSION}.zip" SPT_Runtime
+
+      - name: Upload zipped mod
+        uses: actions/upload-artifact@v7
+        with:
+          name: mod_package
+          path: package/${{ env.AUTHOR }}-${{ env.MOD_NAME }}_v${{ env.VERSION }}.zip
+
+  release:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Download mod artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: mod_package
+          path: mod_package
+
+      - name: Extract tag name from zip
+        run: |
+          ZIPFILE=$(find mod_package -type f -name "*.zip" | head -n 1)
+          if [ -z "$ZIPFILE" ]; then
+            echo "No zip file found in mod_package" >&2
+            exit 1
+          fi
+
+          BASENAME=$(basename "$ZIPFILE")
+          TAGNAME=$(echo "$BASENAME" | grep -oP '_v\K[0-9]+\.[0-9]+\.[0-9]+')
+
+          echo "ZIPNAME=$BASENAME" >> $GITHUB_ENV
+          echo "TAGNAME=v$TAGNAME" >> $GITHUB_ENV
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v3
+        with:
+          files: mod_package/*.zip
+          tag_name: "${{ env.TAGNAME }}"
+          name: "${{ env.ZIPNAME }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
