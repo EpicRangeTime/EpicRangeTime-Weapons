@@ -4,10 +4,10 @@ using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Models.Enums;
 using SPTarkov.Server.Core.Models.Spt.Tables;
 
-namespace EpicsAIO.Traders;
+namespace EpicsAIO.Edits;
 
 [Injectable(TypePriority = OnLoadOrder.TraderRegistration - 1), UsedImplicitly]
-public class TraderEdits(TradersTable tradersTable) : IOnLoad
+public class BaseGameTraderEdits(TradersTable tradersTable) : IOnLoad
 {
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
