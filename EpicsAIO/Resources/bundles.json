@@ -218,7 +218,7 @@
     {
       "key": "mods/ak/ak100_hg_top.bundle",
       "dependencyKeys": [
-        "shaders"
+        "assets/content/items/mods/handguards/handguard_ak_izhmash_ak100_rail_plastic.bundle"
       ]
     },
     {
@@ -2808,10 +2808,11 @@
     {
       "key": "mods/red_dots/steiner_r1x.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
         "shaders",
+        "epic_aio_shaders.bundle",
+        "epicaio_common_textures.bundle",
         "assets/content/textures/holemanager/round_spec_mask.bundle",
-        "epicaio_common_textures.bundle"
+        "assets/systems/effects/collimator.bundle"
       ]
     },
     {
