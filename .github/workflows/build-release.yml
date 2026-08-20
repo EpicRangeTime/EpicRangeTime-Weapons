@@ -74,26 +74,13 @@ jobs:
           fi
           rsync -av $DLLS "$TARGET/"
 
-          # Copy ONLY contents of Resources/ IF it exists
+          # Copy ALL contents of Resources/ except cab_manifest.json
           RESOURCES_DIR=$(find . -maxdepth 2 -type d -name "Resources" | head -n 1)
           if [ -n "$RESOURCES_DIR" ]; then
-            echo "Resources folder found — copying contents"
-
-            # db/
-            if [ -d "$RESOURCES_DIR/db" ]; then
-              rsync -av "$RESOURCES_DIR/db/" "$TARGET/db/"
-            fi
-
-            # bundles/
-            if [ -d "$RESOURCES_DIR/bundles" ]; then
-              rsync -av "$RESOURCES_DIR/bundles/" "$TARGET/bundles/"
-            fi
-
-            # bundles.json
-            if [ -f "$RESOURCES_DIR/bundles.json" ]; then
-              rsync -av "$RESOURCES_DIR/bundles.json" "$TARGET/"
-            fi
-
+            echo "Resources folder found — copying all contents except cab_manifest.json"
+            rsync -av \
+              --exclude="cab_manifest.json" \
+              "$RESOURCES_DIR/" "$TARGET/"
           else
             echo "No Resources folder found — skipping Resources packaging"
           fi
