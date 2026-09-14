@@ -2604,6 +2604,7 @@
     {
       "key": "mods/mp5/stock_mp5_kurz_pdw.bundle",
       "dependencyKeys": [
+        "epic_aio_shaders.bundle",
         "assets/content/items/mods/stocks/stock_mp5k_hk_kurtz_end_cap.bundle"
       ]
     },
@@ -2789,34 +2790,54 @@
     {
       "key": "mods/red_dots/lepold_lco.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle",
-        "assets/content/textures/holemanager/round_spec_mask.bundle",
-        "shaders",
         "assets/systems/effects/collimator.bundle",
-        "epicaio_common_meshes.bundle"
+        "epicaio_common_meshes.bundle",
+        "shaders",
+        "epic_aio_shaders.bundle",
+        "assets/content/textures/holemanager/round_spec_mask.bundle",
+        "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/red_dots/lepold_lco_fde.bundle",
       "dependencyKeys": [
-        "mods/red_dots/lepold_lco.bundle",
         "epicaio_common_meshes.bundle",
+        "mods/red_dots/lepold_lco.bundle",
         "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/red_dots/steiner_r1x.bundle",
       "dependencyKeys": [
+        "assets/systems/effects/collimator.bundle",
         "shaders",
         "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle",
         "assets/content/textures/holemanager/round_spec_mask.bundle",
-        "assets/systems/effects/collimator.bundle"
+        "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/red_dots/triji_mro.bundle",
+      "dependencyKeys": [
+        "assets/systems/effects/collimator.bundle",
+        "shaders",
+        "epic_aio_shaders.bundle",
+        "assets/content/textures/holemanager/round_spec_mask.bundle",
+        "epicaio_common_textures.bundle"
+      ]
+    },
+    {
+      "key": "mods/red_dots/trijicon_rx01.bundle",
+      "dependencyKeys": [
+        "assets/systems/effects/collimator.bundle",
+        "shaders",
+        "epic_aio_shaders.bundle",
+        "assets/content/textures/holemanager/round_spec_mask.bundle",
+        "epicaio_common_textures.bundle"
+      ]
+    },
+    {
+      "key": "mods/red_dots/trijicon_rx06.bundle",
       "dependencyKeys": [
         "assets/systems/effects/collimator.bundle",
         "shaders",
@@ -2837,8 +2858,8 @@
     {
       "key": "mods/scopes/acog_ta01nsn_4x32_tan.bundle",
       "dependencyKeys": [
-        "shaders",
         "epicaio_common_meshes.bundle",
+        "shaders",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
         "epicaio_common_textures.bundle"
       ]

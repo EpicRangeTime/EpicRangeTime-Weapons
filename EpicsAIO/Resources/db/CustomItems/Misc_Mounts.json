@@ -5274,5 +5274,179 @@
         }
       }
     }
+  },
+  "f4b9be510fefffd895167696": {
+    "itemTplToClone": "5c7d55f52e221644f31bff6a",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "mods/mounts/trijicon_rx01_gooseneck.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "5c7d55f52e221644f31bff6b",
+          "_parent": "f4b9be510fefffd895167696",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5039e6a28d98ef83101312ef",
+                  "6aa86fcdc579b21546000001"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Trijicon RX-10 Carry Handle Sight Mount",
+        "shortName": "RX-10",
+        "description": "A dedicated Trijicon mount designed to secure Reflex-series sights to the fixed carry handle of M16 and AR-15-pattern rifles. Its forward-mounted layout positions the optic ahead of the carry handle while retaining a practical sight line."
+      }
+    },
+    "fleaPriceRoubles": 4878,
+    "handbookPriceRoubles": 3752,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "0fb12c7327594e46aeb3d99f": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 28,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "8ed03e3892d6ed245047c849": {
+    "itemTplToClone": "5c7d55f52e221644f31bff6a",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "mods/mounts/trijicon_rx01_pic_mount.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "5c7d55f52e221644f31bff6b",
+          "_parent": "8ed03e3892d6ed245047c849",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5039e6a28d98ef83101312ef",
+                  "6aa86fcdc579b21546000001"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Trijicon RX-14 Picatinny Red Dot Sight Mount",
+        "shortName": "RX-14",
+        "description": "A Trijicon flattop mount designed for Reflex-series sights, providing an interface between the optic and Weaver or Picatinny-style receiver rails. Its low-profile construction allows RX-series sights to be fitted to modern flat-top rifles."
+      }
+    },
+    "fleaPriceRoubles": 4529,
+    "handbookPriceRoubles": 3484,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope"
+    ],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "b9457489dc2054bc6599fc22": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 26,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
   }
 }

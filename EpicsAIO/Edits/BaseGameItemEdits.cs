@@ -671,7 +671,8 @@ public class BaseGameItemEdits(
                 case "5ae30bad5acfc400185c2dc4":
                     ModifySlotFilters(item, 0, 0, [
                         "66713838ca123f9df8e7584e",
-                        "23878a19adddf4afbbcc0537"]); //Push Carry handle mounts to carry handle
+                        "23878a19adddf4afbbcc0537",
+                    "f4b9be510fefffd895167696"]); //Push Carry handle mounts to carry handle
                     
                     item.Properties!.Prefab!.Path = "assets/content/items/mods/sights_rear/sight_rear_ar15_colt_carry_hande_std.bundle";
                     //Change Carry handle prefab path
@@ -737,6 +738,20 @@ public class BaseGameItemEdits(
                 case "5bf3f59f0db834001a6fa060":
                     item.Parent = "55818ad54bdc2ddc698b4569";
                     break; //Change RPK16 rear sight parent
+                
+                case "68a63b9b8e1fe612970728f7":
+                    ModifySlotFilters(item, 0, 0, [
+                        "66713838ca123f9df8e7584e",
+                        "23878a19adddf4afbbcc0537",
+                        "f4b9be510fefffd895167696"]);
+                    break; //Push Carry handle mounts to M16A2 upper
+                
+                case "68a63b90e1fb670852024659":
+                    ModifySlotFilters(item, 0, 0, [
+                        "66713838ca123f9df8e7584e",
+                        "23878a19adddf4afbbcc0537",
+                        "f4b9be510fefffd895167696"]);
+                    break; //Push Carry handle mounts to M16A1 upper
                 
                 case "651450ce0e00edc794068371":
                     item.Properties!.BFirerate = 750;

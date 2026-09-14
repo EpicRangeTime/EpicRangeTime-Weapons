@@ -876,27 +876,27 @@
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 3000
+        "probability": 2000
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 3000
+        "probability": 2000
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 3000
+        "probability": 2000
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
-        "probability": 3000
+        "probability": 2000
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 3000
+        "probability": 2000
       },
       {
         "containerName": "LOOTCONTAINER_WOODEN_CRATE",
-        "probability": 3000
+        "probability": 2000
       }
     ],
     "masteries": false,
@@ -927,5 +927,135 @@
         ]
       }
     ]
+  },
+  "5039e6a28d98ef83101312ef": {
+    "itemTplToClone": "58d399e486f77442e0016fe7",
+    "parentId": "55818acf4bdc2dde698b456b",
+    "handbookParentId": "5b5f742686f774093e6cb4ff",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "mods/red_dots/trijicon_rx01.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Trijicon RX-01 Reflex Sight",
+        "shortName": "RX-01",
+        "description": "A battery-free 1x reflex sight by Trijicon, using tritium and fiber-optic illumination to power a 6.5 MOA amber aiming dot. Its rugged aluminum housing and both-eyes-open design make it well suited to rapid target acquisition across changing lighting conditions."
+      }
+    },
+    "fleaPriceRoubles": 16375,
+    "handbookPriceRoubles": 12596,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "1b4da200c00111e155513a5b": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 94,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6aa86fcdc579b21546000001": {
+    "itemTplToClone": "58d399e486f77442e0016fe7",
+    "parentId": "55818acf4bdc2dde698b456b",
+    "handbookParentId": "5b5f742686f774093e6cb4ff",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "mods/red_dots/trijicon_rx06.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Trijicon RX-06 Reflex Sight",
+        "shortName": "RX-06",
+        "description": "A battery-free 1x reflex sight by Trijicon, using tritium and fiber-optic illumination to power a triangular amber aiming dot. Its rugged aluminum housing and both-eyes-open design make it well suited to rapid target acquisition across changing lighting conditions."
+      }
+    },
+    "fleaPriceRoubles": 17122,
+    "handbookPriceRoubles": 12720,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "1b4da200c00111e155513a5b": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 96,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
   }
 }
