@@ -2604,7 +2604,6 @@
     {
       "key": "mods/mp5/stock_mp5_kurz_pdw.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle",
         "assets/content/items/mods/stocks/stock_mp5k_hk_kurtz_end_cap.bundle"
       ]
     },
@@ -2740,6 +2739,7 @@
         "assets/systems/effects/collimator.bundle",
         "epicaio_common_meshes.bundle",
         "shaders",
+        "epic_aio_shaders.bundle",
         "assets/content/textures/holemanager/round_spec_mask.bundle",
         "epicaio_common_textures.bundle"
       ]
@@ -2747,8 +2747,12 @@
     {
       "key": "mods/red_dots/acro_p2_fde.bundle",
       "dependencyKeys": [
+        "assets/systems/effects/collimator.bundle",
         "epicaio_common_meshes.bundle",
         "shaders",
+        "epic_aio_shaders.bundle",
+        "assets/content/textures/holemanager/round_spec_mask.bundle",
+        "epicaio_common_textures.bundle",
         "mods/red_dots/acro_p2_blk.bundle"
       ]
     },
@@ -2790,19 +2794,19 @@
     {
       "key": "mods/red_dots/lepold_lco.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
-        "epicaio_common_meshes.bundle",
-        "shaders",
         "epic_aio_shaders.bundle",
+        "epicaio_common_textures.bundle",
         "assets/content/textures/holemanager/round_spec_mask.bundle",
-        "epicaio_common_textures.bundle"
+        "shaders",
+        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_meshes.bundle"
       ]
     },
     {
       "key": "mods/red_dots/lepold_lco_fde.bundle",
       "dependencyKeys": [
-        "epicaio_common_meshes.bundle",
         "mods/red_dots/lepold_lco.bundle",
+        "epicaio_common_meshes.bundle",
         "epic_aio_shaders.bundle"
       ]
     },
