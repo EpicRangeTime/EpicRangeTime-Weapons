@@ -1985,6 +1985,26 @@
       ]
     },
     {
+      "key": "mods/magazines/m20sl_blk.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/magazines/m20sl_dgrn.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle",
+        "mods/magazines/m20sl_blk.bundle"
+      ]
+    },
+    {
+      "key": "mods/magazines/m20sl_fde.bundle",
+      "dependencyKeys": [
+        "epic_aio_shaders.bundle",
+        "mods/magazines/m20sl_blk.bundle"
+      ]
+    },
+    {
       "key": "mods/magazines/magpul_emag_30.bundle",
       "dependencyKeys": [
         "shaders"
@@ -2782,28 +2802,62 @@
     {
       "key": "mods/red_dots/eotech_551.bundle",
       "dependencyKeys": [
-        "assets/commonassets/physics/physicsmaterials.bundle",
-        "assets/content/textures/holemanager/round_spec_mask.bundle",
-        "shaders"
+        "shaders",
+        "epic_aio_shaders.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
       ]
     },
     {
       "key": "mods/red_dots/lepold_lco.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle",
-        "assets/content/textures/holemanager/round_spec_mask.bundle",
-        "shaders",
         "assets/systems/effects/collimator.bundle",
-        "epicaio_common_meshes.bundle"
+        "epicaio_common_meshes.bundle",
+        "shaders",
+        "epic_aio_shaders.bundle",
+        "assets/content/textures/holemanager/round_spec_mask.bundle",
+        "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/red_dots/lepold_lco_fde.bundle",
       "dependencyKeys": [
-        "mods/red_dots/lepold_lco.bundle",
         "epicaio_common_meshes.bundle",
+        "mods/red_dots/lepold_lco.bundle",
         "epic_aio_shaders.bundle"
+      ]
+    },
+    {
+      "key": "mods/red_dots/reticle_lens_attachment_green.bundle",
+      "dependencyKeys": [
+        "epicaio_common_meshes.bundle",
+        "shaders",
+        "epic_aio_shaders.bundle",
+        "epicaio_common_textures.bundle"
+      ]
+    },
+    {
+      "key": "mods/red_dots/reticle_lens_attachment_red.bundle",
+      "dependencyKeys": [
+        "epicaio_common_meshes.bundle",
+        "shaders",
+        "epic_aio_shaders.bundle",
+        "epicaio_common_textures.bundle"
+      ]
+    },
+    {
+      "key": "mods/red_dots/sig_romeo9t_blk.bundle",
+      "dependencyKeys": [
+        "epicaio_common_meshes.bundle",
+        "epic_aio_shaders.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "mods/red_dots/sig_romeo9t_fde.bundle",
+      "dependencyKeys": [
+        "epicaio_common_meshes.bundle",
+        "epic_aio_shaders.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
       ]
     },
     {

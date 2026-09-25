@@ -10,7 +10,8 @@
         "rcid": ""
       },
       "Weight": 0.09,
-      "Ergonomics": 4
+      "Ergonomics": 4,
+      "MalfunctionChance": 0.16
     },
     "locales": {
       "en": {
@@ -559,6 +560,234 @@
           "barters": [
             {
               "count": 24,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6ab5c1050063932a5c000001": {
+    "itemTplToClone": "5448c1d04bdc2dff2f8b4569",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/magazines/m20sl_blk.bundle",
+        "rcid": ""
+      },
+      "MalfunctionChance": 0.12
+    },
+    "locales": {
+      "en": {
+        "name": "5.56x45 Magpul PMAG 20 AR-15 20-round magazine",
+        "shortName": "Gen 1",
+        "description": "Magpul's original gen 1 20 round magazine for the AR-15 platform. Ended up having some slight feed issues and therefore was abandoned in leu of the gen 2 and 3 versions, which were curved."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "fleaPriceRoubles": 9400,
+    "handbookPriceRoubles": 2400,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2400
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2400
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2400
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2400
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "6ab5c1050063932a5c000002": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 22,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6ab5c7350063932a5c000003": {
+    "itemTplToClone": "5448c1d04bdc2dff2f8b4569",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/magazines/m20sl_fde.bundle",
+        "rcid": ""
+      },
+      "MalfunctionChance": 0.12
+    },
+    "locales": {
+      "en": {
+        "name": "5.56x45 Magpul PMAG 20 AR-15 20-round magazine (FDE)",
+        "shortName": "Gen 1",
+        "description": "Magpul's original gen 1 20 round magazine for the AR-15 platform. Ended up having some slight feed issues and therefore was abandoned in leu of the gen 2 and 3 versions, which were curved."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "fleaPriceRoubles": 9400,
+    "handbookPriceRoubles": 2400,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2400
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2400
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2400
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2400
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "6ab5c7350063932a5c000004": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 22,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6ab5c7620063932a5c000005": {
+    "itemTplToClone": "5448c1d04bdc2dff2f8b4569",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/magazines/m20sl_dgrn.bundle",
+        "rcid": ""
+      },
+      "MalfunctionChance": 0.12
+    },
+    "locales": {
+      "en": {
+        "name": "5.56x45 Magpul PMAG 20 AR-15 20-round magazine (dark green)",
+        "shortName": "Gen 1",
+        "description": "Magpul's original gen 1 20 round magazine for the AR-15 platform. Ended up having some slight feed issues and therefore was abandoned in leu of the gen 2 and 3 versions, which were curved."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "fleaPriceRoubles": 9400,
+    "handbookPriceRoubles": 2400,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2400
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2400
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2400
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2400
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "6ab5c7620063932a5c000006": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 22,
               "_tpl": "MONEY_DOLLARS"
             }
           ]
