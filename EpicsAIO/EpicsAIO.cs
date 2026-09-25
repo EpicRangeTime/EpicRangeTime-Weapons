@@ -16,5 +16,6 @@ public class EpicsAIO(WTTServerCommonLib.WTTServerCommonLib wttServerCommonLib) 
         await wttServerCommonLib.CustomQuestZoneService.CreateCustomQuestZones(assembly);
         await wttServerCommonLib.CustomLocaleService.CreateCustomLocales(assembly);
         await wttServerCommonLib.CustomAssortSchemeService.CreateCustomAssortSchemes(assembly);
+        await wttServerCommonLib.CustomWeaponPresetService.CreateCustomWeaponPresets(assembly);
     }
 }

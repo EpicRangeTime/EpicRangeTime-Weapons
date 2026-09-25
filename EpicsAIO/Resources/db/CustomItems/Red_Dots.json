@@ -117,9 +117,7 @@
     "addtoInventorySlots": [],
     "addtoModSlots": true,
     "modSlot": [
-      "mod_scope",
-      "mod_scope_000",
-      "mod_scope_001"
+      "mod_scope"
     ],
     "fleaPriceRoubles": 22920,
     "handbookPriceRoubles": 14000,
@@ -210,9 +208,7 @@
     "addtoInventorySlots": [],
     "addtoModSlots": true,
     "modSlot": [
-      "mod_scope",
-      "mod_scope_000",
-      "mod_scope_001"
+      "mod_scope"
     ],
     "fleaPriceRoubles": 22920,
     "handbookPriceRoubles": 14000,
@@ -305,7 +301,10 @@
     "modSlot": [
       "mod_scope",
       "mod_scope_000",
-      "mod_scope_001"
+      "mod_scope_001",
+      "mod_tactical",
+      "mod_tactical_000",
+      "mod_tactical_002"
     ],
     "fleaPriceRoubles": 33290,
     "handbookPriceRoubles": 13000,
@@ -398,7 +397,10 @@
     "modSlot": [
       "mod_scope",
       "mod_scope_000",
-      "mod_scope_001"
+      "mod_scope_001",
+      "mod_tactical",
+      "mod_tactical_000",
+      "mod_tactical_002"
     ],
     "fleaPriceRoubles": 33290,
     "handbookPriceRoubles": 13000,
@@ -506,7 +508,10 @@
     "modSlot": [
       "mod_scope",
       "mod_scope_000",
-      "mod_scope_001"
+      "mod_scope_001",
+      "mod_tactical",
+      "mod_tactical_000",
+      "mod_tactical_002"
     ],
     "fleaPriceRoubles": 33290,
     "handbookPriceRoubles": 13000,
@@ -589,9 +594,7 @@
     "addtoInventorySlots": [],
     "addtoModSlots": true,
     "modSlot": [
-      "mod_scope",
-      "mod_scope_000",
-      "mod_scope_001"
+      "mod_scope"
     ],
     "fleaPriceRoubles": 28290,
     "handbookPriceRoubles": 14000,
@@ -674,9 +677,7 @@
     "addtoInventorySlots": [],
     "addtoModSlots": true,
     "modSlot": [
-      "mod_scope",
-      "mod_scope_000",
-      "mod_scope_001"
+      "mod_scope"
     ],
     "fleaPriceRoubles": 28290,
     "handbookPriceRoubles": 14000,
@@ -761,7 +762,10 @@
     "modSlot": [
       "mod_scope",
       "mod_scope_000",
-      "mod_scope_001"
+      "mod_scope_001",
+      "mod_tactical",
+      "mod_tactical_000",
+      "mod_tactical_002"
     ],
     "fleaPriceRoubles": 22000,
     "handbookPriceRoubles": 7400,
@@ -866,7 +870,9 @@
     "modSlot": [
       "mod_scope",
       "mod_scope_000",
-      "mod_scope_001"
+      "mod_scope_001",
+      "mod_tactical",
+      "mod_tactical_000"
     ],
     "fleaPriceRoubles": 37000,
     "handbookPriceRoubles": 21000,
@@ -1042,7 +1048,7 @@
     "addtoTraders": true,
     "traders": {
       "PEACEKEEPER": {
-        "1b4da200c00111e155513a5b": {
+        "6aab7f2593a5345059000001": {
           "barterSettings": {
             "loyalLevel": 1,
             "unlimitedCount": true,
@@ -1057,5 +1063,361 @@
         }
       }
     }
+  },
+  "6aab81c093a5345059000003": {
+    "itemTplToClone": "558022b54bdc2dac148b458d",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f742686f774093e6cb4ff",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/red_dots/sig_romeo9t_blk.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.25,
+      "Ergonomics": -2,
+      "ConflictingItems": [
+        "5d0a3a58d7ad1a669c15ca14",
+        "5d0a3e8cd7ad1a6f6a3d35bd",
+        "5dff772da3651922b360bf91",
+        "61714eec290d254f5e6b2ffc",
+        "617151c1d92c473c770214ab",
+        "618ba27d9008e4636a67f61d",
+        "62850c28da09541f43158cca",
+        "6567e7681265c8a131069b0f",
+        "56ea70acd2720b844b8b4594",
+        "57c5ac0824597754771e88a9",
+        "5a37cb10c4a282329a73b4e7",
+        "5a7c74b3e899ef0014332c29",
+        "5aa66be6e5b5b0214e506e97",
+        "5b2388675acfc4771e1be0be",
+        "5b3b99475acfc432ff4dcbee",
+        "5bfd4c980db834001b73449d"
+      ],
+      "Slots": [
+        {
+          "_id": "6aab832793a5345059000005",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope_000",
+          "_parent": "6aab81c093a5345059000003",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6aab845f93a5345059000009"
+                ],
+                "Shift": 0,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "6aab832b93a5345059000006",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope_001",
+          "_parent": "6aab81c093a5345059000003",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6aab856b93a534505900000b"
+                ],
+                "Shift": 0,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "SIG Sauer ROMEO9t reflex sight (Black)",
+        "shortName": "ROMEO9t",
+        "description": "The SIG Sauer ROMEO9T is a rugged enclosed reflex sight designed for duty use, combining a compact housing with a wide viewing window and multiple reticle options. It’s built for fast target acquisition and reliable operation in harsh conditions, with extensive brightness adjustment and night-vision compatibility."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001",
+      "mod_tactical",
+      "mod_tactical_000",
+      "mod_tactical_002"
+    ],
+    "fleaPriceRoubles": 105000,
+    "handbookPriceRoubles": 40000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "6aab81c793a5345059000004": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 345,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "6aab835093a5345059000007": {
+    "itemTplToClone": "558022b54bdc2dac148b458d",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f742686f774093e6cb4ff",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/red_dots/sig_romeo9t_fde.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.25,
+      "Ergonomics": -2,
+      "ConflictingItems": [
+        "5d0a3a58d7ad1a669c15ca14",
+        "5d0a3e8cd7ad1a6f6a3d35bd",
+        "5dff772da3651922b360bf91",
+        "61714eec290d254f5e6b2ffc",
+        "617151c1d92c473c770214ab",
+        "618ba27d9008e4636a67f61d",
+        "62850c28da09541f43158cca",
+        "6567e7681265c8a131069b0f",
+        "56ea70acd2720b844b8b4594",
+        "57c5ac0824597754771e88a9",
+        "5a37cb10c4a282329a73b4e7",
+        "5a7c74b3e899ef0014332c29",
+        "5aa66be6e5b5b0214e506e97",
+        "5b2388675acfc4771e1be0be",
+        "5b3b99475acfc432ff4dcbee",
+        "5bfd4c980db834001b73449d"
+      ],
+      "Slots": [
+        {
+          "_id": "6aab832793a5345059000005",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope_000",
+          "_parent": "6aab81c093a5345059000003",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6aab845f93a5345059000009"
+                ],
+                "Shift": 0,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "6aab832b93a5345059000006",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope_001",
+          "_parent": "6aab81c093a5345059000003",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6aab856b93a534505900000b"
+                ],
+                "Shift": 0,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "SIG Sauer ROMEO9t reflex sight (FDE)",
+        "shortName": "ROMEO9t",
+        "description": "The SIG Sauer ROMEO9T is a rugged enclosed reflex sight designed for duty use, combining a compact housing with a wide viewing window and multiple reticle options. It’s built for fast target acquisition and reliable operation in harsh conditions, with extensive brightness adjustment and night-vision compatibility."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001",
+      "mod_tactical",
+      "mod_tactical_000",
+      "mod_tactical_002"
+    ],
+    "fleaPriceRoubles": 109000,
+    "handbookPriceRoubles": 40000,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "6aab835d93a5345059000008": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 350,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "6aab845f93a5345059000009": {
+    "itemTplToClone": "558022b54bdc2dac148b458d",
+    "parentId": "55818ad54bdc2ddc698b4569",
+    "handbookParentId": "5b5f742686f774093e6cb4ff",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/red_dots/reticle_lens_attachment_red.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.001,
+      "Ergonomics": 0
+    },
+    "locales": {
+      "en": {
+        "name": "ROMEO9t Red Reticle Lens",
+        "shortName": "Red",
+        "description": "The red reticle for the sig romeo9t. If you are seeing this spawn anywhere by itself, please report it as a bug. This should never happen."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "fleaPriceRoubles": 1,
+    "handbookPriceRoubles": 1,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "masteries": false,
+    "addWeaponPreset": false
+  },
+  "6aab856b93a534505900000b": {
+    "itemTplToClone": "558022b54bdc2dac148b458d",
+    "parentId": "55818ad54bdc2ddc698b4569",
+    "handbookParentId": "5b5f742686f774093e6cb4ff",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "mods/red_dots/reticle_lens_attachment_green.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.001,
+      "Ergonomics": 0
+    },
+    "locales": {
+      "en": {
+        "name": "ROMEO9t Green Reticle Lens",
+        "shortName": "Green",
+        "description": "The green reticle for the sig romeo9t. If you are seeing this spawn anywhere by itself, please report it as a bug. This should never happen."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "fleaPriceRoubles": 1,
+    "handbookPriceRoubles": 1,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "masteries": false,
+    "addWeaponPreset": false
   }
 }
