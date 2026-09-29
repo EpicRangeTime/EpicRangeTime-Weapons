@@ -697,7 +697,7 @@
     "modSlot": [],
     "fleaPriceRoubles": 81248,
     "handbookPriceRoubles": 21746,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
     "staticLootContainers": [
@@ -711,77 +711,8 @@
       }
     ],
     "masteries": true,
-    "addWeaponPreset": true,
-    "weaponPresets": [
-      {
-        "_changeWeaponName": false,
-        "_encyclopedia": "939c742f7dad852286188029",
-        "_id": "660b23e9010010f3880b2001",
-        "_items": [
-          {
-            "_id": "3e4e40e95d668a5ac8afdd51",
-            "_tpl": "939c742f7dad852286188029",
-            "upd": {
-              "Repairable": {
-                "MaxDurability": 100,
-                "Durability": 100
-              },
-              "Foldable": {
-                "Folded": false
-              },
-              "FireMode": {
-                "FireMode": "single"
-              }
-            }
-          },
-          {
-            "_id": "a3ef4d4387cf8dca427e2e3b",
-            "_tpl": "57e3dba62459770f0c32322b",
-            "parentId": "3e4e40e95d668a5ac8afdd51",
-            "slotId": "mod_pistol_grip"
-          },
-          {
-            "_id": "c0cfc9efb127c33c32ccb968",
-            "_tpl": "5a0d63621526d8dba31fe3bf",
-            "parentId": "3e4e40e95d668a5ac8afdd51",
-            "slotId": "mod_muzzle"
-          },
-          {
-            "_id": "a839b60c3d16cc6c20c4ecad",
-            "_tpl": "5ac66c5d5acfc4001718d314",
-            "parentId": "3e4e40e95d668a5ac8afdd51",
-            "slotId": "mod_magazine"
-          },
-          {
-            "_id": "e1d50aa71fe08311cdc55790",
-            "_tpl": "57dc347d245977596754e7a1",
-            "parentId": "3e4e40e95d668a5ac8afdd51",
-            "slotId": "mod_stock"
-          },
-          {
-            "_id": "3c0a7514fb62ec631ce78db1",
-            "_tpl": "5839a7742459773cf9693481",
-            "parentId": "3e4e40e95d668a5ac8afdd51",
-            "slotId": "mod_reciever"
-          },
-          {
-            "_id": "7a8a2e26ff237b06a1298841",
-            "_tpl": "59d36a0086f7747e673f3946",
-            "parentId": "3e4e40e95d668a5ac8afdd51",
-            "slotId": "mod_gas_block"
-          },
-          {
-            "_id": "595a52c769891e24bd080bf8",
-            "_tpl": "57dc32dc245977596d4ef3d3",
-            "parentId": "7a8a2e26ff237b06a1298841",
-            "slotId": "mod_handguard"
-          }
-        ],
-        "_name": "AKS-74UB .300 Stock preset",
-        "_parent": "3e4e40e95d668a5ac8afdd51",
-        "_type": "Preset"
-      }
-    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
     "traders": {
       "PRAPOR": {
         "690c2a76efda1c3d78f26d83": {
@@ -2317,7 +2248,7 @@
     "modSlot": [],
     "fleaPriceRoubles": 20800,
     "handbookPriceRoubles": 10643,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
     "staticLootContainers": [
@@ -2331,81 +2262,8 @@
       }
     ],
     "masteries": true,
-    "addWeaponPreset": true,
-    "weaponPresets": [
-      {
-        "_changeWeaponName": false,
-        "_encyclopedia": "57f28a7ffb22e277b0234219",
-        "_id": "660b56ee010010f388ccbe34",
-        "_items": [
-          {
-            "_id": "318f01040a4f2ecd57e1f08e",
-            "_tpl": "57f28a7ffb22e277b0234219",
-            "upd": {
-              "StackObjectsCount": 99,
-              "Repairable": {
-                "MaxDurability": 100,
-                "Durability": 100
-              },
-              "FireMode": {
-                "FireMode": "single"
-              }
-            }
-          },
-          {
-            "_id": "c446bee44fafd11d4b94ff9a",
-            "_tpl": "59c6633186f7740cf0493bb9",
-            "parentId": "318f01040a4f2ecd57e1f08e",
-            "slotId": "mod_gas_block"
-          },
-          {
-            "_id": "23897635ba082217a8c18e15",
-            "_tpl": "5ac7655e5acfc40016339a19",
-            "parentId": "318f01040a4f2ecd57e1f08e",
-            "slotId": "mod_muzzle"
-          },
-          {
-            "_id": "18e5a10e9daac60d938ed60c",
-            "_tpl": "5649ade84bdc2d1b2b8b4587",
-            "parentId": "318f01040a4f2ecd57e1f08e",
-            "slotId": "mod_pistol_grip"
-          },
-          {
-            "_id": "12012708d42cf48f5f6e16d4",
-            "_tpl": "5ac50da15acfc4001718d287",
-            "parentId": "318f01040a4f2ecd57e1f08e",
-            "slotId": "mod_reciever"
-          },
-          {
-            "_id": "bbc87b1e1439012b0ffc063a",
-            "_tpl": "5ac72e475acfc400180ae6fe",
-            "parentId": "318f01040a4f2ecd57e1f08e",
-            "slotId": "mod_sight_rear"
-          },
-          {
-            "_id": "b17d0cd35186d1ae3223c97b",
-            "_tpl": "5649b0fc4bdc2d17108b4588",
-            "parentId": "318f01040a4f2ecd57e1f08e",
-            "slotId": "mod_stock"
-          },
-          {
-            "_id": "deb40d58824d4df8a1f050b1",
-            "_tpl": "55d4837c4bdc2d1d4e8b456c",
-            "parentId": "318f01040a4f2ecd57e1f08e",
-            "slotId": "mod_magazine"
-          },
-          {
-            "_id": "92e2613886d97daf667f4da2",
-            "_tpl": "5648b1504bdc2d9d488b4584",
-            "parentId": "c446bee44fafd11d4b94ff9a",
-            "slotId": "mod_handguard"
-          }
-        ],
-        "_name": "Saiga SGL31 Stock preset",
-        "_parent": "318f01040a4f2ecd57e1f08e",
-        "_type": "Preset"
-      }
-    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
     "traders": {
       "SKIER": {
         "690c2a76efda1c3d78f26d88": {
@@ -2457,7 +2315,7 @@
     "modSlot": [],
     "fleaPriceRoubles": 22800,
     "handbookPriceRoubles": 10643,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
     "staticLootContainers": [
@@ -2471,84 +2329,8 @@
       }
     ],
     "masteries": true,
-    "addWeaponPreset": true,
-    "weaponPresets": [
-      {
-        "_changeWeaponName": false,
-        "_encyclopedia": "e895575bcd1fa1de36d301b6",
-        "_id": "660b566e010010f3889ce04d",
-        "_items": [
-          {
-            "_id": "115ca75a55b2823f7b6d9e3c",
-            "_tpl": "e895575bcd1fa1de36d301b6",
-            "upd": {
-              "StackObjectsCount": 99,
-              "Repairable": {
-                "MaxDurability": 100,
-                "Durability": 100
-              },
-              "Foldable": {
-                "Folded": false
-              },
-              "FireMode": {
-                "FireMode": "single"
-              }
-            }
-          },
-          {
-            "_id": "20ef697eb1a81868e3accd4b",
-            "_tpl": "59c6633186f7740cf0493bb9",
-            "parentId": "115ca75a55b2823f7b6d9e3c",
-            "slotId": "mod_gas_block"
-          },
-          {
-            "_id": "4587264be9d051295de83ff9",
-            "_tpl": "5ac7655e5acfc40016339a19",
-            "parentId": "115ca75a55b2823f7b6d9e3c",
-            "slotId": "mod_muzzle"
-          },
-          {
-            "_id": "1db8b5b95f713208261e50a9",
-            "_tpl": "5649ade84bdc2d1b2b8b4587",
-            "parentId": "115ca75a55b2823f7b6d9e3c",
-            "slotId": "mod_pistol_grip"
-          },
-          {
-            "_id": "2897e28c972f11f7f8ba3ce5",
-            "_tpl": "5ac50da15acfc4001718d287",
-            "parentId": "115ca75a55b2823f7b6d9e3c",
-            "slotId": "mod_reciever"
-          },
-          {
-            "_id": "57f5e273e37b8fbf1b9098f6",
-            "_tpl": "5ac72e475acfc400180ae6fe",
-            "parentId": "115ca75a55b2823f7b6d9e3c",
-            "slotId": "mod_sight_rear"
-          },
-          {
-            "_id": "c1fd83ff59aac19854532937",
-            "_tpl": "5ac50c185acfc400163398d4",
-            "parentId": "115ca75a55b2823f7b6d9e3c",
-            "slotId": "mod_stock"
-          },
-          {
-            "_id": "2f14be89b3b1efc59ae84ccd",
-            "_tpl": "55d480c04bdc2d1d4e8b456a",
-            "parentId": "115ca75a55b2823f7b6d9e3c",
-            "slotId": "mod_magazine"
-          },
-          {
-            "_id": "6b8a6f2f47025f6cd9c28501",
-            "_tpl": "5cbda392ae92155f3c17c39f",
-            "parentId": "20ef697eb1a81868e3accd4b",
-            "slotId": "mod_handguard"
-          }
-        ],
-        "_name": "Saiga MK Ver. 030 Stock preset",
-        "_parent": "115ca75a55b2823f7b6d9e3c",
-        "_type": "Preset"
-      }
-    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
     "traders": {
       "SKIER": {
         "690c2a76efda1c3d78f26d89": {
@@ -2842,7 +2624,7 @@
     "modSlot": [],
     "fleaPriceRoubles": 62544,
     "handbookPriceRoubles": 49520,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
     "staticLootContainers": [
@@ -2857,99 +2639,11 @@
     ],
     "masteries": true,
     "addWeaponPreset": false,
-    "weaponPresets": [
-      {
-        "_changeWeaponName": false,
-        "_encyclopedia": "93bcdfda236122e67c098847",
-        "_id": "660b4a90010010f388968e18",
-        "_items": [
-          {
-            "_id": "76473c126cd112b5b585ae8b",
-            "_tpl": "93bcdfda236122e67c098847",
-            "upd": {
-              "StackObjectsCount": 99,
-              "Repairable": {
-                "MaxDurability": 100,
-                "Durability": 100
-              },
-              "Foldable": {
-                "Folded": false
-              },
-              "FireMode": {
-                "FireMode": "single"
-              }
-            }
-          },
-          {
-            "_id": "2b255c348f41b1d435e83eed",
-            "_tpl": "57e3dba62459770f0c32322b",
-            "parentId": "76473c126cd112b5b585ae8b",
-            "slotId": "mod_pistol_grip"
-          },
-          {
-            "_id": "6e7c37b30d87020344b42dfd",
-            "_tpl": "5ac72e895acfc43b321d4bd5",
-            "parentId": "76473c126cd112b5b585ae8b",
-            "slotId": "mod_muzzle"
-          },
-          {
-            "_id": "00e6897fdf9b2609178f4252",
-            "_tpl": "59d6272486f77466146386ff",
-            "parentId": "76473c126cd112b5b585ae8b",
-            "slotId": "mod_magazine"
-          },
-          {
-            "_id": "6a9a8d44f2a75452b407cb46",
-            "_tpl": "57dc347d245977596754e7a1",
-            "parentId": "76473c126cd112b5b585ae8b",
-            "slotId": "mod_stock"
-          },
-          {
-            "_id": "e4b0200747760435445586dd",
-            "_tpl": "57dc334d245977597164366f",
-            "parentId": "76473c126cd112b5b585ae8b",
-            "slotId": "mod_reciever"
-          },
-          {
-            "_id": "48de431f7092d13944709eca",
-            "_tpl": "59d36a0086f7747e673f3946",
-            "parentId": "76473c126cd112b5b585ae8b",
-            "slotId": "mod_gas_block"
-          },
-          {
-            "_id": "d04e321c6824e6066d99b3ba",
-            "_tpl": "57dc32dc245977596d4ef3d3",
-            "parentId": "48de431f7092d13944709eca",
-            "slotId": "mod_handguard"
-          }
-        ],
-        "_name": "Century Arms Draco Stock preset",
-        "_parent": "76473c126cd112b5b585ae8b",
-        "_type": "Preset"
-      }
-    ],
-    "traders": {
-      "PRAPOR": {
-        "690c2a76efda1c3d78f26d8a": {
-          "barterSettings": {
-            "loyalLevel": 4,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 92200,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    },
     "masterySections": [
       {
         "Name": "AK74",
         "Templates": [
-          "93bcdfda236122e67c098847"
+          "3dc691f607ffed3228bf6ca2"
         ]
       }
     ]
@@ -3230,7 +2924,7 @@
     "modSlot": [],
     "fleaPriceRoubles": 20800,
     "handbookPriceRoubles": 10643,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
     "staticLootContainers": [
@@ -3244,7 +2938,7 @@
       }
     ],
     "masteries": true,
-    "addWeaponPreset": true,
+    "addWeaponPreset": false,
     "weaponPresets": [
       {
         "_changeWeaponName": false,

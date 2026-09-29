@@ -142,5 +142,458 @@
     "_name": "Romeo9t FDE",
     "_parent": "6aab87f993a5345059000011",
     "_type": "Preset"
+  },
+  "5a4e64fd845689d7f72909ca": {
+    "_changeWeaponName": false,
+    "_encyclopedia": "3dc691f607ffed3228bf6ca2",
+    "_id": "5a4e64fd845689d7f72909ca",
+    "_items": [
+      {
+        "_id": "3e85702f7755f1ed298e7dbe",
+        "_tpl": "3dc691f607ffed3228bf6ca2",
+        "upd": {
+          "Repairable": {
+            "Durability": 100,
+            "MaxDurability": 100
+          }
+        }
+      },
+      {
+        "_id": "2bcbf1e879b297927afd3003",
+        "_tpl": "649ec107961514b22506b10c",
+        "parentId": "3e85702f7755f1ed298e7dbe",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "2a8141becec68a3c2b07ce38",
+        "_tpl": "5beec8ea0db834001a6f9dbf",
+        "parentId": "3e85702f7755f1ed298e7dbe",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "914a96aaf1f1eeec2fc8a1f4",
+        "_tpl": "649ec127c93611967b034957",
+        "parentId": "3e85702f7755f1ed298e7dbe",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "b1489310ac60aa13e77f1a3d",
+        "_tpl": "5beecbb80db834001d2c465e",
+        "parentId": "914a96aaf1f1eeec2fc8a1f4",
+        "slotId": "mod_mount_001"
+      },
+      {
+        "_id": "9e47012bc7f393eb62e89ad8",
+        "_tpl": "43b167b7a5c61d36f59f0783",
+        "parentId": "3e85702f7755f1ed298e7dbe",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "1cd9446ce401b6fe5f84f48d",
+        "_tpl": "649ec2f3961514b22506b111",
+        "parentId": "3e85702f7755f1ed298e7dbe",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "4f974beb79f0be38992108e7",
+        "_tpl": "649ec2da59cbb3c813042dca",
+        "parentId": "1cd9446ce401b6fe5f84f48d",
+        "slotId": "mod_sight_rear"
+      },
+      {
+        "_id": "644d70155437c084be870bf6",
+        "_tpl": "649ec2cec93611967b03495e",
+        "parentId": "4f974beb79f0be38992108e7",
+        "slotId": "mod_sight_rear"
+      },
+      {
+        "_id": "f08373a03755ae3047f8582a",
+        "_tpl": "5ac66bea5acfc43b321d4aec",
+        "parentId": "3e85702f7755f1ed298e7dbe",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "80ee3fe15a38a79b502c2826",
+        "_tpl": "649ec87d8007560a9001ab36",
+        "parentId": "3e85702f7755f1ed298e7dbe",
+        "slotId": "mod_stock_001"
+      },
+      {
+        "_id": "50cc52762b222b6a9af68c6a",
+        "_tpl": "5beec8c20db834001d2c465c",
+        "parentId": "80ee3fe15a38a79b502c2826",
+        "slotId": "mod_stock"
+      }
+    ],
+    "_name": "AK-15_Default",
+    "_parent": "3e85702f7755f1ed298e7dbe",
+    "_type": "Preset"
+  },
+  "d75881cdc53ecc28afd1e359": {
+    "_changeWeaponName": false,
+    "_encyclopedia": "52500592c7109667abb6cbeb",
+    "_id": "d75881cdc53ecc28afd1e359",
+    "_items": [
+      {
+        "_id": "5a57ec968ebaabf3c46cb489",
+        "_tpl": "52500592c7109667abb6cbeb",
+        "upd": {
+          "FireMode": {
+            "FireMode": "single"
+          },
+          "Foldable": {
+            "Folded": false
+          },
+          "Repairable": {
+            "Durability": 100,
+            "MaxDurability": 100
+          }
+        }
+      },
+      {
+        "_id": "5102a64f123e2b7bf7e4bfa1",
+        "_tpl": "5649ad3f4bdc2df8348b4585",
+        "parentId": "5a57ec968ebaabf3c46cb489",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "1b59df2f9c663eeec74f1c52",
+        "_tpl": "57dc347d245977596754e7a1",
+        "parentId": "5a57ec968ebaabf3c46cb489",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "d68da761ff894a87b884e9d3",
+        "_tpl": "5ac66bea5acfc43b321d4aec",
+        "parentId": "5a57ec968ebaabf3c46cb489",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "70dc3dbc12b89bd57826e512",
+        "_tpl": "5ac72e895acfc43b321d4bd5",
+        "parentId": "5a57ec968ebaabf3c46cb489",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "b33dc33ec5dd85bf0681f051",
+        "_tpl": "57dc334d245977597164366f",
+        "parentId": "5a57ec968ebaabf3c46cb489",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "44a6d15bf1386d175a4c3625",
+        "_tpl": "59d36a0086f7747e673f3946",
+        "parentId": "5a57ec968ebaabf3c46cb489",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "2df4720c5031a3ee843fe2b4",
+        "_tpl": "57dc32dc245977596d4ef3d3",
+        "parentId": "44a6d15bf1386d175a4c3625",
+        "slotId": "mod_handguard"
+      }
+    ],
+    "_name": "Modified Draco Default",
+    "_parent": "5a57ec968ebaabf3c46cb489",
+    "_type": "Preset"
+  },
+  "660b23e9010010f3880b2001": {
+    "_changeWeaponName": false,
+    "_encyclopedia": "939c742f7dad852286188029",
+    "_id": "660b23e9010010f3880b2001",
+    "_items": [
+      {
+        "_id": "3e4e40e95d668a5ac8afdd51",
+        "_tpl": "939c742f7dad852286188029",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "Foldable": {
+            "Folded": false
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "a3ef4d4387cf8dca427e2e3b",
+        "_tpl": "57e3dba62459770f0c32322b",
+        "parentId": "3e4e40e95d668a5ac8afdd51",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "c0cfc9efb127c33c32ccb968",
+        "_tpl": "5a0d63621526d8dba31fe3bf",
+        "parentId": "3e4e40e95d668a5ac8afdd51",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "a839b60c3d16cc6c20c4ecad",
+        "_tpl": "5ac66c5d5acfc4001718d314",
+        "parentId": "3e4e40e95d668a5ac8afdd51",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "e1d50aa71fe08311cdc55790",
+        "_tpl": "57dc347d245977596754e7a1",
+        "parentId": "3e4e40e95d668a5ac8afdd51",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "3c0a7514fb62ec631ce78db1",
+        "_tpl": "5839a7742459773cf9693481",
+        "parentId": "3e4e40e95d668a5ac8afdd51",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "7a8a2e26ff237b06a1298841",
+        "_tpl": "59d36a0086f7747e673f3946",
+        "parentId": "3e4e40e95d668a5ac8afdd51",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "595a52c769891e24bd080bf8",
+        "_tpl": "57dc32dc245977596d4ef3d3",
+        "parentId": "7a8a2e26ff237b06a1298841",
+        "slotId": "mod_handguard"
+      }
+    ],
+    "_name": "AKS-74UB .300 Stock preset",
+    "_parent": "3e4e40e95d668a5ac8afdd51",
+    "_type": "Preset"
+  },
+  "660b56ee010010f388ccbe34": {
+    "_changeWeaponName": false,
+    "_encyclopedia": "57f28a7ffb22e277b0234219",
+    "_id": "660b56ee010010f388ccbe34",
+    "_items": [
+      {
+        "_id": "318f01040a4f2ecd57e1f08e",
+        "_tpl": "57f28a7ffb22e277b0234219",
+        "upd": {
+          "FireMode": {
+            "FireMode": "single"
+          },
+          "Repairable": {
+            "Durability": 100,
+            "MaxDurability": 100
+          }
+        }
+      },
+      {
+        "_id": "095ffb790ca50e406e9809a1",
+        "_tpl": "59c6633186f7740cf0493bb9",
+        "parentId": "318f01040a4f2ecd57e1f08e",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "3b2eab0569b1ec2530bb8a90",
+        "_tpl": "5648b0744bdc2d363b8b4578",
+        "parentId": "095ffb790ca50e406e9809a1",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "1f6bf648e27e0898bae19313",
+        "_tpl": "5649aa744bdc2ded0b8b457e",
+        "parentId": "318f01040a4f2ecd57e1f08e",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "1e52722a3d39620713e24cde",
+        "_tpl": "5649ad3f4bdc2df8348b4585",
+        "parentId": "318f01040a4f2ecd57e1f08e",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "e2c610ab21076536354c8599",
+        "_tpl": "5649af094bdc2df8348b4586",
+        "parentId": "318f01040a4f2ecd57e1f08e",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "56495dbccd4a959e231357ee",
+        "_tpl": "5649b0544bdc2d1b2b8b458a",
+        "parentId": "318f01040a4f2ecd57e1f08e",
+        "slotId": "mod_sight_rear"
+      },
+      {
+        "_id": "1841d0ac091a6e9025925434",
+        "_tpl": "5649b1c04bdc2d16268b457c",
+        "parentId": "318f01040a4f2ecd57e1f08e",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "be8b3ea4e1055b9f8db9610f",
+        "_tpl": "564ca99c4bdc2d16268b4589",
+        "parentId": "318f01040a4f2ecd57e1f08e",
+        "slotId": "mod_magazine"
+      }
+    ],
+    "_name": "Saiga SGL31 Stock preset",
+    "_parent": "318f01040a4f2ecd57e1f08e",
+    "_type": "Preset"
+  },
+  "660b566e010010f3889ce04d": {
+    "_changeWeaponName": false,
+    "_encyclopedia": "e895575bcd1fa1de36d301b6",
+    "_id": "660b566e010010f3889ce04d",
+    "_items": [
+      {
+        "_id": "115ca75a55b2823f7b6d9e3c",
+        "_tpl": "e895575bcd1fa1de36d301b6",
+        "upd": {
+          "FireMode": {
+            "FireMode": "single"
+          },
+          "Repairable": {
+            "Durability": 100,
+            "MaxDurability": 100
+          }
+        }
+      },
+      {
+        "_id": "54f5b80a53c24c79bd1f1379",
+        "_tpl": "59c6633186f7740cf0493bb9",
+        "parentId": "115ca75a55b2823f7b6d9e3c",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "2609e870b9dcb0af7987796a",
+        "_tpl": "5648b1504bdc2d9d488b4584",
+        "parentId": "54f5b80a53c24c79bd1f1379",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "51975a60cb708a4c3c8f9b9f",
+        "_tpl": "5ac7655e5acfc40016339a19",
+        "parentId": "115ca75a55b2823f7b6d9e3c",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "817e3b0fe551dd6673ddf225",
+        "_tpl": "5649ade84bdc2d1b2b8b4587",
+        "parentId": "115ca75a55b2823f7b6d9e3c",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "1471d6734ac6f7f5c49ebecb",
+        "_tpl": "5ac50da15acfc4001718d287",
+        "parentId": "115ca75a55b2823f7b6d9e3c",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "bb834002834dc4b5fa254a52",
+        "_tpl": "5ac72e475acfc400180ae6fe",
+        "parentId": "115ca75a55b2823f7b6d9e3c",
+        "slotId": "mod_sight_rear"
+      },
+      {
+        "_id": "9a3701b9e42484df2a3ba344",
+        "_tpl": "5ac50c185acfc400163398d4",
+        "parentId": "115ca75a55b2823f7b6d9e3c",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "c822d1ae50e84e35f154e1ef",
+        "_tpl": "55d480c04bdc2d1d4e8b456a",
+        "parentId": "115ca75a55b2823f7b6d9e3c",
+        "slotId": "mod_magazine"
+      }
+    ],
+    "_name": "Saiga MK Ver. 030 Stock preset",
+    "_parent": "115ca75a55b2823f7b6d9e3c",
+    "_type": "Preset"
+  },
+  "38a5895464f38f3b8c885364": {
+    "_changeWeaponName": false,
+    "_encyclopedia": "72bbf927bf5b1d4a0837485b",
+    "_id": "38a5895464f38f3b8c885364",
+    "_items": [
+      {
+        "_id": "5bd34199c7d1f9b18dd07263",
+        "_tpl": "72bbf927bf5b1d4a0837485b",
+        "upd": {
+          "FireMode": {
+            "FireMode": "single"
+          },
+          "Repairable": {
+            "Durability": 100,
+            "MaxDurability": 100
+          }
+        }
+      },
+      {
+        "_id": "6bb847a205cb9f7ccab27bf8",
+        "_tpl": "5fbcbd6c187fea44d52eda14",
+        "parentId": "5bd34199c7d1f9b18dd07263",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "6ec6005fd12fded7b5e21d44",
+        "_tpl": "55d4887d4bdc2d962f8b4570",
+        "parentId": "5bd34199c7d1f9b18dd07263",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "0a23a123ee1fca7659f579c1",
+        "_tpl": "5fbcc3e4d6fa9c00c571bb58",
+        "parentId": "5bd34199c7d1f9b18dd07263",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "858d9da3d13fe553ac2bf38e",
+        "_tpl": "2905579cfacf2a9ddaa2a922",
+        "parentId": "0a23a123ee1fca7659f579c1",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "f7a8582b8cc6f15d2059c6ad",
+        "_tpl": "7f35c72194fb98852c83a2da",
+        "parentId": "858d9da3d13fe553ac2bf38e",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "ab4c0367a6e0e8dea8b478be",
+        "_tpl": "5fbc210bf24b94483f726481",
+        "parentId": "858d9da3d13fe553ac2bf38e",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "ff9ebfb57b158cc192162a74",
+        "_tpl": "5fbc226eca32ed67276c155d",
+        "parentId": "0a23a123ee1fca7659f579c1",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "df026dae7d776bf6369e7000",
+        "_tpl": "5fc0fa362770a0045c59c677",
+        "parentId": "ff9ebfb57b158cc192162a74",
+        "slotId": "mod_sight_front"
+      },
+      {
+        "_id": "5b86dc2833907d5dd079ba92",
+        "_tpl": "5fc0fa957283c4046c58147e",
+        "parentId": "0a23a123ee1fca7659f579c1",
+        "slotId": "mod_sight_rear"
+      },
+      {
+        "_id": "6a15470caa7a4e53fed6a11b",
+        "_tpl": "5fbcc437d724d907e2077d5c",
+        "parentId": "5bd34199c7d1f9b18dd07263",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "81a04477b07b0ead86894868",
+        "_tpl": "5fbcc640016cce60e8341acc",
+        "parentId": "5bd34199c7d1f9b18dd07263",
+        "slotId": "mod_charge"
+      }
+    ],
+    "_name": "MCX 5.56 Default",
+    "_parent": "5bd34199c7d1f9b18dd07263",
+    "_type": "Preset"
   }
 }

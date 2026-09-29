@@ -85,17 +85,6 @@
         "containerName": "LOOTCONTAINER_COMMON_FUND_STASH",
         "probability": 900
       }
-    ],
-    "masteries": false,
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "masterySections": [
-      {
-        "Name": "M4",
-        "Templates": [
-          "4b81488c78c8a8ac7d37f9b9"
-        ]
-      }
     ]
   },
   "0554e5da796b8133eb65b389": {
