@@ -5560,5 +5560,210 @@
         }
       }
     }
+  },
+  "6abb56a7971168a7f6000019": {
+    "itemTplToClone": "5aa66a9be5b5b0214e506e89",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "mods/mounts/spuhr_sp4001c.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "6abb56a7971168a7f600001a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "6abb56a7971168a7f6000019",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "56ea70acd2720b844b8b4594",
+                  "5aa66be6e5b5b0214e506e97",
+                  "61714eec290d254f5e6b2ffc",
+                  "62850c28da09541f43158cca"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6abb56a7971168a7f600001b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "6abb56a7971168a7f6000019",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6abb56a7971168a7f600001c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "SPUHR SP-4001C 34mm ring scope mount",
+        "shortName": "SP-4001C",
+        "description": "The SPUHR SP-4001C is a rugged one-piece 34mm scope mount engineered for high strength and consistent zero retention. Its rigid aluminum construction and integrated accessory interfaces make it well suited for precision and tactical rifles."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "fleaPriceRoubles": 14000,
+    "handbookPriceRoubles": 8500,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1600
+      }
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "BADGER": {
+        "6abb5214971168a7f6000008": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 84,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6abb56a7971168a7f600001c": {
+    "itemTplToClone": "618b9682a3884f56c957ca78",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "mods/mounts/spuhr_sp4001c_picatiny.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "6abb56a7971168a7f600001a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope_000",
+          "_parent": "6abb56a7971168a7f600001c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ae0171245977343c27bfcf",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "615d8d878004cc50514c3233",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "61714b2467085e45ef140b2c",
+                  "5a33b2c9c4a282000c5a9511"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "SPUHR A-0029 high picatinny mount",
+        "shortName": "A-0029",
+        "description": "A SPUHR picatinny mount intended for their scope mounts, for mounting rangefinders or other accessories above the scope."
+      }
+    },
+    "fleaPriceRoubles": 7700,
+    "handbookPriceRoubles": 4000,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1800
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1800
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1800
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 1800
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1800
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 1800
+      }
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "BADGER": {
+        "6abb5c38971168a7f600001d": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 33,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
   }
 }
