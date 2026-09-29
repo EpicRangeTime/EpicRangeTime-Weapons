@@ -5466,5 +5466,99 @@
         }
       }
     }
+  },
+  "6abb2f4a971168a7f6000001": {
+    "itemTplToClone": "5c064c400db834001d23f468",
+    "parentId": "55818ad54bdc2ddc698b4569",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "mods/mounts/rra_rear_sight.bundle",
+        "rcid": ""
+      },
+      "ConflictingItems": [
+        "5ae30bad5acfc400185c2dc4",
+        "61817865d3a39d50044c13a4",
+        "5bb20e49d4351e3bac1212de",
+        "5ba26b17d4351e00367f9bdd",
+        "5dfa3d7ac41b2312ea33362a",
+        "5c1780312e221602b66cc189",
+        "5fb6564947ce63734e3fa1da",
+        "5bc09a18d4351e003562b68e",
+        "5c18b9192e2216398b5a8104",
+        "5fc0fa957283c4046c58147e",
+        "5894a81786f77427140b8347",
+        "55d5f46a4bdc2d1b198b4567"
+      ],
+      "Ergonomics": -2,
+      "Width": 2,
+      "ScopesCount": 1,
+      "ModesCount": [
+        1
+      ],
+      "Zooms": [
+        [1]
+      ],
+      "AimSensitivity": [
+        [0.65]
+      ],
+      "CalibrationDistances": [
+        [100]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Rock River Arms Picatinny Riser mount",
+        "shortName": "RRA Riser",
+        "description": "An old style riser from Rock River Arms to raise your sights idfk."
+      }
+    },
+    "fleaPriceRoubles": 6000,
+    "handbookPriceRoubles": 4200,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2200
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2200
+      }
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "6abb2f4a971168a7f6000002": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 32,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
   }
 }
