@@ -1091,6 +1091,51 @@ public class BaseGameItemEdits(
                 case "5c052a900db834001a66acbd":
                     item.Properties!.Prefab!.Path = "mods/scopes/acog_ta01nsn_4x32_tan.bundle";
                     break; //Swap ACOG TA01 tan path
+                
+                
+                //Modifications to other mods' items below
+                
+                case "6936be064737190b66053bb4": //Taupe MK11 Supp
+                    item.Properties!.ConflictingItems!.Remove("6932af0bbe542622170428bd");
+                    item.Properties!.ConflictingItems!.UnionWith([
+                        "6878917c7adb7e17eb1273ce",
+                        "10c1dae2a05599e8a2b59cda",
+                        "ef976a5a821bbb0200991f9a",
+                        "e94de16b0e19077ac1a4c90a",
+                        "551ec269e7bb299d728da89e",
+                        "d11567e6b00e6b18db43b036",
+                        "9930f05d4e38813e5ef5ff90",
+                        "173203ac7780e64538343f21",
+                        "e519d0baabca193610169427",
+                        "a1fd0589018e71233daeb331",
+                        "908aacf3d6a56a7a0d1ade69",
+                        "bf593ba2155d31edd2b421c7",
+                        "d461f4916807b7599b22f284",
+                        "5cc125555c98bf150a4fd068",
+                        "083fb4be48363dfa0fb153f4"
+                        ]);
+                    break; //Remove the potomac flash hider from suppressor conflicts and add EpicAIO muzzles to conflicts
+                
+                case "6932af22cccd2b808a04385e": //Black MK11 Supp
+                    item.Properties!.ConflictingItems!.Remove("6932af0bbe542622170428bd");
+                    item.Properties!.ConflictingItems!.UnionWith([
+                        "6878917c7adb7e17eb1273ce",
+                        "10c1dae2a05599e8a2b59cda",
+                        "ef976a5a821bbb0200991f9a",
+                        "e94de16b0e19077ac1a4c90a",
+                        "551ec269e7bb299d728da89e",
+                        "d11567e6b00e6b18db43b036",
+                        "9930f05d4e38813e5ef5ff90",
+                        "173203ac7780e64538343f21",
+                        "e519d0baabca193610169427",
+                        "a1fd0589018e71233daeb331",
+                        "908aacf3d6a56a7a0d1ade69",
+                        "bf593ba2155d31edd2b421c7",
+                        "d461f4916807b7599b22f284",
+                        "5cc125555c98bf150a4fd068",
+                        "083fb4be48363dfa0fb153f4"
+                    ]);
+                    break; //Remove the potomac flash hider from suppressor conflicts and add EpicAIO muzzles to conflicts
             }
         }
     }
