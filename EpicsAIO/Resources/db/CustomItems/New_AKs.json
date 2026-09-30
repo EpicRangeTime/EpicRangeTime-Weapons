@@ -997,7 +997,7 @@
     "modSlot": [],
     "fleaPriceRoubles": 32800,
     "handbookPriceRoubles": 19345,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
     "staticLootContainers": [
@@ -1011,77 +1011,8 @@
       }
     ],
     "masteries": true,
-    "addWeaponPreset": true,
-    "weaponPresets": [
-      {
-        "_changeWeaponName": false,
-        "_encyclopedia": "627c4fe34b0a558e8a3642a1",
-        "_id": "660b2422010010f3881eaee3",
-        "_items": [
-          {
-            "_id": "d4b0aab0f7484102cf001907",
-            "_tpl": "627c4fe34b0a558e8a3642a1",
-            "upd": {
-              "Repairable": {
-                "MaxDurability": 100,
-                "Durability": 100
-              },
-              "Foldable": {
-                "Folded": false
-              },
-              "FireMode": {
-                "FireMode": "single"
-              }
-            }
-          },
-          {
-            "_id": "c13c9cfba723e097222154b6",
-            "_tpl": "57e3dba62459770f0c32322b",
-            "parentId": "d4b0aab0f7484102cf001907",
-            "slotId": "mod_pistol_grip"
-          },
-          {
-            "_id": "972eaabd80aaf379c64b5570",
-            "_tpl": "5ac72e895acfc43b321d4bd5",
-            "parentId": "d4b0aab0f7484102cf001907",
-            "slotId": "mod_muzzle"
-          },
-          {
-            "_id": "15e16e1e1ac92adb9fd97cbc",
-            "_tpl": "5ac66c5d5acfc4001718d314",
-            "parentId": "d4b0aab0f7484102cf001907",
-            "slotId": "mod_magazine"
-          },
-          {
-            "_id": "9b9743fb8fef8b3268e3edcf",
-            "_tpl": "57dc347d245977596754e7a1",
-            "parentId": "d4b0aab0f7484102cf001907",
-            "slotId": "mod_stock"
-          },
-          {
-            "_id": "dc3c0a163ee23c4f471db633",
-            "_tpl": "57dc334d245977597164366f",
-            "parentId": "d4b0aab0f7484102cf001907",
-            "slotId": "mod_reciever"
-          },
-          {
-            "_id": "255a3e121fa741f126fc6a2a",
-            "_tpl": "59d36a0086f7747e673f3946",
-            "parentId": "d4b0aab0f7484102cf001907",
-            "slotId": "mod_gas_block"
-          },
-          {
-            "_id": "caa3925c6cf8d00019e983cd",
-            "_tpl": "57dc32dc245977596d4ef3d3",
-            "parentId": "255a3e121fa741f126fc6a2a",
-            "slotId": "mod_handguard"
-          }
-        ],
-        "_name": "AKS-74UN .300 Stock preset",
-        "_parent": "d4b0aab0f7484102cf001907",
-        "_type": "Preset"
-      }
-    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
     "traders": {
       "PRAPOR": {
         "690c2a76efda1c3d78f26d84": {
@@ -2111,7 +2042,7 @@
     "modSlot": [],
     "fleaPriceRoubles": 20800,
     "handbookPriceRoubles": 10643,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
     "staticLootContainers": [
@@ -2125,78 +2056,8 @@
       }
     ],
     "masteries": true,
-    "addWeaponPreset": true,
-    "weaponPresets": [
-      {
-        "_changeWeaponName": false,
-        "_encyclopedia": "93bcdfda236122e67c098847",
-        "_id": "660b4a90010010f388968e18",
-        "_items": [
-          {
-            "_id": "76473c126cd112b5b585ae8b",
-            "_tpl": "93bcdfda236122e67c098847",
-            "upd": {
-              "StackObjectsCount": 99,
-              "Repairable": {
-                "MaxDurability": 100,
-                "Durability": 100
-              },
-              "Foldable": {
-                "Folded": false
-              },
-              "FireMode": {
-                "FireMode": "single"
-              }
-            }
-          },
-          {
-            "_id": "2b255c348f41b1d435e83eed",
-            "_tpl": "57e3dba62459770f0c32322b",
-            "parentId": "76473c126cd112b5b585ae8b",
-            "slotId": "mod_pistol_grip"
-          },
-          {
-            "_id": "6e7c37b30d87020344b42dfd",
-            "_tpl": "5ac72e895acfc43b321d4bd5",
-            "parentId": "76473c126cd112b5b585ae8b",
-            "slotId": "mod_muzzle"
-          },
-          {
-            "_id": "00e6897fdf9b2609178f4252",
-            "_tpl": "59d6272486f77466146386ff",
-            "parentId": "76473c126cd112b5b585ae8b",
-            "slotId": "mod_magazine"
-          },
-          {
-            "_id": "6a9a8d44f2a75452b407cb46",
-            "_tpl": "57dc347d245977596754e7a1",
-            "parentId": "76473c126cd112b5b585ae8b",
-            "slotId": "mod_stock"
-          },
-          {
-            "_id": "e4b0200747760435445586dd",
-            "_tpl": "57dc334d245977597164366f",
-            "parentId": "76473c126cd112b5b585ae8b",
-            "slotId": "mod_reciever"
-          },
-          {
-            "_id": "48de431f7092d13944709eca",
-            "_tpl": "59d36a0086f7747e673f3946",
-            "parentId": "76473c126cd112b5b585ae8b",
-            "slotId": "mod_gas_block"
-          },
-          {
-            "_id": "d04e321c6824e6066d99b3ba",
-            "_tpl": "57dc32dc245977596d4ef3d3",
-            "parentId": "48de431f7092d13944709eca",
-            "slotId": "mod_handguard"
-          }
-        ],
-        "_name": "Century Arms Draco Stock preset",
-        "_parent": "76473c126cd112b5b585ae8b",
-        "_type": "Preset"
-      }
-    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
     "traders": {
       "PEACEKEEPER": {
         "690c2a76efda1c3d78f26d87": {
@@ -2207,7 +2068,7 @@
           },
           "barters": [
             {
-              "count": 20000,
+              "count": 28000,
               "_tpl": "MONEY_ROUBLES"
             }
           ]

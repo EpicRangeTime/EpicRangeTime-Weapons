@@ -135,7 +135,7 @@
     "modSlot": [],
     "fleaPriceRoubles": 39950,
     "handbookPriceRoubles": 17500,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
     "staticLootContainers": [

@@ -595,5 +595,215 @@
     "_name": "MCX 5.56 Default",
     "_parent": "5bd34199c7d1f9b18dd07263",
     "_type": "Preset"
+  },
+  "660b2422010010f3881eaee3": {
+    "_changeWeaponName": false,
+    "_encyclopedia": "627c4fe34b0a558e8a3642a1",
+    "_id": "660b2422010010f3881eaee3",
+    "_items": [
+      {
+        "_id": "d4b0aab0f7484102cf001907",
+        "_tpl": "627c4fe34b0a558e8a3642a1",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "Foldable": {
+            "Folded": false
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "c13c9cfba723e097222154b6",
+        "_tpl": "57e3dba62459770f0c32322b",
+        "parentId": "d4b0aab0f7484102cf001907",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "972eaabd80aaf379c64b5570",
+        "_tpl": "5ac72e895acfc43b321d4bd5",
+        "parentId": "d4b0aab0f7484102cf001907",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "15e16e1e1ac92adb9fd97cbc",
+        "_tpl": "5ac66c5d5acfc4001718d314",
+        "parentId": "d4b0aab0f7484102cf001907",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "9b9743fb8fef8b3268e3edcf",
+        "_tpl": "57dc347d245977596754e7a1",
+        "parentId": "d4b0aab0f7484102cf001907",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "dc3c0a163ee23c4f471db633",
+        "_tpl": "57dc334d245977597164366f",
+        "parentId": "d4b0aab0f7484102cf001907",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "255a3e121fa741f126fc6a2a",
+        "_tpl": "59d36a0086f7747e673f3946",
+        "parentId": "d4b0aab0f7484102cf001907",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "caa3925c6cf8d00019e983cd",
+        "_tpl": "57dc32dc245977596d4ef3d3",
+        "parentId": "255a3e121fa741f126fc6a2a",
+        "slotId": "mod_handguard"
+      }
+    ],
+    "_name": "AKS-74UN .300 Stock preset",
+    "_parent": "d4b0aab0f7484102cf001907",
+    "_type": "Preset"
+  },
+  "660b4a90010010f388968e18": {
+    "_changeWeaponName": false,
+    "_encyclopedia": "93bcdfda236122e67c098847",
+    "_id": "660b4a90010010f388968e18",
+    "_items": [
+      {
+        "_id": "76473c126cd112b5b585ae8b",
+        "_tpl": "93bcdfda236122e67c098847",
+        "upd": {
+          "FireMode": {
+            "FireMode": "single"
+          },
+          "Foldable": {
+            "Folded": false
+          },
+          "Repairable": {
+            "Durability": 100,
+            "MaxDurability": 100
+          }
+        }
+      },
+      {
+        "_id": "074b66a21fe53feed446a7aa",
+        "_tpl": "57e3dba62459770f0c32322b",
+        "parentId": "76473c126cd112b5b585ae8b",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "7df2c78737b73f58aff5784f",
+        "_tpl": "57dc347d245977596754e7a1",
+        "parentId": "76473c126cd112b5b585ae8b",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "f1637860eb177c817c0a467e",
+        "_tpl": "5a01c29586f77474660c694c",
+        "parentId": "76473c126cd112b5b585ae8b",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "1275f3619bb180b9e458281b",
+        "_tpl": "5ac72e895acfc43b321d4bd5",
+        "parentId": "76473c126cd112b5b585ae8b",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "12ccee676d61101447f5e6d3",
+        "_tpl": "57dc334d245977597164366f",
+        "parentId": "76473c126cd112b5b585ae8b",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "e849e680a7860f257f412ff4",
+        "_tpl": "59d36a0086f7747e673f3946",
+        "parentId": "76473c126cd112b5b585ae8b",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "b17d22ab9f08f6827f09d231",
+        "_tpl": "57dc32dc245977596d4ef3d3",
+        "parentId": "e849e680a7860f257f412ff4",
+        "slotId": "mod_handguard"
+      }
+    ],
+    "_name": "Century Arms Draco Stock preset",
+    "_parent": "76473c126cd112b5b585ae8b",
+    "_type": "Preset"
+  },
+  "c2dff230ed1b0b488f1f91f5": {
+    "_changeWeaponName": false,
+    "_encyclopedia": "0af5f6a5aa9712e11c733fb9",
+    "_id": "c2dff230ed1b0b488f1f91f5",
+    "_items": [
+      {
+        "_id": "b667301e90f3d635acedf5ef",
+        "_tpl": "0af5f6a5aa9712e11c733fb9",
+        "upd": {
+          "Repairable": {
+            "Durability": 100,
+            "MaxDurability": 100
+          }
+        }
+      },
+      {
+        "_id": "16a703b26881cd57ecff182a",
+        "_tpl": "5cdeac5cd7f00c000f261694",
+        "parentId": "8ae9d89abb396b0c2cbe3fed",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "39f581bef40eb3b2e3b7c617",
+        "_tpl": "5bfebc5e0db834001a6694e5",
+        "parentId": "b667301e90f3d635acedf5ef",
+        "slotId": "mod_mount"
+      },
+      {
+        "_id": "7675fddbfc0dc31fa3ca6adf",
+        "_tpl": "5cdeac42d7f00c000d36ba73",
+        "parentId": "8ae9d89abb396b0c2cbe3fed",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "0941906f9a364b482e513118",
+        "_tpl": "5d25a6a48abbc306c62e6310",
+        "parentId": "b667301e90f3d635acedf5ef",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "8ad2f585ea1ff514034b694c",
+        "_tpl": "57cffb66245977632f391a99",
+        "parentId": "8ae9d89abb396b0c2cbe3fed",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "3a0659ee56be6f0e02a764b7",
+        "_tpl": "607ffb988900dc2d9a55b6e4",
+        "parentId": "e14d41d24ea0fb7c45054ef4",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "8ae9d89abb396b0c2cbe3fed",
+        "_tpl": "5cdeac22d7f00c000f26168f",
+        "parentId": "b667301e90f3d635acedf5ef",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "e14d41d24ea0fb7c45054ef4",
+        "_tpl": "5f6f029a5e87bfd11d7f73e7",
+        "parentId": "b667301e90f3d635acedf5ef",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "d972a0b13eacf676c9d8ddc2",
+        "_tpl": "4af1cb09ea310f1fcf94d32a",
+        "parentId": "39f581bef40eb3b2e3b7c617",
+        "slotId": "mod_scope"
+      }
+    ],
+    "_name": "M700 .277 Sig Fury Default",
+    "_parent": "b667301e90f3d635acedf5ef",
+    "_type": "Preset"
   }
 }
