@@ -1370,6 +1370,7 @@
         "path": "mods/red_dots/reticle_lens_attachment_red.bundle",
         "rcid": ""
       },
+      "CanSellOnRagfair": false,
       "Weight": 0.001,
       "Ergonomics": 0
     },
@@ -1400,6 +1401,7 @@
         "path": "mods/red_dots/reticle_lens_attachment_green.bundle",
         "rcid": ""
       },
+      "CanSellOnRagfair": false,
       "Weight": 0.001,
       "Ergonomics": 0
     },

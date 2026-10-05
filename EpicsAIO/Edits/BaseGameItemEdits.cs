@@ -53,8 +53,6 @@ public class BaseGameItemEdits(
                         "638de3603a1a4031d8260b8c"]); //Push all AR stocks to HK416
                     break;
                 
-                
-                
                 case "65266fd43341ed9aa903dd56":
                     ModifySlotFilters(item, 0, 0, [
                         "5e208b9842457a4a7a33d074",
@@ -1091,6 +1089,8 @@ public class BaseGameItemEdits(
                 case "5c052a900db834001a66acbd":
                     item.Properties!.Prefab!.Path = "mods/scopes/acog_ta01nsn_4x32_tan.bundle";
                     break; //Swap ACOG TA01 tan path
+                
+                
                 
                 
                 //Modifications to other mods' items below
