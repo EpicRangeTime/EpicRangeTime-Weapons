@@ -1089,6 +1089,18 @@ public class BaseGameItemEdits(
                 case "5c052a900db834001a66acbd":
                     item.Properties!.Prefab!.Path = "mods/scopes/acog_ta01nsn_4x32_tan.bundle";
                     break; //Swap ACOG TA01 tan path
+                case "61659f79d92c473c770213ee":
+                    item.Properties!.Prefab!.Path = "mods/red_dots/aimpoint_pro.bundle";
+                    break; //Swap PRO Path
+                case "5c7d560b2e22160bc12c6139":
+                    item.Properties!.Prefab!.Path = "mods/mounts/aimpoint_spacer.bundle";
+                    break; //Swap aimpoint comp spacer path
+                case "616584766ef05c2ce828ef57":
+                    item.Properties!.Prefab!.Path = "mods/mounts/qrp2_base.bundle";
+                    break; //Swap qrp2 path
+                case "5c7d55f52e221644f31bff6a":
+                    item.Properties!.CanSellOnRagfair = false;
+                    break; //Remove LRP from flea
                 
                 
                 
