@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Models.Common;
@@ -17,6 +17,9 @@ public class BaseGameItemEdits(
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
         EditFilters();
+        
+        RemoveFromAllSlotFilters(new MongoId("5c7d55f52e221644f31bff6a"));
+
         return Task.CompletedTask;
     }
 
@@ -1091,16 +1094,43 @@ public class BaseGameItemEdits(
                     break; //Swap ACOG TA01 tan path
                 case "61659f79d92c473c770213ee":
                     item.Properties!.Prefab!.Path = "mods/red_dots/aimpoint_pro.bundle";
-                    break; //Swap PRO Path
+                    slotHelper.EnsureSlot(item, "mod_tactical_000", "55d30c4c4bdc2db4468b457e");
+                    slotHelper.AddIdsToNamedSlot(item, "mod_tactical_000", 
+                        "6ad03db3997d817a1000000b");
+                    slotHelper.EnsureSlot(item, "mod_tactical_001", "55d30c4c4bdc2db4468b457e");
+                    slotHelper.AddIdsToNamedSlot(item, "mod_tactical_001", 
+                        "6ad03fe6997d817a1000000f");
+                    break; //Swap PRO Path, add slots for ARD and lens cap
+                case "5c7d55de2e221644f31bff68":
+                    item.Properties!.Prefab!.Path = "mods/red_dots/aimpoint_compm4s.bundle";
+                    slotHelper.EnsureSlot(item, "mod_tactical_000", "55d30c4c4bdc2db4468b457e");
+                    slotHelper.AddIdsToNamedSlot(item, "mod_tactical_000", 
+                        "6ad03edd997d817a1000000d");
+                    slotHelper.EnsureSlot(item, "mod_tactical_001", "55d30c4c4bdc2db4468b457e");
+                    slotHelper.AddIdsToNamedSlot(item, "mod_tactical_001", 
+                        "6ad03fe6997d817a1000000f");
+                    break; //Swap CompM4 Path, add slots for ARD and lens cap
                 case "5c7d560b2e22160bc12c6139":
                     item.Properties!.Prefab!.Path = "mods/mounts/aimpoint_spacer.bundle";
-                    break; //Swap aimpoint comp spacer path
+                    GetSlotFilterAtIndex(GetSlotAtIndex(item, 0), 0)
+                        .Filter!.Remove(new MongoId("61659f79d92c473c770213ee"));
+                    slotHelper.AddIdsToNamedSlot(item, "mod_scope",
+                        "6ad029e4997d817a10000001"
+                    );
+                    break; //Swap aimpoint comp spacer path, remove PRO from filters, add PRO ring to filter
                 case "616584766ef05c2ce828ef57":
                     item.Properties!.Prefab!.Path = "mods/mounts/qrp2_base.bundle";
-                    break; //Swap qrp2 path
+                    GetSlotFilterAtIndex(GetSlotAtIndex(item, 0), 0)
+                        .Filter!.Remove(new MongoId("61659f79d92c473c770213ee"));
+                    slotHelper.AddIdsToNamedSlot(item, "mod_scope",
+                        "6ad029e4997d817a10000001"
+                        );
+                    break; //Swap qrp2 path, remove PRO from filters, add PRO ring to filter
                 case "5c7d55f52e221644f31bff6a":
                     item.Properties!.CanSellOnRagfair = false;
+                    item.Properties!.ExaminedByDefault = false;
                     break; //Remove LRP from flea
+                
                 
                 
                 
@@ -1148,6 +1178,24 @@ public class BaseGameItemEdits(
                         "083fb4be48363dfa0fb153f4"
                     ]);
                     break; //Remove the potomac flash hider from suppressor conflicts and add EpicAIO muzzles to conflicts
+            }
+        }
+    }
+    
+    private void RemoveFromAllSlotFilters(MongoId templateId)
+    {
+        foreach (var item in templateTable.Items.Values)
+        {
+            if (item.Properties?.Slots is null) continue;
+
+            foreach (var slot in item.Properties.Slots)
+            {
+                if (slot.Properties?.Filters is null) continue;
+
+                foreach (var filter in slot.Properties.Filters)
+                {
+                    filter.Filter?.Remove(templateId);
+                }
             }
         }
     }

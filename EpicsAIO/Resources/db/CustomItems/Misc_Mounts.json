@@ -5801,5 +5801,473 @@
         }
       }
     }
+  },
+  "6ad029e4997d817a10000001": {
+    "itemTplToClone": "5c7d560b2e22160bc12c6139",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "mods/mounts/aimpoint_pro_ring.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "5c7d560b2e22160bc12c613b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "5c7d560b2e22160bc12c6139",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "61659f79d92c473c770213ee"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Aimpoint PRO 30mm Ring mount",
+        "shortName": "PRO Ring",
+        "description": "A 30mm scope ring manufactured by Aimpoint, used with the QRP2 mounting system supplied with the PRO red dot sight. Connects the optic to a compatible mounting base."
+      }
+    },
+    "fleaPriceRoubles": 7220,
+    "handbookPriceRoubles": 3440,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "6ad029ec997d817a10000002": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 25,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6ad0366a997d817a10000005": {
+    "itemTplToClone": "616584766ef05c2ce828ef57",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "mods/mounts/larue_lt150_tall.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "5c7d560b2e22160bc12c613b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "5c7d560b2e22160bc12c6139",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "61659f79d92c473c770213ee"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "LaRue LT150 QD 30mm Ring mount",
+        "shortName": "LT150",
+        "description": "A robust quick detach mount produced by LaRue Tactical for use with the Aimpoint CompM2 and CompM3 sights."
+      }
+    },
+    "fleaPriceRoubles": 8200,
+    "handbookPriceRoubles": 2400,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_tactical",
+      "mod_tactical_000",
+      "mod_tactical_002",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "6ad0384d997d817a10000008": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 19,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6ad0384d997d817a10000007": {
+    "itemTplToClone": "616584766ef05c2ce828ef57",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "mods/mounts/larue_lt152_short.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "5c7d560b2e22160bc12c613b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "5c7d560b2e22160bc12c6139",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "61659f79d92c473c770213ee"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "LaRue LT152 QD 30mm Ring mount",
+        "shortName": "LT152",
+        "description": "A robust quick detach mount produced by LaRue Tactical for use with the Aimpoint CompM2 and CompM3 sights."
+      }
+    },
+    "fleaPriceRoubles": 8200,
+    "handbookPriceRoubles": 2600,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_tactical",
+      "mod_tactical_000",
+      "mod_tactical_002",
+      "mod_scope_000",
+      "mod_scope_001"
+    ],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "6ad03859997d817a1000000a": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 20,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6ad03db3997d817a1000000b": {
+    "itemTplToClone": "5d123a3cd7ad1a004e476058",
+    "parentId": "5a74651486f7744e73386dd1",
+    "handbookParentId": "5b5f74cc86f77447ec5d770a",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "mods/mounts/lens_caps_pro.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Aimpoint Flip Open Lens Covers (PRO)",
+        "shortName": "PRO",
+        "description": "Flip open covers specifically designed for the COMP series of red dot sights, produced by Aimpoint."
+      }
+    },
+    "fleaPriceRoubles": 8200,
+    "handbookPriceRoubles": 2600,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "6ad03db3997d817a1000000c": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2800,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6ad03edd997d817a1000000d": {
+    "itemTplToClone": "5d123a3cd7ad1a004e476058",
+    "parentId": "5a74651486f7744e73386dd1",
+    "handbookParentId": "5b5f74cc86f77447ec5d770a",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "mods/mounts/lens_caps_compm4s.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Aimpoint Flip Open Lens Covers (CompM4S)",
+        "shortName": "CompM4S",
+        "description": "Flip open covers specifically designed for the COMP series of red dot sights, produced by Aimpoint."
+      }
+    },
+    "fleaPriceRoubles": 8200,
+    "handbookPriceRoubles": 2600,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "6ad03edd997d817a1000000e": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 2800,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6ad03fe6997d817a1000000f": {
+    "itemTplToClone": "5d123a3cd7ad1a004e476058",
+    "parentId": "5a74651486f7744e73386dd1",
+    "handbookParentId": "5b5f74cc86f77447ec5d770a",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "mods/mounts/aimpoint_ard.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Tenebraex M68 ARD",
+        "shortName": "M68 ARD",
+        "description": "The standard Tenebraex produced anti-reflection device designed for use on the Aimpoint COMP series of red dots as well as the PRO."
+      }
+    },
+    "fleaPriceRoubles": 5500,
+    "handbookPriceRoubles": 1500,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 2000
+      }
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "PEACEKEEPER": {
+        "6ad03fe6997d817a10000010": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 12,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
   }
 }
