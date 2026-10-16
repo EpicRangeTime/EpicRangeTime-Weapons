@@ -210,9 +210,9 @@
     {
       "key": "epicaio_common_mats.bundle",
       "dependencyKeys": [
-        "shaders",
+        "epicaio_common_textures.bundle",
         "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "shaders"
       ]
     },
     {
@@ -2234,19 +2234,19 @@
     {
       "key": "mods/mounts/aimpoint_ard.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle"
+        "epicaio_common_mats.bundle"
       ]
     },
     {
       "key": "mods/mounts/aimpoint_pro_ring.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle"
+        "epicaio_common_mats.bundle"
       ]
     },
     {
       "key": "mods/mounts/aimpoint_spacer.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle"
+        "epicaio_common_mats.bundle"
       ]
     },
     {
@@ -2264,29 +2264,25 @@
     {
       "key": "mods/mounts/dbal_i2_acro.bundle",
       "dependencyKeys": [
-        "epicaio_common_textures.bundle",
-        "epic_aio_shaders.bundle"
+        "epicaio_common_mats.bundle"
       ]
     },
     {
       "key": "mods/mounts/dbal_i2_docter.bundle",
       "dependencyKeys": [
-        "epicaio_common_textures.bundle",
-        "epic_aio_shaders.bundle"
+        "epicaio_common_mats.bundle"
       ]
     },
     {
       "key": "mods/mounts/dbal_i2_leaf.bundle",
       "dependencyKeys": [
-        "epicaio_common_textures.bundle",
-        "epic_aio_shaders.bundle"
+        "epicaio_common_mats.bundle"
       ]
     },
     {
       "key": "mods/mounts/dbal_i2_rmr.bundle",
       "dependencyKeys": [
-        "epicaio_common_textures.bundle",
-        "epic_aio_shaders.bundle"
+        "epicaio_common_mats.bundle"
       ]
     },
     {
@@ -2370,25 +2366,25 @@
     {
       "key": "mods/mounts/larue_lt150_tall.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle"
+        "epicaio_common_mats.bundle"
       ]
     },
     {
       "key": "mods/mounts/larue_lt152_short.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle"
+        "epicaio_common_mats.bundle"
       ]
     },
     {
       "key": "mods/mounts/lens_caps_compm4s.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle"
+        "epicaio_common_mats.bundle"
       ]
     },
     {
       "key": "mods/mounts/lens_caps_pro.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle"
+        "epicaio_common_mats.bundle"
       ]
     },
     {
@@ -2400,19 +2396,19 @@
     {
       "key": "mods/mounts/mro_short.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle"
+        "epicaio_common_mats.bundle"
       ]
     },
     {
       "key": "mods/mounts/mro_tall.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle"
+        "epicaio_common_mats.bundle"
       ]
     },
     {
       "key": "mods/mounts/qrp2_base.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle"
+        "epicaio_common_mats.bundle"
       ]
     },
     {
