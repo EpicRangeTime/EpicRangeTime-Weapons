@@ -210,9 +210,9 @@
     {
       "key": "epicaio_common_mats.bundle",
       "dependencyKeys": [
-        "epicaio_common_textures.bundle",
+        "shaders",
         "epic_aio_shaders.bundle",
-        "shaders"
+        "epicaio_common_textures.bundle"
       ]
     },
     {
@@ -2048,85 +2048,88 @@
     {
       "key": "mods/magnifiers/exps3_high_mag_combo.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_mats.bundle",
         "shaders",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "assets/content/textures/holemanager/round_spec_mask.bundle",
         "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/magnifiers/exps3_low_mag_combo.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_mats.bundle",
         "shaders",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "assets/content/textures/holemanager/round_spec_mask.bundle",
         "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/magnifiers/leupold_lco_high_mag_combo.bundle",
       "dependencyKeys": [
+        "epicaio_common_mats.bundle",
         "shaders",
         "mods/red_dots/lepold_lco.bundle",
+        "epic_aio_shaders.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
         "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/magnifiers/leupold_lco_low_mag_combo.bundle",
       "dependencyKeys": [
+        "epicaio_common_mats.bundle",
         "shaders",
         "mods/red_dots/lepold_lco.bundle",
+        "epic_aio_shaders.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
         "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/magnifiers/romeo8t_high_mag_combo.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_mats.bundle",
         "shaders",
+        "epic_aio_shaders.bundle",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "assets/content/textures/holemanager/round_spec_mask.bundle",
         "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/magnifiers/romeo8t_low_mag_combo.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_mats.bundle",
         "shaders",
+        "epic_aio_shaders.bundle",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "assets/content/textures/holemanager/round_spec_mask.bundle",
         "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/magnifiers/t1_high_mag_combo.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_mats.bundle",
         "shaders",
         "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "assets/content/textures/holemanager/round_spec_mask.bundle",
         "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/magnifiers/uh1_high_mag_combo.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_mats.bundle",
         "shaders",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "assets/content/textures/holemanager/round_spec_mask.bundle"
+        "epic_aio_shaders.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
       "key": "mods/magnifiers/uh1_low_mag_combo.bundle",
       "dependencyKeys": [
-        "assets/systems/effects/collimator.bundle",
+        "epicaio_common_mats.bundle",
         "shaders",
-        "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-        "assets/content/textures/holemanager/round_spec_mask.bundle"
+        "epic_aio_shaders.bundle",
+        "assets/systems/effects/opticsight/opticsightsmasks.bundle"
       ]
     },
     {
@@ -2442,15 +2445,15 @@
     {
       "key": "mods/mounts/rep_acro_offset_blk.bundle",
       "dependencyKeys": [
-        "shaders",
-        "epicaio_common_meshes.bundle"
+        "epicaio_common_meshes.bundle",
+        "shaders"
       ]
     },
     {
       "key": "mods/mounts/rep_acro_offset_fde.bundle",
       "dependencyKeys": [
-        "shaders",
-        "epicaio_common_meshes.bundle"
+        "epicaio_common_meshes.bundle",
+        "shaders"
       ]
     },
     {
@@ -2463,8 +2466,8 @@
     {
       "key": "mods/mounts/reptilia_34mm_acro_fde.bundle",
       "dependencyKeys": [
-        "shaders",
-        "epicaio_common_meshes.bundle"
+        "epicaio_common_meshes.bundle",
+        "shaders"
       ]
     },
     {
@@ -2477,8 +2480,8 @@
     {
       "key": "mods/mounts/reptilia_34mm_mount_fde.bundle",
       "dependencyKeys": [
-        "shaders",
-        "epicaio_common_meshes.bundle"
+        "epicaio_common_meshes.bundle",
+        "shaders"
       ]
     },
     {
@@ -2491,15 +2494,15 @@
     {
       "key": "mods/mounts/reptilia_34mm_rmr_fde.bundle",
       "dependencyKeys": [
-        "shaders",
-        "epicaio_common_meshes.bundle"
+        "epicaio_common_meshes.bundle",
+        "shaders"
       ]
     },
     {
       "key": "mods/mounts/reptilia_ring_blk.bundle",
       "dependencyKeys": [
-        "shaders",
-        "epicaio_common_meshes.bundle"
+        "epicaio_common_meshes.bundle",
+        "shaders"
       ]
     },
     {
@@ -2561,8 +2564,8 @@
     {
       "key": "mods/mounts/spuhr_sp4001c_picatiny.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle",
-        "epicaio_common_meshes.bundle"
+        "epicaio_common_meshes.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -2580,8 +2583,8 @@
     {
       "key": "mods/mounts/ta44_mount.bundle",
       "dependencyKeys": [
-        "epicaio_common_textures.bundle",
-        "epic_aio_shaders.bundle"
+        "epic_aio_shaders.bundle",
+        "epicaio_common_textures.bundle"
       ]
     },
     {
@@ -2666,6 +2669,7 @@
     {
       "key": "mods/mp5/stock_mp5_kurz_pdw.bundle",
       "dependencyKeys": [
+        "epic_aio_shaders.bundle",
         "assets/content/items/mods/stocks/stock_mp5k_hk_kurtz_end_cap.bundle"
       ]
     },
@@ -2798,28 +2802,28 @@
     {
       "key": "mods/red_dots/acro_p2_blk.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle",
         "epicaio_common_mats.bundle",
-        "epicaio_common_meshes.bundle"
+        "epicaio_common_meshes.bundle",
+        "epic_aio_shaders.bundle",
+        "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/red_dots/acro_p2_fde.bundle",
       "dependencyKeys": [
-        "epicaio_common_meshes.bundle",
         "epicaio_common_mats.bundle",
-        "mods/red_dots/acro_p2_blk.bundle",
+        "epicaio_common_meshes.bundle",
         "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "epicaio_common_textures.bundle",
+        "mods/red_dots/acro_p2_blk.bundle"
       ]
     },
     {
       "key": "mods/red_dots/aimpoint_compm4s.bundle",
       "dependencyKeys": [
         "epicaio_common_mats.bundle",
-        "epic_aio_shaders.bundle",
-        "shaders"
+        "shaders",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -2839,54 +2843,54 @@
     {
       "key": "mods/red_dots/compm5.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle",
+        "epicaio_common_mats.bundle",
         "epicaio_common_meshes.bundle",
-        "epicaio_common_mats.bundle"
+        "epic_aio_shaders.bundle",
+        "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/red_dots/compm5_fde.bundle",
       "dependencyKeys": [
-        "epicaio_common_meshes.bundle",
-        "epicaio_common_textures.bundle",
-        "epic_aio_shaders.bundle",
+        "mods/red_dots/compm5.bundle",
         "epicaio_common_mats.bundle",
-        "mods/red_dots/compm5.bundle"
+        "epicaio_common_meshes.bundle",
+        "epic_aio_shaders.bundle",
+        "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/red_dots/eotech_551.bundle",
       "dependencyKeys": [
+        "epicaio_common_mats.bundle",
         "epic_aio_shaders.bundle",
-        "assets/commonassets/physics/physicsmaterials.bundle",
-        "epicaio_common_mats.bundle"
+        "assets/commonassets/physics/physicsmaterials.bundle"
       ]
     },
     {
       "key": "mods/red_dots/lepold_lco.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle",
+        "epicaio_common_mats.bundle",
         "epicaio_common_meshes.bundle",
-        "epicaio_common_mats.bundle"
+        "epic_aio_shaders.bundle",
+        "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/red_dots/lepold_lco_fde.bundle",
       "dependencyKeys": [
+        "epicaio_common_mats.bundle",
+        "epicaio_common_meshes.bundle",
         "mods/red_dots/lepold_lco.bundle",
         "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle",
-        "epicaio_common_meshes.bundle",
-        "epicaio_common_mats.bundle"
+        "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/red_dots/reticle_lens_attachment_green.bundle",
       "dependencyKeys": [
-        "epicaio_common_meshes.bundle",
-        "epicaio_common_mats.bundle"
+        "epicaio_common_mats.bundle",
+        "epicaio_common_meshes.bundle"
       ]
     },
     {
@@ -2899,19 +2903,19 @@
     {
       "key": "mods/red_dots/sig_romeo9t_blk.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle",
         "epicaio_common_meshes.bundle",
-        "assets/commonassets/physics/physicsmaterials.bundle"
+        "epic_aio_shaders.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "epicaio_common_textures.bundle"
       ]
     },
     {
       "key": "mods/red_dots/sig_romeo9t_fde.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle",
         "epicaio_common_meshes.bundle",
-        "assets/commonassets/physics/physicsmaterials.bundle"
+        "epic_aio_shaders.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "epicaio_common_textures.bundle"
       ]
     },
     {
@@ -2924,22 +2928,22 @@
     {
       "key": "mods/red_dots/triji_mro.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle",
-        "epicaio_common_mats.bundle"
+        "epicaio_common_mats.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/red_dots/trijicon_rx01.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle",
-        "epicaio_common_mats.bundle"
+        "epicaio_common_mats.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/red_dots/trijicon_rx06.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle",
-        "epicaio_common_mats.bundle"
+        "epicaio_common_mats.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3697,9 +3701,9 @@
     {
       "key": "mods/suppressors/b_t_sqd_compact.bundle",
       "dependencyKeys": [
-        "epic_aio_shaders.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle",
         "assets/systems/effects/smoke.bundle",
-        "assets/commonassets/physics/physicsmaterials.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
