@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>EpicsAIOClient</AssemblyName>
+    <SptRoot Condition="'$(SptRoot)' == ''">$([System.IO.Path]::GetFullPath('$(MSBuildProjectDirectory)/../../../'))</SptRoot>
+    <ClientPluginsDirectory>$(SptRoot)/BepInEx/plugins/</ClientPluginsDirectory>
+    <ClientModDirectory>$(ClientPluginsDirectory)/$(AssemblyName)</ClientModDirectory>
+    <ShaderBundle>$(MSBuildProjectDirectory)/../EpicsAIO/Resources/bundles/epic_aio_shaders.bundle</ShaderBundle>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx">
+      <HintPath>$(SptRoot)/BepInEx/core/BepInEx.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(SptRoot)/BepInEx/core/0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(SptRoot)/EscapeFromTarkov_Data/Managed/Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Comfort">
+      <HintPath>$(SptRoot)/EscapeFromTarkov_Data/Managed/Comfort.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(SptRoot)/EscapeFromTarkov_Data/Managed/UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>$(SptRoot)/EscapeFromTarkov_Data/Managed/UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(SptRoot)/EscapeFromTarkov_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="DeployClient" AfterTargets="Build" Condition="'$(DeployClient)' != 'false'">
+    <Error Condition="!Exists('$(ShaderBundle)')" Text="Required Epic's AIO client shader bundle missing: $(ShaderBundle)" />
+    <MakeDir Directories="$(ClientModDirectory)" />
+    <Copy SourceFiles="$(ShaderBundle);$(TargetPath)" DestinationFolder="$(ClientModDirectory)" />
+    <!-- Migrate the previous flat deployment after both files copy successfully. -->
+    <Delete Files="$(ClientPluginsDirectory)/$(TargetFileName)" Condition="Exists('$(ClientPluginsDirectory)/$(TargetFileName)')" />
+  </Target>
+</Project>

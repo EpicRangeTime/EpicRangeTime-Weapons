@@ -9,8 +9,8 @@
     {
       "key": "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_12,25.bundle",
       "dependencyKeys": [
-        "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_25_black.bundle",
         "epicaio_common_meshes.bundle",
+        "epicaio_common_textures_2.bundle",
         "epic_aio_shaders.bundle"
       ]
     },
@@ -24,8 +24,8 @@
     {
       "key": "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_9,5.bundle",
       "dependencyKeys": [
-        "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_9,5_blk.bundle",
         "epicaio_common_meshes.bundle",
+        "epicaio_common_textures_2.bundle",
         "epic_aio_shaders.bundle"
       ]
     },
@@ -33,6 +33,7 @@
       "key": "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_9,5_blk.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
+        "epicaio_common_textures_2.bundle",
         "epic_aio_shaders.bundle"
       ]
     },
@@ -53,8 +54,8 @@
     {
       "key": "assets/content/items/mods/handguards/handguard_ar15_dd_ris_ii_fsp_9,5.bundle",
       "dependencyKeys": [
-        "mods/ar15_handguards/dd_risii_handguards/ris_ii_9_5_fsp_black.bundle",
         "epicaio_common_meshes.bundle",
+        "epicaio_common_textures_2.bundle",
         "epic_aio_shaders.bundle"
       ]
     },
@@ -211,6 +212,7 @@
       "key": "epicaio_common_mats.bundle",
       "dependencyKeys": [
         "shaders",
+        "epicaio_common_textures_2.bundle",
         "epic_aio_shaders.bundle",
         "epicaio_common_textures.bundle"
       ]
@@ -221,6 +223,10 @@
     },
     {
       "key": "epicaio_common_textures.bundle",
+      "dependencyKeys": []
+    },
+    {
+      "key": "epicaio_common_textures_2.bundle",
       "dependencyKeys": []
     },
     {
@@ -323,17 +329,17 @@
       "dependencyKeys": [
         "mods/ak/mk3_aksu_forend_black.bundle",
         "epicaio_common_meshes.bundle",
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "epicaio_common_textures_2.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ak/mk3_aksu_cover_fde.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
+        "epicaio_common_textures_2.bundle",
         "epic_aio_shaders.bundle",
-        "mods/ak/mk3_aksu_forend_fde.bundle",
-        "epicaio_common_textures.bundle"
+        "mods/ak/mk3_aksu_forend_fde.bundle"
       ]
     },
     {
@@ -341,17 +347,17 @@
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
         "mods/ak/mk3_aksu_forend_grey.bundle",
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "epicaio_common_textures_2.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ak/mk3_aksu_cover_odg.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
+        "epicaio_common_textures_2.bundle",
         "epic_aio_shaders.bundle",
-        "mods/ak/mk3_aksu_forend_odg.bundle",
-        "epicaio_common_textures.bundle"
+        "mods/ak/mk3_aksu_forend_odg.bundle"
       ]
     },
     {
@@ -359,48 +365,48 @@
       "dependencyKeys": [
         "mods/ak/mk3_aksu_forend_plum.bundle",
         "epicaio_common_meshes.bundle",
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "epicaio_common_textures_2.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ak/mk3_aksu_forend_black.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "epicaio_common_textures_2.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ak/mk3_aksu_forend_fde.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "epicaio_common_textures_2.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ak/mk3_aksu_forend_grey.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "epicaio_common_textures_2.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ak/mk3_aksu_forend_odg.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "epicaio_common_textures_2.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ak/mk3_aksu_forend_plum.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "epicaio_common_textures_2.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -720,6 +726,7 @@
       "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_25_black.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
+        "epicaio_common_textures_2.bundle",
         "epic_aio_shaders.bundle"
       ]
     },
@@ -734,14 +741,15 @@
       "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_5_fsp.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
-        "epic_aio_shaders.bundle",
-        "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_5_fsp_black.bundle"
+        "epicaio_common_textures_2.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_12_5_fsp_black.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
+        "epicaio_common_textures_2.bundle",
         "epic_aio_shaders.bundle"
       ]
     },
@@ -763,6 +771,7 @@
       "key": "mods/ar15_handguards/dd_risii_handguards/ris_ii_9_5_fsp_black.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
+        "epicaio_common_textures_2.bundle",
         "epic_aio_shaders.bundle"
       ]
     },
@@ -1761,8 +1770,8 @@
         "epicaio_common_meshes.bundle",
         "shaders",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "epicaio_common_textures_2.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -1773,8 +1782,8 @@
         "epicaio_common_meshes.bundle",
         "shaders",
         "assets/content/textures/holemanager/glow_particle_bright.bundle",
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "epicaio_common_textures_2.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -2804,8 +2813,8 @@
       "dependencyKeys": [
         "epicaio_common_mats.bundle",
         "epicaio_common_meshes.bundle",
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "epicaio_common_textures_2.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -2813,8 +2822,8 @@
       "dependencyKeys": [
         "epicaio_common_mats.bundle",
         "epicaio_common_meshes.bundle",
+        "epicaio_common_textures_2.bundle",
         "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle",
         "mods/red_dots/acro_p2_blk.bundle"
       ]
     },
@@ -2845,8 +2854,8 @@
       "dependencyKeys": [
         "epicaio_common_mats.bundle",
         "epicaio_common_meshes.bundle",
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "epicaio_common_textures_2.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -2855,8 +2864,8 @@
         "mods/red_dots/compm5.bundle",
         "epicaio_common_mats.bundle",
         "epicaio_common_meshes.bundle",
-        "epic_aio_shaders.bundle",
-        "epicaio_common_textures.bundle"
+        "epicaio_common_textures_2.bundle",
+        "epic_aio_shaders.bundle"
       ]
     },
     {
@@ -3701,9 +3710,9 @@
     {
       "key": "mods/suppressors/b_t_sqd_compact.bundle",
       "dependencyKeys": [
-        "assets/commonassets/physics/physicsmaterials.bundle",
+        "epic_aio_shaders.bundle",
         "assets/systems/effects/smoke.bundle",
-        "epic_aio_shaders.bundle"
+        "assets/commonassets/physics/physicsmaterials.bundle"
       ]
     },
     {
@@ -4124,32 +4133,28 @@
       "key": "wearables/headsets/ops_amp_blk.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
-        "shaders"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "wearables/headsets/ops_amp_blk_camo.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
-        "shaders",
-        "wearables/headsets/ops_amp_blk.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "wearables/headsets/ops_amp_tan.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
-        "shaders",
-        "wearables/headsets/ops_amp_blk.bundle"
+        "epic_aio_shaders.bundle"
       ]
     },
     {
       "key": "wearables/headsets/ops_amp_tan_camo.bundle",
       "dependencyKeys": [
         "epicaio_common_meshes.bundle",
-        "shaders",
-        "wearables/headsets/ops_amp_blk_camo.bundle",
-        "wearables/headsets/ops_amp_blk.bundle"
+        "epic_aio_shaders.bundle"
       ]
     }
   ]
