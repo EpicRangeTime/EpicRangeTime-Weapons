@@ -1,8 +1,8 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicsAIO", "EpicsAIO\EpicsAIO.csproj", "{BCE665BC-FDE3-4D88-A284-1D576DEF825C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicsAIOClient", "EpicsAIOClient\EpicsAIOClient.csproj", "{CA8C7267-ACF5-482B-B36B-221621B364BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectRefresh", "ProjectRefresh\ProjectRefresh.csproj", "{CA8C7267-ACF5-482B-B36B-221621B364BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

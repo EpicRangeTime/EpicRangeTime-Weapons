@@ -11,19 +11,21 @@ using HarmonyLib;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace EpicsAIOClient;
+namespace ProjectRefresh;
 
-[BepInPlugin(PluginId, "Epic's AIO Client", "1.0.0")]
+[BepInPlugin(PluginId, "Project Refresh", "1.0.0")]
 public sealed class ShaderReplacement : BaseUnityPlugin
 {
-    private const string PluginId = "com.epicrangetime.epicsaio";
+    private const string PluginId = "com.epicrangetime.projectrefresh";
     private const string BundleKey = "epic_aio_shaders.bundle";
     private const string ReplacementPrefix = "Epic Replacements/";
+    private const string WindowShaderName = "Global Fog/Transparent Reflective Specular";
+    private static readonly int ShardReflectionStrengthId = Shader.PropertyToID("_GlobalReflectionStrength");
     private static readonly Dictionary<string, Shader> replacements = new(StringComparer.Ordinal);
     private DependencyGraph<IEasyBundle>.Token? bundleToken;
     private Harmony? harmony;
 
-    private const string OwnerTag = "EpicsAIO_ShaderSwap";
+    private const string OwnerTag = "ProjectRefresh_Shaderswap";
     private static readonly List<OriginalState> states = new();
     private ConfigEntry<bool> enableReplacement = null!;
     private static bool active;
@@ -119,6 +121,12 @@ public sealed class ShaderReplacement : BaseUnityPlugin
             var shader = asset is Material material ? material.shader : asset as Shader;
             if (!shader || !shader!.name.StartsWith(ReplacementPrefix, StringComparison.Ordinal))
                 continue;
+            if (shader.name == ReplacementPrefix + WindowShaderName &&
+                shader.FindPropertyIndex("_GlobalReflectionStrength") < 0)
+            {
+                Logger.LogWarning("Window replacement bundle lacks the shard reflection property. Using the stock window shader.");
+                continue;
+            }
             if (shader.isSupported)
                 replacements[shader.name.Substring(ReplacementPrefix.Length)] = shader;
             else
@@ -131,6 +139,7 @@ public sealed class ShaderReplacement : BaseUnityPlugin
         harmony = new Harmony(PluginId);
         harmony.PatchAll(typeof(PooledObjectPatch));
         harmony.PatchAll(typeof(IconPatch));
+        harmony.PatchAll(typeof(WindowMaterialPatch));
         SceneManager.sceneLoaded += OnSceneLoaded;
         active = enableReplacement.Value;
         if (active)
@@ -234,6 +243,21 @@ public sealed class ShaderReplacement : BaseUnityPlugin
         states.Clear();
         bundleToken?.Release();
         replacements.Clear();
+    }
+
+    [HarmonyPatch(typeof(WindowsManager), nameof(WindowsManager.IsMaterialValid))]
+    private static class WindowMaterialPatch
+    {
+        private static void Postfix(Material __0, ref bool __result)
+        {
+            if (__result || !__0 || !__0.HasProperty(ShardReflectionStrengthId))
+                return;
+
+            // WindowsManager reads properties from this pane, then draws with its own shader.
+            if (replacements.TryGetValue(WindowShaderName, out var replacement) &&
+                __0.shader == replacement)
+                __result = true;
+        }
     }
 
     [HarmonyPatch(typeof(ObjectsFactory.Pools), nameof(ObjectsFactory.Pools.PopOrCreate))]
